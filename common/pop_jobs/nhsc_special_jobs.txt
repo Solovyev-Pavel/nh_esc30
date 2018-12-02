@@ -1,0 +1,625 @@
+############################################################
+###         Jobs for special resource production         ###
+############################################################
+
+### Crystal Farmer : produces Living Crystals and some alloys
+
+esc_crystal_farmer = {
+    category = worker
+    condition_string = WORKER_JOB_TRIGGER
+    building_icon = building_esc_graviton_condenser
+    clothes_texture_index = 4
+
+    possible = {
+        worker_job_check_trigger = yes
+    }
+
+    resources = {
+        category = miner
+        produces = {
+            sr_esc_living_crystal = 2
+            alloys = 1
+        }   
+        upkeep = {
+            energy = 3
+            minerals = 4
+        }
+    }
+
+    weight = {
+        weight = 1 #@worker_job_weight
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_strong
+                has_trait = trait_very_strong
+                has_trait = trait_agrarian
+                has_trait = trait_industrious
+                has_trait = trait_cybernetic
+            }
+        }
+        modifier = {
+            factor = 0.75
+            has_trait = trait_nerve_stapled
+            has_trair = trait_weak
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_crystal_farmer
+        }
+    }
+}
+
+esc_crystal_farmer_drone = {
+    category = worker
+    condition_string = WORKER_JOB_TRIGGER
+    building_icon = building_esc_graviton_condenser
+    clothes_texture_index = 4
+
+    possible = {
+        worker_job_check_trigger = yes
+    }
+
+    resources = {
+        category = miner
+        produces = {
+            sr_esc_living_crystal = 2
+            alloys = 1
+        }   
+        upkeep = {
+            minerals = 4
+            food = 6
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_strong
+                has_trait = trait_very_strong
+                has_trait = trait_agrarian
+                has_trait = trait_industrious
+            }
+        }
+        modifier = {
+            factor = 0.75
+            has_trait = trait_nerve_stapled
+            has_trair = trait_weak
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_crystal_farmer
+        }
+    }
+}
+
+esc_crystal_farmer_unit = {
+    category = worker
+    condition_string = WORKER_JOB_TRIGGER
+    building_icon = building_esc_graviton_condenser
+    clothes_texture_index = 4
+
+    possible = {
+        worker_job_check_trigger = yes
+    }
+
+    resources = {
+        category = miner
+        produces = {
+            sr_esc_living_crystal = 2
+            alloys = 1
+        }   
+        upkeep = {
+            energy = 3
+            minerals = 4
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            has_trait = trait_robot_power_drills
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_crystal_farmer_unit
+        }
+    }
+}
+
+### Channeller : produces Psionic Charges
+esc_channeller = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = nhsc_building_psionic_containment
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_psionic_charge = 2
+        }   
+        upkeep = {
+            energy = 4
+            food = 2
+            sr_zro = 1
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no   
+            NOT = { has_trait = trait_mechanical }
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_traditional
+                has_trait = trait_communal
+            }
+        }
+        modifier = {
+            factor = 2.5
+            OR = {
+                has_trait = trait_latent_psionic
+                has_trait = trait_psionic
+            }
+        }
+        modifier = {
+            factor = 0.75
+            OR = {
+                has_trait = trait_quarrelsome
+                has_trait = trait_solitary
+            }
+        }
+        modifier = {
+            factor = 0.5
+            has_trait = trait_cybernetic
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_channeller
+        }
+    }
+}
+
+### Gravity Manipulator : produces Gravitic Anomalies
+esc_gravity_manipulator = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_graviton_condenser
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_gravitic_anomaly = 2
+        }   
+        upkeep = {
+            energy = 6
+            sr_dark_matter = 1
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no   
+            NOT = { has_trait = trait_mechanical }
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_intelligent
+                has_trait = trait_natural_physicists
+                has_trait = trait_erudite
+                has_trait = trait_enigmatic_intelligence
+                has_trait = trait_enigmatic_intelligence_poor
+                has_trait = trait_brainslug
+                has_trait = trait_robot_logic_engines
+            }
+        }
+        modifier = {
+            factor = 0.25
+            has_trait = trait_nerve_stapled
+            has_trair = trait_enigmatic_intelligence_failed
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_gravity_manipulator
+        }
+    }
+}
+
+esc_gravity_manipulator_drone = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_graviton_condenser
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_gravitic_anomaly = 2
+        }   
+        upkeep = {
+            energy = 3
+            food = 6
+            sr_dark_matter = 1
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_intelligent
+                has_trait = trait_natural_physicists
+                has_trait = trait_erudite
+                has_trait = trait_enigmatic_intelligence
+                has_trait = trait_enigmatic_intelligence_poor
+                has_trait = trait_brainslug
+            }
+        }
+        modifier = {
+            factor = 0.25
+            has_trait = trait_nerve_stapled
+            has_trair = trait_enigmatic_intelligence_failed
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_gravity_manipulator_drone
+        }
+    }
+}
+
+esc_gravity_manipulator_unit = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_graviton_condenser
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_gravitic_anomaly = 2
+        }   
+        upkeep = {
+            energy = 6
+            sr_dark_matter = 1
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_robot_logic_engines
+                has_trait = trait_robot_awoken
+                has_trair = trait_robot_awoken_01
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_gravity_manipulator_unit
+        }
+    }
+}
+
+### Dimension Warper : produces Transdimensional Vortexes
+esc_dimension_warper = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_dimensional_tower
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_transdimensional_vortex = 2
+        }   
+        upkeep = {
+            energy = 5
+            sr_rare_crystal = 1
+            sr_zro = 1
+            sr_dark_matter = 2
+            sr_arcane_technology = 2
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no   
+            NOT = { has_trait = trait_mechanical }
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_intelligent
+                has_trait = trait_natural_physicists
+                has_trait = trait_erudite
+                has_trait = trait_enigmatic_intelligence
+                has_trait = trait_enigmatic_intelligence_poor
+                has_trait = trait_brainslug
+                has_trait = trait_robot_logic_engines
+            }
+        }
+        modifier = {
+            factor = 0.25
+            has_trait = trait_nerve_stapled
+            has_trair = trait_enigmatic_intelligence_failed
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_dimension_warper
+        }
+    }
+}
+
+esc_dimension_warper_drone = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_dimensional_tower
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_transdimensional_vortex = 2
+        }   
+        upkeep = {
+            energy = 3
+            food = 7
+            sr_rare_crystal = 1
+            sr_zro = 1
+            sr_dark_matter = 2
+            sr_arcane_technology = 2
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_intelligent
+                has_trait = trait_natural_physicists
+                has_trait = trait_erudite
+                has_trait = trait_enigmatic_intelligence
+                has_trait = trait_enigmatic_intelligence_poor
+                has_trait = trait_brainslug
+                has_trait = trait_robot_logic_engines
+            }
+        }
+        modifier = {
+            factor = 0.25
+            has_trait = trait_nerve_stapled
+            has_trair = trait_enigmatic_intelligence_failed
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_dimension_warper_drone
+        }
+    }
+}
+
+esc_dimension_warper_unit = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_dimensional_tower
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_transdimensional_vortex = 2
+        }   
+        upkeep = {
+            energy = 5
+            sr_rare_crystal = 1
+            sr_zro = 1
+            sr_dark_matter = 2
+            sr_arcane_technology = 2
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_robot_logic_engines
+                has_trait = trait_robot_awoken
+                has_trair = trait_robot_awoken_01
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_dimension_warper_unit
+        }
+    }
+}
+
+### Enigma Reader : produces Enigmatic Energy
+esc_enigma_reader = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_enigmatic_coil
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_enigmatic_energy = 2
+        }   
+        upkeep = {
+            energy = 6
+            sr_exotic_gases = 1
+            sr_arcane_technology = 2
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no   
+            NOT = { has_trait = trait_mechanical }
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_intelligent
+                has_trait = trait_natural_physicists
+                has_trait = trait_erudite
+                has_trait = trait_enigmatic_intelligence
+                has_trait = trait_enigmatic_intelligence_poor
+                has_trait = trait_brainslug
+                has_trait = trait_robot_logic_engines
+            }
+        }
+        modifier = {
+            factor = 0.25
+            has_trait = trait_nerve_stapled
+            has_trair = trait_enigmatic_intelligence_failed
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_enigma_reader
+        }
+    }
+}
+
+esc_enigma_reader_drone = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_enigmatic_coil
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_enigmatic_energy = 2
+        }   
+        upkeep = {
+            energy = 3
+            food = 5
+            sr_exotic_gases = 1
+            sr_arcane_technology = 2
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_intelligent
+                has_trait = trait_natural_physicists
+                has_trait = trait_erudite
+                has_trait = trait_enigmatic_intelligence
+                has_trait = trait_enigmatic_intelligence_poor
+                has_trait = trait_brainslug
+                has_trait = trait_robot_logic_engines
+            }
+        }
+        modifier = {
+            factor = 0.25
+            has_trait = trait_nerve_stapled
+            has_trair = trait_enigmatic_intelligence_failed
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_enigma_reader
+        }
+    }
+}
+
+esc_enigma_reader_unit = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_esc_enigmatic_coil
+    clothes_texture_index = 4
+
+    possible = {
+        specialist_job_check_trigger = yes
+    }
+
+    resources = {
+        category = chemist
+        produces = {
+            sr_esc_enigmatic_energy = 2
+        }   
+        upkeep = {
+            energy = 6
+            sr_exotic_gases = 1
+            sr_arcane_technology = 2
+        }
+    }
+
+    weight = {
+        weight = 1 #@specialist_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_robot_logic_engines
+                has_trait = trait_robot_awoken
+                has_trair = trait_robot_awoken_01
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_enigma_reader_unit
+        }
+    }
+}
