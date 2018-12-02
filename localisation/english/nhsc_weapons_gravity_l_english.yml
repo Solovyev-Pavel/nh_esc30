@@ -73,8 +73,8 @@ NHSC_GRAVITON_LANCE_2_DESC: "An improved version of the Super-Graviton Cannon."
 ###   Titanic Super-Graviton Cannon  ###
 ########################################
 
-NHSC_GRAVITON_LANCE_2_TITANIC: "Titanic Super-Graviton Cannon"
-NHSC_GRAVITON_LANCE_2_TITANIC_DESC: "A super-sized version of the Super-Graviton Cannon for the biggest ships in our fleet."
+NHSC_GRAVITON_LANCE_TITANIC: "Titanic Super-Graviton Cannon"
+NHSC_GRAVITON_LANCE_TITANIC_DESC: "A super-sized version of the Super-Graviton Cannon for the biggest ships in our fleet."
 
 ########################################
 ###        Singularity Bombers       ###

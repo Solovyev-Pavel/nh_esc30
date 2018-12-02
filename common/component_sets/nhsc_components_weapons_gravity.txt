@@ -50,7 +50,7 @@ component_set = {
 }
 
 component_set = {
-	key = "NHSC_GRAVITON_LANCE_2_TITANIC"
+	key = "NHSC_GRAVITON_LANCE_TITANIC"
 	
 	icon = "GFX_ship_part_nhsc_graviton_lance_2"
 	icon_frame = 1	

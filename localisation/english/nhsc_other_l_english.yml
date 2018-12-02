@@ -94,6 +94,8 @@ esc_crystal_farmer_unit_desc: "$esc_crystal_farmer_drone_desc$"
 
 esc_channeller: "Channellers"
 esc_channeller_desc: "This specialist population directs streams of psionic energies throughout the Psionic Containments to create Psionic Charges."
+esc_channeller_drone: "Channeller Drone"
+esc_channeller_drone_desc: "These complex drones draw psionic energies produced by the Overmind and store them as Psionic Charges."
 
 esc_gravity_manipulator: "Gravity Manipulators"
 esc_gravity_manipulator_desc: "This specialist population manages Graviton Condenser installations in order to produce Gravitic Anomalies."

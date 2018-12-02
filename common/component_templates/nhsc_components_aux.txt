@@ -1,4 +1,22 @@
-### components that are shown in the ship designer :: auxiliary
+############################################################
+##               ESC : Auxiliary Components               ##
+############################################################
+
+# - Advanced Auxiliary Fired Control
+# - Pulsed Plasma Afterburners
+# - Auxiliary Zero Point Reactor
+# - Auxiliary Singularity Reactor
+# - Crystal-Infused Shield Capacitors
+# - Crystal-Forged Shield Capacitors
+# - Advanced Shield Capacitors
+# - Repair Drones
+# - Psionic Reinforcement
+# - Stellarite Power Core
+# - Standardized Warheads
+
+############################################################
+##            Advanced Auxiliary Fire Control             ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_ADV_AUX_FIRE_CONTROL"
@@ -24,6 +42,10 @@ utility_component_template = {
 		}
 	}
 }
+
+############################################################
+##               Pulsed Plasma Afterburners               ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_AFTERBURNER_3"
@@ -55,6 +77,10 @@ utility_component_template = {
 	}
 }
 
+############################################################
+##              Auxiliary Zero Point Reactor              ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_REACTOR_BOOSTER_4"
 	size = aux
@@ -72,6 +98,10 @@ utility_component_template = {
 	}
 }
 
+############################################################
+##             Auxiliary Singularity Reactor              ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_REACTOR_BOOSTER_5"
 	size = aux
@@ -87,6 +117,10 @@ utility_component_template = {
 		weight = 10
 	}
 }
+
+############################################################
+##           Crystal-Infused Shield Capacitors            ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_BLUE_CRYSTAL_CAPACITOR"
@@ -111,6 +145,10 @@ utility_component_template = {
 	}
 }
 
+############################################################
+##           Crystal-Forged Shield Capacitors             ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_RED_CRYSTAL_CAPACITOR"
 	size = aux
@@ -133,26 +171,9 @@ utility_component_template = {
 	}
 }
 
-utility_component_template = {
-	key = "NHSC_REPAIR_DRONES"
-	size = aux
-	icon = "GFX_ship_part_nhsc_repair_drones"
-	icon_frame = 1
-	power = -40
-	cost = 10
-
-	modifier = {
-		ship_hull_regen_add_static = 2
-		ship_armor_regen_add_static = 4
-	}	
-
-	prerequisites = { "nhsc_tech_repair_drones" }
-	component_set = "NHSC_REPAIR_DRONES"
-	
-	ai_weight = {
-		weight = 10
-	}
-}
+############################################################
+##               Advanced Shield Capacitors               ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_ADV_SHIELD_RECHARGER"
@@ -178,6 +199,35 @@ utility_component_template = {
 		}
 	}
 }
+
+############################################################
+##                     Repair Drones                      ##
+############################################################
+
+utility_component_template = {
+	key = "NHSC_REPAIR_DRONES"
+	size = aux
+	icon = "GFX_ship_part_nhsc_repair_drones"
+	icon_frame = 1
+	power = -40
+	cost = 10
+
+	modifier = {
+		ship_hull_regen_add_static = 2
+		ship_armor_regen_add_static = 4
+	}
+
+	prerequisites = { "nhsc_tech_repair_drones" }
+	component_set = "NHSC_REPAIR_DRONES"
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+############################################################
+##                 Psionic Reinforcement                  ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_PSI_REINFORCEMENT"
@@ -209,6 +259,10 @@ utility_component_template = {
 		}
 	}
 }
+
+############################################################
+##                 Stellarite Power Core                  ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_STELLARITE_POWER_CORE"
@@ -242,6 +296,10 @@ utility_component_template = {
 	}
 }
 
+############################################################
+##                 Standardized Warheads                  ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_STANDARDIZED_WARHEADS"
 	size = aux
@@ -263,42 +321,3 @@ utility_component_template = {
 		weight = 10
 	}
 }
-
-#utility_component_template = {
-#	key = "NHSC_ENIGMATIC_DISRUPTION_FIELD"
-#	size = aux
-#	icon = "GFX_ship_part_enigmatic_disruption_field"
-#	icon_frame = 1
-#	power = -50
-#	cost = 20
-#	prerequisites = { tech_enigmatic_disruption_field }
-#	
-#	component_set = "ENIGMATIC_DISRUPTION_FIELD"
-#	
-#	hostile_aura = {
-#		name = "aura_shield_dampener"
-#		radius = 120
-#		apply_on = ships
-#		
-#		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
-#			id = hostile_inhibitor_aura
-#			priority = 1
-#		}
-#		
-#		modifier = {
-#			ship_shield_regen_add_perc = -0.10
-#			ship_fire_rate_mult = -0.20
-#		}
-#		
-#		graphics = {
-#			area_effect = {
-#				entity = "circle_area_entity"
-#				dynamic_scale = yes
-#			}
-#			ship_effect = {
-#				entity = "ship_aura_negative_entity"
-#				dynamic_scale = no
-#			}
-#		}
-#	}
-#}

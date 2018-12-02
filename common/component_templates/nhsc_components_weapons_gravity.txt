@@ -612,7 +612,7 @@ weapon_component_template = {
 ############################################################
 
 weapon_component_template = {
-	key = "NHSC_GRAVITON_LANCE_2_TITANIC"
+	key = "NHSC_GRAVITON_LANCE_TITANIC"
 	size = titanic
 	entity = "invisible_turret_entity"
 	type = instant
@@ -639,7 +639,7 @@ weapon_component_template = {
 	tracking = 0.05
 	
 	prerequisites = { "nhsc_tech_gravitic_lance_titanic" }
-	component_set = "NHSC_GRAVITON_LANCE_2_TITANIC"
+	component_set = "NHSC_GRAVITON_LANCE_TITANIC"
 	projectile_gfx = "nhsc_graviton_lance"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }

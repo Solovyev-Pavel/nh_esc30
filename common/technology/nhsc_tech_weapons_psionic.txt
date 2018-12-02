@@ -27,6 +27,7 @@ nhsc_tech_psionic_torpedo_1 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -81,6 +82,7 @@ nhsc_tech_psionic_torpedo_2 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -134,6 +136,7 @@ nhsc_tech_psionic_cannon_1 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -187,6 +190,7 @@ nhsc_tech_psionic_cannon_2 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -241,6 +245,7 @@ nhsc_tech_psionic_cannon_3 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -296,6 +301,7 @@ nhsc_tech_psionic_lance_1 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -351,6 +357,7 @@ nhsc_tech_psionic_lance_2 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -407,6 +414,7 @@ nhsc_tech_psionic_lance_titanic = {
 	potential = {
 		host_has_dlc = "Apocalypse"
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {
@@ -462,6 +470,7 @@ nhsc_tech_psionic_strikecraft = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_authority = auth_machine_intelligence } # machines shouldn't be able to research psionics...
 	}
 
 	weight_modifier = {

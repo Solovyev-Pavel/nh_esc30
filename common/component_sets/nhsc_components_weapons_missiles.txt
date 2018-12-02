@@ -85,13 +85,6 @@ component_set = {
 }
 
 component_set = {
-	key = "NHSC_XMISSILE_3"
-	
-	icon = "GFX_ship_part_nhsc_xmissile3"
-	icon_frame = 1	
-}
-
-component_set = {
 	key = "NHSC_XMISSILE_3_TITANIC"
 	
 	icon = "GFX_ship_part_nhsc_xmissile3"

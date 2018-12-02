@@ -1,6 +1,61 @@
-### components that are shown in the ship designer :: rockets and torpedoes
+############################################################
+##                 ESC : Missile Weapons                  ##
+############################################################
 
-### joker missiles
+# - Joker Missiles					T
+# - Wraith Missiles					T
+# - Plasma Missiles					S/M/L
+# - Improved Plasma Missiles		S/M/L
+# - Incinerator Missiles			S/M/L
+# - Desolator Torpedo				T
+# - Eradicator Torpedo				T
+# - Corrosive Warhead Torpedo		T
+# - Typhoon Missiles				T
+# - Hurricane Missiles				T
+# - Exotic Matter Warhead			X
+# - Strange Matter Warhead			X
+# - Reflex Missile Launcher			Titanic
+
+@missile_hull_damage = 1.15
+@missile_armor_damage = 1.0
+@missile_armor_penetration = 0.0
+@missile_shield_damage = 1.0
+@missile_shield_penetration = 1.0
+
+@plasma_missile_hull_damage = 1.50
+@plasma_missile_armor_damage = 2.0
+@plasma_missile_armor_penetration = 0.0
+@plasma_missile_shield_damage = 0.40
+@plasma_missile_shield_penetration = 0.0
+
+@torpedo_hull_damage = 1
+@torpedo_armor_damage = 1.5
+@torpedo_armor_penetration = 0.0
+@torpedo_shield_damage = 1.0
+@torpedo_shield_penetration = 1.0
+
+@corrosive_warhead_hull_damage = 1.25
+@corrosive_warhead_armor_damage = 1.75
+@corrosive_warhead_armor_penetration = 0.0
+@corrosive_warhead_shield_damage = 1.5
+@corrosive_warhead_shield_penetration = 0.0
+
+@swarmer_hull_damage = 1.0
+@swarmer_armor_damage = 1.0
+@swarmer_armor_penetration = 0.0
+@swarmer_shield_damage = 1.0
+@swarmer_shield_penetration = 1.0
+
+@exotic_hull_damage = 1.35
+@exotic_armor_damage = 2.5
+@exotic_armor_penetration = 0.5
+@exotic_shield_damage = 0.8
+@exotic_shield_penetration = 0.0
+
+############################################################
+##                     Joker Missiles                     ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_MISSILE_6"
 	size = torpedo
@@ -21,11 +76,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -30
 	cost = 72
-	hull_damage = 1.15
-	armor_damage = 1.0
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @missile_hull_damage
+	armor_damage = @missile_armor_damage
+	armor_penetration = @missile_armor_penetration
+	shield_damage = @missile_shield_damage
+	shield_penetration = @missile_shield_penetration
 	tracking = 0.25
 
 	prerequisites = { "nhsc_tech_missile_6" }
@@ -36,7 +91,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery }
 }
 
-### wraith missiles
+############################################################
+##                    Wraith Missiles                     ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_MISSILE_7"
 	size = torpedo
@@ -58,11 +116,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -35
 	cost = 86
-	hull_damage = 1.15
-	armor_damage = 1.0
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @missile_hull_damage
+	armor_damage = @missile_armor_damage
+	armor_penetration = @missile_armor_penetration
+	shield_damage = @missile_shield_damage
+	shield_penetration = @missile_shield_penetration
 	tracking = 0.25
 
 	prerequisites = { "nhsc_tech_missile_7" }
@@ -72,7 +130,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery }
 }
 
-### plasma missile
+############################################################
+##                    Plasma Missiles                     ##
+############################################################
+
 weapon_component_template = {
 	key = "SMALL_NHSC_PLASMA_MISSILE_1"
 	size = small
@@ -93,11 +154,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -20
 	cost = 30
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_1" }
@@ -128,11 +189,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -34
 	cost = 60
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_1" }
@@ -163,11 +224,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -64
 	cost = 120
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_1" }
@@ -178,7 +239,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
 }
 
-### improved plasma missile               
+############################################################
+##               Improved Plasma Missiles                 ##
+############################################################
+
 weapon_component_template = {
 	key = "SMALL_NHSC_PLASMA_MISSILE_2"
 	size = small
@@ -199,11 +263,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -24
 	cost = 36
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_2" }
@@ -234,11 +298,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -46
 	cost = 72
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_2" }
@@ -269,11 +333,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -90
 	cost = 144
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_2" }
@@ -284,7 +348,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
 }
 
-### incinerator missile               
+############################################################
+##                 Incinerator Missiles                   ##
+############################################################
+
 weapon_component_template = {
 	key = "SMALL_NHSC_PLASMA_MISSILE_3"
 	size = small
@@ -305,11 +372,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -28
 	cost = 40
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_3" }
@@ -339,11 +406,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -52
 	cost = 80
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_3" }
@@ -373,11 +440,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -100
 	cost = 160
-	hull_damage = 1.50
-	armor_damage = 2.0
-	armor_penetration = 0.0
-	shield_damage = 0.40
-	shield_penetration = 0.0
+	hull_damage = @plasma_missile_hull_damage
+	armor_damage = @plasma_missile_armor_damage
+	armor_penetration = @plasma_missile_armor_penetration
+	shield_damage = @plasma_missile_shield_damage
+	shield_penetration = @plasma_missile_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_plasma_missiles_3" }
@@ -387,7 +454,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
 }
 
-### desolator torpedo
+############################################################
+##                   Desolator Torpedo                    ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_TORPEDO_4"
 	size = torpedo
@@ -407,11 +477,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -38
 	cost = 84
-	hull_damage = 1
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @torpedo_hull_damage
+	armor_damage = @torpedo_armor_damage
+	armor_penetration = @torpedo_armor_penetration
+	shield_damage = @torpedo_shield_damage
+	shield_penetration = @torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_torpedoes_4" }
@@ -422,7 +492,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery }
 }
 
-### eradicator torpedo
+############################################################
+##                  Eradicator Torpedo                    ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_TORPEDO_5"
 	size = torpedo
@@ -443,11 +516,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -44
 	cost = 100
-	hull_damage = 1
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @torpedo_hull_damage
+	armor_damage = @torpedo_armor_damage
+	armor_penetration = @torpedo_armor_penetration
+	shield_damage = @torpedo_shield_damage
+	shield_penetration = @torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_torpedoes_5" }
@@ -457,7 +530,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery }
 }
 
-### Corrosive Warhead Torpedo
+############################################################
+##               Corrosive Warhead Torpedo                ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_CORROSIVE_WARHEAD"
 	size = torpedo
@@ -479,11 +555,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -65
 	cost = 150
-	hull_damage = 1.25
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 1.5
-	shield_penetration = 0.0
+	hull_damage = @corrosive_warhead_hull_damage
+	armor_damage = @corrosive_warhead_armor_damage
+	armor_penetration = @corrosive_warhead_armor_penetration
+	shield_damage = @corrosive_warhead_shield_damage
+	shield_penetration = @corrosive_warhead_shield_penetration
 	tracking = 0.2
 
 	prerequisites = { "nhsc_tech_corrosivewarheadtorpedo" }
@@ -503,7 +579,10 @@ weapon_component_template = {
 	}
 }
 
-### Typhoon Missiles
+############################################################
+##                   Typhoon Missiles                     ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_SWARMER_MISSILES_3"
 	size = torpedo
@@ -524,11 +603,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -35
 	cost = 80
-	hull_damage = 1.0
-	armor_damage = 1.0
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @swarmer_hull_damage
+	armor_damage = @swarmer_armor_damage
+	armor_penetration = @swarmer_armor_penetration
+	shield_damage = @swarmer_shield_damage
+	shield_penetration = @swarmer_shield_penetration
 	tracking = 0.3
 
 	prerequisites = { "nhsc_tech_swarmermissiles_3" }
@@ -539,7 +618,10 @@ weapon_component_template = {
 	upgrades_to = "NHSC_SWARMER_MISSILES_4"
 }
 
-### Hurricane Missiles
+############################################################
+##                  Hurricane Missiles                    ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_SWARMER_MISSILES_4"
 	size = torpedo
@@ -560,11 +642,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -49
 	cost = 95
-	hull_damage = 1.0
-	armor_damage = 1.0
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @swarmer_hull_damage
+	armor_damage = @swarmer_armor_damage
+	armor_penetration = @swarmer_armor_penetration
+	shield_damage = @swarmer_shield_damage
+	shield_penetration = @swarmer_shield_penetration
 	tracking = 0.3
 
 	prerequisites = { "nhsc_tech_swarmermissiles_4" }
@@ -574,13 +656,16 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery }
 }
 
-### Exotic Matter Warhead
+############################################################
+##                Exotic Matter Warhead                   ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_XMISSILE_1"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_xmissile1"
 	icon_frame = 1
-        entity = "invisible_turret_entity"
+    entity = "invisible_turret_entity"
 	type = missile
 	firing_arc = 25.0
 	min_range = 30.0
@@ -598,11 +683,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -300
 	cost = 375
-	hull_damage = 1.35
-	armor_damage = 2.5
-	armor_penetration = 0.5
-	shield_damage = 0.8
-	shield_penetration = 0.0
+	hull_damage = @exotic_hull_damage
+	armor_damage = @exotic_armor_damage
+	armor_penetration = @exotic_armor_penetration
+	shield_damage = @exotic_shield_damage
+	shield_penetration = @exotic_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_xmissile1" }
@@ -613,7 +698,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Strange Matter Warhead
+############################################################
+##                Strange Matter Warhead                  ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_XMISSILE_2"
 	size = extra_large
@@ -637,58 +725,23 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -325
 	cost = 415
-	hull_damage = 1.35
-	armor_damage = 2.5
-	armor_penetration = 0.5
-	shield_damage = 0.8
-	shield_penetration = 0.0
+	hull_damage = @exotic_hull_damage
+	armor_damage = @exotic_armor_damage
+	armor_penetration = @exotic_armor_penetration
+	shield_damage = @exotic_shield_damage
+	shield_penetration = @exotic_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_xmissile2" }
 	component_set = "NHSC_XMISSILE_2"
 	projectile_gfx = "nhsc_xmissile2"
-	upgrades_to = "NHSC_XMISSILE_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Reflex Warhead Launcher
-weapon_component_template = {
-	key = "NHSC_XMISSILE_3"
-	size = extra_large
-	icon = "GFX_ship_part_nhsc_xmissile3"
-	icon_frame = 1
-	entity = "invisible_turret_entity"
-	type = missile
-	firing_arc = 25.0
-	min_range = 30.0
-	static_rotation = yes
-	use_ship_kill_target = no
-
-	damage = { min = 1800 max = 4000 }
-	windup = { min = 2 max = 20 }
-	total_fire_time = 75
-	range = 200
-	accuracy = 1.0
-	missile_speed = 20 # 425 -- apparently, the game doesn't auto-convert speed for non-vanilla components
-	missile_evasion = 0.1
-	missile_health = 50
-	missile_retarget_range = 100
-	power = -350
-	cost = 450
-	hull_damage = 1.35
-	armor_damage = 2.5
-	armor_penetration = 0.5
-	shield_damage = 0.8
-	shield_penetration = 0.0
-	tracking = 0.1
-
-	prerequisites = { "nhsc_tech_xmissile3" }
-	component_set = "NHSC_XMISSILE_3"
-	projectile_gfx = "nhsc_xmissile3"
-	tags = { weapon_type_explosive weapon_type_energy }
-	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
-}
+############################################################
+##               Reflex Missile Launcher                  ##
+############################################################
 
 weapon_component_template = {
 	key = "NHSC_XMISSILE_3_TITANIC"
@@ -713,11 +766,11 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -500
 	cost = 500
-	hull_damage = 1.35
-	armor_damage = 2.5
-	armor_penetration = 0.5
-	shield_damage = 0.8
-	shield_penetration = 0.0
+	hull_damage = @exotic_hull_damage
+	armor_damage = @exotic_armor_damage
+	armor_penetration = @exotic_armor_penetration
+	shield_damage = @exotic_shield_damage
+	shield_penetration = @exotic_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_xmissile3_titanic" }

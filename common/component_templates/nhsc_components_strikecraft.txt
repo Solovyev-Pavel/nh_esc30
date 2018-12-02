@@ -1,3 +1,16 @@
+################################################
+##            ESC : Strikecrafts              ##
+################################################
+
+# - Tactical Strikecrafts
+#   - Tactical Interceptor Wing			H
+#   - Tactical Bomber Wing				H
+# - Siegebreaker Strikecrafts
+#   - Siegebreaker Interceptor Wing		H
+#   - Siegebreaker Bomber Wing			H
+# - Cybernetically-Augmented Amoeba		H
+# - Ravaging Swarmers					H
+
 @attack_range = 8
 @launch_time = 1.5
 @fighter_speed = 425
@@ -5,7 +18,10 @@
 @count = 8
 @regen = 0.15
 
-### Tactical Interceptor Wing
+################################################
+##         Tactical Interceptor Wing          ##
+################################################
+
 strike_craft_component_template = {
 	key = "NHSC_FIGHTERS_HANGAR_4"
 	size = LARGE
@@ -45,7 +61,10 @@ strike_craft_component_template = {
 	upgrades_to = "NHSC_FIGHTERS_HANGAR_5"
 }
 
-### Tactical Bomber Wing           
+################################################
+##            Tactical Bomber Wing            ##
+################################################
+
 strike_craft_component_template = {
 	key = "NHSC_BOMBERS_HANGAR_4"
 	size = LARGE
@@ -86,7 +105,10 @@ strike_craft_component_template = {
 	upgrades_to = "NHSC_BOMBERS_HANGAR_5"
 }
 
-### Siegebreaker Interceptor Wing
+################################################
+##       Siegebreaker Interceptor Wing        ##
+################################################
+
 strike_craft_component_template = {
 	key = "NHSC_FIGHTERS_HANGAR_5"
 	size = LARGE
@@ -125,7 +147,10 @@ strike_craft_component_template = {
 	tags = { weapon_type_strike_craft }
 }
 
-### Siegebreaker Bomber Wing           
+################################################
+##          Siegebreaker Bomber Wing          ##
+################################################
+
 strike_craft_component_template = {
 	key = "NHSC_BOMBERS_HANGAR_5"
 	size = LARGE
@@ -165,7 +190,9 @@ strike_craft_component_template = {
 	tags = { weapon_type_strike_craft }
 }
 
-### Cybernetically-Augmented Amoeba
+################################################
+##       Cybernetically-Augmented Amoeba      ##
+################################################
 strike_craft_component_template = {
 	key = "NHSC_CYBER_AMOEBA"
 	size = LARGE
@@ -216,7 +243,10 @@ strike_craft_component_template = {
 	}
 }
 
-### Ravaging Swarmers
+################################################
+##             Ravaging Swarmers              ##
+################################################
+
 strike_craft_component_template = {
 	key = "NHSC_RAVAGING_SWARMERS"
 	size = LARGE

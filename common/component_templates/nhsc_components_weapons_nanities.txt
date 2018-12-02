@@ -1,8 +1,40 @@
-### components that are shown in the ship designer :: nanite weapons
+############################################################
+##                  ESC : Nanite Weapons                  ##
+############################################################
 
-### Nanite Warhead Torpedo
+# - Nanite Warhead Torpedo				T
+# - Gray Goo Warhead Torpedo			T
+# - Nanite Cannon						S/M/L
+# - Improved Nanite Cannon				S/M/L
+# - Nanite Warhead Missile Launcher		X
+# - Nanite Warhead Rocket Artillery		X
+# - Nanite Warhead Barrage System		Titanic
+# - Nanite Bombers						H
+
+@nanite_torpedo_hull_damage = 1.25
+@nanite_torpedo_armor_damage = 1.5
+@nanite_torpedo_armor_penetration = 0.0
+@nanite_torpedo_shield_damage = 1.0
+@nanite_torpedo_shield_penetration = 1.0
+
+@nanite_cannon_hull_damage = 1.5
+@nanite_cannon_armor_damage = 1.75
+@nanite_cannon_armor_penetration = 0.0
+@nanite_cannon_shield_damage = 0.4
+@nanite_cannon_shield_penetration = 0.0
+
+@nanite_bombers_hull_damage = 1.25
+@nanite_bombers_armor_damage = 1.5
+@nanite_bombers_armor_penetration = 0.0
+@nanite_bombers_shield_damage = 1.0
+@nanite_bombers_shield_penetration = 1.0
+
+############################################################
+##                 Nanite Warhead Torpedo                 ##
+############################################################
+
 weapon_component_template = {
-	key = "NHSC_NANITY_TORPEDO_1"
+	key = "NHSC_NANITE_TORPEDO_1"
 	size = torpedo
 	icon = "GFX_ship_part_nhsc_nanity_torpedo_1"
 	icon_frame = 1
@@ -20,17 +52,17 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -50
 	cost = 100
-	hull_damage = 1.25
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @nanite_torpedo_hull_damage
+	armor_damage = @nanite_torpedo_armor_damage
+	armor_penetration = @nanite_torpedo_armor_penetration
+	shield_damage = @nanite_torpedo_shield_damage
+	shield_penetration = @nanite_torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_torpedo_1" }
-	component_set = "NHSC_NANITY_TORPEDO_1"
+	component_set = "NHSC_NANITE_TORPEDO_1"
 	projectile_gfx = "nhsc_nanity_torpedoes"
-	upgrades_to = "NHSC_NANITY_TORPEDO_2"
+	upgrades_to = "NHSC_NANITE_TORPEDO_2"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
 
@@ -46,9 +78,12 @@ weapon_component_template = {
 	}
 }
 
-### Gray Goo Warhead Torpedo
+############################################################
+##                Gray Goo Warhead Torpedo                ##
+############################################################
+
 weapon_component_template = {
-	key = "NHSC_NANITY_TORPEDO_2"
+	key = "NHSC_NANITE_TORPEDO_2"
 	size = torpedo
 	icon = "GFX_ship_part_nhsc_nanity_torpedo_2"
 	icon_frame = 1
@@ -67,15 +102,15 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -60
 	cost = 120
-	hull_damage = 1.25
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @nanite_torpedo_hull_damage
+	armor_damage = @nanite_torpedo_armor_damage
+	armor_penetration = @nanite_torpedo_armor_penetration
+	shield_damage = @nanite_torpedo_shield_damage
+	shield_penetration = @nanite_torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_torpedo_2" }
-	component_set = "NHSC_NANITY_TORPEDO_2"
+	component_set = "NHSC_NANITE_TORPEDO_2"
 	projectile_gfx = "nhsc_nanity_torpedoes"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
@@ -92,9 +127,12 @@ weapon_component_template = {
 	}
 }
 
-### Nanite Cannon
+############################################################
+##                     Nanite Cannon                      ##
+############################################################
+
 weapon_component_template = {
-	key = "SMALL_NHSC_NANITY_CANNON_1"
+	key = "SMALL_NHSC_NANITE_CANNON_1"
 	size = small
 	icon = "GFX_ship_part_nhsc_nanity_cannon_1"
 	icon_frame = 1
@@ -108,17 +146,17 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -20
 	cost = 30
-	hull_damage = 1.5
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 0.4
-	shield_penetration = 0.0
+	hull_damage = @nanite_cannon_hull_damage
+	armor_damage = @nanite_cannon_armor_damage
+	armor_penetration = @nanite_cannon_armor_penetration
+	shield_damage = @nanite_cannon_shield_damage
+	shield_penetration = @nanite_cannon_shield_penetration
 	tracking = 0.5
 
 	prerequisites = { "nhsc_tech_nanite_cannon_1" }
-	component_set = "NHSC_NANITY_CANNON_1"
+	component_set = "NHSC_NANITE_CANNON_1"
 	projectile_gfx = "nhsc_nanities_small"
-	upgrades_to = "SMALL_NHSC_NANITY_CANNON_2"
+	upgrades_to = "SMALL_NHSC_NANITE_CANNON_2"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_armor }
 
@@ -135,7 +173,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "MEDIUM_NHSC_NANITY_CANNON_1"
+	key = "MEDIUM_NHSC_NANITE_CANNON_1"
 	size = medium
 	icon = "GFX_ship_part_nhsc_nanity_cannon_1"
 	icon_frame = 1
@@ -149,17 +187,17 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -34
 	cost = 60
-	hull_damage = 1.5
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 0.4
-	shield_penetration = 0.0
+	hull_damage = @nanite_cannon_hull_damage
+	armor_damage = @nanite_cannon_armor_damage
+	armor_penetration = @nanite_cannon_armor_penetration
+	shield_damage = @nanite_cannon_shield_damage
+	shield_penetration = @nanite_cannon_shield_penetration
 	tracking = 0.3
 
 	prerequisites = { "nhsc_tech_nanite_cannon_1" }
-	component_set = "NHSC_NANITY_CANNON_1"
+	component_set = "NHSC_NANITE_CANNON_1"
 	projectile_gfx = "nhsc_nanities_medium"
-	upgrades_to = "MEDIUM_NHSC_NANITY_CANNON_2"
+	upgrades_to = "MEDIUM_NHSC_NANITE_CANNON_2"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_armor }
 
@@ -176,7 +214,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "LARGE_NHSC_NANITY_CANNON_1"
+	key = "LARGE_NHSC_NANITE_CANNON_1"
 	size = large
 	icon = "GFX_ship_part_nhsc_nanity_cannon_1"
 	icon_frame = 1
@@ -190,17 +228,17 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -64
 	cost = 120
-	hull_damage = 1.5
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 0.4
-	shield_penetration = 0.0
+	hull_damage = @nanite_cannon_hull_damage
+	armor_damage = @nanite_cannon_armor_damage
+	armor_penetration = @nanite_cannon_armor_penetration
+	shield_damage = @nanite_cannon_shield_damage
+	shield_penetration = @nanite_cannon_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_cannon_1" }
-	component_set = "NHSC_NANITY_CANNON_1"
+	component_set = "NHSC_NANITE_CANNON_1"
 	projectile_gfx = "nhsc_nanities_large"
-	upgrades_to = "LARGE_NHSC_NANITY_CANNON_2"
+	upgrades_to = "LARGE_NHSC_NANITE_CANNON_2"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_armor }
 
@@ -216,9 +254,12 @@ weapon_component_template = {
 	}
 }
 
-### Improved Nanite Cannon
+############################################################
+##                 Improved Nanite Cannon                 ##
+############################################################
+
 weapon_component_template = {
-	key = "SMALL_NHSC_NANITY_CANNON_2"
+	key = "SMALL_NHSC_NANITE_CANNON_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_nanity_cannon_2"
 	icon_frame = 1
@@ -232,15 +273,15 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -24
 	cost = 36
-	hull_damage = 1.5
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 0.4
-	shield_penetration = 0.0
+	hull_damage = @nanite_cannon_hull_damage
+	armor_damage = @nanite_cannon_armor_damage
+	armor_penetration = @nanite_cannon_armor_penetration
+	shield_damage = @nanite_cannon_shield_damage
+	shield_penetration = @nanite_cannon_shield_penetration
 	tracking = 0.5
 
 	prerequisites = { "nhsc_tech_nanite_cannon_2" }
-	component_set = "NHSC_NANITY_CANNON_2"
+	component_set = "NHSC_NANITE_CANNON_2"
 	projectile_gfx = "nhsc_nanities_small"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_armor }
@@ -258,7 +299,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "MEDIUM_NHSC_NANITY_CANNON_2"
+	key = "MEDIUM_NHSC_NANITE_CANNON_2"
 	size = medium
 	icon = "GFX_ship_part_nhsc_nanity_cannon_2"
 	icon_frame = 1
@@ -272,15 +313,15 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -46
 	cost = 72
-	hull_damage = 1.5
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 0.4
-	shield_penetration = 0.0
+	hull_damage = @nanite_cannon_hull_damage
+	armor_damage = @nanite_cannon_armor_damage
+	armor_penetration = @nanite_cannon_armor_penetration
+	shield_damage = @nanite_cannon_shield_damage
+	shield_penetration = @nanite_cannon_shield_penetration
 	tracking = 0.3
 
 	prerequisites = { "nhsc_tech_nanite_cannon_2" }
-	component_set = "NHSC_NANITY_CANNON_2"
+	component_set = "NHSC_NANITE_CANNON_2"
 	projectile_gfx = "nhsc_nanities_medium"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_armor }
@@ -298,7 +339,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "LARGE_NHSC_NANITY_CANNON_2"
+	key = "LARGE_NHSC_NANITE_CANNON_2"
 	size = large
 	icon = "GFX_ship_part_nhsc_nanity_cannon_2"
 	icon_frame = 1
@@ -312,15 +353,15 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -90
 	cost = 144
-	hull_damage = 1.5
-	armor_damage = 1.75
-	armor_penetration = 0.0
-	shield_damage = 0.4
-	shield_penetration = 0.0
+	hull_damage = @nanite_cannon_hull_damage
+	armor_damage = @nanite_cannon_armor_damage
+	armor_penetration = @nanite_cannon_armor_penetration
+	shield_damage = @nanite_cannon_shield_damage
+	shield_penetration = @nanite_cannon_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_cannon_2" }
-	component_set = "NHSC_NANITY_CANNON_2"
+	component_set = "NHSC_NANITE_CANNON_2"
 	projectile_gfx = "nhsc_nanities_large"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_armor }
@@ -337,9 +378,12 @@ weapon_component_template = {
 	}
 }
 
-### Nanite Warhead Rocket Artillery
+############################################################
+##             Nanite Warhead Missile Launcher            ##
+############################################################
+
 weapon_component_template = {
-	key = "NHSC_NANITY_XSLOT_1"
+	key = "NHSC_NANITE_XSLOT_1"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_nanity_xslot_1"
 	icon_frame = 1
@@ -361,17 +405,17 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -300
 	cost = 375
-	hull_damage = 1.25
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @nanite_torpedo_hull_damage
+	armor_damage = @nanite_torpedo_armor_damage
+	armor_penetration = @nanite_torpedo_armor_penetration
+	shield_damage = @nanite_torpedo_shield_damage
+	shield_penetration = @nanite_torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_xslot_1" }
-	component_set = "NHSC_NANITY_XSLOT_1"
+	component_set = "NHSC_NANITE_XSLOT_1"
 	projectile_gfx = "nhsc_nanity_torpedoes"
-	upgrades_to = "NHSC_NANITY_XSLOT_2"
+	upgrades_to = "NHSC_NANITE_XSLOT_2"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 
@@ -387,9 +431,12 @@ weapon_component_template = {
 	}
 }
 
-### Nanite Warhead Barrage System
+############################################################
+##              Nanite Warhead Rocket Artillery           ##
+############################################################
+
 weapon_component_template = {
-	key = "NHSC_NANITY_XSLOT_2"
+	key = "NHSC_NANITE_XSLOT_2"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_nanity_xslot_2"
 	icon_frame = 1
@@ -411,15 +458,15 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -350
 	cost = 415
-	hull_damage = 1.25
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @nanite_torpedo_hull_damage
+	armor_damage = @nanite_torpedo_armor_damage
+	armor_penetration = @nanite_torpedo_armor_penetration
+	shield_damage = @nanite_torpedo_shield_damage
+	shield_penetration = @nanite_torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_xslot_2" }
-	component_set = "NHSC_NANITY_XSLOT_2"
+	component_set = "NHSC_NANITE_XSLOT_2"
 	projectile_gfx = "nhsc_nanity_torpedoes"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
@@ -436,8 +483,12 @@ weapon_component_template = {
 	}
 }
 
+############################################################
+##              Nanite Warhead Barrage System             ##
+############################################################
+
 weapon_component_template = {
-	key = "NHSC_NANITY_XSLOT_2_TITANIC"
+	key = "NHSC_NANITE_TITANIC_WEAPON"
 	size = titanic
 	icon = "GFX_ship_part_nhsc_nanity_xslot_2"
 	icon_frame = 1
@@ -459,15 +510,15 @@ weapon_component_template = {
 	missile_retarget_range = 100
 	power = -500
 	cost = 500
-	hull_damage = 1.25
-	armor_damage = 1.5
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @nanite_torpedo_hull_damage
+	armor_damage = @nanite_torpedo_armor_damage
+	armor_penetration = @nanite_torpedo_armor_penetration
+	shield_damage = @nanite_torpedo_shield_damage
+	shield_penetration = @nanite_torpedo_shield_penetration
 	tracking = 0.1
 
 	prerequisites = { "nhsc_tech_nanite_titanic_weapon" }
-	component_set = "NHSC_NANITY_XSLOT_2_TITANIC"
+	component_set = "NHSC_NANITE_TITANIC_WEAPON"
 	projectile_gfx = "nhsc_nanity_torpedoes"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
@@ -484,9 +535,12 @@ weapon_component_template = {
 	}
 }
 
-### Nanite Bombers
+############################################################
+##                     Nanite Bombers                     ##
+############################################################
+
 strike_craft_component_template = {
-	key = "NHSC_NANITY_STRIKECRAFT"
+	key = "NHSC_NANITE_STRIKECRAFT"
 	size = LARGE
 	entity = "fighter_entity"
 	icon = "GFX_ship_part_nhsc_nanity_craft"
@@ -513,12 +567,14 @@ strike_craft_component_template = {
 	rotation_speed = 0.15
 	acceleration = 0.6
 	evasion = 0.80
-	hull_damage = 1.25
-	armor_damage = 1.5
-	shield_penetration = 1
+	hull_damage = @nanite_bombers_hull_damage
+	armor_damage = @nanite_bombers_armor_damage
+	armor_penetration = @nanite_bombers_armor_penetration
+	shield_damage = @nanite_bombers_shield_damage
+	shield_penetration = @nanite_bombers_shield_penetration
 	
 	ship_behavior = "bombers_behavior"
-	component_set = "NHSC_NANITY_STRIKECRAFT"
+	component_set = "NHSC_NANITE_STRIKECRAFT"
 	prerequisites = { "nhsc_tech_nanite_strikecraft" }
 	tags = { weapon_type_strike_craft }
 
@@ -533,4 +589,3 @@ strike_craft_component_template = {
 		}
 	}
 }
-

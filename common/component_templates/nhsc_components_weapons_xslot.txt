@@ -1,6 +1,46 @@
-### components that are shown in the ship designer :: x-slot weapons
+############################################################
+##              ESC : XL and Titanic Weapons              ##
+############################################################
 
-### improved tachyon lance
+# - Improved Tachyon Lance				X
+# - Hypercharged Tachyon Lance			X
+# - Light of Destruction				Titanic
+# - Lightning Cannon					X
+# - Arc Cannon							X
+# - Divine Thunder						Titanic
+# - Wave-Motion Gun						X
+# - Dimensional Wave Cannon				X
+# - Titanic Dimensional Wave Cannon		Titanic
+# - Arc-en-Ciel Cannon					X, Titanic
+
+@particle_lance_hull_damage = 1.5
+@particle_lance_armor_damage = 2.0
+@particle_lance_armor_penetration = 0.0
+@particle_lance_shield_damage = 0.5
+@particle_lance_shield_penetration = 0.0
+
+@arc_emitter_hull_damage = 1.0
+@arc_emitter_armor_penetration = 1.0
+@arc_emitter_armor_damage = 1.0
+@arc_emitter_shield_penetration = 1.0
+@arc_emitter_shield_damage = 1.0
+
+@wmg_hull_damage = 1.75
+@wmg_armor_damage = 0.75
+@wmg_armor_penetration = 0.0
+@wmg_shield_damage = 1.5
+@wmg_shield_penetration = 0.0
+
+@arc_en_ciel_hull_damage = 1.15
+@arc_en_ciel_armor_damage = 1.0
+@arc_en_ciel_armor_penetration = 1.0
+@arc_en_ciel_shield_damage = 1.0
+@arc_en_ciel_shield_penetration = 1.0
+
+############################################################
+##                 Improved Tachyon Lance                 ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_PARTICLE_LANCE_3"
 	size = extra_large
@@ -16,11 +56,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -280
 	cost = 375
-	hull_damage = 1.5
-	armor_penetration = 0.0
-	armor_damage = 2.0
-	shield_penetration = 0.0
-	shield_damage = 0.5
+	hull_damage = @particle_lance_hull_damage
+	armor_penetration = @particle_lance_armor_penetration
+	armor_damage = @particle_lance_armor_damage
+	shield_penetration = @particle_lance_shield_penetration
+	shield_damage = @particle_lance_shield_damage
 	tracking = 0.0
 
 	firing_arc = 25.0
@@ -36,7 +76,10 @@ weapon_component_template = {
 	upgrades_to = "NHSC_PARTICLE_LANCE_4"
 }
 
-### hypercharged tachyon lance
+############################################################
+##               Hypercharged Tachyon Lance               ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_PARTICLE_LANCE_4"
 	size = extra_large
@@ -52,11 +95,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -310
 	cost = 425
-	hull_damage = 1.5
-	armor_penetration = 0.0
-	armor_damage = 2.0
-	shield_penetration = 0.0
-	shield_damage = 0.5
+	hull_damage = @particle_lance_hull_damage
+	armor_penetration = @particle_lance_armor_penetration
+	armor_damage = @particle_lance_armor_damage
+	shield_penetration = @particle_lance_shield_penetration
+	shield_damage = @particle_lance_shield_damage
 	tracking = 0.05
 
 	firing_arc = 25.0
@@ -71,7 +114,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### light of destruction
+############################################################
+##                  Light of Destruction                  ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_PARTICLE_LANCE_TITANIC"
 	size = titanic
@@ -87,11 +133,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -500
 	cost = 500
-	hull_damage = 1.5
-	armor_penetration = 0.0
-	armor_damage = 2.0
-	shield_penetration = 0.0
-	shield_damage = 0.5
+	hull_damage = @particle_lance_hull_damage
+	armor_penetration = @particle_lance_armor_penetration
+	armor_damage = @particle_lance_armor_damage
+	shield_penetration = @particle_lance_shield_penetration
+	shield_damage = @particle_lance_shield_damage
 	tracking = 0.05
 
 	firing_arc = 25.0
@@ -106,7 +152,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Lightning cannon
+############################################################
+##                    Lightning Cannon                    ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ARC_EMITTER_3"
 	size = extra_large
@@ -122,11 +171,11 @@ weapon_component_template = {
 	accuracy = 1.0
 	power = -280
 	cost = 375
-	hull_damage = 1.0
-	armor_penetration = 1.0
-	armor_damage = 1.0
-	shield_penetration = 1.0
-	shield_damage = 1.0
+	hull_damage = @arc_emitter_hull_damage
+	armor_penetration = @arc_emitter_armor_penetration
+	armor_damage = @arc_emitter_armor_damage
+	shield_penetration = @arc_emitter_shield_penetration
+	shield_damage = @arc_emitter_shield_damage
 	tracking = 0.0
 
 	firing_arc = 25.0
@@ -142,7 +191,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Arc Cannon
+############################################################
+##                       Arc Cannon                       ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ARC_EMITTER_4"
 	size = extra_large
@@ -158,11 +210,11 @@ weapon_component_template = {
 	accuracy = 1.0
 	power = -310
 	cost = 425
-	hull_damage = 1.0
-	armor_penetration = 1.0
-	armor_damage = 1.0
-	shield_penetration = 1.0
-	shield_damage = 1.0
+	hull_damage = @arc_emitter_hull_damage
+	armor_penetration = @arc_emitter_armor_penetration
+	armor_damage = @arc_emitter_armor_damage
+	shield_penetration = @arc_emitter_shield_penetration
+	shield_damage = @arc_emitter_shield_damage
 	tracking = 0.05
 
 	firing_arc = 25.0
@@ -177,7 +229,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### divine thunder
+############################################################
+##                     Divine Thunder                     ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ARC_EMITTER_TITANIC"
 	size = titanic
@@ -193,11 +248,11 @@ weapon_component_template = {
 	accuracy = 1.0
 	power = -500
 	cost = 500
-	hull_damage = 1.0
-	armor_penetration = 1.0
-	armor_damage = 1.0
-	shield_penetration = 1.0
-	shield_damage = 1.0
+	hull_damage = @arc_emitter_hull_damage
+	armor_penetration = @arc_emitter_armor_penetration
+	armor_damage = @arc_emitter_armor_damage
+	shield_penetration = @arc_emitter_shield_penetration
+	shield_damage = @arc_emitter_shield_damage
 	tracking = 0.1
 
 	firing_arc = 25.0
@@ -212,7 +267,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Wave Motion Gun
+############################################################
+##                     Wave-Motion Gun                    ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_WAVEMOTIONGUN_1"
 	size = extra_large	
@@ -228,11 +286,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -250
 	cost = 325
-	hull_damage = 1.75
-	armor_penetration = 0.0
-	armor_damage = 0.75
-	shield_penetration = 0.0
-	shield_damage = 1.5
+	hull_damage = @wmg_hull_damage
+	armor_penetration = @arc_emitter_armor_penetration
+	armor_damage = @arc_emitter_armor_damage
+	shield_penetration = @wmg_shield_penetration
+	shield_damage = @wmg_shield_damage
 	tracking = 0.1
 
 	firing_arc = 25.0
@@ -248,7 +306,10 @@ weapon_component_template = {
 	upgrades_to = "NHSC_WAVEMOTIONGUN_2"
 }
 
-### Dimensional Wave Cannon
+############################################################
+##                 Dimensional Wave Cannon                ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_WAVEMOTIONGUN_2"
 	size = extra_large	
@@ -264,11 +325,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -280
 	cost = 375
-	hull_damage = 1.75
-	armor_penetration = 0.0
-	armor_damage = 0.75
-	shield_penetration = 0.0
-	shield_damage = 1.5
+	hull_damage = @wmg_hull_damage
+	armor_penetration = @arc_emitter_armor_penetration
+	armor_damage = @arc_emitter_armor_damage
+	shield_penetration = @wmg_shield_penetration
+	shield_damage = @wmg_shield_damage
 	tracking = 0.1
 
 	firing_arc = 25.0
@@ -283,7 +344,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Titanic Dimensional Wave Cannon
+############################################################
+##            Titanic Dimensional Wave Cannon             ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_WAVEMOTIONGUN_3"
 	size = titanic	
@@ -299,11 +363,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -500
 	cost = 500
-	hull_damage = 1.75
-	armor_penetration = 0.0
-	armor_damage = 0.75
-	shield_penetration = 0.0
-	shield_damage = 1.5
+	hull_damage = @wmg_hull_damage
+	armor_penetration = @arc_emitter_armor_penetration
+	armor_damage = @arc_emitter_armor_damage
+	shield_penetration = @wmg_shield_penetration
+	shield_damage = @wmg_shield_damage
 	tracking = 0.1
 
 	firing_arc = 25.0
@@ -318,7 +382,10 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 }
 
-### Arc-en-Ciel Cannon
+############################################################
+##                   Arc-en-Ciel Cannon                   ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ARC_EN_CIEL"
 	size = extra_large
@@ -334,11 +401,11 @@ weapon_component_template = {
 	accuracy = 1.0
 	power = -375
 	cost = 450
-	hull_damage = 1.15
-	armor_penetration = 1.0
-	armor_damage = 1.0
-	shield_penetration = 1.0
-	shield_damage = 1.0
+	hull_damage = @arc_en_ciel_hull_damage
+	armor_penetration = @arc_en_ciel_armor_penetration
+	armor_damage = @arc_en_ciel_armor_damage
+	shield_penetration = @arc_en_ciel_shield_penetration
+	shield_damage = @arc_en_ciel_shield_damage
 	tracking = 0.1
 
 	firing_arc = 25.0
@@ -363,7 +430,10 @@ weapon_component_template = {
 	}
 }
 
-### Arc-en-Ciel Cannon (titanic)
+############################################################
+##               Arc-en-Ciel Cannon (Titanic)             ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ARC_EN_CIEL_TITANIC"
 	size = titanic
@@ -379,11 +449,11 @@ weapon_component_template = {
 	accuracy = 1.0
 	power = -600
 	cost = 600
-	hull_damage = 1.15
-	armor_penetration = 1.0
-	armor_damage = 1.0
-	shield_penetration = 1.0
-	shield_damage = 1.0
+	hull_damage = @arc_en_ciel_hull_damage
+	armor_penetration = @arc_en_ciel_armor_penetration
+	armor_damage = @arc_en_ciel_armor_damage
+	shield_penetration = @arc_en_ciel_shield_penetration
+	shield_damage = @arc_en_ciel_shield_damage
 	tracking = 0.1
 
 	firing_arc = 25.0

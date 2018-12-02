@@ -47,13 +47,26 @@ nhsc_building_psionic_containment = {
 					has_authority = auth_hive_mind
 					has_authority = auth_machine_intelligence
 				}
-			} # only regular empires can research psionic techs since it requires tech that is locked to regular empires
+			}
 		}
 		modifier = {
 			job_esc_channeller_add = 3
 		}
 	}
-  
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				# is_hive_empire = yes
+				has_authority = auth_hive_mind
+			}
+		}
+		modifier = {
+			job_esc_channeller_add = 3
+		}
+	}
+
     resources = {
         category = planet_buildings
         cost = {
@@ -74,6 +87,14 @@ nhsc_building_psionic_containment = {
             owner = { is_regular_empire = yes }
         }
         text = job_esc_channeller_effect_desc
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_hive_empire = yes }
+        }
+        text = job_esc_channeller_drone_effect_desc
 	}
 	
 	ai_weight = {

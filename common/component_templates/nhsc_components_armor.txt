@@ -1,69 +1,78 @@
-### components that are shown in the ship designer :: armor
+############################################################
+##                 ESC : Armor Components                 ##
+############################################################
 
-### armor strength
-@armor_S4 = 110
-@armor_M4 = 275
-@armor_L4 = 685
+# - Improved Neutronium Armor			S/M/L
+# - Adamantium Armor					S/M/L
+# - Nanity-Infused Armor				S/M/L
+# - Improved Nanity-Infused Armor		S/M/L
+# - Nanite-Augmented Dragonscale Armor	S/M/L
+# - Shield-Generating Armor				S/M/L
+# - Improved Shield-Generating Armor	S/M/L
+# - Shielding Bulwark					S/M/L
+# - Hardlight Armor						S/M/L
+# - Dimensional Horror Armor			S/M/L
 
-@armor_S5 = 140
-@armor_M5 = 350
-@armor_L5 = 875
+@armor_4_strength_S = 110
+@armor_4_strength_M = 275
+@armor_4_strength_L = 685
 
-@armor_S6 = 185
-@armor_M6 = 460
-@armor_L6 = 1150
+@armor_5_strength_S = 140
+@armor_5_strength_M = 350
+@armor_5_strength_L = 875
 
-@armor_S7 = 240
-@armor_M7 = 600
-@armor_L7 = 1500
+@armor_6_strength_S = 185
+@armor_6_strength_M = 460
+@armor_6_strength_L = 1150
 
-@armor_S8 = 300
-@armor_M8 = 750
-@armor_L8 = 1850
+@armor_7_strength_S = 240
+@armor_7_strength_M = 600
+@armor_7_strength_L = 1500
 
-### armor cost
-@cost_S5 = 28
-@cost_M5 = 56
-@cost_L5 = 112
+@armor_8_strength_S = 300
+@armor_8_strength_M = 750
+@armor_8_strength_L = 1850
            
-@cost_S6 = 36
-@cost_M6 = 72
-@cost_L6 = 144
+@armor_6_cost_S = 36
+@armor_6_cost_M = 72
+@armor_6_cost_L = 144
 
-@cost_S7 = 44
-@cost_M7 = 88
-@cost_L7 = 176
+@armor_7_cost_S = 44
+@armor_7_cost_M = 88
+@armor_7_cost_L = 176
 
-@cost_S8 = 52
-@cost_M8 = 104
-@cost_L8 = 208
+@armor_8_cost_S = 52
+@armor_8_cost_M = 104
+@armor_8_cost_L = 208
 
 ### shielding armor shields & regen
-@shield_S3 = 85
-@shield_M3 = 215
-@shield_L3 = 525
+@armor_shield_strength_1_S = 85
+@armor_shield_strength_1_M = 215
+@armor_shield_strength_1_L = 525
 
-@regen_S3 = 0.85
-@regen_M3 = 2.15
-@regen_L3 = 5.25
+@armor_shield_strength_2_S = 110
+@armor_shield_strength_2_M = 275
+@armor_shield_strength_2_L = 685
 
-@shield_S4 = 110
-@shield_M4 = 275
-@shield_L4 = 685
+@armor_shield_strength_3_S = 140
+@armor_shield_strength_3_M = 350
+@armor_shield_strength_3_L = 875
 
-@regen_S4 = 1.10
-@regen_M4 = 2.75
-@regen_L4 = 6.85
+@armor_shield_regen_1_S = 0.85
+@armor_shield_regen_1_M = 2.15
+@armor_shield_regen_1_L = 5.25
 
-@shield_S5 = 140
-@shield_M5 = 350
-@shield_L5 = 875
+@armor_shield_regen_2_S = 1.10
+@armor_shield_regen_2_M = 2.75
+@armor_shield_regen_2_L = 6.85
 
-@regen_S5 = 1.40
-@regen_M5 = 3.50
-@regen_L5 = 8.75
+@armor_shield_regen_3_S = 1.40
+@armor_shield_regen_3_M = 3.50
+@armor_shield_regen_3_L = 8.75
 
-### Improved Neutronium Armor
+############################################################
+##               Improved Neutronium Armor                ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_ADV_ARMOR_1"
@@ -71,8 +80,8 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_6"
 	icon_frame = 1
 	power = 0
-	cost = @cost_S6
-	modifier = { ship_armor_add = @armor_S6 }
+	cost = @armor_6_cost_S
+	modifier = { ship_armor_add = @armor_6_strength_S }
 	
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
@@ -85,8 +94,8 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_6"
 	icon_frame = 1
 	power = 0
-	cost = @cost_M6
-	modifier = { ship_armor_add = @armor_M6 }
+	cost = @armor_6_cost_M
+	modifier = { ship_armor_add = @armor_6_strength_M }
 	
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
@@ -99,16 +108,18 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_6"
 	icon_frame = 1
 	power = 0
-	cost = @cost_L6
+	cost = @armor_6_cost_L
 
-	modifier = { ship_armor_add = @armor_L6 }
+	modifier = { ship_armor_add = @armor_6_strength_L }
 	
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
 	upgrades_to = "LARGE_NHSC_ADV_ARMOR_2"
 }
 
-### Adamantium Armor
+############################################################
+##                     Adamantium Armor                   ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_ADV_ARMOR_2"
@@ -116,8 +127,8 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	cost = @cost_S7
-	modifier = { ship_armor_add = @armor_S7 }
+	cost = @armor_7_cost_S
+	modifier = { ship_armor_add = @armor_7_strength_S }
 	
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
@@ -129,8 +140,8 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	cost = @cost_M7
-	modifier = { ship_armor_add = @armor_M7 }
+	cost = @armor_7_cost_M
+	modifier = { ship_armor_add = @armor_7_strength_M }
 	
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
@@ -142,14 +153,16 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	cost = @cost_L7
-	modifier = { ship_armor_add = @armor_L7 }
+	cost = @armor_7_cost_L
+	modifier = { ship_armor_add = @armor_7_strength_L }
 	
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
 }
 
-### Nanity-Infused Armor
+############################################################
+##                  Nanity-Infused Armor                  ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_NANO_ARMOR_1"
@@ -157,9 +170,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_1"
 	icon_frame = 1
 	power = -10
-	cost = @cost_S7
+	cost = @armor_7_cost_S
 	modifier = {
-		ship_armor_add = @armor_S5
+		ship_armor_add = @armor_5_strength_S
 		ship_hull_regen_add_static = 0.25
 		ship_armor_regen_add_static = 0.4
 	}
@@ -175,9 +188,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_1"
 	icon_frame = 1
 	power = -20
-	cost = @cost_M7
+	cost = @armor_7_cost_M
 	modifier = {
-		ship_armor_add = @armor_M5
+		ship_armor_add = @armor_5_strength_M
 		ship_hull_regen_add_static = 0.5
 		ship_armor_regen_add_static = 0.8
 	}
@@ -193,9 +206,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_1"
 	icon_frame = 1
 	power = -40
-	cost = @cost_L7
+	cost = @armor_7_cost_L
 	modifier = {		
-		ship_armor_add = @armor_L5
+		ship_armor_add = @armor_5_strength_L
 		ship_hull_regen_add_static = 1
 		ship_armor_regen_add_static = 1.6
 	}
@@ -205,7 +218,9 @@ utility_component_template = {
 	upgrades_to = "LARGE_NHSC_NANO_ARMOR_2"
 }
 
-### Improved Nanity-Infused Armor
+############################################################
+##             Improved Nanity-Infused Armor              ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_NANO_ARMOR_2"
@@ -213,9 +228,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_2"
 	icon_frame = 1
 	power = -15
-	cost = @cost_S8
+	cost = @armor_8_cost_S
 	modifier = {
-		ship_armor_add = @armor_S6
+		ship_armor_add = @armor_6_strength_S
 		ship_hull_regen_add_static = 0.35
 		ship_armor_regen_add_static = 0.5
 	}
@@ -231,9 +246,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_2"
 	icon_frame = 1
 	power = -30
-	cost = @cost_M8
+	cost = @armor_8_cost_M
 	modifier = {
-		ship_armor_add = @armor_M6
+		ship_armor_add = @armor_6_strength_M
 		ship_hull_regen_add_static = 0.7
 		ship_armor_regen_add_static = 1
 	}
@@ -249,9 +264,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_2"
 	icon_frame = 1
 	power = -60
-	cost = @cost_L8
+	cost = @armor_8_cost_L
 	modifier = {
-		ship_armor_add = @armor_L6
+		ship_armor_add = @armor_6_strength_L
 		ship_hull_regen_add_static = 1.4
 		ship_armor_regen_add_static = 2
 	}
@@ -261,173 +276,9 @@ utility_component_template = {
 	upgrades_to = "LARGE_NHSC_DRAGON_NANOARMOR"
 }
 
-### Shield-Generating Armor
-
-utility_component_template = {
-	key = "SMALL_NHSC_SHIELD_ARMOR_1"
-	size = small
-	icon = "GFX_ship_part_armor_nhsc_shield_1"
-	icon_frame = 1
-	power = -25
-	cost = @cost_S6
-	modifier = {
-		ship_armor_add = @armor_S4
-		ship_shield_add = @shield_S3
-		ship_shield_regen_add_static = @regen_S3
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_1" }
-	component_set = "NHSC_SHIELD_ARMOR_1"
-	upgrades_to = "SMALL_NHSC_SHIELD_ARMOR_2"
-}
-
-utility_component_template = {
-	key = "MEDIUM_NHSC_SHIELD_ARMOR_1"
-	size = medium
-	icon = "GFX_ship_part_armor_nhsc_shield_1"
-	icon_frame = 1
-	power = -65
-	cost = @cost_M6
-	modifier = {
-		ship_armor_add = @armor_M4
-		ship_shield_add = @shield_M3
-		ship_shield_regen_add_static = @regen_M3
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_1" }
-	component_set = "NHSC_SHIELD_ARMOR_1"
-	upgrades_to = "MEDIUM_NHSC_SHIELD_ARMOR_2"
-}
-
-utility_component_template = {
-	key = "LARGE_NHSC_SHIELD_ARMOR_1"
-	size = large
-	icon = "GFX_ship_part_armor_nhsc_shield_1"
-	icon_frame = 1
-	power = -150
-	cost = @cost_L6
-	modifier = {
-		ship_armor_add = @armor_L4
-		ship_shield_add = @shield_L3
-		ship_shield_regen_add_static = @regen_L3
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_1" }
-	component_set = "NHSC_SHIELD_ARMOR_1"
-	upgrades_to = "LARGE_NHSC_SHIELD_ARMOR_2"
-}
-
-### Improved Shield-Generating Armor
-
-utility_component_template = {
-	key = "SMALL_NHSC_SHIELD_ARMOR_2"
-	size = small
-	icon = "GFX_ship_part_armor_nhsc_shield_2"
-	icon_frame = 1
-	power = -30
-	cost = @cost_S7
-	modifier = {
-		ship_armor_add = @armor_S5
-		ship_shield_add = @shield_S4
-		ship_shield_regen_add_static = @regen_S4
-	}
-
-	prerequisites = { "nhsc_tech_armor_shield_2" }
-	component_set = "NHSC_SHIELD_ARMOR_2"
-	upgrades_to = "SMALL_NHSC_SHIELD_ARMOR_3"
-}
-
-utility_component_template = {
-	key = "MEDIUM_NHSC_SHIELD_ARMOR_2"
-	size = medium
-	icon = "GFX_ship_part_armor_nhsc_shield_2"
-	icon_frame = 1
-	power = -75
-	cost = @cost_M7
-	modifier = {
-		ship_armor_add = @armor_M5
-		ship_shield_add = @shield_M4
-		ship_shield_regen_add_static = @regen_M4
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_2" }
-	component_set = "NHSC_SHIELD_ARMOR_2"
-	upgrades_to = "MEDIUM_NHSC_SHIELD_ARMOR_3"
-}
-
-utility_component_template = {
-	key = "LARGE_NHSC_SHIELD_ARMOR_2"
-	size = large
-	icon = "GFX_ship_part_armor_nhsc_shield_2"
-	icon_frame = 1
-	power = -185
-	cost = @cost_L7
-	modifier = {
-		ship_armor_add = @armor_L5
-		ship_shield_add = @shield_L4
-		ship_shield_regen_add_static = @regen_L4
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_2" }
-	component_set = "NHSC_SHIELD_ARMOR_2"
-	upgrades_to = "LARGE_NHSC_SHIELD_ARMOR_3"
-}
-
-
-### Shielding Bulwark
-
-utility_component_template = {
-	key = "SMALL_NHSC_SHIELD_ARMOR_3"
-	size = small
-	icon = "GFX_ship_part_armor_nhsc_shield_3"
-	icon_frame = 1
-	power = -35
-	cost = @cost_S8
-	modifier = {
-		ship_armor_add = @armor_S6
-		ship_shield_add = @shield_S5
-		ship_shield_regen_add_static = @regen_S5
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_3" }
-	component_set = "NHSC_SHIELD_ARMOR_3"
-}
-
-utility_component_template = {
-	key = "MEDIUM_NHSC_SHIELD_ARMOR_3"
-	size = medium
-	icon = "GFX_ship_part_armor_nhsc_shield_3"
-	icon_frame = 1
-	power = -85
-	cost = @cost_M8
-	modifier = {
-		ship_armor_add = @armor_M6
-		ship_shield_add = @shield_M5
-		ship_shield_regen_add_static = @regen_M5
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_3" }
-	component_set = "NHSC_SHIELD_ARMOR_3"
-}
-
-utility_component_template = {
-	key = "LARGE_NHSC_SHIELD_ARMOR_3"
-	size = large
-	icon = "GFX_ship_part_armor_nhsc_shield_3"
-	icon_frame = 1
-	power = -210
-	cost = @cost_L8
-	modifier = {
-		ship_armor_add = @armor_L6
-		ship_shield_add = @shield_L5
-		ship_shield_regen_add_static = @regen_L5
-	}
-	
-	prerequisites = { "nhsc_tech_armor_shield_3" }
-	component_set = "NHSC_SHIELD_ARMOR_3"
-}
-
-### Augmented dragonscale armor
+############################################################
+##           Nanite-Augmented Dragonscale Armor           ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_DRAGON_NANOARMOR"
@@ -435,9 +286,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_dragon2"
 	icon_frame = 1
 	power = -20
-	cost = @cost_S8	
+	cost = @armor_8_cost_S
 	modifier = {
-		ship_armor_add = @armor_S7
+		ship_armor_add = @armor_7_strength_S
 		ship_hull_regen_add_static = 0.4
 		ship_armor_regen_add_static = 0.5
 	}
@@ -462,9 +313,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_dragon2"
 	icon_frame = 1
 	power = -40
-	cost = @cost_M8
+	cost = @armor_8_cost_M
 	modifier = {
-		ship_armor_add = @armor_M7
+		ship_armor_add = @armor_7_strength_M
 		ship_hull_regen_add_static = 0.8
 		ship_armor_regen_add_static = 1
 	}
@@ -489,9 +340,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_dragon2"
 	icon_frame = 1
 	power = -80
-	cost = @cost_L8
+	cost = @armor_8_cost_L
 	modifier = {
-		ship_armor_add = @armor_L7
+		ship_armor_add = @armor_7_strength_L
 		ship_hull_regen_add_static = 1.6
 		ship_armor_regen_add_static = 2
 	}
@@ -510,7 +361,180 @@ utility_component_template = {
 	}
 }
 
-### Hardlight Armor
+############################################################
+##                Shield-Generating Armor                 ##
+############################################################
+
+utility_component_template = {
+	key = "SMALL_NHSC_SHIELD_ARMOR_1"
+	size = small
+	icon = "GFX_ship_part_armor_nhsc_shield_1"
+	icon_frame = 1
+	power = -25
+	cost = @armor_6_cost_S
+	modifier = {
+		ship_armor_add = @armor_4_strength_S
+		ship_shield_add = @armor_shield_strength_1_S
+		ship_shield_regen_add_static = @armor_shield_regen_1_S
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_1" }
+	component_set = "NHSC_SHIELD_ARMOR_1"
+	upgrades_to = "SMALL_NHSC_SHIELD_ARMOR_2"
+}
+
+utility_component_template = {
+	key = "MEDIUM_NHSC_SHIELD_ARMOR_1"
+	size = medium
+	icon = "GFX_ship_part_armor_nhsc_shield_1"
+	icon_frame = 1
+	power = -65
+	cost = @armor_6_cost_M
+	modifier = {
+		ship_armor_add = @armor_4_strength_M
+		ship_shield_add = @armor_shield_strength_1_M
+		ship_shield_regen_add_static = @armor_shield_regen_1_M
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_1" }
+	component_set = "NHSC_SHIELD_ARMOR_1"
+	upgrades_to = "MEDIUM_NHSC_SHIELD_ARMOR_2"
+}
+
+utility_component_template = {
+	key = "LARGE_NHSC_SHIELD_ARMOR_1"
+	size = large
+	icon = "GFX_ship_part_armor_nhsc_shield_1"
+	icon_frame = 1
+	power = -150
+	cost = @armor_6_cost_L
+	modifier = {
+		ship_armor_add = @armor_4_strength_L
+		ship_shield_add = @armor_shield_strength_1_L
+		ship_shield_regen_add_static = @armor_shield_regen_1_L
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_1" }
+	component_set = "NHSC_SHIELD_ARMOR_1"
+	upgrades_to = "LARGE_NHSC_SHIELD_ARMOR_2"
+}
+
+############################################################
+##           Improved Shield-Generating Armor             ##
+############################################################
+
+utility_component_template = {
+	key = "SMALL_NHSC_SHIELD_ARMOR_2"
+	size = small
+	icon = "GFX_ship_part_armor_nhsc_shield_2"
+	icon_frame = 1
+	power = -30
+	cost = @armor_7_cost_S
+	modifier = {
+		ship_armor_add = @armor_5_strength_S
+		ship_shield_add = @armor_shield_strength_2_S
+		ship_shield_regen_add_static = @armor_shield_regen_2_S
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_2" }
+	component_set = "NHSC_SHIELD_ARMOR_2"
+	upgrades_to = "SMALL_NHSC_SHIELD_ARMOR_3"
+}
+
+utility_component_template = {
+	key = "MEDIUM_NHSC_SHIELD_ARMOR_2"
+	size = medium
+	icon = "GFX_ship_part_armor_nhsc_shield_2"
+	icon_frame = 1
+	power = -75
+	cost = @armor_7_cost_M
+	modifier = {
+		ship_armor_add = @armor_5_strength_M
+		ship_shield_add = @armor_shield_strength_2_M
+		ship_shield_regen_add_static = @armor_shield_regen_2_M
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_2" }
+	component_set = "NHSC_SHIELD_ARMOR_2"
+	upgrades_to = "MEDIUM_NHSC_SHIELD_ARMOR_3"
+}
+
+utility_component_template = {
+	key = "LARGE_NHSC_SHIELD_ARMOR_2"
+	size = large
+	icon = "GFX_ship_part_armor_nhsc_shield_2"
+	icon_frame = 1
+	power = -185
+	cost = @armor_7_cost_L
+	modifier = {
+		ship_armor_add = @armor_5_strength_L
+		ship_shield_add = @armor_shield_strength_2_L
+		ship_shield_regen_add_static = @armor_shield_regen_2_L
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_2" }
+	component_set = "NHSC_SHIELD_ARMOR_2"
+	upgrades_to = "LARGE_NHSC_SHIELD_ARMOR_3"
+}
+
+############################################################
+##                   Shielding Bulwark                    ##
+############################################################
+
+utility_component_template = {
+	key = "SMALL_NHSC_SHIELD_ARMOR_3"
+	size = small
+	icon = "GFX_ship_part_armor_nhsc_shield_3"
+	icon_frame = 1
+	power = -35
+	cost = @armor_8_cost_S
+	modifier = {
+		ship_armor_add = @armor_6_strength_S
+		ship_shield_add = @armor_shield_strength_3_S
+		ship_shield_regen_add_static = @armor_shield_regen_3_S
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_3" }
+	component_set = "NHSC_SHIELD_ARMOR_3"
+}
+
+utility_component_template = {
+	key = "MEDIUM_NHSC_SHIELD_ARMOR_3"
+	size = medium
+	icon = "GFX_ship_part_armor_nhsc_shield_3"
+	icon_frame = 1
+	power = -85
+	cost = @armor_8_cost_M
+	modifier = {
+		ship_armor_add = @armor_6_strength_M
+		ship_shield_add = @armor_shield_strength_3_M
+		ship_shield_regen_add_static = @armor_shield_regen_3_M
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_3" }
+	component_set = "NHSC_SHIELD_ARMOR_3"
+}
+
+utility_component_template = {
+	key = "LARGE_NHSC_SHIELD_ARMOR_3"
+	size = large
+	icon = "GFX_ship_part_armor_nhsc_shield_3"
+	icon_frame = 1
+	power = -210
+	cost = @armor_8_cost_L
+	modifier = {
+		ship_armor_add = @armor_6_strength_L
+		ship_shield_add = @armor_shield_strength_3_L
+		ship_shield_regen_add_static = @armor_shield_regen_3_L
+	}
+
+	prerequisites = { "nhsc_tech_armor_shield_3" }
+	component_set = "NHSC_SHIELD_ARMOR_3"
+}
+
+############################################################
+##                     Hardlight Armor                    ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_HARDLIGHT_ARMOR"
@@ -518,9 +542,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -15
-	cost = @cost_S8
+	cost = @armor_8_cost_S
 	modifier = {
-		ship_armor_add = @armor_S7
+		ship_armor_add = @armor_7_strength_S
 		ship_shield_regen_add_static = 6
 	}
 
@@ -544,9 +568,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -30
-	cost = @cost_M8
+	cost = @armor_8_cost_M
 	modifier = {
-		ship_armor_add = @armor_M7
+		ship_armor_add = @armor_7_strength_M
 		ship_shield_regen_add_static = 12
 	}
 
@@ -570,9 +594,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -60
-	cost = @cost_L8
+	cost = @armor_8_cost_L
 	modifier = {
-		ship_armor_add = @armor_L7
+		ship_armor_add = @armor_7_strength_L
 		ship_shield_regen_add_static = 24
 	}
 
@@ -590,16 +614,18 @@ utility_component_template = {
 	}
 }
 
-### Dimensional Horror Armor
+############################################################
+##                Dimensional Horror Armor                ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_HORROR_ARMOR"
 	size = small
 	icon = "GFX_ship_part_armor_nhsc_horror"
 	icon_frame = 1
-	cost = @cost_S8
+	cost = @armor_8_cost_S
 	modifier = {
-		ship_armor_add = @armor_S8
+		ship_armor_add = @armor_8_strength_S
 		ship_armor_regen_add_static = 0.4
 	}
 	
@@ -622,9 +648,9 @@ utility_component_template = {
 	size = medium
 	icon = "GFX_ship_part_armor_nhsc_horror"
 	icon_frame = 1
-	cost = @cost_M8
+	cost = @armor_8_cost_M
 	modifier = {
-		ship_armor_add = @armor_M8
+		ship_armor_add = @armor_8_strength_M
 		ship_armor_regen_add_static = 0.8
 	}
 	
@@ -647,9 +673,9 @@ utility_component_template = {
 	size = large
 	icon = "GFX_ship_part_armor_nhsc_horror"
 	icon_frame = 1
-	cost = @cost_L8
+	cost = @armor_8_cost_L
 	modifier = {
-		ship_armor_add = @armor_L8
+		ship_armor_add = @armor_8_strength_L
 		ship_armor_regen_add_static = 1.6
 	}
 	

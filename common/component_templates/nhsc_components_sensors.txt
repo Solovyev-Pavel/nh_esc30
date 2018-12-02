@@ -1,39 +1,48 @@
-### components that are shown in the ship designer :: sensors
+############################################################
+##                 ESC : Sensor Components                ##
+############################################################
 
-@hit5 = 17.5
-@hit6 = 20
-@hit7 = 22.5
-@hit_psi = 25
+# - Advanced Tachyon Sensors
+# - String Sensors
+# - Advanced String Sensors
+# - Psionic Sensors
 
-@cost5 = 10
-@cost6 = 12
-@cost7 = 14
+@tier5_hit_chance = 17.5
+@tier6_hit_chance = 20
+@tier7_hit_chance = 22.5
+@psionic_hit_chance = 25
 
-@power5 = -25
-@power6 = -30
-@power7 = -35
+@tier5_cost = 10
+@tier6_cost = 12
+@tier7_cost = 14
 
-@sensor5 = 4
-@sensor6 = 5
-@sensor7 = 5
+@tier5_power = -25
+@tier6_power = -30
+@tier7_power = -35
 
-@hyperlane4 = 8
-@hyperlane5 = 10
+@tier5_sensor_range = 4
+@tier6_sensor_range = 5
+@tier7_sensor_range = 5
 
-### advanced tachyon sensors
+@hyperlane_sight_4 = 8
+@hyperlane_sight_5 = 10
+
+############################################################
+##                Advanced Tachyon Sensors                ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_ADV_TACHYON_SENSOR_SHIP"
 	size = medium
 	icon = "GFX_ship_part_sensor_nhsc_5"
 	icon_frame = 1
-	power = @power5
-	cost = @cost5
-	sensor_range = @sensor5
-	hyperlane_range = @hyperlane4
+	power = @tier5_power
+	cost = @tier5_cost
+	sensor_range = @tier5_sensor_range
+	hyperlane_range = @hyperlane_sight_4
 
 	ship_modifier = {
-		ship_tracking_add = @hit5
+		ship_tracking_add = @tier5_hit_chance
 	}	
 
 	prerequisites = { "nhsc_tech_advanced_sensors_1" }
@@ -46,20 +55,22 @@ utility_component_template = {
 	}
 }
 
-### string sensors
+############################################################
+##                      String Sensors                    ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_STRING_SENSOR_SHIP"
 	size = medium
 	icon = "GFX_ship_part_sensor_nhsc_6"
 	icon_frame = 1
-	power = @power6
-	cost = @cost6
-	sensor_range = @sensor6
-	hyperlane_range = @hyperlane5
+	power = @tier6_power
+	cost = @tier6_cost
+	sensor_range = @tier6_sensor_range
+	hyperlane_range = @hyperlane_sight_5
 
 	ship_modifier = {
-		ship_tracking_add = @hit6
+		ship_tracking_add = @tier6_hit_chance
 	}	
 
 	upgrades_to = "NHSC_ADV_STRING_SENSOR_SHIP"
@@ -72,20 +83,22 @@ utility_component_template = {
 	}
 }
 
-### advanced string sensors
+############################################################
+##                 Advanced String Sensors                ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_ADV_STRING_SENSOR_SHIP"
 	size = medium
 	icon = "GFX_ship_part_sensor_nhsc_7"
 	icon_frame = 1	
-	power = @power7
-	cost = @cost7
-	sensor_range = @sensor7
-	hyperlane_range = @hyperlane5
+	power = @tier7_power
+	cost = @tier7_cost
+	sensor_range = @tier7_sensor_range
+	hyperlane_range = @hyperlane_sight_5
 
 	ship_modifier = {
-		ship_tracking_add = @hit7
+		ship_tracking_add = @tier7_hit_chance
 	}	
 
 	prerequisites = { "nhsc_tech_advanced_sensors_3" }
@@ -96,20 +109,22 @@ utility_component_template = {
 	}
 }
 
-### psionic sensors
+############################################################
+##                     Psionic Sensors                    ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_PSI_SENSOR_SHIP"
 	size = medium
 	icon = "GFX_ship_part_sensor_nhsc_psi"
 	icon_frame = 1	
-	power = @power7
-	cost = @cost7
-	sensor_range = @sensor7
-	hyperlane_range = @hyperlane5
+	power = @tier7_power
+	cost = @tier7_cost
+	sensor_range = @tier7_sensor_range
+	hyperlane_range = @hyperlane_sight_5
 
 	ship_modifier = {
-		ship_tracking_add = @hit_psi
+		ship_tracking_add = @psionic_hit_chance
 	}	
 
 	prerequisites = { "nhsc_tech_psionic_sensors" }

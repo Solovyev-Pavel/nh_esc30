@@ -1,6 +1,50 @@
-### components that are shown in the ship designer :: leviathan weapons
+############################################################
+##                ESC : Leviathan Weapons                 ##
+############################################################
 
-### Enigmatic Energy Discharger
+# - Enigmatic Energy Discharger					L
+# - Enigmatic Energy Lash						M
+# - Enigmatic Energy Autocannon					S
+# - Enigmatic Energy Lance						X, Titanic
+# - Dimensional Horror Point Defense			M
+# - Tiyanki Beam Cannon							X, Titanic
+# - Junk Mine Launcher							T
+# - Voidspawn Missile Launcher					T
+
+@enigmatic_hull_damage = 1.25
+@enigmatic_armor_damage = 0.5
+@enigmatic_armor_penetration = 0.5
+@enigmatic_shield_damage = 2.0
+@enigmatic_shield_penetration = 0.0
+
+@dimensional_horror_hull_damage = 1.1
+@dimensional_horror_armor_penetration = 0.1
+@dimensional_horror_armor_damage = 0.9
+@dimensional_horror_shield_penetration = 1.0
+@dimensional_horror_shield_damage = 1.1
+
+@tiyanki_hull_damage = 1.0
+@tiyanki_armor_damage = 2.0
+@tiyanki_armor_penetration = 0.0
+@tiyanki_shield_damage = 2.0
+@tiyanki_shield_penetration = 0.0
+
+@junk_hull_damage = 1.5
+@junk_armor_penetration = 0.0
+@junk_armor_damage = 0.8
+@junk_shield_penetration = 1.0
+@junk_shield_damage = 1.0
+
+@voidspawn_hull_damage = 3.0
+@voidspawn_armor_damage = 0.8
+@voidspawn_armor_penetration = 0.0
+@voidspawn_shield_damage = 1.0
+@voidspawn_shield_penetration = 1.0
+
+############################################################
+##              Enigmatic Energy Discharger               ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ENIGMATIC_CANNON"
 	size = large
@@ -16,11 +60,11 @@ weapon_component_template = {
 	accuracy = 0.9
 	power = -110
 	cost = 190
-	hull_damage = 1.25
-	armor_penetration = 0.5
-	armor_damage = 0.5
-	shield_penetration = 0.0
-	shield_damage = 2.00
+	hull_damage = @enigmatic_hull_damage
+	armor_penetration = @enigmatic_armor_penetration
+	armor_damage = @enigmatic_armor_damage
+	shield_penetration = @enigmatic_shield_penetration
+	shield_damage = @enigmatic_shield_damage
 	tracking = 0.25
 
 	prerequisites = { "nhsc_tech_enigmatic_discharger" }
@@ -40,7 +84,10 @@ weapon_component_template = {
 	}
 }
 
-### Enigmatic Energy Lash
+############################################################
+##                 Enigmatic Energy Lash                  ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ENIGMATIC_LASH"
 	size = medium
@@ -56,11 +103,11 @@ weapon_component_template = {
 	accuracy = 0.75
 	power = -25
 	cost = 30
-	hull_damage = 1.25
-	armor_penetration = 0.5
-	armor_damage = 0.5
-	shield_penetration = 0.0
-	shield_damage = 2.00
+	hull_damage = @enigmatic_hull_damage
+	armor_penetration = @enigmatic_armor_penetration
+	armor_damage = @enigmatic_armor_damage
+	shield_penetration = @enigmatic_shield_penetration
+	shield_damage = @enigmatic_shield_damage
 	tracking = 0.5
 
 	prerequisites = { "nhsc_tech_enigmatic_lash" }
@@ -80,7 +127,9 @@ weapon_component_template = {
 	}
 }
 
-### Engimatic Energy Autocannon
+############################################################
+##              Enigmatic Energy Autocannon               ##
+############################################################
 
 weapon_component_template = {
 	key = "NHSC_ENIGMATIC_AUTOCANNON"
@@ -97,11 +146,11 @@ weapon_component_template = {
 	accuracy = 0.9
 	power = -25
 	cost = 35
-	hull_damage = 1.25
-	armor_penetration = 0.5
-	armor_damage = 0.5
-	shield_penetration = 0.0
-	shield_damage = 2.00
+	hull_damage = @enigmatic_hull_damage
+	armor_penetration = @enigmatic_armor_penetration
+	armor_damage = @enigmatic_armor_damage
+	shield_penetration = @enigmatic_shield_penetration
+	shield_damage = @enigmatic_shield_damage
 	tracking = 0.65
 
 	prerequisites = { "nhsc_tech_enigmatic_autocannon" }
@@ -121,7 +170,10 @@ weapon_component_template = {
 	}
 }
 
-### Enigmatic Lance
+############################################################
+##                Enigmatic Energy Lance                  ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ENIGMATIC_LANCE"
 	size = extra_large
@@ -137,11 +189,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -300
 	cost = 400
-	hull_damage = 1.25
-	armor_penetration = 0.5
-	armor_damage = 0.5
-	shield_penetration = 0.0
-	shield_damage = 2.00
+	hull_damage = @enigmatic_hull_damage
+	armor_penetration = @enigmatic_armor_penetration
+	armor_damage = @enigmatic_armor_damage
+	shield_penetration = @enigmatic_shield_penetration
+	shield_damage = @enigmatic_shield_damage
 	tracking = 0.15
 
 	firing_arc = 25.0
@@ -166,6 +218,10 @@ weapon_component_template = {
 	}
 }
 
+############################################################
+##            Enigmatic Energy Lance (Titanic)            ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_ENIGMATIC_LANCE_TITANIC"
 	size = titanic
@@ -181,11 +237,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -500
 	cost = 500
-	hull_damage = 1.25
-	armor_penetration = 0.5
-	armor_damage = 0.5
-	shield_penetration = 0.0
-	shield_damage = 2.00
+	hull_damage = @enigmatic_hull_damage
+	armor_penetration = @enigmatic_armor_penetration
+	armor_damage = @enigmatic_armor_damage
+	shield_penetration = @enigmatic_shield_penetration
+	shield_damage = @enigmatic_shield_damage
 	tracking = 0.15
 
 	firing_arc = 25.0
@@ -210,7 +266,10 @@ weapon_component_template = {
 	}
 }
 
-### Dimensional Horror PD
+############################################################
+##            Dimensional Horror Point Defense            ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_EXTRADIMENSIONAL_PD"
 	size = medium
@@ -226,11 +285,11 @@ weapon_component_template = {
 	accuracy = 0.8
 	power = -25
 	cost = 45
-	hull_damage = 1.1
-	armor_penetration = 0.1
-	armor_damage = 0.9
-	shield_penetration = 1.0
-	shield_damage = 1.1
+	hull_damage = @dimensional_horror_hull_damage
+	armor_penetration = @dimensional_horror_armor_penetration
+	armor_damage = @dimensional_horror_armor_damage
+	shield_penetration = @dimensional_horror_shield_penetration
+	shield_damage = @dimensional_horror_shield_damage
 	tracking = 0.25
 
 	prerequisites = { "nhsc_tech_extradimensional_pd" }
@@ -239,7 +298,15 @@ weapon_component_template = {
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense }
 
-	size_restriction = { military_station_small military_station_medium military_station_large cruiser battleship Battlecruiser StrikeCruiser titan Dreadnought Carrier Flagship }
+	size_restriction = { military_station_small military_station_medium military_station_large
+						 cruiser battleship Battlecruiser StrikeCruiser titan Dreadnought Carrier Flagship
+						 rs_support_cruiser rs_ea_cruiser rs_battlecruiser rs_dreadnought
+						 rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b rs_heavy_dreadnought_type_c
+						 rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e rs_heavy_dreadnought_type_f
+						 rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h rs_heavy_dreadnought_type_strg
+						 rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2
+						 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw fe_battlecruiser
+						 fe_titan ultrajuggernaut SCX_Carrier SCX_Dreadnought }
 
 	valid_for_country = {
 		modifier = {
@@ -252,7 +319,10 @@ weapon_component_template = {
 	}
 }
 
-### Tiyanki Bean Cannon
+############################################################
+##                  Tiyanki Beam Cannon                   ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_TIYANKI_CANNON"
 	size = extra_large
@@ -268,11 +338,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -290
 	cost = 400
-	hull_damage = 1.0
-	armor_penetration = 0.0
-	armor_damage = 2.0
-	shield_penetration = 0.0
-	shield_damage = 2.0
+	hull_damage = @tiyanki_hull_damage
+	armor_penetration = @tiyanki_armor_penetration
+	armor_damage = @tiyanki_armor_damage
+	shield_penetration = @tiyanki_shield_penetration
+	shield_damage = @tiyanki_shield_damage
 	tracking = 0.3
 
 	firing_arc = 25.0
@@ -297,6 +367,10 @@ weapon_component_template = {
 	}
 }
 
+############################################################
+##             Tiyanki Beam Cannon (Titanic)              ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_TIYANKI_CANNON_TITANIC"
 	size = titanic
@@ -312,11 +386,11 @@ weapon_component_template = {
 	accuracy = 0.85
 	power = -500
 	cost = 500
-	hull_damage = 1.0
-	armor_penetration = 0.0
-	armor_damage = 2.0
-	shield_penetration = 0.0
-	shield_damage = 2.0
+	hull_damage = @tiyanki_hull_damage
+	armor_penetration = @tiyanki_armor_penetration
+	armor_damage = @tiyanki_armor_damage
+	shield_penetration = @tiyanki_shield_penetration
+	shield_damage = @tiyanki_shield_damage
 	tracking = 0.05
 
 	firing_arc = 25.0
@@ -341,6 +415,10 @@ weapon_component_template = {
 	}
 }
 
+############################################################
+##                   Junk Mine Launcher                   ##
+############################################################
+
 weapon_component_template = {
 	key = "NHSC_JUNK_MINE_LAUNCHER"
 	size = torpedo
@@ -361,11 +439,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -20
 	cost = 45
-	hull_damage = 1.5
-	armor_damage = 0.8
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @junk_hull_damage
+	armor_damage = @junk_armor_damage
+	armor_penetration = @junk_armor_penetration
+	shield_damage = @junk_shield_damage
+	shield_penetration = @junk_shield_penetration
 	tracking = 0.25
 
 	prerequisites = { "nhsc_tech_junk_mine_launcher" }
@@ -384,6 +462,10 @@ weapon_component_template = {
 		}
 	}
 }
+
+############################################################
+##               Voidspawn Missile Launcher               ##
+############################################################
 
 weapon_component_template = {
 	key = "NHSC_VOIDSPAWN_MISSILE"
@@ -404,11 +486,11 @@ weapon_component_template = {
 	missile_retarget_range = 120
 	power = -50
 	cost = 100
-	hull_damage = 3.0
-	armor_damage = 0.8
-	armor_penetration = 0.0
-	shield_damage = 1.0
-	shield_penetration = 1.0
+	hull_damage = @voidspawn_hull_damage
+	armor_damage = @voidspawn_armor_damage
+	armor_penetration = @voidspawn_armor_penetration
+	shield_damage = @voidspawn_shield_damage
+	shield_penetration = @voidspawn_shield_penetration
 	tracking = 0.15
 
 	prerequisites = { "nhsc_tech_voidspawn_missile" }

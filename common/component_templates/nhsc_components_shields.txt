@@ -1,4 +1,15 @@
-### components that are shown in the ship designer :: shields
+############################################################
+##                ESC : Shields Components                ##
+############################################################
+
+# - Improved Hypershield 				S/M/L
+# - Supercharged Hypershield			S/M/L
+# - Wave-Force Armor					S/M/L
+# - Cyclonic Deflectors					S/M/L
+# - Cyclonic Shields					S/M/L
+# - Improved Cyclonic Shields			S/M/L
+# - Improved Dark Matter Shield			S/M/L
+# - A.T. Field							S/M/L
 
 ### power requirement
 @power_S5 = -35
@@ -95,9 +106,9 @@
 @regen_M9 = 8.50
 @regen_L9 = 20.00
 
-########################################
-###       Improved Hypershield       ###
-########################################
+############################################################
+##                  Improved Hypershield                  ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_ADV_SHIELD_1"
@@ -153,9 +164,9 @@ utility_component_template = {
 	upgrades_to = "LARGE_NHSC_ADV_SHIELD_2"
 }
 
-########################################
-###     Supercharged Hypershield     ###
-########################################
+############################################################
+##                Supercharged Hypershield                ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_ADV_SHIELD_2"
@@ -211,9 +222,9 @@ utility_component_template = {
 	upgrades_to = "LARGE_NHSC_WFARMOR_SHIELD"
 }
 
-########################################
-###         Wave-Force Armor         ###
-########################################
+############################################################
+##                    Wave-Force Armor                    ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_WFARMOR_SHIELD"
@@ -296,9 +307,9 @@ utility_component_template = {
 	}
 }
 
-########################################
-###        Cyclonic Deflectors       ###
-########################################
+############################################################
+##                   Cyclonic Deflectors                  ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_CYCLONIC_SHIELD_1"
@@ -354,9 +365,9 @@ utility_component_template = {
 	upgrades_to = "LARGE_NHSC_CYCLONIC_SHIELD_2"
 }
 
-########################################
-###         Cyclonic Shield          ###
-########################################
+############################################################
+##                    Cyclonic Shields                    ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_CYCLONIC_SHIELD_2"
@@ -412,9 +423,9 @@ utility_component_template = {
 	upgrades_to = "LARGE_NHSC_CYCLONIC_SHIELD_3"	
 }
 
-########################################
-###     Improved Cyclonic Shields    ###
-########################################
+############################################################
+##               Improved Cyclonic Shields                ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_CYCLONIC_SHIELD_3"
@@ -467,9 +478,9 @@ utility_component_template = {
 	component_set = "NHSC_CYCLONIC_SHIELD_3"
 }
 
-########################################
-###   Improved Dark Matter Shield    ###
-########################################
+############################################################
+##              Improved Dark Matter Shield               ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_ENIGMATIC_SHIELD_2"
@@ -552,9 +563,9 @@ utility_component_template = {
 	}
 }
 
-########################################
-###             A.T. Field           ###
-########################################
+############################################################
+##                      A.T. Field                        ##
+############################################################
 
 utility_component_template = {
 	key = "SMALL_NHSC_ATFIELD"

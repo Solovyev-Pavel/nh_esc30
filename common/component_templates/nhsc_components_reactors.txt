@@ -1,4 +1,11 @@
-### components that are shown in the ship designer :: reactors
+############################################################
+##                ESC : Reactor Components                ##
+############################################################
+
+# - Improved Zero-Point Reactor
+# - Singularity Reactor
+# - Improved Singularity Reactor
+# - Improved Dark Matter Reactor
 
 @corvette_power_6 = 285
 @destroyer_power_6 = 550
@@ -109,11 +116,9 @@
 @starbase_cost = 0
 @citadel_cost = 0
 
-###################################################
-##                   Reactors                    ##
-###################################################
-
-### Improved Zero-Point Reactor
+############################################################
+##              Improved Zero-Point Reactor               ##
+############################################################
 
 utility_component_template = {
 	key = "CORVETTE_NHSC_ADV_REACTOR_1"
@@ -465,7 +470,9 @@ utility_component_template = {
 	}
 }
 
-### Singularity Reactor
+############################################################
+##                   Singularity Reactor                  ##
+############################################################
 
 utility_component_template = {
 	key = "CORVETTE_NHSC_ADV_REACTOR_2"
@@ -817,7 +824,9 @@ utility_component_template = {
 	}
 }
 
-### Improved Singularity Reactor
+############################################################
+##              Improved Singularity Reactor              ##
+############################################################
 
 utility_component_template = {
 	key = "CORVETTE_NHSC_ADV_REACTOR_3"
@@ -1151,10 +1160,12 @@ utility_component_template = {
 	}
 }
 
-### Improved Enigmatic Power Core
+############################################################
+##              Improved Dark Matter Reactor              ##
+############################################################
 
 utility_component_template = {
-	key = "CORVETTE_NHSC_ENIGMATIC_CORE_2"
+	key = "CORVETTE_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1171,7 +1182,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DESTROYER_NHSC_ENIGMATIC_CORE_2"
+	key = "DESTROYER_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1188,7 +1199,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "CRUISER_NHSC_ENIGMATIC_CORE_2"
+	key = "CRUISER_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1205,7 +1216,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "BATTLESHIP_NHSC_ENIGMATIC_CORE_2"
+	key = "BATTLESHIP_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1227,7 +1238,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "TITAN_NHSC_ENIGMATIC_CORE_2"
+	key = "TITAN_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1244,7 +1255,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "COLOSSUS_NHSC_ENIGMATIC_CORE_2"
+	key = "COLOSSUS_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1261,7 +1272,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "STRIKECRUISER_NHSC_ENIGMATIC_CORE_2"
+	key = "STRIKECRUISER_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1278,7 +1289,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "BATTLECRUISER_NHSC_ENIGMATIC_CORE_2"
+	key = "BATTLECRUISER_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1295,7 +1306,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "CARRIER_NHSC_ENIGMATIC_CORE_2"
+	key = "CARRIER_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1312,7 +1323,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DREADNOUGHT_NHSC_ENIGMATIC_CORE_2"
+	key = "DREADNOUGHT_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1329,7 +1340,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "FLAGSHIP_NHSC_ENIGMATIC_CORE_2"
+	key = "FLAGSHIP_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1346,7 +1357,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "SCX_DREADNOUGHT_NHSC_ENIGMATIC_CORE_2"
+	key = "SCX_DREADNOUGHT_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1363,7 +1374,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "PLATFORM_NHSC_ENIGMATIC_CORE_2"
+	key = "PLATFORM_NHSC_DARK_MATTER_CORE_2"
 	size = large
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1384,7 +1395,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "PLATFORM2_NHSC_ENIGMATIC_CORE_2"
+	key = "PLATFORM2_NHSC_DARK_MATTER_CORE_2"
 	size = large
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1404,7 +1415,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "PLATFORM3_NHSC_ENIGMATIC_CORE_2"
+	key = "PLATFORM3_NHSC_DARK_MATTER_CORE_2"
 	size = large
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1424,7 +1435,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "XLCANNON_NHSC_ENIGMATIC_CORE_2"
+	key = "XLCANNON_NHSC_DARK_MATTER_CORE_2"
 	size = large
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1444,7 +1455,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "ION_CANNON_NHSC_ENIGMATIC_CORE_2"
+	key = "ION_CANNON_NHSC_DARK_MATTER_CORE_2"
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1
@@ -1461,7 +1472,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "STARBASE_NHSC_ENIGMATIC_CORE_2"
+	key = "STARBASE_NHSC_DARK_MATTER_CORE_2"
 	size = large
 	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
 	icon_frame = 1

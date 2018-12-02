@@ -1,3 +1,20 @@
+############################################################
+##                  ESC : Ship Computers                  ##
+############################################################
+
+# - Automated Dreadnough Computer : Cruiser
+# - Automated Dreadnough Computer : Battleship
+# - Automated Dreadnough Computer : Titan
+# - Automated Dreadnough Computer : NSC Strike Cruiser
+# - Automated Dreadnough Computer : NSC Battlecruiser
+# - Automated Dreadnough Computer : NSC Carrier
+# - Automated Dreadnough Computer : NSC Dreadnought
+# - Automated Dreadnough Computer : NSC Flagship
+
+############################################################
+##        Automated Dreadnough Computer : Cruiser         ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_CRUISER"
 	size = small
@@ -25,6 +42,10 @@ utility_component_template = {
 		weight = 5
 	}	
 }
+
+############################################################
+##       Automated Dreadnough Computer : Battleship       ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_BATTLESHIP"
@@ -59,6 +80,10 @@ utility_component_template = {
 	}	
 }
 
+############################################################
+##         Automated Dreadnough Computer : Titan          ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_TITAN"
 	size = small
@@ -88,9 +113,9 @@ utility_component_template = {
 	}	
 }
 
-## ############################################### ##
-##                     NSC stuff                   ##
-## ############################################### ##
+############################################################
+##   Automated Dreadnough Computer : NSC Strike Cruiser   ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_STRIKECRUISER"
@@ -120,6 +145,10 @@ utility_component_template = {
 	}	
 }
 
+############################################################
+##   Automated Dreadnough Computer : NSC Battlecruiser    ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_BATTLECRUISER"
 	size = small
@@ -147,6 +176,10 @@ utility_component_template = {
 		weight = 5
 	}	
 }
+
+############################################################
+##      Automated Dreadnough Computer : NSC Carrier       ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_CARRIER"
@@ -176,6 +209,10 @@ utility_component_template = {
 	}	
 }
 
+############################################################
+##    Automated Dreadnough Computer : NSC Dreadnought     ##
+############################################################
+
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_DREADNOUGHT"
 	size = small
@@ -204,6 +241,10 @@ utility_component_template = {
 		weight = 5
 	}	
 }
+
+############################################################
+##      Automated Dreadnough Computer : NSC Flagship      ##
+############################################################
 
 utility_component_template = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_FLAGSHIP"
