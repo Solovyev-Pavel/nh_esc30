@@ -247,8 +247,11 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_l_t7_cost
+			food = @weapon_l_t7_cost
 			exotic_gases = 2
+		}
+		upkeep = {
+			food = 1
 		}
 	}
 
@@ -308,8 +311,11 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_l_t7_cost
+			food = @weapon_l_t7_cost
 			volatile_motes = 4
+		}
+		upkeep = {
+			food = 1
 		}
 	}
 

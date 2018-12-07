@@ -35,7 +35,7 @@
 @junk_shield_penetration = 1.0
 @junk_shield_damage = 1.0
 
-@voidspawn_hull_damage = 3.0
+@voidspawn_hull_damage = 2.5
 @voidspawn_armor_damage = 0.8
 @voidspawn_armor_penetration = 0.0
 @voidspawn_shield_damage = 1.0
@@ -597,12 +597,14 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_l_t8_cost
-			volatile_motes = 8
+			alloys = @weapon_m_t6_cost
+			food = @weapon_m_t6_cost
+			volatile_motes = 4
 		}
 		upkeep = {
-			energy = @weapon_l_t8_upkeep_energy
-			alloys = @weapon_l_t8_upkeep_alloys
+			energy = @weapon_m_t8_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+			food = 1
 		}
 	}
 
