@@ -65,7 +65,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t8_cost
 			esc_enigmatic_energy = 8
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
 			alloys = @weapon_l_t8_upkeep_alloys
@@ -120,7 +120,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t8_cost
 			esc_enigmatic_energy = 4
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t8_upkeep_energy
 			alloys = @weapon_m_t8_upkeep_alloys
@@ -175,7 +175,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t8_cost
 			esc_enigmatic_energy = 2
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t8_upkeep_energy
 			alloys = @weapon_s_t8_upkeep_alloys
@@ -230,7 +230,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t8_cost
 			esc_enigmatic_energy = 12
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -290,7 +290,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			esc_enigmatic_energy = 18
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -350,7 +350,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t8_cost
 			sr_dark_matter = 1.5
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t8_upkeep_energy
 			alloys = @weapon_m_t8_upkeep_alloys
@@ -415,7 +415,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t7_cost
 			exotic_gases = 5
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -475,7 +475,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			exotic_gases = 8
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -540,7 +540,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			minerals = @weapon_m_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			minerals = @weapon_m_t6_upkeep_alloys
@@ -599,7 +599,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t8_cost
 			volatile_motes = 8
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
 			alloys = @weapon_l_t8_upkeep_alloys

@@ -28,7 +28,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @armor_s_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t6_upkeep_energy
 			alloys = @armor_s_t6_upkeep_alloys
@@ -36,7 +36,7 @@ utility_component_template = {
 	}
 
 	modifier = { ship_armor_add = @armor_s_t6_strength }
-	
+
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
 	upgrades_to = "SMALL_NHSC_ADV_ARMOR_2"
@@ -53,7 +53,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @armor_m_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t6_upkeep_energy
 			alloys = @armor_m_t6_upkeep_alloys
@@ -61,7 +61,7 @@ utility_component_template = {
 	}
 
 	modifier = { ship_armor_add = @armor_m_t6_strength }
-	
+
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
 	upgrades_to = "MEDIUM_NHSC_ADV_ARMOR_2"
@@ -78,7 +78,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @armor_l_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t6_upkeep_energy
 			alloys = @armor_l_t6_upkeep_alloys
@@ -86,7 +86,7 @@ utility_component_template = {
 	}
 
 	modifier = { ship_armor_add = @armor_l_t6_strength }
-	
+
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
 	upgrades_to = "LARGE_NHSC_ADV_ARMOR_2"
@@ -102,12 +102,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	
+
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @armor_s_t7_cost
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t7_upkeep_energy
 			alloys = @armor_s_t7_upkeep_alloys
@@ -115,7 +115,7 @@ utility_component_template = {
 	}
 
 	modifier = { ship_armor_add = @armor_s_t7_strength }
-	
+
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
 }
@@ -131,7 +131,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @armor_m_t7_cost
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t7_upkeep_energy
 			alloys = @armor_m_t7_upkeep_alloys
@@ -139,7 +139,7 @@ utility_component_template = {
 	}
 
 	modifier = { ship_armor_add = @armor_m_t7_strength }
-	
+
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
 }
@@ -155,7 +155,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @armor_l_t7_cost
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t7_upkeep_energy
 			alloys = @armor_l_t7_upkeep_alloys
@@ -163,7 +163,7 @@ utility_component_template = {
 	}
 
 	modifier = { ship_armor_add = @armor_l_t7_strength }
-	
+
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
 }
@@ -184,7 +184,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t6_cost
 			nanites = @armor_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t6_upkeep_energy
 			alloys = @armor_s_t6_upkeep_alloys
@@ -196,7 +196,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 0.25
 		ship_armor_regen_add_static = 0.4
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_nanite_1" }
 	component_set = "NHSC_NANO_ARMOR_1"
 	upgrades_to = "SMALL_NHSC_NANO_ARMOR_2"
@@ -214,7 +214,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_m_t6_cost
 			nanites = @armor_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t6_upkeep_energy
 			alloys = @armor_m_t6_upkeep_alloys
@@ -226,7 +226,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 0.5
 		ship_armor_regen_add_static = 0.8
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_nanite_1" }
 	component_set = "NHSC_NANO_ARMOR_1"
 	upgrades_to = "MEDIUM_NHSC_NANO_ARMOR_2"
@@ -244,19 +244,19 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t6_cost
 			nanites = @armor_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t6_upkeep_energy
 			alloys = @armor_l_t6_upkeep_alloys
 		}
 	}
 
-	modifier = {		
+	modifier = {
 		ship_armor_add = @armor_l_t5_strength
 		ship_hull_regen_add_static = 1
 		ship_armor_regen_add_static = 1.6
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_nanite_1" }
 	component_set = "NHSC_NANO_ARMOR_1"
 	upgrades_to = "LARGE_NHSC_NANO_ARMOR_2"
@@ -278,7 +278,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t7_cost
 			nanites = @armor_s_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t7_upkeep_energy
 			alloys = @armor_s_t7_upkeep_alloys
@@ -290,7 +290,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 0.35
 		ship_armor_regen_add_static = 0.5
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_nanite_2" }
 	component_set = "NHSC_NANO_ARMOR_2"
 	upgrades_to = "SMALL_NHSC_DRAGON_NANOARMOR"
@@ -308,7 +308,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_m_t7_cost
 			nanites = @armor_m_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t7_upkeep_energy
 			alloys = @armor_m_t7_upkeep_alloys
@@ -320,7 +320,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 0.7
 		ship_armor_regen_add_static = 1
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_nanite_2" }
 	component_set = "NHSC_NANO_ARMOR_2"
 	upgrades_to = "MEDIUM_NHSC_DRAGON_NANOARMOR"
@@ -338,7 +338,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t7_cost
 			nanites = @armor_l_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t7_upkeep_energy
 			alloys = @armor_l_t7_upkeep_alloys
@@ -350,7 +350,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 1.4
 		ship_armor_regen_add_static = 2
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_nanite_2" }
 	component_set = "NHSC_NANO_ARMOR_2"
 	upgrades_to = "LARGE_NHSC_DRAGON_NANOARMOR"
@@ -373,7 +373,7 @@ utility_component_template = {
 			alloys = @armor_s_t8_cost
 			nanites = @armor_s_t8_cost_special
 			rare_crystals = @armor_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t8_upkeep_energy
 			alloys = @armor_s_t8_upkeep_alloys
@@ -385,7 +385,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 0.4
 		ship_armor_regen_add_static = 0.5
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_dragonscales_nanite" }
 	component_set = "NHSC_DRAGON_NANOARMOR"
 
@@ -413,7 +413,7 @@ utility_component_template = {
 			alloys = @armor_m_t8_cost
 			nanites = @armor_m_t8_cost_special
 			rare_crystals = @armor_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t8_upkeep_energy
 			alloys = @armor_m_t8_upkeep_alloys
@@ -425,7 +425,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 0.8
 		ship_armor_regen_add_static = 1
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_dragonscales_nanite" }
 	component_set = "NHSC_DRAGON_NANOARMOR"
 
@@ -453,7 +453,7 @@ utility_component_template = {
 			alloys = @armor_l_t8_cost
 			nanites = @armor_l_t8_cost_special
 			rare_crystals = @armor_l_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t8_upkeep_energy
 			alloys = @armor_l_t8_upkeep_alloys
@@ -465,7 +465,7 @@ utility_component_template = {
 		ship_hull_regen_add_static = 1.6
 		ship_armor_regen_add_static = 2
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_dragonscales_nanite" }
 	component_set = "NHSC_DRAGON_NANOARMOR"
 
@@ -496,7 +496,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t6_cost
 			nanites = @armor_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t6_upkeep_energy
 			alloys = @armor_s_t6_upkeep_alloys
@@ -526,7 +526,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_m_t6_cost
 			nanites = @armor_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t6_upkeep_energy
 			alloys = @armor_m_t6_upkeep_alloys
@@ -556,7 +556,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t6_cost
 			nanites = @armor_l_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t6_upkeep_energy
 			alloys = @armor_l_t6_upkeep_alloys
@@ -590,7 +590,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t7_cost
 			nanites = @armor_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t7_upkeep_energy
 			alloys = @armor_s_t7_upkeep_alloys
@@ -620,7 +620,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_m_t7_cost
 			nanites = @armor_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t7_upkeep_energy
 			alloys = @armor_m_t7_upkeep_alloys
@@ -650,7 +650,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t7_cost
 			nanites = @armor_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t7_upkeep_energy
 			alloys = @armor_l_t7_upkeep_alloys
@@ -684,7 +684,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t8_cost
 			nanites = @armor_s_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t8_upkeep_energy
 			alloys = @armor_s_t8_upkeep_alloys
@@ -713,7 +713,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_m_t8_cost
 			nanites = @armor_m_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t8_upkeep_energy
 			alloys = @armor_m_t8_upkeep_alloys
@@ -742,7 +742,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t8_cost
 			nanites = @armor_l_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t8_upkeep_energy
 			alloys = @armor_l_t8_upkeep_alloys
@@ -775,7 +775,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t7_cost
 			exotic_gases = @armor_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t8_upkeep_energy
 			alloys = @armor_s_t6_upkeep_alloys
@@ -807,13 +807,13 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = @armor_m_t7_cost
 			exotic_gases = @armor_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t8_upkeep_energy
 			alloys = @armor_m_t6_upkeep_alloys
@@ -851,7 +851,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t7_cost
 			exotic_gases = @armor_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t8_upkeep_energy
 			alloys = @armor_l_t6_upkeep_alloys
@@ -892,7 +892,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_s_t8_cost
 			rare_crystals = @armor_s_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_s_t8_upkeep_energy
 			alloys = @armor_s_t8_upkeep_alloys
@@ -903,7 +903,7 @@ utility_component_template = {
 		ship_armor_add = @armor_s_t8_strength
 		ship_armor_regen_add_static = 0.4
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_horror" }
 	component_set = "NHSC_HORROR_ARMOR"
 
@@ -929,7 +929,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_m_t8_cost
 			rare_crystals = @armor_m_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_m_t8_upkeep_energy
 			alloys = @armor_m_t8_upkeep_alloys
@@ -940,7 +940,7 @@ utility_component_template = {
 		ship_armor_add = @armor_m_t8_strength
 		ship_armor_regen_add_static = 0.8
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_horror" }
 	component_set = "NHSC_HORROR_ARMOR"
 
@@ -966,7 +966,7 @@ utility_component_template = {
 		cost = {
 			alloys = @armor_l_t8_cost
 			rare_crystals = @armor_l_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @armor_l_t8_upkeep_energy
 			alloys = @armor_l_t8_upkeep_alloys
@@ -977,7 +977,7 @@ utility_component_template = {
 		ship_armor_add = @armor_l_t8_strength
 		ship_armor_regen_add_static = 1.6
 	}
-	
+
 	prerequisites = { "nhsc_tech_armor_horror" }
 	component_set = "NHSC_HORROR_ARMOR"
 

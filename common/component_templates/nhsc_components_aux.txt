@@ -148,7 +148,7 @@ utility_component_template = {
 
 utility_component_template = {
 	key = "NHSC_BLUE_CRYSTAL_CAPACITOR"
-	size = aux	
+	size = aux
 	icon = "GFX_ship_part_nhsc_blue_crystal_capacitor"
 	icon_frame = 1
 	power = -25
@@ -233,11 +233,11 @@ utility_component_template = {
 	modifier = {
 		ship_shield_mult = 0.20
 		ship_shield_regen_add_static = 50
-	}	
+	}
 
 	prerequisites = { "nhsc_tech_advanced_shield_capacitors" }
 	component_set = "NHSC_ADV_SHIELD_RECHARGER"
-	
+
 	ai_weight = {
 		weight = 10
 		modifier = {

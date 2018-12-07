@@ -61,7 +61,7 @@ weapon_component_template = {
 	size = torpedo
 	icon = "GFX_ship_part_nhsc_missile_6"
 	icon_frame = 1
-	entity = "turret_missile_medium_entity"	
+	entity = "turret_missile_medium_entity"
 	type = missile
 	static_rotation = no
 
@@ -81,7 +81,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			volatile_motes = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -112,7 +112,7 @@ weapon_component_template = {
 	size = torpedo
 	icon = "GFX_ship_part_nhsc_missile_7"
 	icon_frame = 1
-	entity = "turret_missile_medium_entity"	
+	entity = "turret_missile_medium_entity"
 	type = missile
 	static_rotation = no
 
@@ -133,7 +133,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			volatile_motes = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -163,7 +163,7 @@ weapon_component_template = {
 	size = small
 	icon = "GFX_ship_part_nhsc_plasma_missile_1"
 	icon_frame = 1
-	entity = "small_laser_gun_entity"	
+	entity = "small_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -183,7 +183,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			exotic_gases = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -210,7 +210,7 @@ weapon_component_template = {
 	size = medium
 	icon = "GFX_ship_part_nhsc_plasma_missile_1"
 	icon_frame = 1
-	entity = "medium_laser_gun_entity"	
+	entity = "medium_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -230,7 +230,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			exotic_gases = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -257,7 +257,7 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_ship_part_nhsc_plasma_missile_1"
 	icon_frame = 1
-	entity = "large_laser_gun_entity"	
+	entity = "large_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -277,7 +277,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t6_cost
 			exotic_gases = @weapon_l_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
 			alloys = @weapon_l_t6_upkeep_alloys
@@ -308,7 +308,7 @@ weapon_component_template = {
 	size = small
 	icon = "GFX_ship_part_nhsc_plasma_missile_2"
 	icon_frame = 1
-	entity = "small_laser_gun_entity"	
+	entity = "small_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -328,7 +328,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			exotic_gases = @weapon_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -355,7 +355,7 @@ weapon_component_template = {
 	size = medium
 	icon = "GFX_ship_part_nhsc_plasma_missile_2"
 	icon_frame = 1
-	entity = "medium_laser_gun_entity"	
+	entity = "medium_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -375,7 +375,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			exotic_gases = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -402,7 +402,7 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_ship_part_nhsc_plasma_missile_2"
 	icon_frame = 1
-	entity = "large_laser_gun_entity"	
+	entity = "large_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -422,7 +422,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			exotic_gases = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -453,7 +453,7 @@ weapon_component_template = {
 	size = small
 	icon = "GFX_ship_part_nhsc_plasma_missile_3"
 	icon_frame = 1
-	entity = "small_laser_gun_entity"	
+	entity = "small_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -473,7 +473,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t8_cost
 			exotic_gases = @weapon_s_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t8_upkeep_energy
 			alloys = @weapon_s_t8_upkeep_alloys
@@ -499,7 +499,7 @@ weapon_component_template = {
 	size = medium
 	icon = "GFX_ship_part_nhsc_plasma_missile_3"
 	icon_frame = 1
-	entity = "medium_laser_gun_entity"	
+	entity = "medium_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -519,7 +519,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t8_cost
 			exotic_gases = @weapon_m_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t8_upkeep_energy
 			alloys = @weapon_m_t8_upkeep_alloys
@@ -545,7 +545,7 @@ weapon_component_template = {
 	size = large
 	icon = "GFX_ship_part_nhsc_plasma_missile_3"
 	icon_frame = 1
-	entity = "large_laser_gun_entity"	
+	entity = "large_laser_gun_entity"
 	type = missile
 	static_rotation = no
 
@@ -565,7 +565,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t8_cost
 			exotic_gases = @weapon_l_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
 			alloys = @weapon_l_t8_upkeep_alloys
@@ -608,7 +608,19 @@ weapon_component_template = {
 	missile_health = 16
 	missile_retarget_range = 120
 	power = -38
-	cost = 84
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @torpedo_hull_damage
 	armor_damage = @torpedo_armor_damage
 	armor_penetration = @torpedo_armor_penetration
@@ -651,12 +663,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_m_t6_cost
-			volatile_motes = @weapon_m_t6_cost_special
-		}		
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}
 		upkeep = {
-			energy = @weapon_m_t6_upkeep_energy
-			alloys = @weapon_m_t6_upkeep_alloys
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
 		}
 	}
 
@@ -702,12 +714,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_m_t7_cost
-			volatile_motes = @weapon_m_t7_cost_special
-		}		
+			alloys = @weapon_m_t8_cost
+			esc_transdimensional_vortex = 6
+		}
 		upkeep = {
-			energy = @weapon_m_t7_upkeep_energy
-			alloys = @weapon_m_t7_upkeep_alloys
+			energy = @weapon_m_t8_upkeep_energy
+			alloys = @weapon_m_t8_upkeep_alloys
 		}
 	}
 
@@ -764,7 +776,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			volatile_motes = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -815,7 +827,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			volatile_motes = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -868,7 +880,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t7_cost
 			exotic_gases = @weapon_xl_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -922,7 +934,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t8_cost
 			exotic_gases = @weapon_xl_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -975,7 +987,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			exotic_gases = @weapon_t_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys

@@ -60,7 +60,7 @@ weapon_component_template = {
 	key = "SMALL_NHSC_MASS_DRIVER_6"
 	size = small
 	icon = "GFX_ship_part_nhsc_mass_driver_6"
-	icon_frame = 1	
+	icon_frame = 1
     entity = "small_kinetic_gun_entity"
 	type = instant
 
@@ -76,7 +76,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			volatile_motes = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -102,7 +102,7 @@ weapon_component_template = {
 	key = "MEDIUM_NHSC_MASS_DRIVER_6"
 	size = medium
 	icon = "GFX_ship_part_nhsc_mass_driver_6"
-	icon_frame = 1	
+	icon_frame = 1
     entity = "medium_kinetic_gun_entity"
 	type = instant
 
@@ -118,7 +118,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			volatile_motes = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -144,7 +144,7 @@ weapon_component_template = {
 	key = "LARGE_NHSC_MASS_DRIVER_6"
 	size = large
 	icon = "GFX_ship_part_nhsc_mass_driver_6"
-	icon_frame = 1	
+	icon_frame = 1
     entity = "large_kinetic_gun_entity"
 	type = instant
 
@@ -160,7 +160,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t6_cost
 			volatile_motes = @weapon_l_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
 			alloys = @weapon_l_t6_upkeep_alloys
@@ -190,7 +190,7 @@ weapon_component_template = {
 	key = "SMALL_NHSC_MASS_DRIVER_7"
 	size = small
 	icon = "GFX_ship_part_nhsc_mass_driver_7"
-	icon_frame = 1	
+	icon_frame = 1
     entity = "small_kinetic_gun_entity"
 	type = instant
 
@@ -206,7 +206,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			volatile_motes = @weapon_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -231,7 +231,7 @@ weapon_component_template = {
 	key = "MEDIUM_NHSC_MASS_DRIVER_7"
 	size = medium
 	icon = "GFX_ship_part_nhsc_mass_driver_7"
-	icon_frame = 1	
+	icon_frame = 1
     entity = "medium_kinetic_gun_entity"
 	type = instant
 
@@ -247,7 +247,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			volatile_motes = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -272,7 +272,7 @@ weapon_component_template = {
 	key = "LARGE_NHSC_MASS_DRIVER_7"
 	size = large
 	icon = "GFX_ship_part_nhsc_mass_driver_7"
-	icon_frame = 1	
+	icon_frame = 1
     entity = "large_kinetic_gun_entity"
 	type = instant
 
@@ -288,7 +288,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			volatile_motes = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -333,7 +333,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			volatile_motes = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -345,7 +345,7 @@ weapon_component_template = {
 	armor_damage = @autocannon_armor_damage
 	shield_penetration = @autocannon_shield_penetration
 	shield_damage = @autocannon_shield_damage
-	tracking = 0.75	
+	tracking = 0.75
 
 	prerequisites = { "nhsc_tech_autocannon_4" }
 	component_set = "NHSC_AUTOCANNON_4"
@@ -353,7 +353,7 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	upgrades_to = "NHSC_AUTOCANNON_5"
-} 
+}
 
 ############################################################
 ##                  Shredder Autocannon                   ##
@@ -379,7 +379,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			volatile_motes = @weapon_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -391,14 +391,14 @@ weapon_component_template = {
 	armor_damage = @autocannon_armor_damage
 	shield_penetration = @autocannon_shield_penetration
 	shield_damage = @autocannon_shield_damage
-	tracking = 0.75	
+	tracking = 0.75
 
 	prerequisites = { "nhsc_tech_autocannon_5" }
 	component_set = "NHSC_AUTOCANNON_5"
 	projectile_gfx = "stormfire_auto_cannons_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
-} 
+}
 
 ############################################################
 ##                Improved Kinetic Artillery              ##
@@ -424,7 +424,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			volatile_motes = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -470,7 +470,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t8_cost
 			volatile_motes = @weapon_l_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
 			alloys = @weapon_l_t8_upkeep_alloys
@@ -488,7 +488,7 @@ weapon_component_template = {
 	component_set = "NHSC_ARTILLERY_4"
 	projectile_gfx = "adv_kinetic_artillery"
 	tags = { weapon_type_kinetic }
-	ai_tags = { weapon_role_artillery weapon_role_anti_shield }	
+	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
 }
 
 ############################################################
@@ -499,7 +499,7 @@ weapon_component_template = {
 	key = "NHSC_MASS_ACCELERATOR_3"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_mass_accelerator_3"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -515,7 +515,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t7_cost
 			volatile_motes = @weapon_xl_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -550,7 +550,7 @@ weapon_component_template = {
 	key = "NHSC_MASS_ACCELERATOR_4"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_mass_accelerator_4"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -566,7 +566,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t8_cost
 			volatile_motes = @weapon_xl_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -616,7 +616,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			volatile_motes = @weapon_t_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -665,7 +665,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 16
-		}		
+		}
 		upkeep = {
 			energy = 0.16
 			alloys = 0.016
@@ -677,14 +677,14 @@ weapon_component_template = {
 	armor_damage = @pd_armor_damage
 	shield_penetration = @pd_shield_penetration
 	shield_damage = @pd_shield_damage
-	tracking = 0.75 
+	tracking = 0.75
 
 	prerequisites = { "nhsc_tech_flak_battery_4" }
 	component_set = "NHSC_FLAK_CANNON_4"
 	projectile_gfx = "mass_driver_m"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense }
-	upgrades_to = "NHSC_FLAK_CANNON_5"	
+	upgrades_to = "NHSC_FLAK_CANNON_5"
 }
 
 ############################################################
@@ -710,7 +710,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 20
-		}		
+		}
 		upkeep = {
 			energy = 0.2
 			alloys = 0.02
@@ -722,7 +722,7 @@ weapon_component_template = {
 	armor_damage = @pd_armor_damage
 	shield_penetration = @pd_shield_penetration
 	shield_damage = @pd_shield_damage
-	tracking = 0.75 
+	tracking = 0.75
 
 	prerequisites = { "nhsc_tech_flak_battery_5" }
 	component_set = "NHSC_FLAK_CANNON_5"
@@ -754,7 +754,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 16
-		}		
+		}
 		upkeep = {
 			energy = 0.16
 			alloys = 0.016
@@ -767,7 +767,7 @@ weapon_component_template = {
 	shield_penetration = @pd_shield_penetration
 	shield_damage = @pd_shield_damage
 	tracking = 0.4
-	
+
 	prerequisites = { "nhsc_tech_pd_tracking_4" }
 	component_set = "NHSC_POINT_DEFENSE_4"
 	projectile_gfx = "white_laser_pd"
@@ -799,7 +799,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 20
-		}		
+		}
 		upkeep = {
 			energy = 0.2
 			alloys = 0.02
@@ -812,7 +812,7 @@ weapon_component_template = {
 	shield_penetration = @pd_shield_penetration
 	shield_damage = @pd_shield_damage
 	tracking = 0.4
-	
+
 	prerequisites = { "nhsc_tech_pd_tracking_5" }
 	component_set = "NHSC_POINT_DEFENSE_5"
 	projectile_gfx = "white_laser_pd"

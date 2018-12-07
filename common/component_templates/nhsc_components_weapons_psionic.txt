@@ -64,7 +64,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t6_cost
 			esc_psionic_charge = 4
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
 			alloys = @weapon_l_t6_upkeep_alloys
@@ -125,7 +125,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			esc_psionic_charge = 6
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -181,7 +181,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			esc_psionic_charge = 1
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -234,7 +234,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			esc_psionic_charge = 2
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -287,7 +287,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t6_cost
 			esc_psionic_charge = 4
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
 			alloys = @weapon_l_t6_upkeep_alloys
@@ -344,7 +344,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			esc_psionic_charge = 1.5
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -397,7 +397,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			esc_psionic_charge = 3
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -450,7 +450,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			esc_psionic_charge = 6
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -507,7 +507,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t8_cost
 			esc_psionic_charge = 2
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t8_upkeep_energy
 			alloys = @weapon_s_t8_upkeep_alloys
@@ -559,7 +559,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t8_cost
 			esc_psionic_charge = 4
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t8_upkeep_energy
 			alloys = @weapon_m_t8_upkeep_alloys
@@ -611,7 +611,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t8_cost
 			esc_psionic_charge = 8
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
 			alloys = @weapon_l_t8_upkeep_alloys
@@ -651,7 +651,7 @@ weapon_component_template = {
 	key = "NHSC_PSI_LANCE_1"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_psilance_1"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -667,7 +667,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t7_cost
 			esc_psionic_charge = 12
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -713,7 +713,7 @@ weapon_component_template = {
 	key = "NHSC_PSI_LANCE_2"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_psilance_2"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -729,7 +729,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t8_cost
 			esc_psionic_charge = 16
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -790,7 +790,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			esc_psionic_charge = 20
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -847,7 +847,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			esc_psionic_charge = 6
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -857,7 +857,7 @@ strike_craft_component_template = {
 	count = 8
 	regeneration_per_day = 0.15
 	launch_time = 1.5
-	
+
 	damage = { min = 10 max = 22 }
 	cooldown = 2.0
 	range = 10
@@ -865,7 +865,7 @@ strike_craft_component_template = {
 	health = 60
 	armor = 3
 	shield = 40
-	tracking = 0.70	
+	tracking = 0.70
 	speed = 425
 	rotation_speed = 0.15
 	acceleration = 0.6
@@ -875,7 +875,7 @@ strike_craft_component_template = {
 	armor_penetration = @psionic_strikecraft_armor_penetration
 	shield_penetration = @psionic_strikecraft_shield_penetration
 	shield_damage = @psionic_strikecraft_shield_damage
-	
+
 	ship_behavior = "fighters_behavior"
 	component_set = "NHSC_PSI_CRAFTS"
 	prerequisites = { "nhsc_tech_psionic_strikecraft" }

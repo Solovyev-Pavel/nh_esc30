@@ -85,7 +85,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			rare_crystals = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -104,7 +104,7 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_adv_laser_small"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "SMALL_NHSC_LASER_7"	
+	upgrades_to = "SMALL_NHSC_LASER_7"
 }
 
 weapon_component_template = {
@@ -127,7 +127,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			rare_crystals = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -146,7 +146,7 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_adv_laser_medium"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "MEDIUM_NHSC_LASER_7"	
+	upgrades_to = "MEDIUM_NHSC_LASER_7"
 }
 
 weapon_component_template = {
@@ -169,7 +169,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t6_cost
 			rare_crystals = @weapon_l_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
 			alloys = @weapon_l_t6_upkeep_alloys
@@ -188,7 +188,7 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_adv_laser_large"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "LARGE_NHSC_LASER_7"	
+	upgrades_to = "LARGE_NHSC_LASER_7"
 }
 
 ############################################################
@@ -215,7 +215,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			rare_crystals = @weapon_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -233,7 +233,7 @@ weapon_component_template = {
 	component_set = "NHSC_LASER_7"
 	projectile_gfx = "nhsc_aurora_laser_small"
 	tags = { weapon_type_energy }
-	ai_tags = { weapon_role_anti_armor }	
+	ai_tags = { weapon_role_anti_armor }
 }
 
 weapon_component_template = {
@@ -256,7 +256,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			rare_crystals = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -274,7 +274,7 @@ weapon_component_template = {
 	component_set = "NHSC_LASER_7"
 	projectile_gfx = "nhsc_aurora_laser_medium"
 	tags = { weapon_type_energy }
-	ai_tags = { weapon_role_anti_armor }	
+	ai_tags = { weapon_role_anti_armor }
 }
 
 weapon_component_template = {
@@ -297,7 +297,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			rare_crystals = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -342,7 +342,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			exotic_gases = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -384,7 +384,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			exotic_gases = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -426,7 +426,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t6_cost
 			exotic_gases = @weapon_l_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
 			alloys = @weapon_l_t6_upkeep_alloys
@@ -472,7 +472,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			exotic_gases = @weapon_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -513,7 +513,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			exotic_gases = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -554,7 +554,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			exotic_gases = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -599,7 +599,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			rare_crystals = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -609,7 +609,7 @@ weapon_component_template = {
 	hull_damage = @disruptor_hull_damage
 	armor_penetration = @disruptor_armor_penetration
 	armor_damage = @disruptor_armor_damage
-	shield_penetration = @disruptor_shield_penetration 
+	shield_penetration = @disruptor_shield_penetration
 	shield_damage = @disruptor_shield_damage
 	tracking = 0.6
 
@@ -641,7 +641,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t6_cost
 			rare_crystals = @weapon_m_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -651,7 +651,7 @@ weapon_component_template = {
 	hull_damage = @disruptor_hull_damage
 	armor_penetration = @disruptor_armor_penetration
 	armor_damage = @disruptor_armor_damage
-	shield_penetration = @disruptor_shield_penetration 
+	shield_penetration = @disruptor_shield_penetration
 	shield_damage = @disruptor_shield_damage
 	tracking = 0.35
 
@@ -661,7 +661,7 @@ weapon_component_template = {
 	upgrades_to = "MEDIUM_NHSC_DISRUPTOR_5"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield }
-} 
+}
 
 ############################################################
 ##                     Disruptor Lance                    ##
@@ -687,7 +687,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t7_cost
 			rare_crystals = @weapon_s_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -697,7 +697,7 @@ weapon_component_template = {
 	hull_damage = @disruptor_hull_damage
 	armor_penetration = @disruptor_armor_penetration
 	armor_damage = @disruptor_armor_damage
-	shield_penetration = @disruptor_shield_penetration 
+	shield_penetration = @disruptor_shield_penetration
 	shield_damage = @disruptor_shield_damage
 	tracking = 0.6
 
@@ -728,7 +728,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t7_cost
 			rare_crystals = @weapon_m_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys
@@ -738,7 +738,7 @@ weapon_component_template = {
 	hull_damage = @disruptor_hull_damage
 	armor_penetration = @disruptor_armor_penetration
 	armor_damage = @disruptor_armor_damage
-	shield_penetration = @disruptor_shield_penetration 
+	shield_penetration = @disruptor_shield_penetration
 	shield_damage = @disruptor_shield_damage
 	tracking = 0.35
 
@@ -747,7 +747,7 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_disruptor_5_medium"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield }
-} 
+}
 
 ############################################################
 ##                   Antimatter Launcher                  ##
@@ -773,7 +773,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t7_cost
 			exotic_gases = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t7_upkeep_energy
 			alloys = @weapon_l_t7_upkeep_alloys
@@ -820,7 +820,7 @@ weapon_component_template = {
 			alloys = @weapon_l_t8_cost
 			exotic_gases = @weapon_l_t6_cost_special
 			sr_dark_matter = 1.5
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
 			alloys = @weapon_l_t8_upkeep_alloys
@@ -865,7 +865,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t9_cost
 			esc_transdimensional_vortex = 1.5
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t9_upkeep_energy
 			alloys = @weapon_s_t9_upkeep_alloys
@@ -916,7 +916,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_m_t9_cost
 			esc_transdimensional_vortex = 3
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t9_upkeep_energy
 			alloys = @weapon_m_t9_upkeep_alloys
@@ -967,7 +967,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_l_t9_cost
 			esc_transdimensional_vortex = 6
-		}		
+		}
 		upkeep = {
 			energy = @weapon_l_t9_upkeep_energy
 			alloys = @weapon_l_t9_upkeep_alloys
@@ -1022,7 +1022,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_s_t6_cost
 			rare_crystals = @weapon_s_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -1066,7 +1066,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @weapon_s_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -1121,7 +1121,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @weapon_s_t7_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -1175,7 +1175,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @weapon_s_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t6_upkeep_energy
 			alloys = @weapon_s_t6_upkeep_alloys
@@ -1226,7 +1226,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @weapon_m_t6_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t6_upkeep_energy
 			alloys = @weapon_m_t6_upkeep_alloys
@@ -1281,7 +1281,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @weapon_s_t7_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_s_t7_upkeep_energy
 			alloys = @weapon_s_t7_upkeep_alloys
@@ -1331,7 +1331,7 @@ weapon_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @weapon_m_t7_cost
-		}		
+		}
 		upkeep = {
 			energy = @weapon_m_t7_upkeep_energy
 			alloys = @weapon_m_t7_upkeep_alloys

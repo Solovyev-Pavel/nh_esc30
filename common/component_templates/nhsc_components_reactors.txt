@@ -1776,7 +1776,7 @@ utility_component_template = {
 			alloys = @corvette_upkeep_alloys_8
 		}
 	}
-	
+
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	size_restriction = { corvette colonizer constructor science transport }
 	component_set = "power_core"

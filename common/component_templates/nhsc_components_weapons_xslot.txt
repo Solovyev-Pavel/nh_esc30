@@ -45,7 +45,7 @@ weapon_component_template = {
 	key = "NHSC_PARTICLE_LANCE_3"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_particle_lance_3"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -61,7 +61,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t7_cost
 			rare_crystals = @weapon_xl_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -96,7 +96,7 @@ weapon_component_template = {
 	key = "NHSC_PARTICLE_LANCE_4"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_particle_lance_4"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -112,7 +112,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t8_cost
 			rare_crystals = @weapon_xl_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -146,7 +146,7 @@ weapon_component_template = {
 	key = "NHSC_PARTICLE_LANCE_TITANIC"
 	size = titanic
 	icon = "GFX_ship_part_nhsc_particle_lance_titanic"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -162,7 +162,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			rare_crystals = @weapon_t_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -196,7 +196,7 @@ weapon_component_template = {
 	key = "NHSC_ARC_EMITTER_3"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_arc_emitter_3"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -212,7 +212,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t7_cost
 			rare_crystals = @weapon_xl_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -247,7 +247,7 @@ weapon_component_template = {
 	key = "NHSC_ARC_EMITTER_4"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_arc_emitter_4"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -263,7 +263,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t8_cost
 			rare_crystals = @weapon_xl_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -297,7 +297,7 @@ weapon_component_template = {
 	key = "NHSC_ARC_EMITTER_TITANIC"
 	size = titanic
 	icon = "GFX_ship_part_nhsc_arc_emitter_titanic"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
 	type = instant
 
@@ -313,7 +313,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t6_cost
 			rare_crystals = @weapon_t_t6_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -345,11 +345,11 @@ weapon_component_template = {
 
 weapon_component_template = {
 	key = "NHSC_WAVEMOTIONGUN_1"
-	size = extra_large	
+	size = extra_large
 	icon = "GFX_ship_part_nhsc_wavemotiongun_1"
 	icon_frame = 1
 	entity = "invisible_turret_entity"
-	type = instant	
+	type = instant
 
 	damage = { min = 1000 max = 2250 }
 	windup = { min = 2.0 max = 20.0 }
@@ -364,7 +364,7 @@ weapon_component_template = {
 			alloys = @weapon_xl_t7_cost
 			rare_crystals = @weapon_l_t7_cost_special
 			exotic_gases = @weapon_l_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t7_upkeep_energy
 			alloys = @weapon_xl_t7_upkeep_alloys
@@ -397,11 +397,11 @@ weapon_component_template = {
 
 weapon_component_template = {
 	key = "NHSC_WAVEMOTIONGUN_2"
-	size = extra_large	
+	size = extra_large
 	icon = "GFX_ship_part_nhsc_wavemotiongun_2"
 	icon_frame = 1
 	entity = "invisible_turret_entity"
-	type = instant	
+	type = instant
 
 	damage = { min = 1450 max = 2550 }
 	windup = { min = 2.0 max = 20.0 }
@@ -416,7 +416,7 @@ weapon_component_template = {
 			alloys = @weapon_xl_t8_cost
 			rare_crystals = @weapon_l_t8_cost_special
 			exotic_gases = @weapon_l_t8_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t8_upkeep_energy
 			alloys = @weapon_xl_t8_upkeep_alloys
@@ -448,11 +448,11 @@ weapon_component_template = {
 
 weapon_component_template = {
 	key = "NHSC_WAVEMOTIONGUN_3"
-	size = titanic	
+	size = titanic
 	icon = "GFX_ship_part_nhsc_wavemotiongun_3"
 	icon_frame = 1
 	entity = "invisible_turret_entity"
-	type = instant	
+	type = instant
 
 	damage = { min = 5000 max = 8000 }
 	windup = { min = 20.0 max = 35.0 }
@@ -467,7 +467,7 @@ weapon_component_template = {
 			alloys = @weapon_t_t6_cost
 			rare_crystals = @weapon_xl_t7_cost_special
 			exotic_gases = @weapon_xl_t7_cost_special
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t6_upkeep_energy
 			alloys = @weapon_t_t6_upkeep_alloys
@@ -501,9 +501,9 @@ weapon_component_template = {
 	key = "NHSC_ARC_EN_CIEL"
 	size = extra_large
 	icon = "GFX_ship_part_nhsc_arc_en_ciel"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
-	type = instant	
+	type = instant
 
 	damage = { min = 2000.0 max = 2750.0 }
 	windup = { min = 22.0 max = 35.0 }
@@ -517,7 +517,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_xl_t9_cost
 			esc_transdimensional_vortex = 16
-		}		
+		}
 		upkeep = {
 			energy = @weapon_xl_t9_upkeep_energy
 			alloys = @weapon_xl_t9_upkeep_alloys
@@ -561,9 +561,9 @@ weapon_component_template = {
 	key = "NHSC_ARC_EN_CIEL_TITANIC"
 	size = titanic
 	icon = "GFX_ship_part_nhsc_arc_en_ciel"
-	icon_frame = 1	
+	icon_frame = 1
 	entity = "invisible_turret_entity"
-	type = instant	
+	type = instant
 
 	damage = { min = 5000 max = 10000 }
 	windup = { min = 22.0 max = 35.0 }
@@ -577,7 +577,7 @@ weapon_component_template = {
 		cost = {
 			alloys = @weapon_t_t7_cost
 			esc_transdimensional_vortex = 24
-		}		
+		}
 		upkeep = {
 			energy = @weapon_t_t7_upkeep_energy
 			alloys = @weapon_t_t7_upkeep_alloys

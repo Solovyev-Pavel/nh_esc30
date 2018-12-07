@@ -50,13 +50,13 @@ utility_component_template = {
 
 	ship_modifier = {
 		ship_tracking_add = @tier5_hit_chance
-	}	
+	}
 
 	prerequisites = { "nhsc_tech_advanced_sensors_1" }
 	component_set = "sensor_components"
 
 	upgrades_to = "NHSC_STRING_SENSOR_SHIP"
-	
+
 	ai_weight = {
 		weight = 1000
 	}
@@ -85,13 +85,13 @@ utility_component_template = {
 
 	ship_modifier = {
 		ship_tracking_add = @tier6_hit_chance
-	}	
+	}
 
 	upgrades_to = "NHSC_ADV_STRING_SENSOR_SHIP"
 
 	prerequisites = { "nhsc_tech_advanced_sensors_2" }
 	component_set = "sensor_components"
-	
+
 	ai_weight = {
 		weight = 1500
 	}
@@ -105,7 +105,7 @@ utility_component_template = {
 	key = "NHSC_ADV_STRING_SENSOR_SHIP"
 	size = medium
 	icon = "GFX_ship_part_sensor_nhsc_7"
-	icon_frame = 1	
+	icon_frame = 1
 	power = @tier7_power
 
 	resources = {
@@ -120,11 +120,11 @@ utility_component_template = {
 
 	ship_modifier = {
 		ship_tracking_add = @tier7_hit_chance
-	}	
+	}
 
 	prerequisites = { "nhsc_tech_advanced_sensors_3" }
 	component_set = "sensor_components"
-	
+
 	ai_weight = {
 		weight = 2000
 	}
@@ -138,7 +138,7 @@ utility_component_template = {
 	key = "NHSC_PSI_SENSOR_SHIP"
 	size = medium
 	icon = "GFX_ship_part_sensor_nhsc_psi"
-	icon_frame = 1	
+	icon_frame = 1
 	power = @tier7_power
 
 	resources = {
@@ -153,11 +153,11 @@ utility_component_template = {
 
 	ship_modifier = {
 		ship_tracking_add = @psionic_hit_chance
-	}	
+	}
 
 	prerequisites = { "nhsc_tech_psionic_sensors" }
 	component_set = "sensor_components"
-	
+
 	ai_weight = {
 		weight = 2000
 	}

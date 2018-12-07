@@ -21,7 +21,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -45,10 +45,10 @@ utility_component_template = {
 		ship_shield_mult = 0.3
 		ship_evasion_add = 5
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -61,7 +61,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -90,10 +90,10 @@ utility_component_template = {
 		ship_shield_mult = 0.25
 		ship_evasion_add = 10
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -106,7 +106,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -131,10 +131,10 @@ utility_component_template = {
 		ship_shield_mult = 0.15
 		ship_evasion_add = 15
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -147,7 +147,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -171,10 +171,10 @@ utility_component_template = {
 		ship_shield_mult = 0.25
 		ship_evasion_add = 15
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -187,7 +187,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -211,10 +211,10 @@ utility_component_template = {
 		ship_shield_mult = 0.20
 		ship_evasion_add = 10
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -227,7 +227,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -251,10 +251,10 @@ utility_component_template = {
 		ship_shield_mult = 0.20
 		ship_evasion_add = 10
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -267,7 +267,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -292,10 +292,10 @@ utility_component_template = {
 		ship_shield_mult = 0.15
 		ship_evasion_add = 10
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
 
 ############################################################
@@ -308,7 +308,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	
+
 	resources = {
 		category = ship_components
 		cost = {
@@ -333,8 +333,8 @@ utility_component_template = {
 		ship_shield_mult = 0.15
 		ship_evasion_add = 15
 	}
-	
+
 	ai_weight = {
 		weight = 5
-	}	
+	}
 }
