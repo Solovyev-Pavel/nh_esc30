@@ -21,7 +21,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser }
 	component_set = "combat_computers"
@@ -53,7 +61,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
                          rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
@@ -90,7 +106,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { titan fe_titan ultrajuggernaut }
 	component_set = "combat_computers"
@@ -123,7 +147,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { StrikeCruiser }
 	component_set = "combat_computers"
@@ -155,7 +187,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { Battlecruiser }
 	component_set = "combat_computers"
@@ -187,7 +227,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { Carrier SCX_Carrier }
 	component_set = "combat_computers"
@@ -219,7 +267,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { Dreadnought SCX_Dreadnought }
 	component_set = "combat_computers"
@@ -252,7 +308,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
 	icon_frame = 1
 	power = -30
-	cost = 30
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			rare_crystals = 2
+		}
+	}
+
 	class_restriction = { shipclass_military }
 	size_restriction = { Flagship }
 	component_set = "combat_computers"

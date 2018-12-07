@@ -37,7 +37,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_sensor_nhsc_5"
 	icon_frame = 1
 	power = @tier5_power
-	cost = @tier5_cost
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @tier5_cost
+		}
+	}
+
 	sensor_range = @tier5_sensor_range
 	hyperlane_range = @hyperlane_sight_4
 
@@ -65,7 +72,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_sensor_nhsc_6"
 	icon_frame = 1
 	power = @tier6_power
-	cost = @tier6_cost
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @tier6_cost
+		}
+	}
+
 	sensor_range = @tier6_sensor_range
 	hyperlane_range = @hyperlane_sight_5
 
@@ -93,7 +107,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_sensor_nhsc_7"
 	icon_frame = 1	
 	power = @tier7_power
-	cost = @tier7_cost
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @tier7_cost
+		}
+	}
+
 	sensor_range = @tier7_sensor_range
 	hyperlane_range = @hyperlane_sight_5
 
@@ -119,7 +140,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_sensor_nhsc_psi"
 	icon_frame = 1	
 	power = @tier7_power
-	cost = @tier7_cost
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @tier7_cost
+		}
+	}
+
 	sensor_range = @tier7_sensor_range
 	hyperlane_range = @hyperlane_sight_5
 

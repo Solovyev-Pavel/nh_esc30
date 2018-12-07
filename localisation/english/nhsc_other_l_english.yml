@@ -63,23 +63,23 @@ NHSC_RAVAGING_SWARMERS_DESC: "These swarmers have been trained and drugged into 
 ###         Special Resources        ###
 ########################################
 
-sr_esc_nanite_swarm: "Nanite Swarm"
-sr_esc_nanite_swarm_desc: "A mass of specialized nanites that are ready to fulfill their task, be it repair our ships or tear enemy ones apart atom by atom."
+esc_nanite_swarm: "Nanite Swarm"
+esc_nanite_swarm_desc: "A mass of specialized nanites that are ready to fulfill their task, be it repair our ships or tear enemy ones apart atom by atom."
 
-sr_esc_psionic_charge: "Psionic Charge"
-sr_esc_psionic_charge_desc: "A stable vortex of psychic energies to be used as spirits deem necessary."
+esc_psionic_charge: "Psionic Charge"
+esc_psionic_charge_desc: "A stable vortex of psychic energies to be used as spirits deem necessary."
 
-sr_esc_gravitic_anomaly: "Gravitic Anomaly"
-sr_esc_gravitic_anomaly_desc: "A contained gravitic anomaly, ready to be used by our military."
+esc_gravitic_anomaly: "Gravitic Anomaly"
+esc_gravitic_anomaly_desc: "A contained gravitic anomaly, ready to be used by our military."
 
-sr_esc_living_crystal: "Living Crystal"
-sr_esc_living_crystal_desc: "A semi-organic crystalline matrix that mimics the matter making up the bodies of crystalline entities."
+esc_living_crystal: "Living Crystal"
+esc_living_crystal_desc: "A semi-organic crystalline matrix that mimics the matter making up the bodies of crystalline entities."
 
-sr_esc_transdimensional_vortex: "Transdimensional Vortex"
-sr_esc_transdimensional_vortex_desc: "Energies from another dimension, at our beck and call. Let us hope, unleashing them will not create an ...incident."
+esc_transdimensional_vortex: "Transdimensional Vortex"
+esc_transdimensional_vortex_desc: "Energies from another dimension, at our beck and call. Let us hope, unleashing them will not create an ...incident."
 
-sr_esc_enigmatic_energy: "Enigmatic Energy"
-sr_esc_enigmatic_energy_desc: "A successful recreation of power used by the mysterious Enigmatic Fortress."
+esc_enigmatic_energy: "Enigmatic Energy"
+esc_enigmatic_energy_desc: "A successful recreation of power used by the mysterious Enigmatic Fortress."
 
 ########################################
 ###               Jobs               ###

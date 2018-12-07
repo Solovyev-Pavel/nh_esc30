@@ -31,13 +31,26 @@ weapon_component_template = {
 	entity = "small_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 8 max = 20 }
+	damage = { min = 8 max = 25 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 55
 	accuracy = 0.85
 	power = -7
-	cost = 12
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_s_t3_cost
+			esc_living_crystal = @c_weapon_s_t3_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_s_t3_upkeep_energy
+			alloys = @c_weapon_s_t3_upkeep_alloys
+			esc_living_crystal = @c_weapon_s_t3_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -72,13 +85,26 @@ weapon_component_template = {
 	entity = "medium_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 20 max = 50 }
+	damage = { min = 20 max = 62 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 75
 	accuracy = 0.85
 	power = -13
-	cost = 24
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_m_t3_cost
+			esc_living_crystal = @c_weapon_m_t3_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_m_t3_upkeep_energy
+			alloys = @c_weapon_m_t3_upkeep_alloys
+			esc_living_crystal = @c_weapon_m_t3_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -113,13 +139,26 @@ weapon_component_template = {
 	entity = "large_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 50 max = 120 }
+	damage = { min = 50 max = 154 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 95
 	accuracy = 0.85
 	power = -25
-	cost = 48
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_l_t3_cost
+			esc_living_crystal = @c_weapon_l_t3_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_l_t3_upkeep_energy
+			alloys = @c_weapon_l_t3_upkeep_alloys
+			esc_living_crystal = @c_weapon_l_t3_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -158,13 +197,26 @@ weapon_component_template = {
 	entity = "small_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 10 max = 32 }
+	damage = { min = 11 max = 33 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 55
 	accuracy = 0.85
 	power = -11
-	cost = 19
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_s_t4_cost
+			esc_living_crystal = @c_weapon_s_t4_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_s_t4_upkeep_energy
+			alloys = @c_weapon_s_t4_upkeep_alloys
+			esc_living_crystal = @c_weapon_s_t4_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -199,13 +251,26 @@ weapon_component_template = {
 	entity = "medium_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 27 max = 78 }
+	damage = { min = 27 max = 82 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 75
 	accuracy = 0.85
 	power = -20
-	cost = 39
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_m_t4_cost
+			esc_living_crystal = @c_weapon_m_t4_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_m_t4_upkeep_energy
+			alloys = @c_weapon_m_t4_upkeep_alloys
+			esc_living_crystal = @c_weapon_m_t4_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -240,13 +305,26 @@ weapon_component_template = {
 	entity = "large_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 58 max = 190 }
+	damage = { min = 64 max = 204 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 95
 	accuracy = 0.85
 	power = -40
-	cost = 78
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_l_t4_cost
+			esc_living_crystal = @c_weapon_l_t4_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_l_t4_upkeep_energy
+			alloys = @c_weapon_l_t4_upkeep_alloys
+			esc_living_crystal = @c_weapon_l_t4_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -291,7 +369,20 @@ weapon_component_template = {
 	range = 55
 	accuracy = 0.85
 	power = -17
-	cost = 28
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_s_t5_cost
+			esc_living_crystal = @c_weapon_s_t5_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_s_t5_upkeep_energy
+			alloys = @c_weapon_s_t5_upkeep_alloys
+			esc_living_crystal = @c_weapon_s_t5_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -332,7 +423,20 @@ weapon_component_template = {
 	range = 75
 	accuracy = 0.85
 	power = -30
-	cost = 56
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_m_t5_cost
+			esc_living_crystal = @c_weapon_m_t5_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_m_t5_upkeep_energy
+			alloys = @c_weapon_m_t5_upkeep_alloys
+			esc_living_crystal = @c_weapon_m_t5_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -367,13 +471,26 @@ weapon_component_template = {
 	entity = "large_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 90 max = 230 }
+	damage = { min = 90 max = 260 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 95
 	accuracy = 0.85
 	power = -58
-	cost = 110
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_l_t5_cost
+			esc_living_crystal = @c_weapon_l_t5_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_l_t5_upkeep_energy
+			alloys = @c_weapon_l_t5_upkeep_alloys
+			esc_living_crystal = @c_weapon_l_t5_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -418,7 +535,20 @@ weapon_component_template = {
 	range = 55
 	accuracy = 0.85
 	power = -20
-	cost = 30
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_s_t6_cost
+			esc_living_crystal = @c_weapon_s_t6_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_s_t6_upkeep_energy
+			alloys = @c_weapon_s_t6_upkeep_alloys
+			esc_living_crystal = @c_weapon_s_t6_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -459,7 +589,20 @@ weapon_component_template = {
 	range = 75
 	accuracy = 0.85
 	power = -34
-	cost = 60
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_m_t6_cost
+			esc_living_crystal = @c_weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_m_t6_upkeep_energy
+			alloys = @c_weapon_m_t6_upkeep_alloys
+			esc_living_crystal = @c_weapon_m_t6_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -494,13 +637,26 @@ weapon_component_template = {
 	entity = "large_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 118 max = 256 }
+	damage = { min = 118 max = 286 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 95
 	accuracy = 0.85
 	power = -64
-	cost = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_l_t6_cost
+			esc_living_crystal = @c_weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_l_t6_upkeep_energy
+			alloys = @c_weapon_l_t6_upkeep_alloys
+			esc_living_crystal = @c_weapon_l_t6_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -545,7 +701,20 @@ weapon_component_template = {
 	range = 55
 	accuracy = 0.85
 	power = -24
-	cost = 36
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_s_t7_cost
+			esc_living_crystal = @c_weapon_s_t7_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_s_t7_upkeep_energy
+			alloys = @c_weapon_s_t7_upkeep_alloys
+			esc_living_crystal = @c_weapon_s_t7_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -585,7 +754,20 @@ weapon_component_template = {
 	range = 75
 	accuracy = 0.85
 	power = -46
-	cost = 72
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_m_t7_cost
+			esc_living_crystal = @c_weapon_m_t7_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_m_t7_upkeep_energy
+			alloys = @c_weapon_m_t7_upkeep_alloys
+			esc_living_crystal = @c_weapon_m_t7_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -619,13 +801,26 @@ weapon_component_template = {
 	entity = "large_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 152 max = 328 }
+	damage = { min = 152 max = 348 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 95
 	accuracy = 0.85
 	power = -90
-	cost = 144
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_l_t7_cost
+			esc_living_crystal = @c_weapon_l_t7_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_l_t7_upkeep_energy
+			alloys = @c_weapon_l_t7_upkeep_alloys
+			esc_living_crystal = @c_weapon_l_t7_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -669,7 +864,20 @@ weapon_component_template = {
 	range = 150
 	accuracy = 0.85
 	power = -225
-	cost = 300
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_xl_t7_cost
+			esc_living_crystal = @c_weapon_xl_t7_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_xl_t7_upkeep_energy
+			alloys = @c_weapon_xl_t7_upkeep_alloys
+			esc_living_crystal = @c_weapon_xl_t7_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_lance_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -719,7 +927,20 @@ weapon_component_template = {
 	range = 155
 	accuracy = 0.85
 	power = -275
-	cost = 350
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_xl_t8_cost
+			esc_living_crystal = @c_weapon_xl_t8_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_xl_t8_upkeep_energy
+			alloys = @c_weapon_xl_t8_upkeep_alloys
+			esc_living_crystal = @c_weapon_xl_t8_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_lance_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage
@@ -768,7 +989,20 @@ weapon_component_template = {
 	range = 250
 	accuracy = 0.85
 	power = -500
-	cost = 500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @c_weapon_t_t6_cost
+			esc_living_crystal = @c_weapon_t_t6_cost_special
+		}
+		upkeep = {
+			energy = @c_weapon_t_t6_upkeep_energy
+			alloys = @c_weapon_t_t6_upkeep_alloys
+			esc_living_crystal = @c_weapon_t_t6_upkeep_special
+		}
+	}
+
 	hull_damage = @crystalline_lance_hull_damage
 	armor_penetration = @crystalline_armor_penetration
 	armor_damage = @crystalline_armor_damage

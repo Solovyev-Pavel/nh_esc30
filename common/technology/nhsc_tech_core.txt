@@ -1093,6 +1093,10 @@ nhsc_tech_phase_shifted_ammunition = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOR = {
+			is_country_type = fallen_empire
+			is_country_type = awakened_fallen_empire
+		} # hopefully this will prevent FE/AFE from getting this tech... otherwise, the balance might end up too much in their favor
 	}
 
 	modifier = {

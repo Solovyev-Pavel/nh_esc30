@@ -55,7 +55,19 @@ weapon_component_template = {
 	range = 150
 	accuracy = 0.85
 	power = -280
-	cost = 375
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			rare_crystals = @weapon_xl_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @particle_lance_hull_damage
 	armor_penetration = @particle_lance_armor_penetration
 	armor_damage = @particle_lance_armor_damage
@@ -94,7 +106,19 @@ weapon_component_template = {
 	range = 150
 	accuracy = 0.85
 	power = -310
-	cost = 425
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			rare_crystals = @weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @particle_lance_hull_damage
 	armor_penetration = @particle_lance_armor_penetration
 	armor_damage = @particle_lance_armor_damage
@@ -132,7 +156,19 @@ weapon_component_template = {
 	range = 250
 	accuracy = 0.85
 	power = -500
-	cost = 500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			rare_crystals = @weapon_t_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @particle_lance_hull_damage
 	armor_penetration = @particle_lance_armor_penetration
 	armor_damage = @particle_lance_armor_damage
@@ -170,7 +206,19 @@ weapon_component_template = {
 	range = 150
 	accuracy = 1.0
 	power = -280
-	cost = 375
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			rare_crystals = @weapon_xl_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @arc_emitter_hull_damage
 	armor_penetration = @arc_emitter_armor_penetration
 	armor_damage = @arc_emitter_armor_damage
@@ -209,7 +257,19 @@ weapon_component_template = {
 	range = 150
 	accuracy = 1.0
 	power = -310
-	cost = 425
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			rare_crystals = @weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @arc_emitter_hull_damage
 	armor_penetration = @arc_emitter_armor_penetration
 	armor_damage = @arc_emitter_armor_damage
@@ -247,7 +307,19 @@ weapon_component_template = {
 	range = 250
 	accuracy = 1.0
 	power = -500
-	cost = 500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			rare_crystals = @weapon_t_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @arc_emitter_hull_damage
 	armor_penetration = @arc_emitter_armor_penetration
 	armor_damage = @arc_emitter_armor_damage
@@ -285,7 +357,20 @@ weapon_component_template = {
 	range = 135
 	accuracy = 0.85
 	power = -250
-	cost = 325
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			rare_crystals = @weapon_l_t7_cost_special
+			exotic_gases = @weapon_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @wmg_hull_damage
 	armor_penetration = @arc_emitter_armor_penetration
 	armor_damage = @arc_emitter_armor_damage
@@ -324,7 +409,20 @@ weapon_component_template = {
 	range = 135
 	accuracy = 0.85
 	power = -280
-	cost = 375
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			rare_crystals = @weapon_l_t8_cost_special
+			exotic_gases = @weapon_l_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @wmg_hull_damage
 	armor_penetration = @arc_emitter_armor_penetration
 	armor_damage = @arc_emitter_armor_damage
@@ -362,7 +460,20 @@ weapon_component_template = {
 	range = 235
 	accuracy = 0.85
 	power = -500
-	cost = 500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			rare_crystals = @weapon_xl_t7_cost_special
+			exotic_gases = @weapon_xl_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @wmg_hull_damage
 	armor_penetration = @arc_emitter_armor_penetration
 	armor_damage = @arc_emitter_armor_damage
@@ -400,7 +511,19 @@ weapon_component_template = {
 	range = 150
 	accuracy = 1.0
 	power = -375
-	cost = 450
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t9_cost
+			esc_transdimensional_vortex = 16
+		}		
+		upkeep = {
+			energy = @weapon_xl_t9_upkeep_energy
+			alloys = @weapon_xl_t9_upkeep_alloys
+		}
+	}
+
 	hull_damage = @arc_en_ciel_hull_damage
 	armor_penetration = @arc_en_ciel_armor_penetration
 	armor_damage = @arc_en_ciel_armor_damage
@@ -448,7 +571,19 @@ weapon_component_template = {
 	range = 275
 	accuracy = 1.0
 	power = -600
-	cost = 600
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t7_cost
+			esc_transdimensional_vortex = 24
+		}		
+		upkeep = {
+			energy = @weapon_t_t7_upkeep_energy
+			alloys = @weapon_t_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @arc_en_ciel_hull_damage
 	armor_penetration = @arc_en_ciel_armor_penetration
 	armor_damage = @arc_en_ciel_armor_damage

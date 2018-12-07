@@ -24,7 +24,13 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_aux_fire_control_2"
 	icon_frame = 1
 	power = -20
-	cost = 25
+
+	resource = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 
 	ship_modifier = {
 		ship_accuracy_add = 6
@@ -53,7 +59,13 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_afterburners_3"
 	icon_frame = 1
 	power = -30
-	cost = 8
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	modifier = {
 		ship_speed_mult = 0.30
@@ -87,7 +99,13 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_aux_reactor_4"
 	icon_frame = 1
 	power = 200
-	cost = 20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	prerequisites = { "nhsc_tech_reactor_booster_4" }
 	component_set = "NHSC_REACTOR_BOOSTER_4"
@@ -108,7 +126,13 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_aux_reactor_5"
 	icon_frame = 1
 	power = 400
-	cost = 25
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 
 	prerequisites = { "nhsc_tech_reactor_booster_5" }
 	component_set = "NHSC_REACTOR_BOOSTER_5"
@@ -128,7 +152,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_blue_crystal_capacitor"
 	icon_frame = 1
 	power = -25
-	cost = 15
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+			exotic_gases = 2
+			rare_crystals = 1
+		}
+	}
 
 	modifier = {
 		ship_shield_mult = 0.10
@@ -155,7 +187,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_red_crystal_capacitor"
 	icon_frame = 1
 	power = -25
-	cost = 25
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			exotic_gases = 2
+			rare_crystals = 2
+		}
+	}
 
 	modifier = {
 		ship_shield_mult = 0.10
@@ -181,7 +221,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_shield_recharger"
 	icon_frame = 1
 	power = -40
-	cost = 15
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+			exotic_gases = 2
+		}
+	}
 
 	modifier = {
 		ship_shield_mult = 0.20
@@ -210,7 +257,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_repair_drones"
 	icon_frame = 1
 	power = -40
-	cost = 10
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+			volatile_motes = 1
+		}
+	}
 
 	modifier = {
 		ship_hull_regen_add_static = 2
@@ -235,7 +289,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_psi_reinforcement"
 	icon_frame = 1
 	power = -35
-	cost = 10
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+			esc_psionic_charge = 3
+		}
+		upkeep = {
+			esc_psionic_charge = 0.025
+		}
+	}
 
 	modifier = {
 		ship_shield_mult = -0.20
@@ -270,7 +334,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_stellarite_power_core"
 	icon_frame = 1
 	power = 0
-	cost = 15
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+			rare_crystals = 2
+		}
+		upkeep = {
+			rare_crystals = 0.025
+		}
+	}
 
 	modifier = {
 		ship_shield_mult = 0.1
@@ -306,7 +380,13 @@ utility_component_template = {
 	icon = "GFX_ship_part_nhsc_standardized_warheads"
 	icon_frame = 1
 	power = 0
-	cost = 10
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	modifier = {
 		ship_hull_mult = 0.05

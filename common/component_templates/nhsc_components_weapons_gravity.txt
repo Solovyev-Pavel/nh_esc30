@@ -49,7 +49,19 @@ weapon_component_template = {
 	range = 40
 	accuracy = 0.85
 	power = -20
-	cost = 30
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t6_cost
+			esc_gravitic_anomaly = 1
+		}		
+		upkeep = {
+			energy = @weapon_s_t6_upkeep_energy
+			alloys = @weapon_s_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -90,7 +102,19 @@ weapon_component_template = {
 	range = 60
 	accuracy = 0.85
 	power = -34
-	cost = 60
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			esc_gravitic_anomaly = 2
+		}		
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -131,7 +155,19 @@ weapon_component_template = {
 	range = 80
 	accuracy = 0.85
 	power = -64
-	cost = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t6_cost
+			esc_gravitic_anomaly = 4
+		}		
+		upkeep = {
+			energy = @weapon_l_t6_upkeep_energy
+			alloys = @weapon_l_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -176,7 +212,19 @@ weapon_component_template = {
 	range = 40
 	accuracy = 0.85
 	power = -24
-	cost = 36
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t7_cost
+			esc_gravitic_anomaly = 1.5
+		}		
+		upkeep = {
+			energy = @weapon_s_t7_upkeep_energy
+			alloys = @weapon_s_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -217,7 +265,19 @@ weapon_component_template = {
 	range = 60
 	accuracy = 0.85
 	power = -46
-	cost = 72
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			esc_gravitic_anomaly = 3
+		}		
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -258,7 +318,19 @@ weapon_component_template = {
 	range = 80
 	accuracy = 0.85
 	power = -90
-	cost = 144
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			esc_gravitic_anomaly = 6
+		}		
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -303,7 +375,19 @@ weapon_component_template = {
 	range = 40
 	accuracy = 0.85
 	power = -28
-	cost = 40
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t8_cost
+			esc_gravitic_anomaly = 2
+		}		
+		upkeep = {
+			energy = @weapon_s_t8_upkeep_energy
+			alloys = @weapon_s_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -343,7 +427,19 @@ weapon_component_template = {
 	range = 60
 	accuracy = 0.85
 	power = -52
-	cost = 80
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t8_cost
+			esc_gravitic_anomaly = 4
+		}		
+		upkeep = {
+			energy = @weapon_m_t8_upkeep_energy
+			alloys = @weapon_m_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -383,7 +479,19 @@ weapon_component_template = {
 	range = 80
 	accuracy = 0.85
 	power = -100
-	cost = 160
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t8_cost
+			esc_gravitic_anomaly = 8
+		}		
+		upkeep = {
+			energy = @weapon_l_t8_upkeep_energy
+			alloys = @weapon_l_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -432,7 +540,19 @@ weapon_component_template = {
 	missile_health = 20
 	missile_retarget_range = 100
 	power = -70
-	cost = 110
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t6_cost
+			esc_gravitic_anomaly = 4
+		}		
+		upkeep = {
+			energy = @weapon_l_t6_upkeep_energy
+			alloys = @weapon_l_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_torpedo_hull_damage
 	armor_penetration = @gravitic_torpedo_armor_penetration
 	armor_damage = @gravitic_torpedo_armor_damage
@@ -482,7 +602,19 @@ weapon_component_template = {
 	missile_health = 20
 	missile_retarget_range = 100
 	power = -80
-	cost = 140
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			esc_gravitic_anomaly = 6
+		}		
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_torpedo_hull_damage
 	armor_penetration = @gravitic_torpedo_armor_penetration
 	armor_damage = @gravitic_torpedo_armor_damage
@@ -531,7 +663,19 @@ weapon_component_template = {
 	range = 160
 	accuracy = 0.85
 	power = -275
-	cost = 375
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			esc_gravitic_anomaly = 12
+		}		
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_lance_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -581,7 +725,19 @@ weapon_component_template = {
 	range = 160
 	accuracy = 0.85
 	power = -310
-	cost = 425
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			esc_gravitic_anomaly = 16
+		}		
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_lance_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -630,7 +786,19 @@ weapon_component_template = {
 	range = 250
 	accuracy = 0.85
 	power = -500
-	cost = 550
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			esc_gravitic_anomaly = 20
+		}		
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @gravitic_lance_hull_damage
 	armor_penetration = @gravitic_armor_penetration
 	armor_damage = @gravitic_armor_damage
@@ -670,7 +838,18 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "nhsc_plasma_5_small"
 	power = -70
-	cost = 90
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			esc_gravitic_anomaly = 6
+		}		
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
 	
 	count = 8
 	regeneration_per_day = 0.15

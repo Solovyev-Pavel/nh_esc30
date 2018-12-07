@@ -13,63 +13,6 @@
 # - Hardlight Armor						S/M/L
 # - Dimensional Horror Armor			S/M/L
 
-@armor_4_strength_S = 110
-@armor_4_strength_M = 275
-@armor_4_strength_L = 685
-
-@armor_5_strength_S = 140
-@armor_5_strength_M = 350
-@armor_5_strength_L = 875
-
-@armor_6_strength_S = 185
-@armor_6_strength_M = 460
-@armor_6_strength_L = 1150
-
-@armor_7_strength_S = 240
-@armor_7_strength_M = 600
-@armor_7_strength_L = 1500
-
-@armor_8_strength_S = 300
-@armor_8_strength_M = 750
-@armor_8_strength_L = 1850
-           
-@armor_6_cost_S = 36
-@armor_6_cost_M = 72
-@armor_6_cost_L = 144
-
-@armor_7_cost_S = 44
-@armor_7_cost_M = 88
-@armor_7_cost_L = 176
-
-@armor_8_cost_S = 52
-@armor_8_cost_M = 104
-@armor_8_cost_L = 208
-
-### shielding armor shields & regen
-@armor_shield_strength_1_S = 85
-@armor_shield_strength_1_M = 215
-@armor_shield_strength_1_L = 525
-
-@armor_shield_strength_2_S = 110
-@armor_shield_strength_2_M = 275
-@armor_shield_strength_2_L = 685
-
-@armor_shield_strength_3_S = 140
-@armor_shield_strength_3_M = 350
-@armor_shield_strength_3_L = 875
-
-@armor_shield_regen_1_S = 0.85
-@armor_shield_regen_1_M = 2.15
-@armor_shield_regen_1_L = 5.25
-
-@armor_shield_regen_2_S = 1.10
-@armor_shield_regen_2_M = 2.75
-@armor_shield_regen_2_L = 6.85
-
-@armor_shield_regen_3_S = 1.40
-@armor_shield_regen_3_M = 3.50
-@armor_shield_regen_3_L = 8.75
-
 ############################################################
 ##               Improved Neutronium Armor                ##
 ############################################################
@@ -80,8 +23,19 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_6"
 	icon_frame = 1
 	power = 0
-	cost = @armor_6_cost_S
-	modifier = { ship_armor_add = @armor_6_strength_S }
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t6_cost
+		}		
+		upkeep = {
+			energy = @armor_s_t6_upkeep_energy
+			alloys = @armor_s_t6_upkeep_alloys
+		}
+	}
+
+	modifier = { ship_armor_add = @armor_s_t6_strength }
 	
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
@@ -94,8 +48,19 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_6"
 	icon_frame = 1
 	power = 0
-	cost = @armor_6_cost_M
-	modifier = { ship_armor_add = @armor_6_strength_M }
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t6_cost
+		}		
+		upkeep = {
+			energy = @armor_m_t6_upkeep_energy
+			alloys = @armor_m_t6_upkeep_alloys
+		}
+	}
+
+	modifier = { ship_armor_add = @armor_m_t6_strength }
 	
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
@@ -108,9 +73,19 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_6"
 	icon_frame = 1
 	power = 0
-	cost = @armor_6_cost_L
 
-	modifier = { ship_armor_add = @armor_6_strength_L }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t6_cost
+		}		
+		upkeep = {
+			energy = @armor_l_t6_upkeep_energy
+			alloys = @armor_l_t6_upkeep_alloys
+		}
+	}
+
+	modifier = { ship_armor_add = @armor_l_t6_strength }
 	
 	prerequisites = { "nhsc_tech_armor_6" }
 	component_set = "NHSC_ADV_ARMOR_1"
@@ -127,8 +102,19 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	cost = @armor_7_cost_S
-	modifier = { ship_armor_add = @armor_7_strength_S }
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t7_cost
+		}		
+		upkeep = {
+			energy = @armor_s_t7_upkeep_energy
+			alloys = @armor_s_t7_upkeep_alloys
+		}
+	}
+
+	modifier = { ship_armor_add = @armor_s_t7_strength }
 	
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
@@ -140,8 +126,19 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	cost = @armor_7_cost_M
-	modifier = { ship_armor_add = @armor_7_strength_M }
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t7_cost
+		}		
+		upkeep = {
+			energy = @armor_m_t7_upkeep_energy
+			alloys = @armor_m_t7_upkeep_alloys
+		}
+	}
+
+	modifier = { ship_armor_add = @armor_m_t7_strength }
 	
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
@@ -153,8 +150,19 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_7"
 	icon_frame = 1
 	power = 0
-	cost = @armor_7_cost_L
-	modifier = { ship_armor_add = @armor_7_strength_L }
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t7_cost
+		}		
+		upkeep = {
+			energy = @armor_l_t7_upkeep_energy
+			alloys = @armor_l_t7_upkeep_alloys
+		}
+	}
+
+	modifier = { ship_armor_add = @armor_l_t7_strength }
 	
 	prerequisites = { "nhsc_tech_armor_7" }
 	component_set = "NHSC_ADV_ARMOR_2"
@@ -170,9 +178,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_1"
 	icon_frame = 1
 	power = -10
-	cost = @armor_7_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t6_cost
+			nanites = @armor_s_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t6_upkeep_energy
+			alloys = @armor_s_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_5_strength_S
+		ship_armor_add = @armor_s_t5_strength
 		ship_hull_regen_add_static = 0.25
 		ship_armor_regen_add_static = 0.4
 	}
@@ -188,9 +208,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_1"
 	icon_frame = 1
 	power = -20
-	cost = @armor_7_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t6_cost
+			nanites = @armor_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t6_upkeep_energy
+			alloys = @armor_m_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_5_strength_M
+		ship_armor_add = @armor_m_t5_strength
 		ship_hull_regen_add_static = 0.5
 		ship_armor_regen_add_static = 0.8
 	}
@@ -206,9 +238,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_1"
 	icon_frame = 1
 	power = -40
-	cost = @armor_7_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t6_cost
+			nanites = @armor_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t6_upkeep_energy
+			alloys = @armor_l_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {		
-		ship_armor_add = @armor_5_strength_L
+		ship_armor_add = @armor_l_t5_strength
 		ship_hull_regen_add_static = 1
 		ship_armor_regen_add_static = 1.6
 	}
@@ -228,9 +272,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_2"
 	icon_frame = 1
 	power = -15
-	cost = @armor_8_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t7_cost
+			nanites = @armor_s_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t7_upkeep_energy
+			alloys = @armor_s_t7_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_6_strength_S
+		ship_armor_add = @armor_s_t6_strength
 		ship_hull_regen_add_static = 0.35
 		ship_armor_regen_add_static = 0.5
 	}
@@ -246,9 +302,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_2"
 	icon_frame = 1
 	power = -30
-	cost = @armor_8_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t7_cost
+			nanites = @armor_m_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t7_upkeep_energy
+			alloys = @armor_m_t7_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_6_strength_M
+		ship_armor_add = @armor_m_t6_strength
 		ship_hull_regen_add_static = 0.7
 		ship_armor_regen_add_static = 1
 	}
@@ -264,9 +332,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_nano_2"
 	icon_frame = 1
 	power = -60
-	cost = @armor_8_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t7_cost
+			nanites = @armor_l_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t7_upkeep_energy
+			alloys = @armor_l_t7_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_6_strength_L
+		ship_armor_add = @armor_l_t6_strength
 		ship_hull_regen_add_static = 1.4
 		ship_armor_regen_add_static = 2
 	}
@@ -286,9 +366,22 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_dragon2"
 	icon_frame = 1
 	power = -20
-	cost = @armor_8_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t8_cost
+			nanites = @armor_s_t8_cost_special
+			rare_crystals = @armor_s_t6_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t8_upkeep_energy
+			alloys = @armor_s_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_7_strength_S
+		ship_armor_add = @armor_s_t7_strength
 		ship_hull_regen_add_static = 0.4
 		ship_armor_regen_add_static = 0.5
 	}
@@ -313,9 +406,22 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_dragon2"
 	icon_frame = 1
 	power = -40
-	cost = @armor_8_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t8_cost
+			nanites = @armor_m_t8_cost_special
+			rare_crystals = @armor_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t8_upkeep_energy
+			alloys = @armor_m_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_7_strength_M
+		ship_armor_add = @armor_m_t7_strength
 		ship_hull_regen_add_static = 0.8
 		ship_armor_regen_add_static = 1
 	}
@@ -340,9 +446,22 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_dragon2"
 	icon_frame = 1
 	power = -80
-	cost = @armor_8_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t8_cost
+			nanites = @armor_l_t8_cost_special
+			rare_crystals = @armor_l_t6_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t8_upkeep_energy
+			alloys = @armor_l_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_7_strength_L
+		ship_armor_add = @armor_l_t7_strength
 		ship_hull_regen_add_static = 1.6
 		ship_armor_regen_add_static = 2
 	}
@@ -371,9 +490,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_1"
 	icon_frame = 1
 	power = -25
-	cost = @armor_6_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t6_cost
+			nanites = @armor_s_t6_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t6_upkeep_energy
+			alloys = @armor_s_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_4_strength_S
+		ship_armor_add = @armor_s_t4_strength
 		ship_shield_add = @armor_shield_strength_1_S
 		ship_shield_regen_add_static = @armor_shield_regen_1_S
 	}
@@ -389,9 +520,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_1"
 	icon_frame = 1
 	power = -65
-	cost = @armor_6_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t6_cost
+			nanites = @armor_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t6_upkeep_energy
+			alloys = @armor_m_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_4_strength_M
+		ship_armor_add = @armor_m_t4_strength
 		ship_shield_add = @armor_shield_strength_1_M
 		ship_shield_regen_add_static = @armor_shield_regen_1_M
 	}
@@ -407,9 +550,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_1"
 	icon_frame = 1
 	power = -150
-	cost = @armor_6_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t6_cost
+			nanites = @armor_l_t6_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t6_upkeep_energy
+			alloys = @armor_l_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_4_strength_L
+		ship_armor_add = @armor_l_t4_strength
 		ship_shield_add = @armor_shield_strength_1_L
 		ship_shield_regen_add_static = @armor_shield_regen_1_L
 	}
@@ -429,9 +584,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_2"
 	icon_frame = 1
 	power = -30
-	cost = @armor_7_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t7_cost
+			nanites = @armor_s_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t7_upkeep_energy
+			alloys = @armor_s_t7_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_5_strength_S
+		ship_armor_add = @armor_s_t5_strength
 		ship_shield_add = @armor_shield_strength_2_S
 		ship_shield_regen_add_static = @armor_shield_regen_2_S
 	}
@@ -447,9 +614,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_2"
 	icon_frame = 1
 	power = -75
-	cost = @armor_7_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t7_cost
+			nanites = @armor_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t7_upkeep_energy
+			alloys = @armor_m_t7_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_5_strength_M
+		ship_armor_add = @armor_m_t5_strength
 		ship_shield_add = @armor_shield_strength_2_M
 		ship_shield_regen_add_static = @armor_shield_regen_2_M
 	}
@@ -465,9 +644,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_2"
 	icon_frame = 1
 	power = -185
-	cost = @armor_7_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t7_cost
+			nanites = @armor_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t7_upkeep_energy
+			alloys = @armor_l_t7_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_5_strength_L
+		ship_armor_add = @armor_l_t5_strength
 		ship_shield_add = @armor_shield_strength_2_L
 		ship_shield_regen_add_static = @armor_shield_regen_2_L
 	}
@@ -487,9 +678,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_3"
 	icon_frame = 1
 	power = -35
-	cost = @armor_8_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t8_cost
+			nanites = @armor_s_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t8_upkeep_energy
+			alloys = @armor_s_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_6_strength_S
+		ship_armor_add = @armor_s_t6_strength
 		ship_shield_add = @armor_shield_strength_3_S
 		ship_shield_regen_add_static = @armor_shield_regen_3_S
 	}
@@ -504,9 +707,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_3"
 	icon_frame = 1
 	power = -85
-	cost = @armor_8_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t8_cost
+			nanites = @armor_m_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t8_upkeep_energy
+			alloys = @armor_m_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_6_strength_M
+		ship_armor_add = @armor_m_t6_strength
 		ship_shield_add = @armor_shield_strength_3_M
 		ship_shield_regen_add_static = @armor_shield_regen_3_M
 	}
@@ -521,9 +736,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_shield_3"
 	icon_frame = 1
 	power = -210
-	cost = @armor_8_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t8_cost
+			nanites = @armor_l_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t8_upkeep_energy
+			alloys = @armor_l_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_6_strength_L
+		ship_armor_add = @armor_l_t6_strength
 		ship_shield_add = @armor_shield_strength_3_L
 		ship_shield_regen_add_static = @armor_shield_regen_3_L
 	}
@@ -542,9 +769,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -15
-	cost = @armor_8_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t7_cost
+			exotic_gases = @armor_s_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t8_upkeep_energy
+			alloys = @armor_s_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_7_strength_S
+		ship_armor_add = @armor_s_t7_strength
 		ship_shield_regen_add_static = 6
 	}
 
@@ -568,9 +807,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -30
-	cost = @armor_8_cost_M
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t7_cost
+			exotic_gases = @armor_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t8_upkeep_energy
+			alloys = @armor_m_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_7_strength_M
+		ship_armor_add = @armor_m_t7_strength
 		ship_shield_regen_add_static = 12
 	}
 
@@ -594,9 +845,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_nhsc_wraith"
 	icon_frame = 1
 	power = -60
-	cost = @armor_8_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t7_cost
+			exotic_gases = @armor_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t8_upkeep_energy
+			alloys = @armor_l_t6_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_7_strength_L
+		ship_armor_add = @armor_l_t7_strength
 		ship_shield_regen_add_static = 24
 	}
 
@@ -623,9 +886,21 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_armor_nhsc_horror"
 	icon_frame = 1
-	cost = @armor_8_cost_S
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_s_t8_cost
+			rare_crystals = @armor_s_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_s_t8_upkeep_energy
+			alloys = @armor_s_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_8_strength_S
+		ship_armor_add = @armor_s_t8_strength
 		ship_armor_regen_add_static = 0.4
 	}
 	
@@ -648,9 +923,21 @@ utility_component_template = {
 	size = medium
 	icon = "GFX_ship_part_armor_nhsc_horror"
 	icon_frame = 1
-	cost = @armor_8_cost_M
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_m_t8_cost
+			rare_crystals = @armor_m_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_m_t8_upkeep_energy
+			alloys = @armor_m_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_8_strength_M
+		ship_armor_add = @armor_m_t8_strength
 		ship_armor_regen_add_static = 0.8
 	}
 	
@@ -673,9 +960,21 @@ utility_component_template = {
 	size = large
 	icon = "GFX_ship_part_armor_nhsc_horror"
 	icon_frame = 1
-	cost = @armor_8_cost_L
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @armor_l_t8_cost
+			rare_crystals = @armor_l_t8_cost_special
+		}		
+		upkeep = {
+			energy = @armor_l_t8_upkeep_energy
+			alloys = @armor_l_t8_upkeep_alloys
+		}
+	}
+
 	modifier = {
-		ship_armor_add = @armor_8_strength_L
+		ship_armor_add = @armor_l_t8_strength
 		ship_armor_regen_add_static = 1.6
 	}
 	

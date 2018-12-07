@@ -75,7 +75,19 @@ weapon_component_template = {
 	missile_health = 12
 	missile_retarget_range = 120
 	power = -30
-	cost = 72
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @missile_hull_damage
 	armor_damage = @missile_armor_damage
 	armor_penetration = @missile_armor_penetration
@@ -115,7 +127,19 @@ weapon_component_template = {
 	missile_shield = 0
 	missile_retarget_range = 120
 	power = -35
-	cost = 86
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @missile_hull_damage
 	armor_damage = @missile_armor_damage
 	armor_penetration = @missile_armor_penetration
@@ -153,7 +177,19 @@ weapon_component_template = {
 	missile_health = 16
 	missile_retarget_range = 100
 	power = -20
-	cost = 30
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t6_cost
+			exotic_gases = @weapon_s_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t6_upkeep_energy
+			alloys = @weapon_s_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -188,7 +224,19 @@ weapon_component_template = {
 	missile_health = 18
 	missile_retarget_range = 100
 	power = -34
-	cost = 60
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			exotic_gases = @weapon_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -223,7 +271,19 @@ weapon_component_template = {
 	missile_health = 20
 	missile_retarget_range = 100
 	power = -64
-	cost = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t6_cost
+			exotic_gases = @weapon_l_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t6_upkeep_energy
+			alloys = @weapon_l_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -262,7 +322,19 @@ weapon_component_template = {
 	missile_health = 18
 	missile_retarget_range = 100
 	power = -24
-	cost = 36
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t7_cost
+			exotic_gases = @weapon_s_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t7_upkeep_energy
+			alloys = @weapon_s_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -297,7 +369,19 @@ weapon_component_template = {
 	missile_health = 20
 	missile_retarget_range = 100
 	power = -46
-	cost = 72
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			exotic_gases = @weapon_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -332,7 +416,19 @@ weapon_component_template = {
 	missile_health = 22
 	missile_retarget_range = 100
 	power = -90
-	cost = 144
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			exotic_gases = @weapon_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -371,7 +467,19 @@ weapon_component_template = {
 	missile_health = 20
 	missile_retarget_range = 100
 	power = -28
-	cost = 40
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t8_cost
+			exotic_gases = @weapon_s_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t8_upkeep_energy
+			alloys = @weapon_s_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -405,7 +513,19 @@ weapon_component_template = {
 	missile_health = 22
 	missile_retarget_range = 100
 	power = -52
-	cost = 80
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t8_cost
+			exotic_gases = @weapon_m_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t8_upkeep_energy
+			alloys = @weapon_m_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -439,7 +559,19 @@ weapon_component_template = {
 	missile_health = 24
 	missile_retarget_range = 100
 	power = -100
-	cost = 160
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t8_cost
+			exotic_gases = @weapon_l_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t8_upkeep_energy
+			alloys = @weapon_l_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @plasma_missile_hull_damage
 	armor_damage = @plasma_missile_armor_damage
 	armor_penetration = @plasma_missile_armor_penetration
@@ -515,7 +647,19 @@ weapon_component_template = {
 	missile_armor = 0
 	missile_retarget_range = 120
 	power = -44
-	cost = 100
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @torpedo_hull_damage
 	armor_damage = @torpedo_armor_damage
 	armor_penetration = @torpedo_armor_penetration
@@ -554,7 +698,19 @@ weapon_component_template = {
 	missile_shield = 5
 	missile_retarget_range = 120
 	power = -65
-	cost = 150
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @corrosive_warhead_hull_damage
 	armor_damage = @corrosive_warhead_armor_damage
 	armor_penetration = @corrosive_warhead_armor_penetration
@@ -602,7 +758,19 @@ weapon_component_template = {
 	missile_health = 50
 	missile_retarget_range = 120
 	power = -35
-	cost = 80
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @swarmer_hull_damage
 	armor_damage = @swarmer_armor_damage
 	armor_penetration = @swarmer_armor_penetration
@@ -641,7 +809,19 @@ weapon_component_template = {
 	missile_health = 60
 	missile_retarget_range = 120
 	power = -49
-	cost = 95
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @swarmer_hull_damage
 	armor_damage = @swarmer_armor_damage
 	armor_penetration = @swarmer_armor_penetration
@@ -682,7 +862,19 @@ weapon_component_template = {
 	missile_health = 40
 	missile_retarget_range = 100
 	power = -300
-	cost = 375
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			exotic_gases = @weapon_xl_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @exotic_hull_damage
 	armor_damage = @exotic_armor_damage
 	armor_penetration = @exotic_armor_penetration
@@ -724,7 +916,19 @@ weapon_component_template = {
 	missile_health = 45
 	missile_retarget_range = 100
 	power = -325
-	cost = 415
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			exotic_gases = @weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @exotic_hull_damage
 	armor_damage = @exotic_armor_damage
 	armor_penetration = @exotic_armor_penetration
@@ -765,7 +969,19 @@ weapon_component_template = {
 	missile_health = 50
 	missile_retarget_range = 100
 	power = -500
-	cost = 500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			exotic_gases = @weapon_t_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @exotic_hull_damage
 	armor_damage = @exotic_armor_damage
 	armor_penetration = @exotic_armor_penetration

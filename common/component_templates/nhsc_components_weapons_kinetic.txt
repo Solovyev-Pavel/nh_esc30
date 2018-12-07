@@ -70,7 +70,19 @@ weapon_component_template = {
 	range = 50
 	accuracy = 0.75
 	power = -20
-	cost = 32
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t6_cost
+			volatile_motes = @weapon_s_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t6_upkeep_energy
+			alloys = @weapon_s_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mass_driver_hull_damage
 	armor_penetration = @mass_driver_armor_penetration
 	armor_damage = @mass_driver_armor_damage
@@ -100,7 +112,19 @@ weapon_component_template = {
 	range = 75
 	accuracy = 0.75
 	power = -34
-	cost = 60
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mass_driver_hull_damage
 	armor_penetration = @mass_driver_armor_penetration
 	armor_damage = @mass_driver_armor_damage
@@ -130,7 +154,19 @@ weapon_component_template = {
 	range = 100
 	accuracy = 0.75
 	power = -64
-	cost = 120
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t6_cost
+			volatile_motes = @weapon_l_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t6_upkeep_energy
+			alloys = @weapon_l_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mass_driver_hull_damage
 	armor_penetration = @mass_driver_armor_penetration
 	armor_damage = @mass_driver_armor_damage
@@ -164,7 +200,19 @@ weapon_component_template = {
 	range = 50
 	accuracy = 0.75
 	power = -24
-	cost = 36
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t7_cost
+			volatile_motes = @weapon_s_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t7_upkeep_energy
+			alloys = @weapon_s_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mass_driver_hull_damage
 	armor_penetration = @mass_driver_armor_penetration
 	armor_damage = @mass_driver_armor_damage
@@ -193,7 +241,19 @@ weapon_component_template = {
 	range = 75
 	accuracy = 0.75
 	power = -46
-	cost = 70
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mass_driver_hull_damage
 	armor_penetration = @mass_driver_armor_penetration
 	armor_damage = @mass_driver_armor_damage
@@ -222,7 +282,19 @@ weapon_component_template = {
 	range = 100
 	accuracy = 0.75
 	power = -90
-	cost = 136
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			volatile_motes = @weapon_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mass_driver_hull_damage
 	armor_penetration = @mass_driver_armor_penetration
 	armor_damage = @mass_driver_armor_damage
@@ -255,7 +327,19 @@ weapon_component_template = {
 	range = 30
 	accuracy = 0.85
 	power = -20
-	cost = 30
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t6_cost
+			volatile_motes = @weapon_s_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t6_upkeep_energy
+			alloys = @weapon_s_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @autocannon_hull_damage
 	armor_penetration = @autocannon_armor_penetration
 	armor_damage = @autocannon_armor_damage
@@ -289,7 +373,19 @@ weapon_component_template = {
 	range = 30
 	accuracy = 0.85
 	power = -24
-	cost = 36
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_s_t7_cost
+			volatile_motes = @weapon_s_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_s_t7_upkeep_energy
+			alloys = @weapon_s_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @autocannon_hull_damage
 	armor_penetration = @autocannon_armor_penetration
 	armor_damage = @autocannon_armor_damage
@@ -322,7 +418,19 @@ weapon_component_template = {
 	range = 120
 	accuracy = 0.75
 	power = -110
-	cost = 180
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			volatile_motes = @weapon_l_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @artillery_hull_damage
 	armor_penetration = @artillery_armor_penetration
 	armor_damage = @artillery_armor_damage
@@ -356,7 +464,19 @@ weapon_component_template = {
 	range = 120
 	accuracy = 0.75
 	power = -130
-	cost = 205
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t8_cost
+			volatile_motes = @weapon_l_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_l_t8_upkeep_energy
+			alloys = @weapon_l_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @artillery_hull_damage
 	armor_penetration = @artillery_armor_penetration
 	armor_damage = @artillery_armor_damage
@@ -389,7 +509,19 @@ weapon_component_template = {
 	range = 155
 	accuracy = 0.75
 	power = -280
-	cost = 375
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			volatile_motes = @weapon_xl_t7_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
 	hull_damage = @megacannon_hull_damage
 	armor_penetration = @megacannon_armor_penetration
 	armor_damage = @megacannon_armor_damage
@@ -428,7 +560,19 @@ weapon_component_template = {
 	range = 155
 	accuracy = 0.75
 	power = -330
-	cost = 425
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			volatile_motes = @weapon_xl_t8_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
 	hull_damage = @megacannon_hull_damage
 	armor_penetration = @megacannon_armor_penetration
 	armor_damage = @megacannon_armor_damage
@@ -466,7 +610,19 @@ weapon_component_template = {
 	range = 250
 	accuracy = 0.8
 	power = -500
-	cost = 500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			volatile_motes = @weapon_t_t6_cost_special
+		}		
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
 	hull_damage = @mhd_cannon_hull_damage
 	armor_penetration = @mhd_cannon_armor_penetration
 	armor_damage = @mhd_cannon_armor_damage
@@ -504,7 +660,18 @@ weapon_component_template = {
 	range = 30
 	accuracy = 0.75
 	power = -12
-	cost = 16
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 16
+		}		
+		upkeep = {
+			energy = 0.16
+			alloys = 0.016
+		}
+	}
+
 	hull_damage = @pd_hull_damage
 	armor_penetration = @pd_armor_penetration
 	armor_damage = @pd_armor_damage
@@ -538,7 +705,18 @@ weapon_component_template = {
 	range = 30
 	accuracy = 0.75
 	power = -15
-	cost = 20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}		
+		upkeep = {
+			energy = 0.2
+			alloys = 0.02
+		}
+	}
+
 	hull_damage = @pd_hull_damage
 	armor_penetration = @pd_armor_penetration
 	armor_damage = @pd_armor_damage
@@ -571,7 +749,18 @@ weapon_component_template = {
 	range = 30
 	accuracy = 0.75
 	power = -12
-	cost = 16
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 16
+		}		
+		upkeep = {
+			energy = 0.16
+			alloys = 0.016
+		}
+	}
+
 	hull_damage = @pd_hull_damage
 	armor_penetration = @pd_armor_penetration
 	armor_damage = @pd_armor_damage
@@ -605,7 +794,18 @@ weapon_component_template = {
 	range = 30
 	accuracy = 0.75
 	power = -15
-	cost = 20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}		
+		upkeep = {
+			energy = 0.2
+			alloys = 0.02
+		}
+	}
+
 	hull_damage = @pd_hull_damage
 	armor_penetration = @pd_armor_penetration
 	armor_damage = @pd_armor_damage
