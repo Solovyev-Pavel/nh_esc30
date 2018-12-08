@@ -11,20 +11,7 @@ food_adjacency_any_building_available_esc = {
 				NOT = { has_global_flag = ESC_buildings_forbidden }
 				NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
 			}
-			prev = {
-				custom_tooltip = {
-					text = "requires_building_capital_2"
-					planet = {
-						OR = {
-							 ### vanilla capitals
-							has_building = "building_capital_2"
-							has_building = "building_capital_3"
-							has_building = "building_machine_capital_2"
-							has_building = "building_machine_capital_3"
-						}
-					}
-				}
-			}
+			has_major_upgraded_capital = yes
 			NOR = { has_building = nhsc_building_stellar_energy_tower }
 		}
 	}

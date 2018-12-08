@@ -1,9 +1,14 @@
 ### MOD OPTIONS
 
-planet_edict = {
-	name = "nhsc_mod_control_edict"
-	cost = { energy = 0 }
+nhsc_mod_control_edict = {
 	length = 0
+
+	resources = {
+		category = edicts
+		cost = {
+			energy = 0
+		}
+	}
 
 	potential = {
 		owner = { is_ai = no }

@@ -35,7 +35,7 @@ nhsc_tech_central_research_bureau = {
 	tier = 3
 	cost = @tier3cost2
 	weight = @tier_core
-	prerequisites = { "tech_physics_lab_2" "tech_biolab_2" "tech_engineering_lab_2" }
+	prerequisites = { "tech_physics_2" "tech_society_2" "tech_engineering_2" }
 
 	prereqfor_desc = {
 		custom = {
@@ -67,7 +67,7 @@ nhsc_tech_culture_nexus = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4cost1
-	prerequisites = { "nhsc_tech_central_research_bureau" "tech_biolab_3" }
+	prerequisites = { "nhsc_tech_central_research_bureau" "tech_society_3" }
 	is_rare = yes
 
 	potential = {
@@ -120,7 +120,7 @@ nhsc_tech_advanced_materials_lab = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4cost1
-	prerequisites = { "nhsc_tech_central_research_bureau" "tech_engineering_lab_3" }
+	prerequisites = { "nhsc_tech_central_research_bureau" "tech_engineering_3" }
 	is_rare = yes
 
 	potential = {
@@ -160,7 +160,7 @@ nhsc_tech_technology_institute = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4cost1
-	prerequisites = { "nhsc_tech_central_research_bureau" "tech_physics_lab_3" }
+	prerequisites = { "nhsc_tech_central_research_bureau" "tech_physics_3" }
 	is_rare = yes
 
 	potential = {
@@ -342,7 +342,7 @@ nhsc_tech_advanced_heavy_weapons = {
 				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
-	}	
+	}
 
 	ai_weight = {
 		factor = 3
@@ -403,7 +403,7 @@ nhsc_tech_gravity_manipulation = {
 	modifier = {
 		starbase_building_build_cost_mult = -0.1
 		planet_building_cost_mult = -0.1
-		mod_megastructure_build_cost_mult = -0.15
+		megastructure_build_cost_mult = -0.15
 		starbase_upgrade_cost_mult = -0.1
 	}
 
@@ -469,7 +469,7 @@ nhsc_tech_gravity_weapons = {
 	weight = @tier4weight2
 	prerequisites = { "nhsc_tech_new_age_warfare" "nhsc_tech_gravity_manipulation" }
 	is_rare = yes
-	
+
 	prereqfor_desc = {
 		custom = {
 			title = "NHSC_TECH_UNLOCK_GRAV_WEAPONS_TITLE"
@@ -537,10 +537,10 @@ nhsc_tech_gravity_weapons = {
 ##                    Advanced Materials                  ##
 ############################################################
 
-nhsc_tech_advanced_materials = { 
+nhsc_tech_advanced_materials = {
 	area = engineering
 	category = { materials }
-	tier = 4  
+	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
 	prerequisites = { "nhsc_tech_central_research_bureau" "tech_ship_armor_5" }
@@ -590,7 +590,7 @@ nhsc_tech_advanced_materials = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -608,7 +608,7 @@ nhsc_tech_superconductors = {
 	is_rare = yes
 
 	modifier = {
-		country_resource_energy_mult = 0.05
+		country_energy_produces_mult = 0.1
 	}
 
 	weight_modifier = {
@@ -640,7 +640,7 @@ nhsc_tech_superconductors = {
 nhsc_tech_synthetic_lifeform_studies = {
 	area = society
 	category = { materials }
-	tier = 4  
+	tier = 4
 	cost = @tier4cost3
 	weight = @tier4weight2
 	prerequisites = { "nhsc_tech_new_age_warfare" "nhsc_tech_advanced_materials" }
@@ -706,8 +706,8 @@ nhsc_tech_synthetic_lifeform_studies = {
 				area = society
 				has_trait = "leader_trait_maniacal"
 			}
-		}                                                             
-	}	
+		}
+	}
 }
 
 ############################################################
@@ -717,7 +717,7 @@ nhsc_tech_synthetic_lifeform_studies = {
 nhsc_tech_psionic_weapons = {
     area = society
 	category = { psionics }
-	tier = 4  
+	tier = 4
 	cost = @tier4cost3
 	weight = @tier4weight3
 	prerequisites = { "nhsc_tech_new_age_warfare" "nhsc_tech_central_research_bureau" "tech_psionic_theory"  }
@@ -795,7 +795,7 @@ nhsc_tech_psionic_weapons = {
 				area = society
 				has_trait = "leader_trait_maniacal"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -822,7 +822,7 @@ nhsc_tech_spacetime_manipulation = {
 	modifier = {
 		starbase_shipyard_build_cost_mult = -0.1
 		planet_building_cost_mult = -0.1
-		mod_megastructure_build_cost_mult = -0.1
+		megastructure_build_cost_mult = -0.1
 		planet_building_build_speed_mult = 0.1
 		starbase_shipyard_build_speed_mult = 0.1
 		megastructure_build_speed_mult = 0.1
@@ -900,11 +900,11 @@ nhsc_tech_neutronium_tools = {
 	tier = 4
 	cost = @tier4cost2
 	weight = @tier4weight3
-	prerequisites = { "tech_mine_neutronium" "nhsc_tech_central_research_bureau" }
+	prerequisites = { "nhsc_tech_advanced_materials" }
 	is_rare = yes
 
 	modifier = {
-		country_resource_minerals_mult = 0.05
+		country_minerals_produces_mult = 0.1
 	}
 
 	weight_modifier = {
@@ -940,7 +940,7 @@ nhsc_tech_orbital_powerplant = {
 	cost = @tier4cost1
 	weight = @tier4weight1
 	prerequisites = { "tech_starbase_4" "tech_zero_point_power" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
@@ -954,7 +954,7 @@ nhsc_tech_orbital_powerplant = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 10
 	}
@@ -1113,7 +1113,7 @@ nhsc_tech_phase_shifted_ammunition = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 	}
@@ -1147,7 +1147,7 @@ nhsc_tech_time_dilation_chambers = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 	}

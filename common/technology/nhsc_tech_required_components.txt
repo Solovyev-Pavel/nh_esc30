@@ -36,10 +36,6 @@ nhsc_tech_advanced_reactor_1 = {
 		}
 	}
 
-	modifier = {
-		max_energy = 500
-	}
-
 	potential = {
 		NOT = { has_global_flag = ESC_reactors_forbidden }
 	}
@@ -58,7 +54,7 @@ nhsc_tech_advanced_reactor_1 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}                                                             
+		}
 	}
 
 	ai_weight = {
@@ -101,10 +97,6 @@ nhsc_tech_advanced_reactor_2 = {
 		}
 	}
 
-	modifier = {
-		max_energy = 500
-	}
-
 	potential = {
 		NOT = { has_global_flag = ESC_reactors_forbidden }
 	}
@@ -123,7 +115,7 @@ nhsc_tech_advanced_reactor_2 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}                                                             
+		}
 	}
 
 	ai_weight = {
@@ -167,10 +159,6 @@ nhsc_tech_advanced_reactor_3 = {
 		}
 	}
 
-	modifier = {
-		max_energy = 500
-	}
-
 	potential = {
 		NOT = { has_global_flag = ESC_reactors_forbidden }
 	}
@@ -189,7 +177,7 @@ nhsc_tech_advanced_reactor_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}                                                             
+		}
 	}
 
 	ai_weight = {
@@ -234,10 +222,6 @@ nhsc_tech_dark_matter_power_core_2 = {
 		}
 	}
 
-	modifier = {
-		max_energy = 500
-	}
-
 	potential = {
 		NOT = { has_global_flag = ESC_reactors_forbidden }
 	}
@@ -256,7 +240,7 @@ nhsc_tech_dark_matter_power_core_2 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}                                                             
+		}
 	}
 
 	ai_weight = {
@@ -285,14 +269,14 @@ nhsc_tech_dark_matter_power_core_2 = {
 ############################################################
 
 nhsc_tech_advanced_sensors_1 = {
-	area = physics  
+	area = physics
 	category = { voidcraft }
-	tier = 4               
+	tier = 4
 	cost = @tier4cost3
 	weight = @tier4weight3
 	prerequisites = { "tech_sensors_4" "nhsc_tech_central_research_bureau" }
 	ai_update_type = all
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_ADV_TACHYON_SENSOR_TITLE"
@@ -303,7 +287,7 @@ nhsc_tech_advanced_sensors_1 = {
 	modifier = {
 		science_ship_survey_speed = 0.05
 	}
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_sensors_forbidden }
 	}
@@ -317,7 +301,7 @@ nhsc_tech_advanced_sensors_1 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -333,17 +317,17 @@ nhsc_tech_advanced_sensors_1 = {
 ############################################################
 ##                      String Theory                     ##
 ############################################################
-                                                            
+
 nhsc_tech_advanced_sensors_2 = {
-	area = physics  
+	area = physics
 	category = { voidcraft }
-	tier = 5               
+	tier = 5
 	cost = @tier5cost1
 	weight = @tier5weight1
 	prerequisites = { "nhsc_tech_advanced_sensors_1" }
 	ai_update_type = all
 	is_rare = yes
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_STRING_SENSOR_TITLE"
@@ -354,7 +338,7 @@ nhsc_tech_advanced_sensors_2 = {
 	modifier = {
 		science_ship_survey_speed = 0.05
 	}
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_sensors_forbidden }
 	}
@@ -368,7 +352,7 @@ nhsc_tech_advanced_sensors_2 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -386,9 +370,9 @@ nhsc_tech_advanced_sensors_2 = {
 ############################################################
 
 nhsc_tech_advanced_sensors_3 = {
-	area = physics  
+	area = physics
 	category = { voidcraft }
-	tier = 5               
+	tier = 5
 	cost = @tier5cost2
 	weight = @tier5weight2
 	prerequisites = { "nhsc_tech_advanced_sensors_2" }
@@ -405,7 +389,7 @@ nhsc_tech_advanced_sensors_3 = {
 	modifier = {
 		science_ship_survey_speed = 0.10
 	}
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_sensors_forbidden }
 	}
@@ -419,7 +403,7 @@ nhsc_tech_advanced_sensors_3 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -437,15 +421,15 @@ nhsc_tech_advanced_sensors_3 = {
 ############################################################
 
 nhsc_tech_psionic_sensors = {
-	area = society  
+	area = society
 	category = { psionics }
-	tier = 5               
+	tier = 5
 	cost = @tier5cost2
 	weight = @tier5weight2
 	prerequisites = { "nhsc_tech_advanced_sensors_2" "tech_psionic_theory" }
 	ai_update_type = all
 	is_rare = yes
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_PSI_SENSOR_TITLE"
@@ -456,7 +440,7 @@ nhsc_tech_psionic_sensors = {
 	modifier = {
 		science_ship_survey_speed = 0.10
 	}
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_sensors_forbidden }
 	}
@@ -484,7 +468,7 @@ nhsc_tech_psionic_sensors = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
