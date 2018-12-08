@@ -12,11 +12,10 @@ on_colonization_started = {
 
 on_tech_increased = {
 	events = {
-		nhsc.120 # give player normal torps 1 - 3 if nanite torps are researched
+		nhsc.125 # give player normal torps 1 - 3 if nanite torps are researched
 		nhsc.130 # set global flag if dangerous tech is researched
 		nhsc.140 # set global flag if dangerous tech is researched
 		nhsc.150 # give player normal torps 1 - 3 if gravity torpedoes were researched
-		nhsc.301 # country researched neutronium and is no longer eligible for special project
 	}
 }
 
@@ -30,12 +29,6 @@ on_monthly_pulse = {
 on_yearly_pulse = {
 	events = {
 		nhsc_crisis.3 # rolling dice to initiate crisis
-	}
-}
-
-on_bi_yearly_pulse = {
-	events = {
-		nhsc.310 # rolling dice for neutronium special project
 	}
 }
 

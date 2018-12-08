@@ -140,7 +140,6 @@ esc_tech_switch = {
 	if = { limit = { last_increased_tech = nhsc_tech_missile_6 } missile_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_swarmermissiles_4 } swarmer_missile_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_swarmermissiles_3 } swarmer_missile_tech_check = yes break = yes }
-	if = { limit = { last_increased_tech = nhsc_tech_corrosivewarheadtorpedo } torpedo_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_torpedoes_5 } torpedo_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_torpedoes_4 } torpedo_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_plasma_missiles_3 } plasma_tech_check = yes missile_tech_check = yes break = yes }
@@ -215,6 +214,16 @@ armor_tech_check = {
 			NOT = { has_technology = "tech_ship_armor_5" }
 		}
 		give_technology = { message = no tech = tech_ship_armor_5 }
+	}
+	if = {
+		limit = {
+			OR = {
+				has_technology = "nhsc_tech_armor_nanite_1"
+				has_technology = "nhsc_tech_armor_shield_1"
+			}
+			NOT = { has_technology = "nhsc_tech_synthetic_lifeform_studies" }
+		}
+		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 	}
 	if = {
 		limit = {
@@ -875,21 +884,21 @@ mass_accelerator_tech_check = {
 
 autocannon_tech_check = {
 	if = {
-		limit = { 
+		limit = {
 			has_technology = "nhsc_tech_autocannon_5"
 			NOT = { has_technology = "nhsc_tech_autocannon_4" }
 		}
 		give_technology = { message = no tech = nhsc_tech_autocannon_4 }
 	}
 	if = {
-		limit = { 
+		limit = {
 			has_technology = "nhsc_tech_autocannon_4"
 			NOT = { has_technology = "tech_autocannons_3" }
 		}
 		give_technology = { message = no tech = tech_autocannons_3 }
 	}
 	if = {
-		limit = { 
+		limit = {
 			has_technology = "tech_autocannons_3"
 			NOT = { has_technology = "tech_autocannons_2" }
 		}
@@ -905,13 +914,6 @@ autocannon_tech_check = {
 }
 
 torpedo_tech_check = {
-	if = {
-		limit = {
-			has_technology = "nhsc_tech_corrosivewarheadtorpedo"
-			NOT = { has_technology = "nhsc_tech_torpedoes_5" }
-		}
-		give_technology = { message = no tech = nhsc_tech_torpedoes_5 }
-	}
 	if = {
 		limit = {
 			has_technology = "nhsc_tech_torpedoes_5"
