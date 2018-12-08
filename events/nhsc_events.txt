@@ -74,36 +74,12 @@ country_event = {
 }
 
 ## ##################################################### ##
-##           Frontier Settlements access trigger         ##
-## ##################################################### ##
-
-planet_event = {
-	id = nhsc.100
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		has_owner = yes
-		original_owner = yes
-		owner = {
-			NOT = { has_country_flag = nhsc_founded_first_colony }
-		}
-		NOT = { is_planet_class = pc_habitat }
-	}
-
-	immediate = {
-		owner = { set_country_flag = nhsc_founded_first_colony }
-	}
-}
-
-
-## ##################################################### ##
 ##            Give basic weapons if complex was          ##
 ##                   (reverse) engineered                ##
 ## ##################################################### ##
 
 country_event = {
-	id = nhsc.125
+	id = nhsc.100
 	hide_window = yes
 	is_triggered_only = yes
 

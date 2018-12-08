@@ -4,15 +4,9 @@ on_game_start = {
 	}
 }
 
-on_colonization_started = {
-	events = {
-		nhsc.100 # set flag for frontier infrastructure technologies
-	}
-}
-
 on_tech_increased = {
 	events = {
-		nhsc.125 # give player normal torps 1 - 3 if nanite torps are researched
+		nhsc.100 # give player basic weapons if advanced were researched
 		nhsc.130 # set global flag if dangerous tech is researched
 		nhsc.140 # set global flag if dangerous tech is researched
 	}
