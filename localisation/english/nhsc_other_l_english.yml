@@ -63,9 +63,6 @@ NHSC_RAVAGING_SWARMERS_DESC: "These swarmers have been trained and drugged into 
 ###         Special Resources        ###
 ########################################
 
-esc_nanite_swarm: "Nanite Swarm"
-esc_nanite_swarm_desc: "A mass of specialized nanites that are ready to fulfill their task, be it repair our ships or tear enemy ones apart atom by atom."
-
 esc_psionic_charge: "Psionic Charge"
 esc_psionic_charge_desc: "A stable vortex of psychic energies to be used as spirits deem necessary."
 
@@ -114,10 +111,10 @@ job_esc_gravity_manipulator_unit_desc: "$job_esc_gravity_manipulator_drone_desc$
 
 job_esc_dimension_warper: "Dimension Warpers"
 mod_job_esc_dimension_warper_add: "$job_esc_dimension_warper$"
-job_esc_dimension_warper_desc: "This specialist population oversees the works of Dimensional Towers that produce Transdimensional Vortexes."
+job_esc_dimension_warper_desc: "This specialist population oversees the works of Dimensional Breach that produce Transdimensional Vortexes."
 job_esc_dimension_warper_drone: "Dimension Warper Drones"
 mod_job_esc_dimension_warper_drone_add: "$job_esc_dimension_warper_drone$"
-job_esc_dimension_warper_drone_desc: "These complex drones oversee the works of Dimensional Towers that produce Transdimensional Vortexes."
+job_esc_dimension_warper_drone_desc: "These complex drones oversee the works of Dimensional Breach that produce Transdimensional Vortexes."
 job_esc_dimension_warper_unit: "Dimension Warper Units"
 mod_job_esc_dimension_warper_unit_add: "$job_esc_dimension_warper_unit$"
 job_esc_dimension_warper_unit_desc: "$job_esc_dimension_warper_drone_desc$"
@@ -131,6 +128,16 @@ job_esc_enigma_reader_drone_desc: "This complex drones work the Enimatic Energy 
 job_esc_enigma_reader_unit: "Enigma Reader Units"
 mod_job_esc_enigma_reader_unit_add: "$job_esc_enigma_reader_unit$"
 job_esc_enigma_reader_unit_desc: "$job_esc_enigma_reader_drone_desc$"
+
+job_esc_nanite_breeder: "Nanite Breeder"
+mod_job_esc_nanite_breeder_add: "$job_esc_nanite_breeder$"
+job_esc_nanite_breeder_desc: "This specialist population works the Nanite Foundry that produces Nanites."
+job_esc_nanite_breeder_drone: "Nanite Breeding Drones"
+mod_job_esc_nanite_breeder_drone_add: "$job_esc_nanite_breeder_drone$"
+job_esc_nanite_breeder_drone_desc: "This complex drones work the Nanite Foundry Coils that produces Nanites."
+job_esc_nanite_breeder_unit: "Nanite Creation Units"
+mod_job_esc_nanite_breeder_unit_add: "$job_esc_nanite_breeder_unit$"
+job_esc_nanite_breeder_unit_desc: "$job_esc_nanite_breeder_drone_desc$"
 
 ########################################
 ###              Edicts              ###

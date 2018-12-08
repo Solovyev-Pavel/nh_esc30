@@ -35,6 +35,12 @@ nhsc_building_reprocessing_plant_desc: "This advanced recycling and reprocessing
 
 ### special resource production buildings
 
+nhsc_building_nanite_foundry: "Nanite Foundry"
+nhsc_building_nanite_foundry_desc: "A vast complex of buildings, specialized for breeding nanites"
+job_esc_nanite_breeder_effect_desc: "Provides §G+2§! Nanite Breeder jobs for gathering nanites."
+job_esc_nanite_breeder_drone_effect_desc: "Provides §G+2§! Nanite Breeder Drones jobs for gathering nanites"
+job_esc_nanite_breeder_unit_effect_desc: "Provides §G+2§! Nanite Creation Unit jobs for gathering nanites"
+
 building_esc_crystal_farm_1: "Crystal Farm"
 building_esc_crystal_farm_1_desc: "Vast tracts of land dedicated to growing semi-organic crystalline matter."
 job_esc_crystal_farmer_1_effect_desc: "Provides §G+2§! Crystal Farmer jobs for gathering Living Crystals and associated materials."
@@ -48,23 +54,23 @@ job_esc_crystal_farmer_unit_2_effect_desc: "$job_esc_crystal_farmer_2_effect_des
 
 nhsc_building_psionic_containment: "Psionic Containment"
 nhsc_building_psionic_containment_desc: "A set of infrastructure to gather and condense psionic energies released by the population of this world."
-job_esc_channeller_effect_desc: "Provides §G+3§! Channeller jobs for gathering Psionic Charges."
-job_esc_channeller_drone_effect_desc: "Provides §G+3§! Channeller Drone jobs for gathering Psionic Charges."
+job_esc_channeller_effect_desc: "Provides §G+2§! Channeller jobs for gathering Psionic Charges."
+job_esc_channeller_drone_effect_desc: "Provides §G+2§! Channeller Drone jobs for gathering Psionic Charges."
 
-building_esc_graviton_condenser: "Graviton Condenser"
-building_esc_graviton_condenser_desc: "Specialized buildings that gather and condence gravitons."
-job_esc_gravity_manipulator_effect_desc: "Provides §G+3§! Gravity Manipulator jobs for gathering Gravitic Anomalies."
+nhsc_building_graviton_condenser: "Graviton Condenser"
+nhsc_building_graviton_condenser_desc: "Specialized buildings that gather and condence gravitons."
+job_esc_gravity_manipulator_effect_desc: "Provides §G+2§! Gravity Manipulator jobs for gathering Gravitic Anomalies."
 job_esc_gravity_manipulator_drone_effect_desc: "$job_esc_gravity_manipulator_effect_desc$"
 job_esc_gravity_manipulator_unit_effect_desc: "$job_esc_gravity_manipulator_effect_desc$"
 
-building_esc_dimensional_tower: "Dimensional Tower"
-building_esc_dimensional_tower_desc: "Specialized facilities, containing massive field generators, capable of warping the very fabric of reality."
-job_esc_dimension_warper_effect_desc: "Provides §G+3§! Dimension Warper jobs for gathering Transdimensional Vortexes."
+nhsc_building_dimensional_breach: "Dimensional Breach"
+nhsc_building_dimensional_breach_desc: "Specialized facilities, containing massive field generators, capable of warping the very fabric of reality."
+job_esc_dimension_warper_effect_desc: "Provides §G+2§! Dimension Warper jobs for gathering Transdimensional Vortexes."
 job_esc_dimension_warper_drone_effect_desc: "$job_esc_dimension_warper_effect_desc$"
 job_esc_dimension_warper_unit_effect_desc: "$job_esc_dimension_warper_effect_desc$"
 
 nhsc_building_enigmatic_coil: "Enigmatic Energy Coil"
 nhsc_building_enigmatic_coil_desc: "Massive generators, gathering and amplifying energies, similar to those used by the Enigmatic Fortress."
-job_esc_enigma_reader_effect_desc: "Provides §G+3§! Enigma Reader jobs for gathering Enigmatic Energies."
+job_esc_enigma_reader_effect_desc: "Provides §G+2§! Enigma Reader jobs for gathering Enigmatic Energies."
 job_esc_enigma_reader_drone_effect_desc: "$job_esc_enigma_reader_effect_desc$"
 job_esc_enigma_reader_unit_effect_desc: "$job_esc_enigma_reader_effect_desc$"

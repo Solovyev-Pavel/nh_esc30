@@ -17,471 +17,545 @@
 ###                Central Research Bureau               ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_centralresearchbureau = {
-	base_buildtime = 360
-	can_build = yes
-	empire_unique = yes
-	planet_unique = yes
-	icon = "building_modern_2"
-
+	base_buildtime = 540
+	base_cap_amount = 1
 	category = research
+	icon = building_institute
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
+
+	allow = {
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_centralresearchbureau } } }
+	}
 
 	resources = {
 		category = planet_buildings
-        cost = {
+		cost = {
 			minerals = 600
-			influence = 25
+			influence = 15
 			rare_crystals = 25
 			volatile_motes = 25
 			exotic_gases = 25
 		}
 		upkeep = {
-			energy = 15
-			rare_crystals = 2
-			volatile_motes = 2
-			exotic_gases = 2
+			energy = 10
+			rare_crystals = 1
+			volatile_motes = 1
+			exotic_gases = 1
 		}
+	}
+
+	planet_modifier = {
+		planet_researchers_produces_mult = 0.20 # 20% more science from researchers
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_head_researcher_add = 1
+			job_researcher_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 7
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_calculator_add = 7
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_head_researcher_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_brain_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		text = job_calculator_effect_desc
 	}
 
 	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
 
 	prerequisites = { "nhsc_tech_central_research_bureau" }
 
-	produced_resources = {
-		engineering_research = 5
-		physics_research = 5
-		society_research = 5
-	}
-	
-	required_resources = { energy = 15 }
-
 	country_modifier = {
 		all_technology_research_speed = 0.05
 		num_tech_alternatives_add = 1
-		tile_resource_physics_research_mult = 0.05
-		tile_resource_society_research_mult = 0.05
-		tile_resource_engineering_research_mult = 0.05
 	}
 
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-	}
-	
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-				}
-			}
-		}
-	}
-
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
-	}
+	ai_weight = { weight = 10 }
 }
 
 ############################################################
 ###                     Culture Nexus                    ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_culture_nexus = {
 	base_buildtime = 360
-	planet_unique = yes
-	empire_unique = yes
-	icon = "nhsc_building_culture_nexus"
-	
-	cost = {
-		minerals = 500
-		influence = 25
-	}
-	
-	produced_resources = {
-		society_research = 20
-		influence = 0.5
+	base_cap_amount = 1
+	icon = nhsc_building_culture_nexus
+	category = unity
+
+	potential = {
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+		exists = owner
+		owner = { is_regular_empire = yes }
 	}
 
-	required_resources = { energy = 20 }
-	
-	upgrades = {}
+	allow = {
+		has_major_upgraded_capital = yes
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_culture_nexus } } }
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			influence = 15
+			rare_crystals = 25
+		}
+		upkeep = {
+			energy = 15
+			rare_crystals = 2
+		}
+		produces = {
+			influence = 0.5
+		}
+	}
 
 	country_modifier = {
-		tile_resource_unity_mult = 0.05
 		pop_government_ethic_attraction = 0.3
 		species_leader_exp_gain = 0.25
 		country_society_tech_research_speed = 0.05
 	}
 
 	planet_modifier = {
-		tile_resource_society_research_mult = 0.25
 		pop_happiness = 0.05
+		job_culture_worker_add = 7
+		planet_amenities_add = 10
+	}
+
+	triggered_desc = {
+		text = job_culture_worker_effect_desc
 	}
 
 	show_tech_unlock_if = {
 		NOT = { has_authority = auth_machine_intelligence }
 		NOT = { has_authority = auth_hive_mind }
-	}
-
-	destroy_if = {
-		exists = owner
-		owner = {
-			OR = {
-				has_authority = auth_hive_mind
-				has_authority = auth_machine_intelligence
-			}
-		}
+		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
 	ai_weight = { factor = 10 }
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		NOT = { owner = { has_authority = auth_machine_intelligence } }
-		NOT = { owner = { has_authority = auth_hive_mind } }
-	}
-	
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-					has_building = "building_hab_capital"
-				}
-			}
-		}
-	}
-
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
-	}
 }
 
 ############################################################
 ###                     Cerebral Node                    ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_cerebral_node = {
 	base_buildtime = 360
-	planet_unique = yes
-	empire_unique = yes
-	icon = "nhsc_building_culture_nexus"
+	base_cap_amount = 1
+	icon = nhsc_building_culture_nexus
+	category = unity
 
-	cost = {
-		minerals = 500
-		influence = 25
+	potential = {
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+		exists = owner
+		owner = { is_hive_empire = yes }
 	}
 
-	produced_resources = {
-		society_research = 20
-		influence = 0.5
+	allow = {
+		has_major_upgraded_capital = yes
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_cerebral_node } } }
 	}
 
-	required_resources = { energy = 20 }
-
-	upgrades = {}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			influence = 15
+			rare_crystals = 25
+		}
+		upkeep = {
+			energy = 15
+			rare_crystals = 2
+		}
+		produces = {
+			influence = 0.5
+		}
+	}
 
 	country_modifier = {
-		tile_resource_unity_mult = 0.05
 		leader_skill_levels = 1
 		pop_environment_tolerance = 0.05
 		country_society_tech_research_speed = 0.05
 	}
 
 	planet_modifier = {
-		tile_resource_society_research_mult = 0.25
+		job_synapse_drone_add = 7
+		job_maintenance_drone_add = 2
+	}
+
+	triggered_desc = {
+		text = job_synapse_drone_effect_desc
 	}
 
 	show_tech_unlock_if = {
 		has_authority = auth_hive_mind
-	}
-
-	destroy_if = {
-		exists = owner
-		owner = {
-			NOT = { has_authority = auth_hive_mind }
-		}
+		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
 	ai_weight = { factor = 10 }
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		owner = { has_authority = auth_hive_mind }
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-					has_building = "building_hab_capital"
-				}
-			}
-		}
-	}
-
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
-	}
 }
 
 ############################################################
 ###                   Network Regulator                  ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_network_regulator = {
 	base_buildtime = 360
-	planet_unique = yes
-	empire_unique = yes
-	icon = "nhsc_building_culture_nexus"
+	base_cap_amount = 1
+	icon = nhsc_building_culture_nexus
+	category = unity
 
-	cost = {
-		minerals = 500
-		influence = 25
+	potential = {
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+		exists = owner
+		owner = { is_machine_empire = yes }
 	}
 
-	produced_resources = {
-		society_research = 20
-		influence = 0.5
+	allow = {
+		has_major_upgraded_capital = yes
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_network_regulator } } }
 	}
 
-	required_resources = { energy = 20 }
-
-	upgrades = {}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			influence = 15
+			rare_crystals = 25
+		}
+		upkeep = {
+			energy = 15
+			rare_crystals = 2
+		}
+		produces = {
+			influence = 0.5
+		}
+	}
 
 	country_modifier = {
-		tile_resource_unity_mult = 0.05
 		leader_skill_levels = 1
-		pop_robot_build_speed_mult = 0.1
 		country_society_tech_research_speed = 0.05
 	}
 
 	planet_modifier = {
-		tile_resource_society_research_mult = 0.25
+		job_coordinator_add = 7
+		job_maintenance_drone_add = 2
+	}
+
+	triggered_desc = {
+		text = job_coordinator_effect_desc
 	}
 
 	show_tech_unlock_if = {
 		has_authority = auth_machine_intelligence
-	}
-
-	destroy_if = {
-		exists = owner
-		owner = {
-			NOT = { has_authority = auth_machine_intelligence }
-		}
+		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
 	ai_weight = { factor = 10 }
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		owner = { has_authority = auth_machine_intelligence }
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-					has_building = "building_hab_capital"
-				}
-			}
-		}
-	}
-
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
-	}
 }
 
 ############################################################
 ###             Advanced Materials Laboratory            ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_materials_laboratory = {
 	base_buildtime = 360
-	planet_unique = yes
-	empire_unique = yes
-	icon = "nhsc_building_materials_laboratory"
-	
-	cost = {
-		minerals = 500
-		influence = 25
-	}
-	
-	produced_resources = {
-		engineering_research = 20
-		influence = 0.5
+	base_cap_amount = 1
+	icon = nhsc_building_materials_laboratory
+	category = research
+
+	potential = {
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
-	required_resources = { energy = 20 }
-	
-	upgrades = {}
+	allow = {
+		has_major_upgraded_capital = yes
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_materials_laboratory } } }
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			influence = 15
+			volatile_motes = 25
+		}
+		upkeep = {
+			energy = 15
+			volatile_motes = 2
+		}
+		produces = {
+			influence = 0.5
+		}
+	}
 
 	country_modifier = {
-		tile_resource_minerals_mult = 0.05
 		ship_armor_damage_mult = 0.1
 		country_engineering_tech_research_speed = 0.05
 	}
 
-	planet_modifier = {
-		tile_resource_engineering_research_mult = 0.25
-		tile_resource_minerals_mult = 0.2
-	}
-
-	prerequisites = { "nhsc_tech_advanced_materials_lab" }
-	
-	ai_weight = { factor = 10 }
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-	}
-	
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-					has_building = "building_hab_capital"
-				}
-			}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 3
 		}
 	}
 
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 3
+		}
 	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_calculator_add = 3
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_researcher_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_brain_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		text = job_calculator_effect_desc
+	}
+
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+
+	prerequisites = { "nhsc_tech_advanced_materials_lab" }
+
+	ai_weight = { factor = 10 }
 }
 
 ############################################################
 ###                 Technology Institute                 ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_technology_institute = {
 	base_buildtime = 360
-	planet_unique = yes
-	empire_unique = yes
-	icon = "nhsc_building_technology_institute"
-	
-	cost = {
-		minerals = 500
-		influence = 25
-	}
-	
-	produced_resources = {
-		physics_research = 20
-		influence = 0.5
+	base_cap_amount = 1
+	icon = nhsc_building_technology_institute
+	category = research
+
+	potential = {
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
-	required_resources = { energy = 20 }
-	
-	upgrades = {}
+	allow = {
+		has_major_upgraded_capital = yes
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_technology_institute } } }
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			influence = 15
+			exotic_gases = 25
+		}
+		upkeep = {
+			energy = 15
+			exotic_gases = 2
+		}
+		produces = {
+			influence = 0.5
+		}
+	}
 
 	country_modifier = {
-		tile_resource_energy_mult = 0.05
 		ship_shield_damage_mult = 0.1
 		country_physics_tech_research_speed = 0.05
 	}
 
-	planet_modifier = {
-		tile_resource_physics_research_mult = 0.25
-		tile_resource_energy_mult = 0.2
-	}
-
-	prerequisites = { "nhsc_tech_technology_institute" }
-	
-	ai_weight = { factor = 10 }
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-	}
-	
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-					has_building = "building_hab_capital"
-				}
-			}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 3
 		}
 	}
 
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 3
+		}
 	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_calculator_add = 3
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_researcher_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_brain_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		text = job_calculator_effect_desc
+	}
+
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+
+	prerequisites = { "nhsc_tech_technology_institute" }
+
+	ai_weight = { factor = 10 }
 }
 
 ############################################################
 ###                 Watcher of Eternity                  ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_watcher = {
 	base_buildtime = 540
-	planet_unique = yes
-	empire_unique = yes
-	is_listed = yes
-	icon = "nhsc_building_watcher"
-	
-	cost = {
-		minerals = 500
-		influence = 50
-	}
-	
-	produced_resources = {
-		engineering_research = 10
-		physics_research = 10
-		society_research = 10
+	base_cap_amount = 1
+	icon = nhsc_building_watcher
+	category = research
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
-	adjacency_bonus = {
-		tile_building_resource_physics_research_add = 1
-		tile_building_resource_society_research_add = 1
-		tile_building_resource_engineering_research_add = 1
+	allow = {
+		has_major_upgraded_capital = yes
+		exists = owner
+		owner = { NOT = { any_owned_planet = { has_building = nhsc_building_watcher } } }
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			influence = 15
+			rare_crystals = 25
+			exotic_gases = 25
+			sr_zro = 15
+		}
+		upkeep = {
+			energy = 10
+			sr_zro = 2
+		}
 	}
 
 	country_modifier = {
@@ -489,155 +563,261 @@ nhsc_building_watcher = {
 		num_tech_alternatives_add = 1
 	}
 
-	required_resources = { energy = 15 }
-	
-	upgrades = {}
-
-	prerequisites = { "nhsc_tech_watcher" }
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+	planet_modifier = {
+		planet_researchers_produces_mult = 0.20 # 20% more science from researchers
 	}
 
-	allow = {
-		planet = { is_capital = yes }
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-				}
-			}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_head_researcher_add = 1
+			job_researcher_add = 4
 		}
 	}
 
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 7
+		}
 	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_calculator_add = 7
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_head_researcher_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_brain_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		text = job_calculator_effect_desc
+	}
+
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+
+	prerequisites = { "nhsc_tech_watcher" }
+
+	ai_weight = { weight = 10 }
 }
 
 ############################################################
 ###                 Stellar Energy Tower                 ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_stellar_energy_tower = {
 	base_buildtime = 360
-	planet_unique = yes
-	icon = "nhsc_building_stellar_energy_tower"
-	
-	cost = {
-		minerals = 500
-		influence = 25
-	}
-	
-	produced_resources = {
-		energy = 10
-		physics_research = 5
-		unity = 5
-	}
-
-	adjacency_bonus = {
-		tile_building_resource_food_add = 2
-		tile_building_resource_physics_research_add = 1
-	}
-
-	required_resources = { minerals = 5 }
-	
-	upgrades = {}
-
-	prerequisites = { "nhsc_tech_stellar_energy_tower" }
+	base_cap_amount = 1
+	icon = nhsc_building_stellar_energy_tower
+	category = resource
 
 	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-				}
-			}
+		has_upgraded_capital = yes
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			rare_crystals = 25
+			exotic_gases = 25
+		}
+		produces = {
+			energy = 10
+			unity = 3
 		}
 	}
 
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
+	planet_modifier = {
+		planet_jobs_food_produces_mult = 0.15
 	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_calculator_add = 1
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_researcher_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_brain_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		text = job_calculator_effect_desc
+	}
+
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+
+	prerequisites = { "nhsc_tech_stellar_energy_tower" }
+
+	ai_weight = { weight = 5 }
 }
 
 ############################################################
 ###               Quantum Computation Node               ###
 ############################################################
 
-### FIXME: requires rework for 2.2
 nhsc_building_quantum_node = {
-	base_buildtime = 240
-	planet_unique = yes
-	is_listed = yes
-	icon = "nhsc_building_quantum_node"
-	
-	cost = {
-		minerals = 200
-		influence = 10
-	}
-	
-	produced_resources = {
-		engineering_research = 5
-		physics_research = 5
-		society_research = 5
-	}
-
-	produced_resource_trigger = {
-		modifier = {
-			has_tradition = tr_discovery_finish
-			resources = {
-				unity = 2
-			}
-		}
-	}
-
-	required_resources = { energy = 5 }
+	base_buildtime = 360
+	base_cap_amount = 1
+	icon = nhsc_building_quantum_node
+	category = research
 
 	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
 	}
-	
-	upgrades = {}
 
-	prerequisites = { "nhsc_tech_quantum_node" }
+	allow = { has_upgraded_capital = yes }
 
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-					has_building = "building_hab_capital"
-				}
-			}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+			rare_crystals = 25
+		}
+		upkeep = {
+			energy = 8
+			rare_crystals = 2
 		}
 	}
 
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 5
+		}
 	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 5
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_calculator_add = 5
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_researcher_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_brain_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		text = job_calculator_effect_desc
+	}
+
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+
+	prerequisites = { "nhsc_tech_quantum_node" }
+
+	ai_weight = { weight = 5 }
 }
 
 ############################################################
@@ -645,41 +825,37 @@ nhsc_building_quantum_node = {
 ############################################################
 
 ### FIXME: requires rework for 2.2
-nhsc_building_reprocessing_plant = {
-	base_buildtime = 360
-	planet_unique = yes
-	icon = "nhsc_building_reprocessor"
+# nhsc_building_reprocessing_plant = {
+# 	base_buildtime = 360
+# 	planet_unique = yes
+# 	icon = "nhsc_building_reprocessor"
 
-	cost = { minerals = 400 }
+# 	cost = { minerals = 400 }
 
-	produced_resources = { minerals = 5 }
+# 	produced_resources = { minerals = 5 }
 
-	required_resources = { energy = 2 }
+# 	required_resources = { energy = 2 }
 
-	planet_modifier = { pop_consumer_goods_mult = -0.33 }
+# 	planet_modifier = { pop_consumer_goods_mult = -0.33 }
 
-	prerequisites = { "nhsc_tech_reprocessing_plant" }
+# 	prerequisites = { "nhsc_tech_reprocessing_plant" }
 
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-	}
+# 	potential = {
+# 		NOT = { has_global_flag = ESC_buildings_forbidden }
+# 	}
 
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					### vanilla capitals
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-					has_building = "building_machine_capital_2"
-					has_building = "building_machine_capital_3"
-				}
-			}
-		}
-	}
-
-	ai_allow = {
-		NOT = { owner = { has_country_flag = cgm_disable_vanilla_building_AI } }
-	}
-}
+# 	allow = {
+# 		custom_tooltip = {
+# 			text = "requires_building_capital_2"
+# 			planet = {
+# 				OR = {
+# 					### vanilla capitals
+# 					has_building = "building_capital_2"
+# 					has_building = "building_capital_3"
+# 					has_building = "building_machine_capital_2"
+# 					has_building = "building_machine_capital_3"
+# 				}
+# 			}
+# 		}
+# 	}
+# }

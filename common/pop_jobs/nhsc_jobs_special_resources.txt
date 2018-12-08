@@ -2,6 +2,10 @@
 ###         Jobs for special resource production         ###
 ############################################################
 
+# > Nanites
+#   - Nanite Breeder                [normal empire]
+#   - Nanite Breeding Drone         [organic hive mind]
+#   - Nanite Creation Unit          [machine intelligence]
 # > Living Crystal
 #   - Crystal Farmer                [normal empire]
 #   - Crystal Farmer Drone          [organic hive mind]
@@ -23,6 +27,127 @@
 #   - Enigma Reader Unit            [machine intelligence]
 
 ############################################################
+###                    Nanite Breeders                   ###
+############################################################
+
+esc_nanite_breeder = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = nhsc_building_nanite_foundry
+	clothes_texture_index = 2
+
+    possible = {
+        specialist_job_check_trigger = yes
+        owner = { is_fallen_empire = no }
+    }
+
+    resources = {
+        category = planet_jobs
+        produces = {
+            esc_living_crystal = 2
+            alloys = 1
+        }
+        upkeep = {
+            consumer_goods = 1
+            minerals = 4
+        }
+    }
+
+    weight = {
+        weight = @specialist_job_weight
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no
+        }
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_industrious
+                has_trait = trait_cybernetic
+            }
+        }
+        modifier = {
+            factor = 0.75
+            has_trait = trait_nerve_stapled
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_nanite_breeder
+        }
+    }
+}
+
+esc_nanite_breeder_drone = {
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_nanite_foundry
+
+    possible = {
+        drone_job_check_trigger = yes
+    }
+
+    resources = {
+        category = planet_jobs
+        produces = {
+            esc_living_crystal = 2
+            alloys = 1
+        }
+        upkeep = {
+            minerals = 4
+            food = 3
+        }
+    }
+
+    weight = {
+        weight = @complex_drone_job_weight
+        modifier = {
+            factor = 1.5
+            OR = {
+                has_trait = trait_industrious
+            }
+        }
+        modifier = {
+            factor = 0.75
+            has_trait = trait_nerve_stapled
+        }
+        modifier = {
+            factor = 1.5
+            has_job = esc_nanite_breeder_drone
+        }
+    }
+}
+
+esc_nanite_breeder_unit = {
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_nanite_foundry
+
+    possible = {
+        drone_job_check_trigger = yes
+    }
+
+    resources = {
+        category = planet_jobs
+        produces = {
+            esc_living_crystal = 2
+            alloys = 1
+        }
+        upkeep = {
+            energy = 2
+            minerals = 4
+        }
+    }
+
+    weight = {
+        weight = @complex_drone_job_weight
+        modifier = {
+            factor = 1.5
+            has_job = esc_nanite_breeder_unit
+        }
+    }
+}
+
+############################################################
 ###                    Crystal Farmers                   ###
 ############################################################
 
@@ -40,12 +165,10 @@ esc_crystal_farmer = {
     resources = {
         category = planet_jobs
         produces = {
-            esc_living_crystal = 2
-            alloys = 1
+            nanites = 2
         }
         upkeep = {
-            consumer_goods = 1
-            minerals = 4
+            alloys = 4
         }
     }
 
@@ -89,12 +212,10 @@ esc_crystal_farmer_drone = {
     resources = {
         category = planet_jobs
         produces = {
-            esc_living_crystal = 2
-            alloys = 1
+            nanites = 2
         }
         upkeep = {
-            minerals = 4
-            food = 3
+            alloys = 4
         }
     }
 
@@ -116,7 +237,7 @@ esc_crystal_farmer_drone = {
         }
         modifier = {
             factor = 1.5
-            has_job = esc_crystal_farmer
+            has_job = esc_crystal_farmer_drone
         }
     }
 }
@@ -133,12 +254,10 @@ esc_crystal_farmer_unit = {
     resources = {
         category = planet_jobs
         produces = {
-            esc_living_crystal = 2
-            alloys = 1
+            nanites = 2
         }
         upkeep = {
-            energy = 2
-            minerals = 4
+            alloys = 4
         }
     }
 
@@ -268,7 +387,7 @@ esc_channeller_drone = {
         }
         modifier = {
             factor = 1.5
-            has_job = esc_channeller
+            has_job = esc_channeller_drone
         }
     }
 }
@@ -280,7 +399,7 @@ esc_channeller_drone = {
 esc_gravity_manipulator = {
     category = specialist
     condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_graviton_condenser
+    building_icon = nhsc_building_graviton_condenser
     clothes_texture_index = 2
 
     possible = {
@@ -332,7 +451,7 @@ esc_gravity_manipulator = {
 esc_gravity_manipulator_drone = {
     category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_esc_graviton_condenser
+	building_icon = nhsc_building_graviton_condenser
 
     possible = {
         drone_job_check_trigger = yes
@@ -377,7 +496,7 @@ esc_gravity_manipulator_drone = {
 esc_gravity_manipulator_unit = {
     category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_esc_graviton_condenser
+	building_icon = nhsc_building_graviton_condenser
 
     possible = {
         drone_job_check_trigger = yes
@@ -415,7 +534,7 @@ esc_gravity_manipulator_unit = {
 esc_dimension_warper = {
     category = specialist
     condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_dimensional_tower
+    building_icon = nhsc_building_dimensional_breach
     clothes_texture_index = 2
 
     possible = {
@@ -467,7 +586,7 @@ esc_dimension_warper = {
 esc_dimension_warper_drone = {
     category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_esc_dimensional_tower
+	building_icon = nhsc_building_dimensional_breach
 
     possible = {
         drone_job_check_trigger = yes
@@ -513,7 +632,7 @@ esc_dimension_warper_drone = {
 esc_dimension_warper_unit = {
     category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_esc_dimensional_tower
+	building_icon = nhsc_building_dimensional_breach
 
     possible = {
         drone_job_check_trigger = yes
