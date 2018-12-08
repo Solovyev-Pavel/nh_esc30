@@ -63,8 +63,8 @@ job_esc_dimension_warper_effect_desc: "Provides §G+3§! Dimension Warper jobs f
 job_esc_dimension_warper_drone_effect_desc: "$job_esc_dimension_warper_effect_desc$"
 job_esc_dimension_warper_unit_effect_desc: "$job_esc_dimension_warper_effect_desc$"
 
-building_esc_enigmatic_coil: "Enigmatic Energy Coil"
-building_esc_enigmatic_coil_desc: "Massive generators, gathering and amplifying energies, similar to those used by the Enigmatic Fortress."
+nhsc_building_enigmatic_coil: "Enigmatic Energy Coil"
+nhsc_building_enigmatic_coil_desc: "Massive generators, gathering and amplifying energies, similar to those used by the Enigmatic Fortress."
 job_esc_enigma_reader_effect_desc: "Provides §G+3§! Enigma Reader jobs for gathering Enigmatic Energies."
 job_esc_enigma_reader_drone_effect_desc: "$job_esc_enigma_reader_effect_desc$"
 job_esc_enigma_reader_unit_effect_desc: "$job_esc_enigma_reader_effect_desc$"

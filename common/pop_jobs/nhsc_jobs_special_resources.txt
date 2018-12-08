@@ -28,28 +28,29 @@
 
 esc_crystal_farmer = {
     category = worker
-    condition_string = WORKER_JOB_TRIGGER
-    building_icon = building_esc_graviton_condenser
-    clothes_texture_index = 4
+	condition_string = WORKER_JOB_TRIGGER
+	building_icon = nhsc_building_crystal_farm_1
+	clothes_texture_index = 2
 
     possible = {
         worker_job_check_trigger = yes
+        owner = { is_fallen_empire = no }
     }
 
     resources = {
-        category = miner
+        category = planet_jobs
         produces = {
-            sr_esc_living_crystal = 2
+            esc_living_crystal = 2
             alloys = 1
-        }   
+        }
         upkeep = {
             consumer_goods = 1
-            minerals = 5
+            minerals = 4
         }
     }
 
     weight = {
-        weight = 1 #@worker_job_weight
+        weight = @worker_job_weight
         modifier = {
             factor = 0.2
             has_citizenship_rights = no
@@ -67,7 +68,7 @@ esc_crystal_farmer = {
         modifier = {
             factor = 0.75
             has_trait = trait_nerve_stapled
-            has_trair = trait_weak
+            has_trait = trait_weak
         }
         modifier = {
             factor = 1.5
@@ -77,29 +78,28 @@ esc_crystal_farmer = {
 }
 
 esc_crystal_farmer_drone = {
-    category = worker
-    condition_string = WORKER_JOB_TRIGGER
-    building_icon = building_esc_graviton_condenser
-    clothes_texture_index = 4
+    category = simple_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_crystal_farm_1
 
     possible = {
-        worker_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = miner
+        category = planet_jobs
         produces = {
-            sr_esc_living_crystal = 2
+            esc_living_crystal = 2
             alloys = 1
-        }   
+        }
         upkeep = {
-            minerals = 5
+            minerals = 4
             food = 3
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @simple_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
@@ -112,7 +112,7 @@ esc_crystal_farmer_drone = {
         modifier = {
             factor = 0.75
             has_trait = trait_nerve_stapled
-            has_trair = trait_weak
+            has_trait = trait_weak
         }
         modifier = {
             factor = 1.5
@@ -122,29 +122,28 @@ esc_crystal_farmer_drone = {
 }
 
 esc_crystal_farmer_unit = {
-    category = worker
-    condition_string = WORKER_JOB_TRIGGER
-    building_icon = building_esc_graviton_condenser
-    clothes_texture_index = 4
+    category = simple_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_crystal_farm_1
 
     possible = {
-        worker_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = miner
+        category = planet_jobs
         produces = {
-            sr_esc_living_crystal = 2
+            esc_living_crystal = 2
             alloys = 1
-        }   
+        }
         upkeep = {
             energy = 2
-            minerals = 5
+            minerals = 4
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @simple_drone_job_weight
         modifier = {
             factor = 1.5
             has_trait = trait_robot_power_drills
@@ -164,26 +163,25 @@ esc_channeller = {
     category = specialist
     condition_string = SPECIALIST_JOB_TRIGGER
     building_icon = nhsc_building_psionic_containment
-    clothes_texture_index = 4
+    clothes_texture_index = 2
 
     possible = {
         specialist_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_psionic_charge = 2
+            esc_psionic_charge = 2
         }
         upkeep = {
             energy = 4
             food = 2
-            sr_zro = 1
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @specialist_job_weight
         modifier = {
             factor = 0.2
             has_citizenship_rights = no
@@ -222,20 +220,19 @@ esc_channeller = {
 }
 
 esc_channeller_drone = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = nhsc_building_psionic_containment
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_psionic_containment
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_psionic_charge = 2
-        }   
+            esc_psionic_charge = 2
+        }
         upkeep = {
             food = 5
             sr_zro = 1
@@ -243,12 +240,7 @@ esc_channeller_drone = {
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
-        modifier = {
-            factor = 0.2
-            has_citizenship_rights = no   
-            NOT = { has_trait = trait_mechanical }
-        }
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
@@ -289,29 +281,28 @@ esc_gravity_manipulator = {
     category = specialist
     condition_string = SPECIALIST_JOB_TRIGGER
     building_icon = building_esc_graviton_condenser
-    clothes_texture_index = 4
+    clothes_texture_index = 2
 
     possible = {
         specialist_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_gravitic_anomaly = 2
-        }   
+            esc_gravitic_anomaly = 2
+        }
         upkeep = {
             energy = 2
             consumer_goods = 2
-            sr_dark_matter = 1
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @specialist_job_weight
         modifier = {
             factor = 0.2
-            has_citizenship_rights = no   
+            has_citizenship_rights = no
             NOT = { has_trait = trait_mechanical }
         }
         modifier = {
@@ -329,7 +320,7 @@ esc_gravity_manipulator = {
         modifier = {
             factor = 0.25
             has_trait = trait_nerve_stapled
-            has_trair = trait_enigmatic_intelligence_failed
+            has_trait = trait_enigmatic_intelligence_failed
         }
         modifier = {
             factor = 1.5
@@ -339,29 +330,27 @@ esc_gravity_manipulator = {
 }
 
 esc_gravity_manipulator_drone = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_graviton_condenser
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = building_esc_graviton_condenser
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_gravitic_anomaly = 2
-        }   
+            esc_gravitic_anomaly = 2
+        }
         upkeep = {
-            energy = 3
+            energy = 2
             food = 6
-            sr_dark_matter = 1
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
@@ -376,7 +365,7 @@ esc_gravity_manipulator_drone = {
         modifier = {
             factor = 0.25
             has_trait = trait_nerve_stapled
-            has_trair = trait_enigmatic_intelligence_failed
+            has_trait = trait_enigmatic_intelligence_failed
         }
         modifier = {
             factor = 1.5
@@ -386,34 +375,30 @@ esc_gravity_manipulator_drone = {
 }
 
 esc_gravity_manipulator_unit = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_graviton_condenser
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = building_esc_graviton_condenser
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_gravitic_anomaly = 2
-        }   
+            esc_gravitic_anomaly = 2
+        }
         upkeep = {
             energy = 6
-            sr_dark_matter = 1
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
                 has_trait = trait_robot_logic_engines
-                has_trait = trait_robot_awoken
-                has_trair = trait_robot_awoken_01
             }
         }
         modifier = {
@@ -431,32 +416,28 @@ esc_dimension_warper = {
     category = specialist
     condition_string = SPECIALIST_JOB_TRIGGER
     building_icon = building_esc_dimensional_tower
-    clothes_texture_index = 4
+    clothes_texture_index = 2
 
     possible = {
         specialist_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_transdimensional_vortex = 2
-        }   
+            esc_transdimensional_vortex = 2
+        }
         upkeep = {
             energy = 2
             consumer_goods = 2
-            sr_rare_crystal = 1
-            sr_zro = 1
-            sr_dark_matter = 2
-            sr_arcane_technology = 2
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @specialist_job_weight
         modifier = {
             factor = 0.2
-            has_citizenship_rights = no   
+            has_citizenship_rights = no
             NOT = { has_trait = trait_mechanical }
         }
         modifier = {
@@ -474,7 +455,7 @@ esc_dimension_warper = {
         modifier = {
             factor = 0.25
             has_trait = trait_nerve_stapled
-            has_trair = trait_enigmatic_intelligence_failed
+            has_trait = trait_enigmatic_intelligence_failed
         }
         modifier = {
             factor = 1.5
@@ -484,32 +465,27 @@ esc_dimension_warper = {
 }
 
 esc_dimension_warper_drone = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_dimensional_tower
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = building_esc_dimensional_tower
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_transdimensional_vortex = 2
-        }   
+            esc_transdimensional_vortex = 2
+        }
         upkeep = {
-            energy = 3
-            food = 7
-            sr_rare_crystal = 1
-            sr_zro = 1
-            sr_dark_matter = 2
-            sr_arcane_technology = 2
+            energy = 2
+            food = 6
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
@@ -525,7 +501,7 @@ esc_dimension_warper_drone = {
         modifier = {
             factor = 0.25
             has_trait = trait_nerve_stapled
-            has_trair = trait_enigmatic_intelligence_failed
+            has_trait = trait_enigmatic_intelligence_failed
         }
         modifier = {
             factor = 1.5
@@ -535,37 +511,30 @@ esc_dimension_warper_drone = {
 }
 
 esc_dimension_warper_unit = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_dimensional_tower
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = building_esc_dimensional_tower
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_transdimensional_vortex = 2
-        }   
+            esc_transdimensional_vortex = 2
+        }
         upkeep = {
-            energy = 5
-            sr_rare_crystal = 1
-            sr_zro = 1
-            sr_dark_matter = 2
-            sr_arcane_technology = 2
+            energy = 6
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
                 has_trait = trait_robot_logic_engines
-                has_trait = trait_robot_awoken
-                has_trair = trait_robot_awoken_01
             }
         }
         modifier = {
@@ -582,31 +551,29 @@ esc_dimension_warper_unit = {
 esc_enigma_reader = {
     category = specialist
     condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_enigmatic_coil
-    clothes_texture_index = 4
+    building_icon = nhsc_building_enigmatic_coil
+    clothes_texture_index = 2
 
     possible = {
         specialist_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_enigmatic_energy = 2
-        }   
+            esc_enigmatic_energy = 2
+        }
         upkeep = {
             energy = 2
             consumer_goods = 2
-            sr_exotic_gases = 1
-            sr_arcane_technology = 2
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @specialist_job_weight
         modifier = {
             factor = 0.2
-            has_citizenship_rights = no   
+            has_citizenship_rights = no
             NOT = { has_trait = trait_mechanical }
         }
         modifier = {
@@ -624,7 +591,7 @@ esc_enigma_reader = {
         modifier = {
             factor = 0.25
             has_trait = trait_nerve_stapled
-            has_trair = trait_enigmatic_intelligence_failed
+            has_trait = trait_enigmatic_intelligence_failed
         }
         modifier = {
             factor = 1.5
@@ -634,30 +601,27 @@ esc_enigma_reader = {
 }
 
 esc_enigma_reader_drone = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_enigmatic_coil
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_enigmatic_coil
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_enigmatic_energy = 2
-        }   
+            esc_enigmatic_energy = 2
+        }
         upkeep = {
             energy = 3
             food = 5
-            sr_exotic_gases = 1
-            sr_arcane_technology = 2
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
@@ -673,7 +637,7 @@ esc_enigma_reader_drone = {
         modifier = {
             factor = 0.25
             has_trait = trait_nerve_stapled
-            has_trair = trait_enigmatic_intelligence_failed
+            has_trait = trait_enigmatic_intelligence_failed
         }
         modifier = {
             factor = 1.5
@@ -683,35 +647,30 @@ esc_enigma_reader_drone = {
 }
 
 esc_enigma_reader_unit = {
-    category = specialist
-    condition_string = SPECIALIST_JOB_TRIGGER
-    building_icon = building_esc_enigmatic_coil
-    clothes_texture_index = 4
+    category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_enigmatic_coil
 
     possible = {
-        specialist_job_check_trigger = yes
+        drone_job_check_trigger = yes
     }
 
     resources = {
-        category = chemist
+        category = planet_jobs
         produces = {
-            sr_esc_enigmatic_energy = 2
-        }   
+            esc_enigmatic_energy = 2
+        }
         upkeep = {
             energy = 6
-            sr_exotic_gases = 1
-            sr_arcane_technology = 2
         }
     }
 
     weight = {
-        weight = 1 #@specialist_job_weight
+        weight = @complex_drone_job_weight
         modifier = {
             factor = 1.5
             OR = {
                 has_trait = trait_robot_logic_engines
-                has_trait = trait_robot_awoken
-                has_trair = trait_robot_awoken_01
             }
         }
         modifier = {

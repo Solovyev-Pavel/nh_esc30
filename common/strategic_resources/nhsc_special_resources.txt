@@ -4,17 +4,7 @@
 ############################################################
 
 ### Nanites :: used by nanite weapons, nanite-augmented and shielding armors
-esc_nanite_swarm = {
-    tradable = no
-    market_amount = 0
-    market_price = 0
-    max = 10000
-
-    prerequisites = { "nhsc_tech_synthetic_lifeform_studies" }
-    visibility_prerequisite = { always = no }
-
-    ai_weight = { weight = 100 }
-}
+### uses vanilla resource
 
 ### Psionic Charge :: used by psionic weapons, psi-sensor , A.T. shield and psionic reinforcement components
 esc_psionic_charge = {
@@ -62,7 +52,7 @@ esc_transdimensional_vortex = {
     market_price = 0
     max = 10000
 
-    prerequisites = { "nhsc_tech_spacetime_manipulation" }
+    prerequisites = { "nhsc_tech_chrono_spatial_weapons" }
     visibility_prerequisite = { always = no }
 
     ai_weight = { weight = 100 }
