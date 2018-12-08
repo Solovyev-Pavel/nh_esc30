@@ -11,7 +11,7 @@ event = {
 
 	trigger = {
 		is_crises_allowed = yes
-		NOR = { 
+		NOR = {
 			has_global_flag = extradimensional_invasion_happened
 			has_global_flag = nhsc_unbidden_crisis_triggered
 			has_global_flag = nhsc_unbidden_crisis_started
@@ -276,7 +276,7 @@ country_event = {
 						}
 					}
 					create_leader = {
-						type = admiral
+						class = admiral
 						species = event_target:extradimensional_species
 						name = random
 						skill = 3
