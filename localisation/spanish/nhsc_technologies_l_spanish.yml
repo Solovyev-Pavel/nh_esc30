@@ -6,27 +6,21 @@
 ###      Technologies : general      ###
 ########################################
 
-nhsc_tech_frontier_settlements: "Frontier Settlements"
-nhsc_tech_frontier_settlements_desc: "Frontier settlements are the core of the fledging colonies. Without them, surviving on the hostile worlds is much more difficult."
-NHSC_TECH_FRONTIER_INFRASTRUCTURE_TITLE: "§HUnlocks development of§!: Frontier infrastructure."
-NHSC_TECH_FRONTIER_INFRASTRUCTURE_DESC: "Infrastructure to support our colonists on the distant worlds."
-
-nhsc_tech_frontier_settlements_adv: "Improved Frontier Settlements"
-nhsc_tech_frontier_settlements_adv_desc: "Specialized facilities to better support our colonies."
-
 nhsc_tech_central_research_bureau: "Central Research Bureau"
 nhsc_tech_central_research_bureau_desc: "A place where the brightest minds of the Empire can work together to advance science."
 NHSC_TECH_UNLOCK_ADV_COMPONENTS_TITLE: "§HUnlocks development of§!: Advanced technologies."
-NHSC_TECH_UNLOCK_ADV_COMPONENTS_DESC: "New weapons can't work by themselves, they also need power reactors to power them up, engines to move them around and much much more..."
+NHSC_TECH_UNLOCK_ADV_COMPONENTS_DESC: "New weapons can't work by themselves, they also need reactors to power them up, engines to move them around and much much more..."
 
-nhsc_tech_culturenexus: "Advanced Socio-biological Studies"
-nhsc_tech_culturenexus_desc: "Greater understanding of how living flesh and able mind work will greatly benefit our empire."
+nhsc_tech_culture_nexus: "Advanced Socio-biological Studies"
+nhsc_tech_culture_nexus_desc: "Greater understanding of how living flesh and able mind work will greatly benefit our empire."
+nhsc_tech_culture_nexus_desc_hive: "Understanding of ourself and those of flesh not blessed with single mind presents great benefits to ourself."
+nhsc_tech_culture_nexus_desc_machine: "Observation of interactions between organics allow this intelligence to further optimize the performance of drone platforms and better understanding of flesh beings."
 
-nhsc_tech_techinstitute: "Technology Institutes"
-nhsc_tech_techinstitute_desc: "To be on the cutting edge of technological advancement, we need specialized institues to perform all kinds of research."
+nhsc_tech_technology_institute: "Technology Institutes"
+nhsc_tech_technology_institute_desc: "To be on the cutting edge of technological advancement, we need specialized institues to perform all kinds of research."
 
-nhsc_tech_materialslab: "Advanced Materials Laboratories"
-nhsc_tech_materialslab_desc: "Specialized laboratories that develop new and advanced materials for military and everyday use."
+nhsc_tech_advanced_materials_lab: "Advanced Materials Laboratories"
+nhsc_tech_advanced_materials_lab_desc: "Specialized laboratories that develop new and advanced materials for military and everyday use."
 
 nhsc_tech_new_age_warfare: "New Age Warfare"
 nhsc_tech_new_age_warfare_desc: "Military power is the only universal language in the galaxy. New and improved weapons will help us cement our position on the galactic stage."
@@ -68,12 +62,6 @@ nhsc_tech_spacetime_manipulation_desc: "By harnessing the power to control the v
 NHSC_TECH_UNLOCK_REALITY_ALTER_TITLE: "§HUnlocks development of§!: Reality-bending technologies."
 NHSC_TECH_UNLOCK_REALITY_ALTER_DESC: "Power to alter reality at will lets us do things we couldn't dream of before."
 
-nhsc_tech_dark_matter_production: "Dark Matter Production Facilities"
-nhsc_tech_dark_matter_production_desc: "As our knowledge of universe grows, we become able to create and control even the most exotic and elusive matter."
-
-nhsc_tech_neutronium_foundry: "Neutronium Foundries"
-nhsc_tech_neutronium_foundry_desc: "Development of powerful gravitic presses allows us to compress ordinary matter into super-dense neutronium."
-
 nhsc_tech_quantum_node: "Quantum Computation Node"
 nhsc_tech_quantum_node_desc: "A scientific computer modelled after the main processors of the Infinity Machine."
 
@@ -82,6 +70,12 @@ nhsc_tech_stellar_energy_tower_desc: "Massive tower that transforms light elemen
 
 nhsc_tech_watcher: "Watcher of Eternity"
 nhsc_tech_watcher_desc: "A massive complex that bends the reality itself, allowing us to gaze upon past, present and future."
+
+nhsc_tech_phase_shifted_ammunition: "Phase-Shifted Ammunition"
+nhsc_tech_phase_shifted_ammunition_desc: "Applying our understanding of space-time continuum to our weapons will allow us to punch through even the most powerful defenses."
+
+nhsc_tech_time_dilation_chambers: "Time-Dilation Chambers"
+nhsc_tech_time_dilation_chambers_desc: "While giving everyone extra time will be impossible at our current technology level, allowing those who need it the most to live extra time will greatly improve our empire."
 
 nhsc_tech_superconductors: "Superconducting Materials"
 nhsc_tech_superconductors_desc: "Widescale usage of superconductors will significantly reduce losses during energy transfers."
@@ -95,19 +89,12 @@ nhsc_tech_orbital_powerplant_desc: "A modification of standard zero-point reacto
 nhsc_tech_reprocessing_plant: "Reprocessing Plant"
 nhsc_tech_reprocessing_plant_desc: "Studying the technology behind the Scrapper Bot allowed us to come with a new and more efficient ways to recycle and reprocess resources."
 
+nhsc_tech_chrono_spatial_weapons: "Weaponized Reality Warping"
+nhsc_tech_chrono_spatial_weapons_desc: "Our newly-found ability to twist reality to suit our needs promises us the most powerful weapons this universe has seen."
+
 ########################################
 ###     Technologies : reactors      ###
 ########################################
-
-nhsc_tech_zeropointpowerplant_1: "Zero Point Power Plant"
-nhsc_tech_zeropointpowerplant_1_desc: "A planetside energy production facility using the same principles as the ship-mounted zero-point reactors."
-NHSC_TECH_ZERO_POINT_POWER_PLANT_TITLE: "Zero Point Power Plant"
-NHSC_TECH_ZERO_POINT_POWER_PLANT_DESC: "A power plant that draws upon the vacuum energy."
-
-nhsc_tech_zeropointpowerplant_2: "Advanced Zero Point Power Plant"
-nhsc_tech_zeropointpowerplant_2_desc: "An improved version of the zero point power plant."
-NHSC_TECH_ADV_ZERO_POINT_POWER_PLANT_TITLE: "Advanced Zero Point Power Plant"
-NHSC_TECH_ADV_ZERO_POINT_POWER_PLANT_DESC: "An improved version of the zero point power plant."
 
 nhsc_tech_enigmatic_tower: "Enigmatic Energy Collector"
 nhsc_tech_enigmatic_tower_desc: "A towering planetside facility that gathers energy produced by Enigmatic Power Cores"
@@ -139,20 +126,6 @@ nhsc_tech_reactor_booster_4_desc: "Auxiliary reactors are the solution when prim
 
 nhsc_tech_reactor_booster_5: "Auxiliary Singularity Reactor"
 nhsc_tech_reactor_booster_5_desc: "An improved version of $nhsc_tech_reactor_booster_4$ that generates even more power."
-
-########################################
-###      Technologies : mining       ###
-########################################
-
-nhsc_tech_magmaminer_1: "Mantle Mining Facility"
-nhsc_tech_magmaminer_1_desc: "By processing molten core of the planet we can mine an order of magnitude more valuable minerals than is possible with more traditional methods."
-NHSC_TECH_MAGMA_MINER_TITLE: "Mantle Mining Facility"
-NHSC_TECH_MAGMA_MINER_DESC: "By processing molten core of the planet we can mine an order of magnitude more valuable minerals than is possible with more traditional methods."
-
-nhsc_tech_magmaminer_2: "Improved Mantle Mining Facility"
-nhsc_tech_magmaminer_2_desc: "An improved version of the Mantle Mining Facility that can collect get more valuable minerals out of the planet's molten core."
-NHSC_TECH_ADV_MAGMA_MINER_TITLE: "Improved Mantle Mining Facility"
-NHSC_TECH_ADV_MAGMA_MINER_DESC: "An improved version of the Mantle Mining Facility that can collect get more valuable minerals out of the planet's molten core."
 
 ########################################
 ###      Technologies : sensors      ###
@@ -289,23 +262,6 @@ nhsc_tech_shields_cyclonic_3_desc: "A set of more powerful capacitors to further
 NHSC_TECH_CYCLONIC_SHIELDS_3_TITLE: "Improved Cyclonic Modulation Shields"
 NHSC_TECH_CYCLONIC_SHIELDS_3_DESC: "A set of more powerful capacitors to further boost recharge rates of cyclonic shields while giving them even more strength."
 
-nhsc_tech_shields_cyclonic_4: "Cyclonic Modulation Protectors"
-nhsc_tech_shields_cyclonic_4_desc: "Further improvements to the cyclonic modulaiton technology allow to create an even tougher version of cyclonic shields."
-NHSC_TECH_CYCLONIC_SHIELDS_4_TITLE: "§HUnlocks component§!: Cyclonic Protectors"
-NHSC_TECH_CYCLONIC_SHIELDS_4_DESC: "Further improvements to the cyclonic modulaiton technology allow to create an even tougher version of cyclonic shields."
-
-nhsc_tech_citadelshields_1: "Hardened Shields"
-nhsc_tech_citadelshields_1_desc: "A new technology that allows to reconfigure shield-generating capacitors to hold greater charge at the cost of slower recharge speed."
-
-nhsc_tech_citadelshields_2: "Citadel Shields"
-nhsc_tech_citadelshields_2_desc: "Further refinement of the hardened shields technology."
-
-nhsc_tech_citadelshields_3: "Improved Citadel Shields"
-nhsc_tech_citadelshields_3_desc: "These shields are as strong as a fortress wall. This comes at the cost of extremely slow regeneration rate."
-
-nhsc_tech_citadelshields_4: "Iron Curtain Barrier"
-nhsc_tech_citadelshields_4_desc: "Can such a shield even be breached?"
-
 ########################################
 ###     Technologies : weapons       ###
 ########################################
@@ -368,8 +324,8 @@ nhsc_tech_gravitic_lance_1_desc: "A particle cannon that warps space-time contin
 nhsc_tech_gravitic_lance_2: "Focused Super-Graviton Cannon"
 nhsc_tech_gravitic_lance_2_desc: "An improved version of Super-Graviton Cannon."
 
-nhsc_tech_gravitic_lance_titanic: "Focused Super-Graviton Cannon"
-nhsc_tech_gravitic_lance_titanic_desc: "An improved version of Super-Graviton Cannon."
+nhsc_tech_gravitic_lance_titanic: "Titanic Super-Graviton Cannon"
+nhsc_tech_gravitic_lance_titanic_desc: "A scaled up and massively more powerful version of Super-Graviton Cannon."
 
 nhsc_tech_gravitic_strikecrafts: "Singularity Bombers"
 nhsc_tech_gravitic_strikecrafts_desc: "Strikecraft armed with gravitational weapons."
@@ -388,14 +344,14 @@ nhsc_tech_nanite_cannon_1_desc: "A cannon that shoots canisters filled with nani
 nhsc_tech_nanite_cannon_2: "Improved Nanite Cannon"
 nhsc_tech_nanite_cannon_2_desc: "Better launch mechanism to deliver canisters of disassembling nanites to the ships of our enemies."
 
-nhsc_tech_nanite_xslot_1: "Nanite Warhead Rocket Artillery"
+nhsc_tech_nanite_xslot_1: "Nanite Warhead Missile Launcher"
 nhsc_tech_nanite_xslot_1_desc: "Very powerful and very long ranger version of nanite torpedoes. Missiles also fly much faster."
 
-nhsc_tech_nanite_xslot_2: "Nanite Warhead Barrage System"
-nhsc_tech_nanite_xslot_2_desc: "Improved version of the Nanite Warhead Rocket Artillery"
+nhsc_tech_nanite_xslot_2: "Nanite Warhead Rocket Artillery"
+nhsc_tech_nanite_xslot_2_desc: "Improved version of the Nanite Warhead Missile Launcher."
 
 nhsc_tech_nanite_titanic_weapon: "Nanite Warhead Barrage System"
-nhsc_tech_nanite_titanic_weapon_desc: "Improved version of the Nanite Warhead Rocket Artillery"
+nhsc_tech_nanite_titanic_weapon_desc: "A massive and incredibly powerful version of the Nanite Warhead Rocket Artillery, fit for the biggest ships in our fleet."
 
 nhsc_tech_nanite_strikecraft: "Nanite Bombers"
 nhsc_tech_nanite_strikecraft_desc: "Strikecraft armed with nanite weapons"
@@ -422,11 +378,11 @@ nhsc_tech_psionic_cannon_3_desc: "This psionic weapon is capable of delivering p
 nhsc_tech_psionic_lance_1: "Psionic Lance"
 nhsc_tech_psionic_lance_1_desc: "An energy lance made from focused and refined psionic energy."
 
-nhsc_tech_psionic_lance_2: "Void Ray"
+nhsc_tech_psionic_lance_2: "Shrowd Piercer"
 nhsc_tech_psionic_lance_2_desc: "New, bigger and more precise version of Psionic Lance."
 
 nhsc_tech_psionic_lance_titanic: "Void Ray"
-nhsc_tech_psionic_lance_titanic_desc: "New, bigger and more precise version of Psionic Lance."
+nhsc_tech_psionic_lance_titanic_desc: "A supersized Psionic Lance, meant for the biggest of our ships."
 
 nhsc_tech_psionic_strikecraft: "Psionic Interceptors"
 nhsc_tech_psionic_strikecraft_desc: "Strikecraft, equipped with miniaturized psionic energy projectors."
@@ -545,9 +501,6 @@ nhsc_tech_mass_accelerator_4_desc: "The best long-range kinetic weapon possible!
 nhsc_tech_mhdcannon: "Magnetohydrodynamic Cannon"
 nhsc_tech_mhdcannon_desc: "A powerful weapon that is a combination of water jet cutter and railgun, that can tear enemy ships apart with stream of molten metal."
 
-nhsc_tech_mhdcannon: "Magnetohydrodynamic Cannon"
-nhsc_tech_mhdcannon_desc: "A powerful weapon that is a combination of water jet cutter and railgun, that can tear enemy ships apart with stream of molten metal."
-
 ### crystalline
 
 nhsc_tech_crystal_cannon_1: "Crystal Shard Thrower"
@@ -571,6 +524,9 @@ nhsc_tech_crystal_lance_1_desc: "A very powerful accelerator shooting oversized 
 nhsc_tech_crystal_lance_2: "Crystal Lance Cannon"
 nhsc_tech_crystal_lance_2_desc: "An improved version of the Crystal Javelin Cannon."
 
+nhsc_tech_crystalline_impaler: "Crystalline Impaler"
+nhsc_tech_crystalline_impaler_desc: "A supersized version of the Crystal Javelin Cannon for our biggest ships."
+
 ### point defense
 
 nhsc_tech_pd_tracking_4: "Protector Point-Defense"
@@ -589,6 +545,9 @@ nhsc_tech_lightstorm_pd: "Lightstorm Point Defense"
 nhsc_tech_lightstorm_pd_desc: "An extremely-efficient laser-based point-defense system."
 
 ### leviathans
+
+nhsc_tech_enigmatic_energy_harvesting: "Enigmatic Energy Harvesting"
+nhsc_tech_enigmatic_energy_harvesting_desc: "Now that the Enigmatic Fortress has revealed its secrets to us, we can begin recreating the mysteries hidden deep within it."
 
 nhsc_tech_enigmatic_discharger: "Enigmatic Energy Discharger"
 nhsc_tech_enigmatic_discharger_desc: "A powerful weapon that uses the enigmatic technology."
@@ -632,6 +591,9 @@ nhsc_tech_siegebreaker_strikecrafts_desc: "The ultimate space fighters."
 ###      Technologies : other        ###
 ########################################
 
+nhsc_tech_improved_crystal_farm: "Improved Crystal Farm"
+nhsc_tech_improved_crystal_farm_desc: "Now that we have a better understanding of the living crystals, we can improve our farms and grow them in more efficient ways."
+
 nhsc_tech_repair_drones: "Repair Drones"
 nhsc_tech_repair_drones_desc: "Automatons to perform emergency hull repairs."
 NHSC_TECH_UNLOCK_AUX_REAPIR_DRONES_TITLE: "§HUnlocks component§!: Repair Drones"
@@ -656,8 +618,6 @@ nhsc_tech_swarm_strike_craft_2_desc: "These swarmers have been trained and drugg
 
 nhsc_tech_dreadnought_computer: "Automated Dreadnought Combat Algorithms"
 nhsc_tech_dreadnought_computer_desc: "The combat computer based on that of the Automated Dreadnought."
-nhsc_tech_dreadnought_computer_nsc: "$nhsc_tech_dreadnought_computer$"
-nhsc_tech_dreadnought_computer_nsc_desc: "$nhsc_tech_dreadnought_computer_desc$"
 NHSC_TECH_UNLOCK_DREADNOUGHT_COMPUTER_TITLE: "§HUnlocks component§!: Automated Dreadnough Protocols computers"
 NHSC_TECH_UNLOCK_DREADNOUGHT_COMPUTER_DESC: "The combat computers based on the observed logic of the anicent Automated Dreadnought."
 

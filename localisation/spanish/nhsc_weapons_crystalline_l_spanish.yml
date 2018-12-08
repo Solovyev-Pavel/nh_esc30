@@ -80,3 +80,10 @@ NHSC_CRYSTAL_LANCE_1_DESC: "A supersized version of the Crystalline Spear Cannon
 
 NHSC_CRYSTAL_LANCE_2: "Crystal Lance Cannon"
 NHSC_CRYSTAL_LANCE_2_DESC: "A refined and ever more powerful version of the Crystal Javelin Cannon."
+
+########################################
+###       Crystalline Impaler        ###
+########################################
+
+NHSC_CRYSTAL_LANCE_TITANIC: "Crystalline Impaler"
+NHSC_CRYSTAL_LANCE_TITANIC_DESC: "A massive version of the Crystal Lance Cannon, designed for titanic-sized ships."
