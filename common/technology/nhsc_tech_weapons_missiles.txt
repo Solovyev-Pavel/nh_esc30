@@ -28,7 +28,7 @@ nhsc_tech_missile_6 = {
 	weight = @tier4weight1
 	ai_update_type = military
 	prerequisites = { "tech_missiles_5" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -56,9 +56,9 @@ nhsc_tech_missile_6 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_propulsion"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -128,9 +128,9 @@ nhsc_tech_missile_7 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_propulsion"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -169,16 +169,16 @@ nhsc_tech_plasma_missiles_1 = {
 	tier = 4
 	cost = @tier4cost2
 	weight = @tier4weight2
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_plasma_3" "nhsc_tech_new_age_warfare" "tech_missiles_5" }
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_PLASMA_MISSILE_TITLE"
 			desc = "TECH_UNLOCK_PLASMA_MISSILE_DESC"
 		}
 	}
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -206,9 +206,9 @@ nhsc_tech_plasma_missiles_1 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -247,9 +247,9 @@ nhsc_tech_plasma_missiles_2 = {
 	tier = 5
 	cost = @tier5cost1
 	weight = @tier5weight1
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_plasma_missiles_1" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -277,9 +277,9 @@ nhsc_tech_plasma_missiles_2 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -318,10 +318,10 @@ nhsc_tech_plasma_missiles_3 = {
 	tier = 5
 	cost = @tier5cost2
 	weight = @tier5weight2
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_plasma_missiles_2" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -349,9 +349,9 @@ nhsc_tech_plasma_missiles_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -392,7 +392,7 @@ nhsc_tech_torpedoes_4 = {
 	weight = @tier4weight2
 	ai_update_type = military
 	prerequisites = { "tech_torpedoes_3" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -420,9 +420,9 @@ nhsc_tech_torpedoes_4 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_propulsion"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -492,9 +492,9 @@ nhsc_tech_torpedoes_5 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_propulsion"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -537,6 +537,7 @@ nhsc_tech_corrosivewarheadtorpedo = {
 	prerequisites = { "nhsc_tech_torpedoes_5" "nhsc_tech_chrono_spatial_weapons" }
 	is_rare = yes
 	is_dangerous = yes
+	is_reverse_engineerable = no
 
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
@@ -565,9 +566,9 @@ nhsc_tech_corrosivewarheadtorpedo = {
 				area = physics
 				has_trait = "leader_trait_expertise_field_manipulation"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -608,7 +609,7 @@ nhsc_tech_swarmermissiles_3 = {
 	weight = @tier4weight1
 	ai_update_type = military
 	prerequisites = { "tech_swarmer_missiles_2" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -636,9 +637,9 @@ nhsc_tech_swarmermissiles_3 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_propulsion"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -680,7 +681,7 @@ nhsc_tech_swarmermissiles_4 = {
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_swarmermissiles_3" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -708,9 +709,9 @@ nhsc_tech_swarmermissiles_4 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_propulsion"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -751,7 +752,7 @@ nhsc_tech_xmissile1 = {
 	weight = @tier4weight2
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_missile_6" "nhsc_tech_advanced_heavy_weapons" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -779,9 +780,9 @@ nhsc_tech_xmissile1 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -823,7 +824,7 @@ nhsc_tech_xmissile2 = {
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_xmissile1" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -851,9 +852,9 @@ nhsc_tech_xmissile2 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -926,9 +927,9 @@ nhsc_tech_xmissile3_titanic = {
 				area = engineering
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {

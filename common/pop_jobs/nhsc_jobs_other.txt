@@ -69,12 +69,11 @@ esc_reprocessor_drone = {
     resources = {
         category = planet_jobs
         produces = {
-            amenities = 2
             alloys = 1
         }
         upkeep = {
             minerals = 2
-            food = 3
+            food = 1
         }
     }
 
@@ -109,11 +108,10 @@ esc_reprocessor_unit = {
     resources = {
         category = planet_jobs
         produces = {
-            amenities = 2
             alloys = 1
         }
         upkeep = {
-            energy = 2
+            energy = 1
             minerals = 2
         }
     }

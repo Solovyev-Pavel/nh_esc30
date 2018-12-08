@@ -827,7 +827,7 @@ nhsc_building_quantum_node = {
 nhsc_building_reprocessing_plant = {
 	base_buildtime = 360
 	base_cap_amount = 1
-	icon = nhsc_building_reprocessor
+	icon = nhsc_building_reprocessing_plant
 	category = manufacturing
 
 	potential = {
