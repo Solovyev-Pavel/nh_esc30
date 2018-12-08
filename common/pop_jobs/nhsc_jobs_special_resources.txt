@@ -44,12 +44,10 @@ esc_nanite_breeder = {
     resources = {
         category = planet_jobs
         produces = {
-            esc_living_crystal = 2
-            alloys = 1
+            nanites = 2
         }
         upkeep = {
-            consumer_goods = 1
-            minerals = 4
+            alloys = 4
         }
     }
 
@@ -89,12 +87,10 @@ esc_nanite_breeder_drone = {
     resources = {
         category = planet_jobs
         produces = {
-            esc_living_crystal = 2
-            alloys = 1
+            nanites = 2
         }
         upkeep = {
-            minerals = 4
-            food = 3
+            alloys = 4
         }
     }
 
@@ -129,12 +125,10 @@ esc_nanite_breeder_unit = {
     resources = {
         category = planet_jobs
         produces = {
-            esc_living_crystal = 2
-            alloys = 1
+            nanites = 2
         }
         upkeep = {
-            energy = 2
-            minerals = 4
+            alloys = 4
         }
     }
 
@@ -165,10 +159,12 @@ esc_crystal_farmer = {
     resources = {
         category = planet_jobs
         produces = {
-            nanites = 2
+            esc_living_crystal = 2
+            alloys = 1
         }
         upkeep = {
-            alloys = 4
+            consumer_goods = 1
+            minerals = 4
         }
     }
 
@@ -212,10 +208,12 @@ esc_crystal_farmer_drone = {
     resources = {
         category = planet_jobs
         produces = {
-            nanites = 2
+            esc_living_crystal = 2
+            alloys = 1
         }
         upkeep = {
-            alloys = 4
+            minerals = 4
+            food = 3
         }
     }
 
@@ -254,10 +252,12 @@ esc_crystal_farmer_unit = {
     resources = {
         category = planet_jobs
         produces = {
-            nanites = 2
+            esc_living_crystal = 2
+            alloys = 1
         }
         upkeep = {
-            alloys = 4
+            energy = 2
+            minerals = 4
         }
     }
 
