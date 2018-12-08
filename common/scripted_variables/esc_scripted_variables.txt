@@ -312,76 +312,76 @@
 @shield_s_t5_strength = 145
 @shield_s_t5_regen = 1.45
 @shield_s_t5_power = -45
-@shield_s_t5_cost = 12
+#@shield_s_t5_cost = 12
 @shield_s_t5_cost_special = 0.333
-@shield_s_t5_upkeep_energy = 0.12
-@shield_s_t5_upkeep_alloys = 0.024
+#@shield_s_t5_upkeep_energy = 0.12
+#@shield_s_t5_upkeep_alloys = 0.024
 
 @shield_m_t5_strength = 365
 @shield_m_t5_regen = 3.65
 @shield_m_t5_power = -90
-@shield_m_t5_cost = 22
+#@shield_m_t5_cost = 22
 @shield_m_t5_cost_special = 0.666
-@shield_m_t5_upkeep_energy = 0.22
-@shield_m_t5_upkeep_alloys = 0.044
+#@shield_m_t5_upkeep_energy = 0.22
+#@shield_m_t5_upkeep_alloys = 0.044
 
 @shield_l_t5_strength = 870
 @shield_l_t5_regen = 8.70
 @shield_l_t5_power = -180
-@shield_l_t5_cost = 44
+#@shield_l_t5_cost = 44
 @shield_l_t5_cost_special = 1.333
-@shield_l_t5_upkeep_energy = 0.44
-@shield_l_t5_upkeep_alloys = 0.088
+#@shield_l_t5_upkeep_energy = 0.44
+#@shield_l_t5_upkeep_alloys = 0.088
 
 ### tier 6
 @shield_s_t6_strength = 185
 @shield_s_t6_regen = 1.85
 @shield_s_t6_power = -55
-@shield_s_t6_cost = 16
+#@shield_s_t6_cost = 16
 @shield_s_t6_cost_special = 0.5
-@shield_s_t6_upkeep_energy = 0.16
-@shield_s_t6_upkeep_alloys = 0.032
+#@shield_s_t6_upkeep_energy = 0.16
+#@shield_s_t6_upkeep_alloys = 0.032
 
 @shield_m_t6_strength = 465
 @shield_m_t6_regen = 4.65
 @shield_m_t6_power = -110
-@shield_m_t6_cost = 29
+#@shield_m_t6_cost = 29
 @shield_m_t6_cost_special = 1.0
-@shield_m_t6_upkeep_energy = 0.29
-@shield_m_t6_upkeep_alloys = 0.058
+#@shield_m_t6_upkeep_energy = 0.29
+#@shield_m_t6_upkeep_alloys = 0.058
 
 @shield_l_t6_strength = 1110
 @shield_l_t6_regen = 11.10
 @shield_l_t6_power = -220
-@shield_l_t6_cost = 57
+#@shield_l_t6_cost = 57
 @shield_l_t6_cost_special = 2.0
-@shield_l_t6_upkeep_energy = 0.57
-@shield_l_t6_upkeep_alloys = 0.114
+#@shield_l_t6_upkeep_energy = 0.57
+#@shield_l_t6_upkeep_alloys = 0.114
 
 ### tier 7
 @shield_s_t7_strength = 240
 @shield_s_t7_regen = 2.0
 @shield_s_t7_power = -75
-@shield_s_t7_cost = 21
+#@shield_s_t7_cost = 21
 @shield_s_t7_cost_special = 0.666
-@shield_s_t7_upkeep_energy = 0.21
-@shield_s_t7_upkeep_alloys = 0.042
+#@shield_s_t7_upkeep_energy = 0.21
+#@shield_s_t7_upkeep_alloys = 0.042
 
 @shield_m_t7_strength = 600
 @shield_m_t7_regen = 5.0
 @shield_m_t7_power = -150
-@shield_m_t7_cost = 38
+#@shield_m_t7_cost = 38
 @shield_m_t7_cost_special = 1.333
-@shield_m_t7_upkeep_energy = 0.38
-@shield_m_t7_upkeep_alloys = 0.076
+#@shield_m_t7_upkeep_energy = 0.38
+#@shield_m_t7_upkeep_alloys = 0.076
 
 @shield_l_t7_strength = 1440
 @shield_l_t7_regen = 12.50
 @shield_l_t7_power = -300
-@shield_l_t7_cost = 74
+#@shield_l_t7_cost = 74
 @shield_l_t7_cost_special = 2.5
-@shield_l_t7_upkeep_energy = 0.74
-@shield_l_t7_upkeep_alloys = 0.148
+#@shield_l_t7_upkeep_energy = 0.74
+#@shield_l_t7_upkeep_alloys = 0.148
 
 ### tier 8
 @shield_s_t8_strength = 280

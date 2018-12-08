@@ -1,13 +1,13 @@
 nhsc_starbase_reactor = {
 	icon = "GFX_nhsc_starbase_reactor"
 	construction_days = 360
-	
+
 	potential = {
 		exists = owner
 		owner = { has_technology = nhsc_tech_orbital_powerplant }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
-	
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_starfortress"
@@ -15,16 +15,18 @@ nhsc_starbase_reactor = {
 		}
 	}
 
-	cost = {
-		minerals = 400
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 300
+		}
+		produces = {
+			energy = 10
+		}
 	}
-	
-	produced_resources = {
-		energy = 10
-	}
-	
+
 	show_in_tech = "nhsc_tech_orbital_powerplant"
-	
+
 	ai_build_at_chokepoint = yes
 	ai_build_outside_chokepoint = yes
 	ai_weight = {

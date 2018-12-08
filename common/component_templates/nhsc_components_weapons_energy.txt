@@ -1065,11 +1065,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_s_t6_cost
+			alloys = @weapon_l_t6_cost
 		}
 		upkeep = {
-			energy = @weapon_s_t6_upkeep_energy
-			alloys = @weapon_s_t6_upkeep_alloys
+			energy = @weapon_l_t6_upkeep_energy
+			alloys = @weapon_l_t6_upkeep_alloys
 		}
 	}
 
@@ -1120,11 +1120,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @weapon_s_t7_cost
+			alloys = @weapon_l_t7_cost
 		}
 		upkeep = {
-			energy = @weapon_s_t7_upkeep_energy
-			alloys = @weapon_s_t7_upkeep_alloys
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
 		}
 	}
 

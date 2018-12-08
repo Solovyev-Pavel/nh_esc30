@@ -25,7 +25,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = -20
 
-	resource = {
+	resources = {
 		category = ship_components
 		cost = {
 			alloys = 25
