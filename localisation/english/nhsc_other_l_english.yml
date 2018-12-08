@@ -139,6 +139,16 @@ job_esc_nanite_breeder_unit: "Nanite Creation Units"
 mod_job_esc_nanite_breeder_unit_add: "$job_esc_nanite_breeder_unit$"
 job_esc_nanite_breeder_unit_desc: "$job_esc_nanite_breeder_drone_desc$"
 
+job_esc_reprocessor: "Reprocessing Plant Operator"
+mod_job_esc_reprocessor_add: "$job_esc_reprocessor$"
+job_esc_reprocessor_desc: "These specialists man Reprocessing Plant, picking useful materials from otherwise waste materials."
+job_esc_reprocessor_drone: "Reprocessing Drones"
+mod_job_esc_reprocessor_drone_add: "$job_esc_reprocessor_drone$"
+job_esc_reprocessor_drone_desc: "These complex drones man Reprocessing Plant, picking useful materials from otherwise waste materials."
+job_esc_reprocessor_unit: "Reprocessing Units"
+mod_job_esc_reprocessor_unit_add: "$job_esc_reprocessor_unit$"
+job_esc_reprocessor_unit_desc: "$job_esc_reprocessor_drone_desc$"
+
 ########################################
 ###              Edicts              ###
 ########################################

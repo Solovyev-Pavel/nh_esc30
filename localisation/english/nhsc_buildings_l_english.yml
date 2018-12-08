@@ -32,14 +32,17 @@ nhsc_building_watcher_desc: "A massive complex that bends the reality itself, al
 
 nhsc_building_reprocessing_plant: "Reprocessing Plant"
 nhsc_building_reprocessing_plant_desc: "This advanced recycling and reprocessing plant can pull incredible amount of useful resources out of common trash."
+job_esc_reprocessor_effect_desc: "Provides §G+2§! Reprocessing Plant Operator jobs."
+job_esc_reprocessor_drone_effect_desc: "Provides §G+2§! Reprocessing Drone jobs."
+job_esc_reprocessor_unit_effect_desc: "Provides §G+2§! Reprocessing Unit jobs."
 
 ### special resource production buildings
 
 nhsc_building_nanite_foundry: "Nanite Foundry"
 nhsc_building_nanite_foundry_desc: "A vast complex of buildings, specialized for breeding nanites"
 job_esc_nanite_breeder_effect_desc: "Provides §G+2§! Nanite Breeder jobs for gathering nanites."
-job_esc_nanite_breeder_drone_effect_desc: "Provides §G+2§! Nanite Breeder Drones jobs for gathering nanites"
-job_esc_nanite_breeder_unit_effect_desc: "Provides §G+2§! Nanite Creation Unit jobs for gathering nanites"
+job_esc_nanite_breeder_drone_effect_desc: "Provides §G+2§! Nanite Breeder Drones jobs for gathering nanites."
+job_esc_nanite_breeder_unit_effect_desc: "Provides §G+2§! Nanite Creation Unit jobs for gathering nanites."
 
 building_esc_crystal_farm_1: "Crystal Farm"
 building_esc_crystal_farm_1_desc: "Vast tracts of land dedicated to growing semi-organic crystalline matter."
