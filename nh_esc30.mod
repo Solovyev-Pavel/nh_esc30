@@ -5,4 +5,4 @@ tags={
 	"Technologies"
 }
 supported_version="2.2.*"
-picture="nh_esc20.png"
+picture="nh_esc30.png"
