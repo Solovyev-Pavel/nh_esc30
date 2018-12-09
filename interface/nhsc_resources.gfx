@@ -1,8 +1,13 @@
 spriteTypes = {
 
+	### Living Crystal
 	spriteType = {
 		name = "GFX_esc_living_crystal"
 		textureFile = "gfx/interface/icons/resources/esc_living_crystal.dds"
+	}
+	spriteType = {
+		name = "GFX_esc_living_crystal_large"
+		textureFile = "gfx/interface/icons/resources/esc_living_crystal_large.dds"
 	}
 
 	spriteType = {
@@ -10,9 +15,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/resources/esc_living_crystal_grey.dds"
 	}
 
+	### Psionic Charge
 	spriteType = {
 		name = "GFX_esc_psionic_charge"
 		textureFile = "gfx/interface/icons/resources/esc_psionic_charge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_esc_psionic_charge_large"
+		textureFile = "gfx/interface/icons/resources/esc_psionic_charge_large.dds"
 	}
 
 	spriteType = {
@@ -20,9 +31,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/resources/esc_psionic_charge_grey.dds"
 	}
 
+	### Gravitic Anomaly
 	spriteType = {
 		name = "GFX_esc_gravitic_anomaly"
 		textureFile = "gfx/interface/icons/resources/esc_gravitic_anomaly.dds"
+	}
+
+	spriteType = {
+		name = "GFX_esc_gravitic_anomaly_large"
+		textureFile = "gfx/interface/icons/resources/esc_gravitic_anomaly_large.dds"
 	}
 
 	spriteType = {
@@ -30,9 +47,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/resources/esc_gravitic_anomaly_grey.dds"
     }
 
+	### Transdimensional Vortex
 	spriteType = {
 		name = "GFX_esc_transdimensional_vortex"
 		textureFile = "gfx/interface/icons/resources/esc_transdimensional_vortex.dds"
+	}
+
+	spriteType = {
+		name = "GFX_esc_transdimensional_vortex_large"
+		textureFile = "gfx/interface/icons/resources/esc_transdimensional_vortex_large.dds"
 	}
 
 	spriteType = {
@@ -40,9 +63,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/resources/esc_transdimensional_vortex_grey.dds"
     }
 
+	### Enigmatic Energy
 	spriteType = {
 		name = "GFX_esc_enigmatic_energy"
 		textureFile = "gfx/interface/icons/resources/esc_enigmatic_energy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_esc_enigmatic_energy_large"
+		textureFile = "gfx/interface/icons/resources/esc_enigmatic_energy_large.dds"
 	}
 
 	spriteType = {
