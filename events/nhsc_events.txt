@@ -84,7 +84,8 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		owner = { esc_tech_switch = yes }
+		#owner = { esc_tech_switch = yes }
+		# blocked until I can figure out what's causing a CTD
 	}
 }
 
