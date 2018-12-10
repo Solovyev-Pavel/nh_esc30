@@ -248,19 +248,19 @@ NHSC_TECH_ATFIELD_TITLE: "A.T. Field"
 NHSC_TECH_ATFIELD_DESC: "Absolute Territory marks the space where our minds deny the dangers entrance to."
 
 nhsc_tech_shields_cyclonic_1: "Cyclonic Deflectors"
-nhsc_tech_shields_cyclonic_1_desc: "An experimental shield technology that sacrifices some of the shields' strength for a significantly-faster recharge rates."
+nhsc_tech_shields_cyclonic_1_desc: "The Cyclonic Shield Harmonics Techonology™ allows for overlapping shields to boost each other's regeneration, thus opening new avenues in deflector shield designs."
 NHSC_TECH_CYCLONIC_SHIELDS_TITLE: "§HUnlocks component§!: Cyclonic Deflectors"
-NHSC_TECH_CYCLONIC_SHIELDS_DESC: "An experimental shield technology that sacrifices some of the shields' strength for a significantly-faster recharge rates."
+NHSC_TECH_CYCLONIC_SHIELDS_DESC: "$nhsc_tech_shields_cyclonic_1_desc$"
 
 nhsc_tech_shields_cyclonic_2: "Cyclonic Modulation Shields"
 nhsc_tech_shields_cyclonic_2_desc: "An improved version of Cyclonic Modulation Deflectors that are significantly tougher while retain the fast recharge rate."
 NHSC_TECH_ADV_CYCLONIC_SHIELDS_TITLE: "§HUnlocks component§!: Cyclonic Shields"
-NHSC_TECH_ADV_CYCLONIC_SHIELDS_DESC: "An improved version of Cyclonic Modulation Deflectors that are significantly tougher while retain the fast recharge rate."
+NHSC_TECH_ADV_CYCLONIC_SHIELDS_DESC: "$nhsc_tech_shields_cyclonic_2_desc$"
 
 nhsc_tech_shields_cyclonic_3: "Improved Cyclonic Modulation Shields"
-nhsc_tech_shields_cyclonic_3_desc: "A set of more powerful capacitors to further boost recharge rates of cyclonic shields while giving them even more strength."
+nhsc_tech_shields_cyclonic_3_desc: "A set of more powerful capacitors to further boost the strength of the cyclonic shields."
 NHSC_TECH_CYCLONIC_SHIELDS_3_TITLE: "Improved Cyclonic Modulation Shields"
-NHSC_TECH_CYCLONIC_SHIELDS_3_DESC: "A set of more powerful capacitors to further boost recharge rates of cyclonic shields while giving them even more strength."
+NHSC_TECH_CYCLONIC_SHIELDS_3_DESC: "$nhsc_tech_shields_cyclonic_3_desc$"
 
 ########################################
 ###     Technologies : weapons       ###
