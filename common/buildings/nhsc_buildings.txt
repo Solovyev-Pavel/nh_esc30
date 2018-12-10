@@ -154,7 +154,7 @@ nhsc_building_culture_nexus = {
 		}
 		upkeep = {
 			energy = 15
-			rare_crystals = 2
+			rare_crystals = 1
 		}
 		produces = {
 			influence = 0.5
@@ -220,7 +220,7 @@ nhsc_building_cerebral_node = {
 		}
 		upkeep = {
 			energy = 15
-			rare_crystals = 2
+			rare_crystals = 1
 		}
 		produces = {
 			influence = 0.5
@@ -284,7 +284,7 @@ nhsc_building_network_regulator = {
 		}
 		upkeep = {
 			energy = 15
-			rare_crystals = 2
+			rare_crystals = 1
 		}
 		produces = {
 			influence = 0.5
@@ -345,7 +345,7 @@ nhsc_building_materials_laboratory = {
 		}
 		upkeep = {
 			energy = 15
-			volatile_motes = 2
+			volatile_motes = 1
 		}
 		produces = {
 			influence = 0.5
@@ -448,7 +448,7 @@ nhsc_building_technology_institute = {
 		}
 		upkeep = {
 			energy = 15
-			exotic_gases = 2
+			exotic_gases = 1
 		}
 		produces = {
 			influence = 0.5
@@ -554,7 +554,7 @@ nhsc_building_watcher = {
 		}
 		upkeep = {
 			energy = 10
-			sr_zro = 2
+			sr_zro = 1
 		}
 	}
 
@@ -754,8 +754,8 @@ nhsc_building_quantum_node = {
 			rare_crystals = 25
 		}
 		upkeep = {
-			energy = 8
-			rare_crystals = 2
+			energy = 4
+			rare_crystals = 1
 		}
 	}
 
