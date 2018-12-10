@@ -74,8 +74,8 @@ country_event = {
 }
 
 ## ##################################################### ##
-##            Give basic weapons if complex was          ##
-##                   (reverse) engineered                ##
+##         Give basic technologies if complex was        ##
+##                 (reverse) engineered                  ##
 ## ##################################################### ##
 
 country_event = {
@@ -84,8 +84,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		#owner = { esc_tech_switch = yes }
-		# blocked until I can figure out what's causing a CTD
+		esc_tech_switch = yes
 	}
 }
 
