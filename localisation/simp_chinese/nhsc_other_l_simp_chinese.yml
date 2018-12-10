@@ -159,8 +159,8 @@ edict_nhsc_mega_construction_desc: "By redirecting workforce towards where it is
 edict_nhsc_millennium_project: "Millennium Projects"
 edict_nhsc_millennium_project_desc: "Megastructures are the greatest testament of our engineering genius. Nothing should stand in the way of their construction."
 
-edict_nhsc_mod_control_edict: "ESC 2.0 Control Panel"
-edict_nhsc_mod_control_edict_desc: "Open ESC 2.0 options menu"
+edict_nhsc_mod_control_edict: "ESC 3.0 Control Panel"
+edict_nhsc_mod_control_edict_desc: "Open ESC 3.0 options menu"
 edict_nhsc_mod_control_edict2: "$edict_nhsc_mod_control_edict$"
 edict_nhsc_mod_control_edict2_desc: "$edict_nhsc_mod_control_edict_desc$"
 
@@ -170,14 +170,3 @@ edict_nhsc_mod_control_edict2_desc: "$edict_nhsc_mod_control_edict_desc$"
 
 sm_nhsc_starbase_reactor: "Starfortress Reactor"
 sm_nhsc_starbase_reactor_desc: "A massive zero-point reactor capable of supporting gigantic space installations."
-
-########################################
-###           Events stuff           ###
-########################################
-
-nhsc.311.name: "Synthesizing Neutronium!"
-nhsc.311.desc: "The scientists of the physics department propose a way to artificially synthesize neutronium, an extremely dense material making up the neutron stars. If successful, this might revolutionize our material science."
-NHSC_SYNTHETIC_NEUTRONIUM: "Synthesizing Neutronium"
-NHSC_SYNTHETIC_NEUTRONIUM_DESC: "$nhsc.311.desc$"
-nhsc.312.name: "Netronium Synthesized!"
-nhsc.312.desc: "The experiment was a great success and we now have knowledge necessary to handle neutronium matter."
