@@ -31,11 +31,11 @@ nhsc_tech_enigmatic_energy_harvesting = {
 	tier = 4
 	cost = @tier4cost3
 	weight = @tier4weight3
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_advanced_sensors_2" }
 	is_rare = yes
 	is_reverse_engineerable = no
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
@@ -44,7 +44,15 @@ nhsc_tech_enigmatic_energy_harvesting = {
 	weight_modifier = {
 		modifier = {
 			factor = 0.0
-			NOT = { has_country_flag = fortress_solved }
+			NOT = {
+				OR = {
+					has_country_flag = fortress_solved
+					has_technology = tech_enigmatic_encoder
+					has_tech_option = tech_enigmatic_encoder
+					has_technology = tech_enigmatic_decoder
+					has_tech_option = tech_enigmatic_decoder
+				}
+			}
 		}
 		modifier = {
 			factor = 0.8
@@ -68,14 +76,22 @@ nhsc_tech_enigmatic_energy_harvesting = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
 			factor = 0.0
-			NOT = { has_country_flag = fortress_solved }
+			NOT = {
+				OR = {
+					has_country_flag = fortress_solved
+					has_technology = tech_enigmatic_encoder
+					has_tech_option = tech_enigmatic_encoder
+					has_technology = tech_enigmatic_decoder
+					has_tech_option = tech_enigmatic_decoder
+				}
+			}
 		}
 		modifier = {
 			factor = 0.8
@@ -113,11 +129,11 @@ nhsc_tech_enigmatic_discharger = {
 	tier = 4
 	cost = @tier5cost2
 	weight = @tier5weight2
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_enigmatic_energy_harvesting" }
 	is_rare = yes
 	is_reverse_engineerable = no
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
@@ -146,9 +162,9 @@ nhsc_tech_enigmatic_discharger = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -174,7 +190,7 @@ nhsc_tech_enigmatic_discharger = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
@@ -187,11 +203,11 @@ nhsc_tech_enigmatic_lash = {
 	tier = 4
 	cost = @tier5cost1
 	weight = @tier5weight1
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_enigmatic_energy_harvesting" }
 	is_rare = yes
 	is_reverse_engineerable = no
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
@@ -220,9 +236,9 @@ nhsc_tech_enigmatic_lash = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -248,7 +264,7 @@ nhsc_tech_enigmatic_lash = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
@@ -261,11 +277,11 @@ nhsc_tech_enigmatic_autocannon = {
 	tier = 4
 	cost = @tier5cost1
 	weight = @tier5weight1
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_enigmatic_energy_harvesting" }
 	is_rare = yes
 	is_reverse_engineerable = no
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
@@ -294,9 +310,9 @@ nhsc_tech_enigmatic_autocannon = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -322,7 +338,7 @@ nhsc_tech_enigmatic_autocannon = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
@@ -335,11 +351,11 @@ nhsc_tech_enigmatic_lance = {
 	tier = 5
 	cost = @tier5cost3
 	weight = @tier5weight3
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_enigmatic_energy_harvesting" "nhsc_tech_advanced_heavy_weapons" }
 	is_rare = yes
 	is_reverse_engineerable = no
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
@@ -368,9 +384,9 @@ nhsc_tech_enigmatic_lance = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -396,7 +412,7 @@ nhsc_tech_enigmatic_lance = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
