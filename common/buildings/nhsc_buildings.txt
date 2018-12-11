@@ -754,7 +754,7 @@ nhsc_building_quantum_node = {
 			rare_crystals = 25
 		}
 		upkeep = {
-			energy = 4
+			energy = 7
 			rare_crystals = 1
 		}
 	}
@@ -765,7 +765,7 @@ nhsc_building_quantum_node = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			job_researcher_add = 5
+			job_esc_infinity_thinker_add = 5
 		}
 	}
 
@@ -775,7 +775,7 @@ nhsc_building_quantum_node = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_brain_drone_add = 5
+			job_esc_infinity_thinker_drone_add = 5
 		}
 	}
 
@@ -785,7 +785,7 @@ nhsc_building_quantum_node = {
 			owner = { is_machine_empire = yes }
 		}
 		modifier = {
-			job_calculator_add = 5
+			job_esc_infinity_thinker_unit_add = 5
 		}
 	}
 
@@ -794,7 +794,7 @@ nhsc_building_quantum_node = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 		}
-		text = job_researcher_effect_desc
+		text = job_esc_infinity_thinker_effect_desc
 	}
 
 	triggered_desc = {
@@ -802,7 +802,7 @@ nhsc_building_quantum_node = {
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
-		text = job_brain_drone_effect_desc
+		text = job_esc_infinity_thinker_drone_effect_desc
 	}
 
 	triggered_desc = {
@@ -810,7 +810,7 @@ nhsc_building_quantum_node = {
 			exists = owner
 			owner = { is_machine_empire = yes }
 		}
-		text = job_calculator_effect_desc
+		text = job_esc_infinity_thinker_unit_effect_desc
 	}
 
 	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }

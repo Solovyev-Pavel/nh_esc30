@@ -26,6 +26,9 @@ nhsc_building_stellar_energy_tower_desc: "Massive tower that transforms light el
 
 nhsc_building_quantum_node: "Quantum Computation Node"
 nhsc_building_quantum_node_desc: "Specialized computer network modelled after the processors of the Infinity Machine"
+job_esc_infinity_thinker_effect_desc: "Provides §G+5§! Infinity Thinker jobs."
+job_esc_infinity_thinker_drone_effect_desc: "Provides §G+5§! Infinity Thinker Drone jobs."
+job_esc_infinity_thinker_unit_effect_desc: "Provides §G+5§! Infinity Calculator jobs."
 
 nhsc_building_watcher: "Watcher of Eternity"
 nhsc_building_watcher_desc: "A massive complex that bends the reality itself, allowing us to gaze upon past, present and future."
