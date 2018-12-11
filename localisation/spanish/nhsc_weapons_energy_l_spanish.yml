@@ -157,7 +157,7 @@ NHSC_WAVEMOTIONGUN_3_DESC: "The supersized version of the Dimensional Wave Canno
 ########################################
 
 NHSC_ARC_EN_CIEL: "Arc-en-Ciel Cannon"
-NHSC_ARC_EN_CIEL_DESC: "A terrifying weapon that seals its target in a pocket dimension and then forces it to undergo big cruch, effectively destroying any trace of the target ever existing."
+NHSC_ARC_EN_CIEL_DESC: "A terrifying weapon that seals its target in a pocket dimension and then forces it to undergo Big Crunch, effectively destroying any trace of the target ever existing."
 NHSC_ARC_EN_CIEL_TITANIC: "$NHSC_ARC_EN_CIEL$"
 NHSC_ARC_EN_CIEL_TITANIC_DESC: "$NHSC_ARC_EN_CIEL_DESC$"
 
