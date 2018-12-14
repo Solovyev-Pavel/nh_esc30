@@ -32,8 +32,8 @@ esc_reprocessor = {
             alloys = 1
         }
         upkeep = {
-            energy = 2
-            minerals = 2
+            energy = 1
+            minerals = 3
         }
     }
 
@@ -73,10 +73,10 @@ esc_reprocessor_drone = {
     resources = {
         category = planet_jobs
         produces = {
-            alloys = 1
+            alloys = 2
         }
         upkeep = {
-            minerals = 2
+            minerals = 3
             food = 1
         }
     }
@@ -112,11 +112,11 @@ esc_reprocessor_unit = {
     resources = {
         category = planet_jobs
         produces = {
-            alloys = 1
+            alloys = 2
         }
         upkeep = {
             energy = 1
-            minerals = 2
+            minerals = 3
         }
     }
 

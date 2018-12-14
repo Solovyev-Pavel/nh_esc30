@@ -83,7 +83,7 @@ esc_enigmatic_energy_desc: "A successful recreation of power used by the mysteri
 ########################################
 
 job_esc_crystal_farmer: "Crystal Farmer"
-job_esc_crystal_farmer_plural: "Crystal Farmer"
+job_esc_crystal_farmer_plural: "Crystal Farmers"
 mod_job_esc_crystal_farmer_add: "$job_esc_crystal_farmer$"
 job_esc_crystal_farmer_desc: "This worker population oversees Crystalline Farms that produce Living Crystals as well as small amounts of Alloys."
 job_esc_crystal_farmer_drone: "Crystal Farmer Drone"
