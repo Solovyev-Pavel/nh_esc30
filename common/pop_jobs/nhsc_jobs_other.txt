@@ -312,7 +312,7 @@ esc_zro_distiller = {
     resources = {
         category = planet_jobs
         produces = {
-			sr_zro = 2
+			sr_zro = 1
         }
         upkeep = {
 			consumer_goods = 2
@@ -364,7 +364,7 @@ esc_zro_distiller_drone = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			sr_zro = 2
+			sr_zro = 1
         }
         upkeep = {
 			food = 4
