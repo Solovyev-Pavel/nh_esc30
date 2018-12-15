@@ -77,3 +77,17 @@ nhsc_building_enigmatic_coil_desc: "Massive generators, gathering and amplifying
 job_esc_enigma_reader_effect_desc: "£job_esc_enigma_reader£ $job_esc_enigma_reader_plural$ turn £energy£ §Y$energy$§! and £consumer_goods£ §Y$consumer_goods$§! into £esc_enigmatic_energy£ §Y$esc_enigmatic_energy$§!."
 job_esc_enigma_reader_drone_effect_desc: "£job_esc_enigma_reader_drone£ $job_esc_enigma_reader_drone_plural$ turn £energy£ §Y$energy$§! and £food£ §Y$food$§! into £esc_enigmatic_energy£ §Y$esc_enigmatic_energy$§!."
 job_esc_enigma_reader_unit_effect_desc: "£job_esc_enigma_reader_unit£ $job_esc_enigma_reader_unit_plural$ turn £energy£ §Y$energy$§! into £esc_enigmatic_energy£ §Y$esc_enigmatic_energy$§!."
+
+### Fallen Empire Buildings
+
+nhsc_building_nanite_containment: "Nanite Containment Facility"
+nhsc_building_nanite_containment_desc: "A great facility containing large amounts of self-replicating nanites, originally created by a long-dead extremely advanced civilization."
+
+nhsc_building_psi_energy_spire: "Psionic Energy Spire"
+nhsc_building_psi_energy_spire_desc: "This massive installation operates immense energies of the material world as well as those pulled from the Shroud."
+
+nhsc_building_localized_gravity_fault: "Localized Gravity Fault"
+nhsc_building_localized_gravity_fault_desc: "Long ago, an experiment performed in this area tore a hole in space-time continuum. The fault has since been contained and used to syphon great amounts of resources from other dimensions."
+
+nhsc_building_crystalline_manufacture: "Crystalline Manufacture"
+nhsc_building_crystalline_manufacture_desc: "A manufacture built using long-lost technologies that assimilated living crystals for nigh-unlimited access to rare and precious resources."

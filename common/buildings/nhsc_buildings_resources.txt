@@ -274,7 +274,7 @@ nhsc_building_graviton_condenser = {
         text = job_esc_gravity_manipulator_unit_effect_desc
 	}
 
-	prerequisites = { "nhsc_tech_gravity_manipulation" }
+	prerequisites = { "nhsc_tech_gravity_weapons" }
 
 	ai_weight = {
         weight = 5
