@@ -182,6 +182,15 @@ job_esc_infinity_thinker_unit_plural: "Infinity Calculators"
 mod_job_esc_infinity_thinker_unit_add: "$job_esc_infinity_thinker_unit$"
 job_esc_infinity_thinker_unit_desc: "$job_esc_infinity_thinker_drone_desc$"
 
+job_esc_zro_distiller: "Zro Distiller"
+job_esc_zro_distiller_plural: "Zro Distillers"
+mod_job_esc_zro_distiller_add: "$job_esc_zro_distiller$"
+job_esc_zro_distiller_desc: "Operators of the Zro Distillery that manage the process of extracting minute amounts of zro dust from raw materials."
+job_esc_zro_distiller_drone: "Zro Distiller Drone"
+job_esc_zro_distiller_drone_plural: "Zro Distiller Drones"
+mod_job_esc_zro_distiller_drone_add: "$job_esc_zro_distiller_drone$"
+job_esc_zro_distiller_drone_desc: "$job_esc_zro_distiller_desc$"
+
 ########################################
 ###              Edicts              ###
 ########################################

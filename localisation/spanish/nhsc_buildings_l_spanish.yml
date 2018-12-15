@@ -39,6 +39,11 @@ job_esc_reprocessor_effect_desc: "£job_esc_reprocessor£ $job_esc_reprocessor_p
 job_esc_reprocessor_drone_effect_desc: "£job_esc_reprocessor_drone£ $job_esc_reprocessor_drone_plural$ turn £minerals£ §Y$minerals$§! and £food£ §Y$food$§! into £alloys£ §Y$alloys$§!."
 job_esc_reprocessor_unit_effect_desc: "£job_esc_reprocessor_unit£ $job_esc_reprocessor_unit_plural$ turn £minerals£ §Y$minerals$§! and £energy£ §Y$energy$§! £alloys£ §Y$alloys$§!."
 
+nhsc_building_zro_distillery: "Zro Distillery"
+nhsc_building_zro_distillery_desc: "This advanced processing facility sifts through literal mountains of raw materials to pick tiny crystals of extremely valuable Zro dust."
+job_esc_zro_distiller_effect_desc: "£job_esc_zro_distiller£ $job_esc_zro_distiller_plural$ produces £sr_zro£ $sr_zro$ out of raw materials."
+job_esc_zro_distiller_drone_effect_desc: "£job_esc_zro_distiller_drone£ $job_esc_zro_distiller_drone_plural$ produces £sr_zro£ $sr_zro$ out of raw materials."
+
 ### special resource production buildings
 
 nhsc_building_nanite_foundry: "Nanite Foundry"

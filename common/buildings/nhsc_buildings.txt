@@ -12,6 +12,7 @@
 # - Stellar Energy Tower			: special bulding that generates energy, physics and boosts local food production. requires empire to have killed Stellarite Devourer
 # - Quantum Computation Node		: special lab building, provides scientist jobs and boosts local science production. requires resolved Infinity Machine event chain
 # - Reprocessing Plant				: special building that provides 'resource reprocessing manager' jobs that provide alloys and consumer goods. requires empire to have killed Scavenger Bot
+# - Zro Distillery					: special building for Zro production
 
 ############################################################
 ###                Central Research Bureau               ###
@@ -909,9 +910,79 @@ nhsc_building_reprocessing_plant = {
         text = job_esc_reprocessor_unit_effect_desc
 	}
 
-	planet_modifier = { pop_amenities_usage_mult = -0.25 }
-
 	prerequisites = { "nhsc_tech_reprocessing_plant" }
+
+	ai_weight = { weight = 1 }
+}
+
+############################################################
+###                    Zro Distillery                    ###
+############################################################
+
+nhsc_building_zro_distillery = {
+	base_buildtime = 360
+	base_cap_amount = 1
+	icon = nhsc_building_zro_distillery
+	category = manufacturing
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
+
+	allow = { has_upgraded_capital = yes }
+
+	resources = {
+        category = planet_buildings
+        cost = {
+			minerals = 400
+			rare_crystals = 15
+			exotic_gases = 15
+			volatile_motes = 15
+        }
+        upkeep = {
+			energy = 5
+        }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_esc_zro_distiller_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_esc_zro_distiller_drone_add = 2
+		}
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_regular_empire = yes }
+        }
+        text = job_esc_zro_distiller_effect_desc
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_hive_empire = yes }
+        }
+        text = job_esc_zro_distiller_drone_effect_desc
+	}
+
+	prerequisites = { "nhsc_tech_zro_distilleries" }
 
 	ai_weight = { weight = 1 }
 }

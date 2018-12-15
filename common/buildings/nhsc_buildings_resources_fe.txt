@@ -125,7 +125,7 @@ nhsc_building_crystalline_manufacture = {
         }
 		produces = {
             consumer_goods = 50
-            esc_living_crystal = 15
+            esc_living_crystal = 10
 		}
 		upkeep = {
 			minerals = 25
