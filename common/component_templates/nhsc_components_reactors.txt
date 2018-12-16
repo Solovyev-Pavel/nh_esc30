@@ -38,8 +38,8 @@
 
 @strikecruiser_power_7 = 1500
 @battlecruiser_power_7 = 1850
-@carrier_power_7 = 6750
-@dreadnought_power_7 = 7500
+@carrier_power_7 = 5750
+@dreadnought_power_7 = 6000
 @flagship_power_7 = 17500
 @SCX_Dreadnought_power_7 = 3250
 
@@ -53,13 +53,13 @@
 @platform2_power_8 = 2000
 @platform3_power_8 = 3500
 @xlcannon_power_8 = 2200
-@SCX_Dreadnought_power_8 = 3750
 
 @strikecruiser_power_8 = 2100
 @battlecruiser_power_8 = 2500
-@carrier_power_8 = 8000
-@dreadnought_power_8 = 10000
+@carrier_power_8 = 6000
+@dreadnought_power_8 = 7000
 @flagship_power_8 = 20000
+@SCX_Dreadnought_power_8 = 3750
 
 @colossus_power = 15000
 @starbase_power = 25000
@@ -105,9 +105,9 @@
 @dreadnought_cost_6 = 550
 @dreadnought_upkeep_energy_6 = 5.50
 @dreadnought_upkeep_alloys_6 = 0.550
-@flagship_cost_6 = 800
-@flagship_upkeep_energy_6 = 8.0
-@flagship_upkeep_alloys_6 = 0.80
+@flagship_cost_6 = 1000
+@flagship_upkeep_energy_6 = 10.0
+@flagship_upkeep_alloys_6 = 1.00
 @SCX_Dreadnought_cost_6 = 600
 @SCX_Dreadnought_upkeep_energy_6 = 6.0
 @SCX_Dreadnought_upkeep_alloys_6 = 0.60
@@ -153,9 +153,9 @@
 @dreadnought_cost_7 = 700
 @dreadnought_upkeep_energy_7 = 7.0
 @dreadnought_upkeep_alloys_7 = 0.70
-@flagship_cost_7 = 1100
-@flagship_upkeep_energy_7 = 11.0
-@flagship_upkeep_alloys_7 = 1.10
+@flagship_cost_7 = 1300
+@flagship_upkeep_energy_7 = 13.0
+@flagship_upkeep_alloys_7 = 1.30
 @SCX_Dreadnought_cost_7 = 800
 @SCX_Dreadnought_upkeep_energy_7 = 8.0
 @SCX_Dreadnought_upkeep_alloys_7 = 0.80
@@ -201,9 +201,9 @@
 @dreadnought_cost_8 = 800
 @dreadnought_upkeep_energy_8 = 8.0
 @dreadnought_upkeep_alloys_8 = 0.80
-@flagship_cost_8 = 1400
-@flagship_upkeep_energy_8 = 14.0
-@flagship_upkeep_alloys_8 = 1.40
+@flagship_cost_8 = 1600
+@flagship_upkeep_energy_8 = 16.0
+@flagship_upkeep_alloys_8 = 1.60
 @SCX_Dreadnought_cost_8 = 950
 @SCX_Dreadnought_upkeep_energy_8 = 9.50
 @SCX_Dreadnought_upkeep_alloys_8 = 0.950
@@ -633,9 +633,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = {
-		military_station_large
-	}
+	size_restriction = { military_station_large t_cannon }
 	component_set = "power_core"
 	upgrades_to = "PLATFORM3_NHSC_ADV_REACTOR_2"
 
@@ -1153,9 +1151,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = {
-		military_station_large
-	}
+	size_restriction = { military_station_large t_cannon }
 	component_set = "power_core"
 	upgrades_to = "PLATFORM3_NHSC_ADV_REACTOR_3"
 
@@ -1659,9 +1655,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = {
-		military_station_large
-	}
+	size_restriction = { military_station_large t_cannon }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2175,9 +2169,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = {
-		military_station_large
-	}
+	size_restriction = { military_station_large t_cannon }
 	component_set = "power_core"
 
 	ai_weight = {
