@@ -758,7 +758,7 @@ utility_component_template = {
 	upgrades_to = "CORVETTE_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -786,7 +786,7 @@ utility_component_template = {
 	upgrades_to = "DESTROYER_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -814,7 +814,7 @@ utility_component_template = {
 	upgrades_to = "CRUISER_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -847,7 +847,7 @@ utility_component_template = {
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -875,7 +875,7 @@ utility_component_template = {
 	upgrades_to = "TITAN_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -896,7 +896,7 @@ utility_component_template = {
 	upgrades_to = "COLOSSUS_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -924,7 +924,7 @@ utility_component_template = {
 	upgrades_to = "STRIKECRUISER_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -952,7 +952,7 @@ utility_component_template = {
 	upgrades_to = "BATTLECRUISER_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -980,7 +980,7 @@ utility_component_template = {
 	upgrades_to = "CARRIER_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1008,7 +1008,7 @@ utility_component_template = {
 	upgrades_to = "DREADNOUGHT_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1036,7 +1036,7 @@ utility_component_template = {
 	upgrades_to = "FLAGSHIP_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1064,7 +1064,7 @@ utility_component_template = {
 	upgrades_to = "SCX_DREADNOUGHT_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1096,7 +1096,7 @@ utility_component_template = {
 	upgrades_to = "PLATFORM_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1127,7 +1127,7 @@ utility_component_template = {
 	upgrades_to = "PLATFORM2_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1156,7 +1156,7 @@ utility_component_template = {
 	upgrades_to = "PLATFORM3_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1187,7 +1187,7 @@ utility_component_template = {
 	upgrades_to = "XLCANNON_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1215,7 +1215,7 @@ utility_component_template = {
 	upgrades_to = "ION_CANNON_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1244,7 +1244,7 @@ utility_component_template = {
 	upgrades_to = "STARBASE_NHSC_ADV_REACTOR_3"
 
 	ai_weight = {
-		weight = 8
+		weight = 9
 	}
 }
 
@@ -1275,7 +1275,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1302,7 +1302,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1329,7 +1329,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1361,7 +1361,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1388,7 +1388,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1408,7 +1408,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1435,7 +1435,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1462,7 +1462,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1489,7 +1489,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1516,7 +1516,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1543,7 +1543,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1570,7 +1570,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1601,7 +1601,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1631,7 +1631,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1659,7 +1659,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1689,7 +1689,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1716,7 +1716,7 @@ utility_component_template = {
 	size_restriction = { ion_cannon }
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1744,7 +1744,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1776,7 +1776,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1804,7 +1804,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1832,7 +1832,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1865,7 +1865,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1893,7 +1893,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1913,7 +1913,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1941,7 +1941,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1969,7 +1969,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -1997,7 +1997,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2025,7 +2025,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2053,7 +2053,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2081,7 +2081,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2113,7 +2113,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2144,7 +2144,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2173,7 +2173,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2204,7 +2204,7 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2232,7 +2232,7 @@ utility_component_template = {
 	size_restriction = { ion_cannon }
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
 
@@ -2260,6 +2260,6 @@ utility_component_template = {
 	component_set = "power_core"
 
 	ai_weight = {
-		weight = 10
+		weight = 12
 	}
 }
