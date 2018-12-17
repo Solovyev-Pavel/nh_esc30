@@ -31,7 +31,7 @@ on_ship_destroyed_perp = {
 	}
 }
 
-on_end_game_pulse = {
+on_late_game_pulse = {
 	events = {
 		nhsc.300 # mark space-time manipulation technology as researchable
 	}
