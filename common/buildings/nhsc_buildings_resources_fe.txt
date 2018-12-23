@@ -15,7 +15,6 @@ nhsc_building_nanite_containment = {
     base_buildtime = 480
     can_build = no
 	can_demolish = yes
-    can_repair = yes
 	icon = nhsc_building_nanite_containment
 
 	potential = { }
@@ -48,7 +47,6 @@ nhsc_building_psi_energy_spire = {
     base_buildtime = 480
 	can_build = no
 	can_demolish = yes
-    can_repair = yes
     icon = nhsc_building_psi_energy_spire
 
 	potential = { }
@@ -78,7 +76,6 @@ nhsc_building_localized_gravity_fault = {
     base_buildtime = 480
     can_build = no
 	can_demolish = yes
-    can_repair = yes
 	icon = nhsc_building_localized_gravity_fault
 
 	potential = { }
@@ -111,7 +108,6 @@ nhsc_building_crystalline_manufacture = {
     base_buildtime = 480
     can_build = no
 	can_demolish = yes
-    can_repair = yes
 	icon = nhsc_building_crystalline_manufacture
 
 	potential = { }

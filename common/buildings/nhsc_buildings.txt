@@ -179,8 +179,7 @@ nhsc_building_culture_nexus = {
 	}
 
 	show_tech_unlock_if = {
-		NOT = { has_authority = auth_machine_intelligence }
-		NOT = { has_authority = auth_hive_mind }
+		owner = { is_regular_empire = yes }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
@@ -244,7 +243,7 @@ nhsc_building_cerebral_node = {
 	}
 
 	show_tech_unlock_if = {
-		has_authority = auth_hive_mind
+		owner = { is_hive_empire = yes }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
@@ -307,7 +306,7 @@ nhsc_building_network_regulator = {
 	}
 
 	show_tech_unlock_if = {
-		has_authority = auth_machine_intelligence
+		owner = { is_machine_empire = yes }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
@@ -754,6 +753,12 @@ nhsc_building_quantum_node = {
 			minerals = 400
 			rare_crystals = 25
 		}
+		produces = {
+			physics_research = 5
+			society_research = 5
+			engineering_research = 5
+			unity = 5
+		}
 		upkeep = {
 			energy = 7
 			rare_crystals = 1
@@ -766,7 +771,7 @@ nhsc_building_quantum_node = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			job_esc_infinity_thinker_add = 5
+			job_researcher_add = 5
 		}
 	}
 
@@ -776,7 +781,7 @@ nhsc_building_quantum_node = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_esc_infinity_thinker_drone_add = 5
+			job_brain_drone_add = 5
 		}
 	}
 
@@ -786,7 +791,7 @@ nhsc_building_quantum_node = {
 			owner = { is_machine_empire = yes }
 		}
 		modifier = {
-			job_esc_infinity_thinker_unit_add = 5
+			job_calculator_add = 5
 		}
 	}
 
@@ -795,7 +800,7 @@ nhsc_building_quantum_node = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 		}
-		text = job_esc_infinity_thinker_effect_desc
+		text = job_researcher_effect_desc
 	}
 
 	triggered_desc = {
@@ -803,7 +808,7 @@ nhsc_building_quantum_node = {
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
-		text = job_esc_infinity_thinker_drone_effect_desc
+		text = job_brain_drone_effect_desc
 	}
 
 	triggered_desc = {
@@ -811,7 +816,7 @@ nhsc_building_quantum_node = {
 			exists = owner
 			owner = { is_machine_empire = yes }
 		}
-		text = job_esc_infinity_thinker_unit_effect_desc
+		text = job_calculator_effect_desc
 	}
 
 	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }

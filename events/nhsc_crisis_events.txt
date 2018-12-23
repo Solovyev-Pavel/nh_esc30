@@ -154,6 +154,7 @@ country_event = {
 	}
 
 	immediate = {
+		set_global_flag = nhsc_unbidden_crisis_started
 		set_crisis_sound = extradimensional_crisis_ambient_stage_1
 		set_crisis_stage_1 = yes
 		create_country = {
