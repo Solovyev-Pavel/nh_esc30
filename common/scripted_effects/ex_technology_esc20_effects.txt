@@ -244,12 +244,12 @@ armor_tech_check = {
 		}
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 		## synthetic lifeform studies >>> nanite transmutation [...useful?]
-		if = {
-			limit = {
-				NOT = { has_technology = "tech_nanite_transmutation" }
-			}
-			give_technology = { message = no tech = tech_nanite_transmutation }
-		}
+#		if = {
+#			limit = {
+#				NOT = { has_technology = "tech_nanite_transmutation" }
+#			}
+#			give_technology = { message = no tech = tech_nanite_transmutation }
+#		}
 	}
 	## armor 5 >>> armor 4
 	if = {
@@ -1129,10 +1129,10 @@ strike_craft_tech_check = {
 		}
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 		## synthetic lifeform studies >>> nanite transmutation
-		if = {
-			limit = { NOT = { has_technology = "tech_nanite_transmutation" } }
-			give_technology = { message = no tech = tech_nanite_transmutation }
-		}
+#		if = {
+#			limit = { NOT = { has_technology = "tech_nanite_transmutation" } }
+#			give_technology = { message = no tech = tech_nanite_transmutation }
+#		}
 	}
 	## gravitic strikecrafts >>> weaponized gravity
 	if = {
@@ -1514,13 +1514,13 @@ nano_torpedo_tech_check = {
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 	}
 	## synthetic lifeform studies >>> nanite transmutation
-	if = {
-		limit = {
-			has_technology = "nhsc_tech_synthetic_lifeform_studies"
-			NOT = { has_technology = "tech_nanite_transmutation" }
-		}
-		give_technology = { message = no tech = tech_nanite_transmutation }
-	}
+#	if = {
+#		limit = {
+#			has_technology = "nhsc_tech_synthetic_lifeform_studies"
+#			NOT = { has_technology = "tech_nanite_transmutation" }
+#		}
+#		give_technology = { message = no tech = tech_nanite_transmutation }
+#	}
 }
 
 ## ##################################################### ##
@@ -1545,13 +1545,13 @@ nano_cannon_tech_check = {
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 	}
 	## synthetic lifeform studies >>> nanite transmutation
-	if = {
-		limit = {
-			has_technology = "nhsc_tech_synthetic_lifeform_studies"
-			NOT = { has_technology = "tech_nanite_transmutation" }
-		}
-		give_technology = { message = no tech = tech_nanite_transmutation }
-	}
+#	if = {
+#		limit = {
+#			has_technology = "nhsc_tech_synthetic_lifeform_studies"
+#			NOT = { has_technology = "tech_nanite_transmutation" }
+#		}
+#		give_technology = { message = no tech = tech_nanite_transmutation }
+#	}
 }
 
 ## ##################################################### ##

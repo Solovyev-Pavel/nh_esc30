@@ -145,17 +145,3 @@ country_event = {
 		set_country_flag = nhsc_killed_stellarite_devourer
 	}
 }
-
-## ##################################################### ##
-##       Set global flag for end-game technologies       ##
-## ##################################################### ##
-
-event = {
-	id = nhsc.300
-	hide_window = yes
-	is_triggered_only = yes
-
-	immediate = {
-		set_global_flag = nhsc_endgame_started
-	}
-}

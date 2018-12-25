@@ -191,6 +191,18 @@ job_esc_zro_distiller_drone_plural: "Zro Distiller Drones"
 mod_job_esc_zro_distiller_drone_add: "$job_esc_zro_distiller_drone$"
 job_esc_zro_distiller_drone_desc: "$job_esc_zro_distiller_desc$"
 
+job_esc_dark_matter_shaper: "Dark Matter Shaper"
+job_esc_dark_matter_shaper_plural: "Dark Matter Shapers"
+mod_job_esc_dark_matter_shaper_add: "$job_esc_dark_matter_shaper$"
+job_esc_dark_matter_shaper_desc: "These specialists operate the Dark Matter Drawing Facility, keeping our empire supplied with this precious resource."
+job_esc_dark_matter_shaper_drone: "Dark Matter Shaping Drone"
+job_esc_dark_matter_shaper_drone_plural: "Dark Matter Shaping Drones"
+mod_job_esc_dark_matter_shaper_drone_add: "$job_esc_dark_matter_shaper_drone$"
+job_esc_dark_matter_shaper_drone_desc: "These complex drones operate the Dark Matter Drawing Facility, keeping the empire supplied with this precious resource."
+job_esc_dark_matter_shaper_unit: "Dark Matter Shaping Unit"
+job_esc_dark_matter_shaper_unit_plural: "Dark Matter Shaping Units"
+mod_job_esc_dark_matter_shaper_unit_add: "$job_esc_dark_matter_shaper_unit$"
+job_esc_dark_matter_shaper_unit_desc: "$job_esc_dark_matter_shaper_drone_desc$"
 
 ########################################
 ###              Edicts              ###

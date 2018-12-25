@@ -6,6 +6,7 @@
 # ── Quantum Computation Node		: unique science laboratory; requires 'greeted' Infinity Machine / Leviathans DLC
 # ── Reprocessing Plant				: unique building for managing resources; requires killed Scrapper Bot / Distant Stars DLC
 # ── Zro Distilleries				: unlocks building for zro production
+# ── Dark Matter Drawing Facilities	: unlocks building for dark matter production
 
 ############################################################
 ##                Stellar Evenrgy Tower                   ##
@@ -151,7 +152,7 @@ nhsc_tech_reprocessing_plant = {
 }
 
 ############################################################
-##                Stellar Evenrgy Tower                   ##
+##                    Zro Distilleries                    ##
 ############################################################
 
 nhsc_tech_zro_distilleries = {
@@ -181,6 +182,45 @@ nhsc_tech_zro_distilleries = {
 			NOR = {
 				has_technology = tech_psionic_theory
 				has_technology = nhsc_tech_psionic_weapons
+			}
+		}
+	}
+}
+
+############################################################
+##              Dark Matter Drawing Facilities            ##
+############################################################
+
+nhsc_tech_dark_matter_facilities = {
+	area = physics
+	category = { field_manipulation }
+	cost = @tier4cost1
+	weight = @tier4weight3
+	tier = 4
+	prerequisites = { "tech_mine_dark_matter" "nhsc_tech_central_research_bureau" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 5 #strategic resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
 			}
 		}
 	}

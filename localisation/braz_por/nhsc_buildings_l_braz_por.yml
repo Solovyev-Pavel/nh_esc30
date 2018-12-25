@@ -44,6 +44,12 @@ nhsc_building_zro_distillery_desc: "This advanced processing facility sifts thro
 job_esc_zro_distiller_effect_desc: "£job_esc_zro_distiller£ $job_esc_zro_distiller_plural$ produces £sr_zro£ $sr_zro$ out of raw materials."
 job_esc_zro_distiller_drone_effect_desc: "£job_esc_zro_distiller_drone£ $job_esc_zro_distiller_drone_plural$ produces £sr_zro£ $sr_zro$ out of raw materials."
 
+nhsc_building_dark_matter_facility: "Dark Matter Drawing Facility"
+nhsc_building_dark_matter_facility_desc: "A vast complex of gravitic presses that bend the very fabric of space-time in order to produce precious Dark Matter."
+job_esc_dark_matter_shaper_effect_desc: "£job_esc_dark_matter_shaper£ $job_esc_dark_matter_shaper_plural$ turn £energy£ §Y$energy$§! and £consumer_goods£ §Y$consumer_goods$§! into £sr_dark_matter£ §Y$sr_dark_matter$§! and £physics_research£ §Y$physics_research$§!"
+job_esc_dark_matter_shaper_drone_effect_desc: "£job_esc_dark_matter_shaper_drone£ $job_esc_dark_matter_shaper_drone_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! and £food£ §Y$food$§! into £sr_dark_matter£ §Y$sr_dark_matter$§! and £physics_research£ §Y$physics_research$§!"
+job_esc_dark_matter_shaper_unit_effect_desc: "£job_esc_dark_matter_shaper_drone£ $job_esc_dark_matter_shaper_drone_plural$ turn £energy£ §Y$energy$§! and £minerals£ §Y$minerals$§! into £sr_dark_matter£ §Y$sr_dark_matter$§! and £physics_research£ §Y$physics_research$§!"
+
 ### special resource production buildings
 
 nhsc_building_nanite_foundry: "Nanite Foundry"

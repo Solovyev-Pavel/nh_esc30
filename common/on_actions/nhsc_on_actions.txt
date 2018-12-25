@@ -30,9 +30,3 @@ on_ship_destroyed_perp = {
 		nhsc.200 # set a country flag on killing stellarite
 	}
 }
-
-on_late_game_pulse = {
-	events = {
-		nhsc.300 # mark space-time manipulation technology as researchable
-	}
-}
