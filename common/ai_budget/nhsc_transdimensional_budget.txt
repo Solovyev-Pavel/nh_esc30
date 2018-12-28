@@ -12,9 +12,22 @@ transdimensional_expenditure_ships = {
 	}
 
 	fraction = {
-		weight = 0.5
+		weight = 1
+	}
+}
+
+transdimensional_expenditure_edicts = {
+	resource = esc_transdimensional_vortex
+	type = expenditure
+	category = edicts
+
+	potential = {
+		always = yes
 	}
 
+	fraction = {
+		weight = 0.15
+	}
 }
 
 transdimensional_upkeep_ships = {
@@ -27,6 +40,6 @@ transdimensional_upkeep_ships = {
 	}
 
 	fraction = {
-		weight = 1
+		weight = 0.5
 	}
 }

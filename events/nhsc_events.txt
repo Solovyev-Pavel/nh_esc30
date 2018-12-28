@@ -145,3 +145,28 @@ country_event = {
 		set_country_flag = nhsc_killed_stellarite_devourer
 	}
 }
+
+## ##################################################### ##
+##             Summon a Psionic Avatar  (Army)           ##
+## ##################################################### ##
+
+country_event = {
+	id = nhsc.250
+	is_triggered_only = yes
+	title = "utopia.3000.name"
+	desc = "utopia.3021.desc"
+	picture = GFX_evt_surreal_visions
+
+	option = {
+		name = "EXCELLENT"
+		capital_scope = {
+			create_army = {
+				name = "NAME_Avatar"
+				owner = root
+				species = root
+				type = "shroud_army"
+			}
+		}
+		default_hide_option = yes
+	}
+}

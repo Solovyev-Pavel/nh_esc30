@@ -164,9 +164,24 @@ esc_crystal_farmer = {
             esc_living_crystal = 2
             alloys = 1
         }
+        produces = {
+            trigger = {
+                owner = { has_technology = nhsc_tech_rare_crystals_cultivation }
+            }
+            rare_crystals = 0.5
+        }
         upkeep = {
             consumer_goods = 1
             minerals = 4
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner = { has_technology = nhsc_tech_crystalline_valuables }
+        }
+        modifier = {
+            trade_value_add = 1
         }
     }
 
@@ -213,6 +228,12 @@ esc_crystal_farmer_drone = {
             esc_living_crystal = 2
             alloys = 1
         }
+        produces = {
+            trigger = {
+                owner = { has_technology = nhsc_tech_rare_crystals_cultivation }
+            }
+            rare_crystals = 0.5
+        }
         upkeep = {
             minerals = 4
             food = 3
@@ -256,6 +277,12 @@ esc_crystal_farmer_unit = {
         produces = {
             esc_living_crystal = 2
             alloys = 1
+        }
+        produces = {
+            trigger = {
+                owner = { has_technology = nhsc_tech_rare_crystals_cultivation }
+            }
+            rare_crystals = 0.5
         }
         upkeep = {
             energy = 2
