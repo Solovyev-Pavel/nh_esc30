@@ -235,9 +235,9 @@ nhsc_tech_dark_matter_facilities = {
 nhsc_tech_crystalline_valuables = {
 	area = society
 	category = { statecraft }
-	cost = @tier3cost1
-	weight = @tier3weight3
-	tier = 3
+	cost = @tier2cost2
+	weight = @tier2weight1
+	tier = 2
 	prerequisites = { "nhsc_tech_crystal_cannon_1" }
 	is_rare = yes
 
@@ -275,9 +275,9 @@ nhsc_tech_crystalline_valuables = {
 nhsc_tech_rare_crystals_cultivation = {
 	area = engineering
 	category = { materials }
-	cost = @tier3cost1
-	weight = @tier3weight3
-	tier = 3
+	cost = @tier2cost3
+	weight = @tier2weight3
+	tier = 2
 	prerequisites = { "nhsc_tech_crystal_cannon_1" }
 	is_rare = yes
 

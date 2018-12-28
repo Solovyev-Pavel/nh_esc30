@@ -57,7 +57,7 @@ nhsc_edict_living_crystal_trading  = {
 
 	modifier = { trade_value_mult = 0.15 }
 
-	prerequisites = { "nhsc_tech_crystal_cannon_1" }
+	prerequisites = { "nhsc_tech_crystalline_valuables" }
 
 	ai_weight = { weight = 1 }
 }
