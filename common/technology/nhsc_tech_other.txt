@@ -246,6 +246,13 @@ nhsc_tech_crystalline_valuables = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "NHSC_TECH_LIVING_CRYSTALS_TRADE_TITLE"
+			desc = "NHSC_TECH_LIVING_CRYSTALS_TRADE_DESC"
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
@@ -284,6 +291,13 @@ nhsc_tech_rare_crystals_cultivation = {
 	potential = {
 		is_regular_empire = yes
 		NOT = { has_global_flag = ESC_weapons_forbidden }
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "NHSC_TECH_RARE_CRYSTALS_CULTIVATION_TITLE"
+			desc = "NHSC_TECH_RARE_CRYSTALS_CULTIVATION_DESC"
+		}
 	}
 
 	weight_modifier = {
