@@ -268,7 +268,7 @@
 @armor_s_t8_cost = 47
 @armor_s_t8_cost_special = 0.666
 @armor_s_t8_upkeep_energy = 0.47
-@armor_s_t8_upkeep_alloys = 0.94
+@armor_s_t8_upkeep_alloys = 0.094
 
 @armor_m_t8_strength = 750
 @armor_m_t8_cost = 104
@@ -415,7 +415,7 @@
 @shield_s_t9_cost = 34
 @shield_s_t9_cost_special = 1.1
 @shield_s_t9_upkeep_energy = 0.34
-@shield_s_t9_upkeep_alloys = 0.68
+@shield_s_t9_upkeep_alloys = 0.068
 
 @shield_m_t9_strength = 850
 @shield_m_t9_regen = 8.50
