@@ -30,6 +30,20 @@ transdimensional_expenditure_edicts = {
 	}
 }
 
+transdimensional_expenditure_ship_upgrades = {
+	resource = esc_transdimensional_vortex
+	type = expenditure
+	category = ship_upgrades
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.25
+	}
+}
+
 transdimensional_upkeep_ships = {
 	resource = esc_transdimensional_vortex
 	type = upkeep

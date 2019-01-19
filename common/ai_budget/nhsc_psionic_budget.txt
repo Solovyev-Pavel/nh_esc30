@@ -30,6 +30,20 @@ psionics_expenditure_edicts = {
 	}
 }
 
+psionics_expenditure_ship_upgrades = {
+	resource = esc_psionic_charge
+	type = expenditure
+	category = ship_upgrades
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.25
+	}
+}
+
 psionics_upkeep_ships = {
 	resource = esc_psionic_charge
 	type = upkeep

@@ -14,7 +14,6 @@ living_crystal_expenditure_ships = {
 	fraction = {
 		weight = 1
 	}
-
 }
 
 living_crystal_expenditure_edicts = {
@@ -28,6 +27,20 @@ living_crystal_expenditure_edicts = {
 
 	fraction = {
 		weight = 0.15
+	}
+}
+
+living_crystal_expenditure_ship_upgrades = {
+	resource = esc_living_crystal
+	type = expenditure
+	category = ship_upgrades
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.25
 	}
 }
 

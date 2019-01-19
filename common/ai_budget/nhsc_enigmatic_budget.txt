@@ -14,7 +14,20 @@ enigmatic_expenditure_ships = {
 	fraction = {
 		weight = 1
 	}
+}
 
+enigmatic_expenditure_ship_upgrades = {
+	resource = esc_enigmatic_energy
+	type = expenditure
+	category = ship_upgrades
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.25
+	}
 }
 
 enigmatic_expenditure_edicts = {
