@@ -361,7 +361,7 @@
 
 ### tier 7
 @shield_s_t7_strength = 240
-@shield_s_t7_regen = 2.0
+@shield_s_t7_regen = 2.4
 @shield_s_t7_power = -75
 #@shield_s_t7_cost = 21
 @shield_s_t7_cost_special = 0.666
@@ -369,7 +369,7 @@
 #@shield_s_t7_upkeep_alloys = 0.042
 
 @shield_m_t7_strength = 600
-@shield_m_t7_regen = 5.0
+@shield_m_t7_regen = 6.0
 @shield_m_t7_power = -150
 #@shield_m_t7_cost = 38
 @shield_m_t7_cost_special = 1.333
@@ -377,7 +377,7 @@
 #@shield_m_t7_upkeep_alloys = 0.076
 
 @shield_l_t7_strength = 1440
-@shield_l_t7_regen = 12.50
+@shield_l_t7_regen = 14.40
 @shield_l_t7_power = -300
 #@shield_l_t7_cost = 74
 @shield_l_t7_cost_special = 2.5
