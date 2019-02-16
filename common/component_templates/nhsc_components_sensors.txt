@@ -124,6 +124,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_sensors_3" }
 	component_set = "sensor_components"
+	upgrades_to = "NHSC_PSI_SENSOR_SHIP" # psi sensors are explicitly (slightly) better, so they should be a final tier even if they are technically another tech branch
 
 	ai_weight = {
 		weight = 2000
