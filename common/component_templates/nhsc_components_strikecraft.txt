@@ -380,7 +380,8 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t4_cost
+			energy = @l_t5_cost
+			alloys = @l_t3_cost
 		}
 		upkeep = {
 			energy = @weapon_l_t6_upkeep_energy
@@ -444,7 +445,8 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @l_t5_cost
+			energy = @weapon_l_t6_cost
+			alloys = @l_t4_cost
 		}
 		upkeep = {
 			energy = @weapon_l_t8_upkeep_energy
