@@ -64,7 +64,7 @@ building_esc_crystal_farm_2: "Improved Crystal Farm"
 building_esc_crystal_farm_2_desc: "A more efficient farm for growing semi-organic crystalline matter."
 job_esc_crystal_farmer_effect_desc: "£job_esc_crystal_farmer£ $job_esc_crystal_farmer_plural$ turn £consumer_goods£ §Y$consumer_goods$§! and £minerals£ §Y$minerals$§! into £esc_living_crystal£ §Y$esc_living_crystal$§! and £alloys£ §Y$alloys$§!."
 job_esc_crystal_farmer_drone_effect_desc: "£job_esc_crystal_farmer_drone£ $job_esc_crystal_farmer_drone_plural$ turn £food£ §Y$food$§! and £minerals£ §Y$minerals$§! into £esc_living_crystal£ §Y$esc_living_crystal$§! and £alloys£ §Y$alloys$§!."
-job_esc_crystal_farmer_unit_effect_desc: "$£job_esc_crystal_farmer_unit£ $job_esc_crystal_farmer_unit_plural$ turn £energy£ §Y$energy$§! and £minerals£ §Y$minerals$§! into £esc_living_crystal£ §Y$esc_living_crystal$§! and £alloys£ §Y$alloys$§!."
+job_esc_crystal_farmer_unit_effect_desc: "£job_esc_crystal_farmer_unit£ $job_esc_crystal_farmer_unit_plural$ turn £energy£ §Y$energy$§! and £minerals£ §Y$minerals$§! into £esc_living_crystal£ §Y$esc_living_crystal$§! and £alloys£ §Y$alloys$§!."
 
 nhsc_building_psionic_containment: "Psionic Containment"
 nhsc_building_psionic_containment_desc: "A set of infrastructure to gather and condense psionic energies released by the population of this world."
