@@ -384,7 +384,7 @@ nhsc_tech_psionic_cannon_3_desc: "This psionic weapon is capable of delivering p
 nhsc_tech_psionic_lance_1: "Psionic Lance"
 nhsc_tech_psionic_lance_1_desc: "An energy lance made from focused and refined psionic energy."
 
-nhsc_tech_psionic_lance_2: "Shrowd Piercer"
+nhsc_tech_psionic_lance_2: "Shroud Piercer"
 nhsc_tech_psionic_lance_2_desc: "New, bigger and more precise version of Psionic Lance."
 
 nhsc_tech_psionic_lance_titanic: "Void Ray"
