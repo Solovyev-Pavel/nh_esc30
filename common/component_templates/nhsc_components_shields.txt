@@ -283,12 +283,12 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @shield_s_t9_cost
+			alloys = @shield_l_t9_cost
 			esc_transdimensional_vortex = 4
 		}
 		upkeep = {
-			energy = @shield_s_t9_upkeep_energy
-			alloys = @shield_s_t9_upkeep_alloys
+			energy = @shield_l_t9_upkeep_energy
+			alloys = @shield_l_t9_upkeep_alloys
 		}
 	}
 
