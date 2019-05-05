@@ -127,7 +127,39 @@ nhsc_building_centralresearchbureau = {
 
 	prerequisites = { "nhsc_tech_central_research_bureau" }
 
-	ai_weight = { weight = 10 }
+	ai_weight = {
+		factor = 10
+		# do not build this building if there aren't rare crystals to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+		# do not build this building if there aren't exotic gases to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 1
+				}
+			}
+		}
+		# do not build this building if there aren't volatile motes to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -204,7 +236,19 @@ nhsc_building_culture_nexus = {
 
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
-	ai_weight = { factor = 10 }
+	ai_weight = {
+		factor = 10
+		# do not build this building if there aren't rare crystals to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -280,7 +324,19 @@ nhsc_building_cerebral_node = {
 
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
-	ai_weight = { factor = 10 }
+	ai_weight = {
+		factor = 10
+		# do not build this building if there aren't rare crystals to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -355,7 +411,19 @@ nhsc_building_network_regulator = {
 
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
-	ai_weight = { factor = 10 }
+	ai_weight = {
+		factor = 10
+		# do not build this building if there aren't rare crystals to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -465,7 +533,19 @@ nhsc_building_materials_laboratory = {
 
 	prerequisites = { "nhsc_tech_advanced_materials_lab" }
 
-	ai_weight = { factor = 10 }
+	ai_weight = {
+		factor = 10
+		# do not build this building if there aren't volatile motes to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -575,7 +655,19 @@ nhsc_building_technology_institute = {
 
 	prerequisites = { "nhsc_tech_technology_institute" }
 
-	ai_weight = { factor = 10 }
+	ai_weight = {
+		factor = 10
+		# do not build this building if there aren't exotic gases to pay for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = exotic_gases
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -690,7 +782,19 @@ nhsc_building_watcher = {
 
 	prerequisites = { "nhsc_tech_watcher" }
 
-	ai_weight = { weight = 10 }
+	ai_weight = {
+		weight = 10
+		# do not build this building if there isn't dark matter to for its upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = sr_dark_matter
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -887,7 +991,19 @@ nhsc_building_quantum_node = {
 
 	prerequisites = { "nhsc_tech_quantum_node" }
 
-	ai_weight = { weight = 5 }
+	ai_weight = {
+		weight = 3
+		# do not build this building if there are no rare crystals to pay for its upkeep
+		modifier = {
+			factor = 0.01
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+	}
 }
 
 ############################################################
@@ -1053,7 +1169,43 @@ nhsc_building_zro_distillery = {
 
 	prerequisites = { "nhsc_tech_zro_distilleries" }
 
-	ai_weight = { weight = 1 }
+	ai_resource_production = {
+		sr_zro = 1
+        trigger = { always = yes }
+    }
+
+	ai_weight = {
+		weight = 1
+		# non-psionic empires shouldn't need this building
+		modifier = {
+			factor = 0
+			owner = {
+				NOT = { has_technology = tech_psionic_theory }
+			}
+		}
+		# otherwise, check if we have zro income to increase and resources to afford zro creation
+        modifier =  {
+            factor = 10
+            owner = {
+				has_monthly_income = {
+					resource = sr_zro
+					value < 1
+				}
+				has_monthly_income = {
+					resource = rare_crystals
+					value > 2
+				}
+				has_monthly_income = {
+					resource = volatile_motes
+					value > 2
+				}
+				has_monthly_income = {
+					resource = exotic_gases
+					value > 2
+				}
+            }
+        }
+	}
 }
 
 ############################################################
@@ -1145,5 +1297,32 @@ nhsc_building_dark_matter_facility = {
 
 	prerequisites = { "nhsc_tech_dark_matter_facilities" }
 
-	ai_weight = { weight = 1 }
+	ai_resource_production = {
+		sr_dark_matter = 1
+        trigger = { always = yes }
+    }
+
+	ai_weight = {
+		weight = 1
+		# do not build if there are no motes to pay for the upkeep
+		modifier = {
+			factor = 0.01
+			owner = {
+				has_monthly_income = {
+					resource = volatile_motes
+					value < 2
+				}
+			}
+		}
+		# AI can afford to build the building and has resources to do so
+		modifier = {
+			factor = 10
+			owner = {
+				has_monthly_income = {
+					resource = sr_dark_matter
+					value < 1
+				}
+			}
+		}
+	}
 }

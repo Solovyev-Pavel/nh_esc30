@@ -311,13 +311,24 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 10
+		# among the Fallen/Awakened empires only Spiritualists should use this component
 		modifier = {
-			factor = 0 # among the Fallen/Awakened empires only Spiritualists should use this component
+			factor = 0
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_spiritualist }
+		}
+		# do not use it if there is no psionic charges income
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = esc_psionic_charge
+					value < 1
+				}
+			}
 		}
 	}
 }
@@ -358,11 +369,22 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 10
+		# only normal empires should use this component
 		modifier = {
-			factor = 0 # only normal empires should use this component
+			factor = 0
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+		# do not use it if there is no rare crystals income
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
 			}
 		}
 	}
