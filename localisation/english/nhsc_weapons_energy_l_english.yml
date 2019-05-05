@@ -204,7 +204,7 @@ MEDIUM_NHSC_MINING_LASER_2_DESC: "$NHSC_MINING_LASER_2_DESC$"
 ########################################
 
 NHSC_MINING_LASER_3: "Advanced Plasma Cutter"
-NHSC_MINING_LASER_3_DESC: "An improved version of the NHSC_MINING_LASER_2, featuring increased power, accuracy and range."
+NHSC_MINING_LASER_3_DESC: "An improved version of the $NHSC_MINING_LASER_2$, featuring increased power, accuracy and range."
 SMALL_NHSC_MINING_LASER_3: "Small $NHSC_MINING_LASER_3$"
 SMALL_NHSC_MINING_LASER_3_DESC: "$NHSC_MINING_LASER_3_DESC$"
 MEDIUM_NHSC_MINING_LASER_3: "Medium $NHSC_MINING_LASER_3$"
