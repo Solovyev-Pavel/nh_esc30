@@ -11,6 +11,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_resource_esc_living_crystal_large"
+		textureFile = "gfx/interface/icons/resources/esc_living_crystal_large.dds"
+	}
+
+	spriteType = {
 		name = "GFX_esc_living_crystal_grey"
 		textureFile = "gfx/interface/icons/resources/esc_living_crystal_grey.dds"
 	}

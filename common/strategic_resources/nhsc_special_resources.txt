@@ -34,9 +34,9 @@ esc_gravitic_anomaly = {
 
 ### Living Crystals :: used by crystalline weapons
 esc_living_crystal = {
-    tradable = no
-    market_amount = 0
-    market_price = 0
+    tradable = yes
+    market_amount = 25
+    market_price = 100
     max = 10000
 
     prerequisites = { "nhsc_tech_crystal_cannon_1" }

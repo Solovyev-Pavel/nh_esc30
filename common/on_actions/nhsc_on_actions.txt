@@ -16,6 +16,7 @@ on_monthly_pulse = {
 	events = {
 		nhsc_crisis.1 # checking for crisis conditions
 		nhsc.20 # checking whether conditions for dreadnought computer access are fulfilled
+		nhsc_market.1 # add living crystals to the market
 	}
 }
 
