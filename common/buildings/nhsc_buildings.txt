@@ -1097,7 +1097,7 @@ nhsc_building_reprocessing_plant = {
 
 	prerequisites = { "nhsc_tech_reprocessing_plant" }
 
-	ai_weight = { weight = 1 }
+	ai_weight = { weight = 3 }
 }
 
 ############################################################
@@ -1205,6 +1205,16 @@ nhsc_building_zro_distillery = {
 				}
             }
         }
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = sr_zro
+					value > 1
+				}
+			}
+		}
 	}
 }
 
@@ -1321,6 +1331,16 @@ nhsc_building_dark_matter_facility = {
 				has_monthly_income = {
 					resource = sr_dark_matter
 					value < 1
+				}
+			}
+		}
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = sr_dark_matter
+					value > 1
 				}
 			}
 		}

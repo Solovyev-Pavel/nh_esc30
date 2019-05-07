@@ -97,17 +97,27 @@ nhsc_building_nanite_foundry = {
 	prerequisites = { "nhsc_tech_synthetic_lifeform_studies" }
 
 	ai_weight = {
-        weight = 5
-        modifier =
-        {
-            factor = 4
+		weight = 3
+		# build this building if there is an actual need for it
+        modifier = {
+            factor = 5
             owner = {
                 has_monthly_income = {
                     resource = nanites
-                    value < 3
-                }
+                    value < 2
+				}
             }
         }
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = nanites
+					value > 2
+				}
+			}
+		}
 	}
 
 	ai_resource_production = {
@@ -199,6 +209,16 @@ nhsc_building_psionic_containment = {
 				}
             }
         }
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = esc_psionic_charge
+					value > 2
+				}
+			}
+		}
 	}
 
 	ai_resource_production = {
@@ -304,10 +324,20 @@ nhsc_building_graviton_condenser = {
             owner = {
                 has_monthly_income = {
                     resource = esc_gravitic_anomaly
-                    value < 3
+                    value < 2
 				}
             }
         }
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = esc_gravitic_anomaly
+					value > 2
+				}
+			}
+		}
 	}
 
 	ai_resource_production = {
@@ -403,9 +433,27 @@ building_esc_crystal_farm_1 = {
 	}
 
 	ai_weight = {
-        weight = 5
+        weight = 3
+		# if there is a tier 1 building on some planet and AI has resource and tech to upgrade it - do so instead of building a new tier 1
+		modifier = {
+			factor = 0.001
+			owner = {
+				any_controlled_planet = {
+					num_buildings = {
+						type = building_esc_crystal_farm_1
+						value > 0
+					}
+				}
+				has_monthly_income = {
+					resource = rare_crystals
+					value > 1
+				}
+				has_technology = "nhsc_tech_improved_crystal_farm"
+			}
+		}
+		# if there are no unapgraded buildings and AI needs living crystals - build a farm
         modifier = {
-            factor = 4
+            factor = 5
             owner = {
                 has_monthly_income = {
                     resource = esc_living_crystal
@@ -505,9 +553,20 @@ building_esc_crystal_farm_2 = {
 	}
 
 	ai_weight = {
-        weight = 5
+		weight = 5
+		# do not build if there are no rare crystals to pay for the upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				has_monthly_income = {
+					resource = rare_crystals
+					value < 1
+				}
+			}
+		}
+		# if AI needs living crystals...
         modifier = {
-            factor = 4
+            factor = 10
             owner = {
                 has_monthly_income = {
                     resource = esc_living_crystal
@@ -633,10 +692,20 @@ nhsc_building_dimensional_breach = {
             owner = {
                 has_monthly_income = {
                     resource = esc_transdimensional_vortex
-                    value < 3
+                    value < 2
                 }
             }
         }
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = esc_transdimensional_vortex
+					value > 2
+				}
+			}
+		}
 	}
 
 	ai_resource_production = {
@@ -772,10 +841,20 @@ nhsc_building_enigmatic_coil = {
             owner = {
                 has_monthly_income = {
                     resource = esc_enigmatic_energy
-                    value < 3
+                    value < 2
                 }
             }
-        }
+		}
+		# do not build another building if there is no actual need for it
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = esc_enigmatic_energy
+					value > 2
+				}
+			}
+		}
 	}
 
 	ai_resource_production = {
