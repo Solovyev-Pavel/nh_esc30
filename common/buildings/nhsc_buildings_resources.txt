@@ -879,23 +879,19 @@ nhsc_building_dimensional_breach = {
 	ai_weight = {
 		weight = 0.5 # base weight
 
-		# do not build this building if there is no dark matter to pay for its upkeep
+		# do not build this building if there are no resources to pay for its upkeep
 		modifier = {
 			factor = 0.01
 			owner = {
-				has_monthly_income = {
-					resource = sr_dark_matter
-					value < 2
-				}
-			}
-		}
-		# do not build this building if there are no exotic gases to pay for its upkeep either
-		modifier = {
-			factor = 0.01
-			owner = {
-				has_monthly_income = {
-					resource = exotic_gases
-					value < 1
+				OR = {
+					has_monthly_income = {
+						resource = sr_dark_matter
+						value < 2
+					}
+					has_monthly_income = {
+						resource = exotic_gases
+						value < 1
+					}
 				}
 			}
 		}
@@ -1059,33 +1055,23 @@ nhsc_building_enigmatic_coil = {
 	ai_weight = {
 		weight = 0.5 # base weight
 
-		# do not build this building if there is no dark matter to pay for its upkeep
+		# do not build this building if there are no resources to pay for its upkeep
 		modifier = {
 			factor = 0.01
 			owner = {
-				has_monthly_income = {
-					resource = sr_dark_matter
-					value < 1
-				}
-			}
-		}
-		# do not build this building if there are no exotic gases to pay for its upkeep either
-		modifier = {
-			factor = 0.01
-			owner = {
-				has_monthly_income = {
-					resource = exotic_gases
-					value < 2
-				}
-			}
-		}
-		# do not build this building if there are no exotic gases to pay for its upkeep either
-		modifier = {
-			factor = 0.01
-			owner = {
-				has_monthly_income = {
-					resource = rare_crystals
-					value < 2
+				OR = {
+					has_monthly_income = {
+						resource = sr_dark_matter
+						value < 1
+					}
+					has_monthly_income = {
+						resource = exotic_gases
+						value < 2
+					}
+					has_monthly_income = {
+						resource = rare_crystals
+						value < 2
+					}
 				}
 			}
 		}

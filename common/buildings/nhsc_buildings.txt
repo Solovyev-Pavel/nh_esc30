@@ -893,7 +893,7 @@ nhsc_building_stellar_energy_tower = {
 
 	prerequisites = { "nhsc_tech_stellar_energy_tower" }
 
-	ai_weight = { weight = 5 }
+	ai_weight = { weight = 1 }
 }
 
 ############################################################
@@ -992,7 +992,7 @@ nhsc_building_quantum_node = {
 	prerequisites = { "nhsc_tech_quantum_node" }
 
 	ai_weight = {
-		weight = 3
+		weight = 1
 		# do not build this building if there are no rare crystals to pay for its upkeep
 		modifier = {
 			factor = 0.01
@@ -1097,7 +1097,7 @@ nhsc_building_reprocessing_plant = {
 
 	prerequisites = { "nhsc_tech_reprocessing_plant" }
 
-	ai_weight = { weight = 3 }
+	ai_weight = { weight = 0.75 }
 }
 
 ############################################################
@@ -1174,40 +1174,72 @@ nhsc_building_zro_distillery = {
         trigger = { always = yes }
     }
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete.
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_zro_distillery
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_zro_distillery
+		}
+	}
+	on_built = {
+		owner = {
+			remove_country_flag = nhsc_queued_zro_distillery
+			set_timed_country_flag = { flag = nhsc_just_build_zro_distillery days = 35 }
+		}
+	}
+
 	ai_weight = {
-		weight = 1
+		weight = 0.5 # base weight
+
 		# non-psionic empires shouldn't need this building
 		modifier = {
 			factor = 0
 			owner = {
-				NOT = { has_technology = tech_psionic_theory }
+				NOT = { has_technology = nhsc_tech_psionic_weapons }
+			}
+		}
+		# do not build if there are no resources to pay for building's upkeep
+		modifier = {
+			factor = 0.001
+			owner = {
+				OR = {
+					has_monthly_income = {
+						resource = rare_crystals
+						value < 2
+					}
+					has_monthly_income = {
+						resource = volatile_motes
+						value < 2
+					}
+					has_monthly_income = {
+						resource = exotic_gases
+						value < 2
+					}
+				}
 			}
 		}
 		# otherwise, check if we have zro income to increase and resources to afford zro creation
         modifier =  {
             factor = 10
             owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_zro_distillery
+					has_country_flag = nhsc_just_build_zro_distillery
+				} # to prevent overbuilding due to monthly income not being updated yet
 				has_monthly_income = {
 					resource = sr_zro
 					value < 1
-				}
-				has_monthly_income = {
-					resource = rare_crystals
-					value > 2
-				}
-				has_monthly_income = {
-					resource = volatile_motes
-					value > 2
-				}
-				has_monthly_income = {
-					resource = exotic_gases
-					value > 2
 				}
             }
         }
 		# do not build another building if there is no actual need for it
 		modifier = {
-			factor = 0
+			factor = 0.001
 			owner = {
 				has_monthly_income = {
 					resource = sr_zro
@@ -1310,10 +1342,30 @@ nhsc_building_dark_matter_facility = {
 	ai_resource_production = {
 		sr_dark_matter = 1
         trigger = { always = yes }
-    }
+	}
+
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete.
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_dark_matter_facilities
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_dark_matter_facilities
+		}
+	}
+	on_built = {
+		owner = {
+			remove_country_flag = nhsc_queued_dark_matter_facilities
+			set_timed_country_flag = { flag = nhsc_just_build_dark_matter_facilities days = 35 }
+		}
+	}
 
 	ai_weight = {
-		weight = 1
+		weight = 0.5 # base weight
+
 		# do not build if there are no motes to pay for the upkeep
 		modifier = {
 			factor = 0.01
@@ -1326,8 +1378,12 @@ nhsc_building_dark_matter_facility = {
 		}
 		# AI can afford to build the building and has resources to do so
 		modifier = {
-			factor = 10
+			factor = 20
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_dark_matter_facilities
+					has_country_flag = nhsc_just_build_dark_matter_facilities
+				} # to prevent overbuilding due to monthly income not being updated yet
 				has_monthly_income = {
 					resource = sr_dark_matter
 					value < 1
@@ -1336,7 +1392,7 @@ nhsc_building_dark_matter_facility = {
 		}
 		# do not build another building if there is no actual need for it
 		modifier = {
-			factor = 0
+			factor = 0.001
 			owner = {
 				has_monthly_income = {
 					resource = sr_dark_matter
