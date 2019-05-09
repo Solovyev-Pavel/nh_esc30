@@ -31,3 +31,14 @@ on_ship_destroyed_perp = {
 		nhsc.200 # set a country flag on killing stellarite
 	}
 }
+
+on_building_replaced = {
+	events = {
+		nhsc_buildings.10 # remove AI flag for owning a nanite foundry if the last one within the empire is replaced
+		nhsc_buildings.20 # remove AI flag for owning a psionic containment if the last one within the empire is replaced
+		nhsc_buildings.30 # remove AI flag for owning a graviton condenser if the last one within the empire is replaced
+		nhsc_buildings.40 # remove AI flag for owning a living crystal farm if the last one within the empire is replaced
+		nhsc_buildings.50 # remove AI flag for owning a dimensional breach if the last one within the empire is replaced
+		nhsc_buildings.60 # remove AI flag for owning an enigmatic energy coil if the last one within the empire is replaced
+	}
+}

@@ -10,6 +10,9 @@
 # - Dimensional Breach      : provides jobs for generation of 'transdimensional vortex' resources (Chrono-Vortex Cannon, Corrosive Warhead Torpedo, Arc-en-Ciel cannon, Wave-Force Armor shield)
 # - Enigmatic Energy Coil   : provides jobs for generation of 'enigmatic energy' resources (enigmatic weapons)
 
+@AI_build_additional_building_threshold = 2
+@AI_no_build_additional_building_threshold = 3
+
 ############################################################
 ###                   Nanite Foundry                     ###
 ############################################################
@@ -96,25 +99,66 @@ nhsc_building_nanite_foundry = {
 
 	prerequisites = { "nhsc_tech_synthetic_lifeform_studies" }
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_nanite_foundry # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_nanite_foundry
+		}
+	}
+	on_built = {
+		owner = {
+			set_country_flag = nhsc_has_nanite_foundry
+			remove_country_flag = nhsc_queued_nanite_foundry
+			set_timed_country_flag = { flag = nhsc_just_built_nanite_foundry days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.10 days = 0 }
+		}
+	}
+
 	ai_weight = {
-		weight = 3
-		# build this building if there is an actual need for it
-        modifier = {
-            factor = 5
-            owner = {
-                has_monthly_income = {
-                    resource = nanites
-                    value < 2
-				}
-            }
-        }
-		# do not build another building if there is no actual need for it
+		weight = 0.5 # base weight
+
+		# if AI has just researched the Synthetic Lifeforms Study technology and doesn't have a nanite foundry yet, buff the weight to make AI build it
 		modifier = {
-			factor = 0
+			factor = 100
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_nanite_foundry
+					has_country_flag = nhsc_has_nanite_foundry
+				}
+			}
+		}
+		# AI should build additional building if there is a shortage of this resource (somehow)...
+		modifier = {
+			factor = 20
+			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_nanite_foundry
+					has_country_flag = nhsc_just_built_nanite_foundry
+				} # to prevent overbuilding due to monthly income having not updated just yet
 				has_monthly_income = {
 					resource = nanites
-					value > 2
+					value < @AI_build_additional_building_threshold
+				}
+			}
+		}
+		# AI shouldn't build additional buildings if there is enough income of this resource
+		modifier = {
+			factor = 0.001
+			onwer = {
+				has_monthly_income = {
+					resource = nanites
+					value > @AI_no_build_additional_building_threshold
 				}
 			}
 		}
@@ -187,11 +231,38 @@ nhsc_building_psionic_containment = {
         text = job_esc_channeller_drone_effect_desc
 	}
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_psionic_containment # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_psionic_containment
+		}
+	}
+	on_built = {
+		owner = {
+			set_country_flag = nhsc_has_psionic_containment
+			remove_country_flag = nhsc_queued_psionic_containment
+			set_timed_country_flag = { flag = nhsc_just_built_psionic_containment days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.20 days = 0 }
+		}
+	}
+
 	ai_weight = {
-		weight = 5
+		weight = 0.5 # base weight
+
 		# do not build this building if there is no zro to power it up
 		modifier = {
-			factor = 0.01
+			factor = 0.001
 			owner = {
 				has_monthly_income = {
 					resource = sr_zro
@@ -199,23 +270,37 @@ nhsc_building_psionic_containment = {
 				}
 			}
 		}
-		# AI can afford to run the building and has a reason to do that
-        modifier = {
-            factor = 4
-            owner = {
-                has_monthly_income = {
-                    resource = esc_psionic_charge
-                    value < 3
-				}
-            }
-        }
-		# do not build another building if there is no actual need for it
+		# if AI has just researched the Psionic weapons technology and doesn't have a psionic containment yet, buff the weight to make AI build it
 		modifier = {
-			factor = 0
+			factor = 100
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_psionic_containment
+					has_country_flag = nhsc_has_psionic_containment
+				}
+			}
+		}
+		# AI should build additional building if there is a shortage of this resource (somehow)...
+		modifier = {
+			factor = 20
+			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_psionic_containment
+					has_country_flag = nhsc_just_built_psionic_containment
+				} # to prevent overbuilding due to monthly income having not updated just yet
 				has_monthly_income = {
 					resource = esc_psionic_charge
-					value > 2
+					value < @AI_build_additional_building_threshold
+				}
+			}
+		}
+		# AI shouldn't build additional buildings if there is enough income of this resource
+		modifier = {
+			factor = 0.001
+			onwer = {
+				has_monthly_income = {
+					resource = esc_psionic_charge
+					value > @AI_no_build_additional_building_threshold
 				}
 			}
 		}
@@ -306,8 +391,35 @@ nhsc_building_graviton_condenser = {
 
 	prerequisites = { "nhsc_tech_gravity_weapons" }
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_graviton_condenser # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_graviton_condenser
+		}
+	}
+	on_built = {
+		owner = {
+			set_country_flag = nhsc_has_graviton_condenser
+			remove_country_flag = nhsc_queued_graviton_condenser
+			set_timed_country_flag = { flag = nhsc_just_built_graviton_condenser days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.30 days = 0 }
+		}
+	}
+
 	ai_weight = {
-		weight = 5
+		weight = 0.5 # base weight
+
 		# do not build this building if there is no dark matter to power it up
 		modifier = {
 			factor = 0.01
@@ -318,23 +430,37 @@ nhsc_building_graviton_condenser = {
 				}
 			}
 		}
-		# AI can afford to run the building and has a reason to do that
-        modifier = {
-            factor = 4
-            owner = {
-                has_monthly_income = {
-                    resource = esc_gravitic_anomaly
-                    value < 2
-				}
-            }
-        }
-		# do not build another building if there is no actual need for it
+		# if AI has just researched the Gravitic weapons technology and doesn't have a graviton condenser yet, buff the weight to make AI build it
 		modifier = {
-			factor = 0
+			factor = 100
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_graviton_condenser
+					has_country_flag = nhsc_has_graviton_condenser
+				}
+			}
+		}
+		# AI should build additional building if there is a shortage of this resource (somehow)...
+		modifier = {
+			factor = 20
+			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_graviton_condenser
+					has_country_flag = nhsc_just_built_graviton_condenser
+				} # to prevent overbuilding due to monthly income having not updated just yet
 				has_monthly_income = {
 					resource = esc_gravitic_anomaly
-					value > 2
+					value < @AI_build_additional_building_threshold
+				}
+			}
+		}
+		# AI shouldn't build additional buildings if there is enough income of this resource
+		modifier = {
+			factor = 0.001
+			onwer = {
+				has_monthly_income = {
+					resource = esc_gravitic_anomaly
+					value > @AI_no_build_additional_building_threshold
 				}
 			}
 		}
@@ -432,35 +558,67 @@ building_esc_crystal_farm_1 = {
         text = job_esc_crystal_farmer_unit_effect_desc
 	}
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_living_crystal_farm # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_living_crystal_farm
+		}
+	}
+	on_built = {
+		owner = {
+			set_country_flag = nhsc_has_living_crystal_farm
+			remove_country_flag = nhsc_queued_living_crystal_farm
+			set_timed_country_flag = { flag = nhsc_just_built_living_crystal_farm days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.40 days = 0 }
+		}
+	}
+
 	ai_weight = {
-        weight = 3
-		# if there is a tier 1 building on some planet and AI has resource and tech to upgrade it - do so instead of building a new tier 1
+		weight = 0.5 # base weight
+
+		# if AI has just researched Crystalline weapons and doesn't have a living crystal farm yet, buff the weight to make AI build it
 		modifier = {
-			factor = 0.001
+			factor = 100
 			owner = {
-				any_controlled_planet = {
-					num_buildings = {
-						type = building_esc_crystal_farm_1
-						value > 0
-					}
+				NOR = {
+					has_country_flag = nhsc_queued_living_crystal_farm
+					has_country_flag = nhsc_has_living_crystal_farm
 				}
-				has_monthly_income = {
-					resource = rare_crystals
-					value > 1
-				}
-				has_technology = "nhsc_tech_improved_crystal_farm"
 			}
 		}
-		# if there are no unapgraded buildings and AI needs living crystals - build a farm
-        modifier = {
-            factor = 5
-            owner = {
-                has_monthly_income = {
-                    resource = esc_living_crystal
-                    value < 3
-                }
-            }
-        }
+		# increase priority if there is insufficient income of living crystals
+		modifier = {
+			factor = 10
+			owner = {
+				NOR = {
+					has_country_flag = nhsc_just_built_living_crystal_farm
+					has_country_flag = nhsc_queued_living_crystal_farm
+				} # to prevent overbuilding due to monthly income not being updated yet
+				has_monthly_income = {
+					resource = esc_living_crystal
+					value < 10 # should be safe enough
+				}
+			}
+		}
+		# do not build too many building on one planet
+		modifier = {
+			factor = 0.001
+			OR = {
+				num_buildings = { type = building_esc_crystal_farm_1 value >= 3 }
+				num_buildings = { type = building_esc_crystal_farm_2 value >= 2 }
+			}
+		}
 	}
 
 	ai_resource_production = {
@@ -552,28 +710,56 @@ building_esc_crystal_farm_2 = {
         text = job_esc_crystal_farmer_unit_effect_desc
 	}
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_living_crystal_farm # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_living_crystal_farm
+		}
+	}
+	on_built = {
+		owner = {
+			remove_country_flag = nhsc_queued_living_crystal_farm
+			set_timed_country_flag = { flag = nhsc_just_built_living_crystal_farm days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.40 days = 0 }
+		}
+	}
+
 	ai_weight = {
-		weight = 5
-		# do not build if there are no rare crystals to pay for the upkeep
+		weight = 0.5 # base weight
+
+		# increase priority if there is insufficient income of living crystals
 		modifier = {
-			factor = 0.001
+			factor = 20 # higher than tier 1 farm to increase likelyhood of AI upgrading tier 1 farm instead of building a new one
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_just_built_living_crystal_farm
+					has_country_flag = nhsc_queued_living_crystal_farm
+				} # to prevent overbuilding due to monthly income not being updated yet
 				has_monthly_income = {
-					resource = rare_crystals
-					value < 1
+					resource = esc_living_crystal
+					value < 10 # should be safe enough
 				}
 			}
 		}
-		# if AI needs living crystals...
-        modifier = {
-            factor = 10
-            owner = {
-                has_monthly_income = {
-                    resource = esc_living_crystal
-                    value < 3
-                }
-            }
-        }
+		# do not build too many building on one planet
+		modifier = {
+			factor = 0.001
+			OR = {
+				num_buildings = { type = building_esc_crystal_farm_1 value >= 3 }
+				num_buildings = { type = building_esc_crystal_farm_2 value >= 2 }
+			}
+		}
 	}
 
 	ai_resource_production = {
@@ -664,8 +850,35 @@ nhsc_building_dimensional_breach = {
 
 	prerequisites = { "nhsc_tech_chrono_spatial_weapons" }
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_dimensional_breach # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_dimensional_breach
+		}
+	}
+	on_built = {
+		owner = {
+			set_country_flag = nhsc_has_dimensional_breach
+			remove_country_flag = nhsc_queued_dimensional_breach
+			set_timed_country_flag = { flag = nhsc_just_built_dimensional_breach days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.50 days = 0 }
+		}
+	}
+
 	ai_weight = {
-		weight = 5
+		weight = 0.5 # base weight
+
 		# do not build this building if there is no dark matter to pay for its upkeep
 		modifier = {
 			factor = 0.01
@@ -686,23 +899,37 @@ nhsc_building_dimensional_breach = {
 				}
 			}
 		}
-		# AI can afford the building and has a reason to build it
-        modifier = {
-            factor = 4
-            owner = {
-                has_monthly_income = {
-                    resource = esc_transdimensional_vortex
-                    value < 2
-                }
-            }
-        }
-		# do not build another building if there is no actual need for it
+		# if AI has just researched the Chrono-Spatial Weapons technology and doesn't have a dimensional breach yet, buff the weight to make AI build it
 		modifier = {
-			factor = 0
+			factor = 100
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_dimensional_breach
+					has_country_flag = nhsc_has_dimensional_breach
+				}
+			}
+		}
+		# AI should build additional building if there is a shortage of this resource (somehow)...
+		modifier = {
+			factor = 20
+			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_dimensional_breach
+					has_country_flag = nhsc_just_built_dimensional_breach
+				} # to prevent overbuilding due to monthly income having not updated just yet
 				has_monthly_income = {
 					resource = esc_transdimensional_vortex
-					value > 2
+					value < @AI_build_additional_building_threshold
+				}
+			}
+		}
+		# AI shouldn't build additional buildings if there is enough income of this resource
+		modifier = {
+			factor = 0.001
+			onwer = {
+				has_monthly_income = {
+					resource = esc_transdimensional_vortex
+					value > @AI_no_build_additional_building_threshold
 				}
 			}
 		}
@@ -803,8 +1030,35 @@ nhsc_building_enigmatic_coil = {
 
 	prerequisites = { "nhsc_tech_enigmatic_energy_harvesting" }
 
+	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
+	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
+	# exists somewhere in the empire when a building is demolished
+	on_queued = {
+		owner = {
+			set_country_flag = nhsc_queued_enigmatic_coil # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_unqueued = {
+		owner = {
+			remove_country_flag = nhsc_queued_enigmatic_coil
+		}
+	}
+	on_built = {
+		owner = {
+			set_country_flag = nhsc_has_enigmatic_coil
+			remove_country_flag = nhsc_queued_enigmatic_coil
+			set_timed_country_flag = { flag = nhsc_just_built_enigmatic_coil days = 35 } # set flag so that AI doesn't overbuild the building
+		}
+	}
+	on_destroy = {
+		owner = {
+			country_event = { id = nhsc_buildings.60 days = 0 }
+		}
+	}
+
 	ai_weight = {
-		weight = 5
+		weight = 0.5 # base weight
+
 		# do not build this building if there is no dark matter to pay for its upkeep
 		modifier = {
 			factor = 0.01
@@ -835,23 +1089,37 @@ nhsc_building_enigmatic_coil = {
 				}
 			}
 		}
-		# AI can afford the to build this building and has a reason to do that
-        modifier = {
-            factor = 4
-            owner = {
-                has_monthly_income = {
-                    resource = esc_enigmatic_energy
-                    value < 2
-                }
-            }
-		}
-		# do not build another building if there is no actual need for it
+		# if AI has just researched the Enigmatic Energy Harvesting technology and doesn't have an enigmatic energy coil yet, buff the weight to make AI build it
 		modifier = {
-			factor = 0
+			factor = 100
 			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_enigmatic_coil
+					has_country_flag = nhsc_has_enigmatic_coil
+				}
+			}
+		}
+		# AI should build additional building if there is a shortage of this resource (somehow)...
+		modifier = {
+			factor = 20
+			owner = {
+				NOR = {
+					has_country_flag = nhsc_queued_enigmatic_coil
+					has_country_flag = nhsc_just_built_enigmatic_coil
+				} # to prevent overbuilding due to monthly income having not updated just yet
 				has_monthly_income = {
 					resource = esc_enigmatic_energy
-					value > 2
+					value < @AI_build_additional_building_threshold
+				}
+			}
+		}
+		# AI shouldn't build additional buildings if there is enough income of this resource
+		modifier = {
+			factor = 0.001
+			onwer = {
+				has_monthly_income = {
+					resource = esc_enigmatic_energy
+					value > @AI_no_build_additional_building_threshold
 				}
 			}
 		}
