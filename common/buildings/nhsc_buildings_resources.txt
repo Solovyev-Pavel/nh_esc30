@@ -155,7 +155,7 @@ nhsc_building_nanite_foundry = {
 		# AI shouldn't build additional buildings if there is enough income of this resource
 		modifier = {
 			factor = 0.001
-			onwer = {
+			owner = {
 				has_monthly_income = {
 					resource = nanites
 					value > @AI_no_build_additional_building_threshold
@@ -297,7 +297,7 @@ nhsc_building_psionic_containment = {
 		# AI shouldn't build additional buildings if there is enough income of this resource
 		modifier = {
 			factor = 0.001
-			onwer = {
+			owner = {
 				has_monthly_income = {
 					resource = esc_psionic_charge
 					value > @AI_no_build_additional_building_threshold
@@ -457,7 +457,7 @@ nhsc_building_graviton_condenser = {
 		# AI shouldn't build additional buildings if there is enough income of this resource
 		modifier = {
 			factor = 0.001
-			onwer = {
+			owner = {
 				has_monthly_income = {
 					resource = esc_gravitic_anomaly
 					value > @AI_no_build_additional_building_threshold
@@ -922,7 +922,7 @@ nhsc_building_dimensional_breach = {
 		# AI shouldn't build additional buildings if there is enough income of this resource
 		modifier = {
 			factor = 0.001
-			onwer = {
+			owner = {
 				has_monthly_income = {
 					resource = esc_transdimensional_vortex
 					value > @AI_no_build_additional_building_threshold
@@ -1102,7 +1102,7 @@ nhsc_building_enigmatic_coil = {
 		# AI shouldn't build additional buildings if there is enough income of this resource
 		modifier = {
 			factor = 0.001
-			onwer = {
+			owner = {
 				has_monthly_income = {
 					resource = esc_enigmatic_energy
 					value > @AI_no_build_additional_building_threshold
