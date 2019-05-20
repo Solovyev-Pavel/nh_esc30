@@ -736,11 +736,11 @@ building_esc_crystal_farm_2 = {
 	}
 
 	ai_weight = {
-		weight = 0.5 # base weight
+		weight = 0.75 # base weight - higher than basic building to facilitate upgrades over building in the new slot
 
 		# increase priority if there is insufficient income of living crystals
 		modifier = {
-			factor = 20 # higher than tier 1 farm to increase likelyhood of AI upgrading tier 1 farm instead of building a new one
+			factor = 10
 			owner = {
 				NOR = {
 					has_country_flag = nhsc_just_built_living_crystal_farm
