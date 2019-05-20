@@ -92,7 +92,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -164,7 +164,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -232,7 +232,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -296,7 +296,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -360,7 +360,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -427,7 +427,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -490,7 +490,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -553,7 +553,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -629,7 +629,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -704,7 +704,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -779,7 +779,7 @@ weapon_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100
@@ -856,7 +856,7 @@ strike_craft_component_template = {
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = nanites
 				value < 100

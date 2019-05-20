@@ -1779,7 +1779,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -1815,7 +1815,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -1851,7 +1851,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -1892,7 +1892,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -1928,7 +1928,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -1956,7 +1956,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -1992,7 +1992,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2028,7 +2028,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2064,7 +2064,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2100,7 +2100,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2136,7 +2136,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2172,7 +2172,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2212,7 +2212,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2251,7 +2251,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2288,7 +2288,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2327,7 +2327,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
@@ -2363,7 +2363,7 @@ utility_component_template = {
 		weight = 12
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			fcator = 0
+			factor = 0
 			resource_stockpile_compare = {
 				resource = sr_dark_matter
 				value < 100
