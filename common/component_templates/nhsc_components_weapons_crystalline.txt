@@ -75,6 +75,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -129,6 +148,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -181,6 +219,25 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_xenophile }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
 		}
 	}
 }
@@ -241,6 +298,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -295,6 +371,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -347,6 +442,25 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_xenophile }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
 		}
 	}
 }
@@ -407,6 +521,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -461,6 +594,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -513,6 +665,25 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_xenophile }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
 		}
 	}
 }
@@ -573,6 +744,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -627,6 +817,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -679,6 +888,25 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_xenophile }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
 		}
 	}
 }
@@ -738,6 +966,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -791,6 +1038,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -842,6 +1108,25 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_xenophile }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
 		}
 	}
 }
@@ -907,6 +1192,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 ############################################################
@@ -969,6 +1273,25 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
+		}
+	}
 }
 
 ############################################################
@@ -1029,6 +1352,25 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_xenophile }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_living_crystal
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
+		modifier = {
+			fcator = 0
+			resource_income_compare = {
+				resource = esc_living_crystal
+				value < 10
+			}
 		}
 	}
 }

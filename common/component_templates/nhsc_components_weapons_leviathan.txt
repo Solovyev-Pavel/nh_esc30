@@ -94,6 +94,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_enigmatic_energy
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -149,6 +160,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_enigmatic_energy
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -201,6 +223,17 @@ weapon_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_enigmatic_energy
+				value < 100
 			}
 		}
 	}
@@ -264,6 +297,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_enigmatic_energy
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -321,6 +365,17 @@ weapon_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_enigmatic_energy
+				value < 100
 			}
 		}
 	}
@@ -389,6 +444,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -449,6 +515,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -506,6 +583,17 @@ weapon_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
 			}
 		}
 	}
@@ -627,6 +715,17 @@ weapon_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
 			}
 		}
 	}

@@ -105,6 +105,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "SMALL_NHSC_LASER_7"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -147,6 +158,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "MEDIUM_NHSC_LASER_7"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -189,6 +211,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "LARGE_NHSC_LASER_7"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -234,6 +267,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_aurora_laser_small"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -275,6 +319,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_aurora_laser_medium"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -316,6 +371,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_aurora_laser_large"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -362,6 +428,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "SMALL_NHSC_PLASMA_5"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -404,6 +481,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "MEDIUM_NHSC_PLASMA_5"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -446,6 +534,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	upgrades_to = "LARGE_NHSC_PLASMA_5"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -491,6 +590,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_plasma_5_small"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -532,6 +642,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_plasma_5_medium"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -573,6 +694,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_plasma_5_large"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -619,6 +751,17 @@ weapon_component_template = {
 	upgrades_to = "SMALL_NHSC_DISRUPTOR_5"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -661,6 +804,17 @@ weapon_component_template = {
 	upgrades_to = "MEDIUM_NHSC_DISRUPTOR_5"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -706,6 +860,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_disruptor_5_small"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -747,6 +912,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_disruptor_5_medium"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -793,6 +969,17 @@ weapon_component_template = {
 	upgrades_to = "NHSC_ENERGY_TORPEDO_4"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -839,6 +1026,24 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_energy_torpedoes_4"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_shield weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -894,6 +1099,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -942,6 +1158,17 @@ weapon_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
 			}
 		}
 	}
@@ -996,6 +1223,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -1041,6 +1279,17 @@ weapon_component_template = {
 	projectile_gfx = "infrared_laser_s"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################

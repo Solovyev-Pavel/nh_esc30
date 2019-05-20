@@ -101,6 +101,17 @@ weapon_component_template = {
 	upgrades_to = "NHSC_MISSILE_7"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -152,6 +163,17 @@ weapon_component_template = {
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -203,6 +225,17 @@ weapon_component_template = {
 	upgrades_to = "SMALL_NHSC_PLASMA_MISSILE_2"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -250,6 +283,17 @@ weapon_component_template = {
 	upgrades_to = "MEDIUM_NHSC_PLASMA_MISSILE_2"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -297,6 +341,17 @@ weapon_component_template = {
 	upgrades_to = "LARGE_NHSC_PLASMA_MISSILE_2"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -348,6 +403,17 @@ weapon_component_template = {
 	upgrades_to = "SMALL_NHSC_PLASMA_MISSILE_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -395,6 +461,17 @@ weapon_component_template = {
 	upgrades_to = "MEDIUM_NHSC_PLASMA_MISSILE_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -442,6 +519,17 @@ weapon_component_template = {
 	upgrades_to = "LARGE_NHSC_PLASMA_MISSILE_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -492,6 +580,17 @@ weapon_component_template = {
 	projectile_gfx = "small_nhsc_plasma_missile_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -538,6 +637,17 @@ weapon_component_template = {
 	projectile_gfx = "medium_nhsc_plasma_missile_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -584,6 +694,17 @@ weapon_component_template = {
 	projectile_gfx = "large_nhsc_plasma_missile_3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -634,6 +755,17 @@ weapon_component_template = {
 	upgrades_to = "NHSC_TORPEDO_5"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -684,6 +816,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_torpedoes_5"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -745,6 +888,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -796,6 +950,17 @@ weapon_component_template = {
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
 	upgrades_to = "NHSC_SWARMER_MISSILES_4"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -846,6 +1011,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_swarmer_missiles_4"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -900,6 +1076,17 @@ weapon_component_template = {
 	upgrades_to = "NHSC_XMISSILE_2"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -953,6 +1140,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_xmissile2"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -1006,4 +1204,15 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_xmissile3"
 	tags = { weapon_type_explosive weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }

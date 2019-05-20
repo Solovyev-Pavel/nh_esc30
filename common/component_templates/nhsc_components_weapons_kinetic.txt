@@ -96,6 +96,17 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	upgrades_to = "SMALL_NHSC_MASS_DRIVER_7"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -138,6 +149,17 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	upgrades_to = "MEDIUM_NHSC_MASS_DRIVER_7"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -180,6 +202,17 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	upgrades_to = "LARGE_NHSC_MASS_DRIVER_7"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -225,6 +258,17 @@ weapon_component_template = {
 	projectile_gfx = "gauss_cannon_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -266,6 +310,17 @@ weapon_component_template = {
 	projectile_gfx = "gauss_cannon_m"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -307,6 +362,17 @@ weapon_component_template = {
 	projectile_gfx = "gauss_cannon_l"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -353,6 +419,17 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	upgrades_to = "NHSC_AUTOCANNON_5"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -398,6 +475,17 @@ weapon_component_template = {
 	projectile_gfx = "stormfire_auto_cannons_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -444,6 +532,17 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
 	upgrades_to = "NHSC_ARTILLERY_4"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -489,6 +588,17 @@ weapon_component_template = {
 	projectile_gfx = "adv_kinetic_artillery"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -540,6 +650,17 @@ weapon_component_template = {
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
 	upgrades_to = "NHSC_MASS_ACCELERATOR_4"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -590,6 +711,17 @@ weapon_component_template = {
 	projectile_gfx = "adv_kinetic_artillery"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -640,6 +772,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_mhd_cannon"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################

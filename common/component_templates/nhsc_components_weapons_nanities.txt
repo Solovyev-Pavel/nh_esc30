@@ -88,6 +88,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -149,6 +160,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -206,6 +228,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -259,6 +292,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -310,6 +354,17 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
 		}
 	}
 }
@@ -368,6 +423,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -420,6 +486,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 weapon_component_template = {
@@ -470,6 +547,17 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
 		}
 	}
 }
@@ -537,6 +625,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -599,6 +698,17 @@ weapon_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
 		}
 	}
 }
@@ -665,6 +775,17 @@ weapon_component_template = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -729,6 +850,17 @@ strike_craft_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = nanites
+				value < 100
+			}
 		}
 	}
 }

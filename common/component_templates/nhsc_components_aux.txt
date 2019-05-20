@@ -174,6 +174,22 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 10
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
 	}
 }
 
@@ -208,6 +224,22 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 10
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
 	}
 }
 
@@ -244,6 +276,14 @@ utility_component_template = {
 			factor = 2.0
 			is_preferred_weapons = weapon_type_energy
 		}
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
 	}
 }
 
@@ -276,6 +316,14 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 10
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
 	}
 }
 
@@ -320,7 +368,7 @@ utility_component_template = {
 			}
 			NOT = { has_ethic = ethic_fanatic_spiritualist }
 		}
-		# do not use it if there is no psionic charges income
+		# AI shouldn't use it if there is no psionic charges income
 		modifier = {
 			factor = 0
 			owner = {
@@ -328,6 +376,14 @@ utility_component_template = {
 					resource = esc_psionic_charge
 					value < 1
 				}
+			}
+		}
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_psionic_charge
+				value < 100
 			}
 		}
 	}
@@ -377,7 +433,7 @@ utility_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 		}
-		# do not use it if there is no rare crystals income
+		# AI shouldn't use it if there is no rare crystals income
 		modifier = {
 			factor = 0
 			owner = {
@@ -385,6 +441,14 @@ utility_component_template = {
 					resource = rare_crystals
 					value < 1
 				}
+			}
+		}
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
 			}
 		}
 	}

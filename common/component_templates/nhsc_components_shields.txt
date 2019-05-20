@@ -42,6 +42,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_shields_1" }
 	component_set = "NHSC_ADV_SHIELD_1"
 	upgrades_to = "SMALL_NHSC_ADV_SHIELD_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -71,6 +82,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_shields_1" }
 	component_set = "NHSC_ADV_SHIELD_1"
 	upgrades_to = "MEDIUM_NHSC_ADV_SHIELD_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -100,6 +122,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_shields_1" }
 	component_set = "NHSC_ADV_SHIELD_1"
 	upgrades_to = "LARGE_NHSC_ADV_SHIELD_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -133,6 +166,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_shields_2" }
 	component_set = "NHSC_ADV_SHIELD_2"
 	upgrades_to = "SMALL_NHSC_WFARMOR_SHIELD"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -162,6 +206,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_shields_2" }
 	component_set = "NHSC_ADV_SHIELD_2"
 	upgrades_to = "MEDIUM_NHSC_WFARMOR_SHIELD"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -191,6 +246,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_shields_2" }
 	component_set = "NHSC_ADV_SHIELD_2"
 	upgrades_to = "LARGE_NHSC_WFARMOR_SHIELD"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -233,6 +299,17 @@ utility_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -268,6 +345,17 @@ utility_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
 			}
 		}
 	}
@@ -309,6 +397,17 @@ utility_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -342,6 +441,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_shields_cyclonic_1" }
 	component_set = "NHSC_CYCLONIC_SHIELD_1"
 	upgrades_to = "SMALL_NHSC_CYCLONIC_SHIELD_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -371,6 +481,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_shields_cyclonic_1" }
 	component_set = "NHSC_CYCLONIC_SHIELD_1"
 	upgrades_to = "MEDIUM_NHSC_CYCLONIC_SHIELD_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -400,6 +521,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_shields_cyclonic_1" }
 	component_set = "NHSC_CYCLONIC_SHIELD_1"
 	upgrades_to = "LARGE_NHSC_CYCLONIC_SHIELD_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -433,6 +565,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_shields_cyclonic_2" }
 	component_set = "NHSC_CYCLONIC_SHIELD_2"
 	upgrades_to = "SMALL_NHSC_CYCLONIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -462,6 +605,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_shields_cyclonic_2" }
 	component_set = "NHSC_CYCLONIC_SHIELD_2"
 	upgrades_to = "MEDIUM_NHSC_CYCLONIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -491,6 +645,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_shields_cyclonic_2" }
 	component_set = "NHSC_CYCLONIC_SHIELD_2"
 	upgrades_to = "LARGE_NHSC_CYCLONIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -523,6 +688,17 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_shields_cyclonic_3" }
 	component_set = "NHSC_CYCLONIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -551,6 +727,17 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_shields_cyclonic_3" }
 	component_set = "NHSC_CYCLONIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -579,6 +766,17 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_shields_cyclonic_3" }
 	component_set = "NHSC_CYCLONIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -621,6 +819,17 @@ utility_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -659,6 +868,17 @@ utility_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -694,6 +914,17 @@ utility_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
 			}
 		}
 	}
@@ -740,6 +971,17 @@ utility_component_template = {
 			NOT = { has_ethic = ethic_fanatic_spiritualist }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_psionic_charge
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -779,6 +1021,17 @@ utility_component_template = {
 			NOT = { has_ethic = ethic_fanatic_spiritualist }
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_psionic_charge
+				value < 100
+			}
+		}
+	}
 }
 
 utility_component_template = {
@@ -816,6 +1069,17 @@ utility_component_template = {
 				is_country_type = awakened_fallen_empire
 			}
 			NOT = { has_ethic = ethic_fanatic_spiritualist }
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_psionic_charge
+				value < 100
+			}
 		}
 	}
 }

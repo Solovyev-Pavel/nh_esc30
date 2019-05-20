@@ -86,6 +86,17 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 	upgrades_to = "NHSC_PARTICLE_LANCE_4"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -136,6 +147,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_hyper_tachyon_lance"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -186,6 +208,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_destruction_lance"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -237,6 +270,17 @@ weapon_component_template = {
 	upgrades_to = "NHSC_ARC_EMITTER_4"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -287,6 +331,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_arc_emitter_3"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -337,6 +392,17 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_arc_emitter_4"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -389,6 +455,24 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 	upgrades_to = "NHSC_WAVEMOTIONGUN_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -440,6 +524,24 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_wavemotiongun_2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -491,6 +593,24 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_wavemotiongun_3"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = rare_crystals
+				value < 100
+			}
+		}
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = exotic_gases
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -551,6 +671,17 @@ weapon_component_template = {
 			}
 		}
 	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
+			}
+		}
+	}
 }
 
 ############################################################
@@ -608,6 +739,17 @@ weapon_component_template = {
 			OR = {
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			fcator = 0
+			resource_stockpile_compare = {
+				resource = esc_transdimensional_vortex
+				value < 100
 			}
 		}
 	}
