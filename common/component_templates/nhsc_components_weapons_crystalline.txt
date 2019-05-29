@@ -82,7 +82,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -155,7 +155,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -228,7 +228,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -305,7 +305,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -378,7 +378,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -451,7 +451,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -528,7 +528,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -601,7 +601,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -674,7 +674,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -751,7 +751,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -824,7 +824,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -897,7 +897,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -973,7 +973,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -1045,7 +1045,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -1117,7 +1117,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -1199,7 +1199,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -1280,7 +1280,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
@@ -1361,7 +1361,7 @@ weapon_component_template = {
 			factor = 0
 			resource_stockpile_compare = {
 				resource = esc_living_crystal
-				value < 100
+				value < 500
 			}
 		}
 		### AI shouldn't use this component if it doesn't have high-enough income to manage the upkeep cost
