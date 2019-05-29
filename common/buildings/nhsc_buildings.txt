@@ -1652,12 +1652,6 @@ nhsc_building_magmaminer_2 = {
         trigger = { always = yes }
 	}
 
-	on_built = {
-		remove_planet_flag = nhsc_queued_first_mantle_miner_2
-		remove_planet_flag = nhsc_had_borehole_1
-		# after this, it is impossible to remove the blocker without cheats
-	}
-
 	### AI shouldn't build this building...
 	ai_weight = { weight = 0.001 }
 }
