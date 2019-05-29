@@ -13,6 +13,8 @@
 # - Quantum Computation Node		: special lab building, provides scientist jobs and boosts local science production. requires resolved Infinity Machine event chain
 # - Reprocessing Plant				: special building that provides 'resource reprocessing manager' jobs that provide alloys and consumer goods. requires empire to have killed Scavenger Bot
 # - Zro Distillery					: special building for Zro production
+# - Mantle Mining Facility			: special ecumenopolis mining building
+# - Imporved Mantle Mining Facility	: improved version of the Mantle Mining Facility
 
 ############################################################
 ###                Central Research Bureau               ###
@@ -1401,4 +1403,261 @@ nhsc_building_dark_matter_facility = {
 			}
 		}
 	}
+}
+
+############################################################
+###                Mantle Mining Facility                ###
+############################################################
+
+nhsc_building_magmaminer_1 = {
+	base_buildtime = 1080
+	base_cap_amount = 1
+	icon = nhsc_building_magmaminer_1
+	category = resource
+
+	potential = {
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ecocity # planet diversity compatibility
+			# is_planet_class = pc_bioforge
+			# is_planet_class = pc_machine_factory
+		}
+		OR = {
+			free_district_slots > 4 # need at least 5
+			has_deposit = d_nhsc_large_borehole_1
+		}
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
+
+	allow = { has_major_upgraded_capital = yes }
+
+	resources = {
+        category = planet_buildings
+        cost = {
+			minerals = 1500
+			alloys = 250
+			volatile_motes = 50
+			rare_crystals = 50
+		}
+		produces = {
+			minerals = 20 # + 80 - 120 via jobs
+		}
+        upkeep = {
+			energy = 15
+			alloys = 10
+        }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_esc_planetary_core_miner_add = 2
+			job_esc_borehole_maintainer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_esc_planetary_core_miner_drone_add = 2
+			job_esc_borehole_maintainer_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_esc_planetary_core_miner_unit_add = 2
+			job_esc_borehole_maintainer_unit_add = 1
+		}
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_regular_empire = yes }
+        }
+        text = job_esc_planetary_core_miner_effect_desc
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_hive_empire = yes }
+        }
+        text = job_esc_planetary_core_miner_drone_effect_desc
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_machine_empire = yes }
+        }
+        text = job_esc_planetary_core_miner_unit_effect_desc
+	}
+
+	prerequisites = { "nhsc_tech_mantle_mining_1" }
+
+	### give AI extra minerals for free
+	ai_resource_production = {
+		minerals = 20
+        trigger = { always = yes }
+	}
+
+	on_queued = {
+		if = {
+			limit = {
+				NOR = {
+					has_deposit = d_nhsc_large_borehole_1
+					has_deposit = d_nhsc_large_borehole_2
+				}
+			}
+			set_planet_flag = nhsc_queued_first_mantle_miner
+			add_deposit = d_nhsc_large_borehole_1
+		}
+	}
+
+	on_unqueued = {
+		if = {
+			limit = { has_planet_flag = nhsc_queued_first_mantle_miner }
+			remove_planet_flag = nhsc_queued_first_mantle_miner
+			random_deposit = {
+				limit = { is_deposit_type = d_nhsc_large_borehole_1 }
+				remove_deposit = d_nhsc_large_borehole_1
+			}
+		}
+	}
+
+	on_built = {
+		remove_planet_flag = nhsc_queued_first_mantle_miner
+		# after this, it is impossible to remove the blocker without cheats
+	}
+
+	upgrades = { nhsc_building_magmaminer_2 }
+
+	### AI shouldn't build this building...
+	ai_weight = { weight = 0 }
+}
+
+############################################################
+###           Improved Mantle Mining Facility            ###
+############################################################
+
+nhsc_building_magmaminer_2 = {
+	base_buildtime = 720
+	can_build = no # upgrade
+	icon = nhsc_building_magmaminer_2
+	category = resource
+
+	potential = {
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ecocity # planet diversity compatibility
+			# is_planet_class = pc_bioforge
+			# is_planet_class = pc_machine_factory
+		}
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
+
+	allow = { has_major_upgraded_capital = yes }
+
+	resources = {
+        category = planet_buildings
+        cost = {
+			minerals = 1000
+			alloys = 250
+			volatile_motes = 50
+			rare_crystals = 50
+		}
+		produces = {
+			minerals = 40 # + 200 - 300 via jobs
+		}
+        upkeep = {
+			energy = 30
+			alloys = 20
+        }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_esc_planetary_core_miner_add = 5
+			job_esc_borehole_maintainer_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_esc_planetary_core_miner_drone_add = 5
+			job_esc_borehole_maintainer_drone_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_esc_planetary_core_miner_unit_add = 5
+			job_esc_borehole_maintainer_unit_add = 2
+		}
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_regular_empire = yes }
+        }
+        text = job_esc_planetary_core_miner_effect_desc
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_hive_empire = yes }
+        }
+        text = job_esc_planetary_core_miner_drone_effect_desc
+	}
+
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_machine_empire = yes }
+        }
+        text = job_esc_planetary_core_miner_unit_effect_desc
+	}
+
+	prerequisites = { "nhsc_tech_mantle_mining_2" }
+
+	### give AI extra minerals for free
+	ai_resource_production = {
+		minerals = 40
+        trigger = { always = yes }
+	}
+
+	on_built = {
+		remove_planet_flag = nhsc_queued_first_mantle_miner_2
+		remove_planet_flag = nhsc_had_borehole_1
+		# after this, it is impossible to remove the blocker without cheats
+	}
+
+	### AI shouldn't build this building...
+	ai_weight = { weight = 0.001 }
 }

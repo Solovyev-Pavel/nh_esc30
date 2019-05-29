@@ -9,6 +9,8 @@
 # ── Dark Matter Drawing Facilities	: unlocks building for dark matter production
 # ── Crystalline Valuables			: crystal farmers also produce trade value (normal empires only)
 # ── Rare Crystals Cultivation		: crystal farmers also produce rare crystals
+# ┬─ Planetary Core Mining			: unlocks special mining building for ecumenopolis
+# └─ Impr. Planetary Core Mining	: unlocks andvanced version of the Mantle Mining Facility
 
 ############################################################
 ##                Stellar Evenrgy Tower                   ##
@@ -331,6 +333,145 @@ nhsc_tech_rare_crystals_cultivation = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+############################################################
+##                 Planetary Core Mining                  ##
+############################################################
+
+nhsc_tech_mantle_mining_1 = {
+	area = engineering
+	category = { materials }
+	cost = @tier3cost3
+	weight = @tier4weight2
+	tier = 4
+	prerequisites = { "tech_mega_engineering" "nhsc_tech_advanced_materials" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_planet = {
+					OR = {
+						is_planet_class = pc_city
+						is_planet_class = pc_ecocity # planet diversity compatibility
+						# is_planet_class = pc_bioforge
+						# is_planet_class = pc_machine_factory
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_planet = {
+					OR = {
+						is_planet_class = pc_city
+						is_planet_class = pc_ecocity # planet diversity compatibility
+						# is_planet_class = pc_bioforge
+						# is_planet_class = pc_machine_factory
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+}
+
+############################################################
+##             Improved Planetary Core Mining             ##
+############################################################
+
+nhsc_tech_mantle_mining_2 = {
+	area = engineering
+	category = { materials }
+	cost = @tier4cost2
+	weight = @tier4weight2
+	tier = 4
+	prerequisites = { "nhsc_tech_mantle_mining_2" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+		any_owned_planet = {
+			OR = {
+				is_planet_class = pc_city
+				is_planet_class = pc_ecocity # planet diversity compatibility
+				# is_planet_class = pc_bioforge
+				# is_planet_class = pc_machine_factory
+			}
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2.5
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
 			}
 		}
 	}

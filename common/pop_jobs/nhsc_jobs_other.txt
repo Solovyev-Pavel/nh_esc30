@@ -17,6 +17,13 @@
 #   - Dark Matter Shaper				  [normal empire]
 #   - Dark Matter Shaping Drone			  [organic hive mind]
 #   - Dark Matter Shaping Unit			  [machine intelligence]
+# >> Mantle Mining Facility
+#	- Planetary Core Miner				  [normal empire]
+#	- Planetary Core Miner Drone		  [organic hive mind]
+#   - Planetary Core Miner Unit			  [machine intelligence]
+#	- Borehole Maintainer				  [normal empire]
+#	- Borehole Maintenance Drone		  [organic hive mind]
+#	- Borehole Maintenance Unit			  [machine intelligence]
 
 ############################################################
 ###               Reprocessing Plant Jobs                ###
@@ -514,6 +521,370 @@ esc_dark_matter_shaper_unit = {
 		modifier = {
 			factor = 1.5
 			has_job = esc_dark_matter_shaper_unit
+		}
+	}
+}
+
+############################################################
+###              Mantle Mining Facility Jobs             ###
+############################################################
+
+esc_planetary_core_miner = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = nhsc_building_magmaminer_2
+	clothes_texture_index = 2
+
+	possible = {
+        complex_specialist_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
+		owner = {  is_gestalt = no }
+    }
+
+    resources = {
+        category = planet_jobs
+        upkeep = {
+			food = 5
+			consumer_goods = 5
+			energy = 5
+		}
+		### production goes up as empire gains technologies
+        produces = {
+			minerals = 40
+			engineering_research = 5
+		}
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_2 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_3 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = {
+					OR = {
+						has_building = building_mineral_purification_plant
+						has_building = building_mineral_purification_hub
+					}
+				}
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = {
+					has_building = building_production_center
+				}
+			}
+			minerals = 5
+		}
+		### AlphaMod stuff
+		produces = {
+			trigger = {
+				has_global_flag = gf_alphamod_activated
+			}
+			sr_actinides = 1
+			sr_precious_stones = 1
+			sr_rare_metals = 1
+		}
+	}
+
+    weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_strong
+			has_trait = trait_very_strong
+			has_trait = trait_industrious
+			has_trait = trait_resilient
+		}
+		modifier = {
+			factor = 1.5
+			has_job = esc_planetary_core_miner
+		}
+	}
+}
+
+esc_planetary_core_miner_drone = {
+	category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_dark_matter_facility
+
+	possible = {
+        drone_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
+		owner = {  is_hive_empire = yes }
+	}
+
+    resources = {
+        category = planet_jobs
+        upkeep = {
+			food = 12
+			energy = 5
+		}
+		### production goes up as empire gains technologies
+        produces = {
+			minerals = 40
+			engineering_research = 5
+		}
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_2 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_3 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = {
+					OR = {
+						has_building = building_mineral_purification_plant
+						has_building = building_mineral_purification_hub
+					}
+				}
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = {
+					has_building = building_production_center
+				}
+			}
+			minerals = 5
+		}
+		### AlphaMod stuff
+		produces = {
+			trigger = {
+				has_global_flag = gf_alphamod_activated
+			}
+			sr_actinides = 1
+			sr_precious_stones = 1
+			sr_rare_metals = 1
+		}
+	}
+
+    weight = {
+		weight = @complex_drone_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_strong
+			has_trait = trait_very_strong
+			has_trait = trait_industrious
+			has_trait = trait_resilient
+		}
+		modifier = {
+			factor = 1.5
+			has_job = esc_planetary_core_miner_drone
+		}
+	}
+}
+
+esc_planetary_core_miner_unit = {
+	category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_dark_matter_facility
+
+	possible = {
+        drone_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
+		owner = {  is_machine_empire = yes }
+	}
+
+    resources = {
+        category = planet_jobs
+        upkeep = {
+			energy = 12
+			alloys = 3
+		}
+		### production goes up as empire gains technologies
+        produces = {
+			minerals = 40
+			engineering_research = 5
+		}
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_2 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_3 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = {
+					OR = {
+						has_building = building_mineral_purification_plant
+						has_building = building_mineral_purification_hub
+					}
+				}
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = {
+					has_building = building_production_center
+				}
+			}
+			minerals = 5
+		}
+		### AlphaMod stuff
+		produces = {
+			trigger = {
+				has_global_flag = gf_alphamod_activated
+			}
+			sr_actinides = 1
+			sr_precious_stones = 1
+			sr_rare_metals = 1
+		}
+	}
+
+    weight = {
+		weight = @complex_drone_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_strong
+			has_trait = trait_very_strong
+			has_trait = trait_industrious
+			has_trait = trait_resilient
+		}
+		modifier = {
+			factor = 1.5
+			has_job = esc_planetary_core_miner_unit
+		}
+	}
+}
+
+esc_borehole_maintainer = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = nhsc_building_magmaminer_2
+	clothes_texture_index = 2
+
+	possible = {
+        complex_specialist_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
+		owner = {  is_gestalt = no }
+    }
+
+ 	resources = {
+		category = planet_miners
+		produces = {
+			rare_crystals = 1
+			engineering_research = 8
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 1.5
+			alloys = 1
+		}
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 1.5
+			has_job = esc_borehole_maintainer
+		}
+	}
+}
+
+esc_borehole_maintainer_drone = {
+	category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_dark_matter_facility
+
+	possible = {
+        drone_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
+		owner = {  is_hive_empire = yes }
+	}
+
+ 	resources = {
+		category = planet_miners
+		produces = {
+			rare_crystals = 1
+			engineering_research = 8
+		}
+		upkeep = {
+			food = 5
+			alloys = 1
+		}
+	}
+
+	weight = {
+		weight = @complex_drone_job_weight
+		modifier = {
+			factor = 1.5
+			has_job = esc_borehole_maintainer_drone
+		}
+	}
+}
+
+esc_borehole_maintainer_unit = {
+	category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = nhsc_building_dark_matter_facility
+
+	possible = {
+        drone_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
+		owner = {  is_machine_empire = yes }
+	}
+
+ 	resources = {
+		category = planet_miners
+		produces = {
+			rare_crystals = 1
+			engineering_research = 8
+		}
+		upkeep = {
+			energy = 5
+			alloys = 1
+		}
+	}
+
+	weight = {
+		weight = @complex_drone_job_weight
+		modifier = {
+			factor = 1.5
+			has_job = esc_borehole_maintainer_unit
 		}
 	}
 }

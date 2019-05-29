@@ -210,6 +210,45 @@ job_esc_dark_matter_shaper_unit_plural: "Dark Matter Shaping Units"
 mod_job_esc_dark_matter_shaper_unit_add: "$job_esc_dark_matter_shaper_unit$"
 job_esc_dark_matter_shaper_unit_desc: "$job_esc_dark_matter_shaper_drone_desc$"
 
+job_esc_planetary_core_miner: "Planetary Core Miner"
+job_esc_planetary_core_miner_plural: "Planetary Core Miners"
+mod_job_esc_planetary_core_miner_add: "$job_esc_planetary_core_miner$"
+job_esc_planetary_core_miner_desc: "Miners that extract valuable resources from planetary mantle and core."
+job_esc_planetary_core_miner_drone: "Planetary Core Mining Drone"
+job_esc_planetary_core_miner_drone_plural: "Planetary Core Mining Drones"
+mod_job_esc_planetary_core_miner_drone_add: "$job_esc_planetary_core_miner_drone$"
+job_esc_planetary_core_miner_drone_desc: "Mining drones that extract valuable resources from the planetary mantle and core."
+job_esc_planetary_core_miner_unit: "Planetary Core Mining Units"
+job_esc_planetary_core_miner_unit_plural: "Planetary Core Mining Units"
+mod_job_esc_planetary_core_miner_unit_add: "$job_esc_planetary_core_miner_unit$"
+job_esc_planetary_core_miner_unit_desc: "$job_esc_planetary_core_miner_drone_desc$"
+
+job_esc_borehole_maintainer: "Borehole Maintainer"
+job_esc_borehole_maintainer_plural: "Borehole Maintainers"
+mod_job_esc_borehole_maintainer_add: "$job_esc_borehole_maintainer$"
+job_esc_borehole_maintainer_desc: "Specialists that ensure the Mantle Mining Facility's borehole is in proper condition. They also pick additional resources brought to surface from the planet's core."
+job_esc_borehole_maintainer_drone: "Borehole Maintenance Drone"
+job_esc_borehole_maintainer_drone_plural: "Borehole Maintenance Drones"
+mod_job_esc_borehole_maintainer_drone_add: "$job_esc_borehole_maintainer_drone$"
+job_esc_borehole_maintainer_drone_desc: "Complex Drones that ensure the Mantle Mining Facility's borehole is in proper condition. They also pick additional resources brought to surface from the planet's core."
+job_esc_borehole_maintainer_unit: "Borehole Maintenance Unit"
+job_esc_borehole_maintainer_unit_plural: "Borehole Maintenance Units"
+mod_job_esc_borehole_maintainer_unit_add: "$job_esc_borehole_maintainer_unit$"
+job_esc_borehole_maintainer_unit_desc: "$job_esc_borehole_maintainer_drone_desc$"
+
+########################################
+###    Deposits and Tile Blockers    ###
+########################################
+
+d_nhsc_large_borehole_1: "Abyssal Borehole"
+d_nhsc_large_borehole_1_desc: "An extermely huge borehole created in order to extract resources from the planet's mantle and core."
+d_nhsc_large_borehole_2: "$d_nhsc_large_borehole_1$ Expansion"
+d_nhsc_large_borehole_2_desc: "$d_nhsc_large_borehole_1_desc$"
+
+########################################
+###              Edicts              ###
+########################################
+
 edict_nhsc_edict_living_crystal_trading: "Living Crystals Trading"
 edict_nhsc_edict_living_crystal_trading_desc: "By releasing large amounts of gemstone-grade-quality living crystals to the civilian market, we can stimulate production of luxury items across the empire."
 
@@ -240,10 +279,6 @@ edict_nhsc_edict_enigmatic_energy_boost_desc: "By releasing excess Enigmatic Ene
 edict_nhsc_edict_transdimensional_research: "Transdimensional Research"
 edict_nhsc_edict_transdimensional_research_desc: "By giving our research departments access to the Transdimensional Vortexes, we can significantly improve their efficiency."
 
-########################################
-###              Edicts              ###
-########################################
-
 edict_nhsc_mega_construction: "Mega-construction Projects"
 edict_nhsc_mega_construction_desc: "By redirecting workforce towards where it is needed most, we can achieve incredible results... at a cost."
 
@@ -261,3 +296,22 @@ edict_nhsc_mod_control_edict2_desc: "$edict_nhsc_mod_control_edict_desc$"
 
 sm_nhsc_starbase_reactor: "Starfortress Reactor"
 sm_nhsc_starbase_reactor_desc: "A massive zero-point reactor capable of supporting gigantic space installations."
+
+########################################
+###            Event stuff           ###
+########################################
+
+nhsc_buildings.111.name: "Mineral Riches"
+nhsc_buildings.111.desc: "Miners on §Y[Root.GetName]§! report that an exceptionally valuable cluster of minerals had been extracted from the planet's mantle."
+
+nhsc_buildings.112.name: "Molten Alloys"
+nhsc_buildings.112.desc: "Miners on §Y[Root.GetName]§! report that a large amount of molten alloys had been recently extracted from the planet's core, alongside with the usual minerals."
+
+nhsc_buildings.113.name: "Crystalline Gift"
+nhsc_buildings.113.desc: "Miners on §Y[Root.GetName]§! report that several large clusters of valuable rare crystals had been extracted from the planet's mantle."
+
+nhsc_buildings.114.name: "Molten Motes"
+nhsc_buildings.114.desc: "Miners on §Y[Root.GetName]§! report that their operations have extracted a large amount of volatile motes that were dissolved in molten rocks of the planet's mantle."
+
+nhsc_buildings.115.name: "Exotic Gases Pocket"
+nhsc_buildings.115.desc: "Miners on §Y[Root.GetName]§! report that a pocket of exotic gases had been located within the planet's mantle. Extraction was successful and yielded large amounts of valuable resources."

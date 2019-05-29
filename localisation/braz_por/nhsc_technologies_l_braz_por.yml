@@ -98,6 +98,12 @@ nhsc_tech_zro_distilleries_desc: "As our understanding of psionics grows, we fin
 nhsc_tech_dark_matter_facilities: "Dark Matter Drawing Facilities"
 nhsc_tech_dark_matter_facilities_desc: "With our needs in Dark Matter growing every day, our mining stations over black holes aren't keeping up anymore. We need to look for alternative sources."
 
+nhsc_tech_mantle_mining_1: "Planetary Core Mining"
+nhsc_tech_mantle_mining_1_desc: "As our needs for raw resources grow, we turn out=r attention to the very hearts of our planets. Their cores and mantles. With application of proper technologies, those riches can finally be ours!"
+
+nhsc_tech_mantle_mining_2: "Improved Planetary Core Mining"
+nhsc_tech_mantle_mining_2_desc: "A refined procedure for excavating valuable resources straight from planetary cores and mantles."
+
 ########################################
 ###     Technologies : reactors      ###
 ########################################
