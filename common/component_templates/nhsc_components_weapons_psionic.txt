@@ -89,6 +89,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -160,6 +161,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -228,6 +230,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -292,6 +295,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -356,6 +360,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -424,6 +429,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -488,6 +494,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -552,6 +559,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -619,6 +627,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -682,6 +691,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -745,6 +755,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -818,6 +829,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -890,6 +902,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -962,6 +975,7 @@ weapon_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
@@ -1039,6 +1053,7 @@ strike_craft_component_template = {
 		modifier = {
 			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
 			OR = {
+				is_machine_empire = yes # machines can't research psionic weapons anyway
 				is_country_type = fallen_empire
 				is_country_type = awakened_fallen_empire
 			}
