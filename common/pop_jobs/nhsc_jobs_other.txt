@@ -550,7 +550,7 @@ esc_planetary_core_miner = {
 		}
 		### production goes up as empire gains technologies
         produces = {
-			minerals = 40
+			minerals = 20
 			engineering_research = 5
 		}
 		produces = {
@@ -635,7 +635,7 @@ esc_planetary_core_miner_drone = {
 		}
 		### production goes up as empire gains technologies
         produces = {
-			minerals = 40
+			minerals = 20
 			engineering_research = 5
 		}
 		produces = {
@@ -682,11 +682,6 @@ esc_planetary_core_miner_drone = {
 
     weight = {
 		weight = @complex_drone_job_weight
-		modifier = {
-			factor = 0.2
-			has_citizenship_rights = no
-			NOT = { has_trait = trait_mechanical }
-		}
 		modifier = {
 			factor = 2
 			has_trait = trait_strong
@@ -720,7 +715,7 @@ esc_planetary_core_miner_unit = {
 		}
 		### production goes up as empire gains technologies
         produces = {
-			minerals = 40
+			minerals = 20
 			engineering_research = 5
 		}
 		produces = {
@@ -766,12 +761,6 @@ esc_planetary_core_miner_unit = {
 	}
 
     weight = {
-		weight = @complex_drone_job_weight
-		modifier = {
-			factor = 0.2
-			has_citizenship_rights = no
-			NOT = { has_trait = trait_mechanical }
-		}
 		modifier = {
 			factor = 2
 			has_trait = trait_strong

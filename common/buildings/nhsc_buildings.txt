@@ -1419,8 +1419,8 @@ nhsc_building_magmaminer_1 = {
 		OR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity # planet diversity compatibility
-			# is_planet_class = pc_bioforge
-			# is_planet_class = pc_machine_factory
+			is_planet_class = pc_bioforge
+			is_planet_class = pc_machine_factory
 		}
 		OR = {
 			free_district_slots > 4 # need at least 5
@@ -1434,13 +1434,13 @@ nhsc_building_magmaminer_1 = {
 	resources = {
         category = planet_buildings
         cost = {
-			minerals = 1500
-			alloys = 250
-			volatile_motes = 50
-			rare_crystals = 50
+			minerals = 4000
+			alloys = 1000
+			volatile_motes = 100
+			rare_crystals = 100
 		}
 		produces = {
-			minerals = 20 # + 80 - 120 via jobs
+			minerals = 10
 		}
         upkeep = {
 			energy = 15
@@ -1562,8 +1562,8 @@ nhsc_building_magmaminer_2 = {
 		OR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity # planet diversity compatibility
-			# is_planet_class = pc_bioforge
-			# is_planet_class = pc_machine_factory
+			is_planet_class = pc_bioforge
+			is_planet_class = pc_machine_factory
 		}
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
@@ -1573,13 +1573,13 @@ nhsc_building_magmaminer_2 = {
 	resources = {
         category = planet_buildings
         cost = {
-			minerals = 1000
-			alloys = 250
-			volatile_motes = 50
-			rare_crystals = 50
+			minerals = 4000
+			alloys = 1000
+			volatile_motes = 100
+			rare_crystals = 100
 		}
 		produces = {
-			minerals = 40 # + 200 - 300 via jobs
+			minerals = 20
 		}
         upkeep = {
 			energy = 30
