@@ -42,14 +42,18 @@ esc_reprocessor = {
     resources = {
         category = planet_jobs
         produces = {
-            consumer_goods = 1
-            alloys = 1
+            consumer_goods = 1.5
+            alloys = 1.5
         }
         upkeep = {
-            energy = 1
-            minerals = 3
+            energy = 2
+            minerals = 2
         }
     }
+
+	planet_modifier = {
+		planet_amenities_add = 2
+	}
 
     weight = {
         weight = @specialist_job_weight
@@ -87,13 +91,17 @@ esc_reprocessor_drone = {
     resources = {
         category = planet_jobs
         produces = {
-            alloys = 2
+            alloys = 3
         }
         upkeep = {
-            minerals = 3
-            food = 1
+            minerals = 2
+            food = 2
         }
     }
+
+	planet_modifier = {
+		planet_amenities_no_happiness_add = 2
+	}
 
     weight = {
         weight = @complex_drone_job_weight
@@ -126,13 +134,17 @@ esc_reprocessor_unit = {
     resources = {
         category = planet_jobs
         produces = {
-            alloys = 2
+            alloys = 3
         }
         upkeep = {
-            energy = 1
-            minerals = 3
+            energy = 2
+            minerals = 2
         }
     }
+
+	planet_modifier = {
+		planet_amenities_no_happiness_add = 2
+	}
 
     weight = {
         weight = @complex_drone_job_weight
