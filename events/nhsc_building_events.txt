@@ -237,11 +237,11 @@ event = {
 
             random_list = {
                 90 = {}
-                2 = { owner = { planet_event = { id = nhsc_buildings.111 days = 60 } } }
-                2 = { owner = { planet_event = { id = nhsc_buildings.112 days = 30 } } }
-                2 = { owner = { planet_event = { id = nhsc_buildings.113 days = 90 } } }
-                2 = { owner = { planet_event = { id = nhsc_buildings.114 days = 30 } } }
-                2 = { owner = { planet_event = { id = nhsc_buildings.115 days = 60 } } }
+                2 = { planet_event = { id = nhsc_buildings.111 days = 60 } }
+                2 = { planet_event = { id = nhsc_buildings.112 days = 30 } }
+                2 = { planet_event = { id = nhsc_buildings.113 days = 90 } }
+                2 = { planet_event = { id = nhsc_buildings.114 days = 30 } }
+                2 = { planet_event = { id = nhsc_buildings.115 days = 60 } }
             }
         }
     }
