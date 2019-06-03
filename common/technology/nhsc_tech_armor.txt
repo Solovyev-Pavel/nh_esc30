@@ -11,7 +11,8 @@
 #     └─ Improved Shielding Armor					: shield-generating armor [tier 7+]
 #         └─ Shielding Bulwark						: shield-generating armor [tier 8+]
 # ── Hardlight Armor								: shield-regenerating armor [tier 7+]; requires killed Wraith / Leviathans DLC
-# ── Horror Armor									: self-repairing amor [tier 8+]; requires killed Dimensional Horror / Leviathans DLC
+# ── Horror Armor									: self-repairing armor [tier 8+]; requires killed Dimensional Horror / Leviathans DLC
+# ── Reinforced Crystalline Plating					: hull-enhancing "armor"
 
 ############################################################
 ##               Improved Neutronium Armor                ##
@@ -61,7 +62,7 @@ nhsc_tech_armor_6 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -114,7 +115,7 @@ nhsc_tech_armor_7 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -166,7 +167,7 @@ nhsc_tech_armor_nanite_1 = {
 				area = society
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -219,7 +220,7 @@ nhsc_tech_armor_nanite_2 = {
 				area = society
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -274,7 +275,7 @@ nhsc_tech_armor_dragonscales_nanite = {
 				area = society
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -327,7 +328,7 @@ nhsc_tech_armor_shield_1 = {
 				area = physics
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -380,7 +381,7 @@ nhsc_tech_armor_shield_2 = {
 				area = physics
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -434,7 +435,7 @@ nhsc_tech_armor_shield_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_materials"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -482,7 +483,7 @@ nhsc_tech_armor_wraith = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}                                                             
+		}
 	}
 }
 
@@ -522,6 +523,60 @@ nhsc_tech_armor_horror = {
 		modifier = {
 			factor = 0
 			NOT = { has_country_flag = horror_killed }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+############################################################
+##              Reinforced Crystalline Plating               ##
+############################################################
+
+nhsc_tech_crystal_armor_3 = {
+	area = engineering
+	category = { materials }
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
+	prerequisites = { "nhsc_tech_armor_7" }
+	is_rare = yes
+	ai_update_type = all
+
+	potential = {
+		NOT = { has_global_flag = ESC_armors_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = tech_crystal_armor_1
+				has_technology = tech_crystal_armor_2
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 1.5
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = tech_crystal_armor_1
+				has_technology = tech_crystal_armor_2
+			}
 		}
 		modifier = {
 			factor = 1.25

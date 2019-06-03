@@ -11,6 +11,7 @@ esc_tech_switch = {
 	if = { limit = { last_increased_tech = tech_ship_armor_5 } armor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_ship_armor_4 } armor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_ship_armor_3 } armor_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_crystal_armor_3 } crystal_plating_check = yes break = yes }
 	### shields
 	if = { limit = { last_increased_tech = nhsc_tech_shields_cyclonic_3 } shield_tech_check = yes shield_recharger_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_shields_cyclonic_2 } shield_tech_check = yes shield_recharger_tech_check = yes break = yes }
@@ -275,6 +276,25 @@ armor_tech_check = {
 			NOT = { has_technology = "tech_ship_armor_2" }
 		}
 		give_technology = { message = no tech = tech_ship_armor_2 }
+	}
+}
+
+crystal_plating_check = {
+	## crystal plating 3 >>> crystal plating 2
+	if = {
+		limit = {
+			has_technology = nhsc_tech_crystal_armor_3
+			NOT = { has_technology = tech_crystal_armor_2 }
+		}
+		give_technology = { message = no tech = tech_crystal_armor_2 }
+	}
+	## crystal plating 3 >>> crystal plating 1
+	if = {
+		limit = {
+			has_technology = nhsc_tech_crystal_armor_3
+			NOT = { has_technology = tech_crystal_armor_1 }
+		}
+		give_technology = { message = no tech = tech_crystal_armor_1 }
 	}
 }
 

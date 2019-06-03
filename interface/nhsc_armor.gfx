@@ -67,3 +67,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_armor_horror.dds"
 	}
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_armor_nhsc_crystal_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_crystal_armor_3.dds"
+	}
+}

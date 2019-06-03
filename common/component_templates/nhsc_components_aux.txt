@@ -13,6 +13,7 @@
 # - Psionic Reinforcement
 # - Stellarite Power Core
 # - Standardized Warheads
+# - Structural Reinforcement
 
 ############################################################
 ##            Advanced Auxiliary Fire Control             ##
@@ -486,5 +487,44 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 10
+	}
+}
+
+############################################################
+##               Structural Reinforcement                 ##
+############################################################
+
+utility_component_template = {
+	key = "NHSC_STRUCTURAL_REINFORCEMENT"
+	size = aux
+	icon = "GFX_ship_part_nhsc_aux_structural_reinforcement"
+	icon_frame = 1
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			volatile_motes = 2
+		}
+	}
+
+	modifier = {
+		ship_armor_mult = -0.05
+		ship_hull_mult = 0.10
+	}
+
+	prerequisites = { "nhsc_tech_structural_reinforcement" }
+	component_set = "NHSC_STRUCTURAL_REINFORCEMENT"
+
+	ai_weight = {
+		weight = 0.5
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
 	}
 }

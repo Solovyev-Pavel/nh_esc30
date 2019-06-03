@@ -2,30 +2,30 @@
 
 component_set = {
 	key = "NHSC_REPAIR_DRONES"
-	
+
 	icon = "GFX_ship_part_nhsc_repair_drones"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_ADV_SHIELD_RECHARGER"
-	
+
 	icon = "GFX_ship_part_nhsc_shield_recharger"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_BLUE_CRYSTAL_CAPACITOR"
-	
+
 	icon = "GFX_ship_part_nhsc_blue_crystal_capacitor"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_RED_CRYSTAL_CAPACITOR"
-	
+
 	icon = "GFX_ship_part_nhsc_red_crystal_capacitor"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
@@ -71,17 +71,24 @@ component_set = {
 }
 
 component_set = {
+	key = "NHSC_STRUCTURAL_REINFORCEMENT"
+
+	icon = "GFX_ship_part_nhsc_aux_structural_reinforcement"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_CRUISER"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_BATTLESHIP"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 ## ############################################### ##
@@ -90,51 +97,51 @@ component_set = {
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_CRUISER_NSC"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_BATTLESHIP_NSC"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_STRIKECRUISER"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_BATTLECRUISER"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_CARRIER"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_DREADNOUGHT"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
 	key = "NHSC_DREADNOUGHT_COMPUTER_FLAGSHIP"
-	
+
 	icon = "GFX_ship_part_nhsc_dreadnought_computer"
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {

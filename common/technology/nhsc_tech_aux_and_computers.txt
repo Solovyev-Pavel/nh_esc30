@@ -6,7 +6,7 @@
 # ── Pulsed Plasma Afterburners					: tier 3 afterburners
 # ── Auxiliary Zero Point Reactor				: tier 4 auxiliary reactor
 #     └─ Auxiliary Singularity Reactor			: tier 5 auxiliary reactor
-# ── Reapir Drones								: auxiliary component for automatic ship reapir
+# ── Reapir Drones								: auxiliary component for automatic ship repair
 # ── Improved Shield Capacitors					: stronger version of shield capacitors
 # ── Crystal-Infused Shield Capacitors			: shield capacitors that also improve hull strength
 # ── Crystal-Forged Shield Capacitors			: shield capacitors that also improve hull strength
@@ -14,6 +14,7 @@
 # ── Warhead Standardization					: improves missile weapons
 # ── Psionic Reinforcement						: imrpves hull strength at the cost of lowered shields
 # ── Automated Dreadnought Computer				: very strong computer for bigger hulls; requires observed Automatic Dreadnought / Leviathans DLC
+# ── Structural Reinforcement					: auxiliary component that increases hull strength
 
 ############################################################
 ##            Advanced Fire Control Systems               ##
@@ -187,13 +188,13 @@ nhsc_tech_reactor_booster_5 = {
 ############################################################
 
 nhsc_tech_repair_drones = {
-	 area = engineering
+	area = engineering
 	category = { materials }
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
 	prerequisites = { "nhsc_tech_central_research_bureau" "tech_cruisers" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_aux_forbidden }
 	}
@@ -231,7 +232,7 @@ nhsc_tech_advanced_shield_capacitors = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
-	ai_update_type = all	
+	ai_update_type = all
 	prerequisites = { "nhsc_tech_central_research_bureau" "tech_shield_rechargers_1" }
 	is_rare = yes
 
@@ -248,7 +249,7 @@ nhsc_tech_advanced_shield_capacitors = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -271,7 +272,7 @@ nhsc_tech_crystal_infused_capacitor = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
-	ai_update_type = all	
+	ai_update_type = all
 	prerequisites = { "tech_shield_rechargers_1" "tech_crystal_armor_1" }
 	is_rare = yes
 
@@ -288,7 +289,7 @@ nhsc_tech_crystal_infused_capacitor = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -311,7 +312,7 @@ nhsc_tech_crystal_forged_capacitor = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
-	ai_update_type = all	
+	ai_update_type = all
 	prerequisites = { "tech_shield_rechargers_1" "tech_crystal_armor_2" }
 	is_rare = yes
 
@@ -328,7 +329,7 @@ nhsc_tech_crystal_forged_capacitor = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -351,7 +352,7 @@ nhsc_tech_stellarite_powercore = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
-	ai_update_type = all	
+	ai_update_type = all
 	prerequisites = { }
 	is_rare = yes
 
@@ -373,7 +374,7 @@ nhsc_tech_stellarite_powercore = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -400,7 +401,7 @@ nhsc_tech_standardized_warheads = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
-	ai_update_type = all	
+	ai_update_type = all
 	prerequisites = { "nhsc_tech_central_research_bureau" }
 
 	potential = {
@@ -424,7 +425,7 @@ nhsc_tech_standardized_warheads = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -452,7 +453,7 @@ nhsc_tech_standardized_warheads = {
 nhsc_tech_psionic_reinforcement = {
 	area = society
 	category = { psionics }
-	tier = 5  
+	tier = 5
 	cost = @tier5cost1
 	weight = @tier5weight1
 	ai_update_type = military
@@ -492,10 +493,10 @@ nhsc_tech_psionic_reinforcement = {
 					area = society
 					has_trait = "leader_trait_maniacal"
 				}
-			}		
+			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -530,7 +531,7 @@ nhsc_tech_dreadnought_computer = {
 			desc = "NHSC_TECH_UNLOCK_DREADNOUGHT_COMPUTER_DESC"
 		}
 	}
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
 	}
@@ -544,6 +545,45 @@ nhsc_tech_dreadnought_computer = {
 	ai_weight = {
 		modifier = {
 			factor = 0	### only from debris
+		}
+	}
+}
+
+############################################################
+##              Structural Reinforcement                  ##
+############################################################
+
+nhsc_tech_structural_reinforcement = {
+	area = engineering
+	category = { materials }
+	tier = 4
+	cost = @tier4cost1
+	weight = @tier4weight1
+	prerequisites = { "nhsc_tech_central_research_bureau" "tech_cruisers" }
+
+	potential = {
+		NOT = { has_global_flag = ESC_aux_forbidden }
+	}
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
 		}
 	}
 }

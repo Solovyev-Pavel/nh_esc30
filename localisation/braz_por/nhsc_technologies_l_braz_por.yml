@@ -95,7 +95,7 @@ nhsc_tech_chrono_spatial_weapons_desc: "Our newly-found ability to twist reality
 nhsc_tech_zro_distilleries: "Zro Distilleries"
 nhsc_tech_zro_distilleries_desc: "As our understanding of psionics grows, we find ourselves in need of boosters to unlock our full potential. The best such stimulant is Zro, and while natural Zro is extremely rare, we can synthesize more."
 
-nhsc_tech_dark_matter_facilities: "Dark Matter Collection"
+nhsc_tech_dark_matter_facilities: "Industrial Dark Matter Collection"
 nhsc_tech_dark_matter_facilities_desc: "With our needs in Dark Matter growing every day, our mining stations over black holes aren't keeping up anymore. We need to look for alternative sources."
 
 nhsc_tech_mantle_mining_1: "Planetary Core Mining"
@@ -212,6 +212,9 @@ nhsc_tech_armor_wraith_desc: "New ways of particle manipulation allow us not onl
 
 nhsc_tech_armor_horror: "Dimensional Horror Armor"
 nhsc_tech_armor_horror_desc: "The study of portal residue allows us to determine to composition of the Dimensional Horror's hide. This incredibly-tough material will offer a new level of protection to our ships."
+
+nhsc_tech_crystal_armor_3: "Reinforced Crystalline Plating"
+nhsc_tech_crystal_armor_3_desc: "Crystalline materials have incredible durability and we can utilize them to create the ultimate hull plating."
 
 ########################################
 ###    Technologies : propulsion     ###
@@ -655,6 +658,9 @@ nhsc_tech_standardized_warheads_desc: "Imposing standards on various warheads in
 
 nhsc_tech_auxiliary_fire_control_2: "Advanced Fire Control Systems"
 nhsc_tech_auxiliary_fire_control_2_desc: "Algorithm refinement to provide better firing solutions for our weapons"
+
+nhsc_tech_structural_reinforcement: "Structural Reinforcement"
+nhsc_tech_structural_reinforcement_desc: "Specialized construction techniques allow us to make our ships' hulls more resistant to damage. This, unfortunately, comes at the cost of slightly-weaker armor we can mount on such hulls."
 
 nhsc_tech_crystalline_valuables: "Crystalline Valuables"
 nhsc_tech_crystalline_valuables_desc: "Living Crystals have numerous military applications, but with special processing they can also be turned into shiny gems that as valuable as true precious stones."

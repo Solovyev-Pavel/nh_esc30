@@ -39,6 +39,9 @@ NHSC_REACTOR_BOOSTER_5_DESC: "An improved version of $NHSC_REACTOR_BOOSTER_4$ th
 NHSC_ADV_AUX_FIRE_CONTROL: "Advanced Fire Control Systems"
 NHSC_ADV_AUX_FIRE_CONTROL_DESC: "This auxiliary computer provides exremely refined firing solutions for ship's weapons"
 
+NHSC_STRUCTURAL_REINFORCEMENT: "Structural Reinforcement"
+NHSC_STRUCTURAL_REINFORCEMENT_DESC: "A reinforced hull structure that allows for stronger base hull at the cost of lesser armor."
+
 ########################################
 ###           Strikecrafts           ###
 ########################################
