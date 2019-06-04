@@ -4,5 +4,5 @@ tags={
 	"Military"
 	"Technologies"
 }
-supported_version="2.2.*"
+supported_version="2.3.*"
 picture="nh_esc30.png"
