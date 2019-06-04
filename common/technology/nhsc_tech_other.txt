@@ -393,8 +393,8 @@ nhsc_tech_mantle_mining_1 = {
 					OR = {
 						is_planet_class = pc_city
 						is_planet_class = pc_ecocity # planet diversity compatibility
-						# is_planet_class = pc_bioforge
-						# is_planet_class = pc_machine_factory
+						is_planet_class = pc_bioforge
+						is_planet_class = pc_machine_factory
 					}
 				}
 			}
@@ -426,22 +426,27 @@ nhsc_tech_mantle_mining_2 = {
 	cost = @tier4cost2
 	weight = @tier4weight2
 	tier = 4
-	prerequisites = { "nhsc_tech_mantle_mining_2" }
+	prerequisites = { "nhsc_tech_mantle_mining_1" }
 	is_rare = yes
 
 	potential = {
 		NOT = { has_global_flag = ESC_buildings_forbidden }
-		any_owned_planet = {
-			OR = {
-				is_planet_class = pc_city
-				is_planet_class = pc_ecocity # planet diversity compatibility
-				# is_planet_class = pc_bioforge
-				# is_planet_class = pc_machine_factory
-			}
-		}
 	}
 
 	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_planet = {
+					OR = {
+						is_planet_class = pc_city
+						is_planet_class = pc_ecocity # planet diversity compatibility
+						is_planet_class = pc_bioforge
+						is_planet_class = pc_machine_factory
+					}
+				}
+			}
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -460,6 +465,19 @@ nhsc_tech_mantle_mining_2 = {
 
 	ai_weight = {
 		factor = 2.5
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_planet = {
+					OR = {
+						is_planet_class = pc_city
+						is_planet_class = pc_ecocity # planet diversity compatibility
+						is_planet_class = pc_bioforge
+						is_planet_class = pc_machine_factory
+					}
+				}
+			}
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {

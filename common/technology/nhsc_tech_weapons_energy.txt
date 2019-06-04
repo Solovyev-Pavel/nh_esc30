@@ -27,12 +27,12 @@
 nhsc_tech_laser_6 = {
 	area = physics
 	category = { particles }
-	tier = 4	
+	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
 	ai_update_type = military
 	prerequisites = { "tech_lasers_5" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -62,7 +62,7 @@ nhsc_tech_laser_6 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -98,13 +98,13 @@ nhsc_tech_laser_6 = {
 nhsc_tech_laser_7 = {
 	area = physics
 	category = { particles }
-	tier = 4	
+	tier = 4
 	cost = @tier4cost3
 	weight = @tier4weight3
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_laser_6" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -134,7 +134,7 @@ nhsc_tech_laser_7 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -173,9 +173,9 @@ nhsc_tech_energy_launcher_3 = {
 	tier = 4
 	cost = @tier4cost2
 	weight = @tier4weight2
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_energy_torpedoes_2" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -203,9 +203,9 @@ nhsc_tech_energy_launcher_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -244,10 +244,10 @@ nhsc_tech_energy_launcher_4 = {
 	tier = 5
 	cost = @tier5cost1
 	weight = @tier5weight1
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_energy_launcher_3" "tech_mine_dark_matter" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -275,9 +275,9 @@ nhsc_tech_energy_launcher_4 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -318,7 +318,7 @@ nhsc_tech_disruptors_4 = {
 	weight = @tier4weight1
 	ai_update_type = military
 	prerequisites = { "tech_disruptors_3" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -346,9 +346,9 @@ nhsc_tech_disruptors_4 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
-	}	
-	
+		}
+	}
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -390,7 +390,7 @@ nhsc_tech_disruptors_5 = {
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_disruptors_4" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -418,9 +418,9 @@ nhsc_tech_disruptors_5 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
-	}	
-	
+		}
+	}
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -459,9 +459,9 @@ nhsc_tech_plasma_4 = {
 	tier = 4
 	cost = @tier4cost1
 	weight = @tier4weight1
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_plasma_3" "nhsc_tech_new_age_warfare" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -489,9 +489,9 @@ nhsc_tech_plasma_4 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -530,10 +530,10 @@ nhsc_tech_plasma_5 = {
 	tier = 4
 	cost = @tier4cost3
 	weight = @tier4weight3
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_plasma_4" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -561,9 +561,9 @@ nhsc_tech_plasma_5 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -602,23 +602,19 @@ nhsc_tech_chrono_vortex_cannon = {
 	tier = 5
 	cost = @tier5cost4
 	weight = @tier5weight4
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "nhsc_tech_chrono_spatial_weapons" }
 	is_rare = yes
 	is_dangerous = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
 
 	weight_modifier = {
 		modifier = {
-			factor = 0
-			years_passed < 150
-		}
-		modifier = {
 			factor = 0.5
-			years_passed < 200
+			end_game_years_passed < 20
 		}
 		modifier = {
 			factor = 0.8
@@ -642,18 +638,14 @@ nhsc_tech_chrono_vortex_cannon = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
-			factor = 0
-			years_passed < 150
-		}
-		modifier = {
 			factor = 0.5
-			years_passed < 200
+			end_game_years_passed < 20
 		}
 		modifier = {
 			factor = 0.8
@@ -694,7 +686,7 @@ nhsc_tech_lightstorm_pd = {
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_pd_tracking_4" "nhsc_tech_laser_6" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_weapons_forbidden }
 	}
@@ -707,8 +699,8 @@ nhsc_tech_lightstorm_pd = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
-	}		
-	
+	}
+
 	ai_weight = {
 		modifier = {
 			factor = 1.25
