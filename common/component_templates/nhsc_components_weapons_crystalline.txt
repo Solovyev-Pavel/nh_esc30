@@ -1067,7 +1067,7 @@ weapon_component_template = {
 	entity = "large_kinetic_gun_entity"
 	type = instant
 
-	damage = { min = 152 max = 348 }
+	damage = { min = 152 max = 335 }
 	windup = { min = 2 max = 17 }
 	total_fire_time = 25
 	range = 95
@@ -1306,9 +1306,9 @@ weapon_component_template = {
 	entity = "invisible_turret_entity"
 	type = instant
 
-    damage = { min = 5000 max = 10000 }
+    damage = { min = 5000 max = 8000 }
 	windup = { min = 2 max = 18 }
-	total_fire_time = 170
+	total_fire_time = 165
 	range = 250
 	accuracy = 0.85
 	power = -500

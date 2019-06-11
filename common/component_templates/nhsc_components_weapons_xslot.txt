@@ -174,7 +174,7 @@ weapon_component_template = {
 
 	damage = { min = 5000 max = 10000 }
 	windup = { min = 30 max = 35 }
-	total_fire_time = 170
+	total_fire_time = 175
 	range = 250
 	accuracy = 0.85
 	power = -500
@@ -625,8 +625,8 @@ weapon_component_template = {
 	entity = "invisible_turret_entity"
 	type = instant
 
-	damage = { min = 2000.0 max = 2750.0 }
-	windup = { min = 22.0 max = 35.0 }
+	damage = { min = 2000.0 max = 4000.0 }
+	windup = { min = 20.0 max = 40.0 }
 	total_fire_time = 75
 	range = 150
 	accuracy = 1.0
@@ -697,8 +697,8 @@ weapon_component_template = {
 	type = instant
 
 	damage = { min = 5000 max = 10000 }
-	windup = { min = 22.0 max = 35.0 }
-	total_fire_time = 180
+	windup = { min = 20.0 max = 40.0 }
+	total_fire_time = 170
 	range = 275
 	accuracy = 1.0
 	power = -600

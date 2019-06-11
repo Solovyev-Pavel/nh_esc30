@@ -738,7 +738,7 @@ weapon_component_template = {
 
     damage = { min = 5000 max = 10000 }
 	windup = { min = 30 max = 45 }
-	total_fire_time = 165
+	total_fire_time = 155
 	range = 250
 	accuracy = 0.8
 	power = -500
