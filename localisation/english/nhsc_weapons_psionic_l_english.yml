@@ -63,13 +63,18 @@ NHSC_PSI_LANCE_1: "Psionic Lance"
 NHSC_PSI_LANCE_1_DESC: "An energy lance made from focused and refined psionic energy."
 
 ########################################
-###       Focused Psionic Lance      ###
+###           Shroud Piercer         ###
 ########################################
 
-NHSC_PSI_LANCE_2: "Void Ray"
+NHSC_PSI_LANCE_2: "Shroud Piercer"
 NHSC_PSI_LANCE_2_DESC: "An improved and more powerful version of the Psionic Lance."
-NHSC_PSI_LANCE_TITANIC: "$NHSC_PSI_LANCE_2$"
-NHSC_PSI_LANCE_TITANIC_DESC: "$NHSC_PSI_LANCE_2_DESC$"
+
+########################################
+###              Void Ray            ###
+########################################
+
+NHSC_PSI_LANCE_TITANIC: "Void Ray"
+NHSC_PSI_LANCE_TITANIC_DESC: "A psionic lance of unimaginable power, fueled by the hungry void of the Shroud."
 
 ########################################
 ###       Psionic Interceptors       ###
