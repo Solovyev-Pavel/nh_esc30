@@ -344,7 +344,7 @@ nhsc_tech_rare_crystals_cultivation = {
 
 nhsc_tech_mantle_mining_1 = {
 	area = engineering
-	category = { materials }
+	category = { industry }
 	cost = @tier3cost3
 	weight = @tier4weight2
 	tier = 4
@@ -358,16 +358,7 @@ nhsc_tech_mantle_mining_1 = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			NOT = {
-				any_owned_planet = {
-					OR = {
-						is_planet_class = pc_city
-						is_planet_class = pc_ecocity # planet diversity compatibility
-						is_planet_class = pc_bioforge
-						is_planet_class = pc_machine_factory
-					}
-				}
-			}
+			NOT = { any_owned_planet = { is_city_planet_nhsc = yes } }
 		}
 		modifier = {
 			factor = 1.25
@@ -388,16 +379,7 @@ nhsc_tech_mantle_mining_1 = {
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = {
-				any_owned_planet = {
-					OR = {
-						is_planet_class = pc_city
-						is_planet_class = pc_ecocity # planet diversity compatibility
-						is_planet_class = pc_bioforge
-						is_planet_class = pc_machine_factory
-					}
-				}
-			}
+			NOT = { any_owned_planet = { is_city_planet_nhsc = yes } }
 		}
 		modifier = {
 			factor = 1.25
@@ -422,7 +404,7 @@ nhsc_tech_mantle_mining_1 = {
 
 nhsc_tech_mantle_mining_2 = {
 	area = engineering
-	category = { materials }
+	category = { industry }
 	cost = @tier4cost2
 	weight = @tier4weight2
 	tier = 4
@@ -436,16 +418,7 @@ nhsc_tech_mantle_mining_2 = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			NOT = {
-				any_owned_planet = {
-					OR = {
-						is_planet_class = pc_city
-						is_planet_class = pc_ecocity # planet diversity compatibility
-						is_planet_class = pc_bioforge
-						is_planet_class = pc_machine_factory
-					}
-				}
-			}
+			NOT = { any_owned_planet = { is_city_planet_nhsc = yes } }
 		}
 		modifier = {
 			factor = 1.25
@@ -467,16 +440,7 @@ nhsc_tech_mantle_mining_2 = {
 		factor = 2.5
 		modifier = {
 			factor = 0
-			NOT = {
-				any_owned_planet = {
-					OR = {
-						is_planet_class = pc_city
-						is_planet_class = pc_ecocity # planet diversity compatibility
-						is_planet_class = pc_bioforge
-						is_planet_class = pc_machine_factory
-					}
-				}
-			}
+			NOT = { any_owned_planet = { is_city_planet_nhsc = yes } }
 		}
 		modifier = {
 			factor = 1.25
