@@ -15,6 +15,9 @@
 # - Ironcloud Defender					P
 # - Protector Point Defense				P
 # - Iron Curtain Point Defense			P
+# - Hailstorm Autocannon				X
+# - Firestorm Autocannon				X
+# - Tempest Autocannon					Titanic
 
 @mass_driver_hull_damage = 1.0
 @mass_driver_armor_damage = 0.5
@@ -24,6 +27,7 @@
 
 @autocannon_hull_damage = 1.25
 @autocannon_armor_damage = 0.25
+@autocannon_xl_armor_damage = 0.5
 @autocannon_armor_penetration = 0.0
 @autocannon_shield_damage = 1.5
 @autocannon_shield_penetration = 0.0
@@ -1171,4 +1175,188 @@ weapon_component_template = {
 	projectile_gfx = "white_laser_pd"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense }
+}
+
+############################################################
+##                 Hailstorm Autocannon                   ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_AUTOCANNON_X_1"
+	size = extra_large
+	icon = "GFX_ship_part_nhsc_autocannon_x_1"
+	icon_frame = 1
+	entity = "invisible_turret_entity"
+	type = instant
+
+    damage = { min = 350 max = 650 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 100
+	accuracy = 0.85
+	power = -275
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t7_cost
+			volatile_motes = @weapon_xl_t7_cost_special
+		}
+		upkeep = {
+			energy = @weapon_xl_t7_upkeep_energy
+			alloys = @weapon_xl_t7_upkeep_alloys
+		}
+	}
+
+	hull_damage = @autocannon_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_xl_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.25
+
+	firing_arc = 25.0
+	min_range = 5
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	prerequisites = { nhsc_tech_autocannon_x_1 }
+	component_set = "NHSC_AUTOCANNON_X_1"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "NHSC_AUTOCANNON_X_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+############################################################
+##                  Firestorm Autocannon                  ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_AUTOCANNON_X_2"
+	size = extra_large
+	icon = "GFX_ship_part_nhsc_autocannon_x_2"
+	icon_frame = 1
+	entity = "invisible_turret_entity"
+	type = instant
+
+	damage = { min = 425 max = 750 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 100
+	accuracy = 0.85
+	power = -325
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_xl_t8_cost
+			volatile_motes = @weapon_xl_t8_cost_special
+		}
+		upkeep = {
+			energy = @weapon_xl_t8_upkeep_energy
+			alloys = @weapon_xl_t8_upkeep_alloys
+		}
+	}
+
+	hull_damage = @autocannon_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_xl_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.25
+
+	firing_arc = 25.0
+	min_range = 5
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	prerequisites = { "nhsc_tech_autocannon_x_2" }
+	component_set = "NHSC_AUTOCANNON_X_2"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+############################################################
+##                   Tempest Autocannon                   ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_AUTOCANNON_T"
+	size = titanic
+	icon = "GFX_ship_part_nhsc_autocannon_t"
+	icon_frame = 1
+	entity = "invisible_turret_entity"
+	type = instant
+
+    damage = { min = 750 max = 1000 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 180
+	accuracy = 0.85
+	power = -500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			volatile_motes = @weapon_t_t6_cost_special
+		}
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
+	hull_damage = @artillery_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_xl_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.25
+
+	firing_arc = 25.0
+	min_range = 5
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	prerequisites = { "nhsc_tech_autocannon_t" }
+	component_set = "NHSC_AUTOCANNON_T"
+	projectile_gfx = "nhsc_mhd_cannon"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
 }

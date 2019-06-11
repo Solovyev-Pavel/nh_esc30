@@ -516,6 +516,15 @@ nhsc_tech_mass_accelerator_4_desc: "The best long-range kinetic weapon possible!
 nhsc_tech_mhdcannon: "Magnetohydrodynamic Cannon"
 nhsc_tech_mhdcannon_desc: "A powerful weapon that is a combination of water jet cutter and railgun, that can tear enemy ships apart with stream of molten metal."
 
+nhsc_tech_autocannon_x_1: "Hailstorm Autocannon"
+nhsc_tech_autocannon_x_1_desc: "As superscale autocannons proved themselves to be a viable weapon, an idea to scale them up even further was born. The Hailstorm autocannon is the biggest and baddest autocannon to date!"
+
+nhsc_tech_autocannon_x_2: "Firestorm Autocannon"
+nhsc_tech_autocannon_x_2_desc: "A refinement of the Hailstorm Autocannon, capable of delivering even more dakka to our enemies' faces!"
+
+nhsc_tech_autocannon_t: "Tempest Autocannon"
+nhsc_tech_autocannon_t_desc: "A truly titanic autocannon with an unprecedent power."
+
 ### crystalline
 
 nhsc_tech_crystal_cannon_1: "Crystal Shard Thrower"

@@ -542,6 +542,15 @@ nhsc_tech_crystal_lance_2_desc: "An improved version of the Crystal Javelin Cann
 nhsc_tech_crystalline_impaler: "Crystalline Impaler"
 nhsc_tech_crystalline_impaler_desc: "A supersized version of the Crystal Javelin Cannon for our biggest ships."
 
+nhsc_tech_autocannon_x_1: "Hailstorm Autocannon"
+nhsc_tech_autocannon_x_1_desc: "As superscale autocannons proved themselves to be a viable weapon, an idea to scale them up even further was born. The Hailstorm autocannon is the biggest and baddest autocannon to date!"
+
+nhsc_tech_autocannon_x_2: "Firestorm Autocannon"
+nhsc_tech_autocannon_x_2_desc: "A refinement of the Hailstorm Autocannon, capable of delivering even more dakka to our enemies' faces!"
+
+nhsc_tech_autocannon_t: "Tempest Autocannon"
+nhsc_tech_autocannon_t_desc: "A truly titanic autocannon with an unprecedent power."
+
 ### point defense
 
 nhsc_tech_pd_tracking_4: "Protector Point-Defense"

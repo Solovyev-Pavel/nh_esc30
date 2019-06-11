@@ -64,4 +64,19 @@ spriteTypes = {
 		name = "GFX_ship_part_nhsc_pd_5"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_point_defense_5.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ship_part_nhsc_autocannon_x_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_autocannon_x_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nhsc_autocannon_x_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_autocannon_x_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nhsc_autocannon_t"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_autocannon_t.dds"
+	}
 }
