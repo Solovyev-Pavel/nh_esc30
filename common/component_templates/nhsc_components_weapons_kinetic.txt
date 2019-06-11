@@ -4,8 +4,8 @@
 
 # - Advanced Gauss Cannon				S/M/L
 # - Strike Cannon						S/M/L
-# - Improved Stromfire Autocannon		S
-# - Shredder Autocannon					S
+# - Improved Stromfire Autocannon		S/M/L
+# - Shredder Autocannon					S/M/L
 # - Improved Kinetic Artillery			L
 # - Skypiercer Artillery				L
 # - Improved Giga-cannon				X
@@ -432,6 +432,112 @@ weapon_component_template = {
 	}
 }
 
+weapon_component_template = {
+	key = "MEDIUM_NHSC_AUTOCANNON_4"
+	size = medium
+	icon = "GFX_ship_part_nhsc_autocannon_4"
+	icon_frame = 1
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+
+	damage = { min = 40 max = 95 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 50
+	accuracy = 0.85
+	power = -34
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t6_cost
+			volatile_motes = @weapon_m_t6_cost_special
+		}
+		upkeep = {
+			energy = @weapon_m_t6_upkeep_energy
+			alloys = @weapon_m_t6_upkeep_alloys
+		}
+	}
+
+	hull_damage = @autocannon_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.5
+
+	prerequisites = { "nhsc_tech_autocannon_4" "nhsc_tech_autocannons_m" }
+	component_set = "NHSC_AUTOCANNON_4"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "MEDIUM_NHSC_AUTOCANNON_5"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "LARGE_NHSC_AUTOCANNON_4"
+	size = large
+	icon = "GFX_ship_part_nhsc_autocannon_4"
+	icon_frame = 1
+	entity = "large_kinetic_gun_entity"
+	type = instant
+
+	damage = { min = 90 max = 190 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 70
+	accuracy = 0.85
+	power = -64
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t6_cost
+			volatile_motes = @weapon_l_t6_cost_special
+		}
+		upkeep = {
+			energy = @weapon_l_t6_upkeep_energy
+			alloys = @weapon_l_t6_upkeep_alloys
+		}
+	}
+
+	hull_damage = @autocannon_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.35
+
+	prerequisites = { "nhsc_tech_autocannon_4" "nhsc_tech_autocannons_l" }
+	component_set = "NHSC_AUTOCANNON_4"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "LARGE_NHSC_AUTOCANNON_5"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
 ############################################################
 ##                  Shredder Autocannon                   ##
 ############################################################
@@ -471,6 +577,110 @@ weapon_component_template = {
 	tracking = 0.75
 
 	prerequisites = { "nhsc_tech_autocannon_5" }
+	component_set = "NHSC_AUTOCANNON_5"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MEDIUM_NHSC_AUTOCANNON_5"
+	size = medium
+	icon = "GFX_ship_part_nhsc_autocannon_5"
+	icon_frame = 1
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+
+	damage = { min = 50 max = 130 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 50
+	accuracy = 0.85
+	power = -46
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_m_t7_cost
+			volatile_motes = @weapon_m_t7_cost_special
+		}
+		upkeep = {
+			energy = @weapon_m_t7_upkeep_energy
+			alloys = @weapon_m_t7_upkeep_alloys
+		}
+	}
+
+	hull_damage = @autocannon_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.5
+
+	prerequisites = { "nhsc_tech_autocannon_5" "nhsc_tech_autocannons_m" }
+	component_set = "NHSC_AUTOCANNON_5"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "LARGE_NHSC_AUTOCANNON_5"
+	size = large
+	icon = "GFX_ship_part_nhsc_autocannon_5"
+	icon_frame = 1
+	entity = "large_kinetic_gun_entity"
+	type = instant
+
+	damage = { min = 115 max = 235 }
+	windup = { min = 2 max = 14 }
+	total_fire_time = 15
+	range = 70
+	accuracy = 0.85
+	power = -90
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			volatile_motes = @weapon_l_t7_cost_special
+		}
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
+	hull_damage = @autocannon_hull_damage
+	armor_penetration = @autocannon_armor_penetration
+	armor_damage = @autocannon_armor_damage
+	shield_penetration = @autocannon_shield_penetration
+	shield_damage = @autocannon_shield_damage
+	tracking = 0.35
+
+	prerequisites = { "nhsc_tech_autocannon_5" "nhsc_tech_autocannons_l" }
 	component_set = "NHSC_AUTOCANNON_5"
 	projectile_gfx = "stormfire_auto_cannons_s"
 	tags = { weapon_type_kinetic }

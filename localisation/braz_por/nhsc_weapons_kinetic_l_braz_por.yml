@@ -34,6 +34,10 @@ LARGE_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
 
 NHSC_AUTOCANNON_4: "Improved Stormfire Autocannon"
 NHSC_AUTOCANNON_4_DESC: "An upgraded version of the proven stormfire autocannon with struddier mechanics and faster reload."
+MEDIUM_NHSC_AUTOCANNON_4: "Large $NHSC_AUTOCANNON_4$"
+MEDIUM_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
+LARGE_NHSC_AUTOCANNON_4: "Extra-large $NHSC_AUTOCANNON_4$"
+LARGE_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
 
 ########################################
 ###       Shredder Autocannon        ###
@@ -41,6 +45,10 @@ NHSC_AUTOCANNON_4_DESC: "An upgraded version of the proven stormfire autocannon 
 
 NHSC_AUTOCANNON_5: "Shredder Autocannon"
 NHSC_AUTOCANNON_5_DESC: "An autocannon that shreds enemies to pieces with a storm of bullets."
+MEDIUM_NHSC_AUTOCANNON_5: "Large $NHSC_AUTOCANNON_5$"
+MEDIUM_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
+LARGE_NHSC_AUTOCANNON_5: "Extra-large $NHSC_AUTOCANNON_5$"
+LARGE_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
 
 ########################################
 ###    Improved Kinetic Artillery    ###

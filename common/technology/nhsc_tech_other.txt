@@ -11,6 +11,8 @@
 # ── Rare Crystals Cultivation		: crystal farmers also produce rare crystals
 # ┬─ Planetary Core Mining			: unlocks special mining building for ecumenopolis
 # └─ Impr. Planetary Core Mining	: unlocks andvanced version of the Mantle Mining Facility
+# ┬─ Large Scale Automatic Cannons	: unlocks M-slot advanced autocannons
+# └─ Superscale Automatic Cannons	: unlocks L-slot advanced autocannons
 
 ############################################################
 ##                Stellar Evenrgy Tower                   ##
@@ -447,6 +449,125 @@ nhsc_tech_mantle_mining_2 = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+}
+
+############################################################
+##              Large Scale Automatic Cannons             ##
+############################################################
+
+nhsc_tech_autocannons_m = {
+	area = engineering
+	category = { propulsion }
+	cost = @tier3cost2
+	weight = @tier4weight2
+	tier = 4
+	prerequisites = { "nhsc_tech_autocannon_4" }
+
+	potential = {
+		NOT = { has_global_flag = ESC_weapons_forbidden }
+	}
+
+	# prereqfor_desc = {
+	# 	custom = {
+	# 		title = "NHSC_TECH_UNLOCK_M_AUTOCANNONS_TITLE"
+	# 		desc = "NHSC_TECH_UNLOCK_M_AUTOCANNONS_DESC"
+	# 	}
+	# }
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+}
+
+############################################################
+##              Superscale Automatic Cannons              ##
+############################################################
+
+nhsc_tech_autocannons_l = {
+	area = engineering
+	category = { propulsion }
+	cost = @tier3cost3
+	weight = @tier4weight3
+	tier = 4
+	prerequisites = { "nhsc_tech_autocannons_m" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_weapons_forbidden }
+	}
+
+	# prereqfor_desc = {
+	# 	custom = {
+	# 		title = "NHSC_TECH_UNLOCK_L_AUTOCANNONS_TITLE"
+	# 		desc = "NHSC_TECH_UNLOCK_L_AUTOCANNONS_DESC"
+	# 	}
+	# }
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
 			}
 		}
 		modifier = {

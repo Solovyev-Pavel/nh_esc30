@@ -671,3 +671,13 @@ nhsc_tech_rare_crystals_cultivation: "Rare Crystals Cultivation"
 nhsc_tech_rare_crystals_cultivation_desc: "With a subtle change to the substrates, we should be able to make living crystals grow with inclusions of rarer and more valuable crystalline materials."
 NHSC_TECH_RARE_CRYSTALS_CULTIVATION_TITLE: "§HUpgrades job§!: £job_esc_crystal_farmer£ §Y$job_esc_crystal_farmer_plural$§! also produce £rare_crystals£ §Y$rare_crystals$§!"
 NHSC_TECH_RARE_CRYSTALS_CULTIVATION_T_DESC: "$nhsc_tech_rare_crystals_cultivation_desc$"
+
+nhsc_tech_autocannons_m: "Large Scale Automatic Cannons"
+nhsc_tech_autocannons_m_desc: "When you need more dakka, it time to break out bigger guns!"
+#NHSC_TECH_UNLOCK_M_AUTOCANNONS_TITLE: "§HUnlocks components§!: M-size advanced autocannons"
+#NHSC_TECH_UNLOCK_M_AUTOCANNONS_DESC: "$nhsc_tech_autocannons_m_desc$"
+
+nhsc_tech_autocannons_l: "Superscale Automatic Cannons"
+nhsc_tech_autocannons_l_desc: "There can never be enough dakka!"
+#NHSC_TECH_UNLOCK_L_AUTOCANNONS_TITLE: "§HUnlocks components§!: L-size advanced autocannons"
+#NHSC_TECH_UNLOCK_L_AUTOCANNONS_DESC: "$nhsc_tech_autocannons_l_desc$"
