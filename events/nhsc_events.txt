@@ -74,6 +74,49 @@ country_event = {
 }
 
 ## ##################################################### ##
+##             Dark Matter technologies events           ##
+## ##################################################### ##
+
+event = {
+	id = nhsc.31
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				NOR = {
+					is_country_type = fallen_empire
+					is_country_type = awakened_fallen_empire
+				}
+			}
+
+			if = {
+				limit = {
+					has_technology = tech_dark_matter_power_core
+					NOR = {
+						has_technology = tech_dark_matter_deflector
+						has_tech_option = tech_dark_matter_deflector
+					}
+				}
+				add_research_option = tech_dark_matter_deflector
+			}
+
+			if = {
+				limit = {
+					has_technology = tech_dark_matter_deflector
+					NOR = {
+						has_technology = tech_dark_matter_power_core
+						has_tech_option = tech_dark_matter_power_core
+					}
+				}
+				add_research_option = tech_dark_matter_power_core
+			}
+		}
+	}
+}
+
+## ##################################################### ##
 ##         Give basic technologies if complex was        ##
 ##                 (reverse) engineered                  ##
 ## ##################################################### ##
