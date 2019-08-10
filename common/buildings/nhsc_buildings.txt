@@ -844,6 +844,8 @@ nhsc_building_stellar_energy_tower = {
 		}
 		modifier = {
 			job_researcher_add = 1
+			job_technician_add = 1
+			job_technician_per_pop = 0.025
 		}
 	}
 
@@ -854,6 +856,8 @@ nhsc_building_stellar_energy_tower = {
 		}
 		modifier = {
 			job_brain_drone_add = 1
+			job_technician_drone_add = 1
+			job_technician_drone_per_pop = 0.025
 		}
 	}
 
@@ -864,6 +868,8 @@ nhsc_building_stellar_energy_tower = {
 		}
 		modifier = {
 			job_calculator_add = 1
+			job_technician_drone_add = 1
+			job_technician_drone_per_pop = 0.025
 		}
 	}
 
