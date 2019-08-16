@@ -175,7 +175,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser }
+                         fe_battlecruiser explorationship }
 
 	ai_weight = {
 		weight = 5
@@ -290,7 +290,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "BATTLECRUISER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { Battlecruiser }
+	size_restriction = { Battlecruiser escortcarrier }
 
 	ai_weight = {
 		weight = 5
@@ -497,7 +497,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser }
+                         fe_battlecruiser explorationship }
 
 	ai_weight = {
 		weight = 6
@@ -609,7 +609,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { Battlecruiser }
+	size_restriction = { Battlecruiser escortcarrier }
 
 	ai_weight = {
 		weight = 6
