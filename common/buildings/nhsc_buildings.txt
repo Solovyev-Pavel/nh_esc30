@@ -217,14 +217,46 @@ nhsc_building_culture_nexus = {
 		country_society_tech_research_speed = 0.05
 	}
 
-	planet_modifier = {
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_megacorp = no
+			}
+		}
 		pop_happiness = 0.05
 		job_culture_worker_add = 7
 		planet_amenities_add = 10
 	}
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_megacorp = yes }
+		}
+		pop_happiness = 0.05
+		job_manager_add = 7
+		planet_amenities_add = 10
+	}
+
 	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_megacorp = no
+			}
+		}
 		text = job_culture_worker_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_megacorp = yes }
+		}
+		text = job_manager_effect_desc
 	}
 
 	show_tech_unlock_if = {
