@@ -12,17 +12,17 @@
 @destroyer_power_6 = 550
 @cruiser_power_6 = 1030
 @battleship_power_6 = 2000
-@titan_power_6 = 5200
+@titan_power_6 = 6000
 @platform_power_6 = 750
 @platform2_power_6 = 1000
 @platform3_power_6 = 1750
 @xlcannon_power_6 = 1600
 
 @strikecruiser_power_6 = 1000
-@battlecruiser_power_6 = 1400
+@battlecruiser_power_6 = 2000
 @carrier_power_6 = 4500
-@dreadnought_power_6 = 5000
-@flagship_power_6 = 15000
+@dreadnought_power_6 = 6000
+@flagship_power_6 = 16000
 @SCX_Dreadnought_power_6 = 2750
 
 ### tier 7 : power
@@ -30,17 +30,17 @@
 @destroyer_power_7 = 750
 @cruiser_power_7 = 1500
 @battleship_power_7 = 2700
-@titan_power_7 = 7200
+@titan_power_7 = 8000
 @platform_power_7 = 1000
 @platform2_power_7 = 1400
 @platform3_power_7 = 2600
 @xlcannon_power_7 = 1900
 
 @strikecruiser_power_7 = 1500
-@battlecruiser_power_7 = 1850
-@carrier_power_7 = 5750
-@dreadnought_power_7 = 6000
-@flagship_power_7 = 17500
+@battlecruiser_power_7 = 2500
+@carrier_power_7 = 5500
+@dreadnought_power_7 = 8000
+@flagship_power_7 = 20000
 @SCX_Dreadnought_power_7 = 3250
 
 ### tier 8 : power
@@ -48,21 +48,21 @@
 @destroyer_power_8 = 1000
 @cruiser_power_8 = 2000
 @battleship_power_8 = 3500
-@titan_power_8 = 9000
+@titan_power_8 = 10000
 @platform_power_8 = 1350
 @platform2_power_8 = 2000
 @platform3_power_8 = 3500
 @xlcannon_power_8 = 2200
 
 @strikecruiser_power_8 = 2100
-@battlecruiser_power_8 = 2500
-@carrier_power_8 = 6000
-@dreadnought_power_8 = 7000
-@flagship_power_8 = 20000
+@battlecruiser_power_8 = 3000
+@carrier_power_8 = 6500
+@dreadnought_power_8 = 10000
+@flagship_power_8 = 24000
 @SCX_Dreadnought_power_8 = 3750
 
 @colossus_power = 15000
-@starbase_power = 25000
+@starbase_power = 30000
 
 ### tier 6 : cost & upkeep
 @corvette_cost_6 = 37
@@ -324,7 +324,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship SCX_Carrier }
+                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_2"
 
@@ -352,7 +352,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { titan explorationship fe_titan }
+	size_restriction = { titan fe_titan }
 	component_set = "power_core"
 	upgrades_to = "TITAN_NHSC_ADV_REACTOR_2"
 
@@ -457,7 +457,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { Carrier }
+	size_restriction = { Carrier explorationship }
 	component_set = "power_core"
 	upgrades_to = "CARRIER_NHSC_ADV_REACTOR_2"
 
@@ -842,7 +842,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship SCX_Carrier }
+                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_3"
 
@@ -870,7 +870,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { titan explorationship fe_titan }
+	size_restriction = { titan fe_titan }
 	component_set = "power_core"
 	upgrades_to = "TITAN_NHSC_ADV_REACTOR_3"
 
@@ -975,7 +975,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { Carrier }
+	size_restriction = { Carrier explorationship }
 	component_set = "power_core"
 	upgrades_to = "CARRIER_NHSC_ADV_REACTOR_3"
 
@@ -1357,7 +1357,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship SCX_Carrier }
+                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1384,7 +1384,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { titan explorationship fe_titan }
+	size_restriction = { titan fe_titan }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1485,7 +1485,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { Carrier }
+	size_restriction = { Carrier explorationship }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1885,7 +1885,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship SCX_Carrier }
+                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1921,7 +1921,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { titan explorationship fe_titan }
+	size_restriction = { titan fe_titan }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2057,7 +2057,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { Carrier }
+	size_restriction = { Carrier explorationship }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2399,5 +2399,3 @@ utility_component_template = {
 		weight = 12
 	}
 }
-
-# explorationship
