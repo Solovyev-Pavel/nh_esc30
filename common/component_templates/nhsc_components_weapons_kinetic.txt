@@ -1008,7 +1008,7 @@ weapon_component_template = {
 	size = point_defence
 	icon = "GFX_ship_part_nhsc_flak_4"
 	icon_frame = 1
-	entity = "medium_kinetic_gun_entity"
+	entity = "turret_point_defence_entity"
 	type = point_defence
 
 	damage = { min = 2.5 max = 8 }
@@ -1053,7 +1053,7 @@ weapon_component_template = {
 	size = point_defence
 	icon = "GFX_ship_part_nhsc_flak_5"
 	icon_frame = 1
-	entity = "medium_kinetic_gun_entity"
+	entity = "turret_point_defence_entity"
 	type = point_defence
 
 	damage = { min = 3 max = 10 }
