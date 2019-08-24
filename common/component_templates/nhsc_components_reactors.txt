@@ -18,7 +18,7 @@
 @platform3_power_6 = 1750
 @xlcannon_power_6 = 1600
 
-@strikecruiser_power_6 = 1000
+@strikecruiser_power_6 = 1300
 @battlecruiser_power_6 = 2000
 @carrier_power_6 = 4500
 @dreadnought_power_6 = 6000
@@ -36,7 +36,7 @@
 @platform3_power_7 = 2600
 @xlcannon_power_7 = 1900
 
-@strikecruiser_power_7 = 1500
+@strikecruiser_power_7 = 1700
 @battlecruiser_power_7 = 2500
 @carrier_power_7 = 5500
 @dreadnought_power_7 = 8000
@@ -62,7 +62,8 @@
 @SCX_Dreadnought_power_8 = 3750
 
 @colossus_power = 15000
-@starbase_power = 30000
+@starbase_power = 20000
+@starbase_nsc_power = 30000
 
 ### tier 6 : cost & upkeep
 @corvette_cost_6 = 37
@@ -730,6 +731,28 @@ utility_component_template = {
 	}
 }
 
+utility_component_template = {
+	key = "STARBASE_NSC_NHSC_ADV_REACTOR_1"
+	size = large
+	icon = "GFX_ship_part_reactor_nhsc_6"
+	icon_frame = 1
+	power = @starbase_nsc_power
+
+	resources = {
+		category = ship_components
+	}
+
+	prerequisites = { "nhsc_tech_advanced_reactor_1" }
+	class_restriction = { shipclass_starbase }
+	size_restriction = { starbase_stronghold starbase_headquarters }
+	component_set = "power_core"
+	upgrades_to = "STARBASE_NSC_NHSC_ADV_REACTOR_2"
+
+	ai_weight = {
+		weight = 15000
+	}
+}
+
 ############################################################
 ##                   Singularity Reactor                  ##
 ############################################################
@@ -1248,6 +1271,28 @@ utility_component_template = {
 	}
 }
 
+utility_component_template = {
+	key = "STARBASE_NSC_NHSC_ADV_REACTOR_2"
+	size = large
+	icon = "GFX_ship_part_reactor_nhsc_7"
+	icon_frame = 1
+	power = @starbase_nsc_power
+
+	resources = {
+		category = ship_components
+	}
+
+	prerequisites = { "nhsc_tech_advanced_reactor_2" }
+	class_restriction = { shipclass_starbase }
+	size_restriction = { starbase_stronghold starbase_headquarters }
+	component_set = "power_core"
+	upgrades_to = "STARBASE_NSC_NHSC_ADV_REACTOR_3"
+
+	ai_weight = {
+		weight = 15000
+	}
+}
+
 ############################################################
 ##              Improved Singularity Reactor              ##
 ############################################################
@@ -1745,6 +1790,27 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 12
+	}
+}
+
+utility_component_template = {
+	key = "STARBASE_NSC_NHSC_ADV_REACTOR_3"
+	size = large
+	icon = "GFX_ship_part_reactor_nhsc_8"
+	icon_frame = 1
+	power = @starbase_nsc_power
+
+	resources = {
+		category = ship_components
+	}
+
+	prerequisites = { "nhsc_tech_advanced_reactor_3" }
+	class_restriction = { shipclass_starbase }
+	size_restriction = { starbase_stronghold starbase_headquarters }
+	component_set = "power_core"
+
+	ai_weight = {
+		weight = 15000
 	}
 }
 
@@ -2383,7 +2449,7 @@ utility_component_template = {
 		category = ship_components
 	}
 
-	prerequisites = { "nhsc_tech_advanced_reactor_3" }
+	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		starbase_outpost
@@ -2397,5 +2463,26 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 12
+	}
+}
+
+utility_component_template = {
+	key = "STARBASE_NSC_NHSC_DARK_MATTER_CORE_2"
+	size = large
+	icon = "GFX_ship_part_nhsc_enigmatic_core_2"
+	icon_frame = 1
+	power = @starbase_nsc_power
+
+	resources = {
+		category = ship_components
+	}
+
+	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
+	class_restriction = { shipclass_starbase }
+	size_restriction = { starbase_stronghold starbase_headquarters }
+	component_set = "power_core"
+
+	ai_weight = {
+		weight = 15000
 	}
 }
