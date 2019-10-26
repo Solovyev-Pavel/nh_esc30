@@ -10,15 +10,10 @@ planet_event = {
     is_triggered_only = yes
     hide_window = yes
 
-    # Fallen Empires don't care about this, so...
+    # Non-machine Fallen Empires don't care about this, so...
     trigger = {
         exists = owner
-        owner = {
-            NOR = {
-                is_country_type = fallen_empire
-                is_country_type = awakened_fallen_empire
-            }
-        }
+        owner = { is_normal_empire_or_machine_fe_nhsc = yes }
     }
 
     immediate = {
@@ -50,15 +45,10 @@ planet_event = {
     is_triggered_only = yes
     hide_window = yes
 
-    # Fallen Empires don't care about this, so...
+    # Non-spiritualist Fallen Empires don't care about this, so...
     trigger = {
         exists = owner
-        owner = {
-            NOR = {
-                is_country_type = fallen_empire
-                is_country_type = awakened_fallen_empire
-            }
-        }
+        owner = { is_organic_empire_or_spiritualist_fe_nhsc = yes }
     }
 
     immediate = {
@@ -90,15 +80,10 @@ planet_event = {
     is_triggered_only = yes
     hide_window = yes
 
-    # Fallen Empires don't care about this, so...
+    # Non-materialist Fallen Empires don't care about this, so...
     trigger = {
         exists = owner
-        owner = {
-            NOR = {
-                is_country_type = fallen_empire
-                is_country_type = awakened_fallen_empire
-            }
-        }
+        owner = { is_normal_empire_or_materialist_fe_nhsc = yes }
     }
 
     immediate = {
@@ -130,15 +115,10 @@ planet_event = {
     is_triggered_only = yes
     hide_window = yes
 
-    # Fallen Empires don't care about this, so...
+    # Non-xenophile Fallen Empires don't care about this, so...
     trigger = {
         exists = owner
-        owner = {
-            NOR = {
-                is_country_type = fallen_empire
-                is_country_type = awakened_fallen_empire
-            }
-        }
+        owner = { is_normal_empire_or_xenophile_fe_nhsc = yes }
     }
 
     immediate = {
@@ -175,12 +155,7 @@ planet_event = {
     # Fallen Empires don't care about this, so...
     trigger = {
         exists = owner
-        owner = {
-            NOR = {
-                is_country_type = fallen_empire
-                is_country_type = awakened_fallen_empire
-            }
-        }
+        owner = { is_fallen_empire = no }
     }
 
     immediate = {
@@ -214,12 +189,7 @@ planet_event = {
     # Fallen Empires don't care about this, so...
     trigger = {
         exists = owner
-        owner = {
-            NOR = {
-                is_country_type = fallen_empire
-                is_country_type = awakened_fallen_empire
-            }
-        }
+        owner = { is_fallen_empire = no }
     }
 
     immediate = {

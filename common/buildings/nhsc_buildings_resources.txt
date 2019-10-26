@@ -129,13 +129,7 @@ nhsc_building_nanite_foundry = {
 		# only awakened machine empire can build this building among FE/AFE
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-				NOT = { has_ethic = ethic_gestalt_consciousness }
-			}
+			owner = { is_normal_empire_or_machine_fe_nhsc = no }
 		}
 
 		# if AI has just researched the Synthetic Lifeforms Study technology and doesn't have a nanite foundry yet, buff the weight to make AI build it
@@ -271,13 +265,7 @@ nhsc_building_psionic_containment = {
 		# only awakened spiritualist empire can build this building among FE/AFE
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-				NOT = { has_ethic = ethic_fanatic_spiritualist }
-			}
+			owner = { is_organic_empire_or_spiritualist_fe_nhsc = no }
 		}
 
 		# do not build this building if there is no zro to power it up
@@ -441,13 +429,7 @@ nhsc_building_graviton_condenser = {
 		# only awakened materialist empire can build this building among FE/AFE
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-				NOT = { has_ethic = ethic_fanatic_materialist }
-			}
+			owner = { is_normal_empire_or_materialist_fe_nhsc = no }
 		}
 
 		# do not build this building if there is no dark matter to power it up
@@ -618,13 +600,7 @@ building_esc_crystal_farm_1 = {
 		# only awakened xenophile empire can build this building among FE/AFE
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-				NOT = { has_ethic = ethic_fanatic_xenophile }
-			}
+			owner = { is_normal_empire_or_xenophile_fe_nhsc = no }
 		}
 
 		# if AI has just researched Crystalline weapons and doesn't have a living crystal farm yet, buff the weight to make AI build it
@@ -779,13 +755,7 @@ building_esc_crystal_farm_2 = {
 		# only awakened xenophile empire can build this building among FE/AFE
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-				NOT = { has_ethic = ethic_fanatic_xenophile }
-			}
+			owner = { is_normal_empire_or_xenophile_fe_nhsc = no }
 		}
 
 		# increase priority if there is insufficient income of living crystals
@@ -930,12 +900,7 @@ nhsc_building_dimensional_breach = {
 		# FE/AFE should not build this bulding
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-			}
+			owner = { is_fallen_empire = yes }
 		}
 
 		# do not build this building if there are no resources to pay for its upkeep
@@ -1115,12 +1080,7 @@ nhsc_building_enigmatic_coil = {
 		# FE/AFE should not build this bulding
 		modifier = {
 			factor = 0
-			owner = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
-			}
+			owner = { is_fallen_empire = yes }
 		}
 
 		# do not build this building if there are no resources to pay for its upkeep
