@@ -120,9 +120,7 @@ nhsc_building_nanite_foundry = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.10 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.10 days = 0 }
 	}
 
 	ai_weight = {
@@ -264,9 +262,7 @@ nhsc_building_psionic_containment = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.20 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.20 days = 0 }
 	}
 
 	ai_weight = {
@@ -436,9 +432,7 @@ nhsc_building_graviton_condenser = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.30 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.30 days = 0 }
 	}
 
 	ai_weight = {
@@ -615,9 +609,7 @@ building_esc_crystal_farm_1 = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.40 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.40 days = 0 }
 	}
 
 	ai_weight = {
@@ -778,9 +770,7 @@ building_esc_crystal_farm_2 = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.40 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.40 days = 0 }
 	}
 
 	ai_weight = {
@@ -931,9 +921,7 @@ nhsc_building_dimensional_breach = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.50 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.50 days = 0 }
 	}
 
 	ai_weight = {
@@ -1118,9 +1106,7 @@ nhsc_building_enigmatic_coil = {
 		}
 	}
 	on_destroy = {
-		owner = {
-			country_event = { id = nhsc_buildings.60 days = 0 }
-		}
+		planet_event = { id = nhsc_buildings.60 days = 0 }
 	}
 
 	ai_weight = {
