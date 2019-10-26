@@ -94,13 +94,14 @@ esc_reprocessor_drone = {
             alloys = 3
         }
         upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
             minerals = 2
             food = 2
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
-			minerals = 4
+			trigger = { is_lithoid = yes }
+			minerals = 3
+			energy = 1
 		}
     }
 
@@ -395,7 +396,7 @@ esc_zro_distiller_drone = {
 			sr_zro = 1
         }
         upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
 			food = 4
 			energy = 5
 			minerals = 5
@@ -404,7 +405,7 @@ esc_zro_distiller_drone = {
 			volatile_motes = 1
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
+			trigger = { is_lithoid = yes }
 			minerals = 9
 			energy = 5
 			rare_crystals = 1
@@ -490,13 +491,13 @@ esc_dark_matter_shaper_drone = {
 			physics_research = 3
         }
         upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
 			food = 3
 			minerals = 2
 			energy = 4
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
+			trigger = { is_lithoid = yes }
 			minerals = 5
 			energy = 4
 		}
@@ -539,7 +540,7 @@ esc_dark_matter_shaper_unit = {
         }
         upkeep = {
 			minerals = 2
-			energy = 7
+			energy = 6
         }
     }
 
@@ -576,13 +577,13 @@ esc_planetary_core_miner = {
     resources = {
         category = planet_jobs
         upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
 			food = 5
 			consumer_goods = 5
 			energy = 5
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
+			trigger = { is_lithoid = yes }
 			minerals = 5
 			consumer_goods = 5
 			energy = 5
@@ -669,12 +670,12 @@ esc_planetary_core_miner_drone = {
     resources = {
         category = planet_jobs
         upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
 			food = 10
 			energy = 5
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
+			trigger = { is_lithoid = yes }
 			minerals = 10
 			energy = 5
 		}
@@ -839,13 +840,13 @@ esc_borehole_maintainer = {
 			engineering_research = 8
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
 			consumer_goods = 2
 			food = 1.5
 			alloys = 1
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
+			trigger = { is_lithoid = yes }
 			consumer_goods = 2
 			minerals = 1.5
 			alloys = 1
@@ -884,12 +885,12 @@ esc_borehole_maintainer_drone = {
 			engineering_research = 8
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = no }
+			trigger = { is_lithoid = no }
 			food = 5
 			alloys = 1
 		}
 		upkeep = {
-			trigger = { is_lithoid_empire = yes }
+			trigger = { is_lithoid = yes }
 			minerals = 5
 			alloys = 1
 		}

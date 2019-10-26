@@ -91,12 +91,12 @@ esc_nanite_breeder_drone = {
             nanites = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             alloys = 4
             food = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             alloys = 4
             minerals = 2
         }
@@ -242,12 +242,12 @@ esc_crystal_farmer_drone = {
             rare_crystals = 0.5
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             minerals = 4
             food = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             minerals = 6
         }
     }
@@ -335,12 +335,12 @@ esc_channeller = {
             esc_psionic_charge = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             energy = 4
             food = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             energy = 4
             minerals = 2
         }
@@ -400,12 +400,12 @@ esc_channeller_drone = {
             esc_psionic_charge = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             food = 2
             energy = 4
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             minerals = 2
             energy = 4
         }
@@ -516,12 +516,12 @@ esc_gravity_manipulator_drone = {
             esc_gravitic_anomaly = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             energy = 2
             food = 4
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             energy = 2
             minerals = 4
         }
@@ -657,12 +657,12 @@ esc_dimension_warper_drone = {
             esc_transdimensional_vortex = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             energy = 2
             food = 4
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             energy = 2
             minerals = 4
         }
@@ -799,12 +799,12 @@ esc_enigma_reader_drone = {
             esc_enigmatic_energy = 2
         }
         upkeep = {
-            trigger = { is_lithoid_empire = no }
+            trigger = { is_lithoid = no }
             energy = 2
             food = 4
         }
         upkeep = {
-            trigger = { is_lithoid_empire = yes }
+            trigger = { is_lithoid = yes }
             energy = 2
             minerals = 4
         }
