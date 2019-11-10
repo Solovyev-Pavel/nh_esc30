@@ -397,7 +397,7 @@ nhsc_building_graviton_condenser = {
         text = job_esc_gravity_manipulator_unit_effect_desc
 	}
 
-	prerequisites = { "nhsc_tech_gravity_weapons" }
+	prerequisites = { "nhsc_tech_gravity_manipulation" }
 
 	# To help AI determine, whether this building should be built, a country_flag is set when building is queued. This flag is removed if the building
 	# is unqueued and replaced by another (timed) country_flag when construction is comeplete. We also check, whether another building of this type
