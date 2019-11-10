@@ -73,7 +73,6 @@ utility_component_template = {
 		ship_evasion_mult = 0.15
 	}
 
-	class_restriction = { shipclass_military explorationship }
 	prerequisites = { "nhsc_tech_afterburners_3" }
 	component_set = "NHSC_AFTERBURNER_3"
 
