@@ -418,7 +418,7 @@ weapon_component_template = {
 						 rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h rs_heavy_dreadnought_type_strg
 						 rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2
 						 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw fe_battlecruiser
-						 fe_titan ultrajuggernaut SCX_Carrier SCX_Dreadnought }
+						 fe_titan ultrajuggernaut SCX_Carrier SCX_Dreadnought dreadnought_a }
 
 	valid_for_country = {
 		modifier = {
