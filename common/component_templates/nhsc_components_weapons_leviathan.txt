@@ -21,7 +21,7 @@
 @dimensional_horror_armor_penetration = 0.1
 @dimensional_horror_armor_damage = 0.9
 @dimensional_horror_shield_penetration = 1.0
-@dimensional_horror_shield_damage = 1.1
+@dimensional_horror_shield_damage = 1.0
 
 @tiyanki_hull_damage = 1.0
 @tiyanki_armor_damage = 2.0
@@ -116,7 +116,7 @@ weapon_component_template = {
 	entity = "medium_laser_gun_entity"
 	type = point_defence
 
-	damage = { min = 12.0 max = 17.0 }
+	damage = { min = 10.0 max = 15.0 }
 	windup = { min = 1.0 max = 1.0 }
 	total_fire_time = 5
 	range = 45
@@ -378,7 +378,7 @@ weapon_component_template = {
 	entity = "medium_laser_gun_entity"
 	type = point_defence
 
-	damage = { min = 20.0 max = 25.0 }
+	damage = { min = 17.0 max = 22.0 }
 	windup = { min = 1.0 max = 3.0 }
 	total_fire_time = 8
 	range = 50
