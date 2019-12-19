@@ -33,7 +33,6 @@ nhsc_tech_crystal_cannon_1 = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			is_country_type = default
 			NOR = {
 				has_country_flag = crystal_nonhostile_approach
 				has_country_flag = crystal_hostile_approach
