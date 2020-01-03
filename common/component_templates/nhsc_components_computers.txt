@@ -2,17 +2,17 @@
 ##                  ESC : Ship Computers                  ##
 ############################################################
 
-# - Automated Dreadnough Computer : Cruiser
-# - Automated Dreadnough Computer : Battleship
-# - Automated Dreadnough Computer : Titan
-# - Automated Dreadnough Computer : NSC Strike Cruiser
-# - Automated Dreadnough Computer : NSC Battlecruiser
-# - Automated Dreadnough Computer : NSC Carrier
-# - Automated Dreadnough Computer : NSC Dreadnought
-# - Automated Dreadnough Computer : NSC Flagship
+# - Automated Dreadnought Computer : Cruiser
+# - Automated Dreadnought Computer : Battleship
+# - Automated Dreadnought Computer : Titan
+# - Automated Dreadnought Computer : NSC Strike Cruiser
+# - Automated Dreadnought Computer : NSC Battlecruiser
+# - Automated Dreadnought Computer : NSC Carrier
+# - Automated Dreadnought Computer : NSC Dreadnought
+# - Automated Dreadnought Computer : NSC Flagship
 
 ############################################################
-##        Automated Dreadnough Computer : Cruiser         ##
+##        Automated Dreadnought Computer : Cruiser        ##
 ############################################################
 
 utility_component_template = {
@@ -60,7 +60,7 @@ utility_component_template = {
 }
 
 ############################################################
-##       Automated Dreadnough Computer : Battleship       ##
+##       Automated Dreadnought Computer : Battleship      ##
 ############################################################
 
 utility_component_template = {
@@ -113,7 +113,7 @@ utility_component_template = {
 }
 
 ############################################################
-##         Automated Dreadnough Computer : Titan          ##
+##         Automated Dreadnought Computer : Titan         ##
 ############################################################
 
 utility_component_template = {
@@ -162,7 +162,7 @@ utility_component_template = {
 }
 
 ############################################################
-##   Automated Dreadnough Computer : NSC Strike Cruiser   ##
+##   Automated Dreadnought Computer : NSC Strike Cruiser  ##
 ############################################################
 
 utility_component_template = {
@@ -210,7 +210,7 @@ utility_component_template = {
 }
 
 ############################################################
-##   Automated Dreadnough Computer : NSC Battlecruiser    ##
+##   Automated Dreadnought Computer : NSC Battlecruiser   ##
 ############################################################
 
 utility_component_template = {
@@ -258,7 +258,7 @@ utility_component_template = {
 }
 
 ############################################################
-##      Automated Dreadnough Computer : NSC Carrier       ##
+##      Automated Dreadnought Computer : NSC Carrier      ##
 ############################################################
 
 utility_component_template = {
@@ -306,7 +306,7 @@ utility_component_template = {
 }
 
 ############################################################
-##    Automated Dreadnough Computer : NSC Dreadnought     ##
+##    Automated Dreadnought Computer : NSC Dreadnought    ##
 ############################################################
 
 utility_component_template = {
@@ -355,7 +355,7 @@ utility_component_template = {
 }
 
 ############################################################
-##      Automated Dreadnough Computer : NSC Flagship      ##
+##      Automated Dreadnought Computer : NSC Flagship     ##
 ############################################################
 
 utility_component_template = {
