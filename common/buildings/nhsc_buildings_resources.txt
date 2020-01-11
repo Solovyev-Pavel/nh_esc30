@@ -339,7 +339,12 @@ nhsc_building_graviton_condenser = {
             energy = 5
             sr_dark_matter = 1
         }
-    }
+	}
+
+	potential = {
+		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_buildings_forbidden }
+	}
 
 	allow = { has_upgraded_capital = yes }
 
