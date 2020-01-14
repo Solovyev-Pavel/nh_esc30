@@ -342,7 +342,6 @@ nhsc_building_graviton_condenser = {
 	}
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOT = { has_global_flag = ESC_buildings_forbidden }
 	}
 
