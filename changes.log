@@ -1,0 +1,4 @@
+>>> 16.01.2020
+- Graviton Condenser should now respect ESC buildings forbidden flag. Gravitic Anomaly edicts should no longer appear if Graviton Condenser is not allowed.
+- Added minor partial overwrite to economic_categories to enable certain megastructure modifiers. Should not cause any compatibility issues.
+- Added test event that gives player's country all ESC technologies and their vanilla prerequisites. Type 'event esc_test.1' into console to execute it.
