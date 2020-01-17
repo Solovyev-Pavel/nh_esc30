@@ -1,4 +1,6 @@
->>> 16.01.2020
-- Graviton Condenser should now respect ESC buildings forbidden flag. Gravitic Anomaly edicts should no longer appear if Graviton Condenser is not allowed.
+>>> 17.01.2020
+- ESC buildings now follow more consistent rules on being allowed for construction:
+    - Special resource production buildings require either buildings or weapons to be allowed.
+    - Other buildings require buildings to be allowed.
 - Added minor partial overwrite to economic_categories to enable certain megastructure modifiers. Should not cause any compatibility issues.
 - Added test event that gives player's country all ESC technologies and their vanilla prerequisites. Type 'event esc_test.1' into console to execute it.
