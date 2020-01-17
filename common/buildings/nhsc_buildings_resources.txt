@@ -25,7 +25,10 @@ nhsc_building_nanite_foundry = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -185,6 +188,15 @@ nhsc_building_psionic_containment = {
 
 	allow = { has_upgraded_capital = yes }
 
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
+	}
+
     resources = {
         category = planet_buildings
         cost = {
@@ -342,7 +354,12 @@ nhsc_building_graviton_condenser = {
 	}
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -500,7 +517,10 @@ building_esc_crystal_farm_1 = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -657,7 +677,10 @@ building_esc_crystal_farm_2 = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -803,6 +826,15 @@ nhsc_building_dimensional_breach = {
 	category = manufacturing
 
 	allow = { has_upgraded_capital = yes }
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
+	}
 
     resources = {
         category = planet_buildings
@@ -977,7 +1009,10 @@ nhsc_building_enigmatic_coil = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NAND = {
+			has_global_flag = ESC_weapons_forbidden
+			has_global_flag = ESC_buildings_forbidden
+		}
 	}
 
 	allow = { has_upgraded_capital = yes }
