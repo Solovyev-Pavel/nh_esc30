@@ -42,7 +42,7 @@ nhsc_building_reprocessing_plant: "Usine de traitement"
 nhsc_building_reprocessing_plant_desc: "Cette usine de recyclage et de retraitement avancée peut extraire une quantité incroyable de ressources utiles à partir des ordures ménagères."
 job_esc_reprocessor_effect_desc: "Les £job_esc_reprocessor£ $job_esc_reprocessor_plural$ convertissent des £minerals£ §Y$minéraux$§! et £energy£ §Y$énergie$§! en £consumer_goods£ §Y$biens de consommation$§! et £alloys£ §Y$alliages$§!."
 job_esc_reprocessor_drone_effect_desc: "Les £job_esc_reprocessor_drone£ $job_esc_reprocessor_drone_plural$ convertissent £minerals£ §Y$minéraux$§! et £food£ §Y$nourriture$§! en £alloys£ §Y$alliages$§!."
-job_esc_reprocessor_unit_effect_desc: "Les £job_esc_reprocessor_unit£ $job_esc_reprocessor_unit_plural$ convertissent £minerals£ §Y$minéraux$§! et £energy£ §Y$énergie$§! £alloys£ §Y$alliages$§!."
+job_esc_reprocessor_unit_effect_desc: "Les £job_esc_reprocessor_unit£ $job_esc_reprocessor_unit_plural$ convertissent £minerals£ §Y$minéraux$§! et £energy£ §Y$énergie$§! en £alloys£ §Y$alliages$§!."
 
 nhsc_building_zro_distillery: "Distillerie de Zro"
 nhsc_building_zro_distillery_desc: "Cette installation de traitement de pointe extrait et trie les matières premières des montagnes, pour récolter de minuscules cristaux de poussière de Zro extrêmement précieux."
