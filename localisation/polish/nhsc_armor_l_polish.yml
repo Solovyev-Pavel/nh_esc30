@@ -1,4 +1,9 @@
-l_polish:
+﻿l_polish:
+
+ ####################################
+ # ESC 3.0 mod by NHunter, Translation by GhostOfForests)
+ # Translation check : OK 21.12.2020
+ ####################################
 
 ### POLISH LOCALIZATION
 
@@ -119,4 +124,3 @@ MEDIUM_NHSC_CRYSTAL_ARMOR_3: "Średni $NHSC_CRYSTAL_ARMOR_3$"
 MEDIUM_NHSC_CRYSTAL_ARMOR_3_DESC: "$NHSC_CRYSTAL_ARMOR_3_DESC$"
 LARGE_NHSC_CRYSTAL_ARMOR_3: "Duży $NHSC_CRYSTAL_ARMOR_3$"
 LARGE_NHSC_CRYSTAL_ARMOR_3_DESC: "$NHSC_CRYSTAL_ARMOR_3_DESC$"
-
