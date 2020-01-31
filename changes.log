@@ -4,3 +4,10 @@
     - Other buildings require buildings to be allowed.
 - Added minor partial overwrite to economic_categories to enable certain megastructure modifiers. Should not cause any compatibility issues.
 - Added test event that gives player's country all ESC technologies and their vanilla prerequisites. Type 'event esc_test.1' into console to execute it.
+
+
+>>> 21.01.2020
+- Fixed missing minor artifacts from the resource UI if Universal Resource Patch is not used.
+- Time-Space Continuum Manipulation technology no longer affects build costs. It now affects only construction speeds and decision enactment speed [new].
+- Fixed a couple of small errors in localization strings.
+- Added proper Polish translation by GhostOfForests (armor, buildings and job descriptions).
