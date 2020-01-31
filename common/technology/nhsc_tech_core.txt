@@ -824,14 +824,10 @@ nhsc_tech_spacetime_manipulation = {
 	potential = { end_game_years_passed > 0 }
 
 	modifier = {
-		starbase_shipyard_build_cost_mult = -0.1
-		planet_buildings_cost_mult = -0.1
-		planet_districts_cost_mult = -0.1
-		megastructures_cost_mult = -0.1
+		planet_decision_enact_speed_mult = 0.5
 		planet_building_build_speed_mult = 0.1
 		starbase_shipyard_build_speed_mult = 0.1
 		megastructure_build_speed_mult = 0.1
-		starbase_upgrade_cost_mult = -0.1
 		starbase_upgrade_speed_mult = 0.1
 	}
 
