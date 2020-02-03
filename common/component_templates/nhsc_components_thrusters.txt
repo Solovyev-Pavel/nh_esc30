@@ -575,7 +575,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_base_speed_mult = 1.0
+		ship_base_speed_mult = 1.25
 		ship_evasion_add = 17
 	}
 
@@ -603,7 +603,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_base_speed_mult = 1.0
+		ship_base_speed_mult = 1.25
 		ship_evasion_add = 13
 	}
 
@@ -631,7 +631,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_base_speed_mult = 1.0
+		ship_base_speed_mult = 1.25
 		ship_evasion_add = 10
 	}
 
@@ -659,7 +659,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_base_speed_mult = 1.0
+		ship_base_speed_mult = 1.25
 		ship_evasion_add = 8
 	}
 
@@ -687,7 +687,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_base_speed_mult = 1.0
+		ship_base_speed_mult = 1.25
 		ship_evasion_add = 3
 	}
 
