@@ -556,7 +556,7 @@ nhsc_tech_advanced_thrusters_2 = {
 	cost = @tier5cost1
 	weight = @tier5weight1
 	ai_update_type = all
-	prerequisites = { "nhsc_tech_advanced_thrusters_1" "nhsc_tech_gravity_manipulation" }
+	prerequisites = { "nhsc_tech_gravity_manipulation" }
 	is_rare = yes
 
 	prereqfor_desc = {
@@ -574,6 +574,13 @@ nhsc_tech_advanced_thrusters_2 = {
 	weight_modifier = {
 		factor = 1.25
 		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = "nhsc_tech_advanced_thrusters_1"
+				has_technology = "tech_dark_matter_propulsion"
+			}
+		}
+		modifier = {
 			factor = 1.25
 			research_leader = {
 				area = engineering
@@ -584,6 +591,13 @@ nhsc_tech_advanced_thrusters_2 = {
 
 	ai_weight = {
 		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = "nhsc_tech_advanced_thrusters_1"
+				has_technology = "tech_dark_matter_propulsion"
+			}
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
