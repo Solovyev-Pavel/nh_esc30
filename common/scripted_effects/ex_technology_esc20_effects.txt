@@ -172,13 +172,17 @@ esc_tech_switch = {
 	if = { limit = { last_increased_tech = nhsc_tech_nanite_cannon_2 } nano_cannon_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_nanite_cannon_1 } nano_cannon_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_nanite_strikecraft } strike_craft_tech_check = yes break = yes }
-	# ### psionic weapons
+	### psionic weapons
 	if = { limit = { last_increased_tech = nhsc_tech_psionic_cannon_3 } psionic_cannon_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_psionic_cannon_2 } psionic_cannon_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_psionic_cannon_1 } psionic_cannon_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_psionic_torpedo_2 } psionic_torpedo_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_psionic_torpedo_1 } psionic_torpedo_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_psionic_strikecraft } strike_craft_tech_check = yes break = yes }
+	### extradimensional weapons
+	if = { limit = { last_increased_tech = nhsc_tech_extradimensional_weapon_2_t } extradimensional_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_extradimensional_weapon_2_x } extradimensional_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_extradimensional_weapon_2 } extradimensional_tech_check = yes break = yes }
 }
 
 ## ##################################################### ##
@@ -1630,5 +1634,36 @@ psionic_torpedo_tech_check = {
 			NOT = { has_technology = "nhsc_tech_psionic_weapons" }
 		}
 		give_technology = { message = no tech = nhsc_tech_psionic_weapons }
+	}
+}
+
+## ##################################################### ##
+##       Extradimensional-related scripted effects       ##
+## ##################################################### ##
+
+extradimensional_tech_check = {
+	## titanic matter annihilator >>> grand matter annihilator
+	if = {
+		limit = {
+			has_technology = "nhsc_tech_extradimensional_weapon_2_t"
+			NOT = { has_technology = "nhsc_tech_extradimensional_weapon_2_x" }
+		}
+		give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_2_x }
+	}
+	## grand matter annihilator >>>  matter annihilator
+	if = {
+		limit = {
+			has_technology = "nhsc_tech_extradimensional_weapon_2_x"
+			NOT = { has_technology = "nhsc_tech_extradimensional_weapon_2" }
+		}
+		give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_2 }
+	}
+	## matter annihilator >>>  matter disintegrator
+	if = {
+		limit = {
+			has_technology = "nhsc_tech_extradimensional_weapon_2"
+			NOT = { has_technology = "tech_extradimensional_weapon_1" }
+		}
+		give_technology = { message = no tech = tech_extradimensional_weapon_1 }
 	}
 }
