@@ -616,6 +616,26 @@ nhsc_tech_tactical_strikecrafts_desc: "La prochaine génération de chasseurs sp
 nhsc_tech_siegebreaker_strikecrafts: "Vaisseaux-Chasseurs 'Briseurs de siège'"
 nhsc_tech_siegebreaker_strikecrafts_desc: "Les meilleurs combattants de l'espace."
 
+### extradimensional :: TODO = translate
+
+nhsc_tech_extradimensional_weapon_2: "Matter Annihilator"
+nhsc_tech_extradimensional_weapon_2_desc: "An improved, more powerful version of extradimensional trophy weapon, Matter Disintegrator."
+
+nhsc_tech_extradimensional_weapon_2_x: "Grand Matter Annihilator"
+nhsc_tech_extradimensional_weapon_2_x_desc: "Scaled up version of $nhsc_tech_extradimensional_weapon_2$ that able to annihilate even more matter (that is our enemies' ships)."
+
+nhsc_tech_extradimensional_weapon_2_t: "Titanic Matter Annihilator"
+nhsc_tech_extradimensional_weapon_2_t_desc: "The ultimate version $nhsc_tech_extradimensional_weapon_2$, for the biggest ships in our fleets."
+
+nhsc_tech_extradimensional_weapon_3: "Reality Eraser"
+nhsc_tech_extradimensional_weapon_3_desc: "Addition of Null Void energies into Matter Annihilator beam produces a weapon capable of altering reality as it erases matter and even space that matter occupies."
+
+nhsc_tech_extradimensional_weapon_3_x: "Grand Reality Eraser"
+nhsc_tech_extradimensional_weapon_3_x_desc: "Scaled up version of $nhsc_tech_extradimensional_weapon_3$ that can erase more an faster than any other weapon in our arsenal."
+
+nhsc_tech_extradimensional_weapon_3_t: "Titanic Reality Eraser"
+nhsc_tech_extradimensional_weapon_3_t_desc: "The ultimate version $nhsc_tech_extradimensional_weapon_3$, for the biggest ships in our fleets."
+
 ########################################
 ###      Technologies : other        ###
 ########################################

@@ -41,7 +41,6 @@ projectile_gfx_beam = {
 	}
 }
 
-
 projectile_gfx_beam = {
 	name = "nhsc_adv_laser_medium"
 	color = { 0.95 	0.95	0.06 	0.3 }
@@ -82,7 +81,6 @@ projectile_gfx_beam = {
 		delay = 0.1
 	}
 }
-
 
 projectile_gfx_beam = {
 	name = "nhsc_adv_laser_large"
@@ -168,7 +166,6 @@ projectile_gfx_beam = {
 	}
 }
 
-
 projectile_gfx_beam = {
 	name = "nhsc_aurora_laser_medium"
 	color = { 1.0 	1.0	1.0 	0.3 }
@@ -209,7 +206,6 @@ projectile_gfx_beam = {
 		delay = 0.1
 	}
 }
-
 
 projectile_gfx_beam = {
 	name = "nhsc_aurora_laser_large"
