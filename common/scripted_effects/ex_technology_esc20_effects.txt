@@ -18,6 +18,7 @@ esc_tech_switch = {
 	if = { limit = { last_increased_tech = nhsc_tech_shields_cyclonic_1 } shield_tech_check = yes shield_recharger_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_advanced_shields_2 } shield_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_advanced_shields_1 } shield_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_dark_matter_shields_2 } shield_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_dark_matter_deflector } shield_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_psionic_shield } shield_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_shields_5 } shield_tech_check = yes break = yes }
@@ -51,6 +52,7 @@ esc_tech_switch = {
 	if = { limit = { last_increased_tech = nhsc_tech_advanced_reactor_3 } reactor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_advanced_reactor_2 } reactor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_advanced_reactor_1 } reactor_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_dark_matter_power_core_2 } reactor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_dark_matter_power_core } reactor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_zero_point_power } reactor_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_antimatter_power } reactor_tech_check = yes break = yes }
@@ -331,6 +333,14 @@ shield_tech_check = {
 		}
 		give_technology = { message = no tech = nhsc_tech_advanced_shields_1 }
 	}
+	## imrpoved dark matter shields >>> dark matter deflectors
+	if = {
+		limit = {
+			has_technology = "nhsc_tech_dark_matter_shields_2"
+			NOT = { has_technology = "tech_dark_matter_deflector" }
+		}
+		give_technology = { message = no tech = tech_dark_matter_deflector }
+	}
 	## shields 6 >>> shields 5
 	## dark matter deflectors >>> shields 5
 	## psionic shields >>> shields 5
@@ -555,6 +565,14 @@ reactor_tech_check = {
 			NOT = { has_technology = "nhsc_tech_advanced_reactor_1" }
 		}
 		give_technology = { message = no tech = nhsc_tech_advanced_reactor_1 }
+	}
+	## improved dark matter reactor >>> dark matter reactor
+	if = {
+		limit = {
+			has_technology = "nhsc_tech_dark_matter_power_core_2"
+			NOT = { has_technology = "tech_dark_matter_power_core" }
+		}
+		give_technology = { message = no tech = tech_dark_matter_power_core }
 	}
 	## dark matter reactor >>> reactor 5
 	## reactor 6 >>> reactor 5

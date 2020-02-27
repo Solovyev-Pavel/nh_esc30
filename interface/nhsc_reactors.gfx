@@ -19,4 +19,9 @@ spriteTypes = {
 		name = "GFX_ship_part_nhsc_enigmatic_core_2"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_enigmatic_power2.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ship_part_nhsc_enigmatic_core_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_enigmatic_power3.dds"
+	}
 }

@@ -9,6 +9,7 @@
 # - Cyclonic Shields					S/M/L
 # - Improved Cyclonic Shields			S/M/L
 # - Improved Dark Matter Shield			S/M/L
+# - Perfected Dark Matter Shield		S/M/L
 # - A.T. Field							S/M/L
 
 ############################################################
@@ -779,34 +780,28 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_nhsc_enigmatic_shield_2"
 	icon_frame = 1
-	power = @shield_s_t8_power
+	power = @shield_s_t7_power
 
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @shield_s_t8_cost
+			alloys = @shield_s_t7_cost
 			sr_dark_matter = 0.5
 		}
 		upkeep = {
-			energy = @shield_s_t8_upkeep_energy
-			alloys = @shield_s_t8_upkeep_alloys
+			energy = @shield_s_t7_upkeep_energy
+			alloys = @shield_s_t7_upkeep_alloys
 		}
 	}
 
     modifier = {
-		ship_shield_add = @shield_s_t8_strength
-		ship_shield_regen_add_static = @shield_s_t8_regen
+		ship_shield_add = @shield_s_t7_strength
+		ship_shield_regen_add_static = @shield_s_t7_regen
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_shields_2" }
 	component_set = "NHSC_ENIGMATIC_SHIELD_2"
-
-	valid_for_country = {
-		modifier = {
-			factor = 0 # only normal empires should use this component
-			is_fallen_empire = yes
-		}
-	}
+	upgrades_to = "SMALL_NHSC_ENIGMATIC_SHIELD_3"
 
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
@@ -825,27 +820,111 @@ utility_component_template = {
 	size = medium
 	icon = "GFX_ship_part_nhsc_enigmatic_shield_2"
 	icon_frame = 1
-	power = @shield_m_t8_power
+	power = @shield_m_t7_power
 
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = @shield_m_t8_cost
+			alloys = @shield_m_t7_cost
 			sr_dark_matter = 1.0
 		}
 		upkeep = {
-			energy = @shield_m_t8_upkeep_energy
-			alloys = @shield_m_t8_upkeep_alloys
+			energy = @shield_m_t7_upkeep_energy
+			alloys = @shield_m_t7_upkeep_alloys
 		}
 	}
 
     modifier = {
-		ship_shield_add = @shield_m_t8_strength
-		ship_shield_regen_add_static = @shield_m_t8_regen
+		ship_shield_add = @shield_m_t7_strength
+		ship_shield_regen_add_static = @shield_m_t7_regen
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_shields_2" }
 	component_set = "NHSC_ENIGMATIC_SHIELD_2"
+	upgrades_to = "MEDIUM_NHSC_ENIGMATIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_NHSC_ENIGMATIC_SHIELD_2"
+	size = large
+	icon = "GFX_ship_part_nhsc_enigmatic_shield_2"
+	icon_frame = 1
+	power = @shield_l_t7_power
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_l_t7_cost
+			sr_dark_matter = 2.0
+		}
+		upkeep = {
+			energy = @shield_l_t7_upkeep_energy
+			alloys = @shield_l_t7_upkeep_alloys
+		}
+	}
+
+    modifier = {
+		ship_shield_add = @shield_l_t7_strength
+		ship_shield_regen_add_static = @shield_l_t7_regen
+	}
+
+	prerequisites = { "nhsc_tech_dark_matter_shields_2" }
+	component_set = "NHSC_ENIGMATIC_SHIELD_2"
+	upgrades_to = "LARGE_NHSC_ENIGMATIC_SHIELD_3"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
+}
+
+############################################################
+##              Perfected Dark Matter Shield              ##
+############################################################
+
+utility_component_template = {
+	key = "SMALL_NHSC_ENIGMATIC_SHIELD_3"
+	size = small
+	icon = "GFX_ship_part_nhsc_enigmatic_shield_3"
+	icon_frame = 1
+	power = @shield_s_t8_power
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_s_t8_cost
+			sr_dark_matter = 0.75
+		}
+		upkeep = {
+			energy = @shield_s_t8_upkeep_energy
+			alloys = @shield_s_t8_upkeep_alloys
+		}
+	}
+
+    modifier = {
+		ship_shield_add = @shield_s_t8_strength
+		ship_shield_regen_add_static = @shield_s_t8_regen
+	}
+
+	prerequisites = { "nhsc_tech_dark_matter_shields_3" }
+	component_set = "NHSC_ENIGMATIC_SHIELD_3"
 
 	valid_for_country = {
 		modifier = {
@@ -867,9 +946,55 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "LARGE_NHSC_ENIGMATIC_SHIELD_2"
+	key = "MEDIUM_NHSC_ENIGMATIC_SHIELD_3"
+	size = medium
+	icon = "GFX_ship_part_nhsc_enigmatic_shield_3"
+	icon_frame = 1
+	power = @shield_m_t8_power
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_m_t8_cost
+			sr_dark_matter = 1.5
+		}
+		upkeep = {
+			energy = @shield_m_t8_upkeep_energy
+			alloys = @shield_m_t8_upkeep_alloys
+		}
+	}
+
+    modifier = {
+		ship_shield_add = @shield_m_t8_strength
+		ship_shield_regen_add_static = @shield_m_t8_regen
+	}
+
+	prerequisites = { "nhsc_tech_dark_matter_shields_3" }
+	component_set = "NHSC_ENIGMATIC_SHIELD_3"
+
+	valid_for_country = {
+		modifier = {
+			factor = 0 # only normal empires should use this component
+			is_fallen_empire = yes
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = sr_dark_matter
+				value < 100
+			}
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_NHSC_ENIGMATIC_SHIELD_3"
 	size = large
-	icon = "GFX_ship_part_nhsc_enigmatic_shield_2"
+	icon = "GFX_ship_part_nhsc_enigmatic_shield_3"
 	icon_frame = 1
 	power = @shield_l_t8_power
 
@@ -877,7 +1002,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = @shield_l_t8_cost
-			sr_dark_matter = 2.0
+			sr_dark_matter = 3.0
 		}
 		upkeep = {
 			energy = @shield_l_t8_upkeep_energy
@@ -890,8 +1015,8 @@ utility_component_template = {
 		ship_shield_regen_add_static = @shield_l_t8_regen
 	}
 
-	prerequisites = { "nhsc_tech_dark_matter_shields_2" }
-	component_set = "NHSC_ENIGMATIC_SHIELD_2"
+	prerequisites = { "nhsc_tech_dark_matter_shields_3" }
+	component_set = "NHSC_ENIGMATIC_SHIELD_3"
 
 	valid_for_country = {
 		modifier = {

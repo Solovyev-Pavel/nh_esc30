@@ -133,6 +133,11 @@ nhsc_tech_dark_matter_power_core_2_desc: "New and improved protocols for channel
 NHSC_TECH_UNLOCK_DM_REACTOR_2_TITLE: "§HUnlocks components§!: Improved Dark Matter Reactor"
 NHSC_TECH_UNLOCK_DM_REACTOR_2_DESC: "An upgraded version of Dark Matter Reactor."
 
+nhsc_tech_dark_matter_power_core_3: "Perfected Dark Matter Reactor"
+nhsc_tech_dark_matter_power_core_3_desc: "Deep understanding of the nature of the Dark Matter allows us to construct a perfect reactor utilizing its vast potential."
+NHSC_TECH_UNLOCK_DM_REACTOR_3_TITLE: "§HUnlocks components§!: Perfected Dark Matter Reactor"
+NHSC_TECH_UNLOCK_DM_REACTOR_3_DESC: "A perfected version of Reactor based on the Dark Matter."
+
 nhsc_tech_reactor_booster_4: "Auxiliary Zero Point Reactor"
 nhsc_tech_reactor_booster_4_desc: "Auxiliary reactors are the solution when primary reactor is just not enough to power all of the ship's systems."
 
@@ -256,6 +261,9 @@ nhsc_tech_dark_matter_shields_2: "Improved Dark Matter Shield"
 nhsc_tech_dark_matter_shields_2_desc: "A new and more powerful version of Dark Matter Shields."
 NHSC_TECH_ENIGMA_SHIELDS_2_TITLE: "Improved Dark Matter Shield"
 NHSC_TECH_ENIGMA_SHIELDS_2_DESC: "A new and more powerful version of Dark Matter Shields."
+
+nhsc_tech_dark_matter_shields_3: "Perfected Dark Matter Shield"
+nhsc_tech_dark_matter_shields_3_desc: "Deep understanding of the nature of the Dark Matter allows us to design extremely-powerful shields based around it."
 
 nhsc_tech_atfield: "A.T. Field"
 nhsc_tech_atfield_desc: "Absolute Territory marks the space where our minds deny the dangers entrance to."

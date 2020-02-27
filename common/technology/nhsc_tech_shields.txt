@@ -8,7 +8,8 @@
 # ── Cyclonic Deflectors					: special tier 5 shields
 #     └─ Cyclonic Shields					: special tier 6 shields
 #         └─ Improved Cyclonic Shields		: special tier 7 shields
-# ── Improved Dark Matter Shields			: tier 8 shields [vanilla FE upgrade]
+# ── Improved Dark Matter Shields			: tier 7 shields [vanilla FE upgrade]
+#     └─ Perfected Dark Matter Shields		: tier 8 shields [vanilla FE upgrade]
 # ── A.T. Field								: tier 8 psionic shields
 
 ############################################################
@@ -38,7 +39,7 @@ nhsc_tech_advanced_shields_1 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -79,7 +80,7 @@ nhsc_tech_advanced_shields_2 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -122,7 +123,7 @@ nhsc_tech_waveforcearmor = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 0.5
 		modifier = {
@@ -169,7 +170,7 @@ nhsc_tech_shields_cyclonic_1 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -186,7 +187,7 @@ nhsc_tech_shields_cyclonic_1 = {
 				has_trait = "leader_trait_maniacal"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
@@ -201,7 +202,7 @@ nhsc_tech_shields_cyclonic_2 = {
 	weight = @tier4weight3
 	ai_update_type = all
 	prerequisites = { "nhsc_tech_shields_cyclonic_1" }
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_shields_forbidden }
 	}
@@ -223,7 +224,7 @@ nhsc_tech_shields_cyclonic_2 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -240,7 +241,7 @@ nhsc_tech_shields_cyclonic_2 = {
 				has_trait = "leader_trait_maniacal"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
@@ -256,7 +257,7 @@ nhsc_tech_shields_cyclonic_3 = {
 	ai_update_type = all
 	prerequisites = { "nhsc_tech_shields_cyclonic_2" }
 	is_rare = yes
-	
+
 	potential = {
 		NOT = { has_global_flag = ESC_shields_forbidden }
 	}
@@ -278,7 +279,7 @@ nhsc_tech_shields_cyclonic_3 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -295,7 +296,7 @@ nhsc_tech_shields_cyclonic_3 = {
 				has_trait = "leader_trait_maniacal"
 			}
 		}
-	}	
+	}
 }
 
 ############################################################
@@ -310,6 +311,46 @@ nhsc_tech_dark_matter_shields_2 = {
 	weight = @tier5weight2
 	ai_update_type = all
 	prerequisites = { "tech_dark_matter_deflector" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_shields_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+############################################################
+##              Improved Dark Matter Shield               ##
+############################################################
+
+nhsc_tech_dark_matter_shields_3 = {
+	area = physics
+	category = { field_manipulation }
+	tier = 5
+	cost = @tier5cost3
+	weight = @tier5weight3
+	ai_update_type = all
+	prerequisites = { "nhsc_tech_dark_matter_shields_2" }
 	is_rare = yes
 	is_reverse_engineerable = no
 
@@ -326,7 +367,7 @@ nhsc_tech_dark_matter_shields_2 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {
@@ -349,7 +390,7 @@ nhsc_tech_atfield = {
 	category = { psionics }
 	cost = @tier5cost3
 	weight = @tier5weight1
-	ai_update_type = all	
+	ai_update_type = all
 	prerequisites = { "tech_psionic_shield" "nhsc_tech_psionic_weapons" }
 	is_rare = yes
 	is_reverse_engineerable = no
@@ -379,10 +420,10 @@ nhsc_tech_atfield = {
 					area = society
 					has_trait = "leader_trait_maniacal"
 				}
-			}		
+			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 2
 		modifier = {

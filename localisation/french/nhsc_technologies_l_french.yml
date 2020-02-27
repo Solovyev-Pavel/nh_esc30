@@ -163,6 +163,11 @@ nhsc_tech_advanced_sensors_3_desc: "Maîtrisant la connaissance ouverte devant n
 TECH_UNLOCK_ADV_STRING_SENSOR_TITLE: "§HDébloque le composant§! : Capteurs à effets de cordes avancés"
 TECH_UNLOCK_ADV_STRING_SENSOR_DESC: "Maîtrisant la connaissance ouverte devant nous par la théorie des cordes, nous pouvons enfin comprendre le monde qui nous entoure."
 
+nhsc_tech_dark_matter_power_core_3: "Perfected Dark Matter Reactor" # TODO = translate
+nhsc_tech_dark_matter_power_core_3_desc: "Deep understanding of the nature of the Dark Matter allows us to construct a perfect reactor utilizing its vast potential."
+NHSC_TECH_UNLOCK_DM_REACTOR_3_TITLE: "§HUnlocks components§!: Perfected Dark Matter Reactor"
+NHSC_TECH_UNLOCK_DM_REACTOR_3_DESC: "A perfected version of Reactor based on the Dark Matter."
+
 nhsc_tech_psionic_sensors: "Capteurs Psioniques"
 nhsc_tech_psionic_sensors_desc: "L'application de pouvoirs psioniques sur des chaînes dimensionnelles permet une profondeur de perception sans précédent du monde qui nous entoure."
 TECH_UNLOCK_PSI_SENSOR_TITLE: "§HDébloque le composant§! : Capteurs Psioniques"
@@ -261,6 +266,9 @@ nhsc_tech_dark_matter_shields_2: "Bouclier de la matière noire amélioré"
 nhsc_tech_dark_matter_shields_2_desc: "Une nouvelle version plus puissante des Boucliers de la matière noire amélioré."
 NHSC_TECH_ENIGMA_SHIELDS_2_TITLE: "Bouclier de la matière noire amélioré"
 NHSC_TECH_ENIGMA_SHIELDS_2_DESC: "Une nouvelle version plus puissante des Boucliers de la matière noire amélioré."
+
+nhsc_tech_dark_matter_shields_3: "Perfected Dark Matter Shield" # TODO = translate
+nhsc_tech_dark_matter_shields_3_desc: "Deep understanding of the nature of the Dark Matter allows us to design extremely-powerful shields based around it."
 
 nhsc_tech_atfield: "Champ A.T."
 nhsc_tech_atfield_desc: "Le Territoire absolu marque l'espace où nos esprits nient les dangers qui nous menacent."
