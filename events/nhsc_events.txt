@@ -85,12 +85,10 @@ event = {
 	immediate = {
 		every_country = {
 			limit = {
-				NOR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
+				is_country_type = default
 			}
 
+			# dark matter power core >>> dark matter deflectors
 			if = {
 				limit = {
 					has_technology = tech_dark_matter_power_core
@@ -101,7 +99,7 @@ event = {
 				}
 				add_research_option = tech_dark_matter_deflector
 			}
-
+			# dark matter power core >>> dark matter propulsion
 			if = {
 				limit = {
 					has_technology = tech_dark_matter_power_core
@@ -112,7 +110,7 @@ event = {
 				}
 				add_research_option = tech_dark_matter_propulsion
 			}
-
+			# dark matter deflectors >>> dark matter power core
 			if = {
 				limit = {
 					has_technology = tech_dark_matter_deflector
@@ -123,7 +121,7 @@ event = {
 				}
 				add_research_option = tech_dark_matter_power_core
 			}
-
+			# dark matter deflectors >>> dark matter propulsion
 			if = {
 				limit = {
 					has_technology = tech_dark_matter_deflector
@@ -134,28 +132,29 @@ event = {
 				}
 				add_research_option = tech_dark_matter_propulsion
 			}
-		}
-
-		if = {
-			limit = {
-				has_technology = tech_dark_matter_propulsion
-				NOR = {
-					has_technology = tech_dark_matter_power_core
-					has_tech_option = tech_dark_matter_power_core
+			# dark matter propulsion >>> dark matter power core
+			if = {
+				limit = {
+					has_technology = tech_dark_matter_propulsion
+					NOR = {
+						has_technology = tech_dark_matter_power_core
+						has_tech_option = tech_dark_matter_power_core
+					}
 				}
+				add_research_option = tech_dark_matter_power_core
 			}
-			add_research_option = tech_dark_matter_power_core
-		}
-
-		if = {
-			limit = {
-				has_technology = tech_dark_matter_propulsion
-				NOR = {
-					has_technology = tech_dark_matter_deflector
-					has_tech_option = tech_dark_matter_deflector
+			# dark matter propulsion >>> dark matter deflectors
+			if = {
+				limit = {
+					has_technology = tech_dark_matter_propulsion
+					NOR = {
+						has_technology = tech_dark_matter_deflector
+						has_tech_option = tech_dark_matter_deflector
+					}
 				}
+				add_research_option = tech_dark_matter_deflector
 			}
-			add_research_option = tech_dark_matter_deflector
+
 		}
 	}
 }
