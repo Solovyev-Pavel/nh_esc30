@@ -59,4 +59,10 @@ esc_option.9.a.tooltip: "Désactive toutes les technologies del ESC 3.0 qui déb
 esc_option.9.b: "Buildings sont §RDésactivés§!. Les §GActiver§! ?"
 esc_option.9.b.tooltip: "Rend actif toutes les technologies d'ESC 3.0 qui débloque des buildings, sauf pour certaines technologies spécifiques qui sont bloquées par d'autres choix de configuration. Allows construction of previously-researched ESC 3.0 buildings."
 
+### TODO = translate
+esc_option.10.a: "Repeated Unbidden Invasions are §Genabled§!. §RDisable§!?"
+esc_option.10.a.tooltip: "Disables repeated Unbidden invasion feature. Only a single invasion will be summoned when dangerous Chrono-Spatial technologies are researched."
+esc_option.10.b: "Repeated Unbidden Invasions are §Rdisabled§!. §GEnable§!?"
+esc_option.10.b.tooltip: "Enables repeated Unbidden invasion feature. A new extradimensional invasion will start a few years after the previous one is defeated."
+
 esc_option.exit: "Quitter le Menu de Configuration"

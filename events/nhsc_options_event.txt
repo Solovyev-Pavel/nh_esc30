@@ -207,6 +207,32 @@ country_event = {
 		}
 	}
 
+### enable or disable repeated unbidden invasions
+	option = {
+		name = esc_option.10.b
+		custom_tooltip = esc_option.10.b.tooltip
+		trigger = {
+			is_crises_allowed = yes
+			NOT = { has_global_flag = nhsc_repeated_unbidden_invasion }
+		}
+		hidden_effect = {
+			set_global_flag = nhsc_repeated_unbidden_invasion
+			country_event = { id = esc_options.1 days = 0 }
+		}
+	}
+	option = {
+		name = esc_option.10.a
+		custom_tooltip = esc_option.10.a.tooltip
+		trigger = {
+			is_crises_allowed = yes
+			has_global_flag = nhsc_repeated_unbidden_invasion
+		}
+		hidden_effect = {
+			remove_global_flag = nhsc_repeated_unbidden_invasion
+			country_event = { id = esc_options.1 days = 0 }
+		}
+	}
+
 	option = {
 		name = esc_option.exit
 	}

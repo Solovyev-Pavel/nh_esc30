@@ -167,7 +167,6 @@ country_event = {
 	id = nhsc_crisis.5
 	hide_window = yes
 	is_triggered_only = yes
-	fire_only_once = yes
 
 	trigger = {
 		has_global_flag = nhsc_unbidden_crisis_started
@@ -178,6 +177,49 @@ country_event = {
 			limit = { has_global_flag = galactic_crisis_happened }
 			remove_global_flag = galactic_crisis_happened
 		}
+	}
+}
+
+## ##################################################### ##
+##                      Re:Invasion...                   ##
+## ##################################################### ##
+
+event = {
+	id = nhsc_crisis.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_crises_allowed = yes
+		end_game_years_passed > 0
+		OR = {
+			has_global_flag = extradimensional_invasion_happened
+			has_global_flag = nhsc_unbidden_crisis_started
+		}
+		has_global_flag = nhsc_repeated_unbidden_invasion
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				has_country_flag = extradimensionals_expunged
+			}
+			country_event = { id = nhsc_crisis.7 days = 180 }
+		}
+	}
+}
+
+# this event removes global flags that prevent unbidden crisis from happening again.
+# done from country scope because flag 'extradimensionals_expunged' appears to be the only way to tell that crisis has been beaten
+country_event = {
+	id = nhsc_crisis.7
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		remove_global_flag = nhsc_unbidden_crisis_started
+		remove_global_flag = extradimensional_invasion_happened
+		remove_country_flag = extradimensionals_expunged
 	}
 }
 

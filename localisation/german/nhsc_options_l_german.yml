@@ -54,4 +54,9 @@ esc_option.9.a.tooltip: "Disables all ESC 3.0 technologies that unlock planetsid
 esc_option.9.b: "Buildings are §Rdisabled§!. §GEnable§!?"
 esc_option.9.b.tooltip: "Enables all ESC 3.0 technologies that unlock buildings, unless these specific technologies are other blocked through other customization options. Allows construction of previously-researched ESC 3.0 buildings."
 
+esc_option.10.a: "Repeated Unbidden Invasions are §Genabled§!. §RDisable§!?"
+esc_option.10.a.tooltip: "Disables repeated Unbidden invasion feature. Only a single invasion will be summoned when dangerous Chrono-Spatial technologies are researched."
+esc_option.10.b: "Repeated Unbidden Invasions are §Rdisabled§!. §GEnable§!?"
+esc_option.10.b.tooltip: "Enables repeated Unbidden invasion feature. A new extradimensional invasion will start a few years after the previous one is defeated."
+
 esc_option.exit: "Leave Customization Menu"
