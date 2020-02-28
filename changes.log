@@ -26,3 +26,5 @@
 - Updated Dark Matter Reactor tech branch by inserting an intermediate tier (7th).
 - Updated Dark Matter Shields tech branch by inserting an intermediate tier (7th).
 - Gravity Manipulation Engine now can also be researched from Dark Matter thrusters.
+- Hopefully fixed that annoying wrong event scope error.
+- Added (untested) repeated Unbidden invasions feature. This feature is OFF by default.
