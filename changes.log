@@ -28,3 +28,12 @@
 - Gravity Manipulation Engine now can also be researched from Dark Matter thrusters.
 - Hopefully fixed that annoying wrong event scope error.
 - Added (untested) repeated Unbidden invasions feature. This feature is OFF by default.
+
+>>> 06.03.2020
+- Added new NSC titan aura: Shield Destabilizer - reduce shields of enemies and cause them to lose shield strength if they do not have enough shield regeneration.
+- Added new titan aura: Mirage System - reduce enemy tracking and accuracy.
+- Added new titan aura: Nanite Infiltration Swarm - reduce armor and hull of enemies and cause them to lose armor if they do not have enough armor regeneration.
+- Added new titan aura: Space Distortion Module - reduce enemy evasion, movement speed and fire rate.
+- Update icons for Super-Graviton Cannon.
+- Update Void Ray technology icon.
+- Update test event with new technologies.
