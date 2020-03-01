@@ -104,6 +104,27 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_nhsc_aura_mirage"
+		textureFile = "gfx/interface/icons/ship_parts/ship_part_nhsc_aura_mirage_system.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_nhsc_aura_space_distortion"
+		textureFile = "gfx/interface/icons/ship_parts/ship_part_nhsc_aura_space_distortion.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_nhsc_aura_nanite_swarm"
+		textureFile = "gfx/interface/icons/ship_parts/ship_part_nhsc_aura_nanite_swarm.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_nhsc_starbase_reactor"
 		textureFile = "gfx/interface/icons/starbase_buildings/nhsc_orbital_powerplant.dds"
 	}

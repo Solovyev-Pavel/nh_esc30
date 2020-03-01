@@ -2,17 +2,20 @@
 ###           ESC TECHNOLOGIES : UNCATEGORIZED           ###
 ############################################################
 
-# ── Stellar Energy Tower			: unique power plant; requires killed Stellarite Devourer / Leviathans DLC
-# ── Quantum Computation Node		: unique science laboratory; requires 'greeted' Infinity Machine / Leviathans DLC
-# ── Reprocessing Plant				: unique building for managing resources; requires killed Scrapper Bot / Distant Stars DLC
-# ── Zro Distilleries				: unlocks building for zro production
-# ── Dark Matter Drawing Facilities	: unlocks building for dark matter production
-# ── Crystalline Valuables			: crystal farmers also produce trade value (normal empires only)
-# ── Rare Crystals Cultivation		: crystal farmers also produce rare crystals
-# ┬─ Planetary Core Mining			: unlocks special mining building for ecumenopolis
-# └─ Impr. Planetary Core Mining	: unlocks andvanced version of the Mantle Mining Facility
-# ┬─ Large Scale Automatic Cannons	: unlocks M-slot advanced autocannons
-# └─ Superscale Automatic Cannons	: unlocks L-slot advanced autocannons
+# ── Stellar Energy Tower				: unique power plant; requires killed Stellarite Devourer / Leviathans DLC
+# ── Quantum Computation Node			: unique science laboratory; requires 'greeted' Infinity Machine / Leviathans DLC
+# ── Reprocessing Plant					: unique building for managing resources; requires killed Scrapper Bot / Distant Stars DLC
+# ── Zro Distilleries					: unlocks building for zro production
+# ── Dark Matter Drawing Facilities		: unlocks building for dark matter production
+# ── Crystalline Valuables				: crystal farmers also produce trade value (normal empires only)
+# ── Rare Crystals Cultivation			: crystal farmers also produce rare crystals
+# ┬─ Planetary Core Mining				: unlocks special mining building for ecumenopolis
+# └─ Impr. Planetary Core Mining		: unlocks andvanced version of the Mantle Mining Facility
+# ┬─ Large Scale Automatic Cannons		: unlocks M-slot advanced autocannons
+# └─ Superscale Automatic Cannons		: unlocks L-slot advanced autocannons
+# ── Titan Aura: Mirage System			: unlocks titan aura "Mirage System"
+# ── Titan Aura: Nanite Infiltration	: unlocks titan aura "Nanite Infiltration Swarm"
+# ── Titan Aura: Space Distortion		: unlocks titan aura "Space Distortion Module"
 
 ############################################################
 ##                Stellar Evenrgy Tower                   ##
@@ -575,6 +578,144 @@ nhsc_tech_autocannons_l = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+}
+
+############################################################
+##                Titan Aura: Mirage System               ##
+############################################################
+
+nhsc_tech_aura_mirage_system = {
+	area = physics
+	category = { computing }
+	cost = @tier5cost1
+	weight = @tier5weight1
+	tier = 5
+	prerequisites = { "tech_titans" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_aux_forbidden }
+	}
+
+	prereqfor_desc = {
+		custom = {
+	 		title = "NHSC_TECH_UNLOCK_TITAN_AURA_MIRAGE"
+	 		desc = "NHSC_TECH_UNLOCK_TITAN_AURA_MIRAGE_DESC"
+	 	}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
+
+############################################################
+##         Titan Aura: Nanite Infiltration Swarm          ##
+############################################################
+
+nhsc_tech_aura_nanite_swarm = {
+	area = society
+	category = { materials }
+	cost = @tier5cost1
+	weight = @tier5weight1
+	tier = 5
+	prerequisites = { "tech_titans" "nhsc_tech_synthetic_lifeform_studies" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_aux_forbidden }
+	}
+
+	prereqfor_desc = {
+		custom = {
+	 		title = "NHSC_TECH_UNLOCK_TITAN_AURA_NANITES"
+	 		desc = "NHSC_TECH_UNLOCK_TITAN_AURA_NANITES_DESC"
+	 	}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+############################################################
+##          Titan Aura: Space Distortion Module           ##
+############################################################
+
+nhsc_tech_aura_space_distortion = {
+	area = physics
+	category = { field_manipulation }
+	cost = @tier5cost1
+	weight = @tier5weight1
+	tier = 5
+	prerequisites = { "tech_titans" "nhsc_tech_gravity_manipulation" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_aux_forbidden }
+	}
+
+	prereqfor_desc = {
+		custom = {
+	 		title = "NHSC_TECH_UNLOCK_TITAN_AURA_SPATIAL"
+	 		desc = "NHSC_TECH_UNLOCK_TITAN_AURA_SPATIAL_DESC"
+	 	}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
 			}
 		}
 	}

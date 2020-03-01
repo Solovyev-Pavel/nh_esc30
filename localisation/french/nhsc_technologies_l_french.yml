@@ -723,3 +723,19 @@ nhsc_tech_autocannons_l: "Canons Automatiques XL"
 nhsc_tech_autocannons_l_desc: "Il ne peut jamais y avoir assez de dakka!"
 #NHSC_TECH_UNLOCK_L_AUTOCANNONS_TITLE: "§HDébloque le composant§! : L-size advanced autocannons"
 #NHSC_TECH_UNLOCK_L_AUTOCANNONS_DESC: "$nhsc_tech_autocannons_l_desc$"
+
+# TODO = translate
+nhsc_tech_aura_mirage_system: "Titan Aura: Mirage System"
+nhsc_tech_aura_mirage_system_desc: "With specialized projection systems to make our ships appear where they aren't we can greatly reduce the efficiency of our enemies' targeting systems."
+NHSC_TECH_UNLOCK_TITAN_AURA_MIRAGE: "§HUnlocks Titan Aura§!: Mirage System"
+NHSC_TECH_UNLOCK_TITAN_AURA_MIRAGE_DESC: "$nhsc_tech_aura_mirage_system_desc$"
+
+nhsc_tech_aura_nanite_swarm: "Titan Aura: Nanite Infiltration Swarms"
+nhsc_tech_aura_nanite_swarm_desc: "By programming nanite swarms to attack enemy ships' armor layers and internal structures we can make them much more suspectible to weapon damage."
+NHSC_TECH_UNLOCK_TITAN_AURA_NANITES: "§HUnlocks Titan Aura§!: Nanite Infiltration Swarms"
+NHSC_TECH_UNLOCK_TITAN_AURA_NANITES_DESC: "$nhsc_tech_aura_nanite_swarm_desc$"
+
+nhsc_tech_aura_space_distortion: "Titan Aura: Space Distortion Module"
+nhsc_tech_aura_space_distortion_desc: "Gravity field manipulation applied to space combat promises an unparalleled ability to control the battlefield, denying our enemies' freedom to more and freedom to fire at us."
+NHSC_TECH_UNLOCK_TITAN_AURA_SPATIAL: "§HUnlocks Titan Aura§!: Space Distortion Module"
+NHSC_TECH_UNLOCK_TITAN_AURA_SPATIAL_DESC: "$nhsc_tech_aura_space_distortion_desc$"
