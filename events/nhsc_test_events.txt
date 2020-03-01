@@ -58,6 +58,7 @@ country_event = {
 		if = { limit = { NOT = { has_technology = nhsc_tech_advanced_reactor_2 } } give_technology = { message = no tech = nhsc_tech_advanced_reactor_2 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_advanced_reactor_3 } } give_technology = { message = no tech = nhsc_tech_advanced_reactor_3 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_dark_matter_power_core_2 } } give_technology = { message = no tech = nhsc_tech_dark_matter_power_core_2 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_dark_matter_power_core_3 } } give_technology = { message = no tech = nhsc_tech_dark_matter_power_core_3 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_advanced_sensors_1 } } give_technology = { message = no tech = nhsc_tech_advanced_sensors_1 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_advanced_sensors_2 } } give_technology = { message = no tech = nhsc_tech_advanced_sensors_2 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_advanced_sensors_3 } } give_technology = { message = no tech = nhsc_tech_advanced_sensors_3 } }
@@ -72,6 +73,7 @@ country_event = {
 		if = { limit = { NOT = { has_technology = nhsc_tech_shields_cyclonic_2 } } give_technology = { message = no tech = nhsc_tech_shields_cyclonic_2 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_shields_cyclonic_3 } } give_technology = { message = no tech = nhsc_tech_shields_cyclonic_3 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_dark_matter_shields_2 } } give_technology = { message = no tech = nhsc_tech_dark_matter_shields_2 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_dark_matter_shields_3 } } give_technology = { message = no tech = nhsc_tech_dark_matter_shields_3 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_atfield } } give_technology = { message = no tech = nhsc_tech_atfield } }
 		# strikecrafts
 		if = { limit = { NOT = { has_technology = nhsc_tech_tactical_strikecrafts } } give_technology = { message = no tech = nhsc_tech_tactical_strikecrafts } }
@@ -189,6 +191,13 @@ country_event = {
 		if = { limit = { NOT = { has_technology = nhsc_tech_wavemotiongun_3 } } give_technology = { message = no tech = nhsc_tech_wavemotiongun_3 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_arcenciel } } give_technology = { message = no tech = nhsc_tech_arcenciel } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_arcenciel_titanic } } give_technology = { message = no tech = nhsc_tech_arcenciel_titanic } }
+		# extradimensional weapons
+		if = { limit = { NOT = { has_technology = nhsc_tech_extradimensional_weapon_2 } } give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_2 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_extradimensional_weapon_2_x } } give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_2_x } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_extradimensional_weapon_2_t } } give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_2_t } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_extradimensional_weapon_3 } } give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_3 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_extradimensional_weapon_3_x } } give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_3_x } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_extradimensional_weapon_3_t } } give_technology = { message = no tech = nhsc_tech_extradimensional_weapon_3_t } }
 		# miscellaneous techs
 		if = { limit = { NOT = { has_technology = nhsc_tech_stellar_energy_tower } } give_technology = { message = no tech = nhsc_tech_stellar_energy_tower } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_quantum_node } } give_technology = { message = no tech = nhsc_tech_quantum_node } }
@@ -201,5 +210,8 @@ country_event = {
 		if = { limit = { NOT = { has_technology = nhsc_tech_mantle_mining_2 } } give_technology = { message = no tech = nhsc_tech_mantle_mining_2 } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_autocannons_m } } give_technology = { message = no tech = nhsc_tech_autocannons_m } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_autocannons_l } } give_technology = { message = no tech = nhsc_tech_autocannons_l } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_aura_mirage_system } } give_technology = { message = no tech = nhsc_tech_aura_mirage_system } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_aura_nanite_swarm } } give_technology = { message = no tech = nhsc_tech_aura_nanite_swarm } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_aura_space_distortion } } give_technology = { message = no tech = nhsc_tech_aura_space_distortion } }
 	}
 }
