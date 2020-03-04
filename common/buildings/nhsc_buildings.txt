@@ -935,7 +935,18 @@ nhsc_building_stellar_energy_tower = {
 
 	prerequisites = { "nhsc_tech_stellar_energy_tower" }
 
-	ai_weight = { weight = 1 }
+	ai_weight = {
+		weight = 1
+		# do not allow awakened fallen empires leviathan-based building
+		modifier = {
+			factor = 0
+			exists = owner
+			owner = {
+				is_fallen_empire = yes
+				NOT = { has_country_flag = nhsc_killed_stellarite_devourer }
+			}
+		}
+	}
 }
 
 ############################################################
@@ -1045,6 +1056,15 @@ nhsc_building_quantum_node = {
 				}
 			}
 		}
+		# do not allow awakened fallen empires leviathan-based building
+		modifier = {
+			factor = 0
+			exists = owner
+			owner = {
+				is_fallen_empire = yes
+				NOT = { has_country_flag = technosphere_studied }
+			}
+		}
 	}
 }
 
@@ -1141,7 +1161,18 @@ nhsc_building_reprocessing_plant = {
 
 	prerequisites = { "nhsc_tech_reprocessing_plant" }
 
-	ai_weight = { weight = 0.75 }
+	ai_weight = {
+		weight = 0.75
+		# do not allow awakened fallen empires leviathan-based building
+		modifier = {
+			factor = 0
+			exists = owner
+			owner = {
+				is_fallen_empire = yes
+				NOT = { has_country_flag = scrapper_killed }
+			}
+		}
+	}
 }
 
 ############################################################
