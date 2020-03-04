@@ -601,6 +601,7 @@ nhsc_tech_aura_mirage_system = {
 	}
 
 	prereqfor_desc = {
+		hide_prereq_for_desc = component
 		custom = {
 	 		title = "NHSC_TECH_UNLOCK_TITAN_AURA_MIRAGE"
 	 		desc = "NHSC_TECH_UNLOCK_TITAN_AURA_MIRAGE_DESC"
@@ -647,6 +648,7 @@ nhsc_tech_aura_nanite_swarm = {
 	}
 
 	prereqfor_desc = {
+		hide_prereq_for_desc = component
 		custom = {
 	 		title = "NHSC_TECH_UNLOCK_TITAN_AURA_NANITES"
 	 		desc = "NHSC_TECH_UNLOCK_TITAN_AURA_NANITES_DESC"
@@ -693,6 +695,7 @@ nhsc_tech_aura_space_distortion = {
 	}
 
 	prereqfor_desc = {
+		hide_prereq_for_desc = component
 		custom = {
 	 		title = "NHSC_TECH_UNLOCK_TITAN_AURA_SPATIAL"
 	 		desc = "NHSC_TECH_UNLOCK_TITAN_AURA_SPATIAL_DESC"
