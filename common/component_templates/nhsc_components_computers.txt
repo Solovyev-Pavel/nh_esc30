@@ -185,7 +185,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military }
 	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser }
 	component_set = combat_computers
-	ship_behavior = carrier
+	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
 
 	ship_modifier = {
@@ -410,7 +410,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
                          fe_battlecruiser }
 	component_set = combat_computers
-	ship_behavior = carrier
+	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
 
 	ship_modifier = {
@@ -516,7 +516,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military }
 	size_restriction = { titan fe_titan ultrajuggernaut }
 	component_set = combat_computers
-	ship_behavior = carrier
+	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
 
 	ship_modifier = {
@@ -624,7 +624,7 @@ utility_component_template = {
 	class_restriction = { shipclass_starbase }
 	size_restriction = { juggernaut }
 	component_set = combat_computers
-	ship_behavior = carrier
+	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
 
 	ship_modifier = {
@@ -1045,7 +1045,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military }
 	size_restriction = { Carrier SCX_Carrier escortcarrier }
 	component_set = combat_computers
-	ship_behavior = carrier
+	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
 
 	ship_modifier = {
@@ -1308,7 +1308,7 @@ utility_component_template = {
 	class_restriction = { shipclass_military }
 	size_restriction = { Flagship }
 	component_set = combat_computers
-	ship_behavior = carrier
+	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
 
 	ship_modifier = {

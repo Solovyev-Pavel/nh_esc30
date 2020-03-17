@@ -142,4 +142,4 @@ NHSC_DREADNOUGHT_COMPUTER_FLAGSHIP_LINE: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_L
 NHSC_DREADNOUGHT_COMPUTER_FLAGSHIP_LINE_DESC: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_DESC$"
 
 nhsc_carrier_behavior: "Carrier Behavior"
-nhsc_carrier_behavior_DESC: "§HCarrier Tactics:§! Ships will stay at long range (§Y120§!) while attacking enemies with artillery and swarms of strikecrafts."
+nhsc_carrier_behavior_DESC: "§HCarrier Tactics:§! Ships will stay at long range (§Y150§!) while attacking enemies with artillery and swarms of strikecrafts."
