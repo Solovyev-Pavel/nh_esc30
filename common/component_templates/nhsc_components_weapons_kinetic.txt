@@ -855,7 +855,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_mass_accelerator_3" }
@@ -917,7 +916,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_mass_accelerator_4" }
@@ -978,7 +976,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_mhdcannon" }
@@ -1217,7 +1214,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 5
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { nhsc_tech_autocannon_x_1 }
@@ -1279,7 +1275,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 5
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_autocannon_x_2" }
@@ -1340,7 +1335,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 5
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_autocannon_t" }

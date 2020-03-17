@@ -77,7 +77,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_energy_lance_3" }
@@ -139,7 +138,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_energy_lance_4" }
@@ -200,7 +198,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_energy_lance_titanic" }
@@ -261,7 +258,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_arc_emitter_3" }
@@ -323,7 +319,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_arc_emitter_4" }
@@ -384,7 +379,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_arc_emitter_titanic" }
@@ -446,7 +440,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_wavemotiongun_1" }
@@ -516,7 +509,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_wavemotiongun_2" }
@@ -585,7 +577,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_wavemotiongun_3" }
@@ -653,7 +644,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_arcenciel" }
@@ -721,7 +711,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_arcenciel_titanic" }

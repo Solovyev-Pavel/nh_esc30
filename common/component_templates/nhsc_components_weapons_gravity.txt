@@ -591,7 +591,6 @@ weapon_component_template = {
 	icon_frame = 1
 	entity = "turret_torpedo_entity"
 	type = missile
-	static_rotation = no
 
 	damage = { min = 138 max = 272 }
 	windup = { min = 2 max = 20 }
@@ -660,7 +659,6 @@ weapon_component_template = {
 	icon_frame = 1
 	entity = "turret_torpedo_entity"
 	type = missile
-	static_rotation = no
 
 	damage = { min = 178 max = 334 }
 	windup = { min = 2 max = 20 }
@@ -731,7 +729,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 1300 max = 2600 }
@@ -800,7 +797,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 1500 max = 2800 }
@@ -868,7 +864,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 5000 max = 10000 }

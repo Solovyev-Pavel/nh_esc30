@@ -270,7 +270,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_enigmatic_lance" }
@@ -338,7 +337,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_enigmatic_lance_titanic" }
@@ -469,7 +467,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_tiyanki_cannon" }
@@ -537,7 +534,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_tiyanki_cannon_titanic" }

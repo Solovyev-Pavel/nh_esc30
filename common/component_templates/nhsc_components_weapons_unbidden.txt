@@ -246,7 +246,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_extradimensional_weapon_2_x" }
@@ -315,7 +314,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_extradimensional_weapon_2_t" }
@@ -565,7 +563,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_extradimensional_weapon_3_x" }
@@ -633,7 +630,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "nhsc_tech_extradimensional_weapon_3_t" }
