@@ -949,19 +949,20 @@ strike_craft_component_template = {
 		}
 	}
 
-	count = 8
-	regeneration_per_day = 0.30
-	launch_time = 1.5
+	count = @strikecraft_count
+	regeneration_per_day = @strikecraft_regen
+	launch_time = @strikecraft_launch_time
 
 	damage = { min = 13 max = 26 }
 	cooldown = 2.0
 	range = @fighter_attack_range
+	engagement_range = @strikecraft_engagement_range
 	accuracy = @strikecraft_accuracy
 	health = 70
 	armor = 5
 	shield = 50
 	tracking = @fighter_tracking
-	speed = 550
+	speed = @strikecraft_speed_5
 	rotation_speed = @fighter_rotation_speed
 	acceleration = @fighter_acceleration
 	evasion = @strikecraft_evasion
