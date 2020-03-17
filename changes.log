@@ -40,10 +40,12 @@
 - Fix Awakened Fallen Empires being allowed to build leviathan-reward buildings if they haven't fulfilled the conditions like any normal empire has to.
 
 >>> 17.03.2020
-- Update target game version 2.6.*
+- Update target game version to 2.6.*
 - Add advanced reactors for Juggernaut.
 - Add advanced thrusters for Juggernaut.
 - Update strikecrafts.
+- Fix missing thrusters for private colony ship, add advanced thrusters for lithoid colonizer.
+- Fix missing reactors for private colony ship, add advanced thrusters for lithoid colonizer.
 - Human players now need to research a special project in order to get a tech option for the Automated Dreadnought Combat Computers.
 - Added carrier Automated Dreadnought Combat Computer for cruisers, battleships and titans.
 - Added Automated Dreadnought Combat Computers for Juggernaut (artillery and carrier behavior).
