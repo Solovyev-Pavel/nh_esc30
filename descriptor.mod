@@ -1,4 +1,4 @@
-name="Extra Ship Components 3.0 [2.4+]"
+name="Extra Ship Components 3.0 [2.6+]"
 tags={
 	"Military"
 	"Technologies"
