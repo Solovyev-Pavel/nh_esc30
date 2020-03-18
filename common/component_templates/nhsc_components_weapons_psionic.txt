@@ -833,6 +833,7 @@ weapon_component_template = {
 	prerequisites = { "nhsc_tech_psionic_lance_2" }
 	component_set = "NHSC_PSI_LANCE_2"
 	projectile_gfx = "nhsc_psionic_lance"
+	upgrades_to = "NHSC_PSI_LANCE_JUGGERNAUT"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 
@@ -900,6 +901,70 @@ weapon_component_template = {
 	prerequisites = { "nhsc_tech_psionic_lance_titanic" }
 	component_set = "NHSC_PSI_LANCE_TITANIC"
 	projectile_gfx = "nhsc_psionic_lance"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
+
+	valid_for_country = {
+		modifier = {
+			factor = 0 # only normal empires and Spiritualist FE/AFE should use this component
+			is_organic_empire_or_spiritualist_fe_nhsc = no
+		}
+	}
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = esc_psionic_charge
+				value < 100
+			}
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "NHSC_PSI_LANCE_JUGGERNAUT"
+	size = extra_large
+	icon = "GFX_ship_part_nhsc_psilance_titanic"
+	icon_frame = 1
+	entity = "invisible_turret_entity"
+	type = instant
+
+	damage = { min = 5500 max = 10000 }
+	windup = { min = 30 max = 50 }
+	total_fire_time = 170
+	range = 200
+	accuracy = 0.85
+	power = -500
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_t_t6_cost
+			esc_psionic_charge = 20
+		}
+		upkeep = {
+			energy = @weapon_t_t6_upkeep_energy
+			alloys = @weapon_t_t6_upkeep_alloys
+		}
+	}
+
+	hull_damage = @psionic_lance_hull_damage
+	armor_penetration = @psionic_lance_armor_penetration
+	armor_damage = @psionic_lance_armor_damage
+	shield_penetration = @psionic_lance_shield_penetration
+	shield_damage = @psionic_lance_shield_damage
+	tracking = 0.1
+
+	firing_arc = 25.0
+	min_range = 10
+	use_ship_kill_target = no
+
+	prerequisites = { "nhsc_tech_psionic_lance_titanic" }
+	component_set = "NHSC_PSI_LANCE_JUGGERNAUT"
+	projectile_gfx = "nhsc_psionic_lance"
+	size_restriction = { juggernaut }
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 
