@@ -968,7 +968,7 @@ weapon_component_template = {
 	projectile_gfx = "nhsc_energy_torpedoes_3"
 	upgrades_to = "NHSC_ENERGY_TORPEDO_4"
 	tags = { weapon_type_energy }
-	ai_tags = { weapon_role_anti_shield weapon_role_artillery }
+	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
 
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
@@ -1025,7 +1025,7 @@ weapon_component_template = {
 	component_set = "NHSC_ENERGY_TORPEDO_4"
 	projectile_gfx = "nhsc_energy_torpedoes_4"
 	tags = { weapon_type_energy }
-	ai_tags = { weapon_role_anti_shield weapon_role_artillery }
+	ai_tags = { weapon_role_anti_armor weapon_role_artillery }
 
 	ai_weight = {
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
