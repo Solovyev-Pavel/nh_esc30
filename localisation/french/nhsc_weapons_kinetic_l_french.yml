@@ -144,3 +144,21 @@ NHSC_AUTOCANNON_T: "Autocanon 'Tempête'"
 NHSC_AUTOCANNON_T_DESC: "Un canon automatique vraiment titanesque avec un pouvoir sans précédent. Que nos ennemis fondent devant elle."
 NHSC_AUTOCANNON_J: "$NHSC_AUTOCANNON_T$"
 NHSC_AUTOCANNON_J_DESC: "$NHSC_AUTOCANNON_T_DESC$"
+
+########################################
+###       Juggernaut Artillery       ###
+########################################
+
+NHSC_JUGGERNAUT_ARTILLERY_1: "Juggernaut Artillery"
+NHSC_JUGGERNAUT_ARTILLERY_1_DESC: "A kinetic artillery cannon, tailored for the Juggernaut warship."
+NHSC_JUGGERNAUT_ARTILLERY_2: "Improved $NHSC_JUGGERNAUT_ARTILLERY_1$"
+NHSC_JUGGERNAUT_ARTILLERY_2_DESC: "An improved verion of the $NHSC_JUGGERNAUT_ARTILLERY_1$, capable of dealing even more damage."
+
+########################################
+###       Juggernaut PD System       ###
+########################################
+
+NHSC_JUGGERNAUT_POINT_DEFENSE_1: "Juggernaut Point-Defense System"
+NHSC_JUGGERNAUT_POINT_DEFENSE_1_DESC: "A point-defense system, tailored for the Juggernaut warship."
+NHSC_JUGGERNAUT_POINT_DEFENSE_2: "Improved $NHSC_JUGGERNAUT_POINT_DEFENSE_1$"
+NHSC_JUGGERNAUT_POINT_DEFENSE_2_DESC: "An improved version of the $NHSC_JUGGERNAUT_POINT_DEFENSE_1$ with better targeting algorithms and more powerful cannons."

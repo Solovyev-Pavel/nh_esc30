@@ -264,3 +264,12 @@ NHSC_EXTRADIMENSIONAL_WEAPON_3_T: "Titanic $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
 NHSC_EXTRADIMENSIONAL_WEAPON_3_T_DESC: "The ultimate $NHSC_EXTRADIMENSIONAL_WEAPON_3$, a weapon of nearly unlimited power."
 NHSC_EXTRADIMENSIONAL_WEAPON_3_J: "Juggernaut $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
 NHSC_EXTRADIMENSIONAL_WEAPON_3_J_DESC: "The ultimate $NHSC_EXTRADIMENSIONAL_WEAPON_3$, a weapon of nearly unlimited power."
+
+########################################
+###      Juggernaut Beam Cannon      ###
+########################################
+
+NHSC_JUGGERNAUT_BEAM_CANNON_1: "Juggernaut Beam Cannon"
+NHSC_JUGGERNAUT_BEAM_CANNON_1_DESC: "A devastatingly-powerful beam cannon, developped for the war machine known as the Juggernaut."
+NHSC_JUGGERNAUT_BEAM_CANNON_2: "Improved $NHSC_JUGGERNAUT_BEAM_CANNON_1$"
+NHSC_JUGGERNAUT_BEAM_CANNON_2_DESC: "A refined version of the $NHSC_JUGGERNAUT_BEAM_CANNON_1$, which is even more powerful and deadly."

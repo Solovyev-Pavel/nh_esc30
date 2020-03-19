@@ -10,14 +10,18 @@
 # - Skypiercer Artillery				L
 # - Improved Giga-cannon				X
 # - The Grand Cannon					X
-# - MagnetoHydroDynamic Cannon			Titanic
+# - MagnetoHydroDynamic Cannon			Titanic + Juggernaut
 # - Improved Flak Artillery				P
 # - Ironcloud Defender					P
 # - Protector Point Defense				P
 # - Iron Curtain Point Defense			P
 # - Hailstorm Autocannon				X
 # - Firestorm Autocannon				X
-# - Tempest Autocannon					Titanic
+# - Tempest Autocannon					Titanic + Juggernaut
+# - Juggernaut Artillery				M (Juggernaut only)
+# - Improved Juggernaut Artillery		M (Juggernaut only)
+# - Juggernaut PD System				M (Juggernaut only)
+# - Improved Juggernaut PD System		M (Juggernaut only)
 
 @mass_driver_hull_damage = 1.0
 @mass_driver_armor_damage = 0.5
@@ -52,6 +56,7 @@
 
 @pd_hull_damage = 1.0
 @pd_armor_damage = 0.25
+@juggenaut_pd_armor_damage = 0.5
 @pd_armor_penetration = 0.0
 @pd_shield_damage = 1.0
 @pd_shield_penetration = 0.0
@@ -1469,4 +1474,210 @@ weapon_component_template = {
 			}
 		}
 	}
+}
+
+############################################################
+##                  Juggernaut Artillery                  ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_JUGGERNAUT_ARTILLERY_1"
+	size = medium
+	icon = "GFX_ship_part_nhsc_juggernaut_artillery_1"
+	icon_frame = 1
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+
+	damage = { min = 220 max = 650 }
+	windup = { min = 3 max = 25 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.80
+	power = -110
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t7_cost
+			volatile_motes = @weapon_l_t7_cost_special
+		}
+		upkeep = {
+			energy = @weapon_l_t7_upkeep_energy
+			alloys = @weapon_l_t7_upkeep_alloys
+		}
+	}
+
+	hull_damage = @artillery_hull_damage
+	armor_penetration = @artillery_armor_penetration
+	armor_damage = @artillery_armor_damage
+	shield_penetration = @artillery_shield_penetration
+	shield_damage = @artillery_shield_damage
+	tracking = 0.05
+
+	prerequisites = { "nhsc_tech_juggernaut_artillery_1" }
+	component_set = "NHSC_JUGGERNAUT_ARTILLERY_1"
+	projectile_gfx = "adv_kinetic_artillery"
+	size_restriction = { juggernaut }
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
+	upgrades_to = "NHSC_JUGGERNAUT_ARTILLERY_2"
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+############################################################
+##              Improved Juggernaut Artillery             ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_JUGGERNAUT_ARTILLERY_2"
+	size = medium
+	icon = "GFX_ship_part_nhsc_juggernaut_artillery_2"
+	icon_frame = 1
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+
+	damage = { min = 280 max = 760 }
+	windup = { min = 3 max = 25 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -130
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @weapon_l_t8_cost
+			volatile_motes = @weapon_l_t8_cost_special
+		}
+		upkeep = {
+			energy = @weapon_l_t8_upkeep_energy
+			alloys = @weapon_l_t8_upkeep_alloys
+		}
+	}
+
+	hull_damage = @artillery_hull_damage
+	armor_penetration = @artillery_armor_penetration
+	armor_damage = @artillery_armor_damage
+	shield_penetration = @artillery_shield_penetration
+	shield_damage = @artillery_shield_damage
+	tracking = 0.05
+
+	prerequisites = { "nhsc_tech_juggernaut_artillery_2" }
+	component_set = "NHSC_JUGGERNAUT_ARTILLERY_2"
+	projectile_gfx = "adv_kinetic_artillery"
+	size_restriction = { juggernaut }
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
+
+	ai_weight = {
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0
+			resource_stockpile_compare = {
+				resource = volatile_motes
+				value < 100
+			}
+		}
+	}
+}
+
+############################################################
+##          Juggernaut Point Defense System               ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_JUGGERNAUT_POINT_DEFENSE_1"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	type = point_defence
+	icon = "GFX_ship_part_nhsc_juggernaut_pd_1"
+	icon_frame = 1
+
+	damage = { min = 5 max = 15 }
+	windup = { min = 0 max = 0 }
+	total_fire_time = 4
+	range = 45
+	accuracy = 0.8
+	power = -24
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+		upkeep = {
+			energy = 0.30
+			alloys = 0.030
+		}
+	}
+
+	hull_damage = @pd_hull_damage
+	armor_penetration = @pd_armor_penetration
+	armor_damage = @juggenaut_pd_armor_damage
+	shield_penetration = @pd_shield_penetration
+	shield_damage = @pd_shield_damage
+	tracking = 0.75
+
+	prerequisites = { "nhsc_tech_juggernaut_pd_1" }
+	component_set = "NHSC_JUGGERNAUT_POINT_DEFENSE_1"
+	projectile_gfx = "white_laser_pd"
+	size_restriction = { juggernaut }
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense }
+	upgrades_to = "NHSC_JUGGERNAUT_POINT_DEFENSE_2"
+}
+
+############################################################
+##        Improved Juggernaut Point Defense System        ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_JUGGERNAUT_POINT_DEFENSE_2"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	type = point_defence
+	icon = "GFX_ship_part_nhsc_juggernaut_pd_2"
+	icon_frame = 1
+
+	damage = { min = 6 max = 18 }
+	windup = { min = 0 max = 0 }
+	total_fire_time = 4
+	range = 45
+	accuracy = 0.8
+	power = -30
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 36
+		}
+		upkeep = {
+			energy = 0.36
+			alloys = 0.036
+		}
+	}
+
+	hull_damage = @pd_hull_damage
+	armor_penetration = @pd_armor_penetration
+	armor_damage = @juggenaut_pd_armor_damage
+	shield_penetration = @pd_shield_penetration
+	shield_damage = @pd_shield_damage
+	tracking = 0.75
+
+	prerequisites = { "nhsc_tech_juggernaut_pd_2" }
+	component_set = "NHSC_JUGGERNAUT_POINT_DEFENSE_2"
+	projectile_gfx = "white_laser_pd"
+	size_restriction = { juggernaut }
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense }
 }
