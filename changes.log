@@ -57,3 +57,6 @@
 - Update icons for several T-slot weapon technologies.
 - Fix Reality Eraser being called Matter Annihilator.
 - Fix advanced Energy Launchers being tagged as anti_shield when they are in fact anti_armor.
+
+>>> 21.03.2020
+- Fixed Juggernaut weapons being unavailable to those who have Federations but NOT Apocalypse DLC.
