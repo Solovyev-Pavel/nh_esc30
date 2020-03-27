@@ -98,6 +98,18 @@ nhsc_tech_armor_7 = {
 				has_trait = "leader_trait_expertise_materials"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_armor_7 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -114,6 +126,18 @@ nhsc_tech_armor_7 = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_armor_7 }
 			}
 		}
 	}
@@ -203,6 +227,18 @@ nhsc_tech_armor_nanite_2 = {
 				has_trait = "leader_trait_expertise_materials"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_armor_nanite_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -219,6 +255,18 @@ nhsc_tech_armor_nanite_2 = {
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_armor_nanite_2 }
 			}
 		}
 	}
@@ -258,6 +306,10 @@ nhsc_tech_armor_dragonscales_nanite = {
 				has_trait = "leader_trait_expertise_materials"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
 	}
 
 	ai_weight = {
@@ -275,6 +327,10 @@ nhsc_tech_armor_dragonscales_nanite = {
 				area = society
 				has_trait = "leader_trait_expertise_materials"
 			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
 		}
 	}
 }
@@ -418,6 +474,18 @@ nhsc_tech_armor_shield_3 = {
 				has_trait = "leader_trait_expertise_materials"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_armor_shield_3 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -434,6 +502,18 @@ nhsc_tech_armor_shield_3 = {
 			research_leader = {
 				area = physics
 				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_armor_shield_3 }
 			}
 		}
 	}
@@ -469,6 +549,10 @@ nhsc_tech_armor_wraith = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
 	}
 
 	ai_weight = {
@@ -483,6 +567,10 @@ nhsc_tech_armor_wraith = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
 		}
 	}
 }
@@ -517,6 +605,10 @@ nhsc_tech_armor_horror = {
 				has_trait = "leader_trait_expertise_materials"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
 	}
 
 	ai_weight = {
@@ -530,6 +622,10 @@ nhsc_tech_armor_horror = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
 			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
 		}
 	}
 }
@@ -567,6 +663,18 @@ nhsc_tech_crystal_armor_3 = {
 				has_trait = "leader_trait_expertise_materials"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_crystal_armor_3 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -583,6 +691,18 @@ nhsc_tech_crystal_armor_3 = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_crystal_armor_3 }
 			}
 		}
 	}

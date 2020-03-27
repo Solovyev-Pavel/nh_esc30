@@ -51,6 +51,18 @@ nhsc_tech_extradimensional_weapon_2 = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_extradimensional_weapon_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -76,6 +88,18 @@ nhsc_tech_extradimensional_weapon_2 = {
 			research_leader = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_extradimensional_weapon_2 }
 			}
 		}
 	}
@@ -123,6 +147,18 @@ nhsc_tech_extradimensional_weapon_2_x = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_extradimensional_weapon_2_x }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -148,6 +184,18 @@ nhsc_tech_extradimensional_weapon_2_x = {
 			research_leader = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_extradimensional_weapon_2_x }
 			}
 		}
 	}
@@ -206,6 +254,18 @@ nhsc_tech_extradimensional_weapon_2_t = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_extradimensional_weapon_2_t }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -238,6 +298,18 @@ nhsc_tech_extradimensional_weapon_2_t = {
 			research_leader = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_extradimensional_weapon_2_t }
 			}
 		}
 	}
@@ -286,6 +358,10 @@ nhsc_tech_extradimensional_weapon_3 = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
 	}
 
 	ai_weight = {
@@ -312,6 +388,10 @@ nhsc_tech_extradimensional_weapon_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
 		}
 	}
 }
@@ -359,6 +439,10 @@ nhsc_tech_extradimensional_weapon_3_x = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
 	}
 
 	ai_weight = {
@@ -385,6 +469,10 @@ nhsc_tech_extradimensional_weapon_3_x = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
 		}
 	}
 }
@@ -443,6 +531,10 @@ nhsc_tech_extradimensional_weapon_3_t = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
 	}
 
 	ai_weight = {
@@ -476,6 +568,10 @@ nhsc_tech_extradimensional_weapon_3_t = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
 		}
 	}
 }
