@@ -60,3 +60,11 @@
 
 >>> 21.03.2020
 - Fixed Juggernaut weapons being unavailable to those who have Federations but NOT Apocalypse DLC.
+
+>>> 23.03.2020
+- Fix an oversight that allowed tier 6 armor to be researchable before tier 5 armor.
+
+>>> 28.03.2020
+- ESC rare technologies now have increased drop weight if player has "Technological Ascendancy" ascension perk or federation perk boosting rare tech weights.
+- Siegebreaker strikecrafts are now reverse-engineerable.
+- Mercenary strikecrafts are no longer reverse-engineerable to keep as unique to Megacorp empires.
