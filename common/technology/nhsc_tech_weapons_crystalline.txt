@@ -447,14 +447,6 @@ nhsc_tech_crystal_cannon_5 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_cannon_5 }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -485,14 +477,6 @@ nhsc_tech_crystal_cannon_5 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_cannon_5 }
-			}
 		}
 	}
 }
@@ -614,14 +598,6 @@ nhsc_tech_crystal_lance_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_lance_2 }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -652,14 +628,6 @@ nhsc_tech_crystal_lance_2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_lance_2 }
-			}
 		}
 	}
 }
@@ -721,14 +689,6 @@ nhsc_tech_crystalline_impaler = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystalline_impaler }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -766,14 +726,6 @@ nhsc_tech_crystalline_impaler = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystalline_impaler }
-			}
 		}
 	}
 }

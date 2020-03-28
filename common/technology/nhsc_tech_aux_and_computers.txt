@@ -170,14 +170,6 @@ nhsc_tech_reactor_booster_5 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_reactor_booster_5 }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -191,14 +183,6 @@ nhsc_tech_reactor_booster_5 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_reactor_booster_5 }
-			}
 		}
 	}
 }
@@ -272,14 +256,6 @@ nhsc_tech_advanced_shield_capacitors = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_advanced_shield_capacitors }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -294,14 +270,6 @@ nhsc_tech_advanced_shield_capacitors = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_advanced_shield_capacitors }
-			}
 		}
 	}
 }
@@ -336,14 +304,6 @@ nhsc_tech_crystal_infused_capacitor = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_infused_capacitor }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -358,14 +318,6 @@ nhsc_tech_crystal_infused_capacitor = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_infused_capacitor }
-			}
 		}
 	}
 }
@@ -400,14 +352,6 @@ nhsc_tech_crystal_forged_capacitor = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_forged_capacitor }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -422,14 +366,6 @@ nhsc_tech_crystal_forged_capacitor = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = @federation_perk_factor
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = nhsc_tech_crystal_forged_capacitor }
-			}
 		}
 	}
 }
