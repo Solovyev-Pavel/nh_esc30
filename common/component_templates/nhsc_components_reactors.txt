@@ -327,7 +327,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
+                         fe_battlecruiser escortcarrier SCX_Carrier }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_2"
 
@@ -860,7 +860,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
+                         fe_battlecruiser escortcarrier SCX_Carrier }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_3"
 
@@ -1390,7 +1390,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
+                         fe_battlecruiser escortcarrier SCX_Carrier }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1935,7 +1935,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
+                         fe_battlecruiser escortcarrier SCX_Carrier }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_DARK_MATTER_CORE_3"
 
@@ -2617,7 +2617,7 @@ utility_component_template = {
                          rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
                          rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe rs_heavy_dreadnought_type_fe1
                          rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3 rs_heavy_dreadnought_type_tw
-                         fe_battlecruiser supportship escortcarrier SCX_Carrier }
+                         fe_battlecruiser escortcarrier SCX_Carrier }
 	component_set = "power_core"
 
 	ai_weight = {
