@@ -69,3 +69,9 @@
 - Siegebreaker strikecrafts are now reverse-engineerable.
 - Mercenary strikecrafts are no longer reverse-engineerable to keep as unique to Megacorp empires.
 - Buffed starbase reactors.
+
+>>> 02.04.2020
+- Remove references to no-longer-existing NSC ship class 'supportship'.
+- Psionic Avatar Summoning 'edict' now has a fixed cost 2500 energy and 250 psionic charges.
+- Updated test event with Juggernaut weapons' techs.
+- Balance changes to some of the weapons based on their weighted average damage (thus, accounting for damage and defense penetration modifiers).
