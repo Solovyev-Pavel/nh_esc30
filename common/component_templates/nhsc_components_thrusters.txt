@@ -141,7 +141,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "CRUISER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort graygoo_interdictor }
 
 	ai_weight = {
 		weight = 5
@@ -204,7 +204,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "TITAN_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { titan fe_titan }
+	size_restriction = { titan fe_titan graygoo_mothership }
 
 	ai_weight = {
 		weight = 5
@@ -464,7 +464,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort graygoo_interdictor }
 
 	ai_weight = {
 		weight = 6
@@ -525,7 +525,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { titan fe_titan }
+	size_restriction = { titan fe_titan graygoo_mothership }
 
 	ai_weight = {
 		weight = 6
