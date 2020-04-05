@@ -75,3 +75,8 @@
 - Psionic Avatar Summoning 'edict' now has a fixed cost 2500 energy and 250 psionic charges.
 - Updated test event with Juggernaut weapons' techs.
 - Balance changes to some of the weapons based on their weighted average damage (thus, accounting for damage and defense penetration modifiers).
+
+>>> 06.04.2020
+- Add support for Realistic Ships Lithoid dreadnought.
+- Add support for Stellar Bastion from "!Expanded Starbases"
+- Add support for "A Deadly Tempest" nanite ships.
