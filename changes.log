@@ -80,3 +80,4 @@
 - Add support for Realistic Ships Lithoid dreadnought.
 - Add support for Stellar Bastion from "!Expanded Starbases"
 - Add support for "A Deadly Tempest" nanite ships.
+- Change repair drones aux component to provide percentage-based regeneration of hull and armor.
