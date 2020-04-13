@@ -81,3 +81,8 @@
 - Add support for Stellar Bastion from "!Expanded Starbases"
 - Add support for "A Deadly Tempest" nanite ships.
 - Change repair drones aux component to provide percentage-based regeneration of hull and armor.
+
+>>> 16.04.2020
+- Add support for "Forgotten Queens" : hive minds can research psionic weapons without relying on reverse-engineering.
+- Remove +1 research alternative from Watcher of Eternity.
+- Give Cerebral Node and Network Regulator custom unity-generating jobs to stop these buildings from providing unintentional administrative capacity.
