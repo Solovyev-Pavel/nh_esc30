@@ -254,6 +254,11 @@ esc_infinity_thinker_drone = {
             unity = 1
 		}
 		upkeep = {
+			trigger = { is_lithoid = no }
+			food = 6
+		}
+		upkeep = {
+			trigger = { is_lithoid = yes }
 			minerals = 6
 		}
 	}
@@ -304,7 +309,7 @@ esc_infinity_thinker_unit = {
             unity = 1
 		}
 		upkeep = {
-			minerals = 6
+			energy = 6
 		}
 	}
 
