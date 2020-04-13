@@ -751,7 +751,9 @@ nhsc_building_watcher = {
 	}
 
 	planet_modifier = {
-		planet_researchers_produces_mult = 0.20 # 20% more science from researchers
+		planet_jobs_physics_research_produces_mult = 0.20
+		planet_jobs_society_research_produces_mult = 0.20
+		planet_jobs_engineering_research_produces_mult = 0.20
 	}
 
 	triggered_planet_modifier = {
