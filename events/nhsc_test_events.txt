@@ -219,5 +219,11 @@ country_event = {
 		if = { limit = { NOT = { has_technology = nhsc_tech_aura_mirage_system } } give_technology = { message = no tech = nhsc_tech_aura_mirage_system } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_aura_nanite_swarm } } give_technology = { message = no tech = nhsc_tech_aura_nanite_swarm } }
 		if = { limit = { NOT = { has_technology = nhsc_tech_aura_space_distortion } } give_technology = { message = no tech = nhsc_tech_aura_space_distortion } }
+		# jump droves
+		if = { limit = { NOT = { has_technology = nhsc_tech_jump_drive_2 } } give_technology = { message = no tech = nhsc_tech_jump_drive_2 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_jump_drive_3 } } give_technology = { message = no tech = nhsc_tech_jump_drive_3 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_jump_drive_precursor } } give_technology = { message = no tech = nhsc_tech_jump_drive_precursor } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_psi_jump_drive_2 } } give_technology = { message = no tech = nhsc_tech_psi_jump_drive_2 } }
+		if = { limit = { NOT = { has_technology = nhsc_tech_psi_jump_drive_3 } } give_technology = { message = no tech = nhsc_tech_psi_jump_drive_3 } }
 	}
 }
