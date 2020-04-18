@@ -15,6 +15,12 @@
 #
 # ── Antimatter Thrusters						: tier 5 thrusters for ships
 #     └─ Gravity Manipulation Engines			: tier 6 thrusters for ships
+#
+# ── Improved Jump Drive						: tier 2 jump drive
+#     └─ Supercharged Jump Drive				: tier 3 jump drive
+# ── Precursor Jump Drive						: tier 3 jump drive [FE debris only]
+# ── Improved Psi Jump Drive					: tier 2 psi jump drive
+#     └─ Shroud Guide							: tier 3 psi jump drive
 
 ############################################################
 ##              Improved Zero-Point Reactor               ##
@@ -724,5 +730,248 @@ nhsc_tech_advanced_thrusters_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+	}
+}
+
+############################################################
+
+############################################################
+##                  Improved Jump Drive                   ##
+############################################################
+
+nhsc_tech_jump_drive_2 = {
+	area = physics
+	category = { particles }
+	tier = 6
+	cost = @techTier6cost1
+	weight = @techTier6weight1
+	ai_update_type = all
+	prerequisites = { tech_jump_drive_1 }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_thrusters_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.25
+			NOR = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_particles"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_maniacal"
+				}
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_discovery_adopt
+		}
+	}
+
+	ai_weight = {
+		factor = 20 #FTL techs are good
+	}
+}
+
+############################################################
+##               Supercharged Jump Drive                  ##
+############################################################
+
+nhsc_tech_jump_drive_3 = {
+	area = physics
+	category = { particles }
+	tier = 7
+	cost = @techTier7cost1
+	weight = @techTier7weight1
+	ai_update_type = all
+	prerequisites = { nhsc_tech_jump_drive_2 }
+	is_rare = yes
+	is_reverse_engineerable = no
+
+	potential = {
+		NOT = { has_global_flag = ESC_thrusters_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.25
+			NOR = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_particles"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_maniacal"
+				}
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_discovery_adopt
+		}
+	}
+
+	ai_weight = {
+		factor = 20 #FTL techs are good
+	}
+}
+
+############################################################
+##                 Precursor Jump Drive                   ##
+############################################################
+
+nhsc_tech_jump_drive_precursor = {
+	area = physics
+	category = { particles }
+	tier = 7
+	cost = @techTier7cost1
+	weight = 0 # can only be found in FE debris if playing with ESC overwrites
+	ai_update_type = all
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_thrusters_forbidden }
+	}
+}
+
+############################################################
+##               Improved Psi Jump Drive                  ##
+############################################################
+
+nhsc_tech_psi_jump_drive_2 = {
+	area = society
+	category = { psionics }
+	tier = 6
+	cost = @techTier6cost1
+	weight = @techTier6weight1
+	ai_update_type = all
+	prerequisites = { tech_psi_jump_drive_1 }
+	is_rare = yes
+	is_reverse_engineerable = no
+
+	potential = {
+		NOT = { has_global_flag = ESC_thrusters_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.25
+			NOR = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_psionics"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_maniacal"
+				}
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_discovery_adopt
+		}
+	}
+
+	ai_weight = {
+		factor = 20 #FTL techs are good
+	}
+}
+
+############################################################
+##                      Shroud Guide                      ##
+############################################################
+
+nhsc_tech_psi_jump_drive_3 = {
+	area = society
+	category = { psionics }
+	tier = 6
+	cost = @techTier7cost1
+	weight = @techTier7weight1
+	ai_update_type = all
+	prerequisites = { nhsc_tech_psi_jump_drive_2 }
+	is_rare = yes
+	is_reverse_engineerable = no
+
+	potential = {
+		NOT = { has_global_flag = ESC_thrusters_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.25
+			NOR = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_psionics"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_maniacal"
+				}
+			}
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_discovery_adopt
+		}
+	}
+
+	ai_weight = {
+		factor = 20 #FTL techs are good
 	}
 }

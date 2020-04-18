@@ -243,6 +243,22 @@ NHSC_TECH_UNLOCK_ADV_THRUSTERS_2_DESC: "L'application des principes de la techno
 nhsc_tech_afterburners_3: "Postcombustion de plasma pulsé"
 nhsc_tech_afterburners_3_desc: "Un système de post-combustion avancé qui permet aux vaisseaux d'accélérer rapidement à tout moment et à un coût minimal en carburant."
 
+# TODO : translate
+nhsc_tech_jump_drive_2: "Improved Jump Drive"
+nhsc_tech_jump_drive_2_desc: "As jump drive technology matures, we find ourselves capable of improving existing jump drive designs, extending their range and giving our ships better protection against the effects of tearing though the very space-time continuum."
+
+nhsc_tech_jump_drive_3: "Supercharged Jump Drive"
+nhsc_tech_jump_drive_3_desc: "Routing additional power through the core of a jump drive will allow futher improvement to the drive's performance. All we need to do if make a jump drive core that can survive energies needed to make such overclocking worth it."
+
+nhsc_tech_jump_drive_precursor: "Precursor Jump Drive"
+nhsc_tech_jump_drive_precursor_desc: "A jump drive perfection, achieved by precursor civilizations over eons."
+
+nhsc_tech_psi_jump_drive_2: "Improved Psionic Jump Drive"
+nhsc_tech_psi_jump_drive_2_desc: "A mature and polished verions of the psionic jump drive, featuring improved range and faster recharge."
+
+nhsc_tech_psi_jump_drive_3: "Shroud Guide"
+nhsc_tech_psi_jump_drive_3_desc: "By learning from those that traverse the Shroud we can perfect the psionic jump drive."
+
 ########################################
 ###     Technologies : shields       ###
 ########################################
