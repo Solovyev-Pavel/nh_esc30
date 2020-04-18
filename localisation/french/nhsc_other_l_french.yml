@@ -352,3 +352,14 @@ nhsc.23.desc: "With the data our observation team has collected on the Automated
 
 NHSC_DREADNOUGHT_OBSERVATION: "Automated Dreadnought Observation"
 NHSC_DREADNOUGHT_OBSERVATION_DESC: "While it doesn't look like combat systems of the ancient Automated Dreadnought possess any form of true intelligence, they are still extremely advanced and if we can replicate their logic for out own ships, this will greatly increase strength of our fleets."
+
+########################################
+###         Static Modifiers         ###
+########################################
+
+# TODO : translate
+esc_ai_midgame_science_boost: "Exta Ship Components AI research boost"
+esc_ai_midgame_science_boost_desc: "This AI boost should help AI keep up with human players"
+
+esc_ai_endgame_science_boost: "$esc_ai_midgame_science_boost$"
+esc_ai_endgame_science_boost_desc: "$esc_ai_midgame_science_boost_desc$"

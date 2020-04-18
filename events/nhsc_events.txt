@@ -35,6 +35,64 @@ event = {
 }
 
 ## ##################################################### ##
+##             Setting up AI research boost              ##
+## ##################################################### ##
+
+# midgame boost
+event = {
+	id = nhsc.6
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		mid_game_years_passed > 0
+		NOT = { end_game_years_passed > 0 }
+	}
+
+	immediate = {
+		every_country = {
+			limit = { is_fallen_empire = no }
+
+			if = {
+				limit = { has_modifier = esc_ai_midgame_science_boost  }
+				remove_modifier = esc_ai_midgame_science_boost
+			}
+
+			add_modifier = { modifier = esc_ai_midgame_science_boost days = 365 }
+		}
+	}
+}
+
+# endgame boost
+event = {
+	id = nhsc.7
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		end_game_years_passed > 0
+	}
+
+	immediate = {
+		every_country = {
+			limit = { is_fallen_empire = no }
+
+			if = {
+				limit = { has_modifier = esc_ai_midgame_science_boost  }
+				remove_modifier = esc_ai_midgame_science_boost
+			}
+
+			if = {
+				limit = { has_modifier = esc_ai_endgame_science_boost  }
+				remove_modifier = esc_ai_endgame_science_boost
+			}
+
+			add_modifier = { modifier = esc_ai_endgame_science_boost days = 365 }
+		}
+	}
+}
+
+## ##################################################### ##
 ##          Dreadnought computers access events          ##
 ## ##################################################### ##
 
