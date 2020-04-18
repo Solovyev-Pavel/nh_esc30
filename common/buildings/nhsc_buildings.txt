@@ -42,14 +42,36 @@ nhsc_building_centralresearchbureau = {
 
 	resources = {
 		category = planet_buildings
+		# AI cost
 		cost = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			minerals = 1000
+		}
+		# human player cost
+		cost = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			minerals = 600
 			influence = 15
 			rare_crystals = 25
 			volatile_motes = 25
 			exotic_gases = 25
 		}
+		# AI upkeep
 		upkeep = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			energy = 10
+		}
+		# human player upkeep
+		upkeep = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			energy = 10
 			rare_crystals = 1
 			volatile_motes = 1
@@ -130,34 +152,15 @@ nhsc_building_centralresearchbureau = {
 	prerequisites = { "nhsc_tech_central_research_bureau" }
 
 	ai_weight = {
-		factor = 10
-		# do not build this building if there aren't rare crystals to pay for its upkeep
+		weight = 0
+		# force AI to build this building
 		modifier = {
-			factor = 0.001
+			weight = 75000
 			owner = {
-				has_monthly_income = {
-					resource = rare_crystals
-					value < 1
-				}
-			}
-		}
-		# do not build this building if there aren't exotic gases to pay for its upkeep
-		modifier = {
-			factor = 0.001
-			owner = {
-				has_monthly_income = {
-					resource = exotic_gases
-					value < 1
-				}
-			}
-		}
-		# do not build this building if there aren't volatile motes to pay for its upkeep
-		modifier = {
-			factor = 0.001
-			owner = {
-				has_monthly_income = {
-					resource = volatile_motes
-					value < 1
+				NOT = {
+					any_owned_planet = {
+						has_building = nhsc_building_centralresearchbureau
+					}
 				}
 			}
 		}
@@ -197,13 +200,35 @@ nhsc_building_culture_nexus = {
 
 	resources = {
 		category = planet_buildings
+		# AI cost
 		cost = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			minerals = 1000
+		}
+		# human player cost
+		cost = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			minerals = 600
 			influence = 15
 			rare_crystals = 25
 		}
+		# AI upkeep
 		upkeep = {
-			energy = 15
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			energy = 10
+		}
+		# human player upkeep
+		upkeep = {
+			trigger = {
+				owner = { is_ai = no }
+			}
+			energy = 10
 			rare_crystals = 1
 		}
 		produces = {
@@ -271,14 +296,19 @@ nhsc_building_culture_nexus = {
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
 	ai_weight = {
-		factor = 10
-		# do not build this building if there aren't rare crystals to pay for its upkeep
+		weight = 0
+		# force AI to build this building
 		modifier = {
-			factor = 0.001
+			weight = 75000
 			owner = {
-				has_monthly_income = {
-					resource = rare_crystals
-					value < 1
+				NOT = {
+					any_owned_planet = {
+						OR = {
+							has_building = nhsc_building_culture_nexus
+							has_building = nhsc_building_cerebral_node
+							has_building = nhsc_building_network_regulator
+						}
+					}
 				}
 			}
 		}
@@ -318,13 +348,35 @@ nhsc_building_cerebral_node = {
 
 	resources = {
 		category = planet_buildings
+		# AI cost
 		cost = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			minerals = 1000
+		}
+		# human player cost
+		cost = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			minerals = 600
 			influence = 15
 			rare_crystals = 25
 		}
+		# AI upkeep
 		upkeep = {
-			energy = 15
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			energy = 10
+		}
+		# human player upkeep
+		upkeep = {
+			trigger = {
+				owner = { is_ai = no }
+			}
+			energy = 10
 			rare_crystals = 1
 		}
 		produces = {
@@ -360,14 +412,19 @@ nhsc_building_cerebral_node = {
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
 	ai_weight = {
-		factor = 10
-		# do not build this building if there aren't rare crystals to pay for its upkeep
+		weight = 0
+		# force AI to build this building
 		modifier = {
-			factor = 0.001
+			weight = 75000
 			owner = {
-				has_monthly_income = {
-					resource = rare_crystals
-					value < 1
+				NOT = {
+					any_owned_planet = {
+						OR = {
+							has_building = nhsc_building_culture_nexus
+							has_building = nhsc_building_cerebral_node
+							has_building = nhsc_building_network_regulator
+						}
+					}
 				}
 			}
 		}
@@ -407,13 +464,35 @@ nhsc_building_network_regulator = {
 
 	resources = {
 		category = planet_buildings
+		# AI cost
 		cost = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			minerals = 1000
+		}
+		# human player cost
+		cost = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			minerals = 600
 			influence = 15
 			rare_crystals = 25
 		}
+		# AI upkeep
 		upkeep = {
-			energy = 15
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			energy = 10
+		}
+		# human player upkeep
+		upkeep = {
+			trigger = {
+				owner = { is_ai = no }
+			}
+			energy = 10
 			rare_crystals = 1
 		}
 		produces = {
@@ -448,14 +527,19 @@ nhsc_building_network_regulator = {
 	prerequisites = { "nhsc_tech_culture_nexus" }
 
 	ai_weight = {
-		factor = 10
-		# do not build this building if there aren't rare crystals to pay for its upkeep
+		weight = 0
+		# force AI to build this building
 		modifier = {
-			factor = 0.001
+			weight = 75000
 			owner = {
-				has_monthly_income = {
-					resource = rare_crystals
-					value < 1
+				NOT = {
+					any_owned_planet = {
+						OR = {
+							has_building = nhsc_building_culture_nexus
+							has_building = nhsc_building_cerebral_node
+							has_building = nhsc_building_network_regulator
+						}
+					}
 				}
 			}
 		}
@@ -488,13 +572,35 @@ nhsc_building_materials_laboratory = {
 
 	resources = {
 		category = planet_buildings
+		# AI cost
 		cost = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			minerals = 1000
+		}
+		# human player cost
+		cost = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			minerals = 600
 			influence = 15
 			volatile_motes = 25
 		}
+		# AI upkeep
 		upkeep = {
-			energy = 15
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			energy = 10
+		}
+		# human player upkeep
+		upkeep = {
+			trigger = {
+				owner = { is_ai = no }
+			}
+			energy = 10
 			volatile_motes = 1
 		}
 		produces = {
@@ -570,14 +676,15 @@ nhsc_building_materials_laboratory = {
 	prerequisites = { "nhsc_tech_advanced_materials_lab" }
 
 	ai_weight = {
-		factor = 10
-		# do not build this building if there aren't volatile motes to pay for its upkeep
+		weight = 0
+		# force AI to build this building
 		modifier = {
-			factor = 0.001
+			weight = 75000
 			owner = {
-				has_monthly_income = {
-					resource = volatile_motes
-					value < 1
+				NOT = {
+					any_owned_planet = {
+						has_building = nhsc_building_materials_laboratory
+					}
 				}
 			}
 		}
@@ -610,13 +717,35 @@ nhsc_building_technology_institute = {
 
 	resources = {
 		category = planet_buildings
+		# AI cost
 		cost = {
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			minerals = 1000
+		}
+		# human player cost
+		cost = {
+			trigger = {
+				owner = { is_ai = no }
+			}
 			minerals = 600
 			influence = 15
 			exotic_gases = 25
 		}
+		# AI upkeep
 		upkeep = {
-			energy = 15
+			trigger = {
+				owner = { is_ai = yes }
+			}
+			energy = 10
+		}
+		# human player upkeep
+		upkeep = {
+			trigger = {
+				owner = { is_ai = no }
+			}
+			energy = 10
 			exotic_gases = 1
 		}
 		produces = {
@@ -692,14 +821,15 @@ nhsc_building_technology_institute = {
 	prerequisites = { "nhsc_tech_technology_institute" }
 
 	ai_weight = {
-		factor = 10
-		# do not build this building if there aren't exotic gases to pay for its upkeep
+		weight = 0
+		# force AI to build this building
 		modifier = {
-			factor = 0.001
+			weight = 75000
 			owner = {
-				has_monthly_income = {
-					resource = exotic_gases
-					value < 1
+				NOT = {
+					any_owned_planet = {
+						has_building = nhsc_building_technology_institute
+					}
 				}
 			}
 		}
