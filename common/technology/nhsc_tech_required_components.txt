@@ -29,9 +29,9 @@
 nhsc_tech_advanced_reactor_1 = {
 	area = physics
 	category = { particles }
-	tier = 4
-	cost = @tier4cost2
-	weight = @tier4weight2
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
 	prerequisites = { "nhsc_tech_central_research_bureau" "tech_zero_point_power" }
 	ai_update_type = all
 
@@ -91,8 +91,8 @@ nhsc_tech_advanced_reactor_2 = {
 	area = physics
 	category = { particles }
 	tier = 5
-	cost = @tier5cost1
-	weight = @tier5weight1
+	cost = @tier5cost3
+	weight = @tier5weight3
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	ai_update_type = all
 
@@ -151,9 +151,9 @@ nhsc_tech_advanced_reactor_2 = {
 nhsc_tech_advanced_reactor_3 = {
 	area = physics
 	category = { particles }
-	tier = 5
-	cost = @tier5cost2
-	weight = @tier5weight2
+	tier = 6
+	cost = @techTier6cost2
+	weight = @techTier6weight2
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	ai_update_type = all
 	is_rare = yes
@@ -221,9 +221,9 @@ nhsc_tech_advanced_reactor_3 = {
 nhsc_tech_dark_matter_power_core_2 = {
 	area = physics
 	category = { particles }
-	tier = 5
-	cost = @tier5cost2
-	weight = @tier5weight2
+	tier = 6
+	cost = @techTier6cost1
+	weight = @techTier6weight1
 	prerequisites = { "tech_dark_matter_power_core" }
 	ai_update_type = all
 	is_rare = yes
@@ -291,9 +291,9 @@ nhsc_tech_dark_matter_power_core_2 = {
 nhsc_tech_dark_matter_power_core_3 = {
 	area = physics
 	category = { particles }
-	tier = 5
-	cost = @tier5cost3
-	weight = @tier5weight3
+	tier = 6
+	cost = @techTier6cost2
+	weight = @techTier6weight2
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	ai_update_type = all
 	is_rare = yes
@@ -364,9 +364,9 @@ nhsc_tech_dark_matter_power_core_3 = {
 nhsc_tech_advanced_sensors_1 = {
 	area = physics
 	category = { voidcraft }
-	tier = 4
-	cost = @tier4cost3
-	weight = @tier4weight3
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
 	prerequisites = { "tech_sensors_4" "nhsc_tech_central_research_bureau" }
 	ai_update_type = all
 
@@ -415,8 +415,8 @@ nhsc_tech_advanced_sensors_2 = {
 	area = physics
 	category = { voidcraft }
 	tier = 5
-	cost = @tier5cost1
-	weight = @tier5weight1
+	cost = @tier5cost3
+	weight = @tier5weight3
 	prerequisites = { "nhsc_tech_advanced_sensors_1" }
 	ai_update_type = all
 	is_rare = yes
@@ -473,9 +473,9 @@ nhsc_tech_advanced_sensors_2 = {
 nhsc_tech_advanced_sensors_3 = {
 	area = physics
 	category = { voidcraft }
-	tier = 5
-	cost = @tier5cost2
-	weight = @tier5weight2
+	tier = 6
+	cost = @techTier6cost1
+	weight = @techTier6weight1
 	prerequisites = { "nhsc_tech_advanced_sensors_2" }
 	ai_update_type = all
 	is_rare = yes
@@ -533,8 +533,8 @@ nhsc_tech_psionic_sensors = {
 	area = society
 	category = { psionics }
 	tier = 5
-	cost = @tier5cost2
-	weight = @tier5weight2
+	cost = @tier5cost3
+	weight = @tier5weight3
 	prerequisites = { "nhsc_tech_advanced_sensors_2" "tech_psionic_theory" }
 	ai_update_type = all
 	is_rare = yes
@@ -621,9 +621,9 @@ nhsc_tech_psionic_sensors = {
 nhsc_tech_advanced_thrusters_1 = {
 	area = engineering
 	category = { propulsion }
-	tier = 4
-	cost = @tier4cost3
-	weight = @tier4weight3
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
 	ai_update_type = all
 	prerequisites = { "nhsc_tech_central_research_bureau" "tech_thrusters_4" }
 
@@ -669,9 +669,9 @@ nhsc_tech_advanced_thrusters_1 = {
 nhsc_tech_advanced_thrusters_2 = {
 	area = engineering
 	category = { propulsion }
-	tier = 5
-	cost = @tier5cost1
-	weight = @tier5weight1
+	tier = 6
+	cost = @techTier6cost1
+	weight = @techTier6weight1
 	ai_update_type = all
 	prerequisites = { "nhsc_tech_gravity_manipulation" }
 	is_rare = yes
@@ -750,6 +750,7 @@ nhsc_tech_jump_drive_2 = {
 	is_rare = yes
 
 	potential = {
+		NOT = { has_global_flag = acot_activated } # ACOT has better drives
 		NOT = { has_global_flag = ESC_thrusters_forbidden }
 	}
 
@@ -806,6 +807,7 @@ nhsc_tech_jump_drive_3 = {
 	is_reverse_engineerable = no
 
 	potential = {
+		NOT = { has_global_flag = acot_activated } # ACOT has better drives
 		NOT = { has_global_flag = ESC_thrusters_forbidden }
 	}
 
@@ -880,6 +882,7 @@ nhsc_tech_psi_jump_drive_2 = {
 	is_reverse_engineerable = no
 
 	potential = {
+		NOT = { has_global_flag = acot_activated } # ACOT has better drives
 		NOT = { has_global_flag = ESC_thrusters_forbidden }
 	}
 
@@ -927,7 +930,7 @@ nhsc_tech_psi_jump_drive_2 = {
 nhsc_tech_psi_jump_drive_3 = {
 	area = society
 	category = { psionics }
-	tier = 6
+	tier = 6 # there aren't enough tier 6 society techs to unlock tier 7 on just psionics
 	cost = @techTier7cost1
 	weight = @techTier7weight1
 	ai_update_type = all
@@ -936,6 +939,7 @@ nhsc_tech_psi_jump_drive_3 = {
 	is_reverse_engineerable = no
 
 	potential = {
+		NOT = { has_global_flag = acot_activated } # ACOT has better drives
 		NOT = { has_global_flag = ESC_thrusters_forbidden }
 	}
 
