@@ -583,7 +583,7 @@ nhsc_tech_armor_horror = {
 }
 
 ############################################################
-##              Reinforced Crystalline Plating               ##
+##             Reinforced Crystalline Plating             ##
 ############################################################
 
 nhsc_tech_crystal_armor_3 = {
@@ -592,7 +592,7 @@ nhsc_tech_crystal_armor_3 = {
 	tier = 5
 	cost = @tier5cost2
 	weight = @tier5weight2
-	prerequisites = { "nhsc_tech_armor_7" }
+	prerequisites = { "nhsc_tech_armor_6" }
 	is_rare = yes
 	ai_update_type = all
 
