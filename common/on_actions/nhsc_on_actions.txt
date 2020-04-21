@@ -48,3 +48,13 @@ on_building_replaced = {
 		nhsc_buildings.60 # remove AI flag for owning an enigmatic energy coil if the last one within the empire is replaced
 	}
 }
+
+on_planet_transfer = {
+	events = {
+		nhsc_buildings.5 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
+		nhsc_buildings.6 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
+		nhsc_buildings.7 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
+		nhsc_buildings.8 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
+		nhsc_buildings.9 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
+	}
+}
