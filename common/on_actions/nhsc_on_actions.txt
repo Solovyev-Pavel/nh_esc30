@@ -28,7 +28,6 @@ on_yearly_pulse = {
 		nhsc_crisis.6 # resetting crisis if re:invasion is allowed
 		nhsc_buildings.110 # random boons from mantle mining facility
 		nhsc.6 # midgame AI research boost
-		nhsc.7 # endgame AI research boost
 	}
 }
 
