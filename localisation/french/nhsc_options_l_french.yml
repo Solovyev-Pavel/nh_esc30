@@ -65,4 +65,14 @@ esc_option.10.a.tooltip: "Disables repeated Unbidden invasion feature. Only a si
 esc_option.10.b: "Repeated Unbidden Invasions are §Rdisabled§!. §GEnable§!?"
 esc_option.10.b.tooltip: "Enables repeated Unbidden invasion feature. A new extradimensional invasion will start a few years after the previous one is defeated."
 
+esc_option.11.a: "Triggered Unbidden invasion is §Genabled§!. §RDisable§!?"
+esc_option.11.a.tooltip: "Researching ESC dangerous technologies will not result in a Unbidden invasion."
+esc_option.11.b: "Triggered Unbidden invasion is §Rdisabled§!. §GEnable§!?"
+esc_option.11.b.tooltip: "Researching ESC dangerous technologies will result in a guaranteed Unbidden invasion."
+
+esc_option.12.a: "AI research boost is §Genabled§!. §RDisable§!?"
+esc_option.12.a.tooltip: "Remove AI research speed boost."
+esc_option.12.b: "AI research boost is §Rdisabled§!. §GEnable§!?"
+esc_option.12.b.tooltip: "Grant AI a substational research speed boost starting with the midgame."
+
 esc_option.exit: "Quitter le Menu de Configuration"

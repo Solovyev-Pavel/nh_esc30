@@ -12,17 +12,17 @@ esc_options_title_desc: "This menu allows toggling subsets of content offered by
 esc_option.1.a: "Weapon components are §Genabled§!. §RDisable§!?"
 esc_option.1.a.tooltip: "Disables all ESC 3.0 technologies that unlock weapon and strikecraft components. Already researched components will remain §Yavailable§! even if their technologies have been disabled.\n\n§RWARNING§!: disabling weapon technologies will make some armor, shield and auxiliary slot technologies unavailable for research."
 esc_option.1.b: "Weapon components are §Rdisabled§!. §GEnable§!?"
-esc_option.1.b.tooltip: "Enables all ESC 3.0 technologies that unlock weapon and strikecraft components, unless these specific technologies are other blocked through other customization options."
+esc_option.1.b.tooltip: "Enables all ESC 3.0 technologies that unlock weapon and strikecraft components, unless these specific technologies are otherwise blocked through other customization options."
 
 esc_option.2.a: "Armor components are §Genabled§!. §RDisable§!?"
 esc_option.2.a.tooltip: "Disables all ESC 3.0 technologies that unlock armor components. Already researched components will remain §Yavailable§! even if their technologies have been disabled."
 esc_option.2.b: "Armor components are §Rdisabled§!. §GEnable§!?"
-esc_option.2.b.tooltip: "Enables all ESC 3.0 technologies that unlock armor components, unless these specific technologies are other blocked through other customization options."
+esc_option.2.b.tooltip: "Enables all ESC 3.0 technologies that unlock armor components, unless these specific technologies are otherwise blocked through other customization options."
 
 esc_option.3.a: "Shield components are §Genabled§!. §RDisable§!?"
 esc_option.3.a.tooltip: "Disables all ESC 3.0 technologies that unlock shield components. Already researched components will remain §Yavailable§! even if their technologies have been disabled.\n\n§RWARNING§!: disabling shield technologies will make some armor technologies unavailable for research."
 esc_option.3.b: "Shield components are §Rdisabled§!. §GEnable§!?"
-esc_option.3.b.tooltip: "Enables all ESC 3.0 technologies that unlock shield components, unless these specific technologies are other blocked through other customization options."
+esc_option.3.b.tooltip: "Enables all ESC 3.0 technologies that unlock shield components, unless these specific technologies are otherwise blocked through other customization options."
 
 esc_option.4.a: "Reactor components are §Genabled§!. §RDisable§!?"
 esc_option.4.a.tooltip: "Disables all ESC 3.0 technologies that unlock reactor components. Already researched components will remain §Yavailable§! even if their technologies have been disabled.\n\n§RWARNING§!: disabling reactor technologies will make some weapon technologies unavailable for research."
@@ -42,21 +42,31 @@ esc_option.6.b.tooltip: "Enables all ESC 3.0 technologies that unlock thruster c
 esc_option.7.a: "Auxiliary slot components are §Genabled§!. §RDisable§!?"
 esc_option.7.a.tooltip: "Disables all ESC 3.0 technologies that unlock auxiliary slot components. Already researched components will remain §Yavailable§! even if their technologies have been disabled.\n\n§RWARNING§!: disabling auxiliary slot technologies will make some shield technologies unavailable for research."
 esc_option.7.b: "Auxiliary slot components are §Rdisabled§!. §GEnable§!?"
-esc_option.7.b.tooltip: "Enables all ESC 3.0 technologies that unlock auxiliary slot components, unless these specific technologies are other blocked through other customization options."
+esc_option.7.b.tooltip: "Enables all ESC 3.0 technologies that unlock auxiliary slot components, unless these specific technologies are otherwise blocked through other customization options."
 
 esc_option.8.a: "Leviathan components and buildings are §Genabled§!. §RDisable§!?"
 esc_option.8.a.tooltip: "Disables all ESC 3.0 technologies that unlock Leviathan components and buildings. Already researched components will remain §Yavailable§! even if their technologies have been disabled."
 esc_option.8.b: "Leviathan components and buildings are §Rdisabled§!. §GEnable§!?"
-esc_option.8.b.tooltip: "Enables all ESC 3.0 technologies that unlock Leviathan components and buildings, unless these specific technologies are other blocked through other customization options."
+esc_option.8.b.tooltip: "Enables all ESC 3.0 technologies that unlock Leviathan components and buildings, unless these specific technologies are otherwise blocked through other customization options."
 
 esc_option.9.a: "Buildings are §Genabled§!. §RDisable§!?"
 esc_option.9.a.tooltip: "Disables all ESC 3.0 technologies that unlock planetside and starbase buildings. Already constructed buildings will remain §Yavailable§! but new ones that have been researched will not be allowed."
 esc_option.9.b: "Buildings are §Rdisabled§!. §GEnable§!?"
-esc_option.9.b.tooltip: "Enables all ESC 3.0 technologies that unlock buildings, unless these specific technologies are other blocked through other customization options. Allows construction of previously-researched ESC 3.0 buildings."
+esc_option.9.b.tooltip: "Enables all ESC 3.0 technologies that unlock buildings, unless these specific technologies are otherwise blocked through other customization options. Allows construction of previously-researched ESC 3.0 buildings."
 
 esc_option.10.a: "Repeated Unbidden Invasions are §Genabled§!. §RDisable§!?"
 esc_option.10.a.tooltip: "Disables repeated Unbidden invasion feature. Only a single invasion will be summoned when dangerous Chrono-Spatial technologies are researched."
 esc_option.10.b: "Repeated Unbidden Invasions are §Rdisabled§!. §GEnable§!?"
 esc_option.10.b.tooltip: "Enables repeated Unbidden invasion feature. A new extradimensional invasion will start a few years after the previous one is defeated."
+
+esc_option.11.a: "Triggered Unbidden invasion is §Genabled§!. §RDisable§!?"
+esc_option.11.a.tooltip: "Researching ESC dangerous technologies will not result in a Unbidden invasion."
+esc_option.11.b: "Triggered Unbidden invasion is §Rdisabled§!. §GEnable§!?"
+esc_option.11.b.tooltip: "Researching ESC dangerous technologies will result in a guaranteed Unbidden invasion."
+
+esc_option.12.a: "AI research boost is §Genabled§!. §RDisable§!?"
+esc_option.12.a.tooltip: "Remove AI research speed boost."
+esc_option.12.b: "AI research boost is §Rdisabled§!. §GEnable§!?"
+esc_option.12.b.tooltip: "Grant AI a substational research speed boost starting with the midgame."
 
 esc_option.exit: "Leave Customization Menu"

@@ -4,12 +4,12 @@ country_event = {
 	id = esc_options.1
 	title = esc_options_title
 	desc = esc_options_title_desc
-#	picture = GFX_nhsc_options_menu
+	#picture = GFX_nhsc_options_menu
 	picture = GFX_evt_space_station
 	is_triggered_only = yes
 
-### enable or disable all of ESC weapon technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC weapon technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.1.a
@@ -30,8 +30,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC armor technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC armor technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.2.a
@@ -52,8 +52,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC shield technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC shield technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.3.a
@@ -74,8 +74,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC reactor technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC reactor technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.4.a
@@ -96,8 +96,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC sensors technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC sensors technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.5.a
@@ -118,8 +118,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC thrusters technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC thrusters technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.6.a
@@ -140,8 +140,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC aux slot technologies
-### components that have already been researched will remain available
+	### enable or disable all of ESC aux slot technologies
+	### components that have already been researched will remain available
 
 	option = {
 		name = esc_option.7.a
@@ -162,9 +162,9 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC leviathan-related technologies
-### components that have already been researched will remain available
-### already constructed buildings will not be demolished, but constructing new ones will not be permitted
+	### enable or disable all of ESC leviathan-related technologies
+	### components that have already been researched will remain available
+	### already constructed buildings will not be demolished, but constructing new ones will not be permitted
 
 	option = {
 		name = esc_option.8.a
@@ -185,8 +185,8 @@ country_event = {
 		}
 	}
 
-### enable or disable all of ESC buildings/building technologies
-### already constructed buildings will not be demolished, but constructing new ones will not be permitted
+	### enable or disable all of ESC buildings/building technologies
+	### already constructed buildings will not be demolished, but constructing new ones will not be permitted
 
 	option = {
 		name = esc_option.9.a
@@ -207,12 +207,64 @@ country_event = {
 		}
 	}
 
-### enable or disable repeated unbidden invasions
+	### enable or disable ESC AI research boost
+	option = {
+		name = esc_option.12.a
+		custom_tooltip = esc_option.12.a.tooltip
+		trigger = {
+			NOT = { has_global_flag = nhsc_ai_reserach_boost_disabled }
+		}
+		hidden_effect = {
+			set_global_flag = nhsc_ai_reserach_boost_disabled
+			country_event = { id = nhsc.8 days = 0 } # remove modifiers
+			country_event = { id = esc_options.1 days = 0 }
+		}
+	}
+	option = {
+		name = esc_option.12.b
+		custom_tooltip = esc_option.12.b.tooltip
+		trigger = {
+			has_global_flag = nhsc_ai_reserach_boost_disabled
+		}
+		hidden_effect = {
+			remove_global_flag = nhsc_ai_reserach_boost_disabled
+			country_event = { id = nhsc.7 days = 0 } # add modifiers
+			country_event = { id = esc_options.1 days = 0 }
+		}
+	}
+
+	### enable or disable ESC Unbidden
+	option = {
+		name = esc_option.11.a
+		custom_tooltip = esc_option.11.a.tooltip
+		trigger = {
+			is_crises_allowed = yes
+			NOT = { has_global_flag = nhsc_unbidden_invasion_forbidden }
+		}
+		hidden_effect = {
+			set_global_flag = nhsc_unbidden_invasion_forbidden
+			country_event = { id = esc_options.1 days = 0 }
+		}
+	}
+	option = {
+		name = esc_option.11.b
+		custom_tooltip = esc_option.11.b.tooltip
+		trigger = {
+			is_crises_allowed = yes
+			has_global_flag = nhsc_unbidden_invasion_forbidden
+		}
+		hidden_effect = {
+			remove_global_flag = nhsc_unbidden_invasion_forbidden
+			country_event = { id = esc_options.1 days = 0 }
+		}
+	}
+
+	### enable or disable repeated unbidden invasions
 	option = {
 		name = esc_option.10.b
 		custom_tooltip = esc_option.10.b.tooltip
 		trigger = {
-			is_crises_allowed = yes
+			NOT = { has_global_flag = nhsc_unbidden_invasion_forbidden }
 			NOT = { has_global_flag = nhsc_repeated_unbidden_invasion }
 		}
 		hidden_effect = {
@@ -224,7 +276,7 @@ country_event = {
 		name = esc_option.10.a
 		custom_tooltip = esc_option.10.a.tooltip
 		trigger = {
-			is_crises_allowed = yes
+			NOT = { has_global_flag = nhsc_unbidden_invasion_forbidden }
 			has_global_flag = nhsc_repeated_unbidden_invasion
 		}
 		hidden_effect = {
@@ -233,6 +285,7 @@ country_event = {
 		}
 	}
 
+	### QUIT mod menu
 	option = {
 		name = esc_option.exit
 	}
