@@ -5,7 +5,7 @@ country_event = {
 	title = esc_options_title
 	desc = esc_options_title_desc
 	#picture = GFX_nhsc_options_menu
-	picture = GFX_evt_space_station
+	picture = GFX_evt_juggernaut
 	is_triggered_only = yes
 
 	### enable or disable all of ESC weapon technologies
