@@ -63,7 +63,10 @@ country_event = {
 
 	immediate = {
 		every_country = {
-			limit = { is_fallen_empire = no }
+			limit = {
+				is_ai = yes
+				is_fallen_empire = no
+			}
 
 			# remove old modifiers
 			if = {
