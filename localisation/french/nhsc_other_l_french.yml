@@ -363,3 +363,13 @@ esc_ai_midgame_science_boost_desc: "This AI boost should help AI keep up with hu
 
 esc_ai_endgame_science_boost: "$esc_ai_midgame_science_boost$"
 esc_ai_endgame_science_boost_desc: "$esc_ai_midgame_science_boost_desc$"
+
+########################################
+###          Country Flags           ###
+########################################
+
+nhsc_building_centralresearchbureau_queued: "$nhsc_building_centralresearchbureau$ queued"
+nhsc_culture_nexus_queued: "$nhsc_building_culture_nexus$ queued"
+nhsc_advanced_materals_laboratory_queued: "$nhsc_building_materials_laboratory$ queued"
+nhsc_technology_institute_queued: "$nhsc_building_technology_institute$ queued"
+nhsc_watcher_of_eternity_queued: "$nhsc_building_watcher$ queued"
