@@ -88,3 +88,20 @@
     - Remove +1 research alternative since there is no real need for it this late into the game.
     - Change +20% science from researchers into +20% science from ALL sources on the planet.
 - Give Cerebral Node and Network Regulator custom unity-generating jobs to stop these buildings from providing unintentional administrative capacity.
+
+>>> 03.05.2020
+- Change costs of most ESC techs. On average, it should now take twice as long to research all ESC techs available to your empire.
+- AI now has +50% research speed bonus starting with the midgame year and +100% research speed bonus starting with the endgame year.
+- Add menu option to toggle AI boost (default ON)
+- Remove rare resource cost and upkeep from Central Research Bureau, Culture Nexus, Advanced Materials Laboratory and Technology Institute for AI.
+- Fix AI weights for Central Research Bureau, Culture Nexus, Advanced Materials Laboratory and Technology Institute.
+- Add advanced jump drives.
+- Add FE-unique reverse-engineerable jump drive.
+- Add intermediate tier of psionic shields.
+- Add reactors for new NSC Headquarters station.
+- Reinforced Crystalline Planting now requires tier 6 armor instead of tier 7 armor.
+- Add events to remove duplicates of empire-unique buildings acquired through conquest or vassal integration.
+- Add menu option to toggle ESC Unbidden (default ON if crises enabled)
+- Buff production of ESC special resources by FE buildings.
+- Make ESC Unbidden invasion a bit more likely to trigger on yearly die roll.
+- By popular demand, added localization of country flags used to limit queueing of empire-unique buildings.
