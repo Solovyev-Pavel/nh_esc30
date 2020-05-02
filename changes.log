@@ -95,6 +95,7 @@
 - Add menu option to toggle AI boost (default ON)
 - Remove rare resource cost and upkeep from Central Research Bureau, Culture Nexus, Advanced Materials Laboratory and Technology Institute for AI.
 - Fix AI weights for Central Research Bureau, Culture Nexus, Advanced Materials Laboratory and Technology Institute.
+- Change AI weights for Zro Distillery and Dark Matter Drawing Facility.
 - Add advanced jump drives.
 - Add FE-unique reverse-engineerable jump drive.
 - Add intermediate tier of psionic shields.
