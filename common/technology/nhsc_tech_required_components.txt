@@ -751,7 +751,7 @@ nhsc_tech_jump_drive_2 = {
 
 	potential = {
 		NOT = { has_global_flag = acot_activated } # ACOT has better drives
-		NOT = { has_global_flag = ESC_thrusters_forbidden }
+		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 
 	weight_modifier = {
@@ -808,7 +808,7 @@ nhsc_tech_jump_drive_3 = {
 
 	potential = {
 		NOT = { has_global_flag = acot_activated } # ACOT has better drives
-		NOT = { has_global_flag = ESC_thrusters_forbidden }
+		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 
 	weight_modifier = {
@@ -862,7 +862,7 @@ nhsc_tech_jump_drive_precursor = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_thrusters_forbidden }
+		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 }
 
@@ -883,7 +883,7 @@ nhsc_tech_psi_jump_drive_2 = {
 
 	potential = {
 		NOT = { has_global_flag = acot_activated } # ACOT has better drives
-		NOT = { has_global_flag = ESC_thrusters_forbidden }
+		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 
 	weight_modifier = {
@@ -940,7 +940,7 @@ nhsc_tech_psi_jump_drive_3 = {
 
 	potential = {
 		NOT = { has_global_flag = acot_activated } # ACOT has better drives
-		NOT = { has_global_flag = ESC_thrusters_forbidden }
+		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 
 	weight_modifier = {
