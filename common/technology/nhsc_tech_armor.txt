@@ -141,6 +141,7 @@ nhsc_tech_armor_nanite_1 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
+		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
 	weight_modifier = {
@@ -194,6 +195,7 @@ nhsc_tech_armor_nanite_2 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
+		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
 	weight_modifier = {
@@ -256,6 +258,7 @@ nhsc_tech_armor_dragonscales_nanite = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
+		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
 	}
 
@@ -318,6 +321,7 @@ nhsc_tech_armor_shield_1 = {
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_shields_forbidden }
+		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
 	weight_modifier = {
@@ -371,6 +375,7 @@ nhsc_tech_armor_shield_2 = {
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_shields_forbidden }
+		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
 	weight_modifier = {
@@ -425,6 +430,7 @@ nhsc_tech_armor_shield_3 = {
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_shields_forbidden }
+		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
 	weight_modifier = {

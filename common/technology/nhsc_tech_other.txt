@@ -292,7 +292,7 @@ nhsc_tech_crystalline_valuables = {
 
 	potential = {
 		is_regular_empire = yes
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_crystal_forbidden }
 	}
 
 	prereqfor_desc = {
@@ -347,7 +347,7 @@ nhsc_tech_rare_crystals_cultivation = {
 
 	potential = {
 		is_regular_empire = yes
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_crystal_forbidden }
 	}
 
 	prereqfor_desc = {
@@ -551,7 +551,7 @@ nhsc_tech_autocannons_m = {
 	prerequisites = { "nhsc_tech_autocannon_4" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_xautocannons_forbidden }
 	}
 
 	# prereqfor_desc = {
@@ -611,7 +611,7 @@ nhsc_tech_autocannons_l = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_xautocannons_forbidden }
 	}
 
 	# prereqfor_desc = {

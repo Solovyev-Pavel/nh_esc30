@@ -26,7 +26,7 @@ nhsc_tech_gravitic_cannon_1 = {
 	prerequisites = { "nhsc_tech_gravity_weapons" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -97,7 +97,7 @@ nhsc_tech_gravitic_cannon_2 = {
 	prerequisites = { "nhsc_tech_gravitic_cannon_1" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -169,7 +169,7 @@ nhsc_tech_gravitic_cannon_3 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -248,7 +248,7 @@ nhsc_tech_gravitic_torpedo_1 = {
 	prerequisites = { "nhsc_tech_gravity_weapons" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -320,7 +320,7 @@ nhsc_tech_gravitic_torpedo_2 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -400,7 +400,7 @@ nhsc_tech_gravitic_lance_1 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -481,7 +481,7 @@ nhsc_tech_gravitic_lance_2 = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -567,7 +567,7 @@ nhsc_tech_gravitic_lance_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {
@@ -661,7 +661,7 @@ nhsc_tech_gravitic_strikecrafts = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_gravity_forbidden }
 	}
 
 	weight_modifier = {

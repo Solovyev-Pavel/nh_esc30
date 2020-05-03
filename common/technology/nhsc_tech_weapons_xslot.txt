@@ -27,7 +27,7 @@ nhsc_tech_energy_lance_3 = {
 	prerequisites = { "tech_energy_lance_2" "nhsc_tech_advanced_heavy_weapons" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -99,7 +99,7 @@ nhsc_tech_energy_lance_4 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -185,7 +185,7 @@ nhsc_tech_energy_lance_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -278,7 +278,7 @@ nhsc_tech_arc_emitter_3 = {
 	prerequisites = { "tech_arc_emitter_2" "nhsc_tech_advanced_heavy_weapons" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -350,7 +350,7 @@ nhsc_tech_arc_emitter_4 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -436,7 +436,7 @@ nhsc_tech_arc_emitter_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -530,7 +530,7 @@ nhsc_tech_wavemotiongun_1 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_wavemotion_forbidden }
 	}
 
 	weight_modifier = {
@@ -610,7 +610,7 @@ nhsc_tech_wavemotiongun_2 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_wavemotion_forbidden }
 	}
 
 	weight_modifier = {
@@ -696,7 +696,7 @@ nhsc_tech_wavemotiongun_3 = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_wavemotion_forbidden }
 	}
 
 	weight_modifier = {
@@ -797,7 +797,7 @@ nhsc_tech_arcenciel = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_chrono_forbidden }
 	}
 
 	weight_modifier = {
@@ -862,7 +862,7 @@ nhsc_tech_arcenciel_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_chrono_forbidden }
 	}
 
 	weight_modifier = {

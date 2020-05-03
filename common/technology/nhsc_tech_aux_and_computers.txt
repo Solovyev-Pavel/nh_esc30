@@ -506,7 +506,7 @@ nhsc_tech_psionic_reinforcement = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_aux_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_psionic_forbidden }
 	}
 
 	weight_modifier = {

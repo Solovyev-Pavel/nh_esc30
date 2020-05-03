@@ -33,7 +33,7 @@ nhsc_tech_laser_6 = {
 	prerequisites = { "tech_lasers_5" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -105,7 +105,7 @@ nhsc_tech_laser_7 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -184,7 +184,7 @@ nhsc_tech_energy_launcher_3 = {
 	prerequisites = { "tech_energy_torpedoes_2" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -256,7 +256,7 @@ nhsc_tech_energy_launcher_4 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -335,7 +335,7 @@ nhsc_tech_disruptors_4 = {
 	prerequisites = { "tech_disruptors_3" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -407,7 +407,7 @@ nhsc_tech_disruptors_5 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -486,7 +486,7 @@ nhsc_tech_plasma_4 = {
 	prerequisites = { "tech_plasma_3" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -558,7 +558,7 @@ nhsc_tech_plasma_5 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -639,7 +639,7 @@ nhsc_tech_chrono_vortex_cannon = {
 	is_dangerous = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_chrono_forbidden }
 	}
 
 	weight_modifier = {
@@ -727,7 +727,7 @@ nhsc_tech_lightstorm_pd = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -773,7 +773,7 @@ nhsc_tech_cloud_lightning_2 = {
 	prerequisites = { "tech_space_cloud_weapon_1" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -812,7 +812,7 @@ nhsc_tech_cloud_lightning_3 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -858,7 +858,7 @@ nhsc_tech_mining_laser_2 = {
 	prerequisites = { "tech_mining_drone_weapon_1" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -897,7 +897,7 @@ nhsc_tech_mining_laser_3 = {
 	prerequisites = { "nhsc_tech_mining_laser_2" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -937,7 +937,7 @@ nhsc_tech_juggernaut_beam_cannon_1 = {
 
 	potential = {
 		host_has_dlc = "Federations"
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_juggernaut_forbidden }
 	}
 
 	weight_modifier = {
@@ -1028,7 +1028,7 @@ nhsc_tech_juggernaut_beam_cannon_2 = {
 
 	potential = {
 		host_has_dlc = "Federations"
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_juggernaut_forbidden }
 	}
 
 	weight_modifier = {

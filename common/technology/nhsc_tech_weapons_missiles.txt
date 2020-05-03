@@ -30,7 +30,7 @@ nhsc_tech_missile_6 = {
 	prerequisites = { "tech_missiles_5" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -102,7 +102,7 @@ nhsc_tech_missile_7 = {
 	is_rare	= yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -188,7 +188,7 @@ nhsc_tech_plasma_missiles_1 = {
 	}
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_plasmamissile_forbidden }
 	}
 
 	weight_modifier = {
@@ -259,7 +259,7 @@ nhsc_tech_plasma_missiles_2 = {
 	prerequisites = { "nhsc_tech_plasma_missiles_1" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_plasmamissile_forbidden }
 	}
 
 	weight_modifier = {
@@ -331,7 +331,7 @@ nhsc_tech_plasma_missiles_3 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_plasmamissile_forbidden }
 	}
 
 	weight_modifier = {
@@ -410,7 +410,7 @@ nhsc_tech_torpedoes_4 = {
 	prerequisites = { "tech_torpedoes_3" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -482,7 +482,7 @@ nhsc_tech_torpedoes_5 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -564,7 +564,7 @@ nhsc_tech_corrosivewarheadtorpedo = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_chrono_forbidden }
 	}
 
 	weight_modifier = {
@@ -643,7 +643,7 @@ nhsc_tech_swarmermissiles_3 = {
 	prerequisites = { "tech_swarmer_missiles_2" "nhsc_tech_new_age_warfare" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -715,7 +715,7 @@ nhsc_tech_swarmermissiles_4 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
 	weight_modifier = {
@@ -794,7 +794,7 @@ nhsc_tech_xmissile1 = {
 	prerequisites = { "nhsc_tech_missile_6" "nhsc_tech_advanced_heavy_weapons" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_xmissiles_forbidden }
 	}
 
 	weight_modifier = {
@@ -866,7 +866,7 @@ nhsc_tech_xmissile2 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_xmissiles_forbidden }
 	}
 
 	weight_modifier = {
@@ -952,7 +952,7 @@ nhsc_tech_xmissile3_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
+		NOT = { has_global_flag = ESC_weapons_xmissiles_forbidden }
 	}
 
 	weight_modifier = {
