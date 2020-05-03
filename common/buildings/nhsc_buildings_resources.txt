@@ -991,10 +991,7 @@ nhsc_building_enigmatic_coil = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NAND = {
-			has_global_flag = ESC_weapons_forbidden
-			has_global_flag = ESC_buildings_forbidden
-		}
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	allow = { has_upgraded_capital = yes }

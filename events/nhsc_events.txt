@@ -133,7 +133,7 @@ event = {
 			limit = {
 				has_country_flag = encountered_dreadnought
 				NOT = { has_country_flag = will_get_dreadnough_computer }
-				NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+				NOT = { has_global_flag = ESC_dreadnought_tech_forbidden }
 				NOT = { has_global_flag = ESC_aux_forbidden }
 			}
 

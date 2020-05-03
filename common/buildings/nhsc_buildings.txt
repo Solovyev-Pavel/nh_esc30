@@ -977,8 +977,7 @@ nhsc_building_stellar_energy_tower = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_stellarite_tech_forbidden }
 	}
 
 	allow = {
@@ -1093,8 +1092,7 @@ nhsc_building_quantum_node = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_technosphere_tech_forbidden }
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -1212,7 +1210,7 @@ nhsc_building_reprocessing_plant = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_scrapper_tech_forbidden }
 	}
 
 	allow = { has_upgraded_capital = yes }

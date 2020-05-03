@@ -32,8 +32,7 @@ nhsc_tech_enigmatic_energy_harvesting = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	weight_modifier = {
@@ -138,8 +137,7 @@ nhsc_tech_enigmatic_discharger = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	weight_modifier = {
@@ -220,8 +218,7 @@ nhsc_tech_enigmatic_lash = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	weight_modifier = {
@@ -302,8 +299,7 @@ nhsc_tech_enigmatic_autocannon = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	weight_modifier = {
@@ -384,8 +380,7 @@ nhsc_tech_enigmatic_lance = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	weight_modifier = {
@@ -470,8 +465,7 @@ nhsc_tech_enigmatic_lance_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
 	}
 
 	weight_modifier = {
@@ -572,8 +566,7 @@ nhsc_tech_extradimensional_pd = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_horror_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -629,8 +622,7 @@ nhsc_tech_tiyanki_cannon = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_matriarch_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -723,8 +715,7 @@ nhsc_tech_tiyanki_cannon_titanic = {
 			host_has_dlc = "Apocalypse"
 			host_has_dlc = "Federations"
 		}
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_matriarch_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -825,8 +816,7 @@ nhsc_tech_junk_mine_launcher = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_scrapper_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -897,8 +887,7 @@ nhsc_tech_voidspawn_missile = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_voidspawn_tech_forbidden }
 	}
 
 	weight_modifier = {

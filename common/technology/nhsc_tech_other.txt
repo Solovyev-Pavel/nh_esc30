@@ -32,8 +32,7 @@ nhsc_tech_stellar_energy_tower = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_stellarite_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -88,8 +87,7 @@ nhsc_tech_quantum_node = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_technosphere_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -143,8 +141,7 @@ nhsc_tech_reprocessing_plant = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_scrapper_tech_forbidden }
 	}
 
 	weight_modifier = {

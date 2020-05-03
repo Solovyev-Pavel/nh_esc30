@@ -294,6 +294,10 @@ nhsc_edict_enigmatic_energy_boost = {
 		}
 	}
 
+	potential = {
+		NOT = { has_global_flag = ESC_weapons_enigmatic_forbidden }
+	}
+
 	modifier = {
 		country_energy_produces_mult = 0.1
 		ships_upkeep_mult = -0.1

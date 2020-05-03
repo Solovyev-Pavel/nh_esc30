@@ -259,7 +259,7 @@ nhsc_tech_armor_dragonscales_nanite = {
 	potential = {
 		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_ether_dragon_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -491,8 +491,7 @@ nhsc_tech_armor_wraith = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_wraith_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -547,8 +546,7 @@ nhsc_tech_armor_horror = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_horror_tech_forbidden }
 	}
 
 	weight_modifier = {

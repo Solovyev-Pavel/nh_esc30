@@ -385,8 +385,7 @@ nhsc_tech_stellarite_powercore = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_aux_forbidden }
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_stellarite_tech_forbidden }
 	}
 
 	weight_modifier = {
@@ -577,7 +576,7 @@ nhsc_tech_dreadnought_computer = {
 	}
 
 	potential = {
-		NOT = { has_global_flag = ESC_leviathan_tech_forbidden }
+		NOT = { has_global_flag = ESC_dreadnought_tech_forbidden }
 	}
 
 	weight_modifier = {
