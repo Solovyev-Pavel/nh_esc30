@@ -161,7 +161,6 @@ nhsc_tech_swarm_strike_craft_2 = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_crafts_forbidden }
 		NOT = { has_global_flag = ESC_weapons_crisis_forbidden }
 	}
 

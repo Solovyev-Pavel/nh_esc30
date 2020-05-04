@@ -337,9 +337,7 @@ nhsc_tech_advanced_heavy_weapons = {
 		}
 	}
 
-	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
-	}
+	potential = { has_ESC_xlarge_weapons_enabled = yes }
 
 	weight_modifier = {
 		modifier = {
@@ -1040,10 +1038,6 @@ nhsc_tech_orbital_powerplant = {
 	weight = @tier4weight3
 	prerequisites = { "tech_starbase_4" "tech_zero_point_power" }
 
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-	}
-
 	weight_modifier = {
 		modifier = {
 			factor = 2
@@ -1203,7 +1197,6 @@ nhsc_tech_phase_shifted_ammunition = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_weapons_forbidden }
 		NOR = {
 			is_country_type = fallen_empire
 			is_country_type = awakened_fallen_empire

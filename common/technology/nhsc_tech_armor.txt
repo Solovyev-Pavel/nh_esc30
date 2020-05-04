@@ -140,7 +140,6 @@ nhsc_tech_armor_nanite_1 = {
 	prerequisites = { "nhsc_tech_synthetic_lifeform_studies" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
@@ -194,7 +193,6 @@ nhsc_tech_armor_nanite_2 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
@@ -257,7 +255,6 @@ nhsc_tech_armor_dragonscales_nanite = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 		NOT = { has_global_flag = ESC_ether_dragon_tech_forbidden }
 	}
@@ -319,8 +316,6 @@ nhsc_tech_armor_shield_1 = {
 	prerequisites = { "nhsc_tech_synthetic_lifeform_studies" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
-		NOT = { has_global_flag = ESC_shields_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
@@ -373,8 +368,6 @@ nhsc_tech_armor_shield_2 = {
 	prerequisites = { "nhsc_tech_armor_shield_1" }
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
-		NOT = { has_global_flag = ESC_shields_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 
@@ -428,8 +421,6 @@ nhsc_tech_armor_shield_3 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_armors_forbidden }
-		NOT = { has_global_flag = ESC_shields_forbidden }
 		NOT = { has_global_flag = ESC_weapons_nanite_forbidden }
 	}
 

@@ -70,7 +70,6 @@ nhsc_tech_afterburners_3 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_aux_forbidden }
-		NOT = { has_global_flag = ESC_thrusters_forbidden }
 	}
 
 	weight_modifier = {
