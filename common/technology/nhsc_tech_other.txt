@@ -194,7 +194,10 @@ nhsc_tech_zro_distilleries = {
 	prerequisites = { "nhsc_tech_central_research_bureau" }
 	is_rare = yes
 
-	potential = { is_machine_empire = no }
+	potential = {
+		is_machine_empire = no
+		NOT = { has_global_flag = ESC_zro_dist_forbidden }
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -241,7 +244,7 @@ nhsc_tech_dark_matter_facilities = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_dark_matter_forbidden }
 	}
 
 	weight_modifier = {
@@ -412,7 +415,7 @@ nhsc_tech_mantle_mining_1 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_mantle_miner_forbidden }
 	}
 
 	weight_modifier = {
@@ -480,7 +483,7 @@ nhsc_tech_mantle_mining_2 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_mantle_miner_forbidden }
 	}
 
 	weight_modifier = {

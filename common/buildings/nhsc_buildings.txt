@@ -29,7 +29,7 @@ nhsc_building_centralresearchbureau = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_central_research_bureau_forbidden }
 	}
 
 	allow = {
@@ -143,7 +143,7 @@ nhsc_building_centralresearchbureau = {
 		text = job_calculator_effect_desc
 	}
 
-	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_central_research_bureau_forbidden } }
 
 	on_queued = { owner = { set_country_flag = nhsc_building_centralresearchbureau_queued } }
 	on_unqueued = { owner = { remove_country_flag = nhsc_building_centralresearchbureau_queued } }
@@ -179,7 +179,7 @@ nhsc_building_culture_nexus = {
 
 	potential = {
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 		exists = owner
 		owner = { is_regular_empire = yes }
 	}
@@ -286,7 +286,7 @@ nhsc_building_culture_nexus = {
 
 	show_tech_unlock_if = {
 		owner = { is_regular_empire = yes }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 	}
 
 	on_queued = { owner = { set_country_flag = nhsc_culture_nexus_queued } }
@@ -327,7 +327,7 @@ nhsc_building_cerebral_node = {
 
 	potential = {
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 		exists = owner
 		owner = { is_hive_empire = yes }
 	}
@@ -402,7 +402,7 @@ nhsc_building_cerebral_node = {
 
 	show_tech_unlock_if = {
 		owner = { is_hive_empire = yes }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 	}
 
 	on_queued = { owner = { set_country_flag = nhsc_culture_nexus_queued } }
@@ -443,7 +443,7 @@ nhsc_building_network_regulator = {
 
 	potential = {
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 		exists = owner
 		owner = { is_machine_empire = yes }
 	}
@@ -517,7 +517,7 @@ nhsc_building_network_regulator = {
 
 	show_tech_unlock_if = {
 		owner = { is_machine_empire = yes }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 	}
 
 	on_queued = { owner = { set_country_flag = nhsc_culture_nexus_queued } }
@@ -558,7 +558,7 @@ nhsc_building_materials_laboratory = {
 
 	potential = {
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_mat_laboratory_forbidden }
 	}
 
 	allow = {
@@ -667,7 +667,7 @@ nhsc_building_materials_laboratory = {
 		text = job_calculator_effect_desc
 	}
 
-	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_mat_laboratory_forbidden } }
 
 	on_queued = { owner = { set_country_flag = nhsc_advanced_materals_laboratory_queued } }
 	on_unqueued = { owner = { remove_country_flag = nhsc_advanced_materals_laboratory_queued } }
@@ -703,7 +703,7 @@ nhsc_building_technology_institute = {
 
 	potential = {
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_tech_institute_forbidden }
 	}
 
 	allow = {
@@ -812,7 +812,7 @@ nhsc_building_technology_institute = {
 		text = job_calculator_effect_desc
 	}
 
-	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_tech_institute_forbidden } }
 
 	on_queued = { owner = { set_country_flag = nhsc_technology_institute_queued } }
 	on_unqueued = { owner = { remove_country_flag = nhsc_technology_institute_queued } }
@@ -849,7 +849,7 @@ nhsc_building_watcher = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_watcher_forbidden }
 	}
 
 	allow = {
@@ -941,7 +941,7 @@ nhsc_building_watcher = {
 		text = job_calculator_effect_desc
 	}
 
-	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_watcher_forbidden } }
 
 	on_queued = { owner = { set_country_flag = nhsc_watcher_of_eternity_queued } }
 	on_unqueued = { owner = { remove_country_flag = nhsc_watcher_of_eternity_queued } }
@@ -1061,7 +1061,7 @@ nhsc_building_stellar_energy_tower = {
 		text = job_calculator_effect_desc
 	}
 
-	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_stellarite_tech_forbidden } }
 
 	prerequisites = { "nhsc_tech_stellar_energy_tower" }
 
@@ -1169,7 +1169,7 @@ nhsc_building_quantum_node = {
 		text = job_calculator_effect_desc
 	}
 
-	show_tech_unlock_if = { NOT = { has_global_flag = ESC_buildings_forbidden } }
+	show_tech_unlock_if = { NOT = { has_global_flag = ESC_technosphere_tech_forbidden } }
 
 	prerequisites = { "nhsc_tech_quantum_node" }
 
@@ -1317,7 +1317,7 @@ nhsc_building_zro_distillery = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_zro_dist_forbidden }
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -1449,7 +1449,7 @@ nhsc_building_dark_matter_facility = {
 	potential = {
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_dark_matter_forbidden }
 	}
 
 	allow = { has_upgraded_capital = yes }
@@ -1589,7 +1589,7 @@ nhsc_building_magmaminer_1 = {
 			free_district_slots > 4 # need at least 5
 			has_deposit = d_nhsc_large_borehole_1
 		}
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_mantle_miner_forbidden }
 	}
 
 	allow = { has_major_upgraded_capital = yes }
@@ -1723,7 +1723,7 @@ nhsc_building_magmaminer_2 = {
 
 	potential = {
 		is_city_planet_nhsc = yes
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_mantle_miner_forbidden }
 	}
 
 	allow = { has_major_upgraded_capital = yes }

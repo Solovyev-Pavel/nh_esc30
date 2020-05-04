@@ -71,7 +71,7 @@ nhsc_tech_culture_nexus = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_cult_nexus_forbidden }
 	}
 
 	weight_modifier = {
@@ -132,7 +132,7 @@ nhsc_tech_advanced_materials_lab = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_mat_laboratory_forbidden }
 	}
 
 	weight_modifier = {
@@ -180,7 +180,7 @@ nhsc_tech_technology_institute = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
+		NOT = { has_global_flag = ESC_tech_institute_forbidden }
 	}
 
 	weight_modifier = {
@@ -1071,10 +1071,6 @@ nhsc_tech_watcher = {
 	weight = @techTier6weight3
 	prerequisites = { nhsc_tech_spacetime_manipulation }
 	is_rare = yes
-
-	potential = {
-		NOT = { has_global_flag = ESC_buildings_forbidden }
-	}
 
 	weight_modifier = {
 		modifier = {
