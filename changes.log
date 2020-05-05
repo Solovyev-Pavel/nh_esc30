@@ -106,3 +106,11 @@
 - Buff production of ESC special resources by FE buildings.
 - Make ESC Unbidden invasion a bit more likely to trigger on yearly die roll.
 - By popular demand, added localization of country flags used to limit queueing of empire-unique buildings.
+
+>>> 06.05.2020
+- Remake customization menu to allow for greater flexibility in mod configuration:
+    - Weapon groups can now be toggled on and off separately. Buildings with jobs for special resource production are now toggled on and off along with their weapons group.
+    - Give advanced jump-drives their own option, decoupling them from thrusters.
+    - Rewards for each leviathan can now be toggled on and off separately.
+    - Every no-special-resource non-leviathan-reward building can now be toggled on and off separately.
+- Fixed range multiplier of the improved psionic jump-drive.
