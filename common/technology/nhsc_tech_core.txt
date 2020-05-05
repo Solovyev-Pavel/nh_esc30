@@ -234,6 +234,8 @@ nhsc_tech_new_age_warfare = {
 		}
 	}
 
+	potential = { has_ESC_advanced_weapons_enabled = yes }
+
 	weight_modifier = {
 		modifier = {
 			factor = 0
