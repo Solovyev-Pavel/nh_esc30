@@ -114,3 +114,9 @@
     - Rewards for each leviathan can now be toggled on and off separately.
     - Every no-special-resource non-leviathan-reward building can now be toggled on and off separately.
 - Fixed range multiplier of the improved psionic jump-drive.
+
+>>> 12.05.2020
+- Change target game version to 2.7.*
+- Re-do resource icons for Living Crystals.
+- Update icons for other ESC resources.
+- Tier 1 Living Crystal Farm no longer costs rare crystals.
