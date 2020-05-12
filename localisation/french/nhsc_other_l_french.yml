@@ -373,6 +373,7 @@ nhsc_culture_nexus_queued: "$nhsc_building_culture_nexus$ queued"
 nhsc_advanced_materals_laboratory_queued: "$nhsc_building_materials_laboratory$ queued"
 nhsc_technology_institute_queued: "$nhsc_building_technology_institute$ queued"
 nhsc_watcher_of_eternity_queued: "$nhsc_building_watcher$ queued"
+ESC_MENU_ACTIVE: "$edict_nhsc_mod_control_edict$ is opened"
 
 ########################################
 ###            Decisions             ###
