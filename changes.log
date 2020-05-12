@@ -120,3 +120,5 @@
 - Re-do resource icons for Living Crystals.
 - Update icons for other ESC resources.
 - Tier 1 Living Crystal Farm no longer costs rare crystals.
+- Mod menu can now be opened via planetary decision on the capital world.
+- Placed a locker to hopefully prevent multiple instances of mod menu being opened simultaneously.
