@@ -8,6 +8,10 @@ country_event = {
 	picture = GFX_evt_juggernaut
 	is_triggered_only = yes
 
+	immediate = {
+		set_global_flag = ESC_MENU_ACTIVE
+	}
+
 	# option to configure weapons
 	option = {
 		name = esc_options.1.weapons
@@ -117,6 +121,9 @@ country_event = {
 	# leave menu
 	option = {
 		name = esc_option.exit
+		hidden_effect = {
+			remove_global_flag = ESC_MENU_ACTIVE
+		}
 	}
 }
 

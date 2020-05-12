@@ -35,6 +35,10 @@ nhsc_mod_control_edict2 = {
 		}
 	}
 
+	allow = {
+		NOT = { has_global_flag = ESC_MENU_ACTIVE }
+	}
+
 	potential = {
 		# only human players are allowed to use this
 		exists = owner
