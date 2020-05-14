@@ -121,9 +121,10 @@ country_event = {
 	# leave menu
 	option = {
 		name = esc_option.exit
-		hidden_effect = {
-			remove_global_flag = ESC_MENU_ACTIVE
-		}
+	}
+
+	after = {
+		remove_global_flag = ESC_MENU_ACTIVE
 	}
 }
 
