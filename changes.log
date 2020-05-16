@@ -122,3 +122,10 @@
 - Tier 1 Living Crystal Farm no longer costs rare crystals.
 - Mod menu can now be opened via planetary decision on the capital world.
 - Placed a locker to hopefully prevent multiple instances of mod menu being opened simultaneously.
+
+>>> 17.05.2020
+- Update AI economic plans to 2.7 standard.
+- Remove forced turret entities.
+- Add support for federations rare tech weight bonuses.
+- Buff precursor jump drive.
+- Add new aux component: Precursor Armaments Enhancer. Buffs fire rate and damage of all weapons. Can be obtained only from FE while playing with ESC Overwrites.
