@@ -506,13 +506,13 @@ nhsc_building_network_regulator = {
 	}
 
 	planet_modifier = {
-		job_esc_network_curator_add = 7
+		job_evaluator_add = 7
 		job_maintenance_drone_add = 2
 		planet_amenities_no_happiness_add = 10
 	}
 
 	triggered_desc = {
-		text = job_esc_network_curator_effect_desc
+		text = job_evaluator_effect_desc
 	}
 
 	show_tech_unlock_if = {

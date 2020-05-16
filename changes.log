@@ -129,3 +129,4 @@
 - Add support for federations rare tech weight bonuses.
 - Buff precursor jump drive.
 - Add new aux component: Precursor Armaments Enhancer. Buffs fire rate and damage of all weapons. Can be obtained only from FE while playing with ESC Overwrites.
+- Network Regulator is once again using vanilla jobs for unity generation.
