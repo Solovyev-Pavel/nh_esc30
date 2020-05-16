@@ -733,6 +733,9 @@ nhsc_tech_stellarite_powercore_desc: "Stellarite Devourer's organs appear to fun
 nhsc_tech_standardized_warheads: "Warhead Standardization"
 nhsc_tech_standardized_warheads_desc: "Imposing standards on various warheads in service, we can increase the safety of our ships' arsenals while simultaneously equipping them with better missiles."
 
+nhsc_tech_precursor_armaments: "Precursor Armament Technologies"
+nhsc_tech_precursor_armaments_desc: "Civilizations of old had created these specialized reactors to push the power of their weapons to the new heights."
+
 nhsc_tech_auxiliary_fire_control_2: "Advanced Fire Control Systems"
 nhsc_tech_auxiliary_fire_control_2_desc: "Algorithm refinement to provide better firing solutions for our weapons"
 

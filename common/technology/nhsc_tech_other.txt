@@ -16,6 +16,7 @@
 # ── Titan Aura: Mirage System			: unlocks titan aura "Mirage System"
 # ── Titan Aura: Nanite Infiltration	: unlocks titan aura "Nanite Infiltration Swarm"
 # ── Titan Aura: Space Distortion		: unlocks titan aura "Space Distortion Module"
+# ── Precursor Armaments				: unlocks special aux slot component
 
 ############################################################
 ##                Stellar Evenrgy Tower                   ##
@@ -1003,5 +1004,23 @@ nhsc_tech_aura_space_distortion = {
 				any_member = { has_technology = nhsc_tech_aura_space_distortion }
 			}
 		}
+	}
+}
+
+############################################################
+##                   Precursor Armaments                  ##
+############################################################
+
+nhsc_tech_precursor_armaments = {
+	area = physics
+	category = { field_manipulation }
+	tier = 7
+	cost = @techTier7cost1
+	weight = 0 # can only be found in FE debris if playing with ESC overwrites
+	ai_update_type = all
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_aux_forbidden }
 	}
 }

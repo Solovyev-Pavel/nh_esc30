@@ -746,6 +746,10 @@ nhsc_tech_auxiliary_fire_control_2_desc: "Raffinement d'algorithmes pour fournir
 nhsc_tech_structural_reinforcement: "Renforcement Structurel"
 nhsc_tech_structural_reinforcement_desc: "Des techniques de construction spécialisées nous permettent de rendre les coques de nos navires plus résistantes aux dommages. Ceci, malheureusement, se fait au prix d'une armure légèrement plus faible que nous pouvons monter sur de telles coques."
 
+# TODO : translate
+nhsc_tech_precursor_armaments: "Precursor Armament Technologies"
+nhsc_tech_precursor_armaments_desc: "Civilizations of old had created these specialized reactors to push the power of their weapons to the new heights."
+
 nhsc_tech_crystalline_valuables: "Objets de valeur cristallins"
 nhsc_tech_crystalline_valuables_desc: "Les cristaux vivants ont de nombreuses applications militaires, mais avec un traitement spécial, ils peuvent également être transformés en gemmes brillantes aussi précieuses que de vraies pierres précieuses."
 NHSC_TECH_LIVING_CRYSTALS_TRADE_TITLE: "§HAmélioration des emplois§! : Les £job_esc_crystal_farmer£ §Y$job_esc_crystal_farmer_plural$§! produisent aussi de la £trade_value£ §Y$Valeur commerciale$§!"

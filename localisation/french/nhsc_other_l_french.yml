@@ -47,6 +47,10 @@ NHSC_ADV_AUX_FIRE_CONTROL_DESC: "Cet ordinateur auxiliaire fournit des solutions
 NHSC_STRUCTURAL_REINFORCEMENT: "Renforcement structurel"
 NHSC_STRUCTURAL_REINFORCEMENT_DESC: "Une structure de coque renforcée qui permet de renforcer la coque de base au prix d'un blindage moindre."
 
+# TODO : translate
+NHSC_PRECURSOR_ARMS_ENHANCER: "Precursor Armaments Enhancer"
+NHSC_PRECURSOR_ARMS_ENHANCER_DESC: "A specialized dark-matter reactor designed by ancient civilizations to improve the power of their weapons."
+
 ########################################
 ###           Strikecrafts           ###
 ########################################

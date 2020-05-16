@@ -42,6 +42,9 @@ NHSC_ADV_AUX_FIRE_CONTROL_DESC: "This auxiliary computer provides exremely refin
 NHSC_STRUCTURAL_REINFORCEMENT: "Structural Reinforcement"
 NHSC_STRUCTURAL_REINFORCEMENT_DESC: "A reinforced hull structure that allows for stronger base hull at the cost of lesser armor."
 
+NHSC_PRECURSOR_ARMS_ENHANCER: "Precursor Armaments Enhancer"
+NHSC_PRECURSOR_ARMS_ENHANCER_DESC: "A specialized dark-matter reactor designed by ancient civilizations to improve the power of their weapons."
+
 ########################################
 ###           Strikecrafts           ###
 ########################################
