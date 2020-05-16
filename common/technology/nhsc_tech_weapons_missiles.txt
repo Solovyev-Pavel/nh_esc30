@@ -133,6 +133,14 @@ nhsc_tech_missile_7 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_missile_7 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -163,6 +171,14 @@ nhsc_tech_missile_7 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_missile_7 }
+			}
 		}
 	}
 }
@@ -362,6 +378,14 @@ nhsc_tech_plasma_missiles_3 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_plasma_missiles_3 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -392,6 +416,14 @@ nhsc_tech_plasma_missiles_3 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_plasma_missiles_3 }
+			}
 		}
 	}
 }
@@ -513,6 +545,14 @@ nhsc_tech_torpedoes_5 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_torpedoes_5 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -543,6 +583,14 @@ nhsc_tech_torpedoes_5 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_torpedoes_5 }
+			}
 		}
 	}
 }
@@ -595,6 +643,14 @@ nhsc_tech_corrosivewarheadtorpedo = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_corrosivewarheadtorpedo }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -625,6 +681,14 @@ nhsc_tech_corrosivewarheadtorpedo = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_corrosivewarheadtorpedo }
+			}
 		}
 	}
 }
@@ -746,6 +810,14 @@ nhsc_tech_swarmermissiles_4 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_swarmermissiles_4 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -776,6 +848,14 @@ nhsc_tech_swarmermissiles_4 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_swarmermissiles_4 }
+			}
 		}
 	}
 }
@@ -897,6 +977,14 @@ nhsc_tech_xmissile2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_xmissile2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -927,6 +1015,14 @@ nhsc_tech_xmissile2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_xmissile2 }
+			}
 		}
 	}
 }
@@ -990,6 +1086,14 @@ nhsc_tech_xmissile3_titanic = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_xmissile3_titanic }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -1027,6 +1131,14 @@ nhsc_tech_xmissile3_titanic = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_xmissile3_titanic }
+			}
 		}
 	}
 }

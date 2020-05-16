@@ -200,6 +200,14 @@ nhsc_tech_gravitic_cannon_3 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_cannon_3 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -230,6 +238,14 @@ nhsc_tech_gravitic_cannon_3 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_cannon_3 }
+			}
 		}
 	}
 }
@@ -351,6 +367,14 @@ nhsc_tech_gravitic_torpedo_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_torpedo_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -381,6 +405,14 @@ nhsc_tech_gravitic_torpedo_2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_torpedo_2 }
+			}
 		}
 	}
 }
@@ -431,6 +463,14 @@ nhsc_tech_gravitic_lance_1 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_lance_1 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -461,6 +501,14 @@ nhsc_tech_gravitic_lance_1 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_lance_1 }
+			}
 		}
 	}
 }
@@ -512,6 +560,14 @@ nhsc_tech_gravitic_lance_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_lance_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -542,6 +598,14 @@ nhsc_tech_gravitic_lance_2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_lance_2 }
+			}
 		}
 	}
 }
@@ -605,6 +669,14 @@ nhsc_tech_gravitic_lance_titanic = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_lance_titanic }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -642,6 +714,14 @@ nhsc_tech_gravitic_lance_titanic = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_lance_titanic }
+			}
 		}
 	}
 }
@@ -692,6 +772,14 @@ nhsc_tech_gravitic_strikecrafts = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_strikecrafts }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -722,6 +810,14 @@ nhsc_tech_gravitic_strikecrafts = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_gravitic_strikecrafts }
+			}
 		}
 	}
 }

@@ -104,6 +104,14 @@ nhsc_tech_nanite_cannon_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_cannon_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -126,6 +134,14 @@ nhsc_tech_nanite_cannon_2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_cannon_2 }
+			}
 		}
 	}
 }
@@ -223,6 +239,14 @@ nhsc_tech_nanite_torpedo_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_torpedo_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -245,6 +269,14 @@ nhsc_tech_nanite_torpedo_2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_torpedo_2 }
+			}
 		}
 	}
 }
@@ -287,6 +319,14 @@ nhsc_tech_nanite_xslot_1 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_xslot_1 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -309,6 +349,14 @@ nhsc_tech_nanite_xslot_1 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_xslot_1 }
+			}
 		}
 	}
 }
@@ -352,6 +400,14 @@ nhsc_tech_nanite_xslot_2 = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_xslot_2 }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -374,6 +430,14 @@ nhsc_tech_nanite_xslot_2 = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_xslot_2 }
+			}
 		}
 	}
 }
@@ -428,6 +492,14 @@ nhsc_tech_nanite_titanic_weapon = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_titanic_weapon }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -457,6 +529,14 @@ nhsc_tech_nanite_titanic_weapon = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_titanic_weapon }
+			}
 		}
 	}
 }
@@ -499,6 +579,14 @@ nhsc_tech_nanite_strikecraft = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
 		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_strikecraft }
+			}
+		}
 	}
 
 	ai_weight = {
@@ -521,6 +609,14 @@ nhsc_tech_nanite_strikecraft = {
 		modifier = {
 			factor = @ap_technological_ascendancy_rare_tech
 			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = nhsc_tech_nanite_strikecraft }
+			}
 		}
 	}
 }
