@@ -2,7 +2,7 @@ particle={
 	name="nhsc_nanities_idle_drops_file"
 	subsystem={
 		name="lightning"
-		max_amount=100
+		max_amount=20
 		slave_particles=0
 		sort="depth"
 		emitter_type="sphere"
@@ -45,7 +45,7 @@ particle={
 	}
 	subsystem={
 		name="cloud"
-		max_amount=200
+		max_amount=40
 		slave_particles=0
 		sort="depth"
 		emitter_type="point"
