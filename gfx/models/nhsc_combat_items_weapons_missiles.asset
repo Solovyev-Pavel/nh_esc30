@@ -1,48 +1,4 @@
 # ########################################## #
-#        Desolator & Eradicator Torpedo      #
-# ########################################## #
-
-### Hit effect
-entity = {
-	name = "nhsc_torpedo_4_hit_entity"
-	cull_radius = 1.0
-	default_state = "explode_med_hp"
-	state = {
-		name = "explode_med_hp"
-		state_time = 0.9
-		looping = no
-		event = {
-			time = 0.0
-			particle = "torpedo_03_large_hit_effect"
-			sound = { soundeffect = "torpedo_hit" }
-		}
-		event = {
-			trigger_once = yes
-			sound = { soundeffect = "distance_torpedo_hit" }
-		 }
-	}
-}
-
-entity = {
-	name = "nhsc_torpedo_5_hit_entity"
-	default_state = "explode_med_hp"
-	state = {
-		name = "explode_med_hp"
-		state_time = 0.9
-		looping = no
-		event = {
-			time = 0.0
-			particle = "torpedo_03_large_hit_effect"
-			sound = { soundeffect = "torpedo_hit" }
-		}
-		event = {
-			trigger_once = yes
-			sound = { soundeffect = "distance_torpedo_hit" }
-		 }
-	}
-}
-
-# ########################################## #
 #          Corrosive Warhead Torpedo         #
 # ########################################## #
 
