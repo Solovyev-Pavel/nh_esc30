@@ -9,9 +9,9 @@ projectile_gfx_missile = {
 	hit_entity = "nhsc_torpedo_4_hit_entity"
 	shield_hit_entity = "missile_large_shield_hit_entity"
 	muzzle_flash_entity = "torpedo_large_muzzle_entity"
-	
+
 	entity = "torpedo_03_large_entity"
-	
+
 	shield_impact = {
 		size = large
 		delay = 0.0
@@ -25,9 +25,9 @@ projectile_gfx_missile = {
 	hit_entity = "nhsc_torpedo_5_hit_entity"
 	shield_hit_entity = "missile_large_shield_hit_entity"
 	muzzle_flash_entity = "torpedo_large_muzzle_entity"
-	
+
 	entity = "torpedo_03_large_entity"
-	
+
 	shield_impact = {
 		size = large
 		delay = 0.0
@@ -41,9 +41,9 @@ projectile_gfx_missile = {
 	hit_entity = "nhsc_corrosive_warhead_hit_entity"
 	shield_hit_entity = "nhsc_corrosive_warhead_shield_hit_entity"
 	muzzle_flash_entity = "torpedo_large_muzzle_entity"
-	
+
 	entity = "nhsc_corrosive_warhead_entity"
-	
+
 	shield_impact = {
 		size = large
 		delay = 0.0
@@ -85,4 +85,3 @@ projectile_gfx_missile = {
 		delay = 0.0
 	}
 }
-
