@@ -39,7 +39,7 @@ esc_psionic_avatar_army = {
 ### Erasure Squad : Chrono-spatial weapons' subtree
 esc_erasure_squad_army = {
 	damage = 7.0
-	health = 1.5
+	health = 2.0
 	morale = 2.0
 	morale_damage = 3.0
 	war_exhaustion = 3.0
@@ -87,7 +87,7 @@ esc_erasure_squad_army = {
 ### Eradicator Droids : mechanical verions of Erasure Squads
 esc_eradicator_droids_army = {
 	damage = 7.0
-	health = 1.5
+	health = 2.0
 	morale_damage = 3.0
 	war_exhaustion = 3.0
 	time = 360
