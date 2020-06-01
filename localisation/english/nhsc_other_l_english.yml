@@ -359,6 +359,24 @@ esc_ai_midgame_science_boost_desc: "This AI boost should help AI keep up with hu
 esc_ai_endgame_science_boost: "$esc_ai_midgame_science_boost$"
 esc_ai_endgame_science_boost_desc: "$esc_ai_midgame_science_boost_desc$"
 
+esc_ai_psionic_charges_boost: "AI Psionic Charge boost"
+esc_ai_psionic_charges_boost_desc: "Extra resources for AI"
+
+esc_ai_living_crystals_boost: "AI Living Crystals boost"
+esc_ai_living_crystals_boost_desc: "$esc_ai_psionic_charges_boost_desc$"
+
+esc_ai_gravitic_anomaly_boost: "AI Gravitic Anomaly boost"
+esc_ai_gravitic_anomaly_boost_desc: "$esc_ai_psionic_charges_boost_desc$"
+
+esc_ai_enigmatic_energy_boost: "AI Enigmatic Energy boost"
+esc_ai_enigmatic_energy_boost_desc: "$esc_ai_psionic_charges_boost_desc$"
+
+esc_ai_transdimension_vortex_boost: "AI Transdimensional Vortex boost"
+esc_ai_transdimension_vortex_boost_desc: "$esc_ai_psionic_charges_boost_desc$"
+
+esc_ai_nanites_boost: "AI Nanites boost"
+esc_ai_nanites_boost_desc: "$esc_ai_psionic_charges_boost_desc$"
+
 ########################################
 ###          Country Flags           ###
 ########################################
