@@ -131,7 +131,12 @@
 - Add new aux component: Precursor Armaments Enhancer. Buffs fire rate and damage of all weapons. Can be obtained only from FE while playing with ESC Overwrites.
 - Network Regulator is once again using vanilla jobs for unity generation.
 
->>> 30.05.2020
+>>> 27.05.2020
 - Psionic avatars can now be recruited at the empire capital. Edict for psionic avatar summoning has been removed.
 - Add new armies: Erasure Squad (biological) / Eradicator Droid Army (mechanical). Rather fragile, but can dish out a lot of damage. Required chrono-spatial weapons.
 - Updated most custom projectiles, significantly reducing the number of particles used without noticeable quality losses.
+
+>>> 06.06.2020
+- Add passive generation of ESC special resources to AI, should they be able to make use of the said resources.
+- Fix Siegebreaker bombers not having tracking.
+- Fix typo in Cerebral Node's description.
