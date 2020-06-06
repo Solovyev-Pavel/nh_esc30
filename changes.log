@@ -139,4 +139,5 @@
 >>> 06.06.2020
 - Add passive generation of ESC special resources to AI, should they be able to make use of the said resources.
 - Fix Siegebreaker bombers not having tracking.
+- Gravitic anomaly edicts now require gravity manipulation technology rather than gravity weapons one.
 - Fix typo in Cerebral Node's description.
