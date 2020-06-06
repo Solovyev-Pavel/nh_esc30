@@ -1279,7 +1279,7 @@ utility_component_template = {
 }
 
 ############################################################
-##              Reinforced Crystalline Plating               ##
+##             Reinforced Crystalline Plating             ##
 ############################################################
 
 utility_component_template = {
