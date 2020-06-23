@@ -141,3 +141,11 @@
 - Fix Siegebreaker bombers not having tracking.
 - Gravitic anomaly edicts now require gravity manipulation technology rather than gravity weapons one.
 - Fix typo in Cerebral Node's description.
+
+>>> 24.06.2020
+- Add support for "At War: Starbase Improvements" defense platforms.
+- Mantle Mining Facility can now be built on Molten Habitable worlds (AlphaMod) and Molten Habitats (Planetary Diversity - Planetary Habitats).
+    - Mantle Mining Facility will not spawn borehole district blocker on Molten Habitable worlds and Molten Habitats.
+    - Mantle Mining Facility will not provide Borehole Maintainer jobs on Molten Habitable worlds and Molten Habitats.
+    - Mantle Mining Facility requires fully-upgraded capital (and 80 pops) on Molten Habitable worlds and Molten Habitats.
+- Apply updates to vanilla Extradimensional Weapons to their ESC updates.
