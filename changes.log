@@ -149,3 +149,6 @@
     - Mantle Mining Facility will not provide Borehole Maintainer jobs on Molten Habitable worlds and Molten Habitats.
     - Mantle Mining Facility requires fully-upgraded capital (and 80 pops) on Molten Habitable worlds and Molten Habitats.
 - Apply updates to vanilla Extradimensional Weapons to their ESC updates.
+
+>>> 01.07.2020
+- Fixed an issue that made it impossible to research advanced crisis technologies if ESC:Overwrites mod is enabled.
