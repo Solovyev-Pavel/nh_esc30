@@ -152,3 +152,6 @@
 
 >>> 01.07.2020
 - Fixed an issue that made it impossible to research advanced crisis technologies if ESC:Overwrites mod is enabled.
+
+>>> 24.07.2020
+- Moved normal sensors to computing to match vanilla tech categorization.
