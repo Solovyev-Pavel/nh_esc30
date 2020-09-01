@@ -186,6 +186,24 @@ esc_zro_distiller = {
 			rare_crystals = 1
 			exotic_gases = 1
 			volatile_motes = 1
+		}
+        upkeep = {
+            trigger = { planet = { colony_type = col_refinery } }
+			consumer_goods = -0.2
+			energy = -0.5
+			minerals = -0.5
+			rare_crystals = -0.1
+			exotic_gases = -0.1
+			volatile_motes = -0.1
+        }
+        upkeep = {
+            trigger = { planet = { colony_type = col_habitat_refinery } }
+			consumer_goods = -0.4
+			energy = -1
+			minerals = -1
+			rare_crystals = -0.2
+			exotic_gases = -0.2
+			volatile_motes = -0.2
         }
     }
 
@@ -248,6 +266,52 @@ esc_zro_distiller_drone = {
 			exotic_gases = 1
 			volatile_motes = 1
 		}
+        upkeep = {
+            trigger = {
+				is_lithoid = no
+				planet = { colony_type = col_refinery }
+			}
+			food = -0.4
+			energy = -0.5
+			minerals = -0.5
+			rare_crystals = -0.1
+			exotic_gases = -0.1
+			volatile_motes = -0.1
+        }
+        upkeep = {
+            trigger = {
+				is_lithoid = no
+				planet = { colony_type = col_habitat_refinery }
+			}
+			food = -0.8
+			energy = -1
+			minerals = -1
+			rare_crystals = -0.2
+			exotic_gases = -0.2
+			volatile_motes = -0.2
+        }
+        upkeep = {
+            trigger = {
+				is_lithoid = yes
+				planet = { colony_type = col_refinery }
+			}
+			minerals = -0.9
+			energy = -0.5
+			rare_crystals = -0.1
+			exotic_gases = -0.1
+			volatile_motes = -0.1
+        }
+        upkeep = {
+            trigger = {
+				is_lithoid = yes
+				planet = { colony_type = col_habitat_refinery }
+			}
+			minerals = -1.8
+			energy = -1
+			rare_crystals = -0.2
+			exotic_gases = -0.2
+			volatile_motes = -0.2
+        }
 	}
 
 	weight = {
@@ -283,6 +347,16 @@ esc_dark_matter_shaper = {
         upkeep = {
 			consumer_goods = 2
 			energy = 5
+        }
+        upkeep = {
+            trigger = { planet = { colony_type = col_refinery } }
+            energy = -0.5
+            consumer_goods = -0.2
+        }
+        upkeep = {
+            trigger = { planet = { colony_type = col_habitat_refinery } }
+            energy = -1
+            consumer_goods = -0.4
         }
     }
 
@@ -337,6 +411,40 @@ esc_dark_matter_shaper_drone = {
 			minerals = 5
 			energy = 4
 		}
+        upkeep = {
+            trigger = {
+				is_lithoid = no
+				planet = { colony_type = col_refinery }
+			}
+			food = -0.3
+			minerals = -0.2
+			energy = -0.4
+        }
+        upkeep = {
+            trigger = {
+				is_lithoid = no
+				planet = { colony_type = col_habitat_refinery }
+			}
+			food = -0.6
+			minerals = -0.4
+			energy = -0.8
+        }
+        upkeep = {
+            trigger = {
+				is_lithoid = yes
+				planet = { colony_type = col_refinery }
+			}
+			minerals = -0.5
+			energy = -0.4
+        }
+        upkeep = {
+            trigger = {
+				is_lithoid = yes
+				planet = { colony_type = col_habitat_refinery }
+			}
+			minerals = -1
+			energy = -0.8
+        }
     }
 
     weight = {
@@ -377,6 +485,16 @@ esc_dark_matter_shaper_unit = {
         upkeep = {
 			minerals = 2
 			energy = 6
+        }
+        upkeep = {
+            trigger = { planet = { colony_type = col_refinery } }
+            energy = -0.6
+            minerals = -0.2
+        }
+        upkeep = {
+            trigger = { planet = { colony_type = col_habitat_refinery } }
+            energy = -1.2
+            minerals = -0.4
         }
     }
 
