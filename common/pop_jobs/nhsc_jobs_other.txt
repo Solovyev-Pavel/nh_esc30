@@ -48,6 +48,22 @@ esc_reprocessor = {
             energy = 2
             minerals = 2
         }
+        upkeep = {
+			trigger = {
+				planet = {
+					OR = {
+						colony_type = col_foundry
+						colony_type = col_factory
+						colony_type = col_ecu_foundry
+						colony_type = col_ecu_factory
+						colony_type = col_habitat_foundry
+						colony_type = col_habitat_factory
+					}
+				}
+			}
+            energy = -0.4
+            minerals = -0.4
+        }
     }
 
 	planet_modifier = {
@@ -102,6 +118,34 @@ esc_reprocessor_drone = {
 			minerals = 3
 			energy = 1
 		}
+        upkeep = {
+			trigger = {
+				is_lithoid = no
+				planet = {
+					OR = {
+						colony_type = col_foundry
+						colony_type = col_ecu_foundry
+						colony_type = col_habitat_foundry
+					}
+				}
+			}
+            minerals = -0.4
+            food = -0.4
+        }
+        upkeep = {
+			trigger = {
+				is_lithoid = yes
+				planet = {
+					OR = {
+						colony_type = col_foundry
+						colony_type = col_ecu_foundry
+						colony_type = col_habitat_foundry
+					}
+				}
+			}
+            minerals = -0.6
+			energy = -0.2
+        }
     }
 
 	planet_modifier = {
@@ -144,6 +188,19 @@ esc_reprocessor_unit = {
         upkeep = {
             energy = 2
             minerals = 2
+        }
+        upkeep = {
+			trigger = {
+				planet = {
+					OR = {
+						colony_type = col_foundry
+						colony_type = col_ecu_foundry
+						colony_type = col_habitat_foundry
+					}
+				}
+			}
+            energy = -0.4
+            minerals = -0.4
         }
     }
 
