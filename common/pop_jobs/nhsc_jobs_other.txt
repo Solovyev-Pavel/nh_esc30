@@ -542,11 +542,31 @@ esc_planetary_core_miner = {
 			consumer_goods = 5
 			energy = 5
 		}
-		### production goes up as empire gains technologies
+
+		### base production + colony designation bonus to minerals
         produces = {
 			minerals = 20
 			engineering_research = 5
 		}
+		produces = {
+			trigger = { planet = { colony_type = col_mining } }
+			minerals = 4
+		}
+		### after 'Geothermal Fracking' + colony designation bonus to minerals
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_1 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_1 }
+			}
+			minerals = 1
+		}
+		### after 'Deep Core Mining' + colony designation bonus to minerals
 		produces = {
 			trigger = {
 				owner = { has_technology = tech_mining_2 }
@@ -555,10 +575,26 @@ esc_planetary_core_miner = {
 		}
 		produces = {
 			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_2 }
+			}
+			minerals = 1
+		}
+		### after 'Mineral Isolation' + colony designation bonus to minerals
+		produces = {
+			trigger = {
 				owner = { has_technology = tech_mining_3 }
 			}
 			minerals = 5
 		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_3 }
+			}
+			minerals = 1
+		}
+		### in presence of purification plant/hub + colony designation bonus to minerals
 		produces = {
 			trigger = {
 				planet = {
@@ -573,12 +609,16 @@ esc_planetary_core_miner = {
 		produces = {
 			trigger = {
 				planet = {
-					has_building = building_production_center
+					colony_type = col_mining
+					OR = {
+						has_building = building_mineral_purification_plant
+						has_building = building_mineral_purification_hub
+					}
 				}
 			}
-			minerals = 5
+			minerals = 1
 		}
-		### AlphaMod stuff
+		## AlphaMod resources
 		produces = {
 			trigger = {
 				has_global_flag = gf_alphamod_activated
@@ -586,6 +626,15 @@ esc_planetary_core_miner = {
 			sr_actinides = 1
 			sr_precious_stones = 1
 			sr_rare_metals = 1
+		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				has_global_flag = gf_alphamod_activated
+			}
+			sr_actinides = 0.2
+			sr_precious_stones = 0.2
+			sr_rare_metals = 0.2
 		}
 	}
 
@@ -602,6 +651,8 @@ esc_planetary_core_miner = {
 			has_trait = trait_very_strong
 			has_trait = trait_industrious
 			has_trait = trait_resilient
+			has_trait = trait_robot_efficient_processors
+			has_trait = trait_robot_power_drills
 		}
 		modifier = {
 			factor = 1.5
@@ -633,11 +684,31 @@ esc_planetary_core_miner_drone = {
 			minerals = 10
 			energy = 5
 		}
-		### production goes up as empire gains technologies
+
+		### base production + colony designation bonus to minerals
         produces = {
 			minerals = 20
 			engineering_research = 5
 		}
+		produces = {
+			trigger = { planet = { colony_type = col_mining } }
+			minerals = 4
+		}
+		### after 'Geothermal Fracking' + colony designation bonus to minerals
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_1 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_1 }
+			}
+			minerals = 1
+		}
+		### after 'Deep Core Mining' + colony designation bonus to minerals
 		produces = {
 			trigger = {
 				owner = { has_technology = tech_mining_2 }
@@ -646,10 +717,26 @@ esc_planetary_core_miner_drone = {
 		}
 		produces = {
 			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_2 }
+			}
+			minerals = 1
+		}
+		### after 'Mineral Isolation' + colony designation bonus to minerals
+		produces = {
+			trigger = {
 				owner = { has_technology = tech_mining_3 }
 			}
 			minerals = 5
 		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_3 }
+			}
+			minerals = 1
+		}
+		### in presence of purification plant/hub + colony designation bonus to minerals
 		produces = {
 			trigger = {
 				planet = {
@@ -664,12 +751,16 @@ esc_planetary_core_miner_drone = {
 		produces = {
 			trigger = {
 				planet = {
-					has_building = building_production_center
+					colony_type = col_mining
+					OR = {
+						has_building = building_mineral_purification_plant
+						has_building = building_mineral_purification_hub
+					}
 				}
 			}
-			minerals = 5
+			minerals = 1
 		}
-		### AlphaMod stuff
+		### AlphaMod resources
 		produces = {
 			trigger = {
 				has_global_flag = gf_alphamod_activated
@@ -677,6 +768,15 @@ esc_planetary_core_miner_drone = {
 			sr_actinides = 1
 			sr_precious_stones = 1
 			sr_rare_metals = 1
+		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				has_global_flag = gf_alphamod_activated
+			}
+			sr_actinides = 0.2
+			sr_precious_stones = 0.2
+			sr_rare_metals = 0.2
 		}
 	}
 
@@ -713,11 +813,30 @@ esc_planetary_core_miner_unit = {
 			energy = 12
 			alloys = 3
 		}
-		### production goes up as empire gains technologies
-        produces = {
+		### base production + colony designation bonus to minerals
+		produces = {
 			minerals = 20
 			engineering_research = 5
 		}
+		produces = {
+			trigger = { planet = { colony_type = col_mining } }
+			minerals = 4
+		}
+		### after 'Geothermal Fracking' + colony designation bonus to minerals
+		produces = {
+			trigger = {
+				owner = { has_technology = tech_mining_1 }
+			}
+			minerals = 5
+		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_1 }
+			}
+			minerals = 1
+		}
+		### after 'Deep Core Mining' + colony designation bonus to minerals
 		produces = {
 			trigger = {
 				owner = { has_technology = tech_mining_2 }
@@ -726,10 +845,26 @@ esc_planetary_core_miner_unit = {
 		}
 		produces = {
 			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_2 }
+			}
+			minerals = 1
+		}
+		### after 'Mineral Isolation' + colony designation bonus to minerals
+		produces = {
+			trigger = {
 				owner = { has_technology = tech_mining_3 }
 			}
 			minerals = 5
 		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				owner = { has_technology = tech_mining_3 }
+			}
+			minerals = 1
+		}
+		### in presence of purification plant/hub + colony designation bonus to minerals
 		produces = {
 			trigger = {
 				planet = {
@@ -744,12 +879,16 @@ esc_planetary_core_miner_unit = {
 		produces = {
 			trigger = {
 				planet = {
-					has_building = building_production_center
+					colony_type = col_mining
+					OR = {
+						has_building = building_mineral_purification_plant
+						has_building = building_mineral_purification_hub
+					}
 				}
 			}
-			minerals = 5
+			minerals = 1
 		}
-		### AlphaMod stuff
+		### AlphaMod resources
 		produces = {
 			trigger = {
 				has_global_flag = gf_alphamod_activated
@@ -757,6 +896,15 @@ esc_planetary_core_miner_unit = {
 			sr_actinides = 1
 			sr_precious_stones = 1
 			sr_rare_metals = 1
+		}
+		produces = {
+			trigger = {
+				planet = { colony_type = col_mining }
+				has_global_flag = gf_alphamod_activated
+			}
+			sr_actinides = 0.2
+			sr_precious_stones = 0.2
+			sr_rare_metals = 0.2
 		}
 	}
 
@@ -767,6 +915,8 @@ esc_planetary_core_miner_unit = {
 			has_trait = trait_very_strong
 			has_trait = trait_industrious
 			has_trait = trait_resilient
+			has_trait = trait_robot_efficient_processors
+			has_trait = trait_robot_power_drills
 		}
 		modifier = {
 			factor = 1.5
