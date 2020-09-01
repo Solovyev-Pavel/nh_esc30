@@ -44,6 +44,18 @@ esc_reprocessor = {
             consumer_goods = 1.5
             alloys = 1.5
         }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+			consumer_goods = 0.075
+			alloys = 0.075
+        }
         upkeep = {
             energy = 2
             minerals = 2
@@ -107,6 +119,17 @@ esc_reprocessor_drone = {
         category = planet_jobs
         produces = {
             alloys = 3
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+			alloys = 0.15
         }
         upkeep = {
 			trigger = { is_lithoid = no }
@@ -185,6 +208,17 @@ esc_reprocessor_unit = {
         produces = {
             alloys = 3
         }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+			alloys = 0.15
+        }
         upkeep = {
             energy = 2
             minerals = 2
@@ -235,6 +269,17 @@ esc_zro_distiller = {
         category = planet_jobs
         produces = {
 			sr_zro = 1
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+            sr_zro = 0.05
         }
         upkeep = {
 			consumer_goods = 2
@@ -305,6 +350,17 @@ esc_zro_distiller_drone = {
 		category = planet_jobs
 		produces = {
 			sr_zro = 1
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+            sr_zro = 0.05
         }
         upkeep = {
 			trigger = { is_lithoid = no }
@@ -401,6 +457,17 @@ esc_dark_matter_shaper = {
 			sr_dark_matter = 1
 			physics_research = 3
         }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+            sr_dark_matter = 0.05
+        }
         upkeep = {
 			consumer_goods = 2
 			energy = 5
@@ -456,6 +523,17 @@ esc_dark_matter_shaper_drone = {
         produces = {
 			sr_dark_matter = 1
 			physics_research = 3
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+            sr_dark_matter = 0.05
         }
         upkeep = {
 			trigger = { is_lithoid = no }
@@ -538,6 +616,17 @@ esc_dark_matter_shaper_unit = {
         produces = {
 			sr_dark_matter = 1
 			physics_research = 3
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { is_galactic_community_member = yes }
+                OR = {
+                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+                    is_active_resolution = "resolution_industry_project_cornucopia"
+                }
+            }
+            sr_dark_matter = 0.05
         }
         upkeep = {
 			minerals = 2
