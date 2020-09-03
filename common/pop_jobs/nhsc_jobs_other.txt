@@ -132,18 +132,18 @@ esc_reprocessor_drone = {
 			alloys = 0.15
         }
         upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
             minerals = 2
             food = 2
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			minerals = 3
 			energy = 1
 		}
         upkeep = {
 			trigger = {
-				is_lithoid = no
+				NOT = { has_trait = trait_lithoid }
 				planet = {
 					OR = {
 						colony_type = col_foundry
@@ -157,7 +157,7 @@ esc_reprocessor_drone = {
         }
         upkeep = {
 			trigger = {
-				is_lithoid = yes
+				has_trait = trait_lithoid
 				planet = {
 					OR = {
 						colony_type = col_foundry
@@ -363,7 +363,7 @@ esc_zro_distiller_drone = {
             sr_zro = 0.05
         }
         upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
 			food = 4
 			energy = 5
 			minerals = 5
@@ -372,7 +372,7 @@ esc_zro_distiller_drone = {
 			volatile_motes = 1
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			minerals = 9
 			energy = 5
 			rare_crystals = 1
@@ -381,7 +381,7 @@ esc_zro_distiller_drone = {
 		}
         upkeep = {
             trigger = {
-				is_lithoid = no
+				NOT = { has_trait = trait_lithoid }
 				planet = { colony_type = col_refinery }
 			}
 			food = -0.4
@@ -393,7 +393,7 @@ esc_zro_distiller_drone = {
         }
         upkeep = {
             trigger = {
-				is_lithoid = no
+				NOT = { has_trait = trait_lithoid }
 				planet = { colony_type = col_habitat_refinery }
 			}
 			food = -0.8
@@ -405,7 +405,7 @@ esc_zro_distiller_drone = {
         }
         upkeep = {
             trigger = {
-				is_lithoid = yes
+				has_trait = trait_lithoid
 				planet = { colony_type = col_refinery }
 			}
 			minerals = -0.9
@@ -416,7 +416,7 @@ esc_zro_distiller_drone = {
         }
         upkeep = {
             trigger = {
-				is_lithoid = yes
+				has_trait = trait_lithoid
 				planet = { colony_type = col_habitat_refinery }
 			}
 			minerals = -1.8
@@ -536,19 +536,19 @@ esc_dark_matter_shaper_drone = {
             sr_dark_matter = 0.05
         }
         upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
 			food = 3
 			minerals = 2
 			energy = 4
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			minerals = 5
 			energy = 4
 		}
         upkeep = {
             trigger = {
-				is_lithoid = no
+				NOT = { has_trait = trait_lithoid }
 				planet = { colony_type = col_refinery }
 			}
 			food = -0.3
@@ -557,7 +557,7 @@ esc_dark_matter_shaper_drone = {
         }
         upkeep = {
             trigger = {
-				is_lithoid = no
+				NOT = { has_trait = trait_lithoid }
 				planet = { colony_type = col_habitat_refinery }
 			}
 			food = -0.6
@@ -566,7 +566,7 @@ esc_dark_matter_shaper_drone = {
         }
         upkeep = {
             trigger = {
-				is_lithoid = yes
+				has_trait = trait_lithoid
 				planet = { colony_type = col_refinery }
 			}
 			minerals = -0.5
@@ -574,7 +574,7 @@ esc_dark_matter_shaper_drone = {
         }
         upkeep = {
             trigger = {
-				is_lithoid = yes
+				has_trait = trait_lithoid
 				planet = { colony_type = col_habitat_refinery }
 			}
 			minerals = -1
@@ -677,13 +677,13 @@ esc_planetary_core_miner = {
     resources = {
         category = planet_jobs
         upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
 			food = 5
 			consumer_goods = 5
 			energy = 5
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			minerals = 5
 			consumer_goods = 5
 			energy = 5
@@ -821,12 +821,12 @@ esc_planetary_core_miner_drone = {
     resources = {
         category = planet_jobs
         upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
 			food = 10
 			energy = 5
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			minerals = 10
 			energy = 5
 		}
@@ -1090,13 +1090,13 @@ esc_borehole_maintainer = {
 			engineering_research = 8
 		}
 		upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
 			consumer_goods = 2
 			food = 1.5
 			alloys = 1
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			consumer_goods = 2
 			minerals = 1.5
 			alloys = 1
@@ -1135,12 +1135,12 @@ esc_borehole_maintainer_drone = {
 			engineering_research = 8
 		}
 		upkeep = {
-			trigger = { is_lithoid = no }
+			trigger = { NOT = { has_trait = trait_lithoid } }
 			food = 5
 			alloys = 1
 		}
 		upkeep = {
-			trigger = { is_lithoid = yes }
+			trigger = { has_trait = trait_lithoid }
 			minerals = 5
 			alloys = 1
 		}
@@ -1224,14 +1224,14 @@ esc_mind_walker = {
 		}
 		upkeep = {
 			trigger = {
-				is_lithoid = no
+				NOT = { has_trait = trait_lithoid }
 			}
 			food = 2
 			energy = 2
 		}
 		upkeep = {
 			trigger = {
-				is_lithoid = yes
+				has_trait = trait_lithoid
 			}
 			minerals = 2
 			energy = 2
