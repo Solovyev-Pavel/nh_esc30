@@ -158,3 +158,17 @@
 
 >>> 26.08.2020
 - Added "New Frontiers" volcanic worlds as a valid planet for Mantle Mining Facility.
+
+>>> 05.09.2020
+- Slightly buffed to gravitic cannons' and torpedoes' damage.
+- Produciton of ESC strategic resources is now affected by colony designations:
+   - On terrestrial planets with refinery designation, job upkeep is reduced by 10%.
+   - On habitats with refinery designation, job upkeep is reduced by 20%.
+- Planetary Core Miner jobs are now affected by colony designation:
+   - On planets with mining colony designation, job production is increased by 20%.
+   - Borehole Maintainer jobs are NOT affected since it exists only on ecumenopoli, which can't be mining colonies.
+- Reprocessing Plant jobs are now affected by colony designation:
+   - On colonies with foundry designation, job upkeep is reduced by 20%. Non-gestalts also get the same effect if the planet has factory designation.
+- Members of the Galactic Community where 'Environmental Ordinance Waivers' or 'Project Cornucopia' resolutions have been passed also gain additional 5% production for ESC strategic resources.
+- Fixed trait weighting for Planetary Core Miner jobs for mechanical empires.
+- Fixed localization of Mantle Mining Facility building.
