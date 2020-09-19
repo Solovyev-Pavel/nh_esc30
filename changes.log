@@ -160,8 +160,8 @@
 - Added "New Frontiers" volcanic worlds as a valid planet for Mantle Mining Facility.
 
 >>> 05.09.2020
-- Slightly buffed to gravitic cannons' and torpedoes' damage.
-- Produciton of ESC strategic resources is now affected by colony designations:
+- Slightly buffed gravitic cannons' and torpedoes' damage.
+- Production of ESC strategic resources is now affected by colony designations:
    - On terrestrial planets with refinery designation, job upkeep is reduced by 10%.
    - On habitats with refinery designation, job upkeep is reduced by 20%.
 - Planetary Core Miner jobs are now affected by colony designation:
@@ -172,3 +172,6 @@
 - Members of the Galactic Community where 'Environmental Ordinance Waivers' or 'Project Cornucopia' resolutions have been passed also gain additional 5% production for ESC strategic resources.
 - Fixed trait weighting for Planetary Core Miner jobs for mechanical empires.
 - Fixed localization of Mantle Mining Facility building.
+
+>>> 19.09.2020
+- Erasure Squad armies should now be buildable by fully-synthetic ascended empires.
