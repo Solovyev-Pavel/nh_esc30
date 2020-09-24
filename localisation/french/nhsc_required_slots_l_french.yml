@@ -151,6 +151,45 @@ nhsc_carrier_behavior: "Tactique du Porteur"
 nhsc_carrier_behavior_DESC: "§HTactique du Porteur:§! Les navires resteront à longue portée (§Y150§!) Tout en attaquant les ennemis avec de l'artillerie et des essaims d'artillerie."
 
 ########################################
+###      Non-usable Computers        ###
+########################################
+
+NHSC_FE_COMP_MAT_TITAN: "Sentient Neural Network Assistant"
+NHSC_FE_COMP_MAT_TITAN_DESC: "Incredibly-advanced combat computer that can think for itself."
+NHSC_FE_COMP_MAT_BATTLECRUISER: "$NHSC_FE_COMP_MAT_TITAN$"
+NHSC_FE_COMP_MAT_BATTLECRUISER_DESC: "$NHSC_FE_COMP_MAT_TITAN_DESC$"
+NHSC_FE_COMP_MAT_ESCORT: "$NHSC_FE_COMP_MAT_TITAN$"
+NHSC_FE_COMP_MAT_ESCORT_DESC: "$NHSC_FE_COMP_MAT_TITAN_DESC$"
+
+NHSC_FE_COMP_SPI_TITAN: "Shroud Guide"
+NHSC_FE_COMP_SPI_TITAN_DESC: "Spritual advisor that helps combat unfaithful."
+NHSC_FE_COMP_SPI_BATTLECRUISER: "$NHSC_FE_COMP_SPI_TITAN$"
+NHSC_FE_COMP_SPI_BATTLECRUISER_DESC: "$NHSC_FE_COMP_SPI_TITAN_DESC$"
+NHSC_FE_COMP_SPI_ESCORT: "$NHSC_FE_COMP_SPI_TITAN$"
+NHSC_FE_COMP_SPI_ESCORT_DESC: "$NHSC_FE_COMP_SPI_TITAN_DESC$"
+
+NHSC_FE_COMP_XPB_TITAN: "Xenocide Engine"
+NHSC_FE_COMP_XPB_TITAN_DESC: "Combat computer optimized for cleansing the galaxy from unworthy xenos."
+NHSC_FE_COMP_XPB_BATTLECRUISER:  "$NHSC_FE_COMP_XPB_TITAN$"
+NHSC_FE_COMP_XPB_BATTLECRUISER_DESC: "$NHSC_FE_COMP_XPB_TITAN_DESC$"
+NHSC_FE_COMP_XPB_ESCORT:  "$NHSC_FE_COMP_XPB_TITAN$"
+NHSC_FE_COMP_XPB_ESCORT_DESC: "$NHSC_FE_COMP_XPB_TITAN_DESC$"
+
+NHSC_FE_COMP_XPL_TITAN: "Galaxy Guardian Adviser"
+NHSC_FE_COMP_XPL_TITAN_DESC: "Peace through superior firepower."
+NHSC_FE_COMP_XPL_BATTLECRUISER: "$NHSC_FE_COMP_XPL_TITAN$"
+NHSC_FE_COMP_XPL_BATTLECRUISER_DESC: "$NHSC_FE_COMP_XPL_TITAN_DESC$"
+NHSC_FE_COMP_XPL_ESCORT: "$NHSC_FE_COMP_XPL_TITAN$"
+NHSC_FE_COMP_XPL_ESCORT_DESC: "$NHSC_FE_COMP_XPL_TITAN_DESC$"
+
+NHSC_FE_COMP_MCH_TITAN: "Custodian Matrix"
+NHSC_FE_COMP_MCH_TITAN_DESC: "Specialized computer system designed for fight against eradicator machines."
+NHSC_FE_COMP_MCH_BATTLECRUISER: "$NHSC_FE_COMP_MCH_TITAN$"
+NHSC_FE_COMP_MCH_BATTLECRUISER_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
+NHSC_FE_COMP_MCH_ESCORT: "$NHSC_FE_COMP_MCH_TITAN$"
+NHSC_FE_COMP_MCH_ESCORT_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
+
+########################################
 ###            Jump Drives           ###
 ########################################
 
