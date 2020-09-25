@@ -679,6 +679,17 @@ nhsc_tech_juggernaut_pd_1_desc: "Juggernaut is the most powerful vessel we can b
 nhsc_tech_juggernaut_pd_2: "Improved Juggernaut Point-Defense System"
 nhsc_tech_juggernaut_pd_2_desc: "A refined version of the Juggernaut Point Defense System that features improved projectile-targeting logic and even more powerful cannons."
 
+### Technologies from ESC:Overwrites
+
+nhsc_tech_extradimensional_weapon_1: "Extradimensional Weaponry"
+nhsc_tech_extradimensional_weapon_1_desc: "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons."
+
+nhsc_tech_scourge_missile_1: "Scourge Missiles"
+nhsc_tech_scourge_missile_1_desc: "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction."
+
+nhsc_tech_swarm_strike_craft_1: "Swarm Spawning Pools"
+nhsc_tech_swarm_strike_craft_1_desc: "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own."
+
 ########################################
 ###      Technologies : other        ###
 ########################################
