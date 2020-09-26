@@ -71,6 +71,9 @@ NHSC_MERCENRY_HANGAR_1_DESC: "A hired band of self-serving space-farers that is 
 NHSC_MERCENRY_HANGAR_2: "Elite Mercenary Squadron"
 NHSC_MERCENRY_HANGAR_2_DESC: "More expensive to hire than regular space-faring mercenaries, these skilled pilots have both experience and crafts to go toe to toe with more traditional strike-craft wings."
 
+NHSC_SWARM_STRIKE_CRAFT_1: "Swarm Strikers"
+NHSC_SWARM_STRIKE_CRAFT_1_DESC: "Cloned, miniaturized Prethoryn specimen can be controlled through wavelengths close to those we use for intra-fleet communication, allowing us to use them as effective strike craft."
+
 ########################################
 ###         Special Resources        ###
 ########################################

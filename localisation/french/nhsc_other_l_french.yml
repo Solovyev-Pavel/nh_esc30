@@ -77,6 +77,9 @@ NHSC_MERCENRY_HANGAR_1_DESC: "Un groupe de passionnés de l'espace intéressés,
 NHSC_MERCENRY_HANGAR_2: "Escadron de mercenaires d'élite"
 NHSC_MERCENRY_HANGAR_2_DESC: "Plus coûteux à embaucher que des mercenaires habituels, ces pilotes expérimentés ont à la fois de l'expérience et de l'audace pour affronter des escadrons plus traditionnelles."
 
+NHSC_SWARM_STRIKE_CRAFT_1: "Swarm Strikers"
+NHSC_SWARM_STRIKE_CRAFT_1_DESC: "Cloned, miniaturized Prethoryn specimen can be controlled through wavelengths close to those we use for intra-fleet communication, allowing us to use them as effective strike craft."
+
 ########################################
 ###         Special Resources        ###
 ########################################

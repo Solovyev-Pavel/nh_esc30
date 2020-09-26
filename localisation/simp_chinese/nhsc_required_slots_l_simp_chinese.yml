@@ -183,6 +183,16 @@ NHSC_FE_COMP_MCH_BATTLECRUISER_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
 NHSC_FE_COMP_MCH_ESCORT: "$NHSC_FE_COMP_MCH_TITAN$"
 NHSC_FE_COMP_MCH_ESCORT_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
 
+NHSC_AI_COMPUTER: "Organic Eradication Neural Network"
+NHSC_AI_COMPUTER_DESC: "A combat computer otimized to kill despicable meatbags."
+
+NHSC_GRAY_GOO_COMPUTER_LINE: "Nanite Thought Matrix"
+NHSC_GRAY_GOO_COMPUTER_LINE_DESC: "A cluster of nanites imitating a brain of a genius admiral from long-dead species."
+NHSC_GRAY_GOO_COMPUTER_ARTILLERY: "$NHSC_GRAY_GOO_COMPUTER_LINE$"
+NHSC_GRAY_GOO_COMPUTER_ARTILLERY_DESC: "$NHSC_GRAY_GOO_COMPUTER_LINE_DESC$"
+NHSC_GRAY_GOO_COMPUTER_PLATFORM: "$NHSC_GRAY_GOO_COMPUTER_LINE$"
+NHSC_GRAY_GOO_COMPUTER_PLATFORM_DESC: "$NHSC_GRAY_GOO_COMPUTER_LINE_DESC$"
+
 ########################################
 ###            Jump Drives           ###
 ########################################
