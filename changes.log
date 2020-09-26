@@ -175,3 +175,10 @@
 
 >>> 19.09.2020
 - Erasure Squad armies should now be buildable by fully-synthetic ascended empires.
+
+>>> 27.09.2020
+- Move components and associated technologies from Overwrites submod here.
+    - You will still need Overwrites submod for them to appear in the game.
+    - This should, hopefully, fix an issue with components appearing as available when they shouldn't be if System Scale patch is used without Overwrites submod.
+- Create custom icons for FE computers.
+- Create custom icons for Contingency and Gray Goo computers.
