@@ -677,7 +677,13 @@ esc_planetary_core_miner = {
     resources = {
         category = planet_jobs
         upkeep = {
-			trigger = { NOT = { has_trait = trait_lithoid } }
+			trigger = {
+				NOR = {
+					has_trait = trait_lithoid
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+			}
 			food = 5
 			consumer_goods = 5
 			energy = 5
@@ -687,6 +693,14 @@ esc_planetary_core_miner = {
 			minerals = 5
 			consumer_goods = 5
 			energy = 5
+		}
+		upkeep = {
+			OR = {
+				has_trait = trait_mechanical
+				has_trait = trait_machine_unit
+			}
+			consumer_goods = 5
+			energy = 10
 		}
 
 		### base production + colony designation bonus to minerals
@@ -1090,7 +1104,13 @@ esc_borehole_maintainer = {
 			engineering_research = 8
 		}
 		upkeep = {
-			trigger = { NOT = { has_trait = trait_lithoid } }
+			trigger = {
+				NOR = {
+					has_trait = trait_lithoid
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+			}
 			consumer_goods = 2
 			food = 1.5
 			alloys = 1
@@ -1099,6 +1119,17 @@ esc_borehole_maintainer = {
 			trigger = { has_trait = trait_lithoid }
 			consumer_goods = 2
 			minerals = 1.5
+			alloys = 1
+		}
+		upkeep = {
+			trigger = {
+				OR = {
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+			}
+			consumer_goods = 2
+			energy = 2
 			alloys = 1
 		}
 	}

@@ -182,3 +182,6 @@
     - This should, hopefully, fix an issue with components appearing as available when they shouldn't be if System Scale patch is used without Overwrites submod.
 - Create custom icons for FE computers.
 - Create custom icons for Contingency and Gray Goo computers.
+
+>>> 11.10.2020
+- Fixed a bug where robotic pops working in the Mantle Mining facility would require food as upkeep. Even in lithoid empires.
