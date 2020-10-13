@@ -1,10 +1,10 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_contingency"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_computer_contingency.dds"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_contingency.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_gray_goo"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_computer_gray_goo.dds"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_gray_goo.dds"
 	}
 }
