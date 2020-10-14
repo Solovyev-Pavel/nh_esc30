@@ -544,6 +544,7 @@ esc_channeller = {
 
     resources = {
         category = planet_jobs
+        ### production base + galactic community resolution bonus
         produces = {
             esc_psionic_charge = 2
         }
@@ -558,8 +559,15 @@ esc_channeller = {
             }
             esc_psionic_charge = 0.1
         }
+        ### upkeep : base
         upkeep = {
-            trigger = { NOT = { has_trait = trait_lithoid } }
+            trigger = {
+				NOR = {
+					has_trait = trait_lithoid
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+			}
             energy = 4
             food = 2
         }
@@ -570,7 +578,21 @@ esc_channeller = {
         }
         upkeep = {
             trigger = {
-                NOT = { has_trait = trait_lithoid }
+				OR = {
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+			}
+            energy = 6
+        }
+        ### upkeep reduction on refinery worlds (biological)
+        upkeep = {
+            trigger = {
+                NOR = {
+					has_trait = trait_lithoid
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
                 planet = { colony_type = col_refinery }
             }
             energy = -0.4
@@ -578,12 +600,17 @@ esc_channeller = {
         }
         upkeep = {
             trigger = {
-                NOT = { has_trait = trait_lithoid }
+                NOR = {
+					has_trait = trait_lithoid
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
                 planet = { colony_type = col_habitat_refinery }
             }
             energy = -0.8
             food = -0.4
         }
+        ### upkeep reduction on refinery worlds (lithoid)
         upkeep = {
             trigger = {
                 has_trait = trait_lithoid
@@ -599,6 +626,27 @@ esc_channeller = {
             }
             energy = -0.8
             minerals = -0.4
+        }
+        ### upkeep reduction on refinery worlds (lithoid)
+        upkeep = {
+            trigger = {
+                OR = {
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+                planet = { colony_type = col_refinery }
+            }
+            energy = -0.6
+        }
+        upkeep = {
+            trigger = {
+                OR = {
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
+                planet = { colony_type = col_habitat_refinery }
+            }
+            energy = -1.2
         }
     }
 
