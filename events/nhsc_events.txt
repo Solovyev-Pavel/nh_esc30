@@ -433,8 +433,8 @@ event = {
 			limit = { has_country_flag = nhsc_awaiting_nanite_thought_matrix_project }
 
 			random_list = {
-				20 = { country_event = { id = nhsc.42 days = 0 } }
-				80 = {}
+				25 = { country_event = { id = nhsc.42 days = 0 } }
+				75 = {}
 			}
 		}
 	}
