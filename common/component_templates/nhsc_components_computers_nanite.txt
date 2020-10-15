@@ -15,7 +15,7 @@
 @nanite_computer_power = -25
 
 ############################################################
-##            Nanite Thought Matrxi : Artillery           ##
+##            Nanite Thought Matrix : Artillery           ##
 ############################################################
 
 utility_component_template = {
@@ -69,9 +69,8 @@ utility_component_template = {
 	ai_weight = { weight = 15 }
 }
 
-
 ############################################################
-##            Nanite Thought Matrxi : Carrier             ##
+##            Nanite Thought Matrix : Carrier             ##
 ############################################################
 
 utility_component_template = {
@@ -126,7 +125,7 @@ utility_component_template = {
 }
 
 ############################################################
-##             Nanite Thought Matrxi : Line               ##
+##             Nanite Thought Matrix : Line               ##
 ############################################################
 
 utility_component_template = {
@@ -180,7 +179,7 @@ utility_component_template = {
 }
 
 ############################################################
-##            Nanite Thought Matrxi : Picket              ##
+##            Nanite Thought Matrix : Picket              ##
 ############################################################
 
 utility_component_template = {
@@ -226,7 +225,7 @@ utility_component_template = {
 }
 
 ############################################################
-##            Nanite Thought Matrxi : Platform            ##
+##            Nanite Thought Matrix : Platform            ##
 ############################################################
 
 utility_component_template = {
@@ -272,7 +271,7 @@ utility_component_template = {
 }
 
 ############################################################
-##            Nanite Thought Matrxi : Swarm               ##
+##            Nanite Thought Matrix : Swarm               ##
 ############################################################
 
 utility_component_template = {
@@ -318,7 +317,7 @@ utility_component_template = {
 }
 
 ############################################################
-##            Nanite Thought Matrxi : Starbase            ##
+##            Nanite Thought Matrix : Starbase            ##
 ############################################################
 
 utility_component_template = {

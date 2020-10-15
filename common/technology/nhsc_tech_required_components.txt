@@ -1124,6 +1124,7 @@ nhsc_tech_nanite_thought_matrix = {
 	ai_update_type = military
 	prerequisites = { "nhsc_tech_synthetic_lifeform_studies" }
 	weight = 0 # tech is given as a research option by an event
+	is_rare = yes
 
 	prereqfor_desc = {
 		hide_prereq_for_desc = component
