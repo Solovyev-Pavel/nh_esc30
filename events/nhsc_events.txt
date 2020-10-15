@@ -392,25 +392,22 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		# empire doesn't know the technology yet
 		NOR = {
 			has_technology = nhsc_tech_nanite_thought_matrix
 			has_tech_option = nhsc_tech_nanite_thought_matrix
 		}
+		# we're not duplicating the special project
+		NOR = {
+			has_country_flag = nhsc_awaiting_nanite_thought_matrix_project
+			has_country_flag = nhsc_researching_nanite_thought_matrix_project
+			has_country_flag = nhsc_rejected_nanite_thought_matrix_project
+		}
+		# empire has necessary technologies to begin research
+		has_technology = nhsc_tech_synthetic_lifeform_studies
 		OR = {
-			AND = {
-				last_increased_tech = nhsc_tech_synthetic_lifeform_studies
-				OR = {
-					has_technology = tech_combat_computers_3
-					has_technology = tech_combat_computers_autonomous
-				}
-			}
-			AND = {
-				OR = {
-					last_increased_tech = tech_combat_computers_3
-					last_increased_tech = tech_combat_computers_autonomous
-				}
-				has_technology = nhsc_tech_synthetic_lifeform_studies
-			}
+			has_technology = tech_combat_computers_3
+			has_technology = tech_combat_computers_autonomous
 		}
 	}
 
@@ -436,10 +433,7 @@ event = {
 			limit = { has_country_flag = nhsc_awaiting_nanite_thought_matrix_project }
 
 			random_list = {
-				20 = {
-					remove_country_flag = nhsc_awaiting_nanite_thought_matrix_project
-					country_event = { id = nhsc.42 days = 5 }
-				}
+				20 = { country_event = { id = nhsc.42 days = 0 } }
 				80 = {}
 			}
 		}
@@ -463,11 +457,17 @@ country_event = {
 				owner = root.owner
 			}
 		}
+		hidden_effect = {
+			remove_country_flag = nhsc_awaiting_nanite_thought_matrix_project
+			set_country_flag = nhsc_researching_nanite_thought_matrix_project
+		}
 	}
 	option = {
 		name = "nhsc.42.b"
-		add_resource = {
-			influence = 50
+		add_resource = { influence = 50 }
+		hidden_effect = {
+			remove_country_flag = nhsc_awaiting_nanite_thought_matrix_project
+			set_country_flag = nhsc_rejected_nanite_thought_matrix_project
 		}
 	}
 }
@@ -481,9 +481,16 @@ country_event = {
 	trigger = {
 		FROM = { is_country_type = gray_goo }
 		THIS = {
+			# empire doesn't know the technology yet
 			NOR = {
 				has_technology = nhsc_tech_nanite_thought_matrix
 				has_tech_option = nhsc_tech_nanite_thought_matrix
+			}
+			# we're not duplicating the special project
+			NOR = {
+				has_country_flag = nhsc_awaiting_nanite_thought_matrix_project
+				has_country_flag = nhsc_researching_nanite_thought_matrix_project
+				has_country_flag = nhsc_rejected_nanite_thought_matrix_project
 			}
 		}
 	}
@@ -494,6 +501,7 @@ country_event = {
 			add_research_option = nhsc_tech_nanite_thought_matrix
 		}
 		else = {
+			set_country_flag = nhsc_awaiting_nanite_thought_matrix_project
 			country_event = { id = nhsc.44 days = 10 }
 		}
 	}
@@ -516,11 +524,17 @@ country_event = {
 				owner = root.owner
 			}
 		}
+		hidden_effect = {
+			remove_country_flag = nhsc_awaiting_nanite_thought_matrix_project
+			set_country_flag = nhsc_researching_nanite_thought_matrix_project
+		}
 	}
 	option = {
 		name = "nhsc.44.b"
-		add_resource = {
-			influence = 50
+		add_resource = { influence = 50 }
+		hidden_effect = {
+			remove_country_flag = nhsc_awaiting_nanite_thought_matrix_project
+			set_country_flag = nhsc_rejected_nanite_thought_matrix_project
 		}
 	}
 }
@@ -531,11 +545,12 @@ country_event = {
 	is_triggered_only = yes
 	title = "nhsc.45.name"
 	desc = "nhsc.45.desc"
-	picture = GFX_evt_gray_goo_ships
+	picture = GFX_evt_engineering_research
 
 	option = {
 		name = "EXCELLENT"
 		add_research_option = nhsc_tech_nanite_thought_matrix
+		hidden_effect = { remove_country_flag = nhsc_researching_nanite_thought_matrix_project }
 	}
 }
 
