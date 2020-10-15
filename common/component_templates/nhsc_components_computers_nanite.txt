@@ -389,7 +389,7 @@ utility_component_template = {
 
 	class_restriction = { shipclass_starbase }
 	size_restriction = { starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel
-						 starbase_stronghold starbase_headquarters starbase_bastion headquarters }
+						 starbase_stronghold starbase_headquarters starbase_bastion }
 	component_set = "combat_computers"
 	ship_behavior = platform
 	prerequisites = { "nhsc_tech_nanite_thought_matrix" }
