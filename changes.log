@@ -185,3 +185,13 @@
 
 >>> 11.10.2020
 - Fixed a bug where robotic pops working in the Mantle Mining facility would require food as upkeep. Even in lithoid empires.
+
+>>> 19.10.2020
+- Fixed a bug where robotic pops working as channellers require food as upkeep.
+- Add 'Nanite Thought Matrix' combat computers:
+    - Human players need to research one of the two special projects to gain the research option:
+        - 'Nanite Thought Matrix Reverse Engineering', which is given upon defeating a gray goo fleet.
+        - 'Nanite Thought Matrix Development', which is given once the player has both 'Synthetic Lifeform Studies' and 'Sapient Combat Simulations' / 'Autonomous Ship Intellects' techs.
+    - AI will bypass special projects and get research option directly.
+- Gray Goo computers now have different icons for different behaviors.
+- Some housekeeping for mod files.
