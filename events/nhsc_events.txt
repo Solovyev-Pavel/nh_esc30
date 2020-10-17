@@ -519,7 +519,7 @@ country_event = {
 		name = "nhsc.44.a"
 		capital_scope = {
 			enable_special_project = {
-				name = "NHSC_NANITE_THOUGHT_MATRIX_DEVELOP"
+				name = "NHSC_NANITE_THOUGHT_MATRIX_RENGINEER"
 				location = this
 				owner = root.owner
 			}
