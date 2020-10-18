@@ -199,3 +199,6 @@
 
 >>> 18.10.2020
 - Bugfix
+
+>>> 25.10.2020
+- Remove duplicate reactor option for ESC heavy defense platform.
