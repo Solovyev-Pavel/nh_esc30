@@ -239,7 +239,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
 	upgrades_to = "CORVETTE_NHSC_ADV_REACTOR_2"
 
@@ -295,7 +299,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { cruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor }
 	component_set = "power_core"
 	upgrades_to = "CRUISER_NHSC_ADV_REACTOR_2"
 
@@ -323,12 +331,19 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser escortcarrier SCX_Carrier }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_EscortCarrier
+		# SCX ships
+		@SCX_Carrier
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_2"
 
@@ -356,7 +371,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan }
 	component_set = "power_core"
 	upgrades_to = "TITAN_NHSC_ADV_REACTOR_2"
 
@@ -405,7 +426,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { StrikeCruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = {
+		# NSC ships
+		@NSC_StrikeCruiser
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 	component_set = "power_core"
 	upgrades_to = "STRIKECRUISER_NHSC_ADV_REACTOR_2"
 
@@ -433,7 +460,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = "power_core"
 	upgrades_to = "BATTLECRUISER_NHSC_ADV_REACTOR_2"
 
@@ -461,7 +488,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { Carrier explorationship }
+	size_restriction = { @NSC_Carrier @NSC_ExplorationShip }
 	component_set = "power_core"
 	upgrades_to = "CARRIER_NHSC_ADV_REACTOR_2"
 
@@ -489,7 +516,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = "power_core"
 	upgrades_to = "DREADNOUGHT_NHSC_ADV_REACTOR_2"
 
@@ -517,7 +548,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = "power_core"
 	upgrades_to = "FLAGSHIP_NHSC_ADV_REACTOR_2"
 
@@ -545,7 +580,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { SCX_Dreadnought }
+	size_restriction = { @SCX_Dreadnought }
 	component_set = "power_core"
 	upgrades_to = "SCX_DREADNOUGHT_NHSC_ADV_REACTOR_2"
 
@@ -632,7 +667,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { military_station_large eac_military_station_heavy_small }
+	size_restriction = {
+		# vanilla ship size
+		military_station_large
+		# EAC platforms
+		@EAC_Platform }
 	component_set = "power_core"
 	upgrades_to = "PLATFORM3_NHSC_ADV_REACTOR_2"
 
@@ -661,7 +700,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { xl_cannon }
+	size_restriction = { @NSC_AnnihilatorCannon }
 	component_set = "power_core"
 	upgrades_to = "XLCANNON_NHSC_ADV_REACTOR_2"
 
@@ -711,7 +750,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_battlefortress starbase_citadel juggernaut }
+	size_restriction = {
+		# vanilla starbases
+		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
+		# other starbases
+		@MISC_Battlefortress }
 	component_set = "power_core"
 	upgrades_to = "STARBASE_NHSC_ADV_REACTOR_2"
 
@@ -733,7 +776,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_stronghold starbase_headquarters starbase_bastion }
+	size_restriction = {
+		# NSC starbases
+		@NSC_GrandCitadel @NSC_SolarStronghold
+		# other starbases
+		@MISC_Bastion }
 	component_set = "power_core"
 	upgrades_to = "STARBASE_NSC_NHSC_ADV_REACTOR_2"
 
@@ -762,7 +809,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { headquarters }
+	size_restriction = { @NSC_Headquarters }
 	component_set = "power_core"
 	upgrades_to = "HEADQUARTERS_NSC_NHSC_ADV_REACTOR_2"
 
@@ -794,7 +841,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
 	upgrades_to = "CORVETTE_NHSC_ADV_REACTOR_3"
 
@@ -850,7 +901,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { cruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor }
 	component_set = "power_core"
 	upgrades_to = "CRUISER_NHSC_ADV_REACTOR_3"
 
@@ -878,12 +933,19 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser escortcarrier SCX_Carrier }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_EscortCarrier
+		# SCX ships
+		@SCX_Carrier
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_REACTOR_3"
 
@@ -911,7 +973,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan }
 	component_set = "power_core"
 	upgrades_to = "TITAN_NHSC_ADV_REACTOR_3"
 
@@ -960,7 +1028,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { StrikeCruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = {
+		# NSC ships
+		@NSC_StrikeCruiser
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 	component_set = "power_core"
 	upgrades_to = "STRIKECRUISER_NHSC_ADV_REACTOR_3"
 
@@ -988,7 +1062,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = "power_core"
 	upgrades_to = "BATTLECRUISER_NHSC_ADV_REACTOR_3"
 
@@ -1016,7 +1090,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { Carrier explorationship }
+	size_restriction = { @NSC_Carrier @NSC_ExplorationShip }
 	component_set = "power_core"
 	upgrades_to = "CARRIER_NHSC_ADV_REACTOR_3"
 
@@ -1044,7 +1118,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = "power_core"
 	upgrades_to = "DREADNOUGHT_NHSC_ADV_REACTOR_3"
 
@@ -1072,7 +1150,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = "power_core"
 	upgrades_to = "FLAGSHIP_NHSC_ADV_REACTOR_3"
 
@@ -1100,7 +1182,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { SCX_Dreadnought }
+	size_restriction = { @SCX_Dreadnought }
 	component_set = "power_core"
 	upgrades_to = "SCX_DREADNOUGHT_NHSC_ADV_REACTOR_3"
 
@@ -1187,7 +1269,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { military_station_large eac_military_station_heavy_small }
+	size_restriction = {
+		# vanilla ship size
+		military_station_large
+		# EAC platforms
+		@EAC_Platform }
 	component_set = "power_core"
 	upgrades_to = "PLATFORM3_NHSC_ADV_REACTOR_3"
 
@@ -1216,7 +1302,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { xl_cannon }
+	size_restriction = { @NSC_AnnihilatorCannon }
 	component_set = "power_core"
 	upgrades_to = "XLCANNON_NHSC_ADV_REACTOR_3"
 
@@ -1266,7 +1352,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_battlefortress starbase_citadel juggernaut }
+	size_restriction = {
+		# vanilla starbases
+		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
+		# other starbases
+		@MISC_Battlefortress }
 	component_set = "power_core"
 	upgrades_to = "STARBASE_NHSC_ADV_REACTOR_3"
 
@@ -1288,7 +1378,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_stronghold starbase_headquarters starbase_bastion }
+	size_restriction = {
+		# NSC starbases
+		@NSC_GrandCitadel @NSC_SolarStronghold
+		# other starbases
+		@MISC_Bastion }
 	component_set = "power_core"
 	upgrades_to = "STARBASE_NSC_NHSC_ADV_REACTOR_3"
 
@@ -1317,7 +1411,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { headquarters }
+	size_restriction = { @NSC_Headquarters }
 	component_set = "power_core"
 	upgrades_to = "HEADQUARTERS_NSC_NHSC_ADV_REACTOR_3"
 
@@ -1349,7 +1443,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1403,7 +1501,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { cruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1430,12 +1532,19 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser escortcarrier SCX_Carrier }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_EscortCarrier
+		# SCX ships
+		@SCX_Carrier
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1462,7 +1571,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1509,7 +1624,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { StrikeCruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = {
+		# NSC ships
+		@NSC_StrikeCruiser
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1536,7 +1657,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1563,7 +1684,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { Carrier explorationship }
+	size_restriction = { @NSC_Carrier @NSC_ExplorationShip }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1590,7 +1711,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1617,7 +1742,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1644,7 +1773,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { SCX_Dreadnought }
+	size_restriction = { @SCX_Dreadnought }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1728,7 +1857,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { military_station_large eac_military_station_heavy_small }
+	size_restriction = {
+		# vanilla ship size
+		military_station_large
+		# EAC platforms
+		@EAC_Platform }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1756,7 +1889,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { xl_cannon }
+	size_restriction = { @NSC_AnnihilatorCannon }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1804,7 +1937,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_battlefortress starbase_citadel juggernaut }
+	size_restriction = {
+		# vanilla starbases
+		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
+		# other starbases
+		@MISC_Battlefortress }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1825,7 +1962,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_stronghold starbase_headquarters starbase_bastion }
+	size_restriction = {
+		# NSC starbases
+		@NSC_GrandCitadel @NSC_SolarStronghold
+		# other starbases
+		@MISC_Bastion }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1853,7 +1994,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { headquarters }
+	size_restriction = { @NSC_Headquarters }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1885,7 +2026,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
 	upgrades_to = "CORVETTE_NHSC_DARK_MATTER_CORE_3"
 
@@ -1959,7 +2104,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { cruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor }
 	component_set = "power_core"
 	upgrades_to = "CRUISER_NHSC_DARK_MATTER_CORE_3"
 
@@ -1996,12 +2145,19 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser escortcarrier SCX_Carrier }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_EscortCarrier
+		# SCX ships
+		@SCX_Carrier
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = "power_core"
 	upgrades_to = "BATTLESHIP_NHSC_DARK_MATTER_CORE_3"
 
@@ -2038,7 +2194,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan }
 	component_set = "power_core"
 	upgrades_to = "TITAN_NHSC_DARK_MATTER_CORE_3"
 
@@ -2104,7 +2266,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { StrikeCruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = {
+		# NSC ships
+		@NSC_StrikeCruiser
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 	component_set = "power_core"
 	upgrades_to = "STRIKECRUISER_NHSC_DARK_MATTER_CORE_3"
 
@@ -2141,7 +2309,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = "power_core"
 	upgrades_to = "BATTLECRUISER_NHSC_DARK_MATTER_CORE_3"
 
@@ -2178,7 +2346,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { Carrier explorationship }
+	size_restriction = { @NSC_Carrier @NSC_ExplorationShip }
 	component_set = "power_core"
 	upgrades_to = "CARRIER_NHSC_DARK_MATTER_CORE_3"
 
@@ -2215,7 +2383,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = "power_core"
 	upgrades_to = "DREADNOUGHT_NHSC_DARK_MATTER_CORE_3"
 
@@ -2252,7 +2424,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = "power_core"
 	upgrades_to = "FLAGSHIP_NHSC_DARK_MATTER_CORE_3"
 
@@ -2289,7 +2465,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { SCX_Dreadnought }
+	size_restriction = { @SCX_Dreadnought }
 	component_set = "power_core"
 	upgrades_to = "SCX_DREADNOUGHT_NHSC_DARK_MATTER_CORE_3"
 
@@ -2403,7 +2579,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { military_station_large eac_military_station_heavy_small }
+	size_restriction = {
+		# vanilla ship size
+		military_station_large
+		# EAC platforms
+		@EAC_Platform }
 	component_set = "power_core"
 	upgrades_to = "PLATFORM3_NHSC_DARK_MATTER_CORE_3"
 
@@ -2441,7 +2621,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { xl_cannon }
+	size_restriction = { @NSC_AnnihilatorCannon }
 	component_set = "power_core"
 	upgrades_to = "XLCANNON_NHSC_DARK_MATTER_CORE_3"
 
@@ -2508,7 +2688,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_battlefortress starbase_citadel juggernaut }
+	size_restriction = {
+		# vanilla starbases
+		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
+		# other starbases
+		@MISC_Battlefortress }
 	component_set = "power_core"
 	upgrades_to = "STARBASE_NHSC_DARK_MATTER_CORE_3"
 
@@ -2530,7 +2714,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_stronghold starbase_headquarters starbase_bastion }
+	size_restriction = {
+		# NSC starbases
+		@NSC_GrandCitadel @NSC_SolarStronghold
+		# other starbases
+		@MISC_Bastion }
 	component_set = "power_core"
 	upgrades_to = "STARBASE_NSC_NHSC_DARK_MATTER_CORE_3"
 
@@ -2559,7 +2747,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { headquarters }
+	size_restriction = { @NSC_Headquarters }
 	component_set = "power_core"
 	upgrades_to = "HEADQUARTERS_NSC_NHSC_DARK_MATTER_CORE_3"
 
@@ -2592,7 +2780,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2664,7 +2856,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { cruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2700,12 +2896,19 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser escortcarrier SCX_Carrier }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_EscortCarrier
+		# SCX ships
+		@SCX_Carrier
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2741,7 +2944,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2805,7 +3014,13 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { StrikeCruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort }
+	size_restriction = {
+		# NSC ships
+		@NSC_StrikeCruiser
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2841,7 +3056,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2877,7 +3092,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { Carrier explorationship }
+	size_restriction = { @NSC_Carrier @NSC_ExplorationShip }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2913,7 +3128,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2949,7 +3168,11 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2985,7 +3208,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { SCX_Dreadnought }
+	size_restriction = { @SCX_Dreadnought }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -3096,7 +3319,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { military_station_large eac_military_station_heavy_small }
+	size_restriction = {
+		# vanilla ship size
+		military_station_large
+		# EAC platforms
+		@EAC_Platform }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -3133,7 +3360,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	class_restriction = { shipclass_military_station }
-	size_restriction = { xl_cannon }
+	size_restriction = { @NSC_AnnihilatorCannon }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -3198,7 +3425,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_battlefortress starbase_citadel juggernaut }
+	size_restriction = {
+		# vanilla starbases
+		starbase_outpost starbase_starport starbase_starhold starbase_starfortress  starbase_citadel juggernaut
+		# other starbases
+		@MISC_Battlefortress }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -3219,7 +3450,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { starbase_stronghold starbase_headquarters starbase_bastion }
+	size_restriction = {
+		# NSC starbases
+		@NSC_GrandCitadel @NSC_SolarStronghold
+		# other starbases
+		@MISC_Bastion }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -3247,7 +3482,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	class_restriction = { shipclass_starbase }
-	size_restriction = { headquarters }
+	size_restriction = { @NSC_Headquarters }
 	component_set = "power_core"
 
 	ai_weight = {

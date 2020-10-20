@@ -32,8 +32,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# deadly tempest
+		graygoo_interdictor
+		# NSC ships
+		@NSC_ExplorationShip
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -82,8 +89,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# deadly tempest
+		graygoo_interdictor
+		# NSC ships
+		@NSC_ExplorationShip
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -132,8 +146,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# deadly tempest
+		graygoo_interdictor
+		# NSC ships
+		@NSC_ExplorationShip
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = picket
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -182,8 +203,13 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# deadly tempest
+		graygoo_interdictor
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -237,13 +263,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -292,13 +320,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -347,13 +377,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = combat_computers
 	ship_behavior = picket
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -402,13 +434,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 	component_set = combat_computers
 	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -462,8 +496,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { titan fe_titan ultrajuggernaut graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -513,8 +554,15 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { titan fe_titan ultrajuggernaut graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Deadly tempest
+		graygoo_mothership
+		# Playable fallen empire ships
+		@PFE_Titan
+		# other...
+		@MISC_Ultrajuggernaut }
 	component_set = combat_computers
 	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -678,8 +726,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { StrikeCruiser }
+	size_restriction = { @NSC_StrikeCruiser }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -728,8 +775,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { StrikeCruiser }
+	size_restriction = { @NSC_StrikeCruiser }
 	component_set = combat_computers
 	ship_behavior = picket
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -782,8 +828,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -832,8 +877,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -882,8 +926,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Battlecruiser }
+	size_restriction = { @NSC_BattleCruiser }
 	component_set = combat_computers
 	ship_behavior = picket
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -936,8 +979,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { escortcarrier }
+	size_restriction = { @NSC_EscortCarrier }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -991,8 +1033,11 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Carrier SCX_Carrier escortcarrier }
+	size_restriction = {
+		# NSC ships
+		@NSC_EscortCarrier @NSC_Carrier
+		# SCX ships
+		@SCX_Carrier }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -1042,8 +1087,11 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Carrier SCX_Carrier escortcarrier }
+	size_restriction = {
+		# NSC ships
+		@NSC_EscortCarrier @NSC_Carrier
+		# SCX ships
+		@SCX_Carrier }
 	component_set = combat_computers
 	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -1097,8 +1145,13 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Dreadnought SCX_Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# SCX ships
+		@SCX_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -1148,8 +1201,13 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Dreadnought SCX_Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# SCX ships
+		@SCX_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -1203,8 +1261,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Flagship }
+	size_restriction = { @NSC_Flagship }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -1254,8 +1311,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Flagship }
+	size_restriction = { @NSC_Flagship }
 	component_set = combat_computers
 	ship_behavior = line
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
@@ -1305,8 +1361,7 @@ utility_component_template = {
 		}
 	}
 
-	class_restriction = { shipclass_military }
-	size_restriction = { Flagship }
+	size_restriction = { @NSC_Flagship }
 	component_set = combat_computers
 	ship_behavior = nhsc_carrier_behavior
 	prerequisites = { "nhsc_tech_dreadnought_computer" }

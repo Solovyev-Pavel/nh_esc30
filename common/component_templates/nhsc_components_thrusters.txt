@@ -88,7 +88,11 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "NHSC_ADV_THRUSTERS_2"
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 
 	ai_weight = {
 		weight = 5
@@ -146,7 +150,15 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "CRUISER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 
 	ai_weight = {
 		weight = 5
@@ -175,12 +187,17 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "BATTLESHIP_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser explorationship }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_ExplorationShip
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 
 	ai_weight = {
 		weight = 5
@@ -209,7 +226,13 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "TITAN_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Playable fallen empire ships
+		@PFE_Titan
+		# Deadly tempest
+		graygoo_mothership }
 
 	ai_weight = {
 		weight = 5
@@ -266,7 +289,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "STRIKECRUISER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { StrikeCruiser }
+	size_restriction = { @NSC_StrikeCruiser }
 
 	ai_weight = {
 		weight = 5
@@ -295,7 +318,11 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "BATTLECRUISER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { Battlecruiser escortcarrier }
+	size_restriction = {
+		# NSC ships
+		@NSC_BattleCruiser @NSC_EscortCarrier
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 
 	ai_weight = {
 		weight = 5
@@ -324,7 +351,11 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "CARRIER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { Carrier SCX_Carrier }
+	size_restriction = {
+		# NSC ships
+		@NSC_Carrier
+		# SCX ships
+		@SCX_Carrier }
 
 	ai_weight = {
 		weight = 5
@@ -353,7 +384,13 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "DREADNOUGHT_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { Dreadnought SCX_Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# SCX ships
+		@SCX_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 
 	ai_weight = {
 		weight = 5
@@ -381,7 +418,11 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "FLAGSHIP_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 
 	ai_weight = {
 		weight = 5
@@ -413,7 +454,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { corvette eac_pdf_patrol_craft_1 eac_pdf_patrol_craft_2 colonizer lithoid_colonizer sponsored_colonizer constructor science transport }
+	size_restriction = {
+		# vanilla ship classes
+		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		# EAC ships
+		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 
 	ai_weight = {
 		weight = 6
@@ -469,7 +514,15 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { cruiser rs_support_cruiser rs_ea_cruiser rs_battlecruiser fe_escort graygoo_interdictor }
+	size_restriction = {
+		# vanilla ship classes
+		cruiser
+		# Deadly tempest
+		graygoo_interdictor
+		# Realistic ships : cruisers
+		@RS_SupportCruiser @RS_ElectronicCruiser @RS_BattleCruiser
+		# Playable fallen empire ships
+		@PFE_Escort }
 
 	ai_weight = {
 		weight = 6
@@ -497,12 +550,17 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { battleship rs_dreadnought rs_heavy_dreadnought_type_a rs_heavy_dreadnought_type_b
-                         rs_heavy_dreadnought_type_c rs_heavy_dreadnought_type_d rs_heavy_dreadnought_type_e
-						 rs_heavy_dreadnought_type_f rs_heavy_dreadnought_type_g rs_heavy_dreadnought_type_h
-						 rs_heavy_dreadnought_type_i rs_heavy_dreadnought_type_strg rs_heavy_dreadnought_type_fe
-						 rs_heavy_dreadnought_type_fe1 rs_heavy_dreadnought_type_fe2 rs_heavy_dreadnought_type_fe3
-						 rs_heavy_dreadnought_type_tw fe_battlecruiser explorationship }
+	size_restriction = {
+		# vanilla ship classes
+		battleship
+		# NSC ships
+		@NSC_ExplorationShip
+		# Realsitic ships : dreadnoughts
+		@RS_Dreadnought @RS_HeavyDreadnought @RS_HDreadnought_ART @RS_HDreadnought_MAM @RS_HDreadnought_MOL @RS_HDreadnought_AVI @RS_HDreadnought_REP
+		@RS_HDreadnought_FUN @RS_HDreadnought_PLA @RS_HDreadnought_HUM @RS_HDreadnought_LIT @RS_HDreadnought_STRG @RS_HDreadnought_FE
+		@RS_HDreadnought_FE1 @RS_HDreadnought_FE2 @RS_HDreadnought_FE3 @RS_HDreadnought_TW
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 
 	ai_weight = {
 		weight = 6
@@ -530,7 +588,13 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { titan fe_titan graygoo_mothership }
+	size_restriction = {
+		# vanilla ship classes
+		titan
+		# Playable fallen empire ships
+		@PFE_Titan
+		# Deadly tempest
+		graygoo_mothership }
 
 	ai_weight = {
 		weight = 6
@@ -586,7 +650,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { StrikeCruiser }
+	size_restriction = { @NSC_StrikeCruiser }
 
 	ai_weight = {
 		weight = 6
@@ -614,7 +678,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { Battlecruiser escortcarrier }
+	size_restriction = {
+		# NSC ships
+		@NSC_BattleCruiser @NSC_EscortCarrier
+		# Playable fallen empire ships
+		@PFE_Battlecruiser }
 
 	ai_weight = {
 		weight = 6
@@ -642,7 +710,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { Carrier SCX_Carrier }
+	size_restriction = {
+		# NSC ships
+		@NSC_Carrier
+		# SCX ships
+		@SCX_Carrier }
 
 	ai_weight = {
 		weight = 6
@@ -670,7 +742,13 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { Dreadnought SCX_Dreadnought dreadnought_a }
+	size_restriction = {
+		# NSC ships
+		@NSC_Dreadnought
+		# SCX ships
+		@SCX_Dreadnought
+		# other...
+		@MISC_Dreadnought_A }
 
 	ai_weight = {
 		weight = 6
@@ -698,7 +776,11 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { Flagship ultrajuggernaut }
+	size_restriction = {
+		# NSC ships
+		@NSC_Flagship
+		# other...
+		@MISC_Ultrajuggernaut }
 
 	ai_weight = {
 		weight = 6
