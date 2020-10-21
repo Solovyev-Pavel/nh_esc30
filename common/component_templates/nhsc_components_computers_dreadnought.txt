@@ -1261,7 +1261,7 @@ utility_component_template = {
 		}
 	}
 
-	size_restriction = { @NSC_Flagship }
+	size_restriction = { @NSC_Flagship @NSC_Headquarters }
 	component_set = combat_computers
 	ship_behavior = artillery
 	prerequisites = { "nhsc_tech_dreadnought_computer" }
