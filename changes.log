@@ -200,7 +200,8 @@
 >>> 18.10.2020
 - Bugfix
 
->>> 25.10.2020
-- Remove duplicate reactor option for ESC heavy defense platform.
+>>> 22.10.2020
+- Remove duplicate reactor option for EAC heavy defense platform.
+- NSC Headquarters gets its own group of combat computers with behavior identical to that used by NSC's own computers for this starbase/ship.
 - Adjust Dreadnought and Nanite computers availability.
 - Some more housekeeping for mod files.
