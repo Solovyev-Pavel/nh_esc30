@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_machine_picket.dds"
 	}
 	spriteType = {
+		name = "GFX_ship_part_nhsco_computer_fe_machine_platform"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_machine_platform.dds"
+	}
+	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_fe_materialist_artillery"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_materialist_artillery.dds"
 	}
@@ -22,6 +26,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_fe_materialist_picket"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_materialist_picket.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_nhsco_computer_fe_materialist_platform"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_materialist_platform.dds"
 	}
 	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_fe_spiritualist_artillery"
@@ -36,6 +44,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_spiritualist_picket.dds"
 	}
 	spriteType = {
+		name = "GFX_ship_part_nhsco_computer_fe_spiritualist_platform"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_spiritualist_platform.dds"
+	}
+	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_fe_xenophile_artillery"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_xenophile_artillery.dds"
 	}
@@ -48,6 +60,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_xenophile_picket.dds"
 	}
 	spriteType = {
+		name = "GFX_ship_part_nhsco_computer_fe_xenophile_platform"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_xenophile_platform.dds"
+	}
+	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_fe_xenophobe_artillery"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_xenophobe_artillery.dds"
 	}
@@ -58,5 +74,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_nhsco_computer_fe_xenophobe_picket"
 		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_xenophobe_picket.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_nhsco_computer_fe_xenophobe_platform"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_nhsc_computer_fe_xenophobe_platform.dds"
 	}
 }
