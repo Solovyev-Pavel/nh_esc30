@@ -159,6 +159,13 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_psionic_sensors" }
 	component_set = "sensor_components"
 
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			is_normal_empire_or_spiritualist_fe_nhsc = no
+		}
+	}
+
 	ai_weight = {
 		weight = 2000
 	}
