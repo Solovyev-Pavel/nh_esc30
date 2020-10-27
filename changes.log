@@ -205,3 +205,12 @@
 - NSC Headquarters gets its own group of combat computers with behavior identical to that used by NSC's own computers for this starbase/ship.
 - Adjust Dreadnought and Nanite computers availability.
 - Some more housekeeping for mod files.
+
+>>> 29.10.2020
+- Update target Stellaris version to 2.8.*
+- Restrict psionic sensors to playable empires and spiritualist FE.
+- Add FE-unique platform combat computers.
+- Add assets for FE-unique starbase combat computers for citadel+ level starbases.
+    - Since it's impossible to give starbases a static design, this mod adds hidden and unusable verions of computers.
+    - Overwrites submod will overwrite that file and made upgraded combat computers usable by Fallen Empires.
+- More mod file housekeeping.
