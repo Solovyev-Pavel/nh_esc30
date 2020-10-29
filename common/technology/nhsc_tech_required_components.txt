@@ -12,6 +12,7 @@
 #     └─ String Theory							: tier 6 sensors for ships and stations
 #         ├─ String Fluctuation Analysis		: tier 7 sensors for ships and stations
 #         └─ Psionic Sensors					: tier 7 sensors for ships and stations
+# ── Precursor Sensor Arrays					: tier 8 sensors
 #
 # ── Antimatter Thrusters						: tier 5 thrusters for ships
 #     └─ Gravity Manipulation Engines			: tier 6 thrusters for ships
@@ -707,6 +708,33 @@ nhsc_tech_psionic_sensors = {
 				any_member = { has_technology = nhsc_tech_psionic_sensors }
 			}
 		}
+	}
+}
+
+############################################################
+##                 Precursor Sensor Arrays                ##
+############################################################
+
+nhsc_tech_precursor_sensors = {
+	area = physics
+	category = { computing }
+	tier = 6
+	cost = @techTier6cost3
+	weight = 0
+	prerequisites = { }
+	ai_update_type = all
+	is_rare = yes
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		component = {
+			title = "TECH_UNLOCK_PRECURSOR_SENSOR_TITLE"
+			desc = "TECH_UNLOCK_PRECURSOR_SENSOR_DESC"
+		}
+	}
+
+	potential = {
+		NOT = { has_global_flag = ESC_sensors_forbidden }
 	}
 }
 

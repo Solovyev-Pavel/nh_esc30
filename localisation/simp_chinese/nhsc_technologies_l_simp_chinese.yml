@@ -168,6 +168,11 @@ nhsc_tech_psionic_sensors_desc: "Application of psionic powers over dimensional 
 TECH_UNLOCK_PSI_SENSOR_TITLE: "§HUnlocks components§!: Psionic Sensors"
 TECH_UNLOCK_PSI_SENSOR_DESC: "Application of psionic powers over dimensional strings allows an unprecenent depth of perception of the world around us."
 
+nhsc_tech_precursor_sensors: "Precursor Sensor Arrays"
+nhsc_tech_precursor_sensors_desc: "Advanced sensor arrays utilizing arcane properties of $sr_dark_matter$ to instantly locate entities over vast distances of cosmos."
+TECH_UNLOCK_PRECURSOR_SENSOR_TITLE: "§HUnlocks components§!: $nhsc_tech_precursor_sensors$"
+TECH_UNLOCK_PRECURSOR_SENSOR_DESC: "$nhsc_tech_precursor_sensors_desc$"
+
 ########################################
 ###      Technologies : armors       ###
 ########################################
