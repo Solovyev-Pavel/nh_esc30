@@ -695,9 +695,11 @@ esc_planetary_core_miner = {
 			energy = 5
 		}
 		upkeep = {
-			OR = {
-				has_trait = trait_mechanical
-				has_trait = trait_machine_unit
+			trigger = {
+				OR = {
+					has_trait = trait_mechanical
+					has_trait = trait_machine_unit
+				}
 			}
 			consumer_goods = 5
 			energy = 10
