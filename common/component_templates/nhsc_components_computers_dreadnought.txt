@@ -10,7 +10,7 @@
 
 @automated_dreadnought_computer_alloy_cost = 20
 @automated_dreadnought_computer_crystals_cost = 2
-@automated_dreadnought_computer_power = -25
+@automated_dreadnought_computer_power = -30
 
 ############################################################
 ##        Automated Dreadnought Compute : Artillery       ##
