@@ -211,6 +211,14 @@
 - Restrict psionic sensors to playable empires and spiritualist FE.
 - Add FE-unique platform combat computers.
 - Add assets for FE-unique starbase combat computers for citadel+ level starbases.
-    - Since it's impossible to give starbases a static design, this mod adds hidden and unusable verions of computers.
+    - Since it's impossible to give starbases a static design, this mod adds hidden and unusable versions of computers.
     - Overwrites submod will overwrite that file and made upgraded combat computers usable by Fallen Empires.
+- Fix an error in triggered job upkeep for Mantle Mining Facility.
 - More mod file housekeeping.
+
+>>> 04.11.2020
+- Advanced Dark Matter reactors now have reduced alloy costs compared to 'normal' reactors of the same tier, have no upkeep cost and reduce overall upkeep of ships.
+- Automated Dreadnought computers have been redone. Older versions have been soft-deprecated and will be removed sometime early in 2021.
+- Update Culture Nexus/Cerebral Node/Network Regulator to give correct unity jobs for new civics.
+- Add Precursor Sensor Array sensor that can be obtained by reverse-engineering FE ship/station debris.
+- Fix NSC Headquarters' advanced Dark Matter reactors not actually costing Dark Matter.
