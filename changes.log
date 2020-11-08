@@ -222,3 +222,7 @@
 - Update Culture Nexus/Cerebral Node/Network Regulator to give correct unity jobs for new civics.
 - Add Precursor Sensor Array sensor that can be obtained by reverse-engineering FE ship/station debris.
 - Fix NSC Headquarters' advanced Dark Matter reactors not actually costing Dark Matter.
+
+>>> 08.11.2020
+- Fixed new Automated Dreadnought computers incorrectly requiring tech for Nanite Thought Matrix.
+- Fixed new Automated Dreadnought computers using wrong strategic resource for their cost.
