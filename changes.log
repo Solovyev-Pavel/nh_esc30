@@ -226,3 +226,7 @@
 >>> 08.11.2020
 - Fixed new Automated Dreadnought computers incorrectly requiring tech for Nanite Thought Matrix.
 - Fixed new Automated Dreadnought computers using wrong strategic resource for their cost.
+
+>>> 12.12.2020
+- Restrict ESC afterburners to military ships and NSC exploration cruiser. Sorry, juggernaut.
+- Add Lava World subclass from New Frontiers to the list of planets that can host Mantle Mining Facility.
