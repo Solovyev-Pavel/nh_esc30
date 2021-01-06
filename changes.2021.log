@@ -1,0 +1,3 @@
+>>> 07.01.2021
+- Rewrote a number of monthly and yearly events to make them a bit more optimized by reducing the scope they're run on.
+- Updated ai_weight for a number of buildings to make them more compatible with Starnet AI.
