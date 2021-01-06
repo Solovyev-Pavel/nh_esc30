@@ -49,7 +49,9 @@ country_event = {
 		}
 		hidden_effect = {
 			set_global_flag = nhsc_ai_reserach_boost_disabled
-			country_event = { id = nhsc.8 days = 0 } # remove modifiers
+			every_playable_country = {
+				country_event = { id = nhsc.8 days = 0 } # remove modifiers
+			}
 			country_event = { id = esc_options.1 days = 0 }
 		}
 	}
@@ -61,7 +63,9 @@ country_event = {
 		}
 		hidden_effect = {
 			remove_global_flag = nhsc_ai_reserach_boost_disabled
-			country_event = { id = nhsc.7 days = 0 } # add modifiers
+			every_playable_country = {
+				country_event = { id = nhsc.7 days = 0 } # add modifiers
+			}
 			country_event = { id = esc_options.1 days = 0 }
 		}
 	}
