@@ -2,9 +2,6 @@
 ###                 ESC Scripted Triggers                ###
 ############################################################
 
-### country types
-@RSNF_ark_empire        = "ark"
-@MODJAM_narrow_escape   = "country_type_narrow_escape_origin"
 ### mod planet classes
 @PD_Ecocity             = "pc_ecocity"
 @PD_Bioforge            = "pc_bioforge"
@@ -100,10 +97,8 @@ needs_giant_borehole = {
 
 # returns yes if the empire is playable type
 nhsc_is_playable_empire = {
-    OR = {
-        is_country_type = default
-        is_country_type = @RSNF_ark_empire
-        is_country_type = @MODJAM_narrow_escape
+    any_playable_country = {
+        is_country = THIS
     }
 }
 

@@ -185,7 +185,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		nhsc_is_playable_empire = yes
 		has_technology = tech_cruisers
 		has_country_flag = encountered_dreadnought
 		NOR = {
