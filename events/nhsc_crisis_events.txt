@@ -28,7 +28,7 @@ event = {
 		if = {
 			limit = { end_game_years_passed < 15 }
 			random_country = {
-				limit = { is_country_type = default }
+				limit = { nhsc_is_playable_empire = yes }
 				country_event = { id = nhsc_crisis.2 days = 9000 } # wait 25 years
 			}
 		}
@@ -39,7 +39,7 @@ event = {
 				end_game_years_passed < 30
 			}
 			random_country = {
-				limit = { is_country_type = default }
+				limit = { nhsc_is_playable_empire = yes }
 				country_event = { id = nhsc_crisis.2 days = 5400 } # wait 15 years
 			}
         	}
@@ -47,7 +47,7 @@ event = {
 		if = {
 			limit = { end_game_years_passed > 30 }
 			random_country = {
-				limit = { is_country_type = default }
+				limit = { nhsc_is_playable_empire = yes }
 				country_event = { id = nhsc_crisis.2 days = 3600 } # wait 10 years
 			}
 		}
@@ -109,7 +109,7 @@ event = {
 						# crisis starts
 						25 = {
 							random_country = {
-								limit = { is_country_type = default }
+								limit = { nhsc_is_playable_empire = yes }
 								country_event = { id = nhsc_crisis.4 days = 180 random = 90 }
 							}
 						}
@@ -124,7 +124,7 @@ event = {
 						# crisis starts
 						50 = {
 							random_country = {
-								limit = { is_country_type = default }
+								limit = { nhsc_is_playable_empire = yes }
 								country_event = { id = nhsc_crisis.4 days = 180 random = 90 }
 							}
 						}
@@ -241,7 +241,7 @@ event = {
 
 	immediate = {
 		random_country = {
-			limit = { is_country_type = default }
+			limit = { nhsc_is_playable_empire = yes }
 			country_event = { id = nhsc_crisis.4 days = 10 random = 5 }
 		}
 	}
