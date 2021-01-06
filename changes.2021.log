@@ -2,3 +2,4 @@
 - Rewrote a number of monthly pulse and yearly pulse events to make them a bit more optimized by reducing the number of scopes they're run on.
 - Updated ai_weight for a number of buildings to make them more compatible with Starnet AI.
 - Added some support for non-default playable country types such as Real Space New Frontier's Ark origin.
+- Removed old Automated Dreadnough combat computers. If you somehow were still using them... too bad.
