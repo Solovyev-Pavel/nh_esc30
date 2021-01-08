@@ -548,7 +548,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		is_fallen_empire = no
+		nhsc_is_playable_empire = yes
+		years_passed > 1 # to avoid being triggered by something like ACOT tech tier 6 start
 		OR = {
 			last_increased_tech = "nhsc_tech_waveforcearmor"
 			last_increased_tech = "nhsc_tech_corrosivewarheadtorpedo"
@@ -565,7 +566,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		is_fallen_empire = no
+		nhsc_is_playable_empire = yes
+		years_passed > 1 # to avoid being triggered by something like ACOT tech tier 6 start
 		OR = {
 			last_increased_tech = "nhsc_tech_chrono_vortex_cannon"
 			last_increased_tech = "nhsc_tech_arcenciel"
