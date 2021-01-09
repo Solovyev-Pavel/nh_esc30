@@ -6,3 +6,7 @@
 
 >>> 09.01.2021
 - Properly restricted flags for ESC dangerous tech research to playable empires.
+
+>>> 10.01.2021
+- Properly restricted flags for ESC dangerous tech research to playable empires for real this time (hopefully).
+- Also added a global flag to prevent the crisis condition checker event from scheduling the crisis triggering event more than once per invasion cycle.

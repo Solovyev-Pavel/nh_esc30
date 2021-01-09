@@ -98,7 +98,7 @@ needs_giant_borehole = {
 # returns yes if the empire is playable type
 nhsc_is_playable_empire = {
     any_playable_country = {
-        is_country = THIS
+        is_same_empire = PREV
     }
 }
 

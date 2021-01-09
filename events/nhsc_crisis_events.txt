@@ -15,6 +15,7 @@ event = {
 			has_global_flag = extradimensional_invasion_happened
 			has_global_flag = nhsc_unbidden_crisis_triggered
 			has_global_flag = nhsc_unbidden_crisis_started
+			has_global_flag = nhsc_unbidden_crisis_scheduled
 		}
 		OR = {
 			has_global_flag = nhsc_dangerous_tech_1_researched
@@ -23,6 +24,7 @@ event = {
 	}
 
 	immediate = {
+		set_global_flag = nhsc_unbidden_crisis_scheduled
 		### someone rushed dangerous techs : no more than 15 years have passed since endgame started
 		### it is impossible to research any of the dangerous techs before endgame without using cheats due to weighting of the gate tech
 		if = {
@@ -42,7 +44,7 @@ event = {
 				limit = { nhsc_is_playable_empire = yes }
 				country_event = { id = nhsc_crisis.2 days = 5400 } # wait 15 years
 			}
-        	}
+        }
 		# more than 30 years passed since endgame started
 		if = {
 			limit = { end_game_years_passed > 30 }
@@ -220,6 +222,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		remove_global_flag = nhsc_unbidden_crisis_scheduled
 		remove_global_flag = nhsc_unbidden_crisis_started
 		remove_global_flag = extradimensional_invasion_happened
 		remove_country_flag = extradimensionals_expunged
