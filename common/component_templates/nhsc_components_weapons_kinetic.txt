@@ -1258,7 +1258,7 @@ weapon_component_template = {
 
 	prerequisites = { nhsc_tech_autocannon_x_1 }
 	component_set = "NHSC_AUTOCANNON_X_1"
-	projectile_gfx = "stormfire_auto_cannons_s"
+	projectile_gfx = "stormfire_auto_cannons_m"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	upgrades_to = "NHSC_AUTOCANNON_X_2"
@@ -1318,7 +1318,7 @@ weapon_component_template = {
 
 	prerequisites = { "nhsc_tech_autocannon_x_2" }
 	component_set = "NHSC_AUTOCANNON_X_2"
-	projectile_gfx = "stormfire_auto_cannons_s"
+	projectile_gfx = "stormfire_auto_cannons_m"
 	upgrades_to = "NHSC_AUTOCANNON_J"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
@@ -1378,7 +1378,7 @@ weapon_component_template = {
 
 	prerequisites = { "nhsc_tech_autocannon_t" }
 	component_set = "NHSC_AUTOCANNON_T"
-	projectile_gfx = "nhsc_mhd_cannon"
+	projectile_gfx = "stormfire_auto_cannons_l"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
 
@@ -1433,7 +1433,7 @@ weapon_component_template = {
 
 	prerequisites = { "nhsc_tech_autocannon_t" }
 	component_set = "NHSC_AUTOCANNON_J"
-	projectile_gfx = "nhsc_mhd_cannon"
+	projectile_gfx = "stormfire_auto_cannons_m"
 	size_restriction = { juggernaut }
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield }
