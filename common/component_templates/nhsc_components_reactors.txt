@@ -2690,6 +2690,10 @@ utility_component_template = {
 		category = ship_components
 	}
 
+	modifier = {
+		ships_upkeep_mult = -0.05
+	}
+
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	class_restriction = { shipclass_starbase }
 	size_restriction = {
@@ -2714,6 +2718,10 @@ utility_component_template = {
 
 	resources = {
 		category = ship_components
+	}
+
+	modifier = {
+		ships_upkeep_mult = -0.05
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
@@ -3432,6 +3440,10 @@ utility_component_template = {
 		category = ship_components
 	}
 
+	modifier = {
+		ships_upkeep_mult = -0.1
+	}
+
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	class_restriction = { shipclass_starbase }
 	size_restriction = {
@@ -3455,6 +3467,10 @@ utility_component_template = {
 
 	resources = {
 		category = ship_components
+	}
+
+	modifier = {
+		ships_upkeep_mult = -0.1
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
