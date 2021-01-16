@@ -14,3 +14,4 @@
 >>> 17.01.2021
 - Fixed a bug where T-sized autocannons used MHD cannon's projectile.
 - Improved and Perfected Dark Matter reactors should now reduce Juggernaught upkeep properly.
+- Updated localizations for Juggernaught versions of T-slot weapons to hopefully make it clear that those X-slots are for Juggernaught only.
