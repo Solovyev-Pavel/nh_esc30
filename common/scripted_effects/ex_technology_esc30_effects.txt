@@ -131,8 +131,10 @@ esc_tech_switch = {
 	if = { limit = { last_increased_tech = tech_torpedoes_2 } torpedo_tech_check = yes break = yes }
 	### strikecrafts
 	if = { limit = { last_increased_tech = nhsc_tech_siegebreaker_strikecrafts } strike_craft_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_strikecrafts_mercenary_2 } strike_craft_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = nhsc_tech_tactical_strikecrafts } strike_craft_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_strike_craft_3 } strike_craft_tech_check = yes break = yes }
+	if = { limit = { last_increased_tech = nhsc_tech_strikecrafts_mercenary_1 } strike_craft_tech_check = yes break = yes }
 	if = { limit = { last_increased_tech = tech_strike_craft_2 } strike_craft_tech_check = yes break = yes }
 	### disruptors
 	if = { limit = { last_increased_tech = nhsc_tech_disruptors_5 } disruptor_tech_check = yes break = yes }
@@ -252,13 +254,6 @@ armor_tech_check = {
 			NOT = { has_technology = "nhsc_tech_synthetic_lifeform_studies" }
 		}
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
-		## synthetic lifeform studies >>> nanite transmutation [...useful?]
-		#if = {
-		#	limit = {
-		#		NOT = { has_technology = "tech_nanite_transmutation" }
-		#	}
-		#	give_technology = { message = no tech = tech_nanite_transmutation }
-		#}
 	}
 	## armor 5 >>> armor 4
 	if = {
@@ -1124,6 +1119,15 @@ torpedo_tech_check = {
 ## ##################################################### ##
 
 strike_craft_tech_check = {
+	## elite mercenary squadron >>> mercenary squardon
+	if = {
+		limit = {
+			has_technology = "nhsc_tech_strikecrafts_mercenary_2"
+			NOT = { has_technology = "nhsc_tech_strikecrafts_mercenary_1" }
+		}
+		give_technology = { message = no tech = nhsc_tech_strikecrafts_mercenary_1 }
+	}
+
 	## strikecrafts 5 >>> strikecrafts 4
 	if = {
 		limit = {
@@ -1136,6 +1140,7 @@ strike_craft_tech_check = {
 	## psionic strikecrafts >>> strikecrafts 3
 	## gravitic strikecrafts >>> strikecrafts 3
 	## strikecrafts 4 >>> strikecrafts 3
+	## elite mercenary squadron >>> strikecrafts 3
 	if = {
 		limit = {
 			OR = {
@@ -1143,15 +1148,20 @@ strike_craft_tech_check = {
 				has_technology = "nhsc_tech_nanite_strikecraft"
 				has_technology = "nhsc_tech_psionic_strikecraft"
 				has_technology = "nhsc_tech_gravitic_strikecrafts"
+				has_technology = "nhsc_tech_strikecrafts_mercenary_2"
 			}
 			NOT = { has_technology = "tech_strike_craft_3" }
 		}
 		give_technology = { message = no tech = tech_strike_craft_3 }
 	}
 	## strikecrafts 3 >>> strikecrafts 2
+	## mercenary squadron >>> strikecrafts 2
 	if = {
 		limit = {
-			has_technology = "tech_strike_craft_3"
+			OR = {
+				has_technology = "tech_strike_craft_3"
+				has_technology = "nhsc_tech_strikecrafts_mercenary_1"
+			}
 			NOT = { has_technology = "tech_strike_craft_2" }
 		}
 		give_technology = { message = no tech = tech_strike_craft_2 }
@@ -1172,11 +1182,6 @@ strike_craft_tech_check = {
 			NOT = { has_technology = "nhsc_tech_synthetic_lifeform_studies" }
 		}
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
-		## synthetic lifeform studies >>> nanite transmutation
-		#if = {
-		#	limit = { NOT = { has_technology = "tech_nanite_transmutation" } }
-		#	give_technology = { message = no tech = tech_nanite_transmutation }
-		#}
 	}
 	## gravitic strikecrafts >>> weaponized gravity
 	if = {
@@ -1557,14 +1562,6 @@ nano_torpedo_tech_check = {
 		}
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 	}
-	## synthetic lifeform studies >>> nanite transmutation
-	#if = {
-	#	limit = {
-	#		has_technology = "nhsc_tech_synthetic_lifeform_studies"
-	#		NOT = { has_technology = "tech_nanite_transmutation" }
-	#	}
-	#	give_technology = { message = no tech = tech_nanite_transmutation }
-	#}
 }
 
 ## ##################################################### ##
@@ -1588,14 +1585,6 @@ nano_cannon_tech_check = {
 		}
 		give_technology = { message = no tech = nhsc_tech_synthetic_lifeform_studies }
 	}
-	## synthetic lifeform studies >>> nanite transmutation
-	#if = {
-	#	limit = {
-	#		has_technology = "nhsc_tech_synthetic_lifeform_studies"
-	#		NOT = { has_technology = "tech_nanite_transmutation" }
-	#	}
-	#	give_technology = { message = no tech = tech_nanite_transmutation }
-	#}
 }
 
 ## ##################################################### ##
