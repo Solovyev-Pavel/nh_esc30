@@ -9,6 +9,7 @@
 @NSC_Carrier 			= "Carrier"							# Carriers
 @NSC_Dreadnought		= "Dreadnought"						# Dreadnoughts
 @NSC_Flagship			= "Flagship"						# Flagship
+@Freebooters_Flagship	= "nsc_freebooter_flagship"			# Freebooters Flagship
 @NSC_ExplorationShip	= "explorationship"					# Exploration ships
 @NSC_Headquarters		= "headquarters"					# Headquarters "station"
 

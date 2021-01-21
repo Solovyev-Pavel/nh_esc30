@@ -420,7 +420,7 @@ utility_component_template = {
 	upgrades_to = "FLAGSHIP_NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
 		# NSC ships
-		@NSC_Flagship
+		@NSC_Flagship @Freebooters_Flagship
 		# other...
 		@MISC_Ultrajuggernaut }
 
@@ -778,7 +778,7 @@ utility_component_template = {
 	component_set = "thruster_components"
 	size_restriction = {
 		# NSC ships
-		@NSC_Flagship
+		@NSC_Flagship @Freebooters_Flagship
 		# other...
 		@MISC_Ultrajuggernaut }
 

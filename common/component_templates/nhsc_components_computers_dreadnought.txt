@@ -35,7 +35,7 @@ utility_component_template = {
 		# vanilla ship classes
 		cruiser battleship titan juggernaut
 		# NSC ships
-		@NSC_StrikeCruiser @NSC_BattleCruiser @NSC_EscortCarrier @NSC_Carrier @NSC_Dreadnought @NSC_Flagship @NSC_ExplorationShip
+		@NSC_StrikeCruiser @NSC_BattleCruiser @NSC_EscortCarrier @NSC_Carrier @NSC_Dreadnought @NSC_Flagship @NSC_ExplorationShip @Freebooters_Flagship
 		# SCX ships
 		@SCX_Carrier @SCX_Dreadnought
 		# Deadly tempest
@@ -108,7 +108,7 @@ utility_component_template = {
 		# vanilla ship classes
 		cruiser battleship titan juggernaut
 		# NSC ships
-		@NSC_EscortCarrier @NSC_Carrier @NSC_Flagship
+		@NSC_EscortCarrier @NSC_Carrier @NSC_Flagship @Freebooters_Flagship
 		# SCX ships
 		@SCX_Carrier
 		# Deadly tempest
@@ -182,7 +182,7 @@ utility_component_template = {
 		# vanilla ship classes
 		cruiser battleship
 		# NSC ships
-		@NSC_StrikeCruiser @NSC_BattleCruiser @NSC_EscortCarrier @NSC_Dreadnought @NSC_Flagship @NSC_ExplorationShip
+		@NSC_StrikeCruiser @NSC_BattleCruiser @NSC_EscortCarrier @NSC_Dreadnought @NSC_Flagship @NSC_ExplorationShip @Freebooters_Flagship
 		# SCX ships
 		@SCX_Dreadnought
 		# Deadly tempest
