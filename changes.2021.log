@@ -13,5 +13,10 @@
 
 >>> 17.01.2021
 - Fixed a bug where T-sized autocannons used MHD cannon's projectile.
-- Improved and Perfected Dark Matter reactors should now reduce Juggernaught upkeep properly.
-- Updated localizations for Juggernaught versions of T-slot weapons to hopefully make it clear that those X-slots are for Juggernaught only.
+- Improved and Perfected Dark Matter reactors should now reduce Juggernaut upkeep properly.
+- Updated localizations for Juggernaut versions of T-slot weapons to hopefully make it clear that those X-slots are for Juggernaut only.
+
+>>> 24.01.2021
+- Normalized thruster speed bonuses across thruster tiers.
+- Update on_tech_increased scripted effects for strikecrafts.
+- Added support for planned standalone version of NSC Freebooters origin's flagship.
