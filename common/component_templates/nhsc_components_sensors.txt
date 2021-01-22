@@ -206,3 +206,36 @@ utility_component_template = {
 		weight = 2500
 	}
 }
+
+############################################################
+##                       Shroud Eye                       ##
+############################################################
+
+utility_component_template = {
+	key = "NHSC_SHROUD_EYE_SENSOR"
+	size = medium
+	icon = "GFX_ship_part_shroud_eye"
+	icon_frame = 1
+	power = 0
+	hidden = yes
+
+	resources = {
+		category = ship_components
+		cost = {
+			energy = 10
+		}
+	}
+
+	sensor_range = @tier7_sensor_range
+	hyperlane_range = @hyperlane_sight_5
+
+	ship_modifier = {
+		ship_tracking_add = @psionic_hit_chance
+	}
+
+	component_set = "sensor_components"
+
+	ai_weight = {
+		weight = 2000
+	}
+}

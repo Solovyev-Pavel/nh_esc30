@@ -78,6 +78,9 @@ NHSC_PSI_LANCE_TITANIC_DESC: "A psionic lance of unimaginable power, fueled by t
 NHSC_PSI_LANCE_JUGGERNAUT: "$NHSC_PSI_LANCE_TITANIC$ ($juggernaut$)"
 NHSC_PSI_LANCE_JUGGERNAUT_DESC: "$NHSC_PSI_LANCE_TITANIC_DESC$"
 
+NHSC_PSIONIC_BLAST: "Psionic Blast Wave"
+NHSC_PSIONIC_BLAST_DESC: "A shockwave of pure psionic energy that is capable of obliterating nearly anything."
+
 ########################################
 ###       Psionic Interceptors       ###
 ########################################

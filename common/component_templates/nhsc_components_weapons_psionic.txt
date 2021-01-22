@@ -1045,3 +1045,41 @@ strike_craft_component_template = {
 		}
 	}
 }
+
+############################################################
+##            Psionic Blast (Shroud Avatar)               ##
+############################################################
+
+weapon_component_template = {
+	key = "NHSC_PSIONIC_BLAST"
+	size = medium
+	entity = "large_space_cloud_weapon_entity"
+	icon = "GFX_ship_part_nhsc_psionic_blast"
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 400 max = 800 }
+	windup = { min = 2 max = 25 }
+	total_fire_time = 30
+	range = 85
+	accuracy = 0.9
+	power = 0
+
+	resources = {
+		category = ship_components
+		cost = { energy = 10 }
+	}
+
+	hull_damage = @psionic_cannon_hull_damage
+	armor_penetration = @psionic_cannon_armor_penetration
+	armor_damage = @psionic_cannon_armor_damage
+	shield_penetration = @psionic_cannon_shield_penetration
+	shield_damage = @psionic_cannon_shield_damage
+	tracking = 1.0
+
+	component_set = "NHSC_PSIONIC_BLAST"
+	projectile_gfx = "nhsc_psi_cannon_medium"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	hidden = yes
+}
