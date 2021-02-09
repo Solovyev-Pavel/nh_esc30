@@ -22,7 +22,10 @@
 - Add support for planned standalone version of NSC Freebooters origin's flagship.
 - Add components for ESC Overwrites Shroud Avatar designs.
 
->>> 07.02.2020
+>>> 07.02.2021
 - Update reactors for the new version of NSC.
 - Split battleship and titan reactors into NSC and non-NSC versions.
 - NSC Exploration cruiser now uses NSC Battlecruiser reactors instead of NSC Carrier ones.
+
+>>> 09.02.2021
+- Fix NSC Battlecruiser reactors.
