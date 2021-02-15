@@ -29,3 +29,20 @@
 
 >>> 09.02.2021
 - Fix NSC Battlecruiser reactors.
+
+>>> 21.02.2021
+- Further boost to NSC titan reactors.
+- Upgrade fortress (tier 3 platform) reactors.
+- Fix localizations issue with Juggernaut Matter Annihilator.
+- Redo AI bonus customization:
+    - Allow customization of AI special resources bonus:
+        - Default is enabled.
+    - Expand upon AI research speed bonuses. Following options are available:
+        - Easy scaling (default)
+        - Easy static
+        - Moderate scaling
+        - Moderate static
+        - Challending scaling
+        - Challending static
+        - Disabled
+    - NOTE: due to how the update was handled, in the on-going games AI will lose its research speed bonuses if those were enabled.
