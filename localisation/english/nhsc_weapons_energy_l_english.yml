@@ -237,9 +237,9 @@ LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC
 NHSC_EXTRADIMENSIONAL_WEAPON_2_X: "Grand $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
 NHSC_EXTRADIMENSIONAL_WEAPON_2_X_DESC: "An upscaled version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, capable of immense destruction."
 NHSC_EXTRADIMENSIONAL_WEAPON_2_T: "Titanic $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_T_DESC: "A titanic version of $NHSC_EXTRADIMENSIONAL_WEAPON_2, for the biggest and most poweful ships in our fleets."
+NHSC_EXTRADIMENSIONAL_WEAPON_2_T_DESC: "A titanic version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, for the biggest and most poweful ships in our fleets."
 NHSC_EXTRADIMENSIONAL_WEAPON_2_J: "$NHSC_EXTRADIMENSIONAL_WEAPON_2$ ($juggernaut$)"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_J_DESC: "A juggernaut version of $NHSC_EXTRADIMENSIONAL_WEAPON_2, for the biggest and most poweful ships in our fleets."
+NHSC_EXTRADIMENSIONAL_WEAPON_2_J_DESC: "A juggernaut version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, for the biggest and most poweful ships in our fleets."
 
 ########################################
 ###          Reality Eraser          ###
