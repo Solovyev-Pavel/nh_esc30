@@ -15,10 +15,10 @@
 @battleship_power_6 = 2000
 @battleship_nsc_power_6 = 4000
 @titan_power_6 = 4200
-@titan_nsc_power_6 = 7200
+@titan_nsc_power_6 = 8000
 @platform_power_6 = 750
 @platform2_power_6 = 1200
-@platform3_power_6 = 1700
+@platform3_power_6 = 2500
 @xlcannon_power_6 = 1600
 @starbase_power_6 = 18000
 
@@ -36,10 +36,10 @@
 @battleship_power_7 = 2700
 @battleship_nsc_power_7 = 5800
 @titan_power_7 = 5500
-@titan_nsc_power_7 = 9425
+@titan_nsc_power_7 = 10000
 @platform_power_7 = 1100
 @platform2_power_7 = 1600
-@platform3_power_7 = 2700
+@platform3_power_7 = 4500
 @xlcannon_power_7 = 1900
 @starbase_power_7 = 20000
 
@@ -57,10 +57,10 @@
 @battleship_power_8 = 3500
 @battleship_nsc_power_8 = 9000
 @titan_power_8 = 6750
-@titan_nsc_power_8 = 13000
+@titan_nsc_power_8 = 17000
 @platform_power_8 = 1625
 @platform2_power_8 = 2000
-@platform3_power_8 = 3700
+@platform3_power_8 = 7000
 @xlcannon_power_8 = 2200
 @starbase_power_8 = 24000
 
