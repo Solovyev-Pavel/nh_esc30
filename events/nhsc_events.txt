@@ -16,6 +16,7 @@ event = {
 	}
 	immediate = {
 		set_global_flag = nhsc_v30
+		set_global_flag = ESC_AI_research_boost_easy_scaling
 	}
 }
 
@@ -31,6 +32,7 @@ event = {
 	}
 	immediate = {
 		set_global_flag = nhsc_v30
+		set_global_flag = ESC_AI_research_boost_easy_scaling
 	}
 }
 
@@ -45,40 +47,16 @@ country_event = {
 	hide_window = yes
 
 	trigger = {
-		NOT = { has_global_flag = nhsc_ai_reserach_boost_disabled }
+		nhsc_is_playable_empire = yes
 	}
 
 	immediate = {
 		# remove old modifiers
-		if = {
-			limit = { has_modifier = esc_ai_midgame_science_boost  }
-			remove_modifier = esc_ai_midgame_science_boost
-		}
-		if = {
-			limit = { has_modifier = esc_ai_endgame_science_boost  }
-			remove_modifier = esc_ai_endgame_science_boost
-		}
+		esc_remove_ai_research_speed_bonuses = yes
 
 		if = {
-			limit = {
-				is_ai = yes
-				is_fallen_empire = no
-			}
-
-			# if we're in midgame - add midgame modifier
-			if = {
-				limit = {
-					mid_game_years_passed > 0
-					NOT = { end_game_years_passed > 0 }
-				}
-				add_modifier = { modifier = esc_ai_midgame_science_boost days = 35 }
-			}
-
-			# if we're in endgame - add endgame modifier
-			if = {
-				limit = { end_game_years_passed > 0 }
-				add_modifier = { modifier = esc_ai_endgame_science_boost days = 35 }
-			}
+			limit = { is_ai = yes }
+			esc_set_research_speed_bonuses = yes
 		}
 	}
 }
@@ -90,15 +68,7 @@ country_event = {
 	hide_window = yes
 
 	immediate = {
-		if = {
-			limit = { has_modifier = esc_ai_midgame_science_boost  }
-			remove_modifier = esc_ai_midgame_science_boost
-		}
-
-		if = {
-			limit = { has_modifier = esc_ai_endgame_science_boost  }
-			remove_modifier = esc_ai_endgame_science_boost
-		}
+		esc_remove_ai_research_speed_bonuses = yes
 	}
 }
 
@@ -121,6 +91,7 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes
+				NOT = { has_global_flag = ESC_AI_resources_boost_disabled }
 				has_technology = nhsc_tech_crystal_cannon_1
 				is_normal_empire_or_xenophile_fe_nhsc = yes
 			}
@@ -130,6 +101,7 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes
+				NOT = { has_global_flag = ESC_AI_resources_boost_disabled }
 				has_technology = nhsc_tech_gravity_manipulation
 				is_normal_empire_or_materialist_fe_nhsc = yes
 			}
@@ -139,6 +111,7 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes
+				NOT = { has_global_flag = ESC_AI_resources_boost_disabled }
 				has_technology = nhsc_tech_psionic_weapons
 				is_normal_empire_or_spiritualist_fe_nhsc = yes
 			}
@@ -148,6 +121,7 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes
+				NOT = { has_global_flag = ESC_AI_resources_boost_disabled }
 				has_technology = nhsc_tech_synthetic_lifeform_studies
 				is_normal_empire_or_machine_fe_nhsc = yes
 			}
@@ -157,6 +131,7 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes
+				NOT = { has_global_flag = ESC_AI_resources_boost_disabled }
 				is_fallen_empire = no
 				has_technology = nhsc_tech_enigmatic_energy_harvesting
 			}
@@ -166,6 +141,7 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes
+				NOT = { has_global_flag = ESC_AI_resources_boost_disabled }
 				is_fallen_empire = no
 				has_technology = nhsc_tech_chrono_spatial_weapons
 			}
