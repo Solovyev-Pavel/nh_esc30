@@ -19,6 +19,7 @@
 # ── Precursor Armaments				: unlocks special aux slot component
 
 @FQ_HivePsionicTheory	= "tech_psionic_mind_theory"
+@FQ_HivePsionicTheory2	= "tech_mind_meld"
 
 ############################################################
 ##                Stellar Evenrgy Tower                   ##
@@ -224,6 +225,7 @@ nhsc_tech_zro_distilleries = {
 			NOR = {
 				has_technology = tech_psionic_theory
 				has_technology = @FQ_HivePsionicTheory # forgotten queens
+				has_technology = @FQ_HivePsionicTheory2 # forgotten queens
 				has_technology = nhsc_tech_psionic_weapons
 			}
 		}
@@ -247,6 +249,7 @@ nhsc_tech_zro_distilleries = {
 			NOR = {
 				has_technology = tech_psionic_theory
 				has_technology = @FQ_HivePsionicTheory # forgotten queens
+				has_technology = @FQ_HivePsionicTheory2 # forgotten queens
 				has_technology = nhsc_tech_psionic_weapons
 			}
 		}

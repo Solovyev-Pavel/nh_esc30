@@ -42,7 +42,10 @@
         - Easy static
         - Moderate scaling
         - Moderate static
-        - Challending scaling
-        - Challending static
+        - Challenging scaling
+        - Challenging static
         - Disabled
     - NOTE: due to how the update was handled, in the on-going games AI will lose its research speed bonuses if those were enabled.
+
+>>> 22.02.2021
+- Updated Forgotten Queens Support
