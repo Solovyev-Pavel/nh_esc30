@@ -49,3 +49,7 @@
 
 >>> 22.02.2021
 - Updated Forgotten Queens Support
+
+>>> 03.03.2021
+- More Forgotten Queens Support
+- Fixed a bug with repeated Unbidden invasions.
