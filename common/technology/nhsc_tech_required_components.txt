@@ -25,6 +25,10 @@
 #
 # ── Nanite Thought Matrix						: nanite-based combat computers
 
+### technologies from other mods
+@FQ_HivePsionicTheory	= "tech_psionic_mind_theory"
+@FQ_HivePsionicTheory2	= "tech_mind_meld"
+
 ############################################################
 ##              Improved Zero-Point Reactor               ##
 ############################################################
@@ -618,7 +622,7 @@ nhsc_tech_psionic_sensors = {
 	tier = 5
 	cost = @tier5cost3
 	weight = @tier5weight3
-	prerequisites = { "nhsc_tech_advanced_sensors_2" "tech_psionic_theory" }
+	prerequisites = { "nhsc_tech_advanced_sensors_2" }
 	ai_update_type = all
 	is_rare = yes
 
@@ -638,6 +642,14 @@ nhsc_tech_psionic_sensors = {
 	}
 
 	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = tech_psionic_theory
+				has_technology = @FQ_HivePsionicTheory # forgotten queens
+				has_technology = @FQ_HivePsionicTheory2 # forgotten queens
+			}
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -675,6 +687,14 @@ nhsc_tech_psionic_sensors = {
 
 	ai_weight = {
 		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = tech_psionic_theory
+				has_technology = @FQ_HivePsionicTheory # forgotten queens
+				has_technology = @FQ_HivePsionicTheory2 # forgotten queens
+			}
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
