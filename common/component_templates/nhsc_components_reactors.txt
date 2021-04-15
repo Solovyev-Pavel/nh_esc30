@@ -251,7 +251,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
@@ -281,7 +281,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 	component_set = "power_core"
 	upgrades_to = "DESTROYER_NHSC_ADV_REACTOR_2"
 
@@ -311,7 +311,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor }
 	component_set = "power_core"
@@ -514,7 +514,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	size_restriction = { colossus }
+	size_restriction = { colossus star_eater }
 	component_set = "power_core"
 	upgrades_to = "COLOSSUS_NHSC_ADV_REACTOR_2"
 
@@ -959,7 +959,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
@@ -989,7 +989,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 	component_set = "power_core"
 	upgrades_to = "DESTROYER_NHSC_ADV_REACTOR_3"
 
@@ -1019,7 +1019,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor }
 	component_set = "power_core"
@@ -1222,7 +1222,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	size_restriction = { colossus }
+	size_restriction = { colossus star_eater }
 	component_set = "power_core"
 	upgrades_to = "COLOSSUS_NHSC_ADV_REACTOR_3"
 
@@ -1667,7 +1667,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
@@ -1696,7 +1696,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -1725,7 +1725,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor }
 	component_set = "power_core"
@@ -1923,7 +1923,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	size_restriction = { colossus }
+	size_restriction = { colossus star_eater }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -2354,7 +2354,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
@@ -2393,7 +2393,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 	component_set = "power_core"
 	upgrades_to = "DESTROYER_NHSC_DARK_MATTER_CORE_3"
 
@@ -2432,7 +2432,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor }
 	component_set = "power_core"
@@ -2683,7 +2683,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	size_restriction = { colossus }
+	size_restriction = { colossus star_eater }
 	component_set = "power_core"
 	upgrades_to = "COLOSSUS_NHSC_DARK_MATTER_CORE_3"
 
@@ -3245,7 +3245,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 	component_set = "power_core"
@@ -3283,7 +3283,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 	component_set = "power_core"
 
 	ai_weight = {
@@ -3321,7 +3321,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor }
 	component_set = "power_core"
@@ -3567,7 +3567,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	size_restriction = { colossus }
+	size_restriction = { colossus star_eater }
 	component_set = "power_core"
 
 	ai_weight = {

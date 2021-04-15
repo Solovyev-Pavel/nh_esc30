@@ -90,7 +90,7 @@ utility_component_template = {
 	upgrades_to = "NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 
@@ -121,7 +121,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "DESTROYER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 
 	ai_weight = {
 		weight = 5
@@ -152,7 +152,7 @@ utility_component_template = {
 	upgrades_to = "CRUISER_NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor
 		# Realistic ships : cruisers
@@ -260,7 +260,7 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "COLOSSUS_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { colossus juggernaut }
+	size_restriction = { colossus star_eater juggernaut }
 
 	ai_weight = {
 		weight = 5
@@ -456,7 +456,7 @@ utility_component_template = {
 	component_set = "thruster_components"
 	size_restriction = {
 		# vanilla ship classes
-		corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
+		corvette crisis_corvette colonizer lithoid_colonizer sponsored_colonizer constructor science transport
 		# EAC ships
 		@EAC_PatrolCraft_1 @EAC_PatrolCraft_2 }
 
@@ -486,7 +486,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { destroyer }
+	size_restriction = { destroyer crisis_destroyer }
 
 	ai_weight = {
 		weight = 6
@@ -516,7 +516,7 @@ utility_component_template = {
 	component_set = "thruster_components"
 	size_restriction = {
 		# vanilla ship classes
-		cruiser
+		cruiser crisis_cruiser
 		# Deadly tempest
 		graygoo_interdictor
 		# Realistic ships : cruisers
@@ -622,7 +622,7 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { colossus juggernaut }
+	size_restriction = { colossus star_eater juggernaut }
 
 	ai_weight = {
 		weight = 6
