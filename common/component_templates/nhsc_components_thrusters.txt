@@ -66,6 +66,7 @@
 ##           Antimatter Thrusters             ##
 ################################################
 
+# corvettes & transports & civilian ships
 utility_component_template = {
 	key = "NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -99,6 +100,7 @@ utility_component_template = {
 	}
 }
 
+# destroyers
 utility_component_template = {
 	key = "DESTROYER_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -128,6 +130,7 @@ utility_component_template = {
 	}
 }
 
+# cruisers
 utility_component_template = {
 	key = "CRUISER_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -165,6 +168,7 @@ utility_component_template = {
 	}
 }
 
+# battleships
 utility_component_template = {
 	key = "BATTLESHIP_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -204,6 +208,7 @@ utility_component_template = {
 	}
 }
 
+# titans
 utility_component_template = {
 	key = "TITAN_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -239,6 +244,7 @@ utility_component_template = {
 	}
 }
 
+# colossi
 utility_component_template = {
 	key = "COLOSSUS_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -267,6 +273,7 @@ utility_component_template = {
 	}
 }
 
+# strike cruisers
 utility_component_template = {
 	key = "STRIKECRUISER_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -289,13 +296,18 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_1" }
 	component_set = "thruster_components"
 	upgrades_to = "STRIKECRUISER_NHSC_ADV_THRUSTERS_2"
-	size_restriction = { @NSC_StrikeCruiser }
+	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_strike_cruiser
+		# NSC ships
+		@NSC_StrikeCruiser }
 
 	ai_weight = {
 		weight = 5
 	}
 }
 
+# battlecruisers
 utility_component_template = {
 	key = "BATTLECRUISER_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -319,6 +331,8 @@ utility_component_template = {
 	component_set = "thruster_components"
 	upgrades_to = "BATTLECRUISER_NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_battle_cruiser
 		# NSC ships
 		@NSC_BattleCruiser @NSC_EscortCarrier
 		# Playable fallen empire ships
@@ -329,6 +343,7 @@ utility_component_template = {
 	}
 }
 
+# carriers
 utility_component_template = {
 	key = "CARRIER_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -352,6 +367,8 @@ utility_component_template = {
 	component_set = "thruster_components"
 	upgrades_to = "CARRIER_NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_carrier
 		# NSC ships
 		@NSC_Carrier
 		# SCX ships
@@ -362,6 +379,7 @@ utility_component_template = {
 	}
 }
 
+# dreadnoughts
 utility_component_template = {
 	key = "DREADNOUGHT_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -385,6 +403,8 @@ utility_component_template = {
 	component_set = "thruster_components"
 	upgrades_to = "DREADNOUGHT_NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_dreadnought
 		# NSC ships
 		@NSC_Dreadnought
 		# SCX ships
@@ -397,6 +417,7 @@ utility_component_template = {
 	}
 }
 
+# flaships
 utility_component_template = {
 	key = "FLAGSHIP_NHSC_ADV_THRUSTERS_1"
 	size = small
@@ -419,6 +440,8 @@ utility_component_template = {
 	component_set = "thruster_components"
 	upgrades_to = "FLAGSHIP_NHSC_ADV_THRUSTERS_2"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_flagship
 		# NSC ships
 		@NSC_Flagship @Freebooters_Flagship
 		# other...
@@ -433,6 +456,7 @@ utility_component_template = {
 ##         Gravity Manipulation Engines       ##
 ################################################
 
+# corvettes & transports & civilian ships
 utility_component_template = {
 	key = "NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -465,6 +489,7 @@ utility_component_template = {
 	}
 }
 
+# destroyers
 utility_component_template = {
 	key = "DESTROYER_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -493,6 +518,7 @@ utility_component_template = {
 	}
 }
 
+# cruisers
 utility_component_template = {
 	key = "CRUISER_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -529,6 +555,7 @@ utility_component_template = {
 	}
 }
 
+# battleships
 utility_component_template = {
 	key = "BATTLESHIP_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -567,6 +594,7 @@ utility_component_template = {
 	}
 }
 
+# titans
 utility_component_template = {
 	key = "TITAN_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -601,6 +629,7 @@ utility_component_template = {
 	}
 }
 
+# colossi
 utility_component_template = {
 	key = "COLOSSUS_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -629,6 +658,7 @@ utility_component_template = {
 	}
 }
 
+# strike cruisers
 utility_component_template = {
 	key = "STRIKECRUISER_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -650,13 +680,18 @@ utility_component_template = {
 
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
-	size_restriction = { @NSC_StrikeCruiser }
+	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_strike_cruiser
+		# NSC ships
+		@NSC_StrikeCruiser }
 
 	ai_weight = {
 		weight = 6
 	}
 }
 
+# battlecruisers
 utility_component_template = {
 	key = "BATTLECRUISER_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -679,6 +714,8 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_battle_cruiser
 		# NSC ships
 		@NSC_BattleCruiser @NSC_EscortCarrier
 		# Playable fallen empire ships
@@ -689,6 +726,7 @@ utility_component_template = {
 	}
 }
 
+# carriers
 utility_component_template = {
 	key = "CARRIER_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -711,6 +749,8 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_carrier
 		# NSC ships
 		@NSC_Carrier
 		# SCX ships
@@ -721,6 +761,7 @@ utility_component_template = {
 	}
 }
 
+# dreadnoughts
 utility_component_template = {
 	key = "DREADNOUGHT_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -743,6 +784,8 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_dreadnought
 		# NSC ships
 		@NSC_Dreadnought
 		# SCX ships
@@ -755,6 +798,7 @@ utility_component_template = {
 	}
 }
 
+# flaships
 utility_component_template = {
 	key = "FLAGSHIP_NHSC_ADV_THRUSTERS_2"
 	size = small
@@ -777,6 +821,8 @@ utility_component_template = {
 	prerequisites = { "nhsc_tech_advanced_thrusters_2" }
 	component_set = "thruster_components"
 	size_restriction = {
+		# dummy ship class to sidestep 'bugs' with size_restriction
+		esc_dummy_flagship
 		# NSC ships
 		@NSC_Flagship @Freebooters_Flagship
 		# other...
@@ -786,6 +832,10 @@ utility_component_template = {
 		weight = 6
 	}
 }
+
+################################################
+##     Special engines for event entities     ##
+################################################
 
 ### Mysterious Force
 utility_component_template = {
