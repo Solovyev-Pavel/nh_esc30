@@ -25,8 +25,9 @@
 @tier6_sensor_range = 5
 @tier7_sensor_range = 5
 
-@hyperlane_sight_4 = 8
-@hyperlane_sight_5 = 10
+@hyperlane_sight_4 = 6
+@hyperlane_sight_5 = 7
+@hyperlane_sight_6 = 8
 
 ############################################################
 ##                Advanced Tachyon Sensors                ##
@@ -117,7 +118,7 @@ utility_component_template = {
 	}
 
 	sensor_range = @tier7_sensor_range
-	hyperlane_range = @hyperlane_sight_5
+	hyperlane_range = @hyperlane_sight_6
 
 	ship_modifier = {
 		ship_tracking_add = @tier7_hit_chance
@@ -151,7 +152,7 @@ utility_component_template = {
 	}
 
 	sensor_range = @tier7_sensor_range
-	hyperlane_range = @hyperlane_sight_5
+	hyperlane_range = @hyperlane_sight_6
 
 	ship_modifier = {
 		ship_tracking_add = @psionic_hit_chance
@@ -192,7 +193,7 @@ utility_component_template = {
 	}
 
 	sensor_range = @tier7_sensor_range
-	hyperlane_range = @hyperlane_sight_5
+	hyperlane_range = @hyperlane_sight_6
 
 	ship_modifier = {
 		ship_tracking_add = @psionic_hit_chance
@@ -227,7 +228,7 @@ utility_component_template = {
 	}
 
 	sensor_range = @tier7_sensor_range
-	hyperlane_range = @hyperlane_sight_5
+	hyperlane_range = @hyperlane_sight_6
 
 	ship_modifier = {
 		ship_tracking_add = @psionic_hit_chance
