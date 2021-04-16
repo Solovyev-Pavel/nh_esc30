@@ -205,6 +205,11 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 2500
+		# AI shouldn't use it if there is no dark matter income
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_dark_matter }
+		}
 	}
 }
 

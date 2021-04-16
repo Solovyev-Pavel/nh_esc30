@@ -76,11 +76,8 @@ utility_component_template = {
 		weight = 15
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			factor = 0
-			resource_stockpile_compare = {
-				resource = rare_crystals
-				value < 100
-			}
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
 		}
 	}
 }
@@ -150,11 +147,8 @@ utility_component_template = {
 		weight = 15
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			factor = 0
-			resource_stockpile_compare = {
-				resource = rare_crystals
-				value < 100
-			}
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
 		}
 	}
 }
@@ -223,11 +217,8 @@ utility_component_template = {
 		weight = 15
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			factor = 0
-			resource_stockpile_compare = {
-				resource = rare_crystals
-				value < 100
-			}
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
 		}
 	}
 }
@@ -288,11 +279,8 @@ utility_component_template = {
 		weight = 15
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			factor = 0
-			resource_stockpile_compare = {
-				resource = rare_crystals
-				value < 100
-			}
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
 		}
 	}
 }
@@ -339,17 +327,8 @@ utility_component_template = {
 		weight = 20
 		### AI shouldn't use this component if it can't afford at least some upgrades right away
 		modifier = {
-			factor = 0
-			OR = {
-				resource_stockpile_compare = {
-					resource = rare_crystals
-					value < 100
-				}
-				resource_income_compare = {
-					resource = rare_crystals
-					value < 2
-				}
-			}
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
 		}
 	}
 }
