@@ -61,3 +61,6 @@
 - Fix descriptions for A.T. Field being not Evangelion-y enough.
 - Fix missing ai_weight blocks for certain strikecrafts.
 - Fix missing ai_weight modifiers for lack of resources on advanced jump drives.
+
+>>> 23.04.2021
+- Fix usage of global flags for crystalline entities that no longer exist in vanilla.

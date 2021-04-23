@@ -34,8 +34,7 @@ nhsc_tech_crystal_cannon_1 = {
 		modifier = {
 			factor = 0
 			NOR = {
-				has_country_flag = crystal_nonhostile_approach
-				has_country_flag = crystal_hostile_approach
+				has_country_flag = crystals_encountered
 				has_country_flag = discovered_lihtoids_arc_site
 				is_lithoid_empire = yes
 			}
@@ -70,8 +69,7 @@ nhsc_tech_crystal_cannon_1 = {
 		modifier = {
 			factor = 0
 			NOR = {
-				has_country_flag = crystal_nonhostile_approach
-				has_country_flag = crystal_hostile_approach
+				has_country_flag = crystals_encountered
 				has_country_flag = discovered_lihtoids_arc_site
 				is_lithoid_empire = yes
 			}
@@ -120,14 +118,6 @@ nhsc_tech_improved_crystal_farm = {
 
 	weight_modifier = {
 		modifier = {
-			factor = 0
-			nhsc_is_playable_empire = yes
-			NOR = {
-				has_country_flag = crystal_nonhostile_approach
-				has_country_flag = crystal_hostile_approach
-			}
-		}
-		modifier = {
 			factor = 1.25
 			has_ethic = ethic_fanatic_pacifist
 		}
@@ -154,14 +144,6 @@ nhsc_tech_improved_crystal_farm = {
 
 	ai_weight = {
 		factor = 2
-		modifier = {
-			factor = 0
-			nhsc_is_playable_empire = yes
-			NOR = {
-				has_country_flag = crystal_nonhostile_approach
-				has_country_flag = crystal_hostile_approach
-			}
-		}
 		modifier = {
 			factor = 1.25
 			has_ethic = ethic_fanatic_pacifist
