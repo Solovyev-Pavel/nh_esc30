@@ -29,6 +29,9 @@
 @FQ_HivePsionicTheory	= "tech_psionic_mind_theory"
 @FQ_HivePsionicTheory2	= "tech_mind_meld"
 
+### global flags from other mods
+@ACOT_active_flag		= "acot_activated"
+
 ############################################################
 ##              Improved Zero-Point Reactor               ##
 ############################################################
@@ -912,7 +915,7 @@ nhsc_tech_jump_drive_2 = {
 	is_rare = yes
 
 	potential = {
-		NOT = { has_global_flag = acot_activated } # ACOT has better drives
+		NOT = { has_global_flag = @ACOT_active_flag } # ACOT has better drives
 		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 
@@ -977,7 +980,7 @@ nhsc_tech_jump_drive_3 = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = acot_activated } # ACOT has better drives
+		NOT = { has_global_flag = @ACOT_active_flag } # ACOT has better drives
 		NOT = { has_global_flag = ESC_drives_forbidden }
 	}
 
@@ -1060,7 +1063,7 @@ nhsc_tech_psi_jump_drive_2 = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = acot_activated } # ACOT has better drives
+		NOT = { has_global_flag = @ACOT_active_flag } # ACOT has better drives
 		NOT = { has_global_flag = ESC_drives_forbidden }
 		NOT = { has_global_flag = ESC_weapons_psionic_forbidden }
 	}
@@ -1118,7 +1121,7 @@ nhsc_tech_psi_jump_drive_3 = {
 	is_reverse_engineerable = no
 
 	potential = {
-		NOT = { has_global_flag = acot_activated } # ACOT has better drives
+		NOT = { has_global_flag = @ACOT_active_flag } # ACOT has better drives
 		NOT = { has_global_flag = ESC_drives_forbidden }
 		NOT = { has_global_flag = ESC_weapons_psionic_forbidden }
 	}
