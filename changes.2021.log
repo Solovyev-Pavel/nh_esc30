@@ -64,3 +64,6 @@
 
 >>> 23.04.2021
 - Fix usage of global flags for crystalline entities that no longer exist in vanilla.
+
+>>> 27.04.2021
+- Fix one of dummy ship_sizes used to fix empty size_restriction bug not having designable = no.

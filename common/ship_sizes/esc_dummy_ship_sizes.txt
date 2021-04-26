@@ -185,7 +185,6 @@ esc_dummy_military_platform = {
 	size_multiplier = 1
 	fleet_slot_size = 1
 	section_slots = { }
-	is_designable = no
 	num_target_locators = 0
 	is_space_station = yes
 	base_buildtime = 0
@@ -247,6 +246,7 @@ esc_dummy_juggernaut = {
 	section_slots = {}
 
 	is_listed = no
+	is_designable = no
 	can_disable = no
 	can_have_federation_design = no
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
