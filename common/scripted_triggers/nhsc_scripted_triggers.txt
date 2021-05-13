@@ -2,10 +2,23 @@
 ###                 ESC Scripted Triggers                ###
 ############################################################
 
-### mod planet classes
+### mod planet classes : arcologies
 @PD_Ecocity             = "pc_ecocity"
 @PD_Bioforge            = "pc_bioforge"
 @PD_MachineFactory      = "pc_machine_factory"
+@PD_ShroudCity          = "pc_shroudcity"
+@PD_Necropolis          = "pc_necropolis"
+@PD_NechoHive           = "pc_necrohive"
+@PD_NecropolisMachine   = "pc_machine_necropolis"
+@PD_PalaceWorld         = "pc_palacearc"
+@PD_CapitalWorld        = "pc_capitalarc"
+@PD_HiveCapital         = "pc_biocapital"
+@PD_MachineCapital      = "pc_machine_capital"
+@PD_FortCity            = "pc_milarc"
+@PD_FortCityHive        = "pc_biofort"
+@PD_FortCityMachine     = "pc_machine_fort"
+@PD_FortCityRelic       = "pc_milarc_relic"
+### mod planet classes : molten habitats
 @PD_MoltenHabitat       = "pc_pd_molten_hab"
 @AM_MoltenHabitable     = "pc_molten_habitable"
 ### mod planet (subclass) modifiers
@@ -24,6 +37,18 @@ is_city_planet_nhsc = {
         is_planet_class = @PD_Ecocity
         is_planet_class = @PD_Bioforge
         is_planet_class = @PD_MachineFactory
+        is_planet_class = @PD_ShroudCity
+        is_planet_class = @PD_Necropolis
+        is_planet_class = @PD_NechoHive
+        is_planet_class = @PD_NecropolisMachine
+        is_planet_class = @PD_PalaceWorld
+        is_planet_class = @PD_CapitalWorld
+        is_planet_class = @PD_HiveCapital
+        is_planet_class = @PD_MachineCapital
+        is_planet_class = @PD_FortCity
+        is_planet_class = @PD_FortCityHive
+        is_planet_class = @PD_FortCityMachine
+        is_planet_class = @PD_FortCityRelic
         # district overhaul compatibility
         AND = {
             is_planet_class = pc_relic
