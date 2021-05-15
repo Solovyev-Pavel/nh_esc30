@@ -67,3 +67,12 @@
 
 >>> 27.04.2021
 - Fix one of dummy ship_sizes used to fix empty size_restriction bug not having designable = no.
+
+>>> 16.05.2021
+- Minor update to AI economic plans.
+- Remove unnecessary string varibles for civics triggers.
+- Expand the list of planet classes that allow construction of Mantle Mining Facility with more Planetary Diversity arcologies.
+- Update hivemind pop requirements for Improved Mantle Mining Facility to match Stellaris 3.0.3 max tier capital pop requirements.
+- Update icon for the Psionic Confinement building.
+- Change tech weight modifiers for Time-Space Manipulation to make it a bit more accessible to console users.
+- Add a few missing localization strings for modifiers.
