@@ -1044,10 +1044,7 @@ nhsc_tech_xmissile3_titanic = {
 
 	### Apocalypse DLC version
 	potential = {
-		OR = {
-			host_has_dlc = "Apocalypse"
-			host_has_dlc = "Federations"
-		}
+		esc_may_research_oversized_weapons = yes
 		NOT = { has_global_flag = ESC_weapons_xmissiles_forbidden }
 	}
 

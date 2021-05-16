@@ -708,10 +708,7 @@ nhsc_tech_mhdcannon = {
 
 	### Apocalypse DLC version
 	potential = {
-		OR = {
-			host_has_dlc = "Apocalypse"
-			host_has_dlc = "Federations"
-		}
+		esc_may_research_oversized_weapons = yes
 		NOT = { has_global_flag = ESC_weapons_vanilla_forbidden }
 	}
 
@@ -1261,10 +1258,7 @@ nhsc_tech_autocannon_t = {
 
 	### Apocalypse DLC version
 	potential = {
-		OR = {
-			host_has_dlc = "Apocalypse"
-			host_has_dlc = "Federations"
-		}
+		esc_may_research_oversized_weapons = yes
 		NOT = { has_global_flag = ESC_weapons_xautocannons_forbidden }
 	}
 

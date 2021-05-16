@@ -259,3 +259,14 @@ country_uses_chronicle_drones_nhsc = {
 		has_valid_civic = civic_machine_memorialist
     }
 }
+
+################### Technology potentials ###################
+
+# checks whether Titanic / oversized X-slot weapons can be researched
+esc_may_research_oversized_weapons = {
+    OR = {
+        host_has_dlc = "Apocalypse"
+        host_has_dlc = "Federations"
+        # has_nemesis = yes
+    }
+}

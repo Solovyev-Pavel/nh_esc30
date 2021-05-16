@@ -230,10 +230,7 @@ nhsc_tech_extradimensional_weapon_2_t = {
 	is_rare = yes
 
 	potential = {
-		OR = {
-			host_has_dlc = "Apocalypse"
-			host_has_dlc = "Federations"
-		}
+		esc_may_research_oversized_weapons = yes
 		NOT = { has_global_flag = ESC_weapons_crisis_forbidden }
 	}
 
@@ -539,10 +536,7 @@ nhsc_tech_extradimensional_weapon_3_t = {
 	is_reverse_engineerable = no
 
 	potential = {
-		OR = {
-			host_has_dlc = "Apocalypse"
-			host_has_dlc = "Federations"
-		}
+		esc_may_research_oversized_weapons = yes
 		NOT = { has_global_flag = ESC_weapons_crisis_forbidden }
 	}
 
