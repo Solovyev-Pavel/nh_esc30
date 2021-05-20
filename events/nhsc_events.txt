@@ -575,6 +575,62 @@ country_event = {
 }
 
 ## ##################################################### ##
+##                  Ether Drake Events                   ##
+## ##################################################### ##
+
+### Set country flag on killing the ether drake
+country_event = {
+	id = nhsc.210
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		FROMFROMFROM = { is_ship_size = space_dragon_red }
+		nhsc_is_playable_empire = yes
+	}
+
+	immediate = {
+		set_country_flag = nhsc_killed_ether_drake
+	}
+}
+
+### spawn a hatchling
+planet_event = {
+	id = nhsc.211
+	is_triggered_only = yes
+	picture = GFX_evt_space_dragon
+	location = root
+	show_sound = event_mystic_reveal
+
+	title = nhsc.211.title
+	desc = nhsc.211.desc
+
+	immediate = {
+		create_fleet = {
+			name = "NAME_Ether_Hatchling"
+			settings = {
+				can_upgrade = no
+				spawn_debris = no
+			}
+			effect = {
+				set_owner = root.owner
+				create_ship = {
+					design = NAME_Dragonspawn
+					name = "NAME_Ether_Hatchling"
+					prefix = no
+					upgradable = no
+				}
+				set_location = root
+			}
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+	}
+}
+
+## ##################################################### ##
 ##             Summon a Psionic Avatar  (Army)           ##
 ## ##################################################### ##
 

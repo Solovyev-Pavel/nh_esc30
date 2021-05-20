@@ -47,6 +47,7 @@ on_yearly_pulse_country = {
 on_ship_destroyed_perp = {
 	events = {
 		nhsc.200 # set a country flag on killing stellarite
+		nhsc.210 # set a country flag on killing ether drake
 	}
 }
 

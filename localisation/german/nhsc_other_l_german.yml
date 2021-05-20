@@ -430,6 +430,10 @@ ESC_MENU_ACTIVE: "$edict_nhsc_mod_control_edict$ is opened"
 decision_nhsc_mod_menu: "$edict_nhsc_mod_control_edict$"
 decision_nhsc_mod_menu_desc: "$edict_nhsc_mod_control_edict_desc$"
 
+decision_nhsc_clone_dragon: "Clone Ether Drake Hatchling"
+decision_nhsc_clone_dragon_desc: "Our scientific staff will attempt to clone the Ether Drake in order to produce a younger and more malleable drake under our control."
+nhsc_drake_clone_requested: "Ether Drake Clonning in-progress"
+
 ########################################
 ###              Armies              ###
 ########################################
