@@ -70,7 +70,8 @@ on_planet_transfer = {
 		nhsc_buildings.8 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
 		nhsc_buildings.9 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
 
-		#nhsc.212 # gain access to drake-cloning tech after capturing a planet with dragon hatchery
+		nhsc.212 # gain access to drake-cloning tech after capturing a planet with dragon hatchery
+		nhsc_buildings.200 # erase duplicates of empire-unique buildings that might happen on gaining new planets through war or subject integration
 	}
 }
 

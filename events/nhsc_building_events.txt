@@ -193,6 +193,29 @@ planet_event = {
     }
 }
 
+# Dragon Hatchery
+# ROOT = transferred planet; FROM = new owner
+planet_event = {
+    id = nhsc_buildings.200
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        has_building = nhsc_building_dragon_hatchery
+        FROM = {
+            any_owned_planet = {
+                NOT = { is_same_value = ROOT }
+                has_building = nhsc_building_dragon_hatchery
+            }
+        }
+    }
+
+    immediate = {
+        remove_building = nhsc_building_dragon_hatchery
+        add_building = building_research_lab_1 # so that no pops are left without jobs
+    }
+}
+
 ## ################################################################################################################# ##
 ##                        Events to set or unset flags for ownership of ESC resource buildings                       ##
 ## ################################################################################################################# ##
