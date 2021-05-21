@@ -82,3 +82,9 @@
 - Export logic determining whether a country may research titanic/juggernaut X-slot weapons into a scripted trigger.
 - Reduce number of jobs provided by Culture Nexus/Cerebral Node/Network Regulator a bit.
 - Minor tweaks to repeated Unbidden invasions.
+
+>>>
+- Empire that defeats the Ether Drake can now build a Dragon Hatchery building (empire-unique), which allows cloning of drake hatchlings.
+    - Cloning a drake hatchling takes 360 days and will spawn it as a new fleet. These fleets can be merged and can have an admiral assigned to them.
+    - Not available for Determined Exterminators.
+    - Only Ether Drakes killed after this update will provide access to the technology needed for the Hatchery construction.
