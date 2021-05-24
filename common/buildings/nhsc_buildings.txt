@@ -2006,6 +2006,7 @@ nhsc_building_dragon_hatchery = {
 			NOT = { any_owned_planet = { has_building = nhsc_building_dragon_hatchery } }
 			NOT = { has_country_flag = nhsc_building_dragon_hatchery_queued }
 		}
+		has_upgraded_capital = yes
 	}
 
 	resources = {
