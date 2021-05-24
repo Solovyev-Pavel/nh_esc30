@@ -66,6 +66,14 @@ country_event = {
             }
             remove_country_flag = nhsc_watcher_of_eternity_queued
         }
+        # Dragon Hatchery
+        if = {
+            limit = {
+                has_country_flag = nhsc_building_dragon_hatchery_queued
+                NOT = { any_owned_planet = { has_building_construction = nhsc_building_dragon_hatchery } }
+            }
+            remove_country_flag = nhsc_building_dragon_hatchery_queued
+        }
     }
 }
 
