@@ -48,10 +48,7 @@ esc_reprocessor = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
 			consumer_goods = 0.075
 			alloys = 0.075
@@ -124,10 +121,7 @@ esc_reprocessor_drone = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
 			alloys = 0.15
         }
@@ -212,10 +206,7 @@ esc_reprocessor_unit = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
 			alloys = 0.15
         }
@@ -274,10 +265,7 @@ esc_zro_distiller = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
             sr_zro = 0.05
         }
@@ -355,10 +343,7 @@ esc_zro_distiller_drone = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
             sr_zro = 0.05
         }
@@ -461,10 +446,7 @@ esc_dark_matter_shaper = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
             sr_dark_matter = 0.05
         }
@@ -528,10 +510,7 @@ esc_dark_matter_shaper_drone = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
             sr_dark_matter = 0.05
         }
@@ -621,10 +600,7 @@ esc_dark_matter_shaper_unit = {
             trigger = {
                 exists = owner
                 owner = { is_galactic_community_member = yes }
-                OR = {
-                    is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
-                    is_active_resolution = "resolution_industry_project_cornucopia"
-                }
+                esc_enviroment_ordinance_waivers_active = yes
             }
             sr_dark_matter = 0.05
         }

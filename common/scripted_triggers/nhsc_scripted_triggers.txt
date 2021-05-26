@@ -260,6 +260,16 @@ country_uses_chronicle_drones_nhsc = {
     }
 }
 
+############## Galactic community resolutions ###############
+
+# checks whether environmental_ordinance_waivers resolution was passed
+esc_enviroment_ordinance_waivers_active = {
+    OR = {
+        is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
+        is_active_resolution = "resolution_industry_project_cornucopia"
+    }
+}
+
 ################### Technology potentials ###################
 
 # checks whether Titanic / oversized X-slot weapons can be researched
