@@ -88,3 +88,14 @@
     - Cloning a drake hatchling takes 360 days and will spawn it as a new fleet. These fleets can be merged and can have an admiral assigned to them.
     - Not available for Determined Exterminators.
     - Only Ether Drakes killed after this update will provide access to the technology needed for the Hatchery construction.
+
+>>> 31.05.2021
+- Buff health of X and T missiles.
+- Normalize produciton and upkeep of ESC special resource jobs. Base production is now 2x higher to reduce the need for multiple buildings.
+- Increase Zro and Dark Matter upkeeps of ESC buildings.
+- Robotic pops without free will no longer can work Channeler jobs.
+- Unemployed pops that worked ESC special resource jobs are now more likely to return to their former occupation if there is a new opening.
+- Add starbase modules for ESC special resources, zro and dark matter.
+    - Psionic Energy Collector can only be built in inhabited systems.
+    - Some of these starbase modules have increased efficiency under certain conditions.
+- Improved Crystal Farm now provides 4 jobs instead of 5.
