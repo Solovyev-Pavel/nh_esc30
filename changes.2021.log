@@ -99,3 +99,6 @@
     - Psionic Energy Collector can only be built in inhabited systems.
     - Some of these starbase modules have increased efficiency under certain conditions.
 - Improved Crystal Farm now provides 4 jobs instead of 5.
+
+>>> 31.05.2021
+- Bug fix: new starbase modules are now properly available only when their respective technologies are researched.
