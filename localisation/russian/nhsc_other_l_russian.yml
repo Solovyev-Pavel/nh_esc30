@@ -79,6 +79,7 @@ NHSC_SWARM_STRIKE_CRAFT_1_DESC: "Cloned, miniaturized Prethoryn specimen can be 
 ########################################
 
 esc_psionic_charge: "Psionic Charge"
+esc_psionic_charge_plural: "$esc_psionic_charge$s"
 esc_psionic_charge_desc: "A stable vortex of psychic energies to be used as spirits deem necessary."
 
 esc_gravitic_anomaly: "Gravitic Anomaly"
@@ -515,3 +516,5 @@ sm_nhsc_starbase_vortex_laboratory_desc: "A massive laboratory within a spacepor
 
 mod_megastructures_cost_mult: "Megastructure Cost"
 mod_country_base_nanites_produces_add: "Nanites Produced"
+mod_planet_telepaths_esc_psionic_charge_produces_add: "£esc_psionic_charge£ §Y$esc_psionic_charge_plural$§! from $job_telepath_plural$"
+mod_planet_synapse_drones_esc_psionic_charge_produces_add: "£esc_psionic_charge£ §Y$esc_psionic_charge_plural$§! from $job_synapse_drone_plural$"
