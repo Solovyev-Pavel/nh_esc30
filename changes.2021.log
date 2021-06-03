@@ -102,3 +102,8 @@
 
 >>> 31.05.2021
 - Bug fix: new starbase modules are now properly available only when their respective technologies are researched.
+
+>>> 04.06.2021
+- Add "Psionically-Unified Society" technology that makes telepaths produce a small amount of Psionic Charges each month.
+- Add "Psionic Overmind" technology that makes synapse drones produce a small amount of Psionic Charges each month.
+- Add missing possible_pre_triggers to ESC jobs.
