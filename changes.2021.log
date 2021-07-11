@@ -107,3 +107,7 @@
 - Add "Psionically-Unified Society" technology that makes telepaths produce a small amount of Psionic Charges each month.
 - Add "Psionic Overmind" technology that makes synapse drones produce a small amount of Psionic Charges each month.
 - Add missing possible_pre_triggers to ESC jobs.
+
+>>> 11.07.2021
+- Mantle Mining Facility can now be built on New Frontier's Infernal Worlds.
+- New icon for the Central Research Bureau building.
