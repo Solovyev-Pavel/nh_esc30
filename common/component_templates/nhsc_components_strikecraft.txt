@@ -17,6 +17,8 @@
 @power5 = -70
 @power6 = -85
 
+@swarmers_armor_penetration = 0.66
+
 ################################################
 ##         Tactical Interceptor Wing          ##
 ################################################
@@ -364,8 +366,9 @@ strike_craft_component_template = {
 	rotation_speed = @creature_rotation_speed
 	acceleration = @creature_acceleration
 	evasion = @strikecraft_evasion
+
 	hull_damage = @bomber_hull_damage
-	armor_damage = @bomber_armor_damage
+	armor_penetration = @swarmers_armor_penetration
     shield_penetration = @bomber_shield_penetration
 
 	ship_behavior = "bombers_behavior"
