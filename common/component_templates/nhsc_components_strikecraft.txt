@@ -271,8 +271,8 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			food = @weapon_l_t7_cost
-			exotic_gases = 2
+			food = @weapon_l_t9_cost
+			exotic_gases = 5
 		}
 		upkeep = {
 			food = 1
@@ -303,7 +303,78 @@ strike_craft_component_template = {
 
 	ship_behavior = "bombers_behavior"
 	component_set = "NHSC_CYBER_AMOEBA"
+	upgrades_to = "NHSC_BIONIC_AMOEBA"
 	prerequisites = { "nhsc_tech_amoeba_strike_craft_2" }
+	tags = { weapon_type_strike_craft }
+
+	valid_for_country = {
+		modifier = {
+			factor = 0 # only normal empires and Xenophile FE/AFE should use this component
+			is_normal_empire_or_xenophile_fe_nhsc = no
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = exotic_gases }
+		}
+	}
+}
+
+################################################
+##                Bionic Amoeba               ##
+################################################
+
+strike_craft_component_template = {
+	key = "NHSC_BIONIC_AMOEBA"
+	size = LARGE
+	entity = "space_amoeba_small_entity"
+	icon = "GFX_ship_part_nhsc_cyber_amoeba_super"
+	icon_frame = 1
+
+	weapon_type = point_defence
+	projectile_gfx = "small_space_amoeba_weapon"
+	power = @power5
+
+	resources = {
+		category = ship_components
+		cost = {
+			food = @weapon_l_t7_cost
+			exotic_gases = 2
+		}
+		upkeep = {
+			food = 1
+		}
+	}
+
+	count = @strikecraft_count
+	regeneration_per_day = @strikecraft_regen
+	launch_time = @strikecraft_launch_time
+
+	damage = { min = 32 max = 72 }
+	cooldown = 4.0
+	range = @bomber_attack_range
+	engagement_range = @strikecraft_engagement_range
+	accuracy = @strikecraft_accuracy
+	health = 160
+	armor = 50
+	shield = 0
+	tracking = @bomber_tracking
+	speed = @strikecraft_speed_5
+	rotation_speed = @creature_rotation_speed
+	acceleration = @creature_acceleration
+	evasion = @strikecraft_evasion
+
+	hull_damage = @bomber_hull_damage
+	armor_damage = @bomber_armor_damage
+	shield_penetration = @bomber_shield_penetration
+
+	ship_behavior = "bombers_behavior"
+	component_set = "NHSC_BIONIC_AMOEBA"
+	prerequisites = { "nhsc_tech_amoeba_strike_craft_3" }
 	tags = { weapon_type_strike_craft }
 
 	valid_for_country = {

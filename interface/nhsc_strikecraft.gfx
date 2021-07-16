@@ -35,6 +35,13 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_ship_part_nhsc_cyber_amoeba_super"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_amoeba_strike_craft_3.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_ship_part_nhsc_ravaging_swarmers"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_nhsc_swarm_strike_craft_2.dds"
 	}
