@@ -77,6 +77,12 @@ NHSC_SWARM_STRIKE_CRAFT_1_DESC: "Cloned, miniaturized Prethoryn specimen can be 
 NHSC_BIONIC_AMOEBA: "Bionic Amoeba"
 NHSC_BIONIC_AMOEBA_DESC: "These amoebas are outfitter with advanced cybernetic implants based on reverse-engineered percursor technologies to greatly boost creatures' combat abilities."
 
+NHSC_FIGHTERS_HANGAR_6: "Voidstalker Interceptor Wing"
+NHSC_FIGHTERS_HANGAR_6_DESC: "Andvanced figther crafts, outfitted with reverse-engineered precursor tech."
+
+NHSC_BOMBERS_HANGAR_6: "Voidstalker Bomber Wing"
+NHSC_BOMBERS_HANGAR_6_DESC: "Andvanced bombers, outfitted with reverse-engineered precursor tech."
+
 ########################################
 ###         Special Resources        ###
 ########################################
