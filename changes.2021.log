@@ -111,3 +111,8 @@
 >>> 11.07.2021
 - Mantle Mining Facility can now be built on New Frontier's Infernal Worlds.
 - New icon for the Central Research Bureau building.
+
+>>> 18.07.2021
+- New titanic weapon added: Asteroid Thrower. Available immediately after researching titans, and acts as a kinetic counterpart to Perdition Beam.
+- Fix overwritten Scourge strikecrafts not having armor penetration.
+- Fix Ravaging Swarmers not having armor penetration.
