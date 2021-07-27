@@ -1,122 +1,126 @@
 ﻿l_simp_chinese:
 
-### SIMPLE CHINESE (ACTUALLY ENGLISH) LOCALIZATION
+########################################
+# Translation by Zois
+########################################
+
+### SIMPLE CHINESE LOCALIZATION
 
 ########################################
 ###        Conventional Armor        ###
 ########################################
 
-NHSC_ADV_ARMOR_1: "Improved Neutronium Armor"
-NHSC_ADV_ARMOR_1_DESC: "A more dense version of Neutronium armor that will shrug off almost anything."
-SMALL_NHSC_ADV_ARMOR_1: "Small $NHSC_ADV_ARMOR_1$"
+NHSC_ADV_ARMOR_1: "改进零素装甲"
+NHSC_ADV_ARMOR_1_DESC: "一种更厚的零素装甲，几乎能抵御任何东西。"
+SMALL_NHSC_ADV_ARMOR_1: "小型 $NHSC_ADV_ARMOR_1$"
 SMALL_NHSC_ADV_ARMOR_1_DESC: "$NHSC_ADV_ARMOR_1_DESC$"
-MEDIUM_NHSC_ADV_ARMOR_1: "Medium $NHSC_ADV_ARMOR_1$"
+MEDIUM_NHSC_ADV_ARMOR_1: "中型 $NHSC_ADV_ARMOR_1$"
 MEDIUM_NHSC_ADV_ARMOR_1_DESC: "$NHSC_ADV_ARMOR_1_DESC$"
-LARGE_NHSC_ADV_ARMOR_1: "Large $NHSC_ADV_ARMOR_1$"
+LARGE_NHSC_ADV_ARMOR_1: "大型 $NHSC_ADV_ARMOR_1$"
 LARGE_NHSC_ADV_ARMOR_1_DESC: "$NHSC_ADV_ARMOR_1_DESC$"
 
-NHSC_ADV_ARMOR_2: "Adamantium Armor"
-NHSC_ADV_ARMOR_2_DESC: "Named after a fantasy material, this almost indestructible armor offers unparalleled protection to our ships."
-SMALL_NHSC_ADV_ARMOR_2: "Small $NHSC_ADV_ARMOR_2$"
+NHSC_ADV_ARMOR_2: "亚德曼装甲"
+NHSC_ADV_ARMOR_2_DESC: "得名于一种虚幻材料，这种几乎坚不可摧的装甲能给我们的舰船提供无与伦比的保护。"
+SMALL_NHSC_ADV_ARMOR_2: "小型 $NHSC_ADV_ARMOR_2$"
 SMALL_NHSC_ADV_ARMOR_2_DESC: "$NHSC_ADV_ARMOR_2_DESC$"
-MEDIUM_NHSC_ADV_ARMOR_2: "Medium $NHSC_ADV_ARMOR_2$"
+MEDIUM_NHSC_ADV_ARMOR_2: "中型 $NHSC_ADV_ARMOR_2$"
 MEDIUM_NHSC_ADV_ARMOR_2_DESC: "$NHSC_ADV_ARMOR_2_DESC$"
-LARGE_NHSC_ADV_ARMOR_2: "Large $NHSC_ADV_ARMOR_2$"
+LARGE_NHSC_ADV_ARMOR_2: "大型 $NHSC_ADV_ARMOR_2$"
 LARGE_NHSC_ADV_ARMOR_2_DESC: "$NHSC_ADV_ARMOR_2_DESC$"
 
 ########################################
 ###        Nanomaterial Armor        ###
 ########################################
 
-NHSC_NANO_ARMOR_1: "Nano-material Armor"
-NHSC_NANO_ARMOR_1_DESC: "By adding nanities programmed to run repair jobs into the ship's hull we're able to create an armor that not only protects from damage, but also repairs any damage it couldn't prevent."
-SMALL_NHSC_NANO_ARMOR_1: "Small $NHSC_NANO_ARMOR_1$"
+NHSC_NANO_ARMOR_1: "纳米装甲"
+NHSC_NANO_ARMOR_1_DESC: "通过向船体中添加用于进行修复工作的纳米机器，我们能创造出一种不仅能抵御伤害同时能修复它无法抵御的伤害的装甲。"
+SMALL_NHSC_NANO_ARMOR_1: "小型 $NHSC_NANO_ARMOR_1$"
 SMALL_NHSC_NANO_ARMOR_1_DESC: "$NHSC_NANO_ARMOR_1_DESC$"
-MEDIUM_NHSC_NANO_ARMOR_1: "Medium $NHSC_NANO_ARMOR_1$"
+MEDIUM_NHSC_NANO_ARMOR_1: "中型 $NHSC_NANO_ARMOR_1$"
 MEDIUM_NHSC_NANO_ARMOR_1_DESC: "$NHSC_NANO_ARMOR_1_DESC$"
-LARGE_NHSC_NANO_ARMOR_1: "Large $NHSC_NANO_ARMOR_1$"
+LARGE_NHSC_NANO_ARMOR_1: "大型 $NHSC_NANO_ARMOR_1$"
 LARGE_NHSC_NANO_ARMOR_1_DESC: "$NHSC_NANO_ARMOR_1_DESC$"
 
-NHSC_NANO_ARMOR_2: "Improved Nano-material Armor"
-NHSC_NANO_ARMOR_2_DESC: "An improved version of the nanity-infused armor. It's tougher and can self-repair faster."
-SMALL_NHSC_NANO_ARMOR_2: "Small $NHSC_NANO_ARMOR_2$"
+NHSC_NANO_ARMOR_2: "改进纳米装甲"
+NHSC_NANO_ARMOR_2_DESC: "一种更加坚硬并且自我修复更快的改进版纳米植入装甲。"
+SMALL_NHSC_NANO_ARMOR_2: "小型 $NHSC_NANO_ARMOR_2$"
 SMALL_NHSC_NANO_ARMOR_2_DESC: "$NHSC_NANO_ARMOR_2_DESC$"
-MEDIUM_NHSC_NANO_ARMOR_2: "Medium $NHSC_NANO_ARMOR_2$"
+MEDIUM_NHSC_NANO_ARMOR_2: "中型 $NHSC_NANO_ARMOR_2$"
 MEDIUM_NHSC_NANO_ARMOR_2_DESC: "$NHSC_NANO_ARMOR_2_DESC$"
-LARGE_NHSC_NANO_ARMOR_2: "Large $NHSC_NANO_ARMOR_2$"
+LARGE_NHSC_NANO_ARMOR_2: "大型 $NHSC_NANO_ARMOR_2$"
 LARGE_NHSC_NANO_ARMOR_2_DESC: "$NHSC_NANO_ARMOR_2_DESC$"
 
 ########################################
 ###          Shielding Armor         ###
 ########################################
 
-NHSC_SHIELD_ARMOR_1: "Shield-Generating Armor"
-NHSC_SHIELD_ARMOR_1_DESC: "By adding nanities programmed to manipulate ambient energies, we're able to create armor that generates small amount of additional shields to protect the ship with."
-SMALL_NHSC_SHIELD_ARMOR_1: "Small $NHSC_SHIELD_ARMOR_1$"
+NHSC_SHIELD_ARMOR_1: "护盾生成装甲"
+NHSC_SHIELD_ARMOR_1_DESC: "通过向船体中添加用于操作环境能量的纳米机器，我们能创造出一种能生成少量额外护盾来保护船体的装甲。"
+SMALL_NHSC_SHIELD_ARMOR_1: "小型 $NHSC_SHIELD_ARMOR_1$"
 SMALL_NHSC_SHIELD_ARMOR_1_DESC: "$NHSC_SHIELD_ARMOR_1_DESC$"
-MEDIUM_NHSC_SHIELD_ARMOR_1: "Medium $NHSC_SHIELD_ARMOR_1$"
+MEDIUM_NHSC_SHIELD_ARMOR_1: "中型 $NHSC_SHIELD_ARMOR_1$"
 MEDIUM_NHSC_SHIELD_ARMOR_1_DESC: "$NHSC_SHIELD_ARMOR_1_DESC$"
-LARGE_NHSC_SHIELD_ARMOR_1: "Large $NHSC_SHIELD_ARMOR_1$"
+LARGE_NHSC_SHIELD_ARMOR_1: "大型 $NHSC_SHIELD_ARMOR_1$"
 LARGE_NHSC_SHIELD_ARMOR_1_DESC: "$NHSC_SHIELD_ARMOR_1_DESC$"
 
-NHSC_SHIELD_ARMOR_2: "Improved Shield-Generating Armor"
-NHSC_SHIELD_ARMOR_2_DESC: "An improved version of the shield-generating armor. It's tougher and generates more shields."
-SMALL_NHSC_SHIELD_ARMOR_2: "Small $NHSC_SHIELD_ARMOR_2$"
+NHSC_SHIELD_ARMOR_2: "改进护盾生成装甲"
+NHSC_SHIELD_ARMOR_2_DESC: "一种更加坚硬并能生成更多护盾的改进型护盾生成装甲。"
+SMALL_NHSC_SHIELD_ARMOR_2: "小型 $NHSC_SHIELD_ARMOR_2$"
 SMALL_NHSC_SHIELD_ARMOR_2_DESC: "$NHSC_SHIELD_ARMOR_2_DESC$"
-MEDIUM_NHSC_SHIELD_ARMOR_2: "Medium $NHSC_SHIELD_ARMOR_2$"
+MEDIUM_NHSC_SHIELD_ARMOR_2: "中型 $NHSC_SHIELD_ARMOR_2$"
 MEDIUM_NHSC_SHIELD_ARMOR_2_DESC: "$NHSC_SHIELD_ARMOR_2_DESC$"
-LARGE_NHSC_SHIELD_ARMOR_2: "Large $NHSC_SHIELD_ARMOR_2$"
+LARGE_NHSC_SHIELD_ARMOR_2: "大型 $NHSC_SHIELD_ARMOR_2$"
 LARGE_NHSC_SHIELD_ARMOR_2_DESC: "$NHSC_SHIELD_ARMOR_2_DESC$"
 
-NHSC_SHIELD_ARMOR_3: "Shielding Bulwark"
-NHSC_SHIELD_ARMOR_3_DESC: "An even tougher version of shield-generating armor that produces still more powerful shields."
-SMALL_NHSC_SHIELD_ARMOR_3: "Small $NHSC_SHIELD_ARMOR_3$"
+NHSC_SHIELD_ARMOR_3: "护盾壁垒"
+NHSC_SHIELD_ARMOR_3_DESC: "一种甚至更坚硬也能生成更强护盾的的护盾生成装甲"
+SMALL_NHSC_SHIELD_ARMOR_3: "小型 $NHSC_SHIELD_ARMOR_3$"
 SMALL_NHSC_SHIELD_ARMOR_3_DESC: "$NHSC_SHIELD_ARMOR_3_DESC$"
-MEDIUM_NHSC_SHIELD_ARMOR_3: "Medium $NHSC_SHIELD_ARMOR_3$"
+MEDIUM_NHSC_SHIELD_ARMOR_3: "中型 $NHSC_SHIELD_ARMOR_3$"
 MEDIUM_NHSC_SHIELD_ARMOR_3_DESC: "$NHSC_SHIELD_ARMOR_3_DESC$"
-LARGE_NHSC_SHIELD_ARMOR_3: "Large $NHSC_SHIELD_ARMOR_3$"
+LARGE_NHSC_SHIELD_ARMOR_3: "大型 $NHSC_SHIELD_ARMOR_3$"
 LARGE_NHSC_SHIELD_ARMOR_3_DESC: "$NHSC_SHIELD_ARMOR_3_DESC$"
 
 ########################################
 ###         Leviathans' Armor        ###
 ########################################
 
-NHSC_DRAGON_NANOARMOR: "Nanomachine-Infused Dragonscale Armor"
-NHSC_DRAGON_NANOARMOR_DESC: "Introduction of nanomachines into dragonscale armor can further improve it's incredible toughness."
-SMALL_NHSC_DRAGON_NANOARMOR: "Small $NHSC_DRAGON_NANOARMOR$"
+NHSC_DRAGON_NANOARMOR: "纳米植入龙鳞装甲"
+NHSC_DRAGON_NANOARMOR_DESC: "向龙鳞装甲中引入纳米机器能进一步加强它难以置信的硬度。"
+SMALL_NHSC_DRAGON_NANOARMOR: "小型 $NHSC_DRAGON_NANOARMOR$"
 SMALL_NHSC_DRAGON_NANOARMOR_DESC: "$NHSC_DRAGON_NANOARMOR_DESC$"
-MEDIUM_NHSC_DRAGON_NANOARMOR: "Medium $NHSC_DRAGON_NANOARMOR$"
+MEDIUM_NHSC_DRAGON_NANOARMOR: "中型 $NHSC_DRAGON_NANOARMOR$"
 MEDIUM_NHSC_DRAGON_NANOARMOR_DESC: "$NHSC_DRAGON_NANOARMOR_DESC$"
-LARGE_NHSC_DRAGON_NANOARMOR: "Large $NHSC_DRAGON_NANOARMOR$"
+LARGE_NHSC_DRAGON_NANOARMOR: "大型 $NHSC_DRAGON_NANOARMOR$"
 LARGE_NHSC_DRAGON_NANOARMOR_DESC: "$NHSC_DRAGON_NANOARMOR_DESC$"
 
-NHSC_HARDLIGHT_ARMOR: "Hardlight Armor"
-NHSC_HARDLIGHT_ARMOR_DESC: "Light particles manipulated into forming a protective layer of pseudo-matter. Excess energy is also fed into shields, speeding up their regeneration."
-SMALL_NHSC_HARDLIGHT_ARMOR: "Small $NHSC_HARDLIGHT_ARMOR$"
+NHSC_HARDLIGHT_ARMOR: "硬光装甲"
+NHSC_HARDLIGHT_ARMOR_DESC: "操纵光子形成一个伪物质保护层。过量的能量也会输送给护盾，加速护盾再生。"
+SMALL_NHSC_HARDLIGHT_ARMOR: "小型 $NHSC_HARDLIGHT_ARMOR$"
 SMALL_NHSC_HARDLIGHT_ARMOR_DESC: "$NHSC_HARDLIGHT_ARMOR_DESC$"
-MEDIUM_NHSC_HARDLIGHT_ARMOR: "Medium $NHSC_HARDLIGHT_ARMOR$"
+MEDIUM_NHSC_HARDLIGHT_ARMOR: "中型 $NHSC_HARDLIGHT_ARMOR$"
 MEDIUM_NHSC_HARDLIGHT_ARMOR_DESC: "$NHSC_HARDLIGHT_ARMOR_DESC$"
-LARGE_NHSC_HARDLIGHT_ARMOR: "Large $NHSC_HARDLIGHT_ARMOR$"
+LARGE_NHSC_HARDLIGHT_ARMOR: "大型 $NHSC_HARDLIGHT_ARMOR$"
 LARGE_NHSC_HARDLIGHT_ARMOR_DESC: "$NHSC_HARDLIGHT_ARMOR_DESC$"
 
-NHSC_HORROR_ARMOR: "Dimensional Horror Armor"
-NHSC_HORROR_ARMOR_DESC: "An incredibly-tough material modelled after the hide of Lovecraftian moster known as the Dimensional Horror."
-SMALL_NHSC_HORROR_ARMOR: "Small $NHSC_HORROR_ARMOR$"
+NHSC_HORROR_ARMOR: "位面之魇装甲"
+NHSC_HORROR_ARMOR_DESC: "一种利用利维坦守护者位面之魇塑造的拥有难以置信的硬度的装甲。"
+SMALL_NHSC_HORROR_ARMOR: "小型 $NHSC_HORROR_ARMOR$"
 SMALL_NHSC_HORROR_ARMOR_DESC: "$NHSC_HORROR_ARMOR_DESC$"
-MEDIUM_NHSC_HORROR_ARMOR: "Medium $NHSC_HORROR_ARMOR$"
+MEDIUM_NHSC_HORROR_ARMOR: "中型 $NHSC_HORROR_ARMOR$"
 MEDIUM_NHSC_HORROR_ARMOR_DESC: "$NHSC_HORROR_ARMOR_DESC$"
-LARGE_NHSC_HORROR_ARMOR: "Large $NHSC_HORROR_ARMOR$"
+LARGE_NHSC_HORROR_ARMOR: "大型 $NHSC_HORROR_ARMOR$"
 LARGE_NHSC_HORROR_ARMOR_DESC: "$NHSC_HORROR_ARMOR_DESC$"
 
 ########################################
 ###        Crystalline Armor         ###
 ########################################
 
-NHSC_CRYSTAL_ARMOR_3: "Reinforced Crystalline Plating"
-NHSC_CRYSTAL_ARMOR_3_DESC: "A next-generation crystalline hull plating, desined to utilize the incredible sturdiness of crystalline materials to its full potential."
-SMALL_NHSC_CRYSTAL_ARMOR_3: "Small $NHSC_CRYSTAL_ARMOR_3$"
+NHSC_CRYSTAL_ARMOR_3: "强化水晶复合镀层"
+NHSC_CRYSTAL_ARMOR_3_DESC: "下一代水晶船体镀层，旨在充分利用水晶材料那难以置信的坚固。"
+SMALL_NHSC_CRYSTAL_ARMOR_3: "小型 $NHSC_CRYSTAL_ARMOR_3$"
 SMALL_NHSC_CRYSTAL_ARMOR_3_DESC: "$NHSC_CRYSTAL_ARMOR_3_DESC$"
-MEDIUM_NHSC_CRYSTAL_ARMOR_3: "Medium $NHSC_CRYSTAL_ARMOR_3$"
+MEDIUM_NHSC_CRYSTAL_ARMOR_3: "中型 $NHSC_CRYSTAL_ARMOR_3$"
 MEDIUM_NHSC_CRYSTAL_ARMOR_3_DESC: "$NHSC_CRYSTAL_ARMOR_3_DESC$"
-LARGE_NHSC_CRYSTAL_ARMOR_3: "Large $NHSC_CRYSTAL_ARMOR_3$"
+LARGE_NHSC_CRYSTAL_ARMOR_3: "大型 $NHSC_CRYSTAL_ARMOR_3$"
 LARGE_NHSC_CRYSTAL_ARMOR_3_DESC: "$NHSC_CRYSTAL_ARMOR_3_DESC$"

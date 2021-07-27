@@ -2,11 +2,11 @@
 
 ### SIMPLE CHINESE (ACTUALLY ENGLISH) LOCALIZATION
 
-nhsc_building_centralresearchbureau: "Central Research Bureau"
-nhsc_building_centralresearchbureau_desc: "A place where the brightest minds of the Empire gather together to advance the science."
+nhsc_building_centralresearchbureau: "中央研究所"
+nhsc_building_centralresearchbureau_desc: "一个全帝国最聪明的人物聚集推动科学进步的场所。"
 
-nhsc_building_culture_nexus: "Culture Nexus"
-nhsc_building_culture_nexus_desc: "A place where people of our Empire can learn about the galaxy and various cultures that inhabit it."
+nhsc_building_culture_nexus: "文化汇聚"
+nhsc_building_culture_nexus_desc: "一个帝国国民能够了解星系与栖息地文化的场所。"
 nhsc_building_cerebral_node: "Cerebral Node"
 nhsc_building_cerebral_node_desc: "A large cerebrate that constantly thinks about the ways to further improve the hive."
 job_esc_mind_walker_effect_desc: "£job_esc_mind_walker£ $job_esc_mind_walker_plural$ unify the hive, producing £unity£ §Y$unity$§!."
