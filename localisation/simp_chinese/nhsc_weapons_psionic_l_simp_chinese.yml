@@ -6,84 +6,84 @@
 ###      Psionic Blast Torpedo       ###
 ########################################
 
-NHSC_TORPEDO_PSI_1: "Psionic Blast Torpedo"
-NHSC_TORPEDO_PSI_1_DESC: "An energy torpedo that strikes our enemies with a powerful psionic blast."
+NHSC_TORPEDO_PSI_1: "灵能爆破鱼雷"
+NHSC_TORPEDO_PSI_1_DESC: "一种能用强大灵能冲击波击碎我们的敌人的能量鱼雷。"
 
 ########################################
 ###  Improved Psionic Blast Torpedo  ###
 ########################################
 
-NHSC_TORPEDO_PSI_2: "Improved Psionic Blast Torpedo"
-NHSC_TORPEDO_PSI_2_DESC: "An improved technology for containing psionic energies increases the blast power of the psionic torpedo."
+NHSC_TORPEDO_PSI_2: "改进灵能爆破鱼雷"
+NHSC_TORPEDO_PSI_2_DESC: "一项包含灵能能量来增加灵能冲击波的改进科技。"
 
 ########################################
 ###     Psionic Energy Projector     ###
 ########################################
 
-NHSC_CANNON_PSI_1: "Psionic Energy Projector"
-NHSC_CANNON_PSI_1_DESC: "An energy weapon that damages the targets with focused psionic energy."
-SMALL_NHSC_CANNON_PSI_1: "Small $NHSC_CANNON_PSI_1$"
+NHSC_CANNON_PSI_1: "灵能能量投射器"
+NHSC_CANNON_PSI_1_DESC: "一种使用强力灵能能量来造成伤害的能量武器。"
+SMALL_NHSC_CANNON_PSI_1: "小型 $NHSC_CANNON_PSI_1$"
 SMALL_NHSC_CANNON_PSI_1_DESC: "$NHSC_CANNON_PSI_1_DESC$"
-MEDIUM_NHSC_CANNON_PSI_1: "Medium $NHSC_CANNON_PSI_1$"
+MEDIUM_NHSC_CANNON_PSI_1: "中型 $NHSC_CANNON_PSI_1$"
 MEDIUM_NHSC_CANNON_PSI_1_DESC: "$NHSC_CANNON_PSI_1_DESC$"
-LARGE_NHSC_CANNON_PSI_1: "Large $NHSC_CANNON_PSI_1$"
+LARGE_NHSC_CANNON_PSI_1: "大型 $NHSC_CANNON_PSI_1$"
 LARGE_NHSC_CANNON_PSI_1_DESC: "$NHSC_CANNON_PSI_1_DESC$"
 
 ########################################
 ###       Psionic Wave Cannon        ###
 ########################################
 
-NHSC_CANNON_PSI_2: "Psionic Wave Cannon"
-NHSC_CANNON_PSI_2_DESC: "Improved focusing of psionic energies significantly increases the power of psionic projectors."
-SMALL_NHSC_CANNON_PSI_2: "Small $NHSC_CANNON_PSI_2$"
+NHSC_CANNON_PSI_2: "灵波炮"
+NHSC_CANNON_PSI_2_DESC: "改良灵能聚焦显著增加了灵能投射器的威力。"
+SMALL_NHSC_CANNON_PSI_2: "小型 $NHSC_CANNON_PSI_2$"
 SMALL_NHSC_CANNON_PSI_2_DESC: "$NHSC_CANNON_PSI_2_DESC$"
-MEDIUM_NHSC_CANNON_PSI_2: "Medium $NHSC_CANNON_PSI_2$"
+MEDIUM_NHSC_CANNON_PSI_2: "中型 $NHSC_CANNON_PSI_2$"
 MEDIUM_NHSC_CANNON_PSI_2_DESC: "$NHSC_CANNON_PSI_2_DESC$"
-LARGE_NHSC_CANNON_PSI_2: "Large $NHSC_CANNON_PSI_2$"
+LARGE_NHSC_CANNON_PSI_2: "大型 $NHSC_CANNON_PSI_2$"
 LARGE_NHSC_CANNON_PSI_2_DESC: "$NHSC_CANNON_PSI_2_DESC$"
 
 ########################################
 ###       Psionic Beam Cannon        ###
 ########################################
 
-NHSC_CANNON_PSI_3: "Psionic Beam Cannon"
-NHSC_CANNON_PSI_3_DESC: "A narrow beam of psionic energy that can overwhelm our opponents in a matter of seconds."
-SMALL_NHSC_CANNON_PSI_3: "Small $NHSC_CANNON_PSI_3$"
+NHSC_CANNON_PSI_3: "灵能光束炮"
+NHSC_CANNON_PSI_3_DESC: "一束能在几秒内压倒我们的对手的聚焦灵能光束。"
+SMALL_NHSC_CANNON_PSI_3: "小型 $NHSC_CANNON_PSI_3$"
 SMALL_NHSC_CANNON_PSI_3_DESC: "$NHSC_CANNON_PSI_3_DESC$"
-MEDIUM_NHSC_CANNON_PSI_3: "Medium $NHSC_CANNON_PSI_3$"
+MEDIUM_NHSC_CANNON_PSI_3: "中型 $NHSC_CANNON_PSI_3$"
 MEDIUM_NHSC_CANNON_PSI_3_DESC: "$NHSC_CANNON_PSI_3_DESC$"
-LARGE_NHSC_CANNON_PSI_3: "Large $NHSC_CANNON_PSI_3$"
+LARGE_NHSC_CANNON_PSI_3: "大型 $NHSC_CANNON_PSI_3$"
 LARGE_NHSC_CANNON_PSI_3_DESC: "$NHSC_CANNON_PSI_3_DESC$"
 
 ########################################
 ###           Psionic Lance          ###
 ########################################
 
-NHSC_PSI_LANCE_1: "Psionic Lance"
-NHSC_PSI_LANCE_1_DESC: "An energy lance made from focused and refined psionic energy."
+NHSC_PSI_LANCE_1: "灵能长矛"
+NHSC_PSI_LANCE_1_DESC: "由凝聚提炼灵能能量制成的能量矛。"
 
 ########################################
 ###           Shroud Piercer         ###
 ########################################
 
-NHSC_PSI_LANCE_2: "Shroud Piercer"
-NHSC_PSI_LANCE_2_DESC: "An improved and more powerful version of the Psionic Lance."
+NHSC_PSI_LANCE_2: "虚境穿刺者"
+NHSC_PSI_LANCE_2_DESC: "灵能矛的改进强化版本。"
 
 ########################################
 ###              Void Ray            ###
 ########################################
 
-NHSC_PSI_LANCE_TITANIC: "Void Ray"
-NHSC_PSI_LANCE_TITANIC_DESC: "A psionic lance of unimaginable power, fueled by the hungry void of the Shroud."
+NHSC_PSI_LANCE_TITANIC: "虚空射线"
+NHSC_PSI_LANCE_TITANIC_DESC: "一种由饥饿的虚境空间供能的拥有超乎想象能量的灵能矛。"
 NHSC_PSI_LANCE_JUGGERNAUT: "$NHSC_PSI_LANCE_TITANIC$ ($juggernaut$)"
 NHSC_PSI_LANCE_JUGGERNAUT_DESC: "$NHSC_PSI_LANCE_TITANIC_DESC$"
 
-NHSC_PSIONIC_BLAST: "Psionic Blast Wave"
-NHSC_PSIONIC_BLAST_DESC: "A shockwave of pure psionic energy that is capable of obliterating nearly anything."
+NHSC_PSIONIC_BLAST: "灵能冲击波"
+NHSC_PSIONIC_BLAST_DESC: "一种能消灭几乎任何东西的纯灵能冲击波。"
 
 ########################################
 ###       Psionic Interceptors       ###
 ########################################
 
-NHSC_PSI_CRAFTS: "Psionic Interceptors"
-NHSC_PSI_CRAFTS_DESC: "Strikecraft armed with psionic weapons."
+NHSC_PSI_CRAFTS: "灵能拦截者"
+NHSC_PSI_CRAFTS_DESC: "装备有灵能武器的舰载机。"
