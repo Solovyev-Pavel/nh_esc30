@@ -2,7 +2,6 @@
 
 ########################################
 ### Translated by Zois Lee
-### Cooperate with all members of BPCC-A group of players who have similar hobbies
 ########################################
 
 ### SIMPLE CHINESE LOCALIZATION
@@ -32,17 +31,17 @@ esc_options.1.special.tooltip: "前往利维坦科技自定义菜单。"
 esc_options.1.buildings: "配置建筑"
 esc_options.1.buildings.tooltip: "前往建筑自定义菜单。"
 
-esc_options.1.ai_boost.easy_scaling: "配置AI加速 (目前为§G简单延展§!)"
+esc_options.1.ai_boost.easy_scaling: "配置AI加速 (目前为§G简单拓张§!)"
 esc_options.1.ai_boost.easy_scaling.tooltip: "前往AI加速自定义菜单"
-esc_options.1.ai_boost.easy_static: "配置AI加速 (目前为§G简单静态§!)"
+esc_options.1.ai_boost.easy_static: "配置AI加速 (目前为§G简单保守§!)"
 esc_options.1.ai_boost.easy_static.tooltip: "前往AI加速自定义菜单"
-esc_options.1.ai_boost.moderate_scaling: "配置AI加速 (目前为§E中等延展§!)"
+esc_options.1.ai_boost.moderate_scaling: "配置AI加速 (目前为§E中等拓张§!)"
 esc_options.1.ai_boost.moderate_scaling.tooltip: "前往AI加速自定义菜单"
-esc_options.1.ai_boost.moderate_static: "配置AI加速 (目前为§E中等静态§!)"
+esc_options.1.ai_boost.moderate_static: "配置AI加速 (目前为§E中等保守§!)"
 esc_options.1.ai_boost.moderate_static.tooltip: "前往AI加速自定义菜单"
-esc_options.1.ai_boost.challenging_scaling: "配置AI加速 (目前为§B挑战性延展§!)"
+esc_options.1.ai_boost.challenging_scaling: "配置AI加速 (目前为§B挑战性拓张§!)"
 esc_options.1.ai_boost.challenging_scaling.tooltip: "前往AI加速自定义菜单"
-esc_options.1.ai_boost.challenging_static: "配置AI加速 (目前为§B挑战性静态§!)"
+esc_options.1.ai_boost.challenging_static: "配置AI加速 (目前为§B挑战性保守§!)"
 esc_options.1.ai_boost.challenging_static.tooltip: "前往AI加速自定义菜单"
 esc_options.1.ai_boost.disabled: "配置AI加速 (目前为§R禁用§!)"
 esc_options.1.ai_boost.disabled.tooltip: "前往AI加速自定义菜单"
@@ -289,27 +288,27 @@ esc_option.6.resources.a.tooltip: "点击以§R禁用§!AI资源提升\nAI不会
 esc_option.6.resources.b: "$esc_special_resources_icons$AI特殊资源提升已§R禁用§!"
 esc_option.6.resources.b.tooltip: "点击以§G启用§!AI特殊资源提升。\n如果AI由必要科技来利用它们才会免费获得特殊资源。"
 
-esc_option.6.ai_easy_scaling: "设置AI科研速度加成至§G简单延展§!"
-esc_option.6.ai_easy_scaling.tooltip: "AI帝国将会获得延展科研速度加成:\n+§G10§!%在游戏早期\n+§G25§!%在游戏中期\n+§G50§!%在游戏后期"
-esc_option.6.ai_easy_static: "设置AI科研速度加成至§G简单静态§!"
+esc_option.6.ai_easy_scaling: "设置AI科研速度加成至§G简单拓张§!"
+esc_option.6.ai_easy_scaling.tooltip: "AI帝国将会获得拓张科研速度加成:\n+§G10§!%在游戏早期\n+§G25§!%在游戏中期\n+§G50§!%在游戏后期"
+esc_option.6.ai_easy_static: "设置AI科研速度加成至§G简单保守§!"
 esc_option.6.ai_easy_static.tooltip: "AI帝国将在游戏全程获得+§G25§!%科研速度加成。"
 
-esc_option.6.ai_moderate_scaling: "设置AI科研速度加成至§E中等延展§!"
-esc_option.6.ai_moderate_scaling.tooltip: "AI帝国将会获得延展科研速度加成:\n+§G25§!%在游戏早期\n+§G50§!%在游戏中期\n+§G100§!%在游戏后期"
-esc_option.6.ai_moderate_static: "设置AI科研速度加成至§E中等静态§!"
+esc_option.6.ai_moderate_scaling: "设置AI科研速度加成至§E中等拓张§!"
+esc_option.6.ai_moderate_scaling.tooltip: "AI帝国将会获得拓张科研速度加成:\n+§G25§!%在游戏早期\n+§G50§!%在游戏中期\n+§G100§!%在游戏后期"
+esc_option.6.ai_moderate_static: "设置AI科研速度加成至§E中等保守§!"
 esc_option.6.ai_moderate_static.tooltip: "AI帝国将在游戏全程获得+§G50§!%科研速度加成。"
 
-esc_option.6.ai_challenging_scaling: "设置AI科研速度加成至§E挑战性延展§!"
-esc_option.6.ai_challenging_scaling.tooltip: "AI帝国将会获得延展科研速度加成:\n+§G50§!%在游戏早期\n+§G100§!%在游戏中期\n+§G150§!%在游戏后期"
-esc_option.6.ai_challenging_static: "设置AI科研速度加成至§E挑战性静态§!"
+esc_option.6.ai_challenging_scaling: "设置AI科研速度加成至§E挑战性拓张§!"
+esc_option.6.ai_challenging_scaling.tooltip: "AI帝国将会获得拓张科研速度加成:\n+§G50§!%在游戏早期\n+§G100§!%在游戏中期\n+§G150§!%在游戏后期"
+esc_option.6.ai_challenging_static: "设置AI科研速度加成至§E挑战性保守§!"
 esc_option.6.ai_challenging_static.tooltip: "AI帝国将在游戏全程获得+§G100§!%科研速度加成。"
 
 esc_option.6.ai_boost_disabled: "设置AI科研速度加成至§R禁用§!"
 esc_option.6.ai_boost_disabled.tooltip: "AI帝国将不会获得任何科研速度加成。"
 
-ESC_AI_research_boost_easy_scaling: "AI科研加成: 简单延展"
-ESC_AI_research_boost_easy_static: "AI科研加成: 简单静态"
-ESC_AI_research_boost_moderate_scaling: "AI科研加成: 中等延展"
-ESC_AI_research_boost_moderate_static: "AI科研加成: 中等静态"
-ESC_AI_research_boost_challenging_scaling: "AI科研加成: 挑战性延展"
-ESC_AI_research_boost_challenging_static: "AI科研加成: 挑战性静态"
+ESC_AI_research_boost_easy_scaling: "AI科研加成: 简单拓张"
+ESC_AI_research_boost_easy_static: "AI科研加成: 简单保守"
+ESC_AI_research_boost_moderate_scaling: "AI科研加成: 中等拓张"
+ESC_AI_research_boost_moderate_static: "AI科研加成: 中等保守"
+ESC_AI_research_boost_challenging_scaling: "AI科研加成: 挑战性拓张"
+ESC_AI_research_boost_challenging_static: "AI科研加成: 挑战性保守"
