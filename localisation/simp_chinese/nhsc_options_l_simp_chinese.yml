@@ -1,6 +1,11 @@
 ﻿l_simp_chinese:
 
-### SIMPLE CHINESE (ACTUALLY ENGLISH) LOCALIZATION
+########################################
+### Translated by Zois Lee
+### Cooperate with all members of BPCC-A group of players who have similar hobbies
+########################################
+
+### SIMPLE CHINESE LOCALIZATION
 
 esc_option.exit: "退出菜单"
 esc_option.back: "返回"

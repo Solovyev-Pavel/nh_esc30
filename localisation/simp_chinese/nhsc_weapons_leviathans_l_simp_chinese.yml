@@ -1,34 +1,39 @@
 ﻿l_simp_chinese:
 
-### SIMPLE CHINESE (ACTUALLY ENGLISH) LOCALIZATION
+########################################
+### Translated by Zois Lee
+### Cooperate with all members of BPCC-A group of players who have similar hobbies
+########################################
+
+### SIMPLE CHINESE LOCALIZATION
 
 ########################################
 ###   Enigmatic Energy Discharger    ###
 ########################################
 
-NHSC_ENIGMATIC_CANNON: "Enigmatic Energy Discharger"
-NHSC_ENIGMATIC_CANNON_DESC: "A powerful weapon that uses the enigmatic technology."
+NHSC_ENIGMATIC_CANNON: "神秘能量投射器"
+NHSC_ENIGMATIC_CANNON_DESC: "使用神秘科技的强力武器。"
 
 ########################################
 ###      Enigmatic Energy Lash       ###
 ########################################
 
-NHSC_ENIGMATIC_LASH: "Enigmatic Energy Lash"
-NHSC_ENIGMATIC_LASH_DESC: "An enigmatic-technology weapon that fries targets with energy discharges."
+NHSC_ENIGMATIC_LASH: "神秘能量冲击"
+NHSC_ENIGMATIC_LASH_DESC: "一种神秘的技术武器，可以用能量放电炸毁目标。"
 
 ########################################
 ###   Enigmatic Energy Autocannon    ###
 ########################################
 
-NHSC_ENIGMATIC_AUTOCANNON: "Enigmatic Energy Autocannon"
-NHSC_ENIGMATIC_AUTOCANNON_DESC: "An enigmatic-technology rapid-fire energy cannon."
+NHSC_ENIGMATIC_AUTOCANNON: "神秘能量机关炮"
+NHSC_ENIGMATIC_AUTOCANNON_DESC: "一门神秘科技的速射能量炮。"
 
 ########################################
 ###      Enigmatic Energy Lance      ###
 ########################################
 
-NHSC_ENIGMATIC_LANCE: "Enigmatic Energy Lance"
-NHSC_ENIGMATIC_LANCE_DESC: "An enigmatic-technology particle lance."
+NHSC_ENIGMATIC_LANCE: "神秘能量矛"
+NHSC_ENIGMATIC_LANCE_DESC: "一个神秘的技术粒子矛。"
 NHSC_ENIGMATIC_LANCE_TITANIC: "$NHSC_ENIGMATIC_LANCE$"
 NHSC_ENIGMATIC_LANCE_TITANIC_DESC: "$NHSC_ENIGMATIC_LANCE_DESC$"
 NHSC_ENIGMATIC_LANCE_JUGGERNAUT: "$NHSC_ENIGMATIC_LANCE$ ($juggernaut$)"
@@ -38,15 +43,15 @@ NHSC_ENIGMATIC_LANCE_JUGGERNAUT_DESC: "$NHSC_ENIGMATIC_LANCE_DESC$"
 ###      Extradimensional Spike      ###
 ########################################
 
-NHSC_EXTRADIMENSIONAL_PD: "Extradimensional Spike"
-NHSC_EXTRADIMENSIONAL_PD_DESC: "A weapon reverse-engineered from the Dimensional Horror. Hits an enemy with a spike thrust through a portal."
+NHSC_EXTRADIMENSIONAL_PD: "异次元尖刺"
+NHSC_EXTRADIMENSIONAL_PD_DESC: "由位面之魇逆向得来的武器。通过传送门使用尖刺突击击中敌人。"
 
 ########################################
 ###        Tiyanki Beam Cannon       ###
 ########################################
 
-NHSC_TIYANKI_CANNON: "Tiaynki Beam Cannon"
-NHSC_TIYANKI_CANNON_DESC: "An energy lance designed after the biological weapon used by the Tiyanki Matriarch."
+NHSC_TIYANKI_CANNON: "缇杨凯光束炮"
+NHSC_TIYANKI_CANNON_DESC: "以缇杨凯女族长使用的生化武器为原型设计的能量枪。"
 NHSC_TIYANKI_CANNON_TITANIC: "$NHSC_TIYANKI_CANNON$"
 NHSC_TIYANKI_CANNON_TITANIC_DESC: "$NHSC_TIYANKI_CANNON_DESC$"
 NHSC_TIYANKI_CANNON_JUGGERNAUT: "$NHSC_TIYANKI_CANNON$ ($juggernaut$)"
@@ -56,12 +61,12 @@ NHSC_TIYANKI_CANNON_JUGGERNAUT_DESC: "$NHSC_TIYANKI_CANNON_DESC$"
 ###        Junk Mines Launcher       ###
 ########################################
 
-NHSC_JUNK_MINE_LAUNCHER: "Junk Mines Launcher"
-NHSC_JUNK_MINE_LAUNCHER_DESC: "A weapon based on the one used by the Scrapper Bot. It utilizes cheap and simple self-propelled mines made from scrap metal and other junk as projectiles."
+NHSC_JUNK_MINE_LAUNCHER: "废品炸弹发射器"
+NHSC_JUNK_MINE_LAUNCHER_DESC: "一种由拾荒者机器人逆向而来的武器。它利用由废金属和其他垃圾制成的廉价且简单的自动水雷作为弹药。"
 
 ########################################
 ###        Voidspawn Missile         ###
 ########################################
 
-NHSC_VOIDSPAWN_MISSILE: "Voidspawn Missile"
-NHSC_VOIDSPAWN_MISSILE_DESC: "A semi-organic projectile based on the weapon used by the Voidspawn Hatcling."
+NHSC_VOIDSPAWN_MISSILE: "虚灵飞弹"
+NHSC_VOIDSPAWN_MISSILE_DESC: "基于虚空孳孽Hatcling使用的武器的半有机射弹。"

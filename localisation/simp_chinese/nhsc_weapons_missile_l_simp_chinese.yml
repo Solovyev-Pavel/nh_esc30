@@ -1,83 +1,88 @@
 ﻿l_simp_chinese:
 
-### SIMPLE CHINESE (ACTUALLY ENGLISH) LOCALIZATION
+########################################
+### Translated by Zois Lee
+### Cooperate with all members of BPCC-A group of players who have similar hobbies
+########################################
+
+### SIMPLE CHINESE LOCALIZATION
 
 ########################################
 ###        Missiles : normal         ###
 ########################################
 
-NHSC_MISSILE_6: "Joker Missile"
-NHSC_MISSILE_6_DESC: "Powerful and tricky to shoot down missiles."
+NHSC_MISSILE_6: "小丑导弹"
+NHSC_MISSILE_6_DESC: "强大而难以击落的导弹。"
 
-NHSC_MISSILE_7: "Wraith Missile"
-NHSC_MISSILE_7_DESC: "Death comes unannounced."
+NHSC_MISSILE_7: "幽灵导弹"
+NHSC_MISSILE_7_DESC: "死亡悄无声息地降临。"
 
 ########################################
 ###        Missiles : swarmer        ###
 ########################################
 
-NHSC_SWARMER_MISSILES_3: "Typhoon Missiles"
-NHSC_SWARMER_MISSILES_3_DESC: "The next generation of swarmer missiles that overwhelm point defenses and enemies alike with their power and numbers."
+NHSC_SWARMER_MISSILES_3: "台风导弹"
+NHSC_SWARMER_MISSILES_3_DESC: "使用它的威力和数量来压倒屏障点防御和敌人的下一代蜂群导弹。"
 
-NHSC_SWARMER_MISSILES_4: "Hurricane Missiles"
-NHSC_SWARMER_MISSILES_4_DESC: "Macross Missile Massacre made real."
+NHSC_SWARMER_MISSILES_4: "飓风导弹"
+NHSC_SWARMER_MISSILES_4_DESC: "成为现实的导弹风暴屠杀。"
 
 ########################################
 ###        Missiles : torpedo        ###
 ########################################
 
-NHSC_TORPEDO_4: "Desolator Torpedo"
-NHSC_TORPEDO_4_DESC: "A new generation of space torpedoes that are more destructive than any we've created before."
+NHSC_TORPEDO_4: "死寂鱼雷"
+NHSC_TORPEDO_4_DESC: "相较于我们以前制造的鱼雷更具破坏性的新一代鱼雷。"
 
-NHSC_TORPEDO_5: "Eradicator Torpedo"
-NHSC_TORPEDO_5_DESC: "The most powerful conventional torpedo one can think of."
+NHSC_TORPEDO_5: "肃清鱼雷"
+NHSC_TORPEDO_5_DESC: "人们能想到的最强大的常规鱼雷。"
 
-NHSC_CORROSIVE_WARHEAD: "Corrosive Warhead Torpedo"
-NHSC_CORROSIVE_WARHEAD_DESC: "A terrifying weapon that tears the very time-space continuum apart."
+NHSC_CORROSIVE_WARHEAD: "腐蚀鱼雷"
+NHSC_CORROSIVE_WARHEAD_DESC: "将撕裂连续时空的令人生畏的武器。"
 
 ########################################
 ###        Missiles : plasma         ###
 ########################################
 
-NHSC_PLASMA_MISSILE_1: "Plasma Missile"
-NHSC_PLASMA_MISSILE_1_DESC: "A plasma projectile that seeks its target like a rocket."
-SMALL_NHSC_PLASMA_MISSILE_1: "Small $NHSC_PLASMA_MISSILE_1$"
+NHSC_PLASMA_MISSILE_1: "等离子导弹"
+NHSC_PLASMA_MISSILE_1_DESC: "能像火箭弹一样搜寻目标的等离子射流。"
+SMALL_NHSC_PLASMA_MISSILE_1: "小型 $NHSC_PLASMA_MISSILE_1$"
 SMALL_NHSC_PLASMA_MISSILE_1_DESC: "$NHSC_PLASMA_MISSILE_1_DESC$"
-MEDIUM_NHSC_PLASMA_MISSILE_1: "Medium $NHSC_PLASMA_MISSILE_1$"
+MEDIUM_NHSC_PLASMA_MISSILE_1: "中型 $NHSC_PLASMA_MISSILE_1$"
 MEDIUM_NHSC_PLASMA_MISSILE_1_DESC: "$NHSC_PLASMA_MISSILE_1_DESC$"
-LARGE_NHSC_PLASMA_MISSILE_1: "Large $NHSC_PLASMA_MISSILE_1$"
+LARGE_NHSC_PLASMA_MISSILE_1: "大型 $NHSC_PLASMA_MISSILE_1$"
 LARGE_NHSC_PLASMA_MISSILE_1_DESC: "$NHSC_PLASMA_MISSILE_1_DESC$"
 
-NHSC_PLASMA_MISSILE_2: "Improved Plasma Missile"
-NHSC_PLASMA_MISSILE_2_DESC: "An improved version of plasma missile that is faster, hotter and harder to destroy."
-SMALL_NHSC_PLASMA_MISSILE_2: "Small $NHSC_PLASMA_MISSILE_2$"
+NHSC_PLASMA_MISSILE_2: "改进等离子导弹"
+NHSC_PLASMA_MISSILE_2_DESC: "速度更快、温度更高且更难摧毁的改进版本的等离子导弹。"
+SMALL_NHSC_PLASMA_MISSILE_2: "小型 $NHSC_PLASMA_MISSILE_2$"
 SMALL_NHSC_PLASMA_MISSILE_2_DESC: "$NHSC_PLASMA_MISSILE_2_DESC$"
-MEDIUM_NHSC_PLASMA_MISSILE_2: "Medium $NHSC_PLASMA_MISSILE_2$"
+MEDIUM_NHSC_PLASMA_MISSILE_2: "中型 $NHSC_PLASMA_MISSILE_2$"
 MEDIUM_NHSC_PLASMA_MISSILE_2_DESC: "$NHSC_PLASMA_MISSILE_2_DESC$"
-LARGE_NHSC_PLASMA_MISSILE_2: "Large $NHSC_PLASMA_MISSILE_2$"
+LARGE_NHSC_PLASMA_MISSILE_2: "大型 $NHSC_PLASMA_MISSILE_2$"
 LARGE_NHSC_PLASMA_MISSILE_2_DESC: "$NHSC_PLASMA_MISSILE_2_DESC$"
 
-NHSC_PLASMA_MISSILE_3: "Incinerator Missile"
-NHSC_PLASMA_MISSILE_3_DESC: "Will burn your enemies into ashes."
-SMALL_NHSC_PLASMA_MISSILE_3: "Small $NHSC_PLASMA_MISSILE_3$"
+NHSC_PLASMA_MISSILE_3: "焚化导弹"
+NHSC_PLASMA_MISSILE_3_DESC: "将敌人烧成灰烬。"
+SMALL_NHSC_PLASMA_MISSILE_3: "小型 $NHSC_PLASMA_MISSILE_3$"
 SMALL_NHSC_PLASMA_MISSILE_3_DESC: "$NHSC_PLASMA_MISSILE_3_DESC$"
-MEDIUM_NHSC_PLASMA_MISSILE_3: "Medium $NHSC_PLASMA_MISSILE_3$"
+MEDIUM_NHSC_PLASMA_MISSILE_3: "中型 $NHSC_PLASMA_MISSILE_3$"
 MEDIUM_NHSC_PLASMA_MISSILE_3_DESC: "$NHSC_PLASMA_MISSILE_3_DESC$"
-LARGE_NHSC_PLASMA_MISSILE_3: "Large $NHSC_PLASMA_MISSILE_3$"
+LARGE_NHSC_PLASMA_MISSILE_3: "大型 $NHSC_PLASMA_MISSILE_3$"
 LARGE_NHSC_PLASMA_MISSILE_3_DESC: "$NHSC_PLASMA_MISSILE_3_DESC$"
 
 ########################################
 ###        Missiles : x-slot         ###
 ########################################
 
-NHSC_XMISSILE_1: "Exotic Matter Warhead"
-NHSC_XMISSILE_1_DESC: "Specialized warhead that delivers an explosive cocktail of exotic particles to the target that has to be blown up."
+NHSC_XMISSILE_1: "异铸弹头"
+NHSC_XMISSILE_1_DESC: "能像目标发射爆炸性奇异粒子混合物的专用弹头。"
 
-NHSC_XMISSILE_2: "Strange Matter Warhead"
-NHSC_XMISSILE_2_DESC: "Impoved version of the Exotic Matter Warhead that has an even more devastating payload."
+NHSC_XMISSILE_2: "强异弹头"
+NHSC_XMISSILE_2_DESC: "搭载有更具破坏性的载荷的异铸弹头的改进版本。"
 
-NHSC_XMISSILE_3: "Reflex Warhead Launcher"
-NHSC_XMISSILE_3_DESC: "Even more powerful supersized rockets, capable of easily devastating even the toughest of warships."
+NHSC_XMISSILE_3: "反射弹头发射器"
+NHSC_XMISSILE_3_DESC: "能轻松摧毁最坚固的战舰的改进型超大型导弹。"
 
 NHSC_XMISSILE_3_TITANIC: "$NHSC_XMISSILE_3$"
 NHSC_XMISSILE_3_TITANIC_DESC: "$NHSC_XMISSILE_3_DESC$"
@@ -89,21 +94,21 @@ NHSC_XMISSILE_3_JUGGERNAUT_DESC: "$NHSC_XMISSILE_3_DESC$"
 ########################################
 
 NHSC_SCOURGE_MISSILE_1: "$nhsc_tech_scourge_missile_1$"
-NHSC_SCOURGE_MISSILE_1_DESC: "The Scourge Missile payloads are made up of many of the biochemical compounds used by the Swarm in interstellar combat, having proven unexpectedly effective against even the hardiest of military vessels."
+NHSC_SCOURGE_MISSILE_1_DESC: "天灾导弹的载荷由虫群在星际战斗中使用的有机物组成，其已被证明即便是最坚固的军舰也能轻松击破。"
 LARGE_NHSC_SCOURGE_MISSILE_1: "$nhsc_tech_scourge_missile_1$"
 LARGE_NHSC_SCOURGE_MISSILE_1_DESC: "$NHSC_SCOURGE_MISSILE_1_DESC$"
 
-NHSC_SPACEPORT_SCOURGE_MISSILE: "Spaceport Scourge Missile"
+NHSC_SPACEPORT_SCOURGE_MISSILE: "空港天灾导弹"
 NHSC_SPACEPORT_SCOURGE_MISSILE_DESC: "$NHSC_SCOURGE_MISSILE_1_DESC$"
-SMALL_NHSC_SPACEPORT_SCOURGE_MISSILE: "Small $NHSC_SPACEPORT_SCOURGE_MISSILE$"
+SMALL_NHSC_SPACEPORT_SCOURGE_MISSILE: "小型 $NHSC_SPACEPORT_SCOURGE_MISSILE$"
 SMALL_NHSC_SPACEPORT_SCOURGE_MISSILE_DESC: "$NHSC_SCOURGE_MISSILE_1_DESC$"
-MEDIUM_NHSC_SPACEPORT_SCOURGE_MISSILE: "Medium $NHSC_SPACEPORT_SCOURGE_MISSILE$"
+MEDIUM_NHSC_SPACEPORT_SCOURGE_MISSILE: "中型 $NHSC_SPACEPORT_SCOURGE_MISSILE$"
 MEDIUM_NHSC_SPACEPORT_SCOURGE_MISSILE_DESC: "$NHSC_SCOURGE_MISSILE_1_DESC$"
-LARGE_NHSC_SPACEPORT_SCOURGE_MISSILE: "Large $NHSC_SPACEPORT_SCOURGE_MISSILE$"
+LARGE_NHSC_SPACEPORT_SCOURGE_MISSILE: "大型 $NHSC_SPACEPORT_SCOURGE_MISSILE$"
 LARGE_NHSC_SPACEPORT_SCOURGE_MISSILE_DESC: "$NHSC_SCOURGE_MISSILE_1_DESC$"
 
-NHSC_SCOURGE_PROJECTILE_WEAPON: "Scourge Acid Blast"
-NHSC_SCOURGE_PROJECTILE_WEAPON_DESC: "Enclosed in ballistic capsules, the highly corrosive organic matter used in the Swarm's orbital bombardment can be repurposed as ship munitions."
+NHSC_SCOURGE_PROJECTILE_WEAPON: "酸蚀冲击"
+NHSC_SCOURGE_PROJECTILE_WEAPON_DESC: "封闭在弹道胶囊中，虫群用于轨道轰炸的强腐蚀有机质能被重新用于舰船弹药。"
 MEDIUM_NHSC_SCOURGE_PROJECTILE_WEAPON: "$NHSC_SCOURGE_PROJECTILE_WEAPON$"
 MEDIUM_NHSC_SCOURGE_PROJECTILE_WEAPON_DESC: "$NHSC_SCOURGE_PROJECTILE_WEAPON_DESC$"
 SMALL_NHSC_SCOURGE_PROJECTILE_WEAPON: "$NHSC_SCOURGE_PROJECTILE_WEAPON$"

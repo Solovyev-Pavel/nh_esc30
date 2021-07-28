@@ -1,7 +1,8 @@
 ﻿l_simp_chinese:
 
 ########################################
-# Translation by Zois
+### Translated by Zois Lee
+### Cooperate with all members of BPCC-A group of players who have similar hobbies
 ########################################
 
 ### SIMPLE CHINESE LOCALIZATION
@@ -73,7 +74,7 @@ LARGE_NHSC_SHIELD_ARMOR_2: "大型 $NHSC_SHIELD_ARMOR_2$"
 LARGE_NHSC_SHIELD_ARMOR_2_DESC: "$NHSC_SHIELD_ARMOR_2_DESC$"
 
 NHSC_SHIELD_ARMOR_3: "护盾壁垒"
-NHSC_SHIELD_ARMOR_3_DESC: "一种甚至更坚硬也能生成更强护盾的的护盾生成装甲"
+NHSC_SHIELD_ARMOR_3_DESC: "一种甚至更坚硬也能生成更强护盾的的护盾生成装甲。"
 SMALL_NHSC_SHIELD_ARMOR_3: "小型 $NHSC_SHIELD_ARMOR_3$"
 SMALL_NHSC_SHIELD_ARMOR_3_DESC: "$NHSC_SHIELD_ARMOR_3_DESC$"
 MEDIUM_NHSC_SHIELD_ARMOR_3: "中型 $NHSC_SHIELD_ARMOR_3$"
