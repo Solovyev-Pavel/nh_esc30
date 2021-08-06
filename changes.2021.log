@@ -116,3 +116,7 @@
 - New titanic weapon added: Asteroid Thrower. Available immediately after researching titans, and acts as a kinetic counterpart to Perdition Beam.
 - Fix overwritten Scourge strikecrafts not having armor penetration.
 - Fix Ravaging Swarmers not having armor penetration.
+
+>>> 06.08.2021
+- Add support for Reastic Ships Necriod (which was missing for some reason) and Imperial shipsets.
+- Integrate Chinese localization by Against War, Charles Chu and Zois Lee.
