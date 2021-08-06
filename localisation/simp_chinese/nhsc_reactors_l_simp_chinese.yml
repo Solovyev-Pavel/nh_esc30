@@ -1,13 +1,17 @@
 ﻿l_simp_chinese:
 
-### SIMPLE CHINESE (ACTUALLY ENGLISH) LOCALIZATION
+########################################
+### Translated by Against War
+########################################
+
+### SIMPLE CHINESE LOCALIZATION
 
 ########################################
 ###   Improved Zero Point Reactor    ###
 ########################################
 
-NHSC_ADV_REACTOR_1: "Improved Zero Point Reactor"
-NHSC_ADV_REACTOR_1_DESC: "Minituarization allows us to make these new zero point reactors more efficient than their predecessors."
+NHSC_ADV_REACTOR_1: "改进的零点反应器"
+NHSC_ADV_REACTOR_1_DESC: "小型化科技使得我们能够制造出比它们前代更高效的零点反应堆。"
 CORVETTE_NHSC_ADV_REACTOR_1: "$NHSC_ADV_REACTOR_1$"
 CORVETTE_NHSC_ADV_REACTOR_1_DESC: "$NHSC_ADV_REACTOR_1_DESC$"
 DESTROYER_NHSC_ADV_REACTOR_1: "$NHSC_ADV_REACTOR_1$"
@@ -59,8 +63,8 @@ SCX_DREADNOUGHT_NHSC_ADV_REACTOR_1_DESC: "$NHSC_ADV_REACTOR_1_DESC$"
 ###        Singularity Reactor       ###
 ########################################
 
-NHSC_ADV_REACTOR_2: "Singularity Reactor"
-NHSC_ADV_REACTOR_2_DESC: "The next generation of zero point reactors that produces more energy than anything that came before them."
+NHSC_ADV_REACTOR_2: "奇点反应堆"
+NHSC_ADV_REACTOR_2_DESC: "下一代零点反应堆产生比之前的任何反应堆都多的能量。"
 CORVETTE_NHSC_ADV_REACTOR_2: "$NHSC_ADV_REACTOR_2$"
 CORVETTE_NHSC_ADV_REACTOR_2_DESC: "$NHSC_ADV_REACTOR_2_DESC$"
 DESTROYER_NHSC_ADV_REACTOR_2: "$NHSC_ADV_REACTOR_2$"
@@ -112,8 +116,8 @@ SCX_DREADNOUGHT_NHSC_ADV_REACTOR_2_DESC: "$NHSC_ADV_REACTOR_2_DESC$"
 ###   Improved Singularity Reactor   ###
 ########################################
 
-NHSC_ADV_REACTOR_3: "Improved Singularity Reactor"
-NHSC_ADV_REACTOR_3_DESC: "The most efficient ship-mounted reactor to date."
+NHSC_ADV_REACTOR_3: "改进奇点反应堆"
+NHSC_ADV_REACTOR_3_DESC: "迄今为止最高效的舰载反应堆。"
 CORVETTE_NHSC_ADV_REACTOR_3: "$NHSC_ADV_REACTOR_3$"
 CORVETTE_NHSC_ADV_REACTOR_3_DESC: "$NHSC_ADV_REACTOR_3_DESC$"
 DESTROYER_NHSC_ADV_REACTOR_3: "$NHSC_ADV_REACTOR_3$"
@@ -165,8 +169,8 @@ SCX_DREADNOUGHT_NHSC_ADV_REACTOR_3_DESC: "$NHSC_ADV_REACTOR_3_DESC$"
 ###   Improved Dark Matter Reactor   ###
 ########################################
 
-NHSC_DARK_MATTER_CORE_2: "Improved Dark Matter Reactor"
-NHSC_DARK_MATTER_CORE_2_DESC: "An updated, more efficient, design for the Dark Matter reactor."
+NHSC_DARK_MATTER_CORE_2: "改进暗物质反应堆"
+NHSC_DARK_MATTER_CORE_2_DESC: "新版的、更高效的暗物质反应堆。"
 CORVETTE_NHSC_DARK_MATTER_CORE_2: "$NHSC_DARK_MATTER_CORE_2$"
 CORVETTE_NHSC_DARK_MATTER_CORE_2_DESC: "$NHSC_DARK_MATTER_CORE_2_DESC$"
 DESTROYER_NHSC_DARK_MATTER_CORE_2: "$NHSC_DARK_MATTER_CORE_2$"
@@ -218,8 +222,8 @@ SCX_DREADNOUGHT_NHSC_DARK_MATTER_CORE_2_DESC: "$NHSC_DARK_MATTER_CORE_2_DESC$"
 ###   Perfected Dark Matter Reactor  ###
 ########################################
 
-NHSC_DARK_MATTER_CORE_3: "Perfected Dark Matter Reactor"
-NHSC_DARK_MATTER_CORE_3_DESC: "An ultimate reactor utilizing Dark Matter."
+NHSC_DARK_MATTER_CORE_3: "完善暗物质反应堆"
+NHSC_DARK_MATTER_CORE_3_DESC: "利用暗物质的终极反应堆。"
 CORVETTE_NHSC_DARK_MATTER_CORE_3: "$NHSC_DARK_MATTER_CORE_3$"
 CORVETTE_NHSC_DARK_MATTER_CORE_3_DESC: "$NHSC_DARK_MATTER_CORE_3_DESC$"
 DESTROYER_NHSC_DARK_MATTER_CORE_3: "$NHSC_DARK_MATTER_CORE_3$"
