@@ -1,170 +1,69 @@
 ﻿l_simp_chinese:
-
-########################################
-### Translated by Zois Lee
-########################################
-
-### SIMPLE CHINESE LOCALIZATION
-
-########################################
-###       Advanced Gauss Cannon      ###
-########################################
-
-NHSC_MASS_DRIVER_6: "增强高斯炮"
-NHSC_MASS_DRIVER_6_DESC: "高斯炮的改进版，更准确、更强劲。"
-SMALL_NHSC_MASS_DRIVER_6: "小型 $NHSC_MASS_DRIVER_6$"
-SMALL_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
-MEDIUM_NHSC_MASS_DRIVER_6: "中型 $NHSC_MASS_DRIVER_6$"
-MEDIUM_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
-LARGE_NHSC_MASS_DRIVER_6: "大型 $NHSC_MASS_DRIVER_6$"
-LARGE_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
-
-########################################
-###           Strike Cannon          ###
-########################################
-
-NHSC_MASS_DRIVER_7: "强袭大炮"
-NHSC_MASS_DRIVER_7_DESC: "紧凑但致命的磁轨炮。"
-SMALL_NHSC_MASS_DRIVER_7: "小型 $NHSC_MASS_DRIVER_7$"
-SMALL_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
-MEDIUM_NHSC_MASS_DRIVER_7: "中型 $NHSC_MASS_DRIVER_7$"
-MEDIUM_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
-LARGE_NHSC_MASS_DRIVER_7: "大型 $NHSC_MASS_DRIVER_7$"
-LARGE_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
-
-########################################
-###   Improved Stormfire Autocannon  ###
-########################################
-
-NHSC_AUTOCANNON_4: "改进火风暴机关炮"
-NHSC_AUTOCANNON_4_DESC: "久经考验的火风暴机关炮的升级版，具有更坚固的机械结构和更快的装弹速度。"
-MEDIUM_NHSC_AUTOCANNON_4: "大型 $NHSC_AUTOCANNON_4$"
-MEDIUM_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
-LARGE_NHSC_AUTOCANNON_4: "超大型 $NHSC_AUTOCANNON_4$"
-LARGE_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
-
-########################################
-###       Shredder Autocannon        ###
-########################################
-
-NHSC_AUTOCANNON_5: "破碎者机关炮"
-NHSC_AUTOCANNON_5_DESC: "用子弹风暴将敌人撕成碎片的自动加农炮。"
-MEDIUM_NHSC_AUTOCANNON_5: "大型 $NHSC_AUTOCANNON_5$"
-MEDIUM_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
-LARGE_NHSC_AUTOCANNON_5: "超大型 $NHSC_AUTOCANNON_5$"
-LARGE_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
-
-########################################
-###    Improved Kinetic Artillery    ###
-########################################
-
-NHSC_ARTILLERY_3: "改进动能炮"
-NHSC_ARTILLERY_3_DESC: "动能炮的升级版，更加精准，威力更大。"
-
-########################################
-###       Skypiercer Artillery       ###
-########################################
-
-NHSC_ARTILLERY_4: "天空撕裂炮"
-NHSC_ARTILLERY_4_DESC: "用强大的炮弹穿透敌人和天空的大炮。"
-
-########################################
-###       Improved Giga-Cannon       ###
-########################################
-
-NHSC_MASS_ACCELERATOR_3: "改进型兆级加农炮"
-NHSC_MASS_ACCELERATOR_3_DESC: "新一代兆级加农炮，威力更大，精准度更高。"
-
-########################################
-###         The Grand Cannon         ###
-########################################
-
-NHSC_MASS_ACCELERATOR_4: "巨炮"
-NHSC_MASS_ACCELERATOR_4_DESC: "最好的远程动能武器！"
-
-########################################
-###    Magnetohydrodynamic Cannon    ###
-########################################
-
-NHSC_MHD_CANNON: "磁流体动能炮"
-NHSC_MHD_CANNON_DESC: "一种以相对论速度发射熔融金属流的强大武器。"
-NHSC_MHD_CANNON_TITANIC: "$NHSC_MHD_CANNON$"
-NHSC_MHD_CANNON_TITANIC_DESC: "$NHSC_MHD_CANNON_DESC$"
-NHSC_MHD_CANNON_JUGGERNAUT: "$NHSC_MHD_CANNON$ ($juggernaut$)"
-NHSC_MHD_CANNON_JUGGERNAUT_DESC: "$NHSC_MHD_CANNON_DESC$"
-
-########################################
-###      Improved Flak Artillery     ###
-########################################
-
-NHSC_FLAK_CANNON_4: "改进型高射炮"
-NHSC_FLAK_CANNON_4_DESC: "比以往任何时候都更准确、更强大的下一代高射炮。"
-
-########################################
-###        Ironcloud Defender        ###
-########################################
-
-NHSC_FLAK_CANNON_5: "铁云卫士"
-NHSC_FLAK_CANNON_5_DESC: "终极高射炮；没有什么可以克服它。"
-
-########################################
-###      Protector Point-Defense     ###
-########################################
-
-NHSC_POINT_DEFENSE_4: "保卫者点防御"
-NHSC_POINT_DEFENSE_4_DESC: "守护者点防御系统的升级版，具有更好的跟踪算法和更强大的枪支。"
-
-########################################
-###    Iron Curtain Point Defense    ###
-########################################
-
-NHSC_POINT_DEFENSE_5: "铁幕点防御"
-NHSC_POINT_DEFENSE_5_DESC: "终极点防御系统。"
-
-########################################
-###       Hailstorm Autocannon       ###
-########################################
-
-NHSC_AUTOCANNON_X_1: "冰雹机关炮"
-NHSC_AUTOCANNON_X_1_DESC: "一个巨大的自动加农炮，可以提供真正惊人数量的达卡。"
-
-########################################
-###       Firestorm Autocannon       ###
-########################################
-
-NHSC_AUTOCANNON_X_2: "火风暴机关炮"
-NHSC_AUTOCANNON_X_2_DESC: "冰雹机关炮的升级版，能够发射更多的达卡。"
-
-########################################
-###        Tempest Autocannon        ###
-########################################
-
-NHSC_AUTOCANNON_T: "风暴机关炮"
-NHSC_AUTOCANNON_T_DESC: "具有前所未有的威力的真正的巨型自动加农炮。愿我们的敌人在它面前融化。"
-NHSC_AUTOCANNON_J: "$NHSC_AUTOCANNON_T$ ($juggernaut$)"
-NHSC_AUTOCANNON_J_DESC: "$NHSC_AUTOCANNON_T_DESC$"
-
-########################################
-###       Juggernaut Artillery       ###
-########################################
-
-NHSC_JUGGERNAUT_ARTILLERY_1: "剑圣火炮"
-NHSC_JUGGERNAUT_ARTILLERY_1_DESC: "为主宰战舰量身打造的动能大炮。"
-NHSC_JUGGERNAUT_ARTILLERY_2: "改进的 $NHSC_JUGGERNUT_ARTILLERY_1$"
-NHSC_JUGGERNAUT_ARTILLERY_2_DESC: "$NHSC_JUGGERNAUT_ARTILLERY_1$ 的改进版，能够造成更多伤害。"
-
-########################################
-###       Juggernaut PD System       ###
-########################################
-
-NHSC_JUGGERNAUT_POINT_DEFENSE_1: "主宰点防御系统"
-NHSC_JUGGERNAUT_POINT_DEFENSE_1_DESC: "专为主宰战舰量身打造的点防御系统。"
-NHSC_JUGGERNAUT_POINT_DEFENSE_2: "改进了 $NHSC_JUGGERNAUT_POINT_DEFENSE_1$"
-NHSC_JUGGERNAUT_POINT_DEFENSE_2_DESC: "$NHSC_JUGGERNUT_POINT_DEFENSE_1$ 的改进版本，具有更好的定位算法和更强大的大炮。"
-
-########################################
-###         Asteroid Thrower         ###
-########################################
-
-NHSC_ASTEROID_THROWER: "重质量炮"
-NHSC_ASTEROID_THROWER_DESC: "一种非常简单的太空战斗武器，相当于向敌人扔一块大石头。尽管如此，它还是非常有效，因为扔出的石头超级大。"
+ NHSC_MASS_DRIVER_6: "先进高斯炮"
+ NHSC_MASS_DRIVER_6_DESC: "高斯炮的改良型，准度更高，火力更强。"
+ SMALL_NHSC_MASS_DRIVER_6: "小型$NHSC_MASS_DRIVER_6$"
+ SMALL_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
+ MEDIUM_NHSC_MASS_DRIVER_6: "中型$NHSC_MASS_DRIVER_6$"
+ MEDIUM_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
+ LARGE_NHSC_MASS_DRIVER_6: "大型$NHSC_MASS_DRIVER_6$"
+ LARGE_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
+ NHSC_MASS_DRIVER_7: "冲击炮"
+ NHSC_MASS_DRIVER_7_DESC: "紧凑但致命的磁加速炮。"
+ SMALL_NHSC_MASS_DRIVER_7: "小型$NHSC_MASS_DRIVER_7$"
+ SMALL_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
+ MEDIUM_NHSC_MASS_DRIVER_7: "中型$NHSC_MASS_DRIVER_7$"
+ MEDIUM_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
+ LARGE_NHSC_MASS_DRIVER_7: "大型$NHSC_MASS_DRIVER_7$"
+ LARGE_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
+ NHSC_AUTOCANNON_4: "改良型火风暴机关炮"
+ NHSC_AUTOCANNON_4_DESC: "经过验证的烈焰风暴机关炮的升级型，拥有更强的机械系统和更快的装填速度。"
+ MEDIUM_NHSC_AUTOCANNON_4: "大型$NHSC_AUTOCANNON_4$"
+ MEDIUM_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
+ LARGE_NHSC_AUTOCANNON_4: "超大型$NHSC_AUTOCANNON_4$"
+ LARGE_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
+ NHSC_AUTOCANNON_5: "粉碎者机关炮"
+ NHSC_AUTOCANNON_5_DESC: "用枪林弹雨撕碎敌人的机关炮。"
+ MEDIUM_NHSC_AUTOCANNON_5: "大型$NHSC_AUTOCANNON_5$"
+ MEDIUM_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
+ LARGE_NHSC_AUTOCANNON_5: "超大型$NHSC_AUTOCANNON_5$"
+ LARGE_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
+ NHSC_ARTILLERY_3: "改良动能火炮"
+ NHSC_ARTILLERY_3_DESC: "动能火炮的升级型，拥有更高的准度和火力。"
+ NHSC_ARTILLERY_4: "破天火炮"
+ NHSC_ARTILLERY_4_DESC: "这种火炮的强大的炮弹可以将敌人与天空一同刺穿。"
+ NHSC_MASS_ACCELERATOR_3: "改良千兆级加农炮"
+ NHSC_MASS_ACCELERATOR_3_DESC: "下一世代的千兆巨炮，更准，更狠。"
+ NHSC_MASS_ACCELERATOR_4: "恢弘级加农炮"
+ NHSC_MASS_ACCELERATOR_4_DESC: "能实现的最好的长程动能兵器！"
+ NHSC_MHD_CANNON: "磁流体动力炮"
+ NHSC_MHD_CANNON_DESC: "一种强力的武器，以相对论速度发射熔融金属流。"
+ NHSC_MHD_CANNON_TITANIC: "$NHSC_MHD_CANNON$"
+ NHSC_MHD_CANNON_TITANIC_DESC: "$NHSC_MHD_CANNON_DESC$"
+ NHSC_MHD_CANNON_JUGGERNAUT: "$NHSC_MHD_CANNON$（$juggernaut$）"
+ NHSC_MHD_CANNON_JUGGERNAUT_DESC: "$NHSC_MHD_CANNON_DESC$"
+ NHSC_FLAK_CANNON_4: "改良重型高射炮"
+ NHSC_FLAK_CANNON_4_DESC: "下一世代的重型高射炮，准度和火力都远胜以往。"
+ NHSC_FLAK_CANNON_5: "铁云防卫者"
+ NHSC_FLAK_CANNON_5_DESC: "高射炮的顶点，无物可及。"
+ NHSC_POINT_DEFENSE_4: "捍卫者点防御"
+ NHSC_POINT_DEFENSE_4_DESC: "守护者点防御系统的升级型，拥有更优的追踪算法和更强的火力。"
+ NHSC_POINT_DEFENSE_5: "铁幕点防御"
+ NHSC_POINT_DEFENSE_5_DESC: "点防御系统的巅峰之作。"
+ NHSC_AUTOCANNON_X_1: "冰风暴机关炮"
+ NHSC_AUTOCANNON_X_1_DESC: "这种巨大的机关炮可以将敌人淹没在咔哒声中。"
+ NHSC_AUTOCANNON_X_2: "火风暴机关炮"
+ NHSC_AUTOCANNON_X_2_DESC: "冰风暴机关炮的升级型，咔哒声的密集更甚以往。"
+ NHSC_AUTOCANNON_T: "暴风雨机关炮"
+ NHSC_AUTOCANNON_T_DESC: "真正的泰坦型机关炮，拥有前所未有的能力的火力。愿我们的敌人在它面前消逝。"
+ NHSC_AUTOCANNON_J: "$NHSC_AUTOCANNON_T$（$juggernaut$）"
+ NHSC_AUTOCANNON_J_DESC: "$NHSC_AUTOCANNON_T_DESC$"
+ NHSC_JUGGERNAUT_ARTILLERY_1: "主宰火炮"
+ NHSC_JUGGERNAUT_ARTILLERY_1_DESC: "为主宰量身定制的动能火炮。"
+ NHSC_JUGGERNAUT_ARTILLERY_2: "改进型$NHSC_JUGGERNAUT_ARTILLERY_1$"
+ NHSC_JUGGERNAUT_ARTILLERY_2_DESC: "$NHSC_JUGGERNAUT_ARTILLERY_1$的升级型，能够造成更大的损伤。"
+ NHSC_JUGGERNAUT_POINT_DEFENSE_1: "主宰点防御系统"
+ NHSC_JUGGERNAUT_POINT_DEFENSE_1_DESC: "为主宰量身定制的点防御系统。"
+ NHSC_JUGGERNAUT_POINT_DEFENSE_2: "改良$NHSC_JUGGERNAUT_POINT_DEFENSE_1$"
+ NHSC_JUGGERNAUT_POINT_DEFENSE_2_DESC: "改良型$NHSC_JUGGERNAUT_POINT_DEFENSE_1$，拥有更优的校准算法和更强大的炮火。"
+ NHSC_ASTEROID_THROWER: "小行星投射器"
+ NHSC_ASTEROID_THROWER_DESC: "非常简单的太空武器，相当于向敌人抛掷一块巨石。然而，出乎意料地有效，因其所掷石头甚大。"
