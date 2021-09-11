@@ -1,0 +1,41 @@
+namespace = nhsc_dmm_integration
+
+## ##################################################### ##
+##            Registering in Dynamic Mod Menu            ##
+## ##################################################### ##
+
+event = {
+	id = nhsc_dmm_integration.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_global_flag = dmm_installed
+		NOT = { dmm_is_registered_mod = { DMM_FLAG = extra_ship_components_30 } }
+	}
+
+	immediate = {
+		dmm_register_mod = {
+			DMM_NAME = nhsc_name_id
+			DMM_FLAG = extra_ship_components_30
+		}
+	}
+}
+
+## ##################################################### ##
+##         Opening Setting via Dynamic Mod Menu          ##
+## ##################################################### ##
+
+country_event = {
+	id = nhsc_dmm_integration.10
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		FROM = { has_leader_flag = extra_ship_components_30 }
+	}
+
+	immediate = {
+		country_event = { id = esc_options.1 days = 0 }
+	}
+}
