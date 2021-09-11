@@ -1,34 +1,34 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###   Enigmatic Energy Discharger    ###
 ########################################
 
-NHSC_ENIGMATIC_CANNON: "Enigmatic Energy Discharger"
-NHSC_ENIGMATIC_CANNON_DESC: "A powerful weapon that uses the enigmatic technology."
+NHSC_ENIGMATIC_CANNON: "Enigmatische Energie-Entlader"
+NHSC_ENIGMATIC_CANNON_DESC: "Eine mächtige Waffe, die die enigmatische Technologie nutzt."
 
 ########################################
 ###      Enigmatic Energy Lash       ###
 ########################################
 
-NHSC_ENIGMATIC_LASH: "Enigmatic Energy Lash"
-NHSC_ENIGMATIC_LASH_DESC: "An enigmatic-technology weapon that fries targets with energy discharges."
+NHSC_ENIGMATIC_LASH: "Enigmatische Energie-Peitsche"
+NHSC_ENIGMATIC_LASH_DESC: "Eine Waffe mit enigmatischer Technologie, die Ziele mit Energieentladungen brät."
 
 ########################################
 ###   Enigmatic Energy Autocannon    ###
 ########################################
 
-NHSC_ENIGMATIC_AUTOCANNON: "Enigmatic Energy Autocannon"
-NHSC_ENIGMATIC_AUTOCANNON_DESC: "An enigmatic-technology rapid-fire energy cannon."
+NHSC_ENIGMATIC_AUTOCANNON: "Enigmatische Energie-Autokanone"
+NHSC_ENIGMATIC_AUTOCANNON_DESC: "Eine Schnellfeuer-Energiekanone mit enigmatischer Technologie."
 
 ########################################
 ###      Enigmatic Energy Lance      ###
 ########################################
 
-NHSC_ENIGMATIC_LANCE: "Enigmatic Energy Lance"
-NHSC_ENIGMATIC_LANCE_DESC: "An enigmatic-technology particle lance."
+NHSC_ENIGMATIC_LANCE: "Enigmatische Energie-Lanze"
+NHSC_ENIGMATIC_LANCE_DESC: "Eine Partikellanze mit enigmatischer Technologie."
 NHSC_ENIGMATIC_LANCE_TITANIC: "$NHSC_ENIGMATIC_LANCE$"
 NHSC_ENIGMATIC_LANCE_TITANIC_DESC: "$NHSC_ENIGMATIC_LANCE_DESC$"
 NHSC_ENIGMATIC_LANCE_JUGGERNAUT: "$NHSC_ENIGMATIC_LANCE$ ($juggernaut$)"
@@ -38,15 +38,15 @@ NHSC_ENIGMATIC_LANCE_JUGGERNAUT_DESC: "$NHSC_ENIGMATIC_LANCE_DESC$"
 ###      Extradimensional Spike      ###
 ########################################
 
-NHSC_EXTRADIMENSIONAL_PD: "Extradimensional Spike"
-NHSC_EXTRADIMENSIONAL_PD_DESC: "A weapon reverse-engineered from the Dimensional Horror. Hits an enemy with a spike thrust through a portal."
+NHSC_EXTRADIMENSIONAL_PD: "Extradimensionaler Stachel"
+NHSC_EXTRADIMENSIONAL_PD_DESC: "Eine Waffe, die aus dem Dimensionalen Schrecken abgeleitet wurde. Trifft einen Feind mit einem Stachel, der durch ein Portal gestoßen wird."
 
 ########################################
 ###        Tiyanki Beam Cannon       ###
 ########################################
 
-NHSC_TIYANKI_CANNON: "Tiaynki Beam Cannon"
-NHSC_TIYANKI_CANNON_DESC: "An energy lance designed after the biological weapon used by the Tiyanki Matriarch."
+NHSC_TIYANKI_CANNON: "Tiaynki-Strahlenkanone"
+NHSC_TIYANKI_CANNON_DESC: "Eine Energielanze, die der biologischen Waffe der Tiyanki-Matriarchin nachempfunden ist."
 NHSC_TIYANKI_CANNON_TITANIC: "$NHSC_TIYANKI_CANNON$"
 NHSC_TIYANKI_CANNON_TITANIC_DESC: "$NHSC_TIYANKI_CANNON_DESC$"
 NHSC_TIYANKI_CANNON_JUGGERNAUT: "$NHSC_TIYANKI_CANNON$ ($juggernaut$)"
@@ -56,12 +56,12 @@ NHSC_TIYANKI_CANNON_JUGGERNAUT_DESC: "$NHSC_TIYANKI_CANNON_DESC$"
 ###        Junk Mines Launcher       ###
 ########################################
 
-NHSC_JUNK_MINE_LAUNCHER: "Junk Mines Launcher"
-NHSC_JUNK_MINE_LAUNCHER_DESC: "A weapon based on the one used by the Scrapper Bot. It utilizes cheap and simple self-propelled mines made from scrap metal and other junk as projectiles."
+NHSC_JUNK_MINE_LAUNCHER: "Schrottminen-Werfer"
+NHSC_JUNK_MINE_LAUNCHER_DESC: "Eine Waffe, die auf der vom Sammler verwendeten Waffe basiert. Sie verwendet billige und einfache selbstangetriebene Minen aus Schrott und anderem Müll als Geschosse."
 
 ########################################
 ###        Voidspawn Missile         ###
 ########################################
 
-NHSC_VOIDSPAWN_MISSILE: "Voidspawn Missile"
-NHSC_VOIDSPAWN_MISSILE_DESC: "A semi-organic projectile based on the weapon used by the Voidspawn Hatcling."
+NHSC_VOIDSPAWN_MISSILE: "Todesbrut-Rakete"
+NHSC_VOIDSPAWN_MISSILE_DESC: "Ein halb-organisches Projektil, das auf der Waffe der Todesbrut basiert."

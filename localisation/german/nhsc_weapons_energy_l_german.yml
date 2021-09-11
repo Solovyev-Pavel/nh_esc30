@@ -1,126 +1,126 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###       Advanced Combat Laser      ###
 ########################################
 
-NHSC_LASER_6: "Advanced Combat Laser"
-NHSC_LASER_6_DESC: "The next generation of combat lasers with greatly improved performance."
-SMALL_NHSC_LASER_6: "Small $NHSC_LASER_6$"
+NHSC_LASER_6: "Fortschrittlicher Kampflaser"
+NHSC_LASER_6_DESC: "Die nächste Generation von Kampflasern mit stark verbesserter Leistung."
+SMALL_NHSC_LASER_6: "Kleiner $NHSC_LASER_6$"
 SMALL_NHSC_LASER_6_DESC: "$NHSC_LASER_6_DESC$"
-MEDIUM_NHSC_LASER_6: "Medium $NHSC_LASER_6$"
+MEDIUM_NHSC_LASER_6: "Mittlerer $NHSC_LASER_6$"
 MEDIUM_NHSC_LASER_6_DESC: "$NHSC_LASER_6_DESC$"
-LARGE_NHSC_LASER_6: "Large $NHSC_LASER_6$"
+LARGE_NHSC_LASER_6: "Großer $NHSC_LASER_6$"
 LARGE_NHSC_LASER_6_DESC: "$NHSC_LASER_6_DESC$"
 
 ########################################
 ###            Aurora Laser          ###
 ########################################
 
-NHSC_LASER_7: "Aurora Laser"
-NHSC_LASER_7_DESC: "Pretty like a star, deadly like fires of Hell."
-SMALL_NHSC_LASER_7: "Small $NHSC_LASER_7$"
+NHSC_LASER_7: "Auroralaser"
+NHSC_LASER_7_DESC: "Schön wie ein Stern, tödlich wie die Feuer der Hölle."
+SMALL_NHSC_LASER_7: "Kleiner $NHSC_LASER_7$"
 SMALL_NHSC_LASER_7_DESC: "$NHSC_LASER_7_DESC$"
-MEDIUM_NHSC_LASER_7: "Medium $NHSC_LASER_7$"
+MEDIUM_NHSC_LASER_7: "Mittlerer $NHSC_LASER_7$"
 MEDIUM_NHSC_LASER_7_DESC: "$NHSC_LASER_7_DESC$"
-LARGE_NHSC_LASER_7: "Large $NHSC_LASER_7$"
+LARGE_NHSC_LASER_7: "Großer $NHSC_LASER_7$"
 LARGE_NHSC_LASER_7_DESC: "$NHSC_LASER_7_DESC$"
 
 ########################################
 ###        Tachyon Disruptor         ###
 ########################################
 
-NHSC_DISRUPTOR_4: "Tachyon Disruptor"
-NHSC_DISRUPTOR_4_DESC: "The next generation of disrutors that use tachyons to damage armor and shields alike."
-SMALL_NHSC_DISRUPTOR_4: "Small $NHSC_DISRUPTOR_4$"
+NHSC_DISRUPTOR_4: "Tachyon-Disruptor"
+NHSC_DISRUPTOR_4_DESC: "Die nächste Generation von Disruptoren, die Tachyonen nutzen, um Panzerung und Schilde gleichermaßen zu beschädigen."
+SMALL_NHSC_DISRUPTOR_4: "Kleiner $NHSC_DISRUPTOR_4$"
 SMALL_NHSC_DISRUPTOR_4_DESC: "$NHSC_DISRUPTOR_4_DESC$"
-MEDIUM_NHSC_DISRUPTOR_4: "Medium $NHSC_DISRUPTOR_4$"
+MEDIUM_NHSC_DISRUPTOR_4: "Mittlerer $NHSC_DISRUPTOR_4$"
 MEDIUM_NHSC_DISRUPTOR_4_DESC: "$NHSC_DISRUPTOR_4_DESC$"
-LARGE_NHSC_DISRUPTOR_4: "Large $NHSC_DISRUPTOR_4$"
+LARGE_NHSC_DISRUPTOR_4: "Großer $NHSC_DISRUPTOR_4$"
 LARGE_NHSC_DISRUPTOR_4_DESC: "$NHSC_DISRUPTOR_4_DESC$"
 
 ########################################
 ###         Disruptor Lance          ###
 ########################################
 
-NHSC_DISRUPTOR_5: "Disruptor Lance"
-NHSC_DISRUPTOR_5_DESC: "A disruptor beam focused into a highly-damaging particle lance."
-SMALL_NHSC_DISRUPTOR_5: "Small $NHSC_DISRUPTOR_5$"
+NHSC_DISRUPTOR_5: "Disruptor-Lanze"
+NHSC_DISRUPTOR_5_DESC: "Ein Disruptorstrahl, der zu einer hochgradig zerstörerischen Partikellanze gebündelt wird."
+SMALL_NHSC_DISRUPTOR_5: "Kleine $NHSC_DISRUPTOR_5$"
 SMALL_NHSC_DISRUPTOR_5_DESC: "$NHSC_DISRUPTOR_5_DESC$"
-MEDIUM_NHSC_DISRUPTOR_5: "Medium $NHSC_DISRUPTOR_5$"
+MEDIUM_NHSC_DISRUPTOR_5: "Mittlere $NHSC_DISRUPTOR_5$"
 MEDIUM_NHSC_DISRUPTOR_5_DESC: "$NHSC_DISRUPTOR_5_DESC$"
-LARGE_NHSC_DISRUPTOR_5: "Large $NHSC_DISRUPTOR_5$"
+LARGE_NHSC_DISRUPTOR_5: "Große $NHSC_DISRUPTOR_5$"
 LARGE_NHSC_DISRUPTOR_5_DESC: "$NHSC_DISRUPTOR_5_DESC$"
 
 ########################################
 ###      Advanced Plasma Cannon      ###
 ########################################
 
-NHSC_PLASMA_4: "Advanced Plasma Cannon"
-NHSC_PLASMA_4_DESC: "An improved plasma cannon that shot more stable clusters of plasma and, therefor, can deal more damage to its target."
-SMALL_NHSC_PLASMA_4: "Small $NHSC_PLASMA_4$"
+NHSC_PLASMA_4: "Fortschrittliche Plasmakanone"
+NHSC_PLASMA_4_DESC: "Eine verbesserte Plasmakanone, die stabilere Plasmabündel abschießt und daher ihrem Ziel mehr Schaden zufügen kann."
+SMALL_NHSC_PLASMA_4: "Kleine $NHSC_PLASMA_4$"
 SMALL_NHSC_PLASMA_4_DESC: "$NHSC_PLASMA_4_DESC$"
-MEDIUM_NHSC_PLASMA_4: "Medium $NHSC_PLASMA_4$"
+MEDIUM_NHSC_PLASMA_4: "Mittlere $NHSC_PLASMA_4$"
 MEDIUM_NHSC_PLASMA_4_DESC: "$NHSC_PLASMA_4_DESC$"
-LARGE_NHSC_PLASMA_4: "Large $NHSC_PLASMA_4$"
+LARGE_NHSC_PLASMA_4: "Große $NHSC_PLASMA_4$"
 LARGE_NHSC_PLASMA_4_DESC: "$NHSC_PLASMA_4_DESC$"
 
 ########################################
 ###        Dragonbreath Cannon       ###
 ########################################
 
-NHSC_PLASMA_5: "Dragonbreath Cannon"
-NHSC_PLASMA_5_DESC: "A cannon that shoots plasma as hot as fires of mythical dragons."
-SMALL_NHSC_PLASMA_5: "Small $NHSC_PLASMA_5$"
+NHSC_PLASMA_5: "Drachenatemkanone"
+NHSC_PLASMA_5_DESC: "Eine Kanone, die Plasma verschießt, das so heiß ist wie die Feuer mythischer Drachen."
+SMALL_NHSC_PLASMA_5: "Kleine $NHSC_PLASMA_5$"
 SMALL_NHSC_PLASMA_5_DESC: "$NHSC_PLASMA_5_DESC$"
-MEDIUM_NHSC_PLASMA_5: "Medium $NHSC_PLASMA_5$"
+MEDIUM_NHSC_PLASMA_5: "Mittlere $NHSC_PLASMA_5$"
 MEDIUM_NHSC_PLASMA_5_DESC: "$NHSC_PLASMA_5_DESC$"
-LARGE_NHSC_PLASMA_5: "Large $NHSC_PLASMA_5$"
+LARGE_NHSC_PLASMA_5: "Große $NHSC_PLASMA_5$"
 LARGE_NHSC_PLASMA_5_DESC: "$NHSC_PLASMA_5_DESC$"
 
 ########################################
 ###        Antimatter Launcher       ###
 ########################################
 
-NHSC_ENERGY_TORPEDO_3: "Antimatter Launcher"
-NHSC_ENERGY_TORPEDO_3_DESC: "A new generation of energy launchers that use matter-antimatter annihilation reaction to produce a destructive blast."
+NHSC_ENERGY_TORPEDO_3: "Antimateriewerfer"
+NHSC_ENERGY_TORPEDO_3_DESC: "Eine neue Generation von Energiewerfern, die eine Materie-Antimaterie-Annihilationsreaktion nutzen, um eine zerstörerische Explosion zu erzeugen."
 
 ########################################
 ###        Dark Matter Launcher      ###
 ########################################
 
-NHSC_ENERGY_TORPEDO_4: "Dark Matter Launcher"
-NHSC_ENERGY_TORPEDO_4_DESC: "An energy projectile that destroy their target with an obliterating blast generated by dark matter decomposition reaction."
+NHSC_ENERGY_TORPEDO_4: "Dunkelmaterie-Werfer"
+NHSC_ENERGY_TORPEDO_4_DESC: "Ein Energieprojektil, das sein Ziel mit einer auslöschenden Explosion zerstört, die durch die Zersetzungsreaktion der dunklen Materie erzeugt wird."
 
 ########################################
 ###     Lightstorm Point Defense     ###
 ########################################
 
-NHSC_LIGHTSTORM_PD: "Lightstorm Point Defense"
-NHSC_LIGHTSTORM_PD_DESC: "An extremely-efficient laser-based point-defense system."
+NHSC_LIGHTSTORM_PD: "Lichtsturm-Punktverteidigung"
+NHSC_LIGHTSTORM_PD_DESC: "Ein extrem effizientes laserbasiertes Punktverteidigungssystem."
 
 ########################################
 ###      Improved Tachyon Lance      ###
 ########################################
 
-NHSC_PARTICLE_LANCE_3: "Improved Tachyon Lance"
-NHSC_PARTICLE_LANCE_3_DESC: "The next generation of Tachyon Lances with improved focusing array."
+NHSC_PARTICLE_LANCE_3: "Verbesserte Tachyon-Lanze"
+NHSC_PARTICLE_LANCE_3_DESC: "Die nächste Generation von Tachyon-Lanzen mit verbesserter Fokussierungsanordnung."
 
 ########################################
 ###    Hypercharged Tachyon Lance    ###
 ########################################
 
-NHSC_PARTICLE_LANCE_4: "Hypercharged Tachyon Lance"
-NHSC_PARTICLE_LANCE_4_DESC: "By supercharging capacitor coils of particle lance emitters we can further increase the weapon's damage."
+NHSC_PARTICLE_LANCE_4: "Hypergeladene Tachyon-Lanze"
+NHSC_PARTICLE_LANCE_4_DESC: "Durch die Überladung der Kondensatorspulen der Partikellanzenemitter können wir den Schaden der Waffe weiter erhöhen."
 
 ########################################
 ###       Light of Destruction       ###
 ########################################
 
-NHSC_PARTICLE_LANCE_TITANIC: "Light of Destruction"
-NHSC_PARTICLE_LANCE_TITANIC_DESC: "The ultimate particle lance."
+NHSC_PARTICLE_LANCE_TITANIC: "Licht Der Zerstörung"
+NHSC_PARTICLE_LANCE_TITANISCH_DESC: "Die ultimative Partikellanze"
 NHSC_PARTICLE_LANCE_JUGGERNAUT: "$NHSC_PARTICLE_LANCE_TITANIC$ ($juggernaut$)"
 NHSC_PARTICLE_LANCE_JUGGERNAUT_DESC: "$NHSC_PARTICLE_LANCE_TITANIC_DESC$"
 
@@ -128,22 +128,22 @@ NHSC_PARTICLE_LANCE_JUGGERNAUT_DESC: "$NHSC_PARTICLE_LANCE_TITANIC_DESC$"
 ###         Lightning Cannon         ###
 ########################################
 
-NHSC_ARC_EMITTER_3: "Lightning Cannon"
-NHSC_ARC_EMITTER_3_DESC: "And advanced version of focused arc emitter that fires powerful bolts of electricity."
+NHSC_ARC_EMITTER_3: "Blitzkanone"
+NHSC_ARC_EMITTER_3_DESC: "Eine fortschrittliche Version des fokussierten Archen-Emitter, der mächtige elektrische Blitze abfeuert."
 
 ########################################
 ###            Arc Cannon            ###
 ########################################
 
-NHSC_ARC_EMITTER_4: "Arc Cannon"
-NHSC_ARC_EMITTER_4_DESC: "A more powerful version of the Lightning Cannon, capable of destroying even the most hardened targets."
+NHSC_ARC_EMITTER_4: "Archenkanone"
+NHSC_ARC_EMITTER_4_DESC: "Eine stärkere Version der Blitzkanone, die selbst die härtesten Ziele zerstören kann."
 
 ########################################
 ###          Divine Thunder          ###
 ########################################
 
-NHSC_ARC_EMITTER_TITANIC: "Divine Thunder"
-NHSC_ARC_EMITTER_TITANIC_DESC: "The echoes of the Celestial Storms that strike our enemies with merciless force."
+NHSC_ARC_EMITTER_TITANIC: "Göttlicher Donner"
+NHSC_ARC_EMITTER_TITANIC_DESC: "Das Echo der himmlischen Stürme, die unsere Feinde mit gnadenloser Kraft treffen."
 NHSC_ARC_EMITTER_JUGGERNAUT: "$NHSC_ARC_EMITTER_TITANIC$ ($juggernaut$)"
 NHSC_ARC_EMITTER_JUGGERNAUT_DESC: "$NHSC_ARC_EMITTER_TITANIC_DESC$"
 
@@ -151,14 +151,14 @@ NHSC_ARC_EMITTER_JUGGERNAUT_DESC: "$NHSC_ARC_EMITTER_TITANIC_DESC$"
 ###          Wave-Motion Gun         ###
 ########################################
 
-NHSC_WAVEMOTIONGUN_1: "Wave-Motion Gun"
-NHSC_WAVEMOTIONGUN_1_DESC: "Specialized exhaust ports allow us to temprarily redirect the engine exhaust and turn into a damaging lance that can destroy anything unfortunate enough to be in its path."
+NHSC_WAVEMOTIONGUN_1: "Wellenbewegungsgeschütz"
+NHSC_WAVEMOTIONGUN_1_DESC: "Spezialisierte Auslassöffnungen ermöglichen es uns, die Abgase des Motors vorübergehend umzuleiten und in eine zerstörerische Lanze zu verwandeln, die alles zerstören kann, was sich ihr in den Weg stellt."
 
-NHSC_WAVEMOTIONGUN_2: "Dimensional Wave Cannon"
-NHSC_WAVEMOTIONGUN_2_DESC: "An upgraded version of the Wave-Motion Gun with improved beam focus for greater accuracy and damage."
+NHSC_WAVEMOTIONGUN_2: "Dimensionswellenkanone"
+NHSC_WAVEMOTIONGUN_2_DESC: "Eine verbesserte Version der Wave-Motion-Gun mit verbessertem Strahlenfokus für mehr Genauigkeit und Schaden."
 
-NHSC_WAVEMOTIONGUN_3: "Titanic Dimensional Wave Cannon"
-NHSC_WAVEMOTIONGUN_3_DESC: "The supersized version of the Dimensional Wave Cannon"
+NHSC_WAVEMOTIONGUN_3: "Titanische Dimensionswellenkanone"
+NHSC_WAVEMOTIONGUN_3_DESC: "Die übergroße Version der Dimensionswellenkanone."
 NHSC_WAVEMOTIONGUN_JUGGERNAUT: "$NHSC_WAVEMOTIONGUN_2$ ($juggernaut$)"
 NHSC_WAVEMOTIONGUN_JUGGERNAUT_DESC: "$NHSC_WAVEMOTIONGUN_3_DESC$"
 
@@ -166,8 +166,8 @@ NHSC_WAVEMOTIONGUN_JUGGERNAUT_DESC: "$NHSC_WAVEMOTIONGUN_3_DESC$"
 ###        Arc-en-Ciel Cannon        ###
 ########################################
 
-NHSC_ARC_EN_CIEL: "Arc-en-Ciel Cannon"
-NHSC_ARC_EN_CIEL_DESC: "A terrifying weapon that seals its target in a pocket dimension and then forces it to undergo Big Crunch, effectively destroying any trace of the target ever existing."
+NHSC_ARC_EN_CIEL: "Arc-en-Ciel-Kanone"
+NHSC_ARC_EN_CIEL_DESC: "Eine furchterregende Waffe, die ihr Ziel in einer Taschendimension versiegelt und es dann zum Big Crunch zwingt, wodurch jede Spur der Existenz des Ziels vernichtet wird."
 NHSC_ARC_EN_CIEL_TITANIC: "$NHSC_ARC_EN_CIEL$"
 NHSC_ARC_EN_CIEL_TITANIC_DESC: "$NHSC_ARC_EN_CIEL_DESC$"
 NHSC_ARC_EN_CIEL_JUGGERNAUT: "$NHSC_ARC_EN_CIEL$ ($juggernaut$)"
@@ -177,110 +177,110 @@ NHSC_ARC_EN_CIEL_JUGGERNAUT_DESC: "$NHSC_ARC_EN_CIEL_DESC$"
 ###       Chrono-Vortex Cannon       ###
 ########################################
 
-NHSC_CHRONO_CANNON: "Chrono-Vortex Cannon"
-NHSC_CHRONO_CANNON_DESC: "This terrifying weapon tears enemy ships arapt with unstable distortions of the time-space continuum."
-SMALL_NHSC_CHRONO_CANNON: "Small $NHSC_CHRONO_CANNON$"
+NHSC_CHRONO_CANNON: "Chrono-Vortexkanone"
+NHSC_CHRONO_CANNON_DESC: "Diese furchterregende Waffe zerreißt feindliche Schiffe mit instabilen Verzerrungen des Raum-Zeit-Kontinuums."
+SMALL_NHSC_CHRONO_CANNON: "Kleine $NHSC_CHRONO_CANNON$"
 SMALL_NHSC_CHRONO_CANNON_DESC: "$NHSC_CHRONO_CANNON_DESC$"
-MEDIUM_NHSC_CHRONO_CANNON: "Medium $NHSC_CHRONO_CANNON$"
+MEDIUM_NHSC_CHRONO_CANNON: "Mittlere $NHSC_CHRONO_CANNON$"
 MEDIUM_NHSC_CHRONO_CANNON_DESC: "$NHSC_CHRONO_CANNON_DESC$"
-LARGE_NHSC_CHRONO_CANNON: "Large $NHSC_CHRONO_CANNON$"
+LARGE_NHSC_CHRONO_CANNON: "Große $NHSC_CHRONO_CANNON$"
 LARGE_NHSC_CHRONO_CANNON_DESC: "$NHSC_CHRONO_CANNON_DESC$"
 
 ########################################
 ###    Amplified Cloud lightning     ###
 ########################################
 
-NHSC_CLOUD_LIGHTNING_2: "Amplified Cloud Lightning"
-NHSC_CLOUD_LIGHTNING_2_DESC: "An empowered version of space cloud's natural lightning weapons, now capable of dealing significant damage even to the strongest of warships"
+NHSC_CLOUD_LIGHTNING_2: "Verstärkte Wolkenblitze"
+NHSC_CLOUD_LIGHTNING_2_DESC: "Eine verstärkte Version der natürlichen Blitzwaffen der Weltraumwolke, die nun in der Lage ist, selbst den stärksten Kriegsschiffen erheblichen Schaden zuzufügen"
 
 ########################################
 ###      Thunderstorm Generator      ###
 ########################################
 
-NHSC_CLOUD_LIGHTNING_3: "Thunderstorm Generator"
-NHSC_CLOUD_LIGHTNING_3_DESC: "Devastating lightning that will tear ships of our enemies apart."
+NHSC_CLOUD_LIGHTNING_3: "Gewittergenerator"
+NHSC_CLOUD_LIGHTNING_3_DESC: "Verheerende Blitze, die die Schiffe unserer Feinde in Stücke reißen."
 
 ########################################
 ###           Plasma Cutter          ###
 ########################################
 
-NHSC_MINING_LASER_2: "Plasma Cutter"
-NHSC_MINING_LASER_2_DESC: "An advanced weapon to cut enemy hulls apart, derived from the lasers used by the mining drones."
-SMALL_NHSC_MINING_LASER_2: "Small $NHSC_MINING_LASER_2$"
+NHSC_MINING_LASER_2: "Plasma-Schneider"
+NHSC_MINING_LASER_2_DESC: "Eine fortschrittliche Waffe zum Zerschneiden feindlicher Schiffsrümpfe, abgeleitet von den Lasern der Bergbau-Drohnen."
+SMALL_NHSC_MINING_LASER_2: "Kleiner $NHSC_MINING_LASER_2$"
 SMALL_NHSC_MINING_LASER_2_DESC: "$NHSC_MINING_LASER_2_DESC$"
-MEDIUM_NHSC_MINING_LASER_2: "Medium $NHSC_MINING_LASER_2$"
+MEDIUM_NHSC_MINING_LASER_2: "Mittlerer $NHSC_MINING_LASER_2$"
 MEDIUM_NHSC_MINING_LASER_2_DESC: "$NHSC_MINING_LASER_2_DESC$"
 
 ########################################
 ###      Advanced Plasma Cutter      ###
 ########################################
 
-NHSC_MINING_LASER_3: "Advanced Plasma Cutter"
-NHSC_MINING_LASER_3_DESC: "An improved version of the $NHSC_MINING_LASER_2$, featuring increased power, accuracy and range."
-SMALL_NHSC_MINING_LASER_3: "Small $NHSC_MINING_LASER_3$"
+NHSC_MINING_LASER_3: "Fortschrittlicher Plasmaschneider"
+NHSC_MINING_LASER_3_DESC: "Eine verbesserte Version des $NHSC_MINING_LASER_2$, mit erhöhter Leistung, Genauigkeit und Reichweite."
+SMALL_NHSC_MINING_LASER_3: "Kleines $NHSC_MINING_LASER_3$"
 SMALL_NHSC_MINING_LASER_3_DESC: "$NHSC_MINING_LASER_3_DESC$"
-MEDIUM_NHSC_MINING_LASER_3: "Medium $NHSC_MINING_LASER_3$"
+MEDIUM_NHSC_MINING_LASER_3: "Mittleres $NHSC_MINING_LASER_3$"
 MEDIUM_NHSC_MINING_LASER_3_DESC: "$NHSC_MINING_LASER_3_DESC$"
 
 ########################################
 ###        Matter Annihilator        ###
 ########################################
 
-NHSC_EXTRADIMENSIONAL_WEAPON_2: "Matter Annihilator"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC: "An improved, more powerful version of extradimensional trophy weapon, Matter Disintegrator."
-SMALL_NHSC_EXTRADIMENSIONAL_WEAPON_2: "Small $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
+NHSC_EXTRADIMENSIONAL_WEAPON_2: "Materie-Vernichter"
+NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC: "Eine verbesserte, stärkere Version der extradimensionalen Trophäenwaffe \"Materie-Desintegrator\.""
+SMALL_NHSC_EXTRADIMENSIONAL_WEAPON_2: "Kleiner $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
 SMALL_NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC$"
-MEDIUM_NHSC_EXTRADIMENSIONAL_WEAPON_2: "Medium $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
+MEDIUM_NHSC_EXTRADIMENSIONAL_WEAPON_2: "Mittlerer $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
 MEDIUM_NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC$"
-LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_2: "Large $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
+LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_2: "Großer $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
 LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_2_DESC$"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_X: "Grand $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_X_DESC: "An upscaled version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, capable of immense destruction."
-NHSC_EXTRADIMENSIONAL_WEAPON_2_T: "Titanic $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_T_DESC: "A titanic version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, for the biggest and most poweful ships in our fleets."
+NHSC_EXTRADIMENSIONAL_WEAPON_2_X: "Riesiger $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
+NHSC_EXTRADIMENSIONAL_WEAPON_2_X_DESC: "Eine hochskalierte Version von $NHSC_EXTRADIMENSIONAL_WEAPON_2$, fähig zu immenser Zerstörung."
+NHSC_EXTRADIMENSIONAL_WEAPON_2_T: "Titanischer $NHSC_EXTRADIMENSIONAL_WEAPON_2$"
+NHSC_EXTRADIMENSIONAL_WEAPON_2_T_DESC: "Eine titanische Version von $NHSC_EXTRADIMENSIONAL_WEAPON_2$, für die größten und stärksten Schiffe in unseren Flotten."
 NHSC_EXTRADIMENSIONAL_WEAPON_2_J: "$NHSC_EXTRADIMENSIONAL_WEAPON_2$ ($juggernaut$)"
-NHSC_EXTRADIMENSIONAL_WEAPON_2_J_DESC: "A juggernaut version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, for the biggest and most poweful ships in our fleets."
+NHSC_EXTRADIMENSIONAL_WEAPON_2_J_DESC: "Eine gewaltige Version von $NHSC_EXTRADIMENSIONAL_WEAPON_2$, für die größten und stärksten Schiffe in unseren Flotten."
 
 ########################################
 ###          Reality Eraser          ###
 ########################################
 
-NHSC_EXTRADIMENSIONAL_WEAPON_3: "Reality Eraser"
-NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC: "A Null Void-energy amplified version of $NHSC_EXTRADIMENSIONAL_WEAPON_2$, capable of erasing even reality itself."
-SMALL_NHSC_EXTRADIMENSIONAL_WEAPON_3: "Small $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
+NHSC_EXTRADIMENSIONAL_WEAPON_3: "Realitätslöscher"
+NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC: "Eine durch Nullpunktenergie verstärkte Version von $NHSC_EXTRADIMENSIONAL_WEAPON_2$, die sogar die Realität selbst auslöschen kann."
+SMALL_NHSC_EXTRADIMENSIONAL_WEAPON_3: "Kleiner $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
 SMALL_NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC$"
-MEDIUM_NHSC_EXTRADIMENSIONAL_WEAPON_3: "Medium $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
+MEDIUM_NHSC_EXTRADIMENSIONAL_WEAPON_3: "Mittlerer $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
 MEDIUM_NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC$"
-LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_3: "Large $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
+LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_3: "Großer $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
 LARGE_NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC: "$NHSC_EXTRADIMENSIONAL_WEAPON_3_DESC$"
-NHSC_EXTRADIMENSIONAL_WEAPON_3_X: "Grand $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
-NHSC_EXTRADIMENSIONAL_WEAPON_3_X_DESC: "An upscaled version of $NHSC_EXTRADIMENSIONAL_WEAPON_3$, it a great threat to any ship than dares to oppose our fleets."
-NHSC_EXTRADIMENSIONAL_WEAPON_3_T: "Titanic $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
-NHSC_EXTRADIMENSIONAL_WEAPON_3_T_DESC: "The ultimate $NHSC_EXTRADIMENSIONAL_WEAPON_3$, a weapon of nearly unlimited power."
+NHSC_EXTRADIMENSIONAL_WEAPON_3_X: "Riesiger $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
+NHSC_EXTRADIMENSIONAL_WEAPON_3_X_DESC: "Eine hochskalierte Version von $NHSC_EXTRADIMENSIONAL_WEAPON_3$, die eine große Bedrohung für jedes Schiff darstellt, das es wagt, sich unseren Flotten entgegenzustellen."
+NHSC_EXTRADIMENSIONAL_WEAPON_3_T: "Titanischer $NHSC_EXTRADIMENSIONAL_WEAPON_3$"
+NHSC_EXTRADIMENSIONAL_WEAPON_3_T_DESC: "Die ultimative $NHSC_EXTRADIMENSIONAL_WEAPON_3$, eine Waffe mit nahezu unbegrenzter Macht."
 NHSC_EXTRADIMENSIONAL_WEAPON_3_J: "$NHSC_EXTRADIMENSIONAL_WEAPON_3$ ($juggernaut$)"
-NHSC_EXTRADIMENSIONAL_WEAPON_3_J_DESC: "The ultimate $NHSC_EXTRADIMENSIONAL_WEAPON_3$, a weapon of nearly unlimited power."
+NHSC_EXTRADIMENSIONAL_WEAPON_3_J_DESC: "Die ultimative $NHSC_EXTRADIMENSIONAL_WEAPON_3$, eine Waffe mit nahezu unbegrenzter Macht."
 
 ########################################
 ###      Juggernaut Beam Cannon      ###
 ########################################
 
-NHSC_JUGGERNAUT_BEAM_CANNON_1: "Juggernaut Beam Cannon"
-NHSC_JUGGERNAUT_BEAM_CANNON_1_DESC: "A devastatingly-powerful beam cannon, developped for the war machine known as the Juggernaut."
-NHSC_JUGGERNAUT_BEAM_CANNON_2: "Improved $NHSC_JUGGERNAUT_BEAM_CANNON_1$"
-NHSC_JUGGERNAUT_BEAM_CANNON_2_DESC: "A refined version of the $NHSC_JUGGERNAUT_BEAM_CANNON_1$, which is even more powerful and deadly."
+NHSC_JUGGERNAUT_BEAM_CANNON_1: "Juggernaut-Strahlenkanone"
+NHSC_JUGGERNAUT_BEAM_CANNON_1_DESC: "Eine verheerend starke Strahlenkanone, entwickelt für die als Juggernaut bekannte Kriegsmaschine."
+NHSC_JUGGERNAUT_BEAM_CANNON_2: "Verbesserte $NHSC_JUGGERNAUT_BEAM_CANNON_1$"
+NHSC_JUGGERNAUT_BEAM_CANNON_2_DESC: "Eine verfeinerte Version des $NHSC_JUGGERNAUT_BEAM_CANNON_1$, die noch mächtiger und tödlicher ist."
 
 ########################################
 ###    Overwrites Extradimensional   ###
 ########################################
 
-NHSC_EXTRADIMENSIONAL_1: "Matter Disintegrator"
-NHSC_EXTRADIMENSIONAL_1_DESC: "Hailing from another dimension, the core technologies of the Matter Disintegrator bends several physical laws for destructive results."
-SMALL_NHSC_ED_WEAPON: "Small $NHSC_EXTRADIMENSIONAL_1$"
+NHSC_EXTRADIMENSIONAL_1: "Materie-Desintegrator"
+NHSC_EXTRADIMENSIONAL_1_DESC: "Aus einer anderen Dimension stammend, biegt die Kerntechnologie des Materie-Desintegrator mehrere physikalische Gesetze für zerstörerische Ergebnisse."
+SMALL_NHSC_ED_WEAPON: "Kleiner $NHSC_EXTRADIMENSIONAL_1$"
 SMALL_NHSC_ED_WEAPON_DESC: "$NHSC_EXTRADIMENSIONAL_1_DESC$"
-MEDIUM_NHSC_ED_WEAPON: "Medium $NHSC_EXTRADIMENSIONAL_1$"
+MEDIUM_NHSC_ED_WEAPON: "Mittlerer $NHSC_EXTRADIMENSIONAL_1$"
 MEDIUM_NHSC_ED_WEAPON_DESC: "$NHSC_EXTRADIMENSIONAL_1_DESC$"
-LARGE_NHSC_ED_WEAPON: "Large $NHSC_EXTRADIMENSIONAL_1$"
+LARGE_NHSC_ED_WEAPON: "Großer $NHSC_EXTRADIMENSIONAL_1$"
 LARGE_NHSC_ED_WEAPON_DESC: "$NHSC_EXTRADIMENSIONAL_1_DESC$"
 
-MEDIUM_NHSC_PROBE_LIGHTNING: "Unidentified Energy Emitter"
-MEDIUM_NHSC_PROBE_LIGHTNING_DESC: "An unusual form of weaponry, this energy emitter closely resembles other energy weapons in function, but operates with a frequency and within a spectrum never before weaponized."
+MEDIUM_NHSC_PROBE_LIGHTNING: "Nicht Identifizierter Energieemitter"
+MEDIUM_NHSC_PROBE_LIGHTNING_DESC: "Eine ungewöhnliche Form der Bewaffnung. Dieser Energieemitter ähnelt in seiner Funktion anderen Energiewaffen, arbeitet aber mit einer Frequenz und in einem Spektrum, das nie zuvor als Waffe eingesetzt wurde."

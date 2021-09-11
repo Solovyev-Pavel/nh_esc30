@@ -1,89 +1,89 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###       Advanced Gauss Cannon      ###
 ########################################
 
-NHSC_MASS_DRIVER_6: "Advanced Gauss Cannon"
-NHSC_MASS_DRIVER_6_DESC: "An improved version of the Gauss Cannon that is more accurate and more powerful."
-SMALL_NHSC_MASS_DRIVER_6: "Small $NHSC_MASS_DRIVER_6$"
+NHSC_MASS_DRIVER_6: "Fortschrittliche Gauss-Kanone"
+NHSC_MASS_DRIVER_6_DESC: "Eine verbesserte Version der Gauss-Kanone, die genauer und leistungsfähiger ist."
+SMALL_NHSC_MASS_DRIVER_6: "Kleine $NHSC_MASS_DRIVER_6$"
 SMALL_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
-MEDIUM_NHSC_MASS_DRIVER_6: "Medium $NHSC_MASS_DRIVER_6$"
+MEDIUM_NHSC_MASS_DRIVER_6: "Mittlere $NHSC_MASS_DRIVER_6$"
 MEDIUM_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
-LARGE_NHSC_MASS_DRIVER_6: "Large $NHSC_MASS_DRIVER_6$"
+LARGE_NHSC_MASS_DRIVER_6: "Große $NHSC_MASS_DRIVER_6$"
 LARGE_NHSC_MASS_DRIVER_6_DESC: "$NHSC_MASS_DRIVER_6_DESC$"
 
 ########################################
 ###           Strike Cannon          ###
 ########################################
 
-NHSC_MASS_DRIVER_7: "Strike Cannon"
-NHSC_MASS_DRIVER_7_DESC: "A compact but deadly magnetic-accelerator cannon."
-SMALL_NHSC_MASS_DRIVER_7: "Small $NHSC_MASS_DRIVER_7$"
+NHSC_MASS_DRIVER_7: "Strikekanone"
+NHSC_MASS_DRIVER_7_DESC: "Eine kompakte, aber tödliche Magnetbeschleunigerkanone."
+SMALL_NHSC_MASS_DRIVER_7: "Kleine $NHSC_MASS_DRIVER_7$"
 SMALL_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
-MEDIUM_NHSC_MASS_DRIVER_7: "Medium $NHSC_MASS_DRIVER_7$"
+MEDIUM_NHSC_MASS_DRIVER_7: "Mittlere $NHSC_MASS_DRIVER_7$"
 MEDIUM_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
-LARGE_NHSC_MASS_DRIVER_7: "Large $NHSC_MASS_DRIVER_7$"
+LARGE_NHSC_MASS_DRIVER_7: "Große $NHSC_MASS_DRIVER_7$"
 LARGE_NHSC_MASS_DRIVER_7_DESC: "$NHSC_MASS_DRIVER_7_DESC$"
 
 ########################################
 ###   Improved Stormfire Autocannon  ###
 ########################################
 
-NHSC_AUTOCANNON_4: "Improved Stormfire Autocannon"
-NHSC_AUTOCANNON_4_DESC: "An upgraded version of the proven stormfire autocannon with struddier mechanics and faster reload."
-MEDIUM_NHSC_AUTOCANNON_4: "Large $NHSC_AUTOCANNON_4$"
+NHSC_AUTOCANNON_4: "Verbesserte Sturmfeuer-Autokanone"
+NHSC_AUTOCANNON_4_DESC: "Eine verbesserte Version der bewährten Sturmfeuer-Autokanone mit robusterer Mechanik und schnellerem Nachladen."
+MEDIUM_NHSC_AUTOCANNON_4: "Große $NHSC_AUTOCANNON_4$"
 MEDIUM_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
-LARGE_NHSC_AUTOCANNON_4: "Extra-large $NHSC_AUTOCANNON_4$"
+LARGE_NHSC_AUTOCANNON_4: "Extra-Große $NHSC_AUTOCANNON_4$"
 LARGE_NHSC_AUTOCANNON_4_DESC: "$NHSC_AUTOCANNON_4_DESC$"
 
 ########################################
 ###       Shredder Autocannon        ###
 ########################################
 
-NHSC_AUTOCANNON_5: "Shredder Autocannon"
-NHSC_AUTOCANNON_5_DESC: "An autocannon that shreds enemies to pieces with a storm of bullets."
-MEDIUM_NHSC_AUTOCANNON_5: "Large $NHSC_AUTOCANNON_5$"
+NHSC_AUTOCANNON_5: "Schredder-Autokanone"
+NHSC_AUTOKANONE_5_DESC: "Eine Autokanone, die Feinde mit einem Kugelhagel in Stücke zerfetzt."
+MEDIUM_NHSC_AUTOCANNON_5: "Große $NHSC_AUTOCANNON_5$"
 MEDIUM_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
-LARGE_NHSC_AUTOCANNON_5: "Extra-large $NHSC_AUTOCANNON_5$"
+LARGE_NHSC_AUTOCANNON_5: "Extra-Große $NHSC_AUTOCANNON_5$"
 LARGE_NHSC_AUTOCANNON_5_DESC: "$NHSC_AUTOCANNON_5_DESC$"
 
 ########################################
 ###    Improved Kinetic Artillery    ###
 ########################################
 
-NHSC_ARTILLERY_3: "Improved Kinetic Artillery"
-NHSC_ARTILLERY_3_DESC: "An upgraded version of Kinetic Artillery cannon that is more accurate and powerful."
+NHSC_ARTILLERY_3: "Verbesserte Kinetische Artillerie"
+NHSC_ARTILLERY_3_DESC: "Eine verbesserte Version der kinetischen Artilleriekanone, die genauer und leistungsfähiger ist."
 
 ########################################
 ###       Skypiercer Artillery       ###
 ########################################
 
-NHSC_ARTILLERY_4: "Skypiercer Artillery"
-NHSC_ARTILLERY_4_DESC: "An artillery cannon that pierces enemies and skies alike with its powerful shells."
+NHSC_ARTILLERY_4: "Himmelsteiler-Artillerie"
+NHSC_ARTILLERY_4_DESC: "Eine Artilleriekanone, die mit ihren mächtigen Geschossen Feinde und Himmel gleichermaßen durchbohrt."
 
 ########################################
 ###       Improved Giga-Cannon       ###
 ########################################
 
-NHSC_MASS_ACCELERATOR_3: "Improved Giga-Cannon"
-NHSC_MASS_ACCELERATOR_3_DESC: "The new generation of giga-cannons that even more powerful and accurate."
+NHSC_MASS_ACCELERATOR_3: "Verbesserte Giga-Kanone"
+NHSC_MASS_ACCELERATOR_3_DESC: "Die neue Generation von Giga-Kanonen, die noch leistungsfähiger und genauer sind."
 
 ########################################
 ###         The Grand Cannon         ###
 ########################################
 
 NHSC_MASS_ACCELERATOR_4: "The Grand Cannon"
-NHSC_MASS_ACCELERATOR_4_DESC: "The best long-range kinetic weapon possible!"
+NHSC_MASS_ACCELERATOR_4_DESC: "Die bestmögliche kinetische Langstreckenwaffe!"
 
 ########################################
 ###    Magnetohydrodynamic Cannon    ###
 ########################################
 
-NHSC_MHD_CANNON: "Magnetohydrodynamic Cannon"
-NHSC_MHD_CANNON_DESC: "A powerful weapon that fires streams of molten metal at relativistic speeds."
+NHSC_MHD_CANNON: "Magnetohydrodynamische Kanone"
+NHSC_MHD_CANNON_DESC: "Eine mächtige Waffe, die Ströme von geschmolzenem Metall mit relativistischer Geschwindigkeit abfeuert."
 NHSC_MHD_CANNON_TITANIC: "$NHSC_MHD_CANNON$"
 NHSC_MHD_CANNON_TITANIC_DESC: "$NHSC_MHD_CANNON_DESC$"
 NHSC_MHD_CANNON_JUGGERNAUT: "$NHSC_MHD_CANNON$ ($juggernaut$)"
@@ -93,50 +93,50 @@ NHSC_MHD_CANNON_JUGGERNAUT_DESC: "$NHSC_MHD_CANNON_DESC$"
 ###      Improved Flak Artillery     ###
 ########################################
 
-NHSC_FLAK_CANNON_4: "Improved Flak Artillery"
-NHSC_FLAK_CANNON_4_DESC: "The next generation of flak batteries that are more accurate and powerful than ever before."
+NHSC_FLAK_CANNON_4: "Verbesserte Flak-Artillerie"
+NHSC_FLAK_CANNON_4_DESC: "Die nächste Generation von Flakbatterien, die präziser und leistungsfähiger sind als je zuvor."
 
 ########################################
 ###        Ironcloud Defender        ###
 ########################################
 
-NHSC_FLAK_CANNON_5: "Ironcloud Defender"
-NHSC_FLAK_CANNON_5_DESC: "The ultimate flak cannon; nothing can get past it."
+NHSC_FLAK_CANNON_5: "Eisenwolken-Flak-Artillerie"
+NHSC_FLAK_CANNON_5_DESC: "Die ultimative Flakkanone; nichts kann ihr entgehen."
 
 ########################################
 ###      Protector Point-Defense     ###
 ########################################
 
-NHSC_POINT_DEFENSE_4: "Protector Point-Defense"
-NHSC_POINT_DEFENSE_4_DESC: "An upgraded version of Guardian point-defense system with better tracking algorithms and more powerful guns."
+NHSC_POINT_DEFENSE_4: "Beschützer-Punktverteidigung"
+NHSC_POINT_DEFENSE_4_DESC: "Eine verbesserte Version des Garde-Punktverteidigungssystems mit besseren Verfolgungsalgorithmen und leistungsfähigeren Geschützen."
 
 ########################################
 ###    Iron Curtain Point Defense    ###
 ########################################
 
-NHSC_POINT_DEFENSE_5: "Iron Curtain Point Defense"
-NHSC_POINT_DEFENSE_5_DESC: "The ultimate point-defense system."
+NHSC_POINT_DEFENSE_5: "Eiserner Vorhang-Punktverteidigung"
+NHSC_POINT_DEFENSE_5_DESC: "Das ultimative Punktverteidigungssystem."
 
 ########################################
 ###       Hailstorm Autocannon       ###
 ########################################
 
-NHSC_AUTOCANNON_X_1: "Hailstorm Autocannon"
-NHSC_AUTOCANNON_X_1_DESC: "A gigantic autocannon that can deliver truly staggering amounts of dakka."
+NHSC_AUTOCANNON_X_1: "Hagelsturm-Autokanone"
+NHSC_AUTOCANNON_X_1_DESC: "Eine gigantische Autokanone, die wahrhaft schwindelerregende Mengen an Schaden austeilen kann."
 
 ########################################
 ###       Firestorm Autocannon       ###
 ########################################
 
-NHSC_AUTOCANNON_X_2: "Firestorm Autocannon"
-NHSC_AUTOCANNON_X_2_DESC: "An upgraded version of the Hailstorm Autocannon, capable of even greater amounts of dakka."
+NHSC_AUTOCANNON_X_2: "Feuersturm-Autokanone"
+NHSC_AUTOCANNON_X_2_DESC: "Eine verbesserte Version der Hagelsturm-Autokanone, die noch größere Mengen an Schaden austeilen kann."
 
 ########################################
 ###        Tempest Autocannon        ###
 ########################################
 
-NHSC_AUTOCANNON_T: "Tempest Autocannon"
-NHSC_AUTOCANNON_T_DESC: "A truly titanic autocannon with an unprecedent power. May our enemies melt before it."
+NHSC_AUTOCANNON_T: "Strum-Autokanone"
+NHSC_AUTOCANNON_T_DESC: "Eine wahrhaft titanische Autokanone mit einer nie dagewesenen Kraft. Mögen unsere Feinde vor ihr schmelzen."
 NHSC_AUTOCANNON_J: "$NHSC_AUTOCANNON_T$ ($juggernaut$)"
 NHSC_AUTOCANNON_J_DESC: "$NHSC_AUTOCANNON_T_DESC$"
 
@@ -144,23 +144,23 @@ NHSC_AUTOCANNON_J_DESC: "$NHSC_AUTOCANNON_T_DESC$"
 ###       Juggernaut Artillery       ###
 ########################################
 
-NHSC_JUGGERNAUT_ARTILLERY_1: "Juggernaut Artillery"
-NHSC_JUGGERNAUT_ARTILLERY_1_DESC: "A kinetic artillery cannon, tailored for the Juggernaut warship."
-NHSC_JUGGERNAUT_ARTILLERY_2: "Improved $NHSC_JUGGERNAUT_ARTILLERY_1$"
-NHSC_JUGGERNAUT_ARTILLERY_2_DESC: "An improved verion of the $NHSC_JUGGERNAUT_ARTILLERY_1$, capable of dealing even more damage."
+NHSC_JUGGERNAUT_ARTILLERY_1: "Juggernaut-Artillerie"
+NHSC_JUGGERNAUT_ARTILLERY_1_DESC: "Eine kinetische Artilleriekanone, maßgeschneidert für das Juggernaut-Kriegsschiff."
+NHSC_JUGGERNAUT_ARTILLERY_2: "Verbesserte $NHSC_JUGGERNAUT_ARTILLERY_1$"
+NHSC_JUGGERNAUT_ARTILLERY_2_DESC: "Eine verbesserte Version der $NHSC_JUGGERNAUT_ARTILLERY_1$, die noch mehr Schaden anrichten kann."
 
 ########################################
 ###       Juggernaut PD System       ###
 ########################################
 
-NHSC_JUGGERNAUT_POINT_DEFENSE_1: "Juggernaut Point-Defense System"
-NHSC_JUGGERNAUT_POINT_DEFENSE_1_DESC: "A point-defense system, tailored for the Juggernaut warship."
-NHSC_JUGGERNAUT_POINT_DEFENSE_2: "Improved $NHSC_JUGGERNAUT_POINT_DEFENSE_1$"
-NHSC_JUGGERNAUT_POINT_DEFENSE_2_DESC: "An improved version of the $NHSC_JUGGERNAUT_POINT_DEFENSE_1$ with better targeting algorithms and more powerful cannons."
+NHSC_JUGGERNAUT_POINT_DEFENSE_1: "Juggernaut-Punktverteidigungssystem"
+NHSC_JUGGERNAUT_POINT_DEFENSE_1_DESC: "Ein Punktverteidigungssystem, das auf das Juggernaut-Kriegsschiff zugeschnitten ist."
+NHSC_JUGGERNAUT_POINT_DEFENSE_2: "Verbessertes $NHSC_JUGGERNAUT_POINT_DEFENSE_1$"
+NHSC_JUGGERNAUT_POINT_DEFENSE_2_DESC: "Eine verbesserte Version des $NHSC_JUGGERNAUT_POINT_DEFENSE_1$ mit besseren Zielalgorithmen und stärkeren Kanonen."
 
 ########################################
 ###         Asteroid Thrower         ###
 ########################################
 
-NHSC_ASTEROID_THROWER: "Asteroid Thrower"
-NHSC_ASTEROID_THROWER_DESC: "A very simplistic weapon for space combat that amounts to throwing a large rock at the enemy. Still, it's surprisingly effective because the thrown rock is BIG."
+NHSC_ASTEROID_THROWER: "Asteroiden-Werfer"
+NHSC_ASTEROID_THROWER_DESC: "Eine sehr einfache Waffe für den Weltraumkampf, die darauf hinausläuft, einen großen Stein auf den Feind zu werfen. Dennoch ist sie erstaunlich effektiv, da der geworfene Stein RIESIG ist."

@@ -1,43 +1,43 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###             Sensors              ###
 ########################################
 
-NHSC_ADV_TACHYON_SENSOR_SHIP: "Advanced Tachyon Sensors"
-NHSC_ADV_TACHYON_SENSOR_SHIP_DESC: "New generation of Tachyon Sensors that offer greater perception of the world around."
+NHSC_ADV_TACHYON_SENSOR_SHIP: "Erweiterte Tachyonensensoren"
+NHSC_ADV_TACHYON_SENSOR_SHIP_DESC: "Neue Generation von Tachyonensensoren, die eine bessere Wahrnehmung der Welt um uns herum ermöglichen."
 NHSC_ADV_TACHYON_SENSOR_STATION: "$NHSC_ADV_TACHYON_SENSOR_SHIP$"
 NHSC_ADV_TACHYON_SENSOR_STATION_DESC: "$NHSC_ADV_TACHYON_SENSOR_SHIP_DESC$"
 
-NHSC_STRING_SENSOR_SHIP: "String Sensor"
-NHSC_STRING_SENSOR_SHIP_DESC: "A sensor that uses dimensional strings to perceive the world."
+NHSC_STRING_SENSOR_SHIP: "Stringsensor"
+NHSC_STRING_SENSOR_SHIP_DESC: "Ein Sensor, der dimensionale Strings verwendet, um die Welt wahrzunehmen."
 NHSC_STRING_SENSOR_STATION: "$NHSC_STRING_SENSOR_SHIP$"
 NHSC_STRING_SENSOR_STATION_DESC: "$NHSC_STRING_SENSOR_SHIP_DESC$"
 
-NHSC_ADV_STRING_SENSOR_SHIP: "Advanced String Sensor"
-NHSC_ADV_STRING_SENSOR_SHIP_DESC: "Next generation of String-based sensors that sees more than anything devised ever before."
+NHSC_ADV_STRING_SENSOR_SHIP: "Erweiterter Stringsensor"
+NHSC_ADV_STRING_SENSOR_SHIP_DESC: "Die nächste Generation von String-basierten Sensoren, die mehr sehen als alles, was je zuvor entwickelt wurde."
 NHSC_ADV_STRING_SENSOR_STATION: "$NHSC_ADV_STRING_SENSOR_SHIP$"
 NHSC_ADV_STRING_SENSOR_STATION_DESC: "$NHSC_ADV_STRING_SENSOR_SHIP_DESC$"
 
-NHSC_PSI_SENSOR_SHIP: "Psionic Sensor"
-NHSC_PSI_SENSOR_SHIP_DESC: "A sensor that allows crews' psionic powers to guide them through the cosmos."
+NHSC_PSI_SENSOR_SHIP: "Psionischer Sensor"
+NHSC_PSI_SENSOR_SHIP_DESC: "Ein Sensor, der die psionischen Kräfte der Besatzung nutzt, um sie durch den Kosmos zu führen."
 NHSC_PSI_SENSOR_STATION: "$NHSC_PSI_SENSOR_SHIP$"
 NHSC_PSI_SENSOR_STATION_DESC: "$NHSC_PSI_SENSOR_SHIP_DESC$"
 
-NHSC_PRECURSOR_SENSOR_ARRAY: "Precursor Sensor Array"
-NHSC_PRECURSOR_SENSOR_ARRAY_DESC: "These sensor arrays have been developed eons ago by precursor civizations. Their inner workings rely on using $sr_dark_matter$ in the ways that were believed impossible."
+NHSC_PRECURSOR_SENSOR_ARRAY: "Vorläufer-Sensor-Array"
+NHSC_PRECURSOR_SENSOR_ARRAY_DESC: "Diese Sensor-Arrays wurden vor Äonen von Vorläufer-Zivilisationen entwickelt. Ihr Innenleben beruht auf der Nutzung von $sr_dark_matter$ in einer Weise, die man für unmöglich hielt."
 
-NHSC_SHROUD_EYE_SENSOR: "Shroud Eye"
-NHSC_SHROUD_EYE_SENSOR_DESC: "This psionic entity perceives our realm through the mysterious Shroud Eye."
+NHSC_SHROUD_EYE_SENSOR: "Schleierauge"
+NHSC_SHROUD_EYE_SENSOR_DESC: "Dieses psionische Wesen nimmt unser Reich durch das mysteriöse Schleierauge wahr."
 
 ########################################
 ###            Thrusters             ###
 ########################################
 
-NHSC_ADV_THRUSTERS_1: "Antimatter Thrusters"
-NHSC_ADV_THRUSTERS_1_DESC: "Harnessing the energy produced via matter-antimatter annihilation, we can create engines more powerful than ever before."
+NHSC_ADV_THRUSTERS_1: "Antimaterie-Triebwerke"
+NHSC_ADV_THRUSTERS_1_DESC: "Indem wir uns die Energie zunutze machen, die bei der Materie-Antimaterie-Annihilation entsteht, können wir Triebwerke schaffen, die leistungsfähiger sind als je zuvor."
 DESTROYER_NHSC_ADV_THRUSTERS_1: "$NHSC_ADV_THRUSTERS_1$"
 DESTROYER_NHSC_ADV_THRUSTERS_1_DESC: "$NHSC_ADV_THRUSTERS_1_DESC$"
 CRUISER_NHSC_ADV_THRUSTERS_1: "$NHSC_ADV_THRUSTERS_1$"
@@ -59,8 +59,8 @@ DREADNOUGHT_NHSC_ADV_THRUSTERS_1_DESC: "$NHSC_ADV_THRUSTERS_1_DESC$"
 FLAGSHIP_NHSC_ADV_THRUSTERS_1: "$NHSC_ADV_THRUSTERS_1$"
 FLAGSHIP_NHSC_ADV_THRUSTERS_1_DESC: "$NHSC_ADV_THRUSTERS_1_DESC$"
 
-NHSC_ADV_THRUSTERS_2: "Gravity Manipulation Engines"
-NHSC_ADV_THRUSTERS_2_DESC: "While not real thrusters, these engines manipulate gravitational field to move ships with speed and precision impossible for more conventional systems."
+NHSC_ADV_THRUSTERS_2: "Schwerkraftmanipulation-Triebwerke"
+NHSC_ADV_THRUSTERS_2_DESC: "Diese Triebwerke sind zwar keine echten Triebwerke, aber sie manipulieren das Gravitationsfeld, um Schiffe mit einer Geschwindigkeit und Präzision zu bewegen, die für herkömmliche Systeme unmöglich ist."
 DESTROYER_NHSC_ADV_THRUSTERS_2: "$NHSC_ADV_THRUSTERS_2$"
 DESTROYER_NHSC_ADV_THRUSTERS_2_DESC: "$NHSC_ADV_THRUSTERS_2_DESC$"
 CRUISER_NHSC_ADV_THRUSTERS_2: "$NHSC_ADV_THRUSTERS_2$"
@@ -82,15 +82,15 @@ DREADNOUGHT_NHSC_ADV_THRUSTERS_2_DESC: "$NHSC_ADV_THRUSTERS_2_DESC$"
 FLAGSHIP_NHSC_ADV_THRUSTERS_2: "$NHSC_ADV_THRUSTERS_2$"
 FLAGSHIP_NHSC_ADV_THRUSTERS_2_DESC: "$NHSC_ADV_THRUSTERS_2_DESC$"
 
-NHSC_MYSTERIOUS_FORCE: "Mysterious Force"
-NHSC_MYSTERIOUS_FORCE_DESC: "This psionic entity is using unknown form of energy manipulation to move itself though space."
+NHSC_MYSTERIOUS_FORCE: "Mysteriöse Kraft"
+NHSC_MYSTERIOUS_FORCE_DESC: "Dieses psionische Wesen benutzt eine unbekannte Form der Energiemanipulation, um sich durch den Raum zu bewegen."
 
 ########################################
 ###            Computers             ###
 ########################################
 
-NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER: "Automated Dreadnought Protocols"
-NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_DESC: "A combat computer that uses the Automated Dreadnought algorithms."
+NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER: "Automatisierter Dreadnought-Kampfalgorithmen"
+NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_DESC: "Ein Kampfcomputer, der die automatisierten Dreadnought-Algorithmen verwendet."
 NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_ARTILLERY: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER$ (Artillery)"
 NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_ARTILLERY_DESC: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_DESC$"
 NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_CARRIER: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER$ (Carrier)"
@@ -102,11 +102,11 @@ NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_PICKET_DESC: "$NHSC_DREADNOUGHT_PROTOCOLS_CO
 NHSC_DREADNOUGHT_COMPUTER_HEADQUARTERS: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER$ (Headquarters)"
 NHSC_DREADNOUGHT_COMPUTER_HEADQUARTERS_DESC: "$NHSC_DREADNOUGHT_PROTOCOLS_COMPUTER_DESC$"
 
-nhsc_carrier_behavior: "Carrier Behavior"
-nhsc_carrier_behavior_DESC: "§HCarrier Tactics:§! Ships will stay at long range (§Y150§!) while attacking enemies with artillery and swarms of strikecrafts."
+nhsc_carrier_behavior: "Trägerverhalten"
+nhsc_carrier_behavior_DESC: "§HTräger Taktiken:§! Schiffe bleiben auf große Entfernung (§Y150§!) und greifen die Feinde mit Artillerie und Schwärmen von Kampfflugzeugen an."
 
-NHSC_NANITE_COMPUTER: "Nanite Thought Matrix"
-NHSC_NANITE_COMPUTER_DESC: "Specialized nanite substrate running AI set to mimic minds of the greatest admirals known to our empire."
+NHSC_NANITE_COMPUTER: "Naniten-Gedankenmatrix"
+NHSC_NANITE_COMPUTER_DESC: "Spezialisiertes Nanitensubstrat mit einer KI, die den Verstand der größten Admiräle unseres Imperiums nachahmt."
 NHSC_NANITE_COMPUTER_ARTILLERY: "$NHSC_NANITE_COMPUTER$ (Artillery)"
 NHSC_NANITE_COMPUTER_ARTILLERY_DESC: "$NHSC_NANITE_COMPUTER_DESC$"
 NHSC_NANITE_COMPUTER_CARRIER: "$NHSC_NANITE_COMPUTER$ (Carrier)"
@@ -128,8 +128,8 @@ NHSC_NANITE_COMPUTER_HEADQUARTERS_DESC: "$NHSC_NANITE_COMPUTER_DESC$"
 ###      Non-usable Computers        ###
 ########################################
 
-NHSC_FE_COMP_MAT_TITAN: "Sentient Neural Network Assistant"
-NHSC_FE_COMP_MAT_TITAN_DESC: "Incredibly-advanced combat computer that can think for itself."
+NHSC_FE_COMP_MAT_TITAN: "Intelligenter Neuronaler Netzassistent"
+NHSC_FE_COMP_MAT_TITAN_DESC: "Unglaublich fortschrittlicher Kampfcomputer, der selbständig denken kann."
 NHSC_FE_COMP_MAT_BATTLECRUISER: "$NHSC_FE_COMP_MAT_TITAN$"
 NHSC_FE_COMP_MAT_BATTLECRUISER_DESC: "$NHSC_FE_COMP_MAT_TITAN_DESC$"
 NHSC_FE_COMP_MAT_ESCORT: "$NHSC_FE_COMP_MAT_TITAN$"
@@ -139,8 +139,8 @@ NHSC_FE_COMP_MAT_PLATFORM_DESC: "$NHSC_FE_COMP_MAT_TITAN_DESC$"
 NHSC_FE_COMP_MAT_STARBASE: "$NHSC_FE_COMP_MAT_TITAN$"
 NHSC_FE_COMP_MAT_STARBASE_DESC: "$NHSC_FE_COMP_MAT_TITAN_DESC$"
 
-NHSC_FE_COMP_SPI_TITAN: "Shroud Guide"
-NHSC_FE_COMP_SPI_TITAN_DESC: "Spritual advisor that helps combat unfaithful."
+NHSC_FE_COMP_SPI_TITAN: "Schleierführer"
+NHSC_FE_COMP_SPI_TITAN_DESC: "Spritueller Berater, der bei der Bekämpfung von Ungläubigen hilft."
 NHSC_FE_COMP_SPI_BATTLECRUISER: "$NHSC_FE_COMP_SPI_TITAN$"
 NHSC_FE_COMP_SPI_BATTLECRUISER_DESC: "$NHSC_FE_COMP_SPI_TITAN_DESC$"
 NHSC_FE_COMP_SPI_ESCORT: "$NHSC_FE_COMP_SPI_TITAN$"
@@ -150,8 +150,8 @@ NHSC_FE_COMP_SPI_PLATFORM_DESC: "$NHSC_FE_COMP_SPI_TITAN_DESC$"
 NHSC_FE_COMP_SPI_STARBASE: "$NHSC_FE_COMP_SPI_TITAN$"
 NHSC_FE_COMP_SPI_STARBASE_DESC: "$NHSC_FE_COMP_SPI_TITAN_DESC$"
 
-NHSC_FE_COMP_XPB_TITAN: "Xenocide Engine"
-NHSC_FE_COMP_XPB_TITAN_DESC: "Combat computer optimized for cleansing the galaxy from unworthy xenos."
+NHSC_FE_COMP_XPB_TITAN: "Xenozid-Motor"
+NHSC_FE_COMP_XPB_TITAN_DESC: "Kampfcomputer, optimiert für die Säuberung der Galaxie von unwürdigen Xenos."
 NHSC_FE_COMP_XPB_BATTLECRUISER:  "$NHSC_FE_COMP_XPB_TITAN$"
 NHSC_FE_COMP_XPB_BATTLECRUISER_DESC: "$NHSC_FE_COMP_XPB_TITAN_DESC$"
 NHSC_FE_COMP_XPB_ESCORT:  "$NHSC_FE_COMP_XPB_TITAN$"
@@ -161,8 +161,8 @@ NHSC_FE_COMP_XPB_PLATFORM_DESC: "$NHSC_FE_COMP_XPB_TITAN_DESC$"
 NHSC_FE_COMP_XPB_STARBASE: "$NHSC_FE_COMP_XPB_TITAN$"
 NHSC_FE_COMP_XPB_STARBASE_DESC: "$NHSC_FE_COMP_XPB_TITAN_DESC$"
 
-NHSC_FE_COMP_XPL_TITAN: "Galaxy Guardian Adviser"
-NHSC_FE_COMP_XPL_TITAN_DESC: "Peace through superior firepower."
+NHSC_FE_COMP_XPL_TITAN: "Galaxiewächter-Berater"
+NHSC_FE_COMP_XPL_TITAN_DESC: "Frieden durch überlegene Feuerkraft"
 NHSC_FE_COMP_XPL_BATTLECRUISER: "$NHSC_FE_COMP_XPL_TITAN$"
 NHSC_FE_COMP_XPL_BATTLECRUISER_DESC: "$NHSC_FE_COMP_XPL_TITAN_DESC$"
 NHSC_FE_COMP_XPL_ESCORT: "$NHSC_FE_COMP_XPL_TITAN$"
@@ -172,8 +172,8 @@ NHSC_FE_COMP_XPL_PLATFORM_DESC: "$NHSC_FE_COMP_XPL_TITAN_DESC$"
 NHSC_FE_COMP_XPL_STARBASE: "$NHSC_FE_COMP_XPL_TITAN$"
 NHSC_FE_COMP_XPL_STARBASE_DESC: "$NHSC_FE_COMP_XPL_TITAN_DESC$"
 
-NHSC_FE_COMP_MCH_TITAN: "Custodian Matrix"
-NHSC_FE_COMP_MCH_TITAN_DESC: "Specialized computer system designed for fight against eradicator machines."
+NHSC_FE_COMP_MCH_TITAN: "Wächtermatrix"
+NHSC_FE_COMP_MCH_TITAN_DESC: "Spezialisiertes Computersystem für den Kampf gegen Ausrottungsmaschinen."
 NHSC_FE_COMP_MCH_BATTLECRUISER: "$NHSC_FE_COMP_MCH_TITAN$"
 NHSC_FE_COMP_MCH_BATTLECRUISER_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
 NHSC_FE_COMP_MCH_ESCORT: "$NHSC_FE_COMP_MCH_TITAN$"
@@ -183,39 +183,39 @@ NHSC_FE_COMP_MCH_PLATFORM_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
 NHSC_FE_COMP_MCH_STARBASE: "$NHSC_FE_COMP_MCH_TITAN$"
 NHSC_FE_COMP_MCH_STARBASE_DESC: "$NHSC_FE_COMP_MCH_TITAN_DESC$"
 
-NHSC_AI_COMPUTER: "Organic Eradication Neural Network"
-NHSC_AI_COMPUTER_DESC: "A combat computer otimized to kill despicable meatbags."
+NHSC_AI_COMPUTER: "Neuronales Organisches Ausrottungsnetzwerk"
+NHSC_AI_COMPUTER_DESC: "Ein Kampfcomputer, der auf die Tötung verachtenswerter Fleischsäcke optimiert ist."
 
-NHSC_GRAY_GOO_COMPUTER_LINE: "Nanite Thought Matrix"
-NHSC_GRAY_GOO_COMPUTER_LINE_DESC: "A cluster of nanites imitating a brain of a genius admiral from long-dead species."
+NHSC_GRAY_GOO_COMPUTER_LINE: "Naniten-Gedankenmatrix"
+NHSC_GRAY_GOO_COMPUTER_LINE_DESC: "Ein Cluster von Naniten, die das Gehirn eines genialen Admirals einer längst verstorbenen Spezies imitieren."
 NHSC_GRAY_GOO_COMPUTER_ARTILLERY: "$NHSC_GRAY_GOO_COMPUTER_LINE$"
 NHSC_GRAY_GOO_COMPUTER_ARTILLERY_DESC: "$NHSC_GRAY_GOO_COMPUTER_LINE_DESC$"
 NHSC_GRAY_GOO_COMPUTER_PLATFORM: "$NHSC_GRAY_GOO_COMPUTER_LINE$"
 NHSC_GRAY_GOO_COMPUTER_PLATFORM_DESC: "$NHSC_GRAY_GOO_COMPUTER_LINE_DESC$"
 
-NHSC_SHROUD_CONSCIOUSNESS_GOOD: "Shroud Consciousness"
-NHSC_SHROUD_CONSCIOUSNESS_GOOD_DESC: "A mind guiding this Shroud manifestation."
-NHSC_SHROUD_CONSCIOUSNESS_BAD: "Corrupted Shroud Consciousness"
-NHSC_SHROUD_CONSCIOUSNESS_BAD_DESC: "A warped, corrupted mind guiding this Shroud manifestation."
+NHSC_SHROUD_CONSCIOUSNESS_GOOD: "Schleierbewusstsein"
+NHSC_SHROUD_CONSCIOUSNESS_GOOD_DESC: "Ein Geist, der diese Schleiermanifestation lenkt."
+NHSC_SHROUD_CONSCIOUSNESS_BAD: "Korrumpiertes Schleierbewusstsein"
+NHSC_SHROUD_CONSCIOUSNESS_BAD_DESC: "Ein verzerrter, korrumpierter Geist, der diese Schleiermanifestation steuert."
 
 ########################################
 ###            Jump Drives           ###
 ########################################
 
-NHSC_JUMP_DRIVE_2: "Improved Jump Drive"
-NHSC_JUMP_DRIVE_2_DESC: "The second generation jump drive that features extended jump range and reduced recharge time."
+NHSC_JUMP_DRIVE_2: "Verbesserter Sprungantrieb"
+NHSC_JUMP_DRIVE_2_DESC: "Der Sprungantrieb der zweiten Generation mit erweiterter Sprungreichweite und verkürzter Wiederaufladezeit."
 
-NHSC_JUMP_DRIVE_3: "Supercharged Jump Drive"
-NHSC_JUMP_DRIVE_3_DESC: "This jump drive is designed to be overclocked, allowing for far superior performance - if one can supply it with sufficient power."
+NHSC_JUMP_DRIVE_3: "Supergeladener Sprungantrieb"
+NHSC_JUMP_DRIVE_3_DESC: "Dieser Sprungantrieb ist so konzipiert, dass er übertaktet werden kann, was eine weitaus höhere Leistung ermöglicht - wenn man ihn mit ausreichend Strom versorgen kann."
 
-NHSC_JUMP_DRIVE_PRECURSOR: "Precursor Jump Drive"
-NHSC_JUMP_DRIVE_PRECURSOR_DESC: "A jump drive, perfected by those who came long before us."
+NHSC_JUMP_DRIVE_PRECURSOR: "Vorläufer-Sprungantrieb"
+NHSC_JUMP_DRIVE_PRECURSOR_DESC: "Ein Sprungantrieb, der von denen perfektioniert wurde, die lange vor uns kamen."
 
-NHSC_PSI_JUMP_DRIVE_2: "Improved Psionic Jump Drive"
-NHSC_PSI_JUMP_DRIVE_2_DESC: "An improved version of a psionic Jump Drive with longer range and faster recovery."
+NHSC_PSI_JUMP_DRIVE_2: "Verbesserter Psionischer Sprungantrieb"
+NHSC_PSI_JUMP_DRIVE_2_DESC: "Eine verbesserte Version eines psionischen Sprungantriebs mit größerer Reichweite und schnellerer Erholung."
 
-NHSC_PSI_JUMP_DRIVE_3: "Shroud Guide"
-NHSC_PSI_JUMP_DRIVE_3_DESC: "This device is a materialized pack between our psionics and a Shroud entity that agreed to guide us safely through its home dimension."
+NHSC_PSI_JUMP_DRIVE_3: "Schleierführer"
+NHSC_PSI_JUMP_DRIVE_3_DESC: "Dieses Gerät ist ein materialisiertes Paket zwischen unserer Psionik und einer Schleier-Entität, die sich bereit erklärt hat, uns sicher durch ihre Heimatdimension zu führen."
 
-NHSC_SHROUD_GATE: "Shroud Gate"
-NHSC_SHROUD_GATE_DESC: "This psionic manifestation is capable of opening portals between our realm and the Shroud, which allows it to travel between stars at incredible speeds."
+NHSC_SHROUD_GATE: "Schleiertor"
+NHSC_SHROUD_GATE_DESC: "Diese psionische Manifestation ist in der Lage, Portale zwischen unserem Reich und dem Schleier zu öffnen, was ihr erlaubt, mit unglaublicher Geschwindigkeit zwischen den Sternen zu reisen."

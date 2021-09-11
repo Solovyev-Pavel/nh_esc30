@@ -1,75 +1,80 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ### Gravitational Anomaly Projector  ###
 ########################################
 
-NHSC_SINGULARITY_CANNON_1: "Gravitational Anomaly Projector"
-NHSC_SINGULARITY_CANNON_1_DESC: "This weapon generates randomized gravitational waves to shake enemy ships apart."
-SMALL_NHSC_SINGULARITY_CANNON_1: "Small $NHSC_SINGULARITY_CANNON_1$"
+NHSC_SINGULARITY_CANNON_1: "Gravitationsanomalie-Projektor"
+NHSC_SINGULARITY_CANNON_1_DESC: "Diese Waffe erzeugt zufällige Gravitationswellen, um feindliche Schiffe zu zerschmettern."
+SMALL_NHSC_SINGULARITY_CANNON_1: "Kleiner $NHSC_SINGULARITY_CANNON_1$"
 SMALL_NHSC_SINGULARITY_CANNON_1_DESC: "$NHSC_SINGULARITY_CANNON_1_DESC$"
-MEDIUM_NHSC_SINGULARITY_CANNON_1: "Medium $NHSC_SINGULARITY_CANNON_1$"
+MEDIUM_NHSC_SINGULARITY_CANNON_1: "Mittlerer $NHSC_SINGULARITY_CANNON_1$"
 MEDIUM_NHSC_SINGULARITY_CANNON_1_DESC: "$NHSC_SINGULARITY_CANNON_1_DESC$"
-LARGE_NHSC_SINGULARITY_CANNON_1: "Large $NHSC_SINGULARITY_CANNON_1$"
+LARGE_NHSC_SINGULARITY_CANNON_1: "Großer $NHSC_SINGULARITY_CANNON_1$"
 LARGE_NHSC_SINGULARITY_CANNON_1_DESC: "$NHSC_SINGULARITY_CANNON_1_DESC$"
 
 ########################################
 ###    Spatial Distortion Cannon     ###
 ########################################
 
-NHSC_SINGULARITY_CANNON_2: "Spatial Distortion Cannon"
-NHSC_SINGULARITY_CANNON_2_DESC: "An improved, more powerful version of the Gravitational Anomaly Projector."
-SMALL_NHSC_SINGULARITY_CANNON_2: "Small $NHSC_SINGULARITY_CANNON_2$"
+NHSC_SINGULARITY_CANNON_2: "Räumliche Verzerrungskanone"
+NHSC_SINGULARITY_CANNON_2_DESC: "Eine verbesserte, leistungsstärkere Version des Gravitationsanomalie-Projektors."
+SMALL_NHSC_SINGULARITY_CANNON_2: "Kleine $NHSC_SINGULARITY_CANNON_2$"
 SMALL_NHSC_SINGULARITY_CANNON_2_DESC: "$NHSC_SINGULARITY_CANNON_2_DESC$"
-MEDIUM_NHSC_SINGULARITY_CANNON_2: "Medium $NHSC_SINGULARITY_CANNON_2$"
+MEDIUM_NHSC_SINGULARITY_CANNON_2: "Mittlere $NHSC_SINGULARITY_CANNON_2$"
 MEDIUM_NHSC_SINGULARITY_CANNON_2_DESC: "$NHSC_SINGULARITY_CANNON_2_DESC$"
-LARGE_NHSC_SINGULARITY_CANNON_2: "Large $NHSC_SINGULARITY_CANNON_2$"
+LARGE_NHSC_SINGULARITY_CANNON_2: "Große $NHSC_SINGULARITY_CANNON_2$"
 LARGE_NHSC_SINGULARITY_CANNON_2_DESC: "$NHSC_SINGULARITY_CANNON_2_DESC$"
 
 ########################################
 ###     Microsingularity Cannon      ###
 ########################################
 
-NHSC_SINGULARITY_CANNON_3: "Microsingularity Cannon"
-NHSC_SINGULARITY_CANNON_3_DESC: "This cannon shoots miniature, unstable spatial singularities that can easily annihilate all but sturdiest ships."
-SMALL_NHSC_SINGULARITY_CANNON_3: "Small $NHSC_SINGULARITY_CANNON_3$"
+NHSC_SINGULARITY_CANNON_3: "Mikrosingularitätskanone"
+NHSC_SINGULARITY_CANNON_3_DESC: "Diese Kanone verschießt instabile räumliche Miniatur-Singularitäten, die alle Schiffe außer den stabilsten vernichten können."
+SMALL_NHSC_SINGULARITY_CANNON_3: "Kleine $NHSC_SINGULARITY_CANNON_3$"
 SMALL_NHSC_SINGULARITY_CANNON_3_DESC: "$NHSC_SINGULARITY_CANNON_3_DESC$"
-MEDIUM_NHSC_SINGULARITY_CANNON_3: "Medium $NHSC_SINGULARITY_CANNON_3$"
+MEDIUM_NHSC_SINGULARITY_CANNON_3: "Mittlere $NHSC_SINGULARITY_CANNON_3$"
 MEDIUM_NHSC_SINGULARITY_CANNON_3_DESC: "$NHSC_SINGULARITY_CANNON_3_DESC$"
-LARGE_NHSC_SINGULARITY_CANNON_3: "Large $NHSC_SINGULARITY_CANNON_3$"
+LARGE_NHSC_SINGULARITY_CANNON_3: "Große $NHSC_SINGULARITY_CANNON_3$"
 LARGE_NHSC_SINGULARITY_CANNON_3_DESC: "$NHSC_SINGULARITY_CANNON_3_DESC$"
 
 ########################################
 ###    Spatial Distortion Warhead    ###
 ########################################
 
-NHSC_GRAVITY_TORPS_1: "Spatial Distortion Warhead"
-NHSC_GRAVITY_TORPS_1_DESC: "A torpedo that generates powerful gravitational waves, tearing anything near it apart on atomic level."
+NHSC_GRAVITY_TORPS_1: "Räumlicher Verzerrungssprengkopf"
+NHSC_GRAVITY_TORPS_1_DESC: "Ein Torpedo, der starke Gravitationswellen erzeugt und alles in seiner Nähe auf atomarer Ebene zerreißt."
 
 ########################################
 ###     Microsingularity Warhead     ###
 ########################################
 
-NHSC_GRAVITY_TORPS_2: "Microsingularity Warhead"
-NHSC_GRAVITY_TORPS_2_DESC: "Detonation of this warhead creates a small and very unstable black hole that will eat any ship unfortunate enough to be close to it before dissipating into nothingness."
+NHSC_GRAVITY_TORPS_2: "Mikrosingularitätssprengkopf"
+NHSC_GRAVITY_TORPS_2_DESC: "Die Detonation dieses Gefechtskopfes erzeugt ein kleines und sehr instabiles schwarzes Loch, das jedes Schiff verschlingt, das das Pech hat, sich in seiner Nähe aufzuhalten, bevor es sich in Nichts auflöst."
 
 ########################################
 ###       Super-Graviton Cannon      ###
 ########################################
 
-NHSC_GRAVITON_LANCE_1: "Super-Graviton Cannon"
-NHSC_GRAVITON_LANCE_1_DESC: "A particle cannon that warps space-time continuum along its firing path, tearing anything unlucky enough to be there apart."
+NHSC_GRAVITON_LANCE_1: "Super-Graviton-Kanone"
+NHSC_GRAVITON_LANCE_1_DESC: "Eine Partikelkanone, die das Raum-Zeit-Kontinuum entlang ihres Feuerweges verformt und alles zerreißt, was das Pech hat, sich dort zu befinden."
 
 ########################################
 ###   Focused Super-Graviton Cannon  ###
 ########################################
 
-NHSC_GRAVITON_LANCE_2: "Focused Super-Graviton Cannon"
-NHSC_GRAVITON_LANCE_2_DESC: "An improved version of the Super-Graviton Cannon."
-NHSC_GRAVITON_LANCE_TITANIC: "$NHSC_GRAVITON_LANCE_2$"
-NHSC_GRAVITON_LANCE_TITANIC_DESC: "$NHSC_GRAVITON_LANCE_2_DESC$"
+NHSC_GRAVITON_LANCE_2: "Fokussierte Super-Graviton-Kanone"
+NHSC_GRAVITON_LANCE_2_DESC: "Eine verbesserte Version der Super-Graviton-Kanone."
+
+########################################
+###   Titanic Super-Graviton Cannon  ###
+########################################
+
+NHSC_GRAVITON_LANCE_TITANIC: "Titanische Super-Graviton-Kanone"
+NHSC_GRAVITON_LANCE_TITANIC_DESC: "Eine übergroße Version der Super-Graviton-Kanone für die größten Schiffe unserer Flotte."
 NHSC_GRAVITON_LANCE_JUGGERNAUT: "$NHSC_GRAVITON_LANCE_1$ ($juggernaut$)"
 NHSC_GRAVITON_LANCE_JUGGERNAUT_DESC: "$NHSC_GRAVITON_LANCE_TITANIC_DESC$"
 
@@ -77,5 +82,5 @@ NHSC_GRAVITON_LANCE_JUGGERNAUT_DESC: "$NHSC_GRAVITON_LANCE_TITANIC_DESC$"
 ###        Singularity Bombers       ###
 ########################################
 
-NHSC_GRAVITY_BOMBERS: "Singularity Bombers"
-NHSC_GRAVITY_BOMBERS_DESC: "Strikecraft armed with gravity-based weapons."
+NHSC_GRAVITY_BOMBERS: "Singularitätsbomber"
+NHSC_GRAVITY_BOMBERS_DESC: "Mit schwerkraftbasierten Waffen bewaffnete Angriffsflugzeuge."

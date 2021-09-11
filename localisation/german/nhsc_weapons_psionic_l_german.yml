@@ -1,89 +1,89 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###      Psionic Blast Torpedo       ###
 ########################################
 
-NHSC_TORPEDO_PSI_1: "Psionic Blast Torpedo"
-NHSC_TORPEDO_PSI_1_DESC: "An energy torpedo that strikes our enemies with a powerful psionic blast."
+NHSC_TORPEDO_PSI_1: "Psionischer Strahltorpedo"
+NHSC_TORPEDO_PSI_1_DESC: "Ein Energietorpedo, der unsere Feinde mit einer mächtigen psionischen Explosion angreift."
 
 ########################################
 ###  Improved Psionic Blast Torpedo  ###
 ########################################
 
-NHSC_TORPEDO_PSI_2: "Improved Psionic Blast Torpedo"
-NHSC_TORPEDO_PSI_2_DESC: "An improved technology for containing psionic energies increases the blast power of the psionic torpedo."
+NHSC_TORPEDO_PSI_2: "Verbesserter Psionischer Strahltorpedo"
+NHSC_TORPEDO_PSI_2_DESC: "Eine verbesserte Technologie zur Eindämmung psionischer Energien erhöht die Explosionskraft des psionischen Torpedos."
 
 ########################################
 ###     Psionic Energy Projector     ###
 ########################################
 
-NHSC_CANNON_PSI_1: "Psionic Energy Projector"
-NHSC_CANNON_PSI_1_DESC: "An energy weapon that damages the targets with focused psionic energy."
-SMALL_NHSC_CANNON_PSI_1: "Small $NHSC_CANNON_PSI_1$"
+NHSC_CANNON_PSI_1: "Psionischer Energieprojektor"
+NHSC_CANNON_PSI_1_DESC: "Eine Energiewaffe, die Ziele mit fokussierter psionischer Energie schädigt."
+SMALL_NHSC_CANNON_PSI_1: "Kleiner $NHSC_CANNON_PSI_1$"
 SMALL_NHSC_CANNON_PSI_1_DESC: "$NHSC_CANNON_PSI_1_DESC$"
-MEDIUM_NHSC_CANNON_PSI_1: "Medium $NHSC_CANNON_PSI_1$"
+MEDIUM_NHSC_CANNON_PSI_1: "Mittlerer $NHSC_CANNON_PSI_1$"
 MEDIUM_NHSC_CANNON_PSI_1_DESC: "$NHSC_CANNON_PSI_1_DESC$"
-LARGE_NHSC_CANNON_PSI_1: "Large $NHSC_CANNON_PSI_1$"
+LARGE_NHSC_CANNON_PSI_1: "Großer $NHSC_CANNON_PSI_1$"
 LARGE_NHSC_CANNON_PSI_1_DESC: "$NHSC_CANNON_PSI_1_DESC$"
 
 ########################################
 ###       Psionic Wave Cannon        ###
 ########################################
 
-NHSC_CANNON_PSI_2: "Psionic Wave Cannon"
-NHSC_CANNON_PSI_2_DESC: "Improved focusing of psionic energies significantly increases the power of psionic projectors."
-SMALL_NHSC_CANNON_PSI_2: "Small $NHSC_CANNON_PSI_2$"
+NHSC_CANNON_PSI_2: "Psionische Wellenkanone"
+NHSC_CANNON_PSI_2_DESC: "Verbesserte Fokussierung von psionischen Energien erhöht die Leistung von psionischen Projektoren erheblich."
+SMALL_NHSC_CANNON_PSI_2: "Kleine $NHSC_CANNON_PSI_2$"
 SMALL_NHSC_CANNON_PSI_2_DESC: "$NHSC_CANNON_PSI_2_DESC$"
-MEDIUM_NHSC_CANNON_PSI_2: "Medium $NHSC_CANNON_PSI_2$"
+MEDIUM_NHSC_CANNON_PSI_2: "Mittlere $NHSC_CANNON_PSI_2$"
 MEDIUM_NHSC_CANNON_PSI_2_DESC: "$NHSC_CANNON_PSI_2_DESC$"
-LARGE_NHSC_CANNON_PSI_2: "Large $NHSC_CANNON_PSI_2$"
+LARGE_NHSC_CANNON_PSI_2: "Große $NHSC_CANNON_PSI_2$"
 LARGE_NHSC_CANNON_PSI_2_DESC: "$NHSC_CANNON_PSI_2_DESC$"
 
 ########################################
 ###       Psionic Beam Cannon        ###
 ########################################
 
-NHSC_CANNON_PSI_3: "Psionic Beam Cannon"
-NHSC_CANNON_PSI_3_DESC: "A narrow beam of psionic energy that can overwhelm our opponents in a matter of seconds."
-SMALL_NHSC_CANNON_PSI_3: "Small $NHSC_CANNON_PSI_3$"
+NHSC_CANNON_PSI_3: "Psionische Strahlenkanone"
+NHSC_CANNON_PSI_3_DESC: "Ein schmaler Strahl psionischer Energie, der unsere Gegner in Sekundenschnelle überwältigen kann."
+SMALL_NHSC_CANNON_PSI_3: "Kleine $NHSC_CANNON_PSI_3$"
 SMALL_NHSC_CANNON_PSI_3_DESC: "$NHSC_CANNON_PSI_3_DESC$"
-MEDIUM_NHSC_CANNON_PSI_3: "Medium $NHSC_CANNON_PSI_3$"
+MEDIUM_NHSC_CANNON_PSI_3: "Mittlere $NHSC_CANNON_PSI_3$"
 MEDIUM_NHSC_CANNON_PSI_3_DESC: "$NHSC_CANNON_PSI_3_DESC$"
-LARGE_NHSC_CANNON_PSI_3: "Large $NHSC_CANNON_PSI_3$"
+LARGE_NHSC_CANNON_PSI_3: "Große $NHSC_CANNON_PSI_3$"
 LARGE_NHSC_CANNON_PSI_3_DESC: "$NHSC_CANNON_PSI_3_DESC$"
 
 ########################################
 ###           Psionic Lance          ###
 ########################################
 
-NHSC_PSI_LANCE_1: "Psionic Lance"
-NHSC_PSI_LANCE_1_DESC: "An energy lance made from focused and refined psionic energy."
+NHSC_PSI_LANCE_1: "Psionische Lanze"
+NHSC_PSI_LANCE_1_DESC: "Eine Energielanze, hergestellt aus fokussierter und verfeinerter psionischer Energie."
 
 ########################################
 ###           Shroud Piercer         ###
 ########################################
 
-NHSC_PSI_LANCE_2: "Shroud Piercer"
-NHSC_PSI_LANCE_2_DESC: "An improved and more powerful version of the Psionic Lance."
+NHSC_PSI_LANCE_2: "Schleierteiler"
+NHSC_PSI_LANCE_2_DESC: "Eine verbesserte und stärkere Version der psionischen Lanze."
 
 ########################################
 ###              Void Ray            ###
 ########################################
 
-NHSC_PSI_LANCE_TITANIC: "Void Ray"
-NHSC_PSI_LANCE_TITANIC_DESC: "A psionic lance of unimaginable power, fueled by the hungry void of the Shroud."
+NHSC_PSI_LANCE_TITANIC: "Leerenstrahl"
+NHSC_PSI_LANCE_TITANIC_DESC: "Eine psionische Lanze von unvorstellbarer Macht, angetrieben von der hungrigen Leere des Schleiers."
 NHSC_PSI_LANCE_JUGGERNAUT: "$NHSC_PSI_LANCE_TITANIC$ ($juggernaut$)"
 NHSC_PSI_LANCE_JUGGERNAUT_DESC: "$NHSC_PSI_LANCE_TITANIC_DESC$"
 
-NHSC_PSIONIC_BLAST: "Psionic Blast Wave"
-NHSC_PSIONIC_BLAST_DESC: "A shockwave of pure psionic energy that is capable of obliterating nearly anything."
+NHSC_PSIONIC_BLAST: "Psionische Explosionswelle"
+NHSC_PSIONIC_BLAST_DESC: "Eine Schockwelle aus reiner psionischer Energie, die in der Lage ist, fast alles zu vernichten."
 
 ########################################
 ###       Psionic Interceptors       ###
 ########################################
 
-NHSC_PSI_CRAFTS: "Psionic Interceptors"
-NHSC_PSI_CRAFTS_DESC: "Strikecraft armed with psionic weapons."
+NHSC_PSI_CRAFTS: "Psionische Abfangjäger"
+NHSC_PSI_CRAFTS_DESC: "Mit psionischen Waffen bewaffnetes Kampfflugzeug."

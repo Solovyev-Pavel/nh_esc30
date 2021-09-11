@@ -1,13 +1,13 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###   Improved Zero Point Reactor    ###
 ########################################
 
-NHSC_ADV_REACTOR_1: "Improved Zero Point Reactor"
-NHSC_ADV_REACTOR_1_DESC: "Minituarization allows us to make these new zero point reactors more efficient than their predecessors."
+NHSC_ADV_REACTOR_1: "Verbesserter Nullpunktreaktor"
+NHSC_ADV_REACTOR_1_DESC: "Die Minituarisierung ermöglicht es uns, diese neuen Nullpunktreaktoren effizienter zu machen als ihre Vorgänger."
 CORVETTE_NHSC_ADV_REACTOR_1: "$NHSC_ADV_REACTOR_1$"
 CORVETTE_NHSC_ADV_REACTOR_1_DESC: "$NHSC_ADV_REACTOR_1_DESC$"
 DESTROYER_NHSC_ADV_REACTOR_1: "$NHSC_ADV_REACTOR_1$"
@@ -59,8 +59,8 @@ SCX_DREADNOUGHT_NHSC_ADV_REACTOR_1_DESC: "$NHSC_ADV_REACTOR_1_DESC$"
 ###        Singularity Reactor       ###
 ########################################
 
-NHSC_ADV_REACTOR_2: "Singularity Reactor"
-NHSC_ADV_REACTOR_2_DESC: "The next generation of zero point reactors that produces more energy than anything that came before them."
+NHSC_ADV_REACTOR_2: "Singularitätsreaktor"
+NHSC_ADV_REACTOR_2_DESC: "Die nächste Generation von Nullpunktreaktoren, die mehr Energie produziert als alles, was vor ihnen da war."
 CORVETTE_NHSC_ADV_REACTOR_2: "$NHSC_ADV_REACTOR_2$"
 CORVETTE_NHSC_ADV_REACTOR_2_DESC: "$NHSC_ADV_REACTOR_2_DESC$"
 DESTROYER_NHSC_ADV_REACTOR_2: "$NHSC_ADV_REACTOR_2$"
@@ -112,8 +112,8 @@ SCX_DREADNOUGHT_NHSC_ADV_REACTOR_2_DESC: "$NHSC_ADV_REACTOR_2_DESC$"
 ###   Improved Singularity Reactor   ###
 ########################################
 
-NHSC_ADV_REACTOR_3: "Improved Singularity Reactor"
-NHSC_ADV_REACTOR_3_DESC: "The most efficient ship-mounted reactor to date."
+NHSC_ADV_REACTOR_3: "Verbesserter Singularitätsreaktor"
+NHSC_ADV_REACTOR_3_DESC: "Der bisher effizienteste schiffsmontierte Reaktor."
 CORVETTE_NHSC_ADV_REACTOR_3: "$NHSC_ADV_REACTOR_3$"
 CORVETTE_NHSC_ADV_REACTOR_3_DESC: "$NHSC_ADV_REACTOR_3_DESC$"
 DESTROYER_NHSC_ADV_REACTOR_3: "$NHSC_ADV_REACTOR_3$"
@@ -165,8 +165,8 @@ SCX_DREADNOUGHT_NHSC_ADV_REACTOR_3_DESC: "$NHSC_ADV_REACTOR_3_DESC$"
 ###   Improved Dark Matter Reactor   ###
 ########################################
 
-NHSC_DARK_MATTER_CORE_2: "Improved Dark Matter Reactor"
-NHSC_DARK_MATTER_CORE_2_DESC: "An updated, more efficient, design for the Dark Matter reactor."
+NHSC_DARK_MATTER_CORE_2: "Verbesserter Dunkelmaterie-Reaktor"
+NHSC_DARK_MATTER_CORE_2_DESC: "Ein aktualisiertes, effizienteres Design für den Dunkelmaterie-Reaktor."
 CORVETTE_NHSC_DARK_MATTER_CORE_2: "$NHSC_DARK_MATTER_CORE_2$"
 CORVETTE_NHSC_DARK_MATTER_CORE_2_DESC: "$NHSC_DARK_MATTER_CORE_2_DESC$"
 DESTROYER_NHSC_DARK_MATTER_CORE_2: "$NHSC_DARK_MATTER_CORE_2$"
@@ -218,8 +218,8 @@ SCX_DREADNOUGHT_NHSC_DARK_MATTER_CORE_2_DESC: "$NHSC_DARK_MATTER_CORE_2_DESC$"
 ###   Perfected Dark Matter Reactor  ###
 ########################################
 
-NHSC_DARK_MATTER_CORE_3: "Perfected Dark Matter Reactor"
-NHSC_DARK_MATTER_CORE_3_DESC: "An ultimate reactor utilizing Dark Matter."
+NHSC_DARK_MATTER_CORE_3: "Perfektionierter Dunkelmaterie-Reaktor"
+NHSC_DARK_MATTER_CORE_3_DESC: "Ein ultimativer Reaktor, der Dunkle Materie nutzt."
 CORVETTE_NHSC_DARK_MATTER_CORE_3: "$NHSC_DARK_MATTER_CORE_3$"
 CORVETTE_NHSC_DARK_MATTER_CORE_3_DESC: "$NHSC_DARK_MATTER_CORE_3_DESC$"
 DESTROYER_NHSC_DARK_MATTER_CORE_3: "$NHSC_DARK_MATTER_CORE_3$"

@@ -1,32 +1,32 @@
 ﻿l_german:
 
-### GERMAN (ACTUALLY ENGLISH) LOCALIZATION
+### GERMAN LOCALIZATION
 
 ########################################
 ###            Titan Auras           ###
 ########################################
 
 NHSC_TITAN_AURA_VANILLA_MIRAGE: "Mirage System"
-NHSC_TITAN_AURA_VANILLA_MIRAGE_DESC: "A set of projectors and cloaking devices that alter fleets' apparent position, making it much harder for enemies to hit."
+NHSC_TITAN_AURA_VANILLA_MIRAGE_DESC: "Eine Reihe von Projektoren und Tarnvorrichtungen, die die scheinbare Position von Flotten verändern und es für Feinde viel schwieriger machen, sie zu treffen."
 NHSC_TITAN_AURA_NSC_MIRAGE: "$NHSC_TITAN_AURA_VANILLA_MIRAGE$"
 NHSC_TITAN_AURA_NSC_MIRAGE_DESC: "$NHSC_TITAN_AURA_VANILLA_MIRAGE_DESC$"
 nhsc_aura_mirage_system: "$NHSC_TITAN_AURA_VANILLA_MIRAGE$"
 nhsc_aura_miage_system_desc: "$NHSC_TITAN_AURA_VANILLA_MIRAGE_DESC$"
 
-NHSC_TITAN_AURA_NSC_SHIELD_DESTABILIZER: "Shield Destabilizer"
-NHSC_TITAN_AURA_NSC_SHIELD_DESTABILIZER_DESC: "A dark energy emitter that weakens enemies' shields, sometimes even causing them to lose power all on their own."
+NHSC_TITAN_AURA_NSC_SHIELD_DESTABILIZER: "Schilddestabilisator"
+NHSC_TITAN_AURA_NSC_SHIELD_DESTABILIZER_DESC: "Ein dunkler Energiestrahler, der die Schilde von Gegnern schwächt und manchmal sogar dazu führt, dass sie ganz von alleine ihre Kraft verlieren."
 nhsc_aura_shield_destabilizer: "$NHSC_TITAN_AURA_NSC_SHIELD_DESTABILIZER$"
 nhsc_aura_shield_destabilizer_desc: "$NHSC_TITAN_AURA_NSC_SHIELD_DESTABILIZER_DESC$"
 
-NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES: "Nanite Infiltration Swarm"
-NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES_DESC: "Specialized nanites that will attack enemy ships, weaking their armor and reducing hull integrity."
+NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES: "Naniten-Infiltrationsschwarm"
+NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES_DESC: "Spezialisierte Naniten, die feindliche Schiffe angreifen, ihre Panzerung schwächen und die Hüllenintegrität verringern."
 NHSC_TITAN_AURA_NSC_OFFENSIVE_NANITES: "$NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES$"
 NHSC_TITAN_AURA_NSC_OFFENSIVE_NANITES_DESC: "$NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES_DESC$"
 nhsc_aura_nanite_offensive: "$NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES$"
 nhsc_aura_nanite_offensive_desc: "$NHSC_TITAN_AURA_VANILLA_OFFENSIVE_NANITES_DESC$"
 
-NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION: "Space Distortion Module"
-NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION_DESC: "Powerful gravitic projectors that ripple the fabric of space-time around enemy ships, making it harder for them to move or evade our attacks."
+NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION: "Weltraum-Verzerrungsmodul"
+NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION_DESC: "Mächtige Gravitationsprojektoren, die das Raum-Zeit-Gefüge um feindliche Schiffe herum verzerren und es ihnen so erschweren, sich zu bewegen oder unseren Angriffen auszuweichen."
 NHSC_TITAN_AURA_NSC_SPACE_DISTORTION: "$NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION$"
 NHSC_TITAN_AURA_NSC_SPACE_DISTORTION_DESC: "$NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION_DESC$"
 nhsc_aura_space_distortion: "$NHSC_TITAN_AURA_VANILLA_SPACE_DISTORTION$"
