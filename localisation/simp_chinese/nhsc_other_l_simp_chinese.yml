@@ -39,7 +39,7 @@
  NHSC_RAVAGING_SWARMERS_DESC: "这些虫群受到训练和药物投放，成为了星海中迄今为止最可怕的有机攻击机。"
  NHSC_MERCENRY_HANGAR_1: "佣兵中队"
  NHSC_MERCENRY_HANGAR_1_DESC: "自私自利的受雇太空浪人，为了一点小钱就愿意为我们效力。尽管缺乏属于真正士兵的纪律或是荣誉，但是胜在便宜和高效。"
- NHSC_MERCENRY_HANGAR_2: "经营佣兵中队"
+ NHSC_MERCENRY_HANGAR_2: "精英佣兵中队"
  NHSC_MERCENRY_HANGAR_2_DESC: "比起普通的太空浪人，这些娴熟的飞行员要更加昂贵，他们既有经验又有技术，可以和传统的舰载机联队一决高下。"
  NHSC_SWARM_STRIKE_CRAFT_1: "虫群舰载机"
  NHSC_SWARM_STRIKE_CRAFT_1_DESC: "这些微缩版的索林原虫克隆体可以受舰队通信系统控制，成为我们高效的舰载机。"
@@ -371,12 +371,7 @@
  sm_nhsc_starbase_vortex_laboratory: "跨维度涡旋实验室"
  sm_nhsc_starbase_vortex_laboratory_desc: "太空港内部的巨大实验室，致力于跨维度涡旋的合成。在现实扭曲物体——例如类星体或是（假想性的）白洞——附近，其效率会获得大幅提升。"
  mod_megastructures_cost_mult: "巨构花费"
- mod_country_base_nanites_produces_add: "好肥的纳米机械"
+ mod_country_base_nanites_produces_add: "产出的纳米机械"
  mod_planet_telepaths_esc_psionic_charge_produces_add: "来自$job_telepath_plural$的£esc_psionic_charge£ §Y$esc_psionic_charge_plural$§!"
  mod_planet_synapse_drones_esc_psionic_charge_produces_add: "来自$job_synapse_drone_plural$的£esc_psionic_charge£ §Y$esc_psionic_charge_plural$§!"
-
-########################################
-###         Dynamic Mod Menu         ###
-########################################
-
-nhsc_name_id: "Extra Ship Components 3.0"
+ nhsc_name_id: "附加舰船部件·3.0"
