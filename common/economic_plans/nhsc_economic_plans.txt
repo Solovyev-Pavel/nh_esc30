@@ -99,10 +99,28 @@ basic_economy_plan = {
 		pops = 9000
 	}
 
-	# strategic resources : zro
+	# strategic resources : zro : CG usage
 	subplan = {
 		potential = {
+			country_uses_consumer_goods = yes
 			has_technology = tech_mine_zro
+			has_monthly_income = { resource = energy value > 30 }
+			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = consumer_goods value > 20 }
+			has_monthly_income = { resource = exotic_gases value > 4 }
+			has_monthly_income = { resource = rare_crystals value > 4 }
+			has_monthly_income = { resource = volatile_motes value > 4 }
+		}
+
+		income = { sr_zro = 4 }
+	}
+	# strategic resources : zro : no GS usage
+	subplan = {
+		potential = {
+			country_uses_consumer_goods = no
+			has_technology = tech_mine_zro
+			has_monthly_income = { resource = energy value > 30 }
+			has_monthly_income = { resource = minerals value > 30 }
 			has_monthly_income = { resource = exotic_gases value > 4 }
 			has_monthly_income = { resource = rare_crystals value > 4 }
 			has_monthly_income = { resource = volatile_motes value > 4 }
@@ -118,30 +136,44 @@ basic_economy_plan = {
 			has_technology = tech_mine_dark_matter
 			has_monthly_income = { resource = consumer_goods value > 20 }
 			has_monthly_income = { resource = food value > 20 }
+			has_monthly_income = { resource = volatile_motes value > 4 }
 		}
 
 		income = { sr_dark_matter = 4 }
 	}
-	# strategic resources : dark matter : food usage gestals
+	# strategic resources : dark matter : food usage hvies
 	subplan = {
 		potential = {
 			country_uses_food = yes
-			is_gestalt = yes
+			is_hive_empire = yes
 			has_technology = tech_mine_dark_matter
 			has_monthly_income = { resource = energy value > 20 }
 			has_monthly_income = { resource = food value > 20 }
+			has_monthly_income = { resource = volatile_motes value > 4 }
 		}
 
 		income = { sr_dark_matter = 4 }
 	}
-	# strategic resources : dark matter : mineral usage getalts
+	# strategic resources : dark matter : mineral usage hives
 	subplan = {
 		potential = {
 			country_uses_food = no
-			is_gestalt = yes
+			is_hive_empire = yes
 			has_technology = tech_mine_dark_matter
 			has_monthly_income = { resource = energy value > 20 }
 			has_monthly_income = { resource = minerals value > 20 }
+			has_monthly_income = { resource = volatile_motes value > 4 }
+		}
+
+		income = { sr_dark_matter = 4 }
+	}
+	# strategic resources : dark matter : machives
+	subplan = {
+		potential = {
+			is_machine_empire = yes
+			has_technology = tech_mine_dark_matter
+			has_monthly_income = { resource = energy value > 30 }
+			has_monthly_income = { resource = volatile_motes value > 4 }
 		}
 
 		income = { sr_dark_matter = 4 }
@@ -158,31 +190,31 @@ basic_economy_plan = {
 
 		income = { nanites = 4 }
 	}
-	# ESC special resources : nanites : normal empires
+	# ESC special resources : nanites : food usage hives
 	subplan = {
 		potential = {
 			has_technology = nhsc_tech_synthetic_lifeform_studies
 			country_uses_food = yes
-			is_gestalt = yes
+			is_hive_empire = yes
 			has_monthly_income = { resource = food value > 20 }
 			has_monthly_income = { resource = alloys value > 20 }
 		}
 
 		income = { nanites = 4 }
 	}
-	# ESC special resources : nanites : food usage gestalts
+	# ESC special resources : nanites : mineral usage hives
 	subplan = {
 		potential = {
 			has_technology = nhsc_tech_synthetic_lifeform_studies
 			country_uses_food = no
-			is_gestalt = yes
+			is_hive_empire = yes
 			has_monthly_income = { resource = minerals value > 20 }
 			has_monthly_income = { resource = alloys value > 20 }
 		}
 
 		income = { nanites = 4 }
 	}
-	# ESC special resources : nanites : robots
+	# ESC special resources : nanites : machines
 	subplan = {
 		potential = {
 			has_technology = nhsc_tech_synthetic_lifeform_studies
@@ -205,7 +237,7 @@ basic_economy_plan = {
 
 		income = { esc_living_crystal = 30 }
 	}
-	# ESC special resources : living crystals : food usage gestalts
+	# ESC special resources : living crystals : food usage hives
 	subplan = {
 		potential = {
 			is_hive_empire = yes
@@ -217,7 +249,7 @@ basic_economy_plan = {
 
 		income = { esc_living_crystal = 30 }
 	}
-	# ESC special resources : living crystals : mineral usage gestalts
+	# ESC special resources : living crystals : mineral usage hives
 	subplan = {
 		potential = {
 			is_hive_empire = yes
@@ -228,7 +260,7 @@ basic_economy_plan = {
 
 		income = { esc_living_crystal = 30 }
 	}
-	# ESC special resources : living crystals : robots
+	# ESC special resources : living crystals : machines
 	subplan = {
 		potential = {
 			is_machine_empire = yes
@@ -277,10 +309,10 @@ basic_economy_plan = {
 
 		income = { esc_gravitic_anomaly = 4 }
 	}
-	# ESC special resources : gravitic anomaly : food usage gestalts
+	# ESC special resources : gravitic anomaly : food usage hives
 	subplan = {
 		potential = {
-			is_gestalt = yes
+			is_hive_empire = yes
 			country_uses_food = yes
 			has_technology = nhsc_tech_gravity_weapons
 			has_monthly_income = { resource = energy value > 30 }
@@ -290,14 +322,26 @@ basic_economy_plan = {
 
 		income = { esc_gravitic_anomaly = 4 }
 	}
-	# ESC special resources : gravitic anomaly : mineral usage gestalts
+	# ESC special resources : gravitic anomaly : mineral usage hives
 	subplan = {
 		potential = {
-			is_gestalt = yes
+			is_hive_empire = yes
 			country_uses_food = no
 			has_technology = nhsc_tech_gravity_weapons
 			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = sr_dark_matter value > 3 }
+		}
+
+		income = { esc_gravitic_anomaly = 4 }
+	}
+	# ESC special resources : gravitic anomaly : machines
+	subplan = {
+		potential = {
+			is_machine_empire = yes
+			country_uses_food = no
+			has_technology = nhsc_tech_gravity_weapons
+			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = sr_dark_matter value > 3 }
 		}
 
@@ -316,10 +360,10 @@ basic_economy_plan = {
 
 		income = { esc_transdimensional_vortex = 4 }
 	}
-	# ESC special resources : transdimensional vortex : food usage gestalts
+	# ESC special resources : transdimensional vortex : food usage hives
 	subplan = {
 		potential = {
-			is_gestalt = yes
+			is_hive_empire = yes
 			country_uses_food = yes
 			has_technology = nhsc_tech_chrono_spatial_weapons
 			has_monthly_income = { resource = energy value > 30 }
@@ -329,14 +373,25 @@ basic_economy_plan = {
 
 		income = { esc_transdimensional_vortex = 4 }
 	}
-	# ESC special resources : transdimensional vortex : mineral usage gestalts
+	# ESC special resources : transdimensional vortex : mineral usage hives
 	subplan = {
 		potential = {
-			is_gestalt = yes
+			is_hive_empire = yes
 			country_uses_food = no
 			has_technology = nhsc_tech_chrono_spatial_weapons
 			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = sr_dark_matter value > 3 }
+		}
+
+		income = { esc_transdimensional_vortex = 4 }
+	}
+	# ESC special resources : transdimensional vortex : machines
+	subplan = {
+		potential = {
+			is_machine_empire = yes
+			has_technology = nhsc_tech_chrono_spatial_weapons
+			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = sr_dark_matter value > 3 }
 		}
 
@@ -355,11 +410,10 @@ basic_economy_plan = {
 
 		income = { esc_enigmatic_energy = 4 }
 	}
-	# ESC special resources : enigmatic energy : food usage gestalts
+	# ESC special resources : enigmatic energy : food usage hives
 	subplan = {
 		potential = {
-			is_gestalt = yes
-			country_uses_food = yes
+			is_hive_empire = yes
 			has_technology = nhsc_tech_enigmatic_energy_harvesting
 			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = food value > 30 }
@@ -368,14 +422,25 @@ basic_economy_plan = {
 
 		income = { esc_enigmatic_energy = 4 }
 	}
-	# ESC special resources : enigmatic energy : mineral usage gestalts
+	# ESC special resources : enigmatic energy : mineral usage hives
 	subplan = {
 		potential = {
-			is_gestalt = yes
+			is_hive_empire = yes
 			country_uses_food = no
 			has_technology = nhsc_tech_enigmatic_energy_harvesting
 			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = sr_dark_matter value > 3 }
+		}
+
+		income = { esc_enigmatic_energy = 4 }
+	}
+	# ESC special resources : enigmatic energy : machines
+	subplan = {
+		potential = {
+			is_machine_empire = yes
+			has_technology = nhsc_tech_enigmatic_energy_harvesting
+			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = sr_dark_matter value > 3 }
 		}
 
