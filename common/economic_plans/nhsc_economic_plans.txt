@@ -147,21 +147,94 @@ basic_economy_plan = {
 		income = { sr_dark_matter = 4 }
 	}
 
-	# ESC special resources : nanites
+	# ESC special resources : nanites : normal empires
+	subplan = {
+		potential = {
+			is_gestalt = no
+			has_technology = nhsc_tech_synthetic_lifeform_studies
+			has_monthly_income = { resource = alloys value > 30 }
+			has_monthly_income = { resource = consumer_goods value > 30 }
+		}
+
+		income = { nanites = 4 }
+	}
+	# ESC special resources : nanites : normal empires
 	subplan = {
 		potential = {
 			has_technology = nhsc_tech_synthetic_lifeform_studies
+			country_uses_food = yes
+			is_gestalt = yes
+			has_monthly_income = { resource = food value > 20 }
+			has_monthly_income = { resource = alloys value > 20 }
+		}
+
+		income = { nanites = 4 }
+	}
+	# ESC special resources : nanites : food usage gestalts
+	subplan = {
+		potential = {
+			has_technology = nhsc_tech_synthetic_lifeform_studies
+			country_uses_food = no
+			is_gestalt = yes
+			has_monthly_income = { resource = minerals value > 20 }
+			has_monthly_income = { resource = alloys value > 20 }
+		}
+
+		income = { nanites = 4 }
+	}
+	# ESC special resources : nanites : robots
+	subplan = {
+		potential = {
+			has_technology = nhsc_tech_synthetic_lifeform_studies
+			is_machine_empire = yes
+			has_monthly_income = { resource = energy value > 30 }
 			has_monthly_income = { resource = alloys value > 30 }
 		}
 
-		income = { nanites = 5 }
+		income = { nanites = 4 }
 	}
 
-	# ESC special resources : living crystals
+	# ESC special resources : living crystals : normal empires
 	subplan = {
 		potential = {
+			is_gestalt = no
 			has_technology = nhsc_tech_crystal_cannon_1
 			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = consumer_goods value > 20 }
+		}
+
+		income = { esc_living_crystal = 30 }
+	}
+	# ESC special resources : living crystals : food usage gestalts
+	subplan = {
+		potential = {
+			is_hive_empire = yes
+			country_uses_food = yes
+			has_technology = nhsc_tech_crystal_cannon_1
+			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = food value > 30 }
+		}
+
+		income = { esc_living_crystal = 30 }
+	}
+	# ESC special resources : living crystals : mineral usage gestalts
+	subplan = {
+		potential = {
+			is_hive_empire = yes
+			country_uses_food = no
+			has_technology = nhsc_tech_crystal_cannon_1
+			has_monthly_income = { resource = minerals value > 30 }
+		}
+
+		income = { esc_living_crystal = 30 }
+	}
+	# ESC special resources : living crystals : robots
+	subplan = {
+		potential = {
+			is_machine_empire = yes
+			has_technology = nhsc_tech_crystal_cannon_1
+			has_monthly_income = { resource = minerals value > 30 }
+			has_monthly_income = { resource = energy value > 30 }
 		}
 
 		income = { esc_living_crystal = 30 }
