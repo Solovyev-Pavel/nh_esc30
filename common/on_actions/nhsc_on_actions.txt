@@ -24,7 +24,6 @@ on_monthly_pulse = {
 
 on_monthly_pulse_country = {
 	events = {
-		nhsc_buildings.1 # remove empire-unique building queued flags if said building isn't being constructed
 		nhsc.7 # AI research speed boost
 		nhsc.9 # AI special resources boost
 		nhsc.20 # checking whether conditions for dreadnought computer access are fulfilled
