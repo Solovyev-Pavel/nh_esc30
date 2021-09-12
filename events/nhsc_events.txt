@@ -648,7 +648,7 @@ planet_event = {
 	}
 
 	immediate = {
-		add_research_option = nhsc_tech_dragon_hatchery
+		owner = { add_research_option = nhsc_tech_dragon_hatchery }
 	}
 }
 
