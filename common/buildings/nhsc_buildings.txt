@@ -628,9 +628,10 @@ nhsc_building_network_regulator = {
 
 nhsc_building_materials_laboratory = {
 	base_buildtime = 360
-	base_cap_amount = 1
 	icon = nhsc_building_materials_laboratory
 	category = research
+
+	empire_limit = { base = 1 }
 
 	potential = {
 		NOT = { has_modifier = slave_colony }
@@ -639,11 +640,6 @@ nhsc_building_materials_laboratory = {
 
 	allow = {
 		has_major_upgraded_capital = yes
-		exists = owner
-		owner = {
-			NOT = { any_owned_planet = { has_building = nhsc_building_materials_laboratory } }
-			NOT = { has_country_flag = nhsc_advanced_materals_laboratory_queued }
-		}
 	}
 
 	resources = {
@@ -744,11 +740,6 @@ nhsc_building_materials_laboratory = {
 	}
 
 	show_tech_unlock_if = { NOT = { has_global_flag = ESC_mat_laboratory_forbidden } }
-
-	on_queued = { owner = { set_country_flag = nhsc_advanced_materals_laboratory_queued } }
-	on_unqueued = { owner = { remove_country_flag = nhsc_advanced_materals_laboratory_queued } }
-	on_built = { owner = { remove_country_flag = nhsc_advanced_materals_laboratory_queued } }
-
 	prerequisites = { "nhsc_tech_advanced_materials_lab" }
 
 	ai_weight = {
