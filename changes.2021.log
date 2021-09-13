@@ -130,3 +130,10 @@
 
 >>> 12.08.2021
 - Add support for Dynamic Mod Menu.
+
+>>> 14.08.2021
+- Update for Stellaris version 3.1
+- Fix a scoping error that prevented an empire getting access to drake-cloning tech via capturing a planet with the Hatchery.
+- Switched to using vanilla version or empire limit enforcement for buildings.
+- Central Research Bureau now requires major capital (25+ pops).
+- Add custom army icons.
