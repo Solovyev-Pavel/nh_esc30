@@ -210,6 +210,10 @@ country_event = {
 	desc = "nhsc.22.desc"
 	picture = GFX_evt_automated_dreadnought
 
+	trigger = {
+		has_country_flag = will_get_dreadnough_computer
+	}
+
 	option = {
 		name = "nhsc.22.a"
 		capital_scope = {
@@ -238,6 +242,31 @@ country_event = {
 
 	option = {
 		name = "EXCELLENT"
+		add_research_option = nhsc_tech_dreadnought_computer
+	}
+}
+
+# give dreadnought computer tech option on killing the dreadnought
+country_event = {
+	id = nhsc.24
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		FROMFROMFROM = { is_ship_size = npc_warship_01 }
+		nhsc_is_playable_empire = yes
+		NOR = {
+			has_technology = nhsc_tech_dreadnought_computer
+			has_tech_option = nhsc_tech_dreadnought_computer
+		}
+	}
+
+	immediate = {
+		set_country_flag = will_get_dreadnough_computer
+		if = {
+			limit = { has_special_project = NHSC_DREADNOUGHT_OBSERVATION }
+			abort_special_project = { type = NHSC_DREADNOUGHT_OBSERVATION }
+		}
 		add_research_option = nhsc_tech_dreadnought_computer
 	}
 }
