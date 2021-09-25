@@ -65,3 +65,4 @@
 @MISC_Ultrajuggernaut	= "ultrajuggernaut"					# Ultra-juggernaut
 @MISC_Battlefortress	= "starbase_battlefortress"			# Battlefortress
 @MISC_Bastion			= "starbase_bastion"				# Bastion
+@MISC_WarJuggernaut		= "juggernaut_nosh"					# War juggernaut
