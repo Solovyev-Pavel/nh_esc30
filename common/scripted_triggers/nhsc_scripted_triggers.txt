@@ -18,6 +18,9 @@
 @PD_FortCityHive        = "pc_biofort"
 @PD_FortCityMachine     = "pc_machine_fort"
 @PD_FortCityRelic       = "pc_milarc_relic"
+@PD_Crucible            = "pc_crucible"
+@PD_CrucibleShroud      = "pc_shroud_crucible"
+@PD_CrucibleClean       = "pc_clean_crucible"
 ### mod planet classes : molten habitats
 @PD_MoltenHabitat       = "pc_pd_molten_hab"
 @AM_MoltenHabitable     = "pc_molten_habitable"
@@ -63,6 +66,9 @@ is_naked_mantle_planet_nhsc = {
     OR = {
         is_planet_class = @AM_MoltenHabitable # Alphamod Molten Habitable
         is_planet_class = @PD_MoltenHabitat # Planet Diversity molten habitat
+        is_planet_class = @PD_Crucible # Planet Diversity crucible world
+        is_planet_class = @PD_CrucibleShroud # Planet Diversity crucible world
+        is_planet_class = @PD_CrucibleClean # Planet Diversity crucible world
         has_modifier = @RSNF_VolcanicWorld # New Frontiers volcanic tomb world
         has_modifier = @RSNF_LavaWorld # New Frontiers planet
         has_modifier = @RSNF_InfernalWorld # New Frontiers hollow world subclass
