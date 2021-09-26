@@ -907,7 +907,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# vanilla starbases
 		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
@@ -934,7 +933,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_starbase
@@ -970,7 +968,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_1" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_juggernaut
@@ -1665,7 +1662,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# vanilla starbases
 		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
@@ -1692,7 +1688,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_starbase
@@ -1728,7 +1723,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_2" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_juggernaut
@@ -2404,7 +2398,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# vanilla starbases
 		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
@@ -2430,7 +2423,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_starbase
@@ -2465,7 +2457,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_advanced_reactor_3" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_juggernaut
@@ -3280,7 +3271,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# vanilla starbases
 		starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel juggernaut
@@ -3311,7 +3301,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_starbase
@@ -3348,7 +3337,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_2" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_juggernaut
@@ -4150,7 +4138,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# vanilla starbases
 		starbase_outpost starbase_starport starbase_starhold starbase_starfortress  starbase_citadel juggernaut
@@ -4180,7 +4167,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_starbase
@@ -4216,7 +4202,6 @@ utility_component_template = {
 	}
 
 	prerequisites = { "nhsc_tech_dark_matter_power_core_3" }
-	class_restriction = { shipclass_starbase }
 	size_restriction = {
 		# dummy ship class to sidestep 'bugs' with size_restriction
 		esc_dummy_juggernaut
