@@ -142,3 +142,7 @@
 - Allow construction of Mantle Mining Facility on Planetary Diversity's Crucible world.
 - Killing Automated Dreadnought will now instantly give tech option for Dreadnought Computers. If there is an ongoing project for Dreadnought observation, it will be aborted.
 - Add support for War Juggernaut.
+
+>>> 28.10.2021
+- Fix type in Gravitational Anomaly Projector tech name.
+- Fix pop weights towards Crystal Farming jobs.
