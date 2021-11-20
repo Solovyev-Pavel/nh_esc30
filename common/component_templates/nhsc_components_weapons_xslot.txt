@@ -786,10 +786,7 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 
 	valid_for_country = {
-		modifier = {
-			factor = 0 # only normal empires should use this component
-			is_fallen_empire = yes
-		}
+		is_fallen_empire = no
 	}
 
 	ai_weight = {
@@ -850,10 +847,7 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 
 	valid_for_country = {
-		modifier = {
-			factor = 0 # only normal empires should use this component
-			is_fallen_empire = yes
-		}
+		is_fallen_empire = no
 	}
 
 	ai_weight = {
@@ -911,10 +905,7 @@ weapon_component_template = {
 	ai_tags = { weapon_role_artillery weapon_role_anti_armor }
 
 	valid_for_country = {
-		modifier = {
-			factor = 0 # only normal empires should use this component
-			is_fallen_empire = yes
-		}
+		is_fallen_empire = no
 	}
 
 	ai_weight = {

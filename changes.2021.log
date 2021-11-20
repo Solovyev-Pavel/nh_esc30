@@ -146,3 +146,8 @@
 >>> 28.10.2021
 - Fix type in Gravitational Anomaly Projector tech name.
 - Fix pop weights towards Crystal Farming jobs.
+
+>>> 22.11.2021
+- Update for Stellaris version 3.2
+- Cleaned up some event triggering.
+    - WARNING: This might cause slightly-different behavior of the mod, such as delayed feature activation, in multiplayer games if it is added after the game start.
