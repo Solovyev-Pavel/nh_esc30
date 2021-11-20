@@ -5,6 +5,13 @@ on_game_start = {
 	}
 }
 
+on_single_player_save_game_load  = {
+	events = {
+		nhsc.1 # set mod-is-in-use flag
+		nhsc_dmm_integration.1 # register in dynamic mod menu
+	}
+}
+
 on_tech_increased = {
 	events = {
 		nhsc.40 # check prerequisites for nanite thought matrix
@@ -16,9 +23,10 @@ on_tech_increased = {
 
 on_monthly_pulse = {
 	events = {
+		nhsc.1 # set mod-is-in-use flag
+		nhsc_dmm_integration.1 # register in dynamic mod menu
 		nhsc_crisis.1 # checking for crisis conditions
 		nhsc_market.1 # add living crystals to the market
-		nhsc_dmm_integration.1 # register in dynamic mod menu
 	}
 }
 
